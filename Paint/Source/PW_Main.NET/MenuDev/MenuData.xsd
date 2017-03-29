@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<xs:schema id="Root" targetNamespace="http://tempuri.org/MenuData.xsd" xmlns:mstns="http://tempuri.org/MenuData.xsd" xmlns="http://tempuri.org/MenuData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="Root" msdata:IsDataSet="true" msdata:EnforceConstraints="False">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="MainMenuData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Columns" type="xs:string" minOccurs="0" />
+              <xs:element name="ButtonHeight" type="xs:string" minOccurs="0" />
+              <xs:element name="ButtonWidth" type="xs:string" minOccurs="0" />
+              <xs:element name="MinWidth" type="xs:string" minOccurs="0" />
+              <xs:element name="TopMargin" type="xs:string" minOccurs="0" />
+              <xs:element name="BottomMargin" type="xs:string" minOccurs="0" />
+              <xs:element name="SideMargin" type="xs:string" minOccurs="0" />
+              <xs:element name="HorizontalSpacing" type="xs:string" minOccurs="0" />
+              <xs:element name="VerticalSpacing" type="xs:string" minOccurs="0" />
+              <xs:element name="TitleTag" type="xs:string" minOccurs="0" />
+              <xs:element name="CaptionTag" type="xs:string" minOccurs="0" />
+              <xs:element name="CancelCaptionTag" type="xs:string" minOccurs="0" />
+              <xs:element name="CancelToolTipTag" type="xs:string" minOccurs="0" />
+              <xs:element name="MainScreenID" type="xs:string" minOccurs="0" />
+              <xs:element name="SubMenuData" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CaptionTag" type="xs:string" minOccurs="0" />
+                    <xs:element name="DescriptionTag" type="xs:string" minOccurs="0" />
+                    <xs:element name="ToolTipTag" type="xs:string" minOccurs="0" />
+                    <xs:element name="Icon" type="xs:string" minOccurs="0" />
+                    <xs:element name="Action" type="xs:string" minOccurs="0" />
+                    <xs:element name="SubScreenID" type="xs:string" minOccurs="0" />
+                    <xs:element name="LaunchFile" type="xs:string" minOccurs="0" />
+                    <xs:element name="UseFRWM" type="xs:string" minOccurs="0" />
+                    <xs:element name="LaunchFlags" type="xs:string" minOccurs="0" />
+                    <xs:element name="WindowTitle" type="xs:string" minOccurs="0" />
+                    <xs:element name="CommandLine" type="xs:string" minOccurs="0" />
+                    <xs:element name="nOptionSpecific" type="xs:string" minOccurs="0" />
+                    <xs:element name="nPrivilegeID" type="xs:string" minOccurs="0" />
+                    <xs:element name="Name" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

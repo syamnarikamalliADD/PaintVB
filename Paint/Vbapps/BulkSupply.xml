@@ -1,0 +1,1656 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BulkSupply
+</name>
+</assembly>
+<members>
+<member name="P:BulkSupply.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:BulkSupply.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.cs24HRS">
+	<summary>
+  Looks up a localized string similar to Last &amp;24 Hours.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.cs7DAYS">
+	<summary>
+  Looks up a localized string similar to Last &amp;7 Days.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csABORT">
+	<summary>
+  Looks up a localized string similar to Abort.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csACCUFLOWSETUP">
+	<summary>
+  Looks up a localized string similar to Accuflow Setup Screen.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csADD">
+	<summary>
+  Looks up a localized string similar to Add.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csALL">
+	<summary>
+  Looks up a localized string similar to All.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csALLCHG">
+	<summary>
+  Looks up a localized string similar to All Cha&amp;nges.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csALREADY_RUNNING_REMOTE">
+	<summary>
+  Looks up a localized string similar to The application is already running on the remote machine. Close application on remote machine to access..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csANYBUS_IPCONFIG">
+	<summary>
+  Looks up a localized string similar to Anybus I/P Configuration.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csAPPLICATOR_TYPE_DIFFERENT">
+	<summary>
+  Looks up a localized string similar to Warning: Not all selected applicator types are the same.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csARCHIVE">
+	<summary>
+  Looks up a localized string similar to Archive.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csAREA_CAP">
+	<summary>
+  Looks up a localized string similar to Area.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csAUTORECONNECTING">
+	<summary>
+  Looks up a localized string similar to AutoReconnecting.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csAV_STATUS_CAP">
+	<summary>
+  Looks up a localized string similar to Status.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csAV_STATUS_HIFLT">
+	<summary>
+  Looks up a localized string similar to High Fault.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csAV_STATUS_HIWARN">
+	<summary>
+  Looks up a localized string similar to High Warning.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csAV_STATUS_LOFLT">
+	<summary>
+  Looks up a localized string similar to Low Fault.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csAV_STATUS_LOWARN">
+	<summary>
+  Looks up a localized string similar to Low Warning.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csAV_STATUS_PASS">
+	<summary>
+  Looks up a localized string similar to Pass.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csAV_STATUS_UNKNOWN">
+	<summary>
+  Looks up a localized string similar to Unknown.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csAVAILABLE">
+	<summary>
+  Looks up a localized string similar to Available.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csBAD_DATA_PLC_WRITE">
+	<summary>
+  Looks up a localized string similar to Bad or missing data for PLC Write.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csBAD_ENTRY">
+	<summary>
+  Looks up a localized string similar to Data entered is invalid. Returning to original value..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csBSD">
+	<summary>
+  Looks up a localized string similar to Booth Status Display.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csBULKSUPPLY">
+	<summary>
+  Looks up a localized string similar to Bulk Supply.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCALIBRATION">
+	<summary>
+  Looks up a localized string similar to Calibration.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCANCEL">
+	<summary>
+  Looks up a localized string similar to &amp;Cancel.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCANT_ACCESS_DB_FILES_ZONE">
+	<summary>
+  Looks up a localized string similar to Cannot find or access database files for zone:.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCANT_FIND_CONFIG_FILE">
+	<summary>
+  Looks up a localized string similar to Could not find configuration file..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCCCYCLE">
+	<summary>
+  Looks up a localized string similar to CC Cycle.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCELLSTATUS">
+	<summary>
+  Looks up a localized string similar to Cell Status Display.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCHANGE_SUM_CAP">
+	<summary>
+  Looks up a localized string similar to Change Summary.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCHANGED_FROM">
+	<summary>
+  Looks up a localized string similar to changed from.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCHANGELOG">
+	<summary>
+  Looks up a localized string similar to Change &amp;Log.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCHANGELOGFORM">
+	<summary>
+  Looks up a localized string similar to Paintworks Change Log .
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCLEARALL">
+	<summary>
+  Looks up a localized string similar to Clear All.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCLICK_OK_PROCEED">
+	<summary>
+  Looks up a localized string similar to Click OK to proceed..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCLOCK">
+	<summary>
+  Looks up a localized string similar to Clock.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCLOSE">
+	<summary>
+  Looks up a localized string similar to &amp;Close.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOLOR">
+	<summary>
+  Looks up a localized string similar to Color.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOLOR_CAP">
+	<summary>
+  Looks up a localized string similar to Color.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOLOR_CHG_CYCLE">
+	<summary>
+  Looks up a localized string similar to Color Change Cycle.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOLORCHANGE">
+	<summary>
+  Looks up a localized string similar to Color Change.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCONFIRM_COPY">
+	<summary>
+  Looks up a localized string similar to Confirm Copy.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCONNECTED">
+	<summary>
+  Looks up a localized string similar to Connected.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCONNECTING">
+	<summary>
+  Looks up a localized string similar to Connecting.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCONNECTION_STAT">
+	<summary>
+  Looks up a localized string similar to connection status is:.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCONVFAILED">
+	<summary>
+  Looks up a localized string similar to File Conversion Failed: .
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOPIED">
+	<summary>
+  Looks up a localized string similar to Copied.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOPY">
+	<summary>
+  Looks up a localized string similar to Cop&amp;y.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOPY_COMPLETE">
+	<summary>
+  Looks up a localized string similar to Copy complete.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOPY_FAILED">
+	<summary>
+  Looks up a localized string similar to Copy operation failed....
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOPY_PARAM_NOT_SAME">
+	<summary>
+  Looks up a localized string similar to Parameter selection must match when selecting multiple source parameters..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOPY_ROBOTS_NOT_SAME">
+	<summary>
+  Looks up a localized string similar to Robot selection must match when selecting multiple source robots..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOPY_STARTED">
+	<summary>
+  Looks up a localized string similar to Copy started.....
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOPY_SUBPARAM_NOT_SAME">
+	<summary>
+  Looks up a localized string similar to Subparameter selection must match when selecting multiple source subparameters..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOULD_NOT_CONNECT">
+	<summary>
+  Looks up a localized string similar to Could not connect to controller.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOULD_NOT_LOAD_ROB">
+	<summary>
+  Looks up a localized string similar to Could not load robots.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOULD_NOT_READ_PLC">
+	<summary>
+  Looks up a localized string similar to Could not read PLC data..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCOULD_NOT_WRITE_PLC">
+	<summary>
+  Looks up a localized string similar to Could not write PLC data..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csCYCLE_CAP">
+	<summary>
+  Looks up a localized string similar to Cycle.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csDATABASE">
+	<summary>
+  Looks up a localized string similar to database.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csDB_ERROR">
+	<summary>
+  Looks up a localized string similar to Error reading database .
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csDESCRIPTION_CAP">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csDEVICES">
+	<summary>
+  Looks up a localized string similar to Dev&amp;ices.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csDISCONNECTING">
+	<summary>
+  Looks up a localized string similar to Disconnecting.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csDISPENSERSTATUS">
+	<summary>
+  Looks up a localized string similar to Dispenser Status Screen.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csDMONSCHEDMAN">
+	<summary>
+  Looks up a localized string similar to DMON Schedule Manager.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csDMONVIEWER">
+	<summary>
+  Looks up a localized string similar to DMON Viewer.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csDOCUMENT_UNCONTROLLED">
+	<summary>
+  Looks up a localized string similar to This document is uncontrolled. For reference only..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csDONE">
+	<summary>
+  Looks up a localized string similar to Done.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csERROR">
+	<summary>
+  Looks up a localized string similar to Error.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csEXPORT_CSV">
+	<summary>
+  Looks up a localized string similar to Export to spreadsheet.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csEXPORTFAILED">
+	<summary>
+  Looks up a localized string similar to Could not export due to following error:.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFAILED_OPEN_ODS">
+	<summary>
+  Looks up a localized string similar to Failed to open ODS file: .
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFAILED_OPEN_XLSX">
+	<summary>
+  Looks up a localized string similar to Failed to open XLSX file: .
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFAILED_SAVE_ODS">
+	<summary>
+  Looks up a localized string similar to Failed to save ODS file:.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFAILED_SAVE_XLSX">
+	<summary>
+  Looks up a localized string similar to Failed to save XLSX file:.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFAILED_XLS_XML">
+	<summary>
+  Looks up a localized string similar to Failed to convert XLS file format to XML: .
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFAILED_XML_XLS">
+	<summary>
+  Looks up a localized string similar to Failed to convert XML file format to XLS: .
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFANUC_PRN">
+	<summary>
+  Looks up a localized string similar to FANUC America.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFILECOPY">
+	<summary>
+  Looks up a localized string similar to File Copy Utility.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFLUIDMAINT">
+	<summary>
+  Looks up a localized string similar to Fluid Maintenance.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFROM">
+	<summary>
+  Looks up a localized string similar to From.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFROM_DB">
+	<summary>
+  Looks up a localized string similar to From Database.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFROM_PLC">
+	<summary>
+  Looks up a localized string similar to From PLC.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFTP_CONNECTING">
+	<summary>
+  Looks up a localized string similar to Connecting to.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFTP_DIR_FILES">
+	<summary>
+  Looks up a localized string similar to Directory %s   Files =.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFTP_DIR_NO_FILES">
+	<summary>
+  Looks up a localized string similar to Directory %s  No Files Found.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFTP_DLOAD_FAIL">
+	<summary>
+  Looks up a localized string similar to download failed. Error =.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFTP_DLOAD_RESULT">
+	<summary>
+  Looks up a localized string similar to  download %s bytes in %r seconds.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFTP_ERR_DEST_NOT_SPEC">
+	<summary>
+  Looks up a localized string similar to Error: Destination Folder not specified..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFTP_ERR_NO_HOST">
+	<summary>
+  Looks up a localized string similar to No host name provided.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFTP_ERR_PING_FAIL">
+	<summary>
+  Looks up a localized string similar to is not available..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFTP_ERR_SRC_NOT_SPEC">
+	<summary>
+  Looks up a localized string similar to Error: SourceFolder not specified..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFTP_ULOAD_FAIL">
+	<summary>
+  Looks up a localized string similar to uploaded failed.  Error =.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFTP_ULOAD_FAIL2">
+	<summary>
+  Looks up a localized string similar to uploaded failed. File may be in use. Error =.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csFTP_ULOAD_RESULT">
+	<summary>
+  Looks up a localized string similar to  uploaded %s bytes in %r seconds.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csGPPW">
+	<summary>
+  Looks up a localized string similar to GPPW.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csHB_LOST">
+	<summary>
+  Looks up a localized string similar to Heartbeat lost.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csHBLOST">
+	<summary>
+  Looks up a localized string similar to Heartbeat Lost.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csHOST_ENTRY_ERR">
+	<summary>
+  Looks up a localized string similar to Error finding host information for :.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csHOTEDITLOGGER">
+	<summary>
+  Looks up a localized string similar to Hot Edit Logger.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csIMPORT_CSV">
+	<summary>
+  Looks up a localized string similar to Import from spreadsheet.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csIMPORTFAILED">
+	<summary>
+  Looks up a localized string similar to Could not import due to following error:.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csINITALIZING">
+	<summary>
+  Looks up a localized string similar to Initializing....
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csINTEGER_REQ">
+	<summary>
+  Looks up a localized string similar to Integer value required. Returning to original value..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csINV_ENTRY">
+	<summary>
+  Looks up a localized string similar to Invalid Entry. Returning to original value..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csINVALID_DATA">
+	<summary>
+  Looks up a localized string similar to Invalid Data.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csINVALID_VALVESTATE">
+	<summary>
+  Looks up a localized string similar to Invalid valve state selected.  Conflicting valves have been turned off..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csINVALID_XPATH_SYNTAX">
+	<summary>
+  Looks up a localized string similar to Invalid XPath syntax..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csIS_OFFLINE">
+	<summary>
+  Looks up a localized string similar to  is offline..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csIS_ONLINE">
+	<summary>
+  Looks up a localized string similar to  is online..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csISUNAVAILABLE">
+	<summary>
+  Looks up a localized string similar to is unavailable..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csITEM_CAP">
+	<summary>
+  Looks up a localized string similar to Item.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csJOB">
+	<summary>
+  Looks up a localized string similar to Job.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csJOB_SETUP">
+	<summary>
+  Looks up a localized string similar to Job Setup.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csLINK_TO_PLC">
+	<summary>
+  Looks up a localized string similar to Connecting to PLC.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csLOAD_FROM">
+	<summary>
+  Looks up a localized string similar to Load from.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csLOAD_GUI">
+	<summary>
+  Looks up a localized string similar to Loading from database.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csLOAD_PLC">
+	<summary>
+  Looks up a localized string similar to Loading from PLC.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csLOAD_ROBOT">
+	<summary>
+  Looks up a localized string similar to Loading from controller.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csLOADDONE">
+	<summary>
+  Looks up a localized string similar to Load complete..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csLOADFAILED">
+	<summary>
+  Looks up a localized string similar to Data load failed..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csLOADINGDATA">
+	<summary>
+  Looks up a localized string similar to Loading data. Please wait..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csLOCAL_ZONE">
+	<summary>
+  Looks up a localized string similar to Local zone.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csLOGGED_IN">
+	<summary>
+  Looks up a localized string similar to Logged In.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csLOGGED_OUT">
+	<summary>
+  Looks up a localized string similar to Logged Out.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csLOGIN">
+	<summary>
+  Looks up a localized string similar to Log In.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csLOGOUT">
+	<summary>
+  Looks up a localized string similar to Log Out.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csMANUALCYCLE">
+	<summary>
+  Looks up a localized string similar to Manual Cycle.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csMANUALOPERATIONS">
+	<summary>
+  Looks up a localized string similar to Manual Operations.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csMAX_ROWS">
+	<summary>
+  Looks up a localized string similar to Maximum Number of Rows per page.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csMAXIMUM_EQ">
+	<summary>
+  Looks up a localized string similar to Maximum = .
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csMINIMUM_EQ">
+	<summary>
+  Looks up a localized string similar to Minimum = .
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csMISSING_CONTROLLER_TABLE">
+	<summary>
+  Looks up a localized string similar to Configuration database is missing controllers table.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csMISSING_ZONE_NAME">
+	<summary>
+  Looks up a localized string similar to Missing zone name..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csMULTIVIEW">
+	<summary>
+  Looks up a localized string similar to &amp;Multi-View.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csNETWORK">
+	<summary>
+  Looks up a localized string similar to Network Maintenance.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csNEW">
+	<summary>
+  Looks up a localized string similar to &amp;New.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csNEW_VALUE_CAP">
+	<summary>
+  Looks up a localized string similar to New Value.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csNO_CHANGES_FOUND">
+	<summary>
+  Looks up a localized string similar to No changes found.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csNO_DESCRIPTION">
+	<summary>
+  Looks up a localized string similar to (No Description).
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csNO_NULL">
+	<summary>
+  Looks up a localized string similar to Field cannot be left blank. Returning to original value..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csNO_PARAMETER">
+	<summary>
+  Looks up a localized string similar to none.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csNO_USER">
+	<summary>
+  Looks up a localized string similar to Unknown User.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csNONE">
+	<summary>
+  Looks up a localized string similar to None.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csNOTEPAD">
+	<summary>
+  Looks up a localized string similar to Notepad.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csNOTHING_SELECTED_COPY">
+	<summary>
+  Looks up a localized string similar to No parameters selected for copy from the dropdown menu..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csODS_META_INF_MANIFEST_XML1">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;manifest:manifest xmlns:manifest="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0"&gt;
+  &lt;manifest:file-entry manifest:media-type="application/vnd.oasis.opendocument.spreadsheet" manifest:version="1.2" manifest:full-path="/" /&gt;
+  &lt;manifest:file-entry manifest:media-type="text/xml" manifest:full-path="content.xml" /&gt;
+  &lt;manifest:file-entry manifest:media-type="text/xml" manifest:full-path="styles.xml" /&gt;
+  &lt;manifest:file-entry manifest:media-type="text/xml" manife [rest of string was truncated]";.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csODS_META_INF_MANIFEST_XML2">
+	<summary>
+  Looks up a localized string similar to &lt;/manifest:manifest&gt;
+.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csODS_PRINT_HEADER1">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;office:document-content 
+    xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" 
+    xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" 
+    xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" 
+    xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" 
+    xmlns:xlink="http://www.w3.org/1999/x [rest of string was truncated]";.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csODS_PRINT_HEADER2">
+	<summary>
+  Looks up a localized string similar to     &lt;style:style style:name="ro1" style:family="table-row"&gt;&lt;style:table-row-properties style:row-height="0.1783in" fo:break-before="auto" style:use-optimal-row-height="true"/&gt;&lt;/style:style&gt;
+    &lt;style:style style:name="ta1" style:family="table" style:master-page-name="Default"&gt;&lt;style:table-properties table:display="true" style:writing-mode="lr-tb"/&gt;
+    &lt;/style:style&gt;&lt;number:date-style style:name="N36" number:automatic-order="true"&gt;&lt;number:month number:style="long"/&gt;
+			&lt;number:text&gt;/&lt;/number:text&gt;
+			&lt; [rest of string was truncated]";.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csODS_SETTINGS_XML">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;office:document-settings xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2"&gt;
+	&lt;office:settings&gt;
+		&lt;config:config-item-set config:name="ooo:view-settings"&gt;
+			&lt;config:config-item config:name="VisibleAreaTop" config:type="int"&gt;0&lt;/config:config-item&gt;
+			&lt;config:config-item config:na [rest of string was truncated]";.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csODS_STYLES_XML">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;office:document-styles xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.o [rest of string was truncated]";.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csOFF">
+	<summary>
+  Looks up a localized string similar to Off.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csOK">
+	<summary>
+  Looks up a localized string similar to &amp;OK.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csON">
+	<summary>
+  Looks up a localized string similar to On.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csOPCSERVER_STATE_ERR">
+	<summary>
+  Looks up a localized string similar to Could Not Connect To OPC Server -  Server State:=.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csOPEN">
+	<summary>
+  Looks up a localized string similar to &amp;Open.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csOPEN_FILE_DLG_CAP">
+	<summary>
+  Looks up a localized string similar to Select File to Open..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPAGE_SETUP">
+	<summary>
+  Looks up a localized string similar to Page &amp;Setup.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPAGE_X_OF_Y">
+	<summary>
+  Looks up a localized string similar to Page X of Y.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPAINTDISCHARGE">
+	<summary>
+  Looks up a localized string similar to Paint Discharge.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPAINTWORKS">
+	<summary>
+  Looks up a localized string similar to PAINTworks.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPARAMETER_CAP">
+	<summary>
+  Looks up a localized string similar to Parameter.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPARAMSETUP">
+	<summary>
+  Looks up a localized string similar to Parameter Setup.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPATHACCESS_ERROR">
+	<summary>
+  Looks up a localized string similar to Unable to access this path. You may not have access. The following error was returned:.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPLC">
+	<summary>
+  Looks up a localized string similar to PLC.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPLC_COMM_ERROR">
+	<summary>
+  Looks up a localized string similar to PLC Communication error..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPLC_CONN_MULT_INST">
+	<summary>
+  Looks up a localized string similar to Multiple instances of the connection exist in the PLC configuration file..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPLC_CONN_NOT_DEFINED">
+	<summary>
+  Looks up a localized string similar to Connection not defined..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPLC_DATA_TYPE">
+	<summary>
+  Looks up a localized string similar to Data Type.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPLC_IO">
+	<summary>
+  Looks up a localized string similar to PLC I/O.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPLC_TAG_MULT_INST">
+	<summary>
+  Looks up a localized string similar to Multiple instances of the tag exist in the PLC configuration file..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPLC_TAG_NOT_DEFINED">
+	<summary>
+  Looks up a localized string similar to Tag not defined..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPLC_TOPIC_MULT_INST">
+	<summary>
+  Looks up a localized string similar to Multiple instances of the topic exist in the PLC configuration file..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPLC_TOPIC_NOT_DEFINED">
+	<summary>
+  Looks up a localized string similar to Topic not defined..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPLC_UNSUP_TYPE">
+	<summary>
+  Looks up a localized string similar to Unsupported data type..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPLC_WRITE_SIZE_ERR">
+	<summary>
+  Looks up a localized string similar to Invalid data length for PLC write..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPOLLREADFAILED">
+	<summary>
+  Looks up a localized string similar to Unable to read polled data from server.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPRESETS">
+	<summary>
+  Looks up a localized string similar to Presets.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPRINT">
+	<summary>
+  Looks up a localized string similar to &amp;Print.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPRINT_FILE">
+	<summary>
+  Looks up a localized string similar to Print to &amp;File.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPRINT_FORMATTING">
+	<summary>
+  Looks up a localized string similar to Formatting document....
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPRINT_OPTIONS">
+	<summary>
+  Looks up a localized string similar to Print Options.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPRINT_PREVIEW">
+	<summary>
+  Looks up a localized string similar to Print Pre&amp;view.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPRINT_PRN">
+	<summary>
+  Looks up a localized string similar to Printed.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPRINT_SENDING">
+	<summary>
+  Looks up a localized string similar to Sending document to printer....
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPRINTFAILED">
+	<summary>
+  Looks up a localized string similar to Could not print due to following error:.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPRINTING">
+	<summary>
+  Looks up a localized string similar to Printing, please wait..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPRINTMNU">
+	<summary>
+  Looks up a localized string similar to Print.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPW4_MAIN">
+	<summary>
+  Looks up a localized string similar to PAINTworks Main.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPWBROWSER">
+	<summary>
+  Looks up a localized string similar to PAINTworks Browser.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPWIIISETUP">
+	<summary>
+  Looks up a localized string similar to PAINTworks Setup.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPWSETUP">
+	<summary>
+  Looks up a localized string similar to PAINTworks Setup.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csPWUSERMAINT">
+	<summary>
+  Looks up a localized string similar to PAINTworks User Maintenance.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csREADY">
+	<summary>
+  Looks up a localized string similar to Ready..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csREFRESH">
+	<summary>
+  Looks up a localized string similar to Refresh.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csREMOTE_ZONE">
+	<summary>
+  Looks up a localized string similar to Remote zone.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csREPORTS">
+	<summary>
+  Looks up a localized string similar to Reports.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csRESTORE">
+	<summary>
+  Looks up a localized string similar to &amp;Restore.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csROBOT">
+	<summary>
+  Looks up a localized string similar to Robot.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csROBOT_CAP">
+	<summary>
+  Looks up a localized string similar to Device.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csROBOT_IO">
+	<summary>
+  Looks up a localized string similar to Robot I/O.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csROBOTS_OPERATE">
+	<summary>
+  Looks up a localized string similar to Robot(s) To Operate.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csROBOTSETUP">
+	<summary>
+  Looks up a localized string similar to Robot Setup.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csROBOTSTATUS">
+	<summary>
+  Looks up a localized string similar to Robot Status.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csROBOTVARIABLES">
+	<summary>
+  Looks up a localized string similar to Robot Variables.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csRSLOGIX5000LOADER">
+	<summary>
+  Looks up a localized string similar to RS Logix 5000.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSA_SETUP_COMP">
+	<summary>
+  Looks up a localized string similar to  scattered access setup complete..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE">
+	<summary>
+  Looks up a localized string similar to &amp;Save .
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_ALL_FILTER">
+	<summary>
+  Looks up a localized string similar to All Files|*.*.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_CANCEL">
+	<summary>
+  Looks up a localized string similar to Save Canceled.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_CHANGES">
+	<summary>
+  Looks up a localized string similar to Save Changes?.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_CSV_CDFILTER">
+	<summary>
+  Looks up a localized string similar to Comma Seperated Value file (*.csv)|*.csv.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_CSV_FILTER">
+	<summary>
+  Looks up a localized string similar to Comma Seperated Value file|*.csv.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_CSV_TXT_FILTER">
+	<summary>
+  Looks up a localized string similar to All Files|*.*|Comma Seperated Value file|*.csv|Tab-Delimited Text File|*.txt.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_CSV_XLS_ALL_FILTER">
+	<summary>
+  Looks up a localized string similar to All Files|*.*|Comma Seperated Value file|*.csv|Excel File|*.xls.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_DONE">
+	<summary>
+  Looks up a localized string similar to Save operation finished..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_FILE_DLG_CAP">
+	<summary>
+  Looks up a localized string similar to Select Location For Save.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_GUI">
+	<summary>
+  Looks up a localized string similar to Saving to database.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_ODS_FILTER">
+	<summary>
+  Looks up a localized string similar to Open Office Spreadsheet|*.ods.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_PLC">
+	<summary>
+  Looks up a localized string similar to Saving to PLC.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_ROBOT">
+	<summary>
+  Looks up a localized string similar to Saving to controller.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_SPR_FILTER">
+	<summary>
+  Looks up a localized string similar to All Files|*.*|Comma Seperated Value file|*.csv|Excel XML Spreadsheet|*.xml|Tab-Delimited Text File|*.txt.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_TO">
+	<summary>
+  Looks up a localized string similar to Save To.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_TXT_ALL_FILTER">
+	<summary>
+  Looks up a localized string similar to Text (*.txt)|*.txt|All Files|*.*.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_TXT_FILTER">
+	<summary>
+  Looks up a localized string similar to Tab-Delimited Text File|*.txt.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_TXT_RTF_ALL_FILTER">
+	<summary>
+  Looks up a localized string similar to Text (*.txt)|*.txt|Rich Text Format (*.rtf)|*.rtf|All Files|*.*.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_XLS_FILTER">
+	<summary>
+  Looks up a localized string similar to Excel Spreadsheet|*.xls.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_XLSX_FILTER">
+	<summary>
+  Looks up a localized string similar to Excel XML Spreadsheet|*.xlsx.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVE_XML_FILTER">
+	<summary>
+  Looks up a localized string similar to XML Spreadsheet|*.xml.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVEFAILED">
+	<summary>
+  Looks up a localized string similar to Data save failed.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVEFAILEDPLC">
+	<summary>
+  Looks up a localized string similar to Save to PLC failed.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVEMSG">
+	<summary>
+  Looks up a localized string similar to Do you want to save changes?.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVEMSG1">
+	<summary>
+  Looks up a localized string similar to You have unsaved edits..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVEMSG3">
+	<summary>
+  Looks up a localized string similar to Changes must be saved before using copy function..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVEROBOTOFFLINE">
+	<summary>
+  Looks up a localized string similar to Controller {0} is offline..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSAVINGDATA">
+	<summary>
+  Looks up a localized string similar to Saving data. Please wait..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSCHEDULER">
+	<summary>
+  Looks up a localized string similar to Scheduler.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSEALANTSCHED">
+	<summary>
+  Looks up a localized string similar to Sealant Schedules.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSEALERDIAG">
+	<summary>
+  Looks up a localized string similar to Sealer Diagnostics.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECT_ALL">
+	<summary>
+  Looks up a localized string similar to Select All.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECT_APPLICATOR">
+	<summary>
+  Looks up a localized string similar to Select Applicator.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECT_COLOR">
+	<summary>
+  Looks up a localized string similar to Select Color.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECT_FILE_LOC">
+	<summary>
+  Looks up a localized string similar to Select Location and File Name.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECT_NONE">
+	<summary>
+  Looks up a localized string similar to Unselect All.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECT_PAINT_FAIL">
+	<summary>
+  Looks up a localized string similar to Selected folder does not contain PAINTworks files, or you do not have permission to access the files..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECT_PAINT_FOLDER">
+	<summary>
+  Looks up a localized string similar to Select remote paint folder..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECT_PAINT_SUCCESS">
+	<summary>
+  Looks up a localized string similar to Please wait while remote machine is accessed..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECT_PAINTDB_FOLDER">
+	<summary>
+  Looks up a localized string similar to Select desired database folder..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECT_ROBOT">
+	<summary>
+  Looks up a localized string similar to Select Robot.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECT_SOURCE">
+	<summary>
+  Looks up a localized string similar to Select source information.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECT_TARGET">
+	<summary>
+  Looks up a localized string similar to Select target information.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECT_VALVE">
+	<summary>
+  Looks up a localized string similar to Select Valve.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECT_ZONE">
+	<summary>
+  Looks up a localized string similar to Select Zone.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECTED">
+	<summary>
+  Looks up a localized string similar to selected..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECTED_AS_SOURCE">
+	<summary>
+  Looks up a localized string similar to  selected as source..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECTED_AS_TARGET">
+	<summary>
+  Looks up a localized string similar to  selected as target..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECTED_FOR_COPY">
+	<summary>
+  Looks up a localized string similar to  selected for copy..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECTED_FOR_COPY_DEF">
+	<summary>
+  Looks up a localized string similar to selected for copy by default..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELECTED_ZONE_UNAVAILABLE">
+	<summary>
+  Looks up a localized string similar to Selected zone is unavailable..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSELPRNTMNU">
+	<summary>
+  Looks up a localized string similar to Select Printer.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSET_UP_SA_FOR">
+	<summary>
+  Looks up a localized string similar to Setting up scattered access for :.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSPECIFIC_CAP">
+	<summary>
+  Looks up a localized string similar to Specific.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSPLIT_LARGE_TABLES">
+	<summary>
+  Looks up a localized string similar to Split up large tables?.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSTARTING_SAVE_TO">
+	<summary>
+  Looks up a localized string similar to Starting save to:.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSTATUS">
+	<summary>
+  Looks up a localized string similar to S&amp;tatus.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSYNCSCROLL">
+	<summary>
+  Looks up a localized string similar to Sync Scroll.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csSYSTEM_COLORS">
+	<summary>
+  Looks up a localized string similar to System Colors.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csTAG_NAME">
+	<summary>
+  Looks up a localized string similar to Tag Name.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csTEACH_PENDANT_USER">
+	<summary>
+  Looks up a localized string similar to Teach Pendant User.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csTEMPERATURECONTROL">
+	<summary>
+  Looks up a localized string similar to Temperature Control Screen.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csTIME_CAP">
+	<summary>
+  Looks up a localized string similar to Time.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csTO">
+	<summary>
+  Looks up a localized string similar to to.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csU_SELECTED_FOR_COPY">
+	<summary>
+  Looks up a localized string similar to You have selected to copy:.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csUNABLE_CONNECT_CONTROLLERS">
+	<summary>
+  Looks up a localized string similar to Unable to connect to any controllers in this zone..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csUNABLE_DETERMINE_RUNNING">
+	<summary>
+  Looks up a localized string similar to Unable to determine if program is running on remote computer. If program is running, your changes may be overwritten..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csUNABLE_TO_ACCESS_DB">
+	<summary>
+  Looks up a localized string similar to Unable to access database..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csUNAUTH_ACCESS">
+	<summary>
+  Looks up a localized string similar to The Following directory does not exist, or you do not have sufficient privileges to access it:.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csUNAVAILABLE">
+	<summary>
+  Looks up a localized string similar to Unavailable.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csUNDO">
+	<summary>
+  Looks up a localized string similar to &amp;Undo.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csUNDOMSG">
+	<summary>
+  Looks up a localized string similar to Undo All Changes?.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csUNKNOWN">
+	<summary>
+  Looks up a localized string similar to Unknown.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csUNSELECT_ALL">
+	<summary>
+  Looks up a localized string similar to Unselect All.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csUPD_CHANGELOG">
+	<summary>
+  Looks up a localized string similar to Updating change log..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csUSER_CAP">
+	<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csUTILITIES">
+	<summary>
+  Looks up a localized string similar to Utilities.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csVAL_ABOVE_MAX">
+	<summary>
+  Looks up a localized string similar to Entry above MAXIMUM value. Returning to original value..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csVAL_BELOW_MIN">
+	<summary>
+  Looks up a localized string similar to Entry below MINIMUM value. Returning to original value..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csVALUE">
+	<summary>
+  Looks up a localized string similar to Value.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csVERSION">
+	<summary>
+  Looks up a localized string similar to version.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csVERSIONS">
+	<summary>
+  Looks up a localized string similar to Versions.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csVIEWALL_FORM">
+	<summary>
+  Looks up a localized string similar to Multi-view.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csVIEWING">
+	<summary>
+  Looks up a localized string similar to Viewing:.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csVISIONLOGGER">
+	<summary>
+  Looks up a localized string similar to Vision Logger.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csVOLUME">
+	<summary>
+  Looks up a localized string similar to Learned Volumes.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csWARNING">
+	<summary>
+  Looks up a localized string similar to Warning.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csWIDTH">
+	<summary>
+  Looks up a localized string similar to Table Width.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csWRITE_FAIL">
+	<summary>
+  Looks up a localized string similar to Write failed..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csWRITE_SUCCESS">
+	<summary>
+  Looks up a localized string similar to Data written successfully.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csWRITING_TARGET">
+	<summary>
+  Looks up a localized string similar to Writing data to target.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_APP">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"&gt;&lt;Application&gt;Microsoft Excel&lt;/Application&gt;&lt;DocSecurity&gt;0&lt;/DocSecurity&gt;&lt;ScaleCrop&gt;false&lt;/ScaleCrop&gt;&lt;HeadingPairs&gt;&lt;vt:vector size="2" baseType="variant"&gt;&lt;vt:variant&gt;&lt;vt:lpstr&gt;Worksheets&lt;/vt:lpstr&gt;&lt;/vt:variant&gt;&lt;vt:variant&gt;&lt;vt:i4&gt;{0}&lt;/vt:i4&gt;&lt;/vt:variant&gt;&lt;/vt:vector&gt;&lt;/HeadingPairs&gt;&lt;Tit [rest of string was truncated]";.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_APP_1">
+	<summary>
+  Looks up a localized string similar to &lt;vt:lpstr&gt;{0}&lt;/vt:lpstr&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_CONTENT_1">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"&gt;&lt;Override PartName="/xl/theme/theme1.xml" ContentType="application/vnd.openxmlformats-officedocument.theme+xml"/&gt;&lt;Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/&gt;&lt;Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/&gt;&lt;Default Extension="xml" ContentType="applicat [rest of string was truncated]";.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_CONTENT_2">
+	<summary>
+  Looks up a localized string similar to &lt;Override PartName="/xl/sharedStrings.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml"/&gt;&lt;Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/&gt;&lt;/Types&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_CONTENT_DRAWING">
+	<summary>
+  Looks up a localized string similar to &lt;Override PartName="/xl/drawings/drawing1.xml" ContentType="application/vnd.openxmlformats-officedocument.drawing+xml"/&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_CONTENT_ITEMS">
+	<summary>
+  Looks up a localized string similar to &lt;Override PartName="/xl/worksheets/sheet{0}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_CONTENT_PNG">
+	<summary>
+  Looks up a localized string similar to &lt;Default Extension="png" ContentType="image/png"/&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_CORE">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+	&lt;cp:lastModifiedBy&gt;PAINTworksUser&lt;/cp:lastModifiedBy&gt;
+	&lt;dcterms:created xsi:type="dcterms:W3CDTF"&gt;{0}&lt;/dcterms:created&gt;
+	&lt;dcterms:modified xsi:type="dcterms:W3CDT [rest of string was truncated]";.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_DRAWINGS_DRAWINGS">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;xdr:wsDr xmlns:xdr="http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"&gt;&lt;xdr:twoCellAnchor editAs="oneCell"&gt;&lt;xdr:from&gt;&lt;xdr:col&gt;{0}&lt;/xdr:col&gt;&lt;xdr:colOff&gt;0&lt;/xdr:colOff&gt;&lt;xdr:row&gt;{1}&lt;/xdr:row&gt;&lt;xdr:rowOff&gt;0&lt;/xdr:rowOff&gt;&lt;/xdr:from&gt;&lt;xdr:to&gt;&lt;xdr:col&gt;{2}&lt;/xdr:col&gt;&lt;xdr:colOff&gt;400050&lt;/xdr:colOff&gt;&lt;xdr:row&gt;{3}&lt;/xdr:row&gt;&lt;xdr:rowOff&gt;85725&lt;/xdr:rowOff&gt;&lt;/xdr:to&gt;&lt;xdr:pic&gt;&lt;xdr:nvPicPr&gt;&lt;xdr [rest of string was truncated]";.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_DRAWINGS_RELS">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"&gt;&lt;Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="{0}"/&gt;&lt;/Relationships&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_RELS1">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"&gt;&lt;Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/&gt;&lt;Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/&gt;&lt;Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2 [rest of string was truncated]";.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_SHAREDSTRING_1">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="{0}" uniqueCount="{1}"&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_SHAREDSTRING_2">
+	<summary>
+  Looks up a localized string similar to &lt;/sst&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_SHAREDSTRING_ITEM">
+	<summary>
+  Looks up a localized string similar to &lt;si&gt;&lt;t&gt;{0}&lt;/t&gt;&lt;/si&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_SHAREDSTRING_ITEM_WS">
+	<summary>
+  Looks up a localized string similar to &lt;si&gt;&lt;t xml:space="preserve"&gt;{0}&lt;/t&gt;&lt;/si&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_SHEET_DRAWING_END">
+	<summary>
+  Looks up a localized string similar to &lt;/sheetData&gt;&lt;phoneticPr fontId="0" type="noConversion"/&gt;&lt;pageMargins left="0.75" right="0.75" top="1" bottom="1" header="0.5" footer="0.5"/&gt;&lt;headerFooter alignWithMargins="0"/&gt;&lt;drawing r:id="rId1"/&gt;&lt;/worksheet&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_SHEET_END">
+	<summary>
+  Looks up a localized string similar to &lt;/sheetData&gt;
+	&lt;phoneticPr fontId="0" type="noConversion"/&gt;
+	&lt;pageMargins left="0.75" right="0.75" top="1" bottom="1" header="0.5" footer="0.5"/&gt;
+	&lt;headerFooter alignWithMargins="0"/&gt;
+&lt;/worksheet&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_SHEET_START">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"&gt;
+	&lt;sheetViews&gt;
+		&lt;sheetView tabSelected="1" workbookViewId="0"&gt;
+			&lt;selection activeCell="A1" sqref="A1"/&gt;
+		&lt;/sheetView&gt;
+	&lt;/sheetViews&gt;
+	&lt;sheetFormatPr defaultRowHeight="12.75"/&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_SHEETS_RELS">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"&gt;&lt;Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/drawing" Target="../drawings/drawing1.xml"/&gt;&lt;/Relationships&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_STYLES">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"&gt;&lt;numFmts count="2"&gt;&lt;numFmt numFmtId="164" formatCode="m/d/yyyy\ h:mm:ss\ AM/PM"/&gt;&lt;numFmt numFmtId="165" formatCode="0.0%"/&gt;&lt;/numFmts&gt;&lt;fonts count="2"&gt;&lt;font&gt;&lt;sz val="10"/&gt;&lt;name val="Arial"/&gt;&lt;/font&gt;&lt;font&gt;&lt;sz val="10"/&gt;&lt;name val="Arial"/&gt;&lt;/font&gt;&lt;/fonts&gt;&lt;fills count="2"&gt;&lt;fill&gt;&lt;patternFill patternType="none"/&gt;&lt;/fill&gt;&lt;fill&gt;&lt;patternFill patternType="gray125"/&gt;&lt;/fill&gt;&lt;/fills&gt;&lt;border [rest of string was truncated]";.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_THEME">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;a:theme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="Office Theme"&gt;&lt;a:themeElements&gt;&lt;a:clrScheme name="Office"&gt;&lt;a:dk1&gt;&lt;a:sysClr val="windowText" lastClr="000000"/&gt;&lt;/a:dk1&gt;&lt;a:lt1&gt;&lt;a:sysClr val="window" lastClr="FFFFFF"/&gt;&lt;/a:lt1&gt;&lt;a:dk2&gt;&lt;a:srgbClr val="1F497D"/&gt;&lt;/a:dk2&gt;&lt;a:lt2&gt;&lt;a:srgbClr val="EEECE1"/&gt;&lt;/a:lt2&gt;&lt;a:accent1&gt;&lt;a:srgbClr val="4F81BD"/&gt;&lt;/a:accent1&gt;&lt;a:accent2&gt;&lt;a:srgbClr val="C0504D"/&gt;&lt;/a:accent2&gt;&lt;a:accent3&gt;&lt;a:srgbClr val= [rest of string was truncated]";.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_WB">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"&gt;&lt;fileVersion appName="xl" lastEdited="4" lowestEdited="4" rupBuild="4506"/&gt;&lt;workbookPr defaultThemeVersion="124226"/&gt;&lt;bookViews&gt;&lt;workbookView xWindow="120" yWindow="135" windowWidth="10005" windowHeight="10005" activeTab="0"/&gt;&lt;/bookViews&gt;&lt;sheets&gt;{0}&lt;/sheets&gt;&lt;calcPr calcId="114210"/&gt;&lt;/workbook&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_WB_SHEET">
+	<summary>
+  Looks up a localized string similar to &lt;sheet name="{0}" sheetId="{1}" r:id="rId{2}"/&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_WB_XML_RELS_1">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_WB_XML_RELS_2">
+	<summary>
+  Looks up a localized string similar to &lt;/Relationships&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_WB_XML_RELS_SHARED">
+	<summary>
+  Looks up a localized string similar to &lt;Relationship Id="rId{0}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings" Target="sharedStrings.xml"/&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_WB_XML_RELS_SHEET">
+	<summary>
+  Looks up a localized string similar to &lt;Relationship Id="rId{0}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet{1}.xml"/&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_WB_XML_RELS_STYLES">
+	<summary>
+  Looks up a localized string similar to &lt;Relationship Id="rId{0}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_WB_XML_RELS_THEME">
+	<summary>
+  Looks up a localized string similar to &lt;Relationship Id="rId{0}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXLSX_WB1TAB">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"&gt;&lt;fileVersion appName="xl" lastEdited="4" lowestEdited="4" rupBuild="4506"/&gt;&lt;workbookPr defaultThemeVersion="124226"/&gt;&lt;bookViews&gt;&lt;workbookView xWindow="120" yWindow="135" windowWidth="10005" windowHeight="10005"/&gt;&lt;/bookViews&gt;&lt;sheets&gt;{0}&lt;/sheets&gt;&lt;calcPr calcId="114210"/&gt;&lt;/workbook&gt;.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csXML_PRINT_HEADER">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;?mso-application progid="Excel.Sheet"?&gt;
+&lt;Workbook xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com: [rest of string was truncated]";.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csZONE_CAP">
+	<summary>
+  Looks up a localized string similar to Zone.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.CommonStrings.csZONE_NAME">
+	<summary>
+  Looks up a localized string similar to Zone Name.
+</summary>
+</member><member name="T:BulkSupply.My.Resources.CommonStrings">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psACTUAL">
+	<summary>
+  Looks up a localized string similar to Actual.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psAIR_PRESS">
+	<summary>
+  Looks up a localized string similar to Air Pressure On.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psAUTO_DEPRESS">
+	<summary>
+  Looks up a localized string similar to Auto Depressurization.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psDEPRESS_SYS">
+	<summary>
+  Looks up a localized string similar to Depressurize System.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psDRUM">
+	<summary>
+  Looks up a localized string similar to Drum.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psDRUM_ALT">
+	<summary>
+  Looks up a localized string similar to Drum Alternate.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psDRUM_ON_MINS">
+	<summary>
+  Looks up a localized string similar to Drum On Time (Minutes).
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psDRUM_PRESENT">
+	<summary>
+  Looks up a localized string similar to Drum Present.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psDRUM_READY">
+	<summary>
+  Looks up a localized string similar to Drum Ready.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psENABLE">
+	<summary>
+  Looks up a localized string similar to Enable.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psHOURS">
+	<summary>
+  Looks up a localized string similar to Hours.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psIN_PRESS">
+	<summary>
+  Looks up a localized string similar to Inlet Pressure (psi).
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psLAST_RESET">
+	<summary>
+  Looks up a localized string similar to Last Reset:.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psLOCAL">
+	<summary>
+  Looks up a localized string similar to Local.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psMATERIAL">
+	<summary>
+  Looks up a localized string similar to Material.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psMATL_NOTE">
+	<summary>
+  Looks up a localized string similar to Note: This setting applies to all drums..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psMATL_STROKE">
+	<summary>
+  Looks up a localized string similar to Material Per Pump Stroke.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psMATL_USE">
+	<summary>
+  Looks up a localized string similar to Material Usage.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psMATL_USED">
+	<summary>
+  Looks up a localized string similar to Material Used.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psMINUTES">
+	<summary>
+  Looks up a localized string similar to Minutes.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psMODE">
+	<summary>
+  Looks up a localized string similar to Mode.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psNEVER">
+	<summary>
+  Looks up a localized string similar to Never.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psNOTIFY">
+	<summary>
+  Looks up a localized string similar to Notify.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psOUT_PRESS">
+	<summary>
+  Looks up a localized string similar to Outlet Pressure (psi).
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psPRESET">
+	<summary>
+  Looks up a localized string similar to Preset.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psPRIME_PUMP">
+	<summary>
+  Looks up a localized string similar to Prime Pump.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psPRINT_TAB_MNU">
+	<summary>
+  Looks up a localized string similar to Print this Tab.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psPUMP">
+	<summary>
+  Looks up a localized string similar to Pump.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psPUMP_ACTIVE">
+	<summary>
+  Looks up a localized string similar to Pump Active.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psPUMP_COUNT">
+	<summary>
+  Looks up a localized string similar to Pump Stroke Count.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psPUMP_ON">
+	<summary>
+  Looks up a localized string similar to Pump On.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psPUMP_RESET">
+	<summary>
+  Looks up a localized string similar to Pump Reset.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psREMOTE">
+	<summary>
+  Looks up a localized string similar to Remote.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psRESET">
+	<summary>
+  Looks up a localized string similar to Reset.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psRESET_WARN">
+	<summary>
+  Looks up a localized string similar to This action takes place immediately and cannot be undone. Click OK to proceed..
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSCREENCAPTION">
+	<summary>
+  Looks up a localized string similar to Bulk Supply.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSTATUS">
+	<summary>
+  Looks up a localized string similar to Status.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSTATUS_EMPTY">
+	<summary>
+  Looks up a localized string similar to Empty.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSTATUS_LOW">
+	<summary>
+  Looks up a localized string similar to Low.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSTATUS_NO_DRUM">
+	<summary>
+  Looks up a localized string similar to No Drum.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSTATUS_NOT_READY">
+	<summary>
+  Looks up a localized string similar to Not Ready.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSTATUS_ONLINE">
+	<summary>
+  Looks up a localized string similar to Online.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSTATUS_READY">
+	<summary>
+  Looks up a localized string similar to Ready.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSUPPLY1_TXT">
+	<summary>
+  Looks up a localized string similar to Material #1.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSUPPLY2_TXT">
+	<summary>
+  Looks up a localized string similar to Material #2.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSUPPLY3_TXT">
+	<summary>
+  Looks up a localized string similar to Material #3.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSUPPLY4_TXT">
+	<summary>
+  Looks up a localized string similar to Material #4.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSUPPLY5_TXT">
+	<summary>
+  Looks up a localized string similar to Material #5.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSUPPLY6_TXT">
+	<summary>
+  Looks up a localized string similar to Material #6.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSUPPLY7_TXT">
+	<summary>
+  Looks up a localized string similar to Material #7.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psSYS_PRESS">
+	<summary>
+  Looks up a localized string similar to System Pressurized.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psUNITS_1">
+	<summary>
+  Looks up a localized string similar to Gallons.
+</summary>
+</member><member name="P:BulkSupply.My.Resources.ProjectStrings.psUNITS_2">
+	<summary>
+  Looks up a localized string similar to Gallons.
+</summary>
+</member><member name="T:BulkSupply.My.Resources.ProjectStrings">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

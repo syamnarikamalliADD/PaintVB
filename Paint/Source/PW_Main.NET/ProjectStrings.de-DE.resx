@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Bell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MainMenu\Bell.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flgbrazl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Flags\Flgbrazl.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flgchina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Flags\Flgchina.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flgfran" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Flags\Flgfran.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flggerm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Flags\Flggerm.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flgitaly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Flags\Flgitaly.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flgjapan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Flags\Flgjapan.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flgmex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Flags\Flgmex.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flgskor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Flags\Flgskor.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flgusa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Flags\Flgusa.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FrmAbout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmAbout.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmFirst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\frmFirst.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Greenbell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MainMenu\Grnbell.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mm_conf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MainMenu\Mm_conf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mm_help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MainMenu\Mm_help.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mm_maint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MainMenu\Mm_maint.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mm_oper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MainMenu\Mm_oper.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mm_proc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MainMenu\Mm_proc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mm_rep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MainMenu\Mm_rep.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mm_util" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MainMenu\Mm_util.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mm_view" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MainMenu\Mm_view.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PRINT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MainMenu\PRINT.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psABORT_BTN_TXT" xml:space="preserve">
+    <value>Abbruch</value>
+  </data>
+  <data name="psABOUT_TXT" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="psALARMMAN_START_MSG" xml:space="preserve">
+    <value>Starte Alarmmanager</value>
+  </data>
+  <data name="psALARMS_BTN_TAG" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="psALARMS_BTN_TT" xml:space="preserve">
+    <value>Ansicht/Verberge Alarmbild</value>
+  </data>
+  <data name="psALARMS_BTN_TXT" xml:space="preserve">
+    <value>&amp;Alarme</value>
+  </data>
+  <data name="psCASCADE_OPT_TT" xml:space="preserve">
+    <value>Wähle kaskadierte Bildanordnung</value>
+  </data>
+  <data name="psCASCADE_OPT_TXT" xml:space="preserve">
+    <value>Cascade</value>
+  </data>
+  <data name="psCHECK_DB_MSG" xml:space="preserve">
+    <value>Prüfe Datenbank</value>
+  </data>
+  <data name="psCHECK_DB_PWD_ERR_MSG" xml:space="preserve">
+    <value>Unbekannter Datenbank Passwortfehler</value>
+  </data>
+  <data name="psCHECK_DB_REP_FAIL_MSG" xml:space="preserve">
+    <value>Datenbankreparatur fehlgeschlagen</value>
+  </data>
+  <data name="psCHECK_DB_REP_SUCCESS_MSG" xml:space="preserve">
+    <value>Datenbank repariert</value>
+  </data>
+  <data name="psCHECK_FOR_PROGRAM" xml:space="preserve">
+    <value>Prüfe auf Programm: </value>
+  </data>
+  <data name="psCHECK_FOR_SERVICE" xml:space="preserve">
+    <value>Prüfe auf Service: </value>
+  </data>
+  <data name="psCONFIG_BTN_TAG" xml:space="preserve">
+    <value>K</value>
+  </data>
+  <data name="psCONFIG_BTN_TT" xml:space="preserve">
+    <value>Zeige Konfigurationsmenü</value>
+  </data>
+  <data name="psCONFIG_BTN_TXT" xml:space="preserve">
+    <value>&amp;Konfig</value>
+  </data>
+  <data name="psCONNSTAT_MSG" xml:space="preserve">
+    <value> Verbindungsstatus = </value>
+  </data>
+  <data name="psCOPYRIGHT_TXT" xml:space="preserve">
+    <value>© 2009 FANUC Robotics America, Inc.</value>
+  </data>
+  <data name="psCOULD_NOT_START" xml:space="preserve">
+    <value>Kann nicht starten: </value>
+  </data>
+  <data name="psCR_WARNING_TXT" xml:space="preserve">
+    <value>Warnung: Dieses Computerprogramm ist durch Copyright geschützt.  Unerlaubte Vervielfältigung oder Verteilung dieses Programmes, oder Teilen davon verstößt gegen geltendes Recht.</value>
+  </data>
+  <data name="psCREATE_DESKTOP_MSG" xml:space="preserve">
+    <value>Erstelle PAINTworks Desktop</value>
+  </data>
+  <data name="psCUR_LOGIN_STATUS" xml:space="preserve">
+    <value> logged in am </value>
+  </data>
+  <data name="psDMONLOGR_START_MSG" xml:space="preserve">
+    <value>Starte Diagnoselogger</value>
+  </data>
+  <data name="psERROR_MSG" xml:space="preserve">
+    <value>Ein Fehler ist aufgetreten. Prüfen sie bitte das PAINTworks event log mit Event Viewer zur Bestimmung der Ursache.</value>
+  </data>
+  <data name="psERRORS_OCCURRED_TXT" xml:space="preserve">
+    <value>Es sind Fehler während des Starts aufgetreten</value>
+  </data>
+  <data name="psESTATALARM_START_MSG" xml:space="preserve">
+    <value>Starte FB200 E-Stat Alarm Monitor</value>
+  </data>
+  <data name="psEXCLUSIVE_MODE" xml:space="preserve">
+    <value>Sie müssen alle anderen PAINTworks Fenster schließen, um dieses Programm zu nutzen.</value>
+  </data>
+  <data name="psEXECUTED" xml:space="preserve">
+    <value>Führe aus </value>
+  </data>
+  <data name="psFANUC_LBL_TXT" xml:space="preserve">
+    <value>FANUC Robotics PAINTworks III</value>
+  </data>
+  <data name="psFOUND" xml:space="preserve">
+    <value>Gefunden </value>
+  </data>
+  <data name="psFW_EXCLUSIVE_MSG" xml:space="preserve">
+    <value>Bitte schließen sie alle anderen Applikationen, bevor sie diese Applikation starten.</value>
+  </data>
+  <data name="psHELP_BTN_TAG" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="psHELP_BTN_TT" xml:space="preserve">
+    <value>Zeige Hilfe Menü</value>
+  </data>
+  <data name="psHELP_BTN_TXT" xml:space="preserve">
+    <value>&amp;Hilfe</value>
+  </data>
+  <data name="psHORIZ_OPT_TT" xml:space="preserve">
+    <value>Select Horizontal screen tile option</value>
+  </data>
+  <data name="psHORIZ_OPT_TXT" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="psINITIALIZING_MSG" xml:space="preserve">
+    <value>Initialisiere PAINTworks</value>
+  </data>
+  <data name="psLANG_DE_DE" xml:space="preserve">
+    <value>German - Germany</value>
+  </data>
+  <data name="psLANG_EN_UK" xml:space="preserve">
+    <value>English - UK</value>
+  </data>
+  <data name="psLANG_EN_US" xml:space="preserve">
+    <value>English - United States</value>
+  </data>
+  <data name="psLANG_ES_MX" xml:space="preserve">
+    <value>Spanish - Mexico</value>
+  </data>
+  <data name="psLANG_JA_JP" xml:space="preserve">
+    <value>Japanese - Japan</value>
+  </data>
+  <data name="psLANG_KO_KR" xml:space="preserve">
+    <value>Korean - Korea</value>
+  </data>
+  <data name="psLANG_PT_BR" xml:space="preserve">
+    <value>Portuguese - Brazil</value>
+  </data>
+  <data name="psLANG_ZH_CHS" xml:space="preserve">
+    <value>Chinese - PRC</value>
+  </data>
+  <data name="psLAST_LOGIN_STATUS" xml:space="preserve">
+    <value>Letztes Login am </value>
+  </data>
+  <data name="psLOGOFF_BTN_TT" xml:space="preserve">
+    <value>Log Off aktuellen PAINTworks User</value>
+  </data>
+  <data name="psLOGOFF_BTN_TXT" xml:space="preserve">
+    <value>Log Off</value>
+  </data>
+  <data name="psLOGON_BTN_TT" xml:space="preserve">
+    <value>Log On neuer PAINTworks User</value>
+  </data>
+  <data name="psLOGON_BTN_TXT" xml:space="preserve">
+    <value>Log On</value>
+  </data>
+  <data name="psMAINT_BTN_TAG" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="psMAINT_BTN_TT" xml:space="preserve">
+    <value>Zeige Wartungsmenü</value>
+  </data>
+  <data name="psMAINT_BTN_TXT" xml:space="preserve">
+    <value>&amp;Wart</value>
+  </data>
+  <data name="psMAX_PROG_RUN_MSG" xml:space="preserve">
+    <value>Max. Anzahl von Programmen läuft.</value>
+  </data>
+  <data name="psMT_COMMANDLINE" xml:space="preserve">
+    <value>Leere Kommandozeile.</value>
+  </data>
+  <data name="psNO_USER_TT" xml:space="preserve">
+    <value>Kein aktueller User.</value>
+  </data>
+  <data name="psNONE" xml:space="preserve">
+    <value>Keiner</value>
+  </data>
+  <data name="psOK_BTN_TXT" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="psOPERATE_BTN_TAG" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="psOPERATE_BTN_TT" xml:space="preserve">
+    <value>Zeige Manuelles Menü</value>
+  </data>
+  <data name="psOPERATE_BTN_TXT" xml:space="preserve">
+    <value>&amp;Manuell</value>
+  </data>
+  <data name="psPLC_COMM_DISC_TXT" xml:space="preserve">
+    <value>SPS getrennt!!</value>
+  </data>
+  <data name="psPLC_WATCHDOG_START_MSG" xml:space="preserve">
+    <value>Starte SPS Watchdog</value>
+  </data>
+  <data name="psPREV_INSTANCE_MSG" xml:space="preserve">
+    <value>Eine andere Instanz vonf PW4_Main läuft schon!</value>
+  </data>
+  <data name="psPRINTSCREEN_BTN_TT" xml:space="preserve">
+    <value>Drucke das Bild</value>
+  </data>
+  <data name="psPROCESS_BTN_TAG" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="psPROCESS_BTN_TT" xml:space="preserve">
+    <value>Zeige Prozess-Menü</value>
+  </data>
+  <data name="psPROCESS_BTN_TXT" xml:space="preserve">
+    <value>&amp;Prozess</value>
+  </data>
+  <data name="psPRODLOGR_START_MSG" xml:space="preserve">
+    <value>Starte Production Logger</value>
+  </data>
+  <data name="psPROG_RUNNING" xml:space="preserve">
+    <value>Programm läuft schon.</value>
+  </data>
+  <data name="psPW_ADMIN_FEATURES_TXT" xml:space="preserve">
+    <value>Administrator Features</value>
+  </data>
+  <data name="psPW_SHUTDN_RESTART_MSG" xml:space="preserve">
+    <value>Desktop nicht verfügbar. Computer wird neu gestartet. Weiter mit Shutdown?</value>
+  </data>
+  <data name="psPW_SHUTDN_CONFIRM_MSG" xml:space="preserve">
+    <value>Wollen sie PAINTworks wirklich runterfahren?</value>
+  </data>
+  <data name="psPW_SHUTDN_NOUSER_MSG" xml:space="preserve">
+    <value>Kann PAINTworks nicht runterfahren - Kein aktueller User.</value>
+  </data>
+  <data name="psPW_VERSION_TXT" xml:space="preserve">
+    <value>Version v.</value>
+  </data>
+  <data name="psPWD_MGR_START_MSG" xml:space="preserve">
+    <value>Starte Password-Manager</value>
+  </data>
+  <data name="psREGISTER_BTN_TXT" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="psREGISTERED_TO_TXT" xml:space="preserve">
+    <value>Registered To:</value>
+  </data>
+  <data name="psREPORTS_BTN_TAG" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="psREPORTS_BTN_TT" xml:space="preserve">
+    <value>Zeige Report-Menü</value>
+  </data>
+  <data name="psREPORTS_BTN_TXT" xml:space="preserve">
+    <value>&amp;Reports</value>
+  </data>
+  <data name="psSAMAN_START_MSG" xml:space="preserve">
+    <value>Starte Scattered Access Manager</value>
+  </data>
+  <data name="psSCHEDMAN_START_MSG" xml:space="preserve">
+    <value>Starte Schedule Manager</value>
+  </data>
+  <data name="psSHORT_CAP" xml:space="preserve">
+    <value>PAINTworks 3 .NET </value>
+  </data>
+  <data name="psSITE_NAME_TXT" xml:space="preserve">
+    <value>Site Name:</value>
+  </data>
+  <data name="psSYS_INFO_BTN_TXT" xml:space="preserve">
+    <value>System Info...</value>
+  </data>
+  <data name="psTILE_MODE_LBL_TXT" xml:space="preserve">
+    <value>Fensteranordnung</value>
+  </data>
+  <data name="psUNREGISTERED_TXT" xml:space="preserve">
+    <value>&lt;Unregistered&gt;</value>
+  </data>
+  <data name="psUSER" xml:space="preserve">
+    <value>User: </value>
+  </data>
+  <data name="psUTILITIES_BTN_TAG" xml:space="preserve">
+    <value>U</value>
+  </data>
+  <data name="psUTILITIES_BTN_TT" xml:space="preserve">
+    <value>Zeige Utilities Menü</value>
+  </data>
+  <data name="psUTILITIES_BTN_TXT" xml:space="preserve">
+    <value>&amp;Utilities</value>
+  </data>
+  <data name="psVERSIONS_BTN_TXT" xml:space="preserve">
+    <value>Versionen</value>
+  </data>
+  <data name="psVERT_OPT_TT" xml:space="preserve">
+    <value>Wähle vertikale Bildanordnung</value>
+  </data>
+  <data name="psVERT_OPT_TXT" xml:space="preserve">
+    <value>Vertikal</value>
+  </data>
+  <data name="psVIEW_BTN_TAG" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="psVIEW_BTN_TT" xml:space="preserve">
+    <value>Ansichts-Menü</value>
+  </data>
+  <data name="psVIEW_BTN_TXT" xml:space="preserve">
+    <value>&amp;Ansicht</value>
+  </data>
+  <data name="Redbell1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MainMenu\Redbell1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Redbell2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MainMenu\Redbell2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UNASGND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UNASGND.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellowbell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MainMenu\Yellowbell.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psNO_ACCESS" xml:space="preserve">
+    <value>User hat keine Erlaubnis für Bild: </value>
+  </data>
+  <data name="psAMERICA" xml:space="preserve">
+    <value>Amerika</value>
+  </data>
+  <data name="psHELOG_START_MSG" xml:space="preserve">
+    <value>Starte Hot Edit Logger</value>
+  </data>
+  <data name="psLANG_EN_CA" xml:space="preserve">
+    <value>English - Canada</value>
+  </data>
+  <data name="psSAMAN_WAIT_MSG" xml:space="preserve">
+    <value>Warte auf Scattered Access Manager</value>
+  </data>
+  <data name="psSTARTUPLOGTXT" xml:space="preserve">
+    <value>StartupLog.txt</value>
+  </data>
+  <data name="psSTARTUP_CMP_MSG" xml:space="preserve">
+    <value>PAINTworks Startup komplett.</value>
+  </data>
+  <data name="psVISIONLOGGER_START_MSG" xml:space="preserve">
+    <value>Starte Vision Logger</value>
+  </data>
+</root>

@@ -1,0 +1,91 @@
+
+<html>
+
+<head>
+    <title>PAINTworks Online Help - Configuration Menu - Job Setup - Intrtusion</title>
+    <object id="HHCTRL" type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+    </object>
+    <script type="text/javascript"
+        src="../common/help.js">
+        document.write("Included Jscript file not found, some help may not be available.");
+    </script>
+</head>
+
+
+<body background="../common/indtextb.jpg">
+<p><font size="5"><b>Intrusion Muting/Skid Gap Setup</b></font></p>
+<p>The purpose of this screen is to setup the software muting lengths and
+required Skid Gap for each
+style of vehicle painted in this booth. The entrance starting mute count
+is the conveyor counts from the entrance mute limit switch where muting starts.
+The exit
+starting mute count is the conveyor counts from the exit mute limit switch where
+muting starts.
+The Style Length is the amount of conveyor travel (cm) the photo eyes are muted once muting is started. Therefore, the
+entrance photo eyes are muted from Entrance Starting Mute Count&nbsp; to Entrance Starting Mute Count + the Style
+Length.&nbsp; The exit photo eyes are muted from Exit Starting Mute Count&nbsp;
+to Exit Starting Mute Count + the Style Length.&nbsp;The Skid Gap is the amount of conveyor travel (cm) to hold this Style at the
+gap stop prior to releasing it to maintain a uniform job gap.</p>
+<p>The Intrusion PEC setup and Skid Gap counts are read from and saved to the PLC.</p>
+
+<p><strong>Note: </strong>Changes to this screen can only be made
+by a user with sufficient access level. </p>
+
+<p>Click the area where you want help.</p>
+
+<p><map name="FPMap3">
+<area href="../[1.0]PAINTworksMainMenu/ConfigurationMenu.htm" shape="rect" 
+        coords="4, 20, 65, 70" ALT = "Closes the current screen.">
+<area href="JavaScript:HHCTRL.TextPopup(SaveButton,popfont,9,9,-1,-1)"shape="rect" 
+    coords="65, 20, 114, 70"   alt="Save surrent changes."/>
+<area href="JavaScript:HHCTRL.TextPopup(UndoButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="114, 20, 166, 70"   alt="Undo current changes."/>
+<area href="JavaScript:HHCTRL.TextPopup(PrintButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="166, 20, 220, 70"   alt="Print the setup data."/>
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="220, 20, 295, 70"   alt="Show changes made to this screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(UploadButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="295, 20, 358, 70" alt="Upload values from PLC"/>
+<area href="JavaScript:HHCTRL.TextPopup(StatusButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="358, 20, 402, 70" alt="Show current screen status."/>
+<area href="JavaScript:HHCTRL.TextPopup(UtilityImpExp,popfont,9,9,-1,-1)" shape="rect" 
+    coords="403, 20, 466, 70" alt="Import/Export Functions."/>
+
+
+<area href="JavaScript:HHCTRL.TextPopup(CboZone,popfont,9,9,-1,-1)" shape="rect"
+    coords="20, 96, 146, 116" alt="Click to select a zone.">
+    
+<area href="JobSetupStyles.htm" shape="rect" 
+        coords="11, 120, 107, 141" ALT = "Select the Style Tab.">
+<area href="JobSetupOptions.htm" shape="rect" 
+        coords="107, 120, 203, 141" ALT = "Select the Options Tab.">
+<area href="JobSetupRepair.htm" shape="rect" 
+        coords="204, 120, 294, 141" ALT = "Select the Repair Tab.">
+<area href="JobSetupIntrusion.htm" shape="rect" 
+        coords="294, 121, 438, 142" ALT = "Select the Intrusion/SkidGap Tab.">
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar,popfont,9,9,-1,-1)" shape="rect" 
+    coords="0, 673, 1023, 703" alt="Current status."/>
+
+
+
+<area href="JavaScript:HHCTRL.TextPopup(MutePlantStyle,popfont,9,9,-1,-1)" shape="rect" 
+    coords="46, 187, 114, 670" alt="Plant Style.">
+<area href="JavaScript:HHCTRL.TextPopup(MuteStyleDesc,popfont,9,9,-1,-1)" shape="rect" 
+    coords="124, 186, 362, 672" alt="Style Description.">
+        
+<area shape="rect" coords="397, 180, 456, 672"  
+        href="JavaScript:HHCTRL.TextPopup(EntStart,popfont,9,9,-1,-1)" 
+        Title="Entrance muting start position.">
+<area shape="rect" coords="480, 181, 537, 673"  
+        href="JavaScript:HHCTRL.TextPopup(ExStart,popfont,9,9,-1,-1)" 
+        Title="Exit muting start position.">
+<area shape="rect" coords="560, 180, 618, 673"  
+        href="JavaScript:HHCTRL.TextPopup(StyleLen,popfont,9,9,-1,-1)" 
+        Title="Muting body length for style.">
+
+</map><img src="images/Config_JobSetup_Intrusion.JPG" usemap="#FPMap3" width="1024" height="703"></p>
+
+</body>
+
+</html>

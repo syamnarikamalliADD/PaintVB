@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Versions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DmonViewer.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psADD_FOLDER" xml:space="preserve">
+    <value>Add A Folder</value>
+  </data>
+  <data name="psADD_ZIP" xml:space="preserve">
+    <value>Add A Zip File</value>
+  </data>
+  <data name="psAFTER_CAP" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="psAPPLY_FILTER" xml:space="preserve">
+    <value>Apply Filters</value>
+  </data>
+  <data name="psBEFORE_CAP" xml:space="preserve">
+    <value>Before</value>
+  </data>
+  <data name="psBIT" xml:space="preserve">
+    <value>Bit</value>
+  </data>
+  <data name="psCHART" xml:space="preserve">
+    <value>Chart</value>
+  </data>
+  <data name="psCLEAR_FILTERS" xml:space="preserve">
+    <value>Clear Filters</value>
+  </data>
+  <data name="psCOL_COLOR" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="psCOL_DATE" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="psCOL_DEVICE" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="psCOL_FILENAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="psCOL_LOCATION" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="psCOL_OPTION" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="psCOL_STYLE" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="psCOL_VIN" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="psCOL_ZONE" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="psCONFIG" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="psDMON_FILES" xml:space="preserve">
+    <value>DMON Files</value>
+  </data>
+  <data name="psEXPORT" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="psFLOAT" xml:space="preserve">
+    <value>Float</value>
+  </data>
+  <data name="psFOLDERS" xml:space="preserve">
+    <value>Folders/Archives</value>
+  </data>
+  <data name="psHIDE" xml:space="preserve">
+    <value>Hide folder list.</value>
+  </data>
+  <data name="psINTEGER" xml:space="preserve">
+    <value>Integer</value>
+  </data>
+  <data name="psITEM" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="psITEMS" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="psMAXDATA" xml:space="preserve">
+    <value>Maximum Value</value>
+  </data>
+  <data name="psMAXDRAW" xml:space="preserve">
+    <value>Chart Maximum</value>
+  </data>
+  <data name="psMINDATA" xml:space="preserve">
+    <value>Minimum value</value>
+  </data>
+  <data name="psMINDRAW" xml:space="preserve">
+    <value>Chart Minimum</value>
+  </data>
+  <data name="psNAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="psOffset" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="psOPEN_DMON_FILE" xml:space="preserve">
+    <value>Open DMON File</value>
+  </data>
+  <data name="psOPEN_DMON_FILE_FLTR" xml:space="preserve">
+    <value>All Files|*.*|DMON file|*.DT</value>
+  </data>
+  <data name="psOPEN_ZIP_FILE" xml:space="preserve">
+    <value>Select a zip file to open</value>
+  </data>
+  <data name="psOPEN_ZIP_FILE_FLTR" xml:space="preserve">
+    <value>Zip Files|*.Zip</value>
+  </data>
+  <data name="psREFRESH" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="psSCALE" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="psSCHEDULE" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="psSCREENCAPTION" xml:space="preserve">
+    <value>DMON Viewer</value>
+  </data>
+  <data name="psSECONDS" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="psSHOW" xml:space="preserve">
+    <value>Show folder list.</value>
+  </data>
+  <data name="psTABLE" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="psTYPE" xml:space="preserve">
+    <value>Integer</value>
+  </data>
+  <data name="psUNITS" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="psBOOTP_CFG" xml:space="preserve">
+    <value>Bootp Setup</value>
+  </data>
+  <data name="psCOMPSELBASE" xml:space="preserve">
+    <value>Select Base File</value>
+  </data>
+  <data name="psCOMPSELCOMP" xml:space="preserve">
+    <value>Select Compare File</value>
+  </data>
+  <data name="psROB_DIR_ERR1" xml:space="preserve">
+    <value>Unable to retrieve file autobackup directory from FRA: device on </value>
+  </data>
+  <data name="psROB_DIR_ERR2" xml:space="preserve">
+    <value> Reading directory from robot memory device.</value>
+  </data>
+  <data name="psSAVED_" xml:space="preserve">
+    <value>Saved </value>
+  </data>
+  <data name="psTFTP_CFG" xml:space="preserve">
+    <value>TFTP Setup</value>
+  </data>
+  <data name="ps_BASE" xml:space="preserve">
+    <value> - Base File</value>
+  </data>
+  <data name="ps_COMPARE" xml:space="preserve">
+    <value> - Compare File</value>
+  </data>
+  <data name="ps_FVC_CHILD_STAT1" xml:space="preserve">
+    <value>Date Modified: </value>
+  </data>
+  <data name="ps_FVC_CHILD_STAT2" xml:space="preserve">
+    <value>, Line: </value>
+  </data>
+  <data name="ps_FVC_CHILD_STAT3" xml:space="preserve">
+    <value>, Column: </value>
+  </data>
+  <data name="psMULTIPLEX" xml:space="preserve">
+    <value>MultiPlex</value>
+  </data>
+  <data name="psDMONVIEWER" xml:space="preserve">
+    <value>DMON Viewer</value>
+  </data>
+  <data name="psEXPORT_CFG" xml:space="preserve">
+    <value>Export Configuration File</value>
+  </data>
+  <data name="psIMPORT_CFG" xml:space="preserve">
+    <value>Import Configuration File</value>
+  </data>
+  <data name="psOPEN_XML_FILE" xml:space="preserve">
+    <value>Select an XML file to open</value>
+  </data>
+  <data name="psOPEN_XML_FILE_FLTR" xml:space="preserve">
+    <value>XML Files|*.XML</value>
+  </data>
+  <data name="psREMEMBER_FOLDER" xml:space="preserve">
+    <value>Remember this folder?</value>
+  </data>
+  <data name="psREMOVE_FOLDER" xml:space="preserve">
+    <value>This folder was saved for loading at startup.  Remove permanently?</value>
+  </data>
+  <data name="psREMOVE_ITEM" xml:space="preserve">
+    <value>Remove Item</value>
+  </data>
+</root>

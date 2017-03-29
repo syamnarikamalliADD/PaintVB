@@ -1,0 +1,17 @@
+C:\Paint\Source\PWInstall\bin\PWInstall.exe
+C:\Paint\Source\PWInstall\bin\PWInstall.pdb
+C:\Paint\Source\PWInstall\bin\PWInstall.xml
+C:\Paint\Source\PWInstall\bin\en-CA\PWInstall.resources.dll
+C:\Paint\Source\PWInstall\bin\es-ES\PWInstall.resources.dll
+C:\Paint\Source\PWInstall\bin\Ionic.Zip.dll
+C:\Paint\Source\PWInstall\obj\Debug\ResolveAssemblyReference.cache
+C:\Paint\Source\PWInstall\obj\Debug\PWInstall.frmMain.resources
+C:\Paint\Source\PWInstall\obj\Debug\PWInstall.ProjectStrings.resources
+C:\Paint\Source\PWInstall\obj\Debug\PWInstall.ProjectStrings.en-CA.resources
+C:\Paint\Source\PWInstall\obj\Debug\PWInstall.ProjectStrings.es-ES.resources
+C:\Paint\Source\PWInstall\obj\Debug\PWInstall.vbproj.GenerateResource.Cache
+C:\Paint\Source\PWInstall\obj\Debug\en-CA\PWInstall.resources.dll
+C:\Paint\Source\PWInstall\obj\Debug\es-ES\PWInstall.resources.dll
+C:\Paint\Source\PWInstall\obj\Debug\PWInstall.exe
+C:\Paint\Source\PWInstall\obj\Debug\PWInstall.xml
+C:\Paint\Source\PWInstall\obj\Debug\PWInstall.pdb

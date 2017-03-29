@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;tscMain.BottomToolStripPanel.Name" xml:space="preserve">
+    <value>tscMain.BottomToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;tscMain.BottomToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tscMain.BottomToolStripPanel.Parent" xml:space="preserve">
+    <value>tscMain</value>
+  </data>
+  <data name="&gt;&gt;tscMain.BottomToolStripPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnDefault.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt</value>
+  </data>
+  <data name="btnDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 342</value>
+  </data>
+  <data name="btnDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 27</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnDefault.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="btnDefault.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.Name" xml:space="preserve">
+    <value>btnDefault</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.Parent" xml:space="preserve">
+    <value>tscMain.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkEnable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkEnable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt</value>
+  </data>
+  <data name="chkEnable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 342</value>
+  </data>
+  <data name="chkEnable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 26</value>
+  </data>
+  <data name="chkEnable.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="chkEnable.Text" xml:space="preserve">
+    <value>Enable Overrides</value>
+  </data>
+  <data name="&gt;&gt;chkEnable.Name" xml:space="preserve">
+    <value>chkEnable</value>
+  </data>
+  <data name="&gt;&gt;chkEnable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkEnable.Parent" xml:space="preserve">
+    <value>tscMain.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;chkEnable.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tkbParm04.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tkbParm04.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 288</value>
+  </data>
+  <data name="tkbParm04.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 42</value>
+  </data>
+  <data name="tkbParm04.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;tkbParm04.Name" xml:space="preserve">
+    <value>tkbParm04</value>
+  </data>
+  <data name="&gt;&gt;tkbParm04.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tkbParm04.Parent" xml:space="preserve">
+    <value>tscMain.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;tkbParm04.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblParm04.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblParm04.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblParm04.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 261</value>
+  </data>
+  <data name="lblParm04.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 24</value>
+  </data>
+  <data name="lblParm04.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblParm04.Text" xml:space="preserve">
+    <value>Estat - 100%</value>
+  </data>
+  <data name="lblParm04.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblParm04.Name" xml:space="preserve">
+    <value>lblParm04</value>
+  </data>
+  <data name="&gt;&gt;lblParm04.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblParm04.Parent" xml:space="preserve">
+    <value>tscMain.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;lblParm04.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tkbParm03.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tkbParm03.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 209</value>
+  </data>
+  <data name="tkbParm03.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 42</value>
+  </data>
+  <data name="tkbParm03.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;tkbParm03.Name" xml:space="preserve">
+    <value>tkbParm03</value>
+  </data>
+  <data name="&gt;&gt;tkbParm03.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tkbParm03.Parent" xml:space="preserve">
+    <value>tscMain.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;tkbParm03.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblParm03.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblParm03.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblParm03.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 182</value>
+  </data>
+  <data name="lblParm03.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 24</value>
+  </data>
+  <data name="lblParm03.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblParm03.Text" xml:space="preserve">
+    <value>Fan - 100%</value>
+  </data>
+  <data name="lblParm03.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblParm03.Name" xml:space="preserve">
+    <value>lblParm03</value>
+  </data>
+  <data name="&gt;&gt;lblParm03.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblParm03.Parent" xml:space="preserve">
+    <value>tscMain.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;lblParm03.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tkbParm02.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tkbParm02.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 130</value>
+  </data>
+  <data name="tkbParm02.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 42</value>
+  </data>
+  <data name="tkbParm02.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;tkbParm02.Name" xml:space="preserve">
+    <value>tkbParm02</value>
+  </data>
+  <data name="&gt;&gt;tkbParm02.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tkbParm02.Parent" xml:space="preserve">
+    <value>tscMain.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;tkbParm02.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblParm02.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblParm02.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblParm02.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 103</value>
+  </data>
+  <data name="lblParm02.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 24</value>
+  </data>
+  <data name="lblParm02.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblParm02.Text" xml:space="preserve">
+    <value>Atom - 100%</value>
+  </data>
+  <data name="lblParm02.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblParm02.Name" xml:space="preserve">
+    <value>lblParm02</value>
+  </data>
+  <data name="&gt;&gt;lblParm02.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblParm02.Parent" xml:space="preserve">
+    <value>tscMain.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;lblParm02.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tkbParm01.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tkbParm01.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 52</value>
+  </data>
+  <data name="tkbParm01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 42</value>
+  </data>
+  <data name="tkbParm01.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tkbParm01.Name" xml:space="preserve">
+    <value>tkbParm01</value>
+  </data>
+  <data name="&gt;&gt;tkbParm01.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tkbParm01.Parent" xml:space="preserve">
+    <value>tscMain.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;tkbParm01.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblParm01.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblParm01.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblParm01.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="lblParm01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 24</value>
+  </data>
+  <data name="lblParm01.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblParm01.Text" xml:space="preserve">
+    <value>Paint - 100%</value>
+  </data>
+  <data name="lblParm01.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblParm01.Name" xml:space="preserve">
+    <value>lblParm01</value>
+  </data>
+  <data name="&gt;&gt;lblParm01.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblParm01.Parent" xml:space="preserve">
+    <value>tscMain.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;lblParm01.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tscMain.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 419</value>
+  </data>
+  <data name="&gt;&gt;tscMain.ContentPanel.Name" xml:space="preserve">
+    <value>tscMain.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;tscMain.ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tscMain.ContentPanel.Parent" xml:space="preserve">
+    <value>tscMain</value>
+  </data>
+  <data name="&gt;&gt;tscMain.ContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tscMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tscMain.LeftToolStripPanel.Name" xml:space="preserve">
+    <value>tscMain.LeftToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;tscMain.LeftToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tscMain.LeftToolStripPanel.Parent" xml:space="preserve">
+    <value>tscMain</value>
+  </data>
+  <data name="&gt;&gt;tscMain.LeftToolStripPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tscMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tscMain.RightToolStripPanel.Name" xml:space="preserve">
+    <value>tscMain.RightToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;tscMain.RightToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tscMain.RightToolStripPanel.Parent" xml:space="preserve">
+    <value>tscMain</value>
+  </data>
+  <data name="&gt;&gt;tscMain.RightToolStripPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tscMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 479</value>
+  </data>
+  <data name="tscMain.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tscMain.Text" xml:space="preserve">
+    <value>tscMain</value>
+  </data>
+  <metadata name="tlsMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="tlsMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnClose.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnClose.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="btnClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAACYpJREFUaEPtmftz
+        VdUVx/0DqqIWKSCdNMQQggmEgATS8mphrIotHXwADTi8tPiA1toKtbYOYCtDW99aHjKT2NpJAEdiUEno
+        tAmxxlimjYmdkfhoCO2QpIwWyEDHmdX9Wfeuw747596kERl/aGbW7H3OvWfv73et71p7nZsLLvj/X8ID
+        f506SVpvXSqnVi6X3rJF0rvwJrVTC+Yn5rcukd7bV8mpH60TvvuZ8BuAAWPWveYu6f3+96T3vh8kRmzt
+        Gum9Y7Ua5LBD866NnmGN807GAEfeBaADe/qnP5HTP/+ZnH7kV3J68+aEcf3j+xOkkiSIyMl5X5eTs0t1
+        bF948/khAfATc2fppioLgDtgBvrMM0/LmfLys7Z9u3BPCRkRosJzTmY44NS1c5TIkeJ8aZv/DXnlgQc+
+        HTLq9a9MTWgaPTsQeFaBPf6YnAGsD97mPgEXIY2Ek5Xlik+iZ85Mee+G6849AcB3TS9JeB7wDkAKePM8
+        JMwA7ohF3t+44ayULC9YCznNn6eR6J3h9igtliOzvnzuSAC+e+Y03aSP55EGIH3jHkY+YKb/MKldRdL1
+        kpUK5yDPiISTVE1B3icjEiUr3kHzbGrex6PIB2PuwFIitfJYsgKQkooxDy1ZajWhAwKdJUXSXpAtFYX5
+        gyfRM21iIsnM+0kCVioVcFLTSi6ZmAaG5MSrGOvYWioZl0uMPng/At2TxmliN48fRBTwPB7QcFrFSR5E
+        CjRpcYmIhk8W5UR2ojArMZ+cLydLCnVNXdeRI2m1qlFOk2YSMgIdBaOlrnj8wCPBwdJcXKDJZCUzqvcu
+        5B1LyqRm1SrZfdttsn/RQgWhoAHogAL4o3Ej1P6VnzDm3Dfjezho7/XXSdUN10v9NXP1WtdxJDElMCFX
+        ZfTGVTmyp6hgYCQ6Z0zVhfCEEdBQOzt68wJpXLFcnnzwQfnlpk2y85575C9zZutGBpqxK2+Y/CPv8si4
+        NiLMD48dKX8onSKbV6yQTWvXyo6VK+VNtw6SVUc46y7KFbwPgbeuypbGnOEDI3B44lhdyAiYhhnx+HMP
+        Pyw1Bw/KvuZmeaG6Wrbefbf8cXKRgjbgH4y5XNpzhwqjGYT4nPuVLjHXl5XJ49u2ya9ramRHZaX8ds0a
+        aZzz1ShKXYXZEfiWvFGC9ZvQaJ/EMQKm16PXfE0avr1YqrdskZq6Omnv7JSOri55+913pXrvXnnxu2ul
+        rmRSCmiA+iSYt1w5VEE8snSpgj/Y0iKtHR1y6J131Bmcwm2uTyKiECBSh/KuUGvOHSE1WZdlJoH3jYBq
+        EU06e2/ubKm8606p3r1b3nTg//Pxx5FxDQk8WF80Tlpzv6DAfQLM3xj9efX8Q0nwRPDYiRMp6xxw6yNR
+        xZF/hRIAOIaEDuSMkG1jr4wvqyQveoM9CWRVAyKcws1u4UYX6pAAZPAikSEniISRMCnh+fIJBXL/smXy
+        zM6d0tTWluIEc8g/nZyavvVNxcGzh8cMj8A3ZF+mJMqzR8ZHAfmQLDxMAmGWUIxUib+tWiktVVXSfuxY
+        ivfwJLKCRPV9P5RXSktULhie3+2uyZWtFRUK/tjx4ykEent65KP9++XvLsrsD3CcgOF9wON9xoqsYekJ
+        kCgsQPajQavnlD+qCPKCRPO+fQrYl4BGwhGrdSSev/deTezGcdlSO6VYdqxbJ7/bs0dea2/v8wzg//36
+        67ou0jHpAR4H4HWAo//arEulKmuo/GL4kL4yovZDAN35JIiE1XOVhCPYcstN8rZLuvc//LCPFIhOU0OD
+        vLBxoyY344H6epWZnzs2x/PvLy3T6BMti5wPHuAQwPZ+8RJ5esSQ1CjQh0OAcBkJiJBIvpl32IycQE4f
+        HD3aBxgVqrWpKbJQcoDH82gezxt4I8BohveNAOCJwPOjAgJ/nj5NTzvCBQnCBwEjoXOnSyuFqm33/abF
+        i1ROcSTivG33TDZtZYtVZoD0QfvgTT7mfcD3IfDa+LEK3gyASsKB9s0PL5uwOVWDSMTJKR0JPI8MDTwg
+        jYQ/mvdN+waeSKQcamS4ZTkPqZSSVcSqgSVV6ClAULshEVaXkACe79y1S+VHBA04AG0ejnwGYAPPGEvA
+        stz3hu9xK4lxoabi/Gn9Oq1MmaRz/MgROXTnHXrgZQLtez6UjhFZP/Sis5Xo1fycKMv9hePAhvf4/kuu
+        m6x94ol+c4EIvPXUU9p92j5xI/f8xPUjQAWCRAoBPFiTO0pDExeJuCSz5CqfOEHrPvW/PwnpWeGqU8Om
+        jVI9vVRBZjK/6gDawDOmEKALNAJxJOISjI1JpC2rV+shFddixMmJw8/OiV2TJ0YO84mYbELPA9wshQC/
+        jFXnj9bQ8FB/JNjg0QmFssH187TCdJOZtB9+xrnA4UbkfjN1iu4XHlZh4hpwTuGHhl2cGgEIPJo9Ksr0
+        kISfF3z2ZH6uvoxYYxbX21BtME5atB+S4GTe784QSCBD29NGv+r4no8FDwHTl19rw0hwTTvLywjg6efj
+        SmW36204H5AmXS7XYd9kvROtOI0e3SqnbDrPGwkILBlyYd9eiI1CEiYp06TJJuoqvX7eiOB1TmhySvsX
+        99sOdZ/eKZaEi4Q1gM+WXJ1S733PIx0M7ffRv/06TKvqZ7sRYNx29SRN2HTgrbehzgPeehaNoiPx+9Xf
+        Sdt2kBOQeHHDBoEEOOLAQ+D2Sy5MT4CXBb9UmZzKx2RH4OtaW9PLxnneikEohyp31rzs3qmpQHHl1qoT
+        b3bb3X5+0pr30+rf/33eIuDLCY88O3OG7HKHED19qHuTjV/J/OiZrpWEkypvdnG9E+3Ic7NnydYvjVS5
+        WMVJW3ni/rGgbzxBCAHDopXufZbNTcsmGzQOOL9ypJvzPX5Xoov1qxMNHvdD8HjdPJ9W+z4RSqSvP3+O
+        xJBBj6v7bE514deKgYK36Gokblygz7MO63ENeAMcAh8QeCPClwFO6PzR3oTq3bsrzRujgY+rYGEt9+VZ
+        kTdan2ed2uXLtDz74MFg1yTuoP4NZTr0RyNBG0ArYREysD6RsCCEkeV5DjGSNg58xpI5EEY+cDZIRyid
+        5NLd9xM0k2T+J9mkI2RyCjcKo2JyC0H790OHhF43j1vSxp64A/F83HdCAnbtl7owQpY/AwVuBAat+Uzk
+        /KRKRyYklel7BjZuHKyT+33OD3G6pPPLX6bEjAN+TiXTHxvCbFoNR4tWJi/7cjmvwP2zwhor/6T05/0R
+        +FS03p/nM32OJwFlxPyROZ/fcvHnBncofRJgn+Vn/wvfJa4BatFO3gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnClose.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 57</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnClose.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="btnClose.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnSave.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="btnSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAQtJREFUWEftmAEO
+        wiAMRTk6R9tRuEmlamdXYCB+yDIxIWg25PW3He2cu+CHItPMkZWAtm3bh/eeiBx40GGPt9EJzHCQEEIC
+        wgZbkjxIdFW886NM7btc1/O+5qUIKyEzg1iYMoi46GyT3DVep8BFkX4Qa10P0NOYNEZwiojVXygiScHK
+        YEG0CySmTmKkDwSYwqWsaQtWIMhvMQIEWYrYI2Ipci9FONXYp8hZlxnNh55dNOJ30yN+xMb3UgRVy2pV
+        ulyjF8nRXZulANKnLRTEqlMCmgKSqyks0AL5b0V0wKKDlRuuQ29TSrVa2qrKPOnsWtJXOr9pTbg2KGmA
+        W61F35d9LYDepPZ/l3s98wBjskhmqSaQQgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnSave.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 57</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSave.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="btnSave.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="tlsMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlsMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 60</value>
+  </data>
+  <data name="tlsMain.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tlsMain.Name" xml:space="preserve">
+    <value>tlsMain</value>
+  </data>
+  <data name="&gt;&gt;tlsMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlsMain.Parent" xml:space="preserve">
+    <value>tscMain.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;tlsMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tscMain.TopToolStripPanel.Name" xml:space="preserve">
+    <value>tscMain.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;tscMain.TopToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tscMain.TopToolStripPanel.Parent" xml:space="preserve">
+    <value>tscMain</value>
+  </data>
+  <data name="&gt;&gt;tscMain.TopToolStripPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tscMain.Name" xml:space="preserve">
+    <value>tscMain</value>
+  </data>
+  <data name="&gt;&gt;tscMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tscMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tscMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>429, 479</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>PAINTworks</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmOverrides</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

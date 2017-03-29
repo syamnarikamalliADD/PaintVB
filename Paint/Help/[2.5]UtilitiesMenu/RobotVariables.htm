@@ -1,0 +1,87 @@
+
+<html>
+
+<head>
+	<title>PAINTworks Online Help - Utilities - Variables</title>
+    <object id="HHCTRL" type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+    </object>
+    <script type="text/javascript"
+        src="../common/help.js">
+        document.write("Included Jscript file not found, some help may not be available.");
+    </script>
+<script type="text/javascript">                                                            
+    function ShowList(){
+        screenshot.src='Images/Utility_RobotVariables.jpg'
+        screenshot.useMap='#FPMap3'
+    }
+    function ShowBrowse(){
+        screenshot.src='Images/Utility_RobotVariables_Browse.jpg'
+        screenshot.useMap='#FPMap2'
+    }
+</script>
+</head>
+
+<body background="../common/indtextb.jpg">
+<p><b><font size="5">Robot Variables</font></b></p>
+<p>This screen is used to read and write system variables and program variables
+in the robot controller. The data types that can be accessed are the simple data
+types (integer, real, Boolean, and string) and individual array elements.&nbsp;</p>
+<p><b>Note:</b> Changes to robot variables can
+only be made by an operator with sufficient access level.</p>
+<p><b>Click</b> the<b> Area</b> where you want help.</p>
+
+<map name="FPMap3">
+<area href="../[1.0]PAINTworksMainMenu/UtilitiesMenu.htm" shape="rect" 
+        coords="1, 21, 73, 84" alt = "Closes current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(Save,popfont,9,9,-1,-1)" shape="rect" 
+        coords="73, 19, 137, 86" alt="Save changes."/>
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="134, 19, 238, 85" 
+        alt = "Show change log summary for current screen."/>
+<area shape="rect" coords="23, 120, 183, 145"  
+        href="JavaScript:HHCTRL.TextPopup(CboZone,popfont,9,9,-1,-1)" 
+        alt="Select a zone." />
+<area href="JavaScript:HHCTRL.TextPopup(CboRobot,popfont,9,9,-1,-1)" shape="rect" 
+        coords="190, 119, 360, 145" 
+        ALT = "Select the device to be modified/viewed.">
+<area href="JavaScript:HHCTRL.TextPopup(VariableInfo,popfont,9,9,-1,-1)" 
+        shape="rect" coords="15, 164, 296, 603" 
+        ALT = "Displays selected variable vitals.">
+<area href="JavaScript:HHCTRL.TextPopup(VariableList,popfont,9,9,-1,-1)" 
+        shape="rect" coords="305, 249, 573, 561" 
+        ALT = "Lists current device's variables.">
+<area href="JavaScript:HHCTRL.TextPopup(VariableValue,popfont,9,9,-1,-1)" 
+        shape="rect" coords="573, 190, 833, 246" 
+        ALT = "Displays current variable's value.">
+<area href="JavaScript:HHCTRL.TextPopup(WriteValueButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="577, 259, 839, 283" 
+        ALT = "Write changes to selected variable.">
+<area href="JavaScript:HHCTRL.TextPopup(WriteVariableValue,popfont,9,9,-1,-1)" 
+        shape="rect" coords="578, 298, 838, 322" ALT = "Change to be made field.">
+<area href="JavaScript:HHCTRL.TextPopup(AddVariableButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="525, 167, 570, 188" 
+        ALT = "Press to add a variable to the list.">
+<area href="JavaScript:HHCTRL.TextPopup(AddVariableText,popfont,9,9,-1,-1)" 
+        shape="rect" coords="303, 193, 568, 214" 
+        ALT = "Variable to add to the list.">
+<area onclick="ShowBrowse()"
+        shape="rect" coords="304, 222, 569, 248" 
+        ALT = "Select to browse variables.">
+<area href="JavaScript:HHCTRL.TextPopup(RemVariableButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="576, 165, 639, 185" 
+        Title="Remove a variable from the list.">
+
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar,popfont,9,9,-1,-1)" shape="rect" 
+        coords="0, 612, 631, 647">
+<area shape="rect" coords="632, 612, 906, 647"  
+        href="JavaScript:HHCTRL.TextPopup(RobotsOnline,popfont,9,9,-1,-1)" 
+        Title="Click for help">
+
+</map>
+
+<img name="screenshot" border="0" src="images/Utility_RobotVariables.JPG" usemap="#FPMap3" >
+
+</body>
+
+</html>

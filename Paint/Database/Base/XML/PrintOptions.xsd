@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PrintOptions" >
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ScreenOptions" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="PrintOptions" msprop:Generator_DataSetName="PrintOptions">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:sequence>
+              	<xs:element name="ScreenName" msprop:Generator_UserColumnName="ScreenName" msprop:Generator_ColumnPropNameInRow="ScreenName" msprop:Generator_ColumnVarNameInTable="columnScreenName" msprop:Generator_ColumnPropNameInTable="ScreenNameColumn" type="xs:string" minOccurs="0" />
+              	<xs:element name="SplitTables" msprop:Generator_UserColumnName="SplitTables" msprop:Generator_ColumnPropNameInRow="SplitTables" msprop:Generator_ColumnVarNameInTable="columnSplitTables" msprop:Generator_ColumnPropNameInTable="SplitTablesColumn" type="xs:boolean" minOccurs="0" />
+		<xs:element name="MaxRows" msprop:Generator_UserColumnName="MaxRows" msprop:Generator_ColumnPropNameInRow="MaxRows" msprop:Generator_ColumnVarNameInTable="columnMaxRows" msprop:Generator_ColumnPropNameInTable="MaxRowsColumn" type="xs:integer" minOccurs="0" />
+            </xs:sequence>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

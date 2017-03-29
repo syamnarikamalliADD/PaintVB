@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SealerDiag" targetNamespace="http://tempuri.org/SealerDiag.xsd" xmlns:mstns="http://tempuri.org/SealerDiag.xsd" xmlns="http://tempuri.org/SealerDiag.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SealerDiag" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SealerDiag" msprop:Generator_DataSetName="SealerDiag">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Diagnostic">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DiagID" type="xs:int" default="0" />
+              <xs:element name="Display" type="xs:boolean" default="true" />
+              <xs:element name="Name" type="xs:string" default="" />
+			  <xs:element name="LogFileName" type="xs:string" default="" />
+              <xs:element name="DurationMins" type="xs:int" default="0" />
+              <xs:element name="DurationSecs" type="xs:int" default="0" />
+              <xs:element name="Interval" type="xs:int" default="0" />
+              <xs:element name="JobNumber" type="xs:int" default="0" />
+              <xs:element name="StartupMsgBitMask" type="xs:int" default="0" />
+              <xs:element name="TPStatusMsgs" type="xs:boolean" default="false" />
+              <xs:element name="DataFileName" type="xs:string" default="" />
+              <xs:element name="HeaderLineNum" type="xs:int" default="0" />
+              <xs:element name="DelimCharNum" type="xs:int" default="0" />
+              <xs:element name="HelpDocPath" type="xs:string" default="" />
+              <xs:element name="MaintDocPath" type="xs:string" default="" />
+              <xs:element name="ScreenCaptureFile" type="xs:string" default="" />
+              <xs:element name="StatusGridType" type="xs:string" default="" />
+              <xs:element name="RobotMask" type="xs:int" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CleanupConfig">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="Minimum" type="xs:int" default="0" />
+               <xs:element name="Maximum" type="xs:int" default="0" />
+               <xs:element name="SpanUnit" type="xs:string" default="" />
+               <xs:element name="SpanValue" type="xs:int" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Plot">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="DiagID" type="xs:int" default="0" />
+               <xs:element name="Index" type="xs:int" default="0" />
+               <xs:element name="DiagName" type="xs:string" default="" />
+               <xs:element name="Enable" type="xs:boolean" default="false" />
+               <xs:element name="XAxisTitle" type="xs:string" default="" />
+               <xs:element name="XAxisUnits" type="xs:string" default="" />
+               <xs:element name="YAxisTitle" type="xs:string" default="" />
+               <xs:element name="YAxisUnits" type="xs:string" default="" />
+               <xs:element name="YAxis2Title" type="xs:string" default="" />
+               <xs:element name="YAxis2Units" type="xs:string" default="" />
+               <xs:element name="PlotAllData" type="xs:boolean" default="false" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Parameter">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="DiagID" type="xs:int" default="0" />
+               <xs:element name="DiagName" type="xs:string" default="" />
+               <xs:element name="ParamIndex" type="xs:int" default="0" />
+               <xs:element name="Name" type="xs:string" default="" />
+               <xs:element name="Units" type="xs:string" default="" />
+               <xs:element name="ProgName" type="xs:string" default="" />
+               <xs:element name="VarName" type="xs:string" default="" />
+               <xs:element name="Value" type="xs:string" default="" />
+               <xs:element name="Min" type="xs:string" default="" />
+               <xs:element name="Max" type="xs:string" default="" />
+               <xs:element name="Default" type="xs:string" default="" />
+               <xs:element name="Type" type="xs:string" default="" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RobotStatus">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="DiagID" type="xs:int" default="0" />
+               <xs:element name="DiagName" type="xs:string" default="" />
+               <xs:element name="RobotIndex" type="xs:int" default="0" />
+               <xs:element name="TestEnable" type="xs:boolean" default="true" />
+               <xs:element name="LastRun" type="xs:string" default="" />
+               <xs:element name="LastPassed" type="xs:string" default="" />
+               <xs:element name="UserName" type="xs:string" default="" />
+               <xs:element name="Result" type="xs:string" default="" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VisionStatus">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="DiagID" type="xs:int" default="0" />
+               <xs:element name="DiagName" type="xs:string" default="" />
+               <xs:element name="Index" type="xs:int" default="0" />
+               <xs:element name="Name" type="xs:string" default="" />
+               <xs:element name="JobNumber" type="xs:int" default="0" />
+               <xs:element name="LastRun" type="xs:string" default="" />
+               <xs:element name="LastPassed" type="xs:string" default="" />
+               <xs:element name="UserName" type="xs:string" default="" />
+               <xs:element name="Result" type="xs:string" default="" />
+               <xs:element name="RobotMask" type="xs:int" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+		<xs:element name="DataField">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="DiagID" type="xs:int" default="0" />
+               <xs:element name="Index" type="xs:int" default="0" />
+               <xs:element name="DiagName" type="xs:string" default="" />
+               <xs:element name="Enable" type="xs:boolean" default="false" />
+               <xs:element name="ColName" type="xs:string" default="" />
+               <xs:element name="ColLabel" type="xs:string" default="" />
+               <xs:element name="Units" type="xs:string" default="" />
+               <xs:element name="Conversion" type="xs:string" default="" />
+               <xs:element name="ProgName" type="xs:string" default="" />
+               <xs:element name="VarName" type="xs:string" default="" />
+               <xs:element name="FileIndex" type="xs:int" default="0" />
+               <xs:element name="IsStatus" type="xs:boolean" default="false" />
+               <xs:element name="Show" type="xs:boolean" default="false" />
+               <xs:element name="PlotYAxis" type="xs:boolean" default="false" />
+               <xs:element name="PlotYAxis2" type="xs:boolean" default="false" />
+               <xs:element name="PlotRangeLine" type="xs:boolean" default="false" />
+               <xs:element name="PlotNegRangeLine" type="xs:boolean" default="false" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+		<xs:element name="TEST_IPS_MASTER">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="Logged" type="xs:string" default="" />
+               <xs:element name="Robot" type="xs:string" default="" />
+               <xs:element name="MaxMasteringError" type="xs:decimal" default="0" />
+			   <xs:element name="MeterAError" type="xs:decimal" default="0" />
+			   <xs:element name="MeterBError" type="xs:decimal" default="0" />
+			   <xs:element name="MeterAStatus" type="xs:integer" default="0" />
+			   <xs:element name="MeterBStatus" type="xs:integer" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+		<xs:element name="TEST_PREPRESS_RESP_ISD">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="Logged" type="xs:string" default="" />
+               <xs:element name="Robot" type="xs:string" default="" />
+               <xs:element name="MaxPrepressureTime" type="xs:decimal" default="0" />
+			   <xs:element name="MaxOvershoot" type="xs:decimal" default="0" />
+			   <xs:element name="IncreasePerformanceStatus" type="xs:integer" default="0" />
+			   <xs:element name="IncreaseOvershootStatus" type="xs:integer" default="0" />
+			   <xs:element name="DecreasePerformanceStatus" type="xs:integer" default="0" />
+			   <xs:element name="DecreaseOvershootStatus" type="xs:integer" default="0" />
+			   </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+		<xs:element name="TEST_PRESS_FLOW_ISD">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="Logged" type="xs:string" default="" />
+               <xs:element name="Robot" type="xs:string" default="" />
+			   <xs:element name="Status" type="xs:integer" default="0" />
+			   </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+		<xs:element name="TEST_PRESS_RESP">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="Logged" type="xs:string" default="" />
+               <xs:element name="Robot" type="xs:string" default="" />
+               <xs:element name="MaxPressureTime" type="xs:decimal" default="0" />
+			   <xs:element name="MaxOvershoot" type="xs:decimal" default="0" />
+			   <xs:element name="MeterAIncreaseStatus" type="xs:integer" default="0" />
+			   <xs:element name="MeterAIncreaseOvershoot" type="xs:integer" default="0" />
+			   <xs:element name="MeterADecreaseStatus" type="xs:integer" default="0" />
+			   <xs:element name="MeterADecreaseOvershoot" type="xs:integer" default="0" />
+			   <xs:element name="MeterBIncreaseStatus" type="xs:integer" default="0" />
+			   <xs:element name="MeterBIncreaseOvershoot" type="xs:integer" default="0" />
+			   <xs:element name="MeterBDecreaseStatus" type="xs:integer" default="0" />
+			   <xs:element name="MeterBDecreaseOvershoot" type="xs:integer" default="0" />
+			   <xs:element name="MeterAIncreaseTime" type="xs:decimal" default="0" />
+			   <xs:element name="MeterAIncreaseOvershootTime" type="xs:decimal" default="0" />
+			   <xs:element name="MeterADecreaseTime" type="xs:decimal" default="0" />
+			   <xs:element name="MeterADecreaseOvershootTime" type="xs:decimal" default="0" />
+			   <xs:element name="MeterBIncreaseTime" type="xs:decimal" default="0" />
+			   <xs:element name="MeterBIncreaseOvershootTime" type="xs:decimal" default="0" />
+			   <xs:element name="MeterBDecreaseTime" type="xs:decimal" default="0" />
+			   <xs:element name="MeterBDecreaseOvershootTime" type="xs:decimal" default="0" />
+			 </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+		<xs:element name="TEST_TEMP_CNTRL">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="Logged" type="xs:string" default="" />
+               <xs:element name="Robot" type="xs:string" default="" />
+               <xs:element name="TempThreshold" type="xs:decimal" default="0" />
+			   <xs:element name="MaxTemperatureOvershoot" type="xs:decimal" default="0" />
+			   <xs:element name="TCUTimeDelay" type="xs:decimal" default="0" />
+			   <xs:element name="TCUHeatingStatus" type="xs:integer" default="0" />
+			   <xs:element name="TCUHeatingOvershoot" type="xs:integer" default="0" />
+			   <xs:element name="TCUCoolingStatus" type="xs:integer" default="0" />
+			   <xs:element name="TCUCoolingOvershoot" type="xs:integer" default="0" />
+			 </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+		<xs:element name="TEST_XDCR_CAL">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="Logged" type="xs:string" default="" />
+               <xs:element name="Robot" type="xs:string" default="" />
+               <xs:element name="LowPressureMeasA" type="xs:decimal" default="0" />
+			   <xs:element name="LowPressureMeasB" type="xs:decimal" default="0" />
+			   <xs:element name="LowPressureAverage" type="xs:decimal" default="0" />
+               <xs:element name="HighPressureMeasA" type="xs:decimal" default="0" />
+			   <xs:element name="HighPressureMeasB" type="xs:decimal" default="0" />
+			   <xs:element name="HighPressureAverage" type="xs:decimal" default="0" />
+			   <xs:element name="LowPressureTolerance" type="xs:decimal" default="0" />
+			   <xs:element name="HighPressureTolerance" type="xs:decimal" default="0" />
+			   <xs:element name="TransducerMinOffset" type="xs:decimal" default="0" />
+			   <xs:element name="TransducerMaxOffset" type="xs:decimal" default="0" />
+			   <xs:element name="TransducerMinScale" type="xs:decimal" default="0" />
+			   <xs:element name="TransducerMaxScale" type="xs:decimal" default="0" />
+			   <xs:element name="TransducerAOffset" type="xs:integer" default="0" />
+			   <xs:element name="TransducerAScale" type="xs:integer" default="0" />
+			   <xs:element name="TransducerALowCal" type="xs:integer" default="0" />
+			   <xs:element name="TransducerAHighCal" type="xs:integer" default="0" />
+			   <xs:element name="TransducerBOffset" type="xs:integer" default="0" />
+			   <xs:element name="TransducerBScale" type="xs:integer" default="0" />
+			   <xs:element name="TransducerBLowCal" type="xs:integer" default="0" />
+			   <xs:element name="TransducerBHighCal" type="xs:integer" default="0" />
+			 </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+		<xs:element name="TEST_XDCR_CAL_ISD">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="Logged" type="xs:string" default="" />
+               <xs:element name="Robot" type="xs:string" default="" />
+			   <xs:element name="LowPressureAverage" type="xs:decimal" default="0" />
+			   <xs:element name="HighPressureAverage" type="xs:decimal" default="0" />
+			   <xs:element name="LowPressureTolerance" type="xs:decimal" default="0" />
+			   <xs:element name="HighPressureTolerance" type="xs:decimal" default="0" />
+			   <xs:element name="TransducerAOffset" type="xs:integer" default="0" />
+			   <xs:element name="TransducerAScale" type="xs:integer" default="0" />
+			   <xs:element name="TransducerALowCal" type="xs:integer" default="0" />
+			   <xs:element name="TransducerAHighCal" type="xs:integer" default="0" />
+			   <xs:element name="TransducerBOffset" type="xs:integer" default="0" />
+			   <xs:element name="TransducerBScale" type="xs:integer" default="0" />
+			   <xs:element name="TransducerBLowCal" type="xs:integer" default="0" />
+			   <xs:element name="TransducerBHighCal" type="xs:integer" default="0" />
+			   <xs:element name="GunLowPressureStatus" type="xs:integer" default="0" />
+			   <xs:element name="GunHighPressureStatus" type="xs:integer" default="0" />
+			   <xs:element name="TransducerAPressure" type="xs:integer" default="0" />
+			   <xs:element name="TransducerBPressure" type="xs:integer" default="0" />
+			   <xs:element name="GunPressure" type="xs:integer" default="0" />
+			   <xs:element name="MinCalibrationOffset" type="xs:integer" default="0" />
+			   <xs:element name="MaxCalibrationOffset" type="xs:integer" default="0" />
+			   <xs:element name="MinCalibrationScale" type="xs:integer" default="0" />
+			   <xs:element name="MaxCalibrationScale" type="xs:integer" default="0" />
+			</xs:sequence>
+          </xs:complexType>
+        </xs:element>
+		
+		
+		
+
+		<xs:element name="TEST_VALVE_LEAK_IPS">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="Logged" type="xs:string" default="" />
+               <xs:element name="Robot" type="xs:string" default="" />
+			   <xs:element name="MinimumPressureChange" type="xs:decimal" default="0" />
+			   <xs:element name="MaximumPressureChange" type="xs:decimal" default="0" />
+			   <xs:element name="MinimumMeterMovement" type="xs:decimal" default="0" />
+			   <xs:element name="MaximumMeterMovement" type="xs:decimal" default="0" />
+			   <xs:element name="MeterAInletValveStatus" type="xs:integer" default="0" />
+			   <xs:element name="MeterAOuletValveStatus" type="xs:integer" default="0" />
+			   <xs:element name="MeterBInletValveStatus" type="xs:integer" default="0" />
+			   <xs:element name="MeterBOuletValveStatus" type="xs:integer" default="0" />
+			   <xs:element name="Gun1Valve" type="xs:integer" default="0" />
+			   <xs:element name="Gun2Valve" type="xs:integer" default="0" />
+			   <xs:element name="Gun3Valve" type="xs:integer" default="0" />
+			   			 </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+		
+		<xs:element name="TEST_VALVE_LEAK_ISD">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="Logged" type="xs:string" default="" />
+               <xs:element name="Robot" type="xs:string" default="" />
+			   <xs:element name="MinimumMeterMovement" type="xs:decimal" default="0" />
+			   <xs:element name="MaximumMeterMovement" type="xs:decimal" default="0" />
+			   <xs:element name="SupplyValveStatus" type="xs:integer" default="0" />
+			   <xs:element name="ValveAStatus" type="xs:integer" default="0" />
+			   <xs:element name="ValveBStatus" type="xs:integer" default="0" />
+			   <xs:element name="CircValveStatus" type="xs:integer" default="0" />
+			   <xs:element name="Gun1Trigger" type="xs:integer" default="0" />
+			   <xs:element name="Gun2Trigger" type="xs:integer" default="0" />
+			   <xs:element name="Gun3Trigger" type="xs:integer" default="0" /> 
+			 </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+		
+		
+		<xs:element name="TEST_VISION_ACCURACY_2DV">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="Logged" type="xs:string" default="" />
+               <xs:element name="Robot" type="xs:string" default="" />
+			   <xs:element name="CameraCombinationName" type="xs:string" default="" />
+			   <xs:element name="VisionProcess" type="xs:string" default="" />
+			   <xs:element name="MeasurementType" type="xs:string" default="0" />
+			   <xs:element name="XShift" type="xs:decimal" default="0" />
+			   <xs:element name="YShift" type="xs:decimal" default="0" />
+			   <xs:element name="ZShift" type="xs:decimal" default="0" />
+			   <xs:element name="WShift" type="xs:decimal" default="0" />
+			   <xs:element name="PShift" type="xs:decimal" default="0" />
+			   <xs:element name="RShift" type="xs:decimal" default="0" />
+			   <xs:element name="XOffset" type="xs:decimal" default="0" />
+			   <xs:element name="YOffset" type="xs:decimal" default="0" />
+			   <xs:element name="ZOffset" type="xs:decimal" default="0" />
+			   <xs:element name="WOffset" type="xs:decimal" default="0" />
+			   <xs:element name="POffset" type="xs:decimal" default="0" />
+			   <xs:element name="ROffset" type="xs:decimal" default="0" />
+			   <xs:element name="OffsetError" type="xs:decimal" default="0" />
+			   <xs:element name="ErrorTolerance" type="xs:decimal" default="0" />
+			   <xs:element name="Status" type="xs:integer" default="0" /> 
+			   <xs:element name="TargetInformation" type="xs:string" default="" />
+			 </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+		
+		</xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

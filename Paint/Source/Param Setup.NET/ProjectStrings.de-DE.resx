@@ -1,0 +1,1774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FormIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>setting.ICO;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Refresh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PWSetupIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PWSetup.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_AFGLB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\P_AFGLB.ICO;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rjtp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rjtp.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RobotSetupIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RobotSetup.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RobotSetupSealerIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RobotSetupSealer.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEALTEMP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SEALTEMP.ICO;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IPD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IPD.ICO;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ISD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ISD.ICO;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\V_PROC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psAABSAnt" xml:space="preserve">
+    <value>Atom Air/Bell Speed anticipator (ms):</value>
+  </data>
+  <data name="psABORTED" xml:space="preserve">
+    <value>Aborted</value>
+  </data>
+  <data name="psAccuflowSetup" xml:space="preserve">
+    <value>Accuflow Parameters</value>
+  </data>
+  <data name="psAccuPathUsed" xml:space="preserve">
+    <value>Accupath Used</value>
+  </data>
+  <data name="psADD" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="psADD_ALL" xml:space="preserve">
+    <value>Add All </value>
+  </data>
+  <data name="psAflowAdaptiveModeEnabled" xml:space="preserve">
+    <value>Adaptive Mode Enabled</value>
+  </data>
+  <data name="psAflowAdaptModeEnabled" xml:space="preserve">
+    <value>Adaptive Mode Enabled</value>
+  </data>
+  <data name="psAflowAlarm" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="psAflowCalibration" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="psAflowCalStepDelay" xml:space="preserve">
+    <value>Calibration Step Delay (msec)</value>
+  </data>
+  <data name="psAflowCalTimeout" xml:space="preserve">
+    <value>Calibration Timeout (msec)</value>
+  </data>
+  <data name="psAflowEquipmentCharacteristics" xml:space="preserve">
+    <value>Equipment Characteristics</value>
+  </data>
+  <data name="psAflowFlowDelay" xml:space="preserve">
+    <value>Flow Delay (msec)</value>
+  </data>
+  <data name="psAflowFlowInTolTries" xml:space="preserve">
+    <value>Flow In-Tolerance Tries</value>
+  </data>
+  <data name="psAflowGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="psAflowGracePeriod" xml:space="preserve">
+    <value>Grace Period (msec)</value>
+  </data>
+  <data name="psAflowHysteresis" xml:space="preserve">
+    <value>Hysteresis Checks Enabled</value>
+  </data>
+  <data name="psAflowIPSB" xml:space="preserve">
+    <value>IPSB (%)</value>
+  </data>
+  <data name="psAflowKFTFactor" xml:space="preserve">
+    <value>KFT Factor (cc)</value>
+  </data>
+  <data name="psAflowLevelingTries" xml:space="preserve">
+    <value>Leveling Tries</value>
+  </data>
+  <data name="psAflowMaxControlOut" xml:space="preserve">
+    <value>Maximum Control Out (msec)</value>
+  </data>
+  <data name="psAflowMaxErrorFromSetPt" xml:space="preserve">
+    <value>Maximum Error From Setpoint (%)</value>
+  </data>
+  <data name="psAflowMinSetPtReached" xml:space="preserve">
+    <value>Minimum Setpoint Reached (msec)</value>
+  </data>
+  <data name="psAflowMinToleranceBand" xml:space="preserve">
+    <value>Minimum Tolerance Band (cc/min)</value>
+  </data>
+  <data name="psAflowNormalGainMod" xml:space="preserve">
+    <value>Normal Gain Mod (%)</value>
+  </data>
+  <data name="psAflowPulsingPumpGain" xml:space="preserve">
+    <value>Pulsing Pump Gain Mod (%)</value>
+  </data>
+  <data name="psAflowSampleAmount" xml:space="preserve">
+    <value>Sample Amount</value>
+  </data>
+  <data name="psAflowTableAdjustment" xml:space="preserve">
+    <value>Table Adjustment</value>
+  </data>
+  <data name="psAflowTimeDown" xml:space="preserve">
+    <value>Time Down (msec/1000 counts)</value>
+  </data>
+  <data name="psAflowTimeUp" xml:space="preserve">
+    <value>Time Up (msec/1000 counts)</value>
+  </data>
+  <data name="psAflowToleranceBand" xml:space="preserve">
+    <value>Tolerance Band %</value>
+  </data>
+  <data name="psAflowTriggerDelay" xml:space="preserve">
+    <value>Trigger Delay (msec)</value>
+  </data>
+  <data name="psAirTime" xml:space="preserve">
+    <value>Air Time</value>
+  </data>
+  <data name="psAlarmLogDTK" xml:space="preserve">
+    <value>Alarm Log Days To Keep:</value>
+  </data>
+  <data name="psAppName" xml:space="preserve">
+    <value>Application Name</value>
+  </data>
+  <data name="psAppVersion" xml:space="preserve">
+    <value>Robot Software Version</value>
+  </data>
+  <data name="psArmOptions" xml:space="preserve">
+    <value>Arm Options</value>
+  </data>
+  <data name="psAtomAirCalComplete" xml:space="preserve">
+    <value>Atom Air Calibration Complete</value>
+  </data>
+  <data name="psAutoCC" xml:space="preserve">
+    <value>Enable automatic color change:</value>
+  </data>
+  <data name="psAUTOREFRESH" xml:space="preserve">
+    <value>AutoRefresh</value>
+  </data>
+  <data name="psBellIdle" xml:space="preserve">
+    <value>Bell Idle (counts)</value>
+  </data>
+  <data name="psBoothSetup" xml:space="preserve">
+    <value>Booth Setup</value>
+  </data>
+  <data name="psBY_TIME" xml:space="preserve">
+    <value>By Time</value>
+  </data>
+  <data name="psBY_VOLUME" xml:space="preserve">
+    <value>By Volume</value>
+  </data>
+  <data name="psCCResume" xml:space="preserve">
+    <value>Color change resume required:</value>
+  </data>
+  <data name="psCHANGED" xml:space="preserve">
+    <value>Changed "</value>
+  </data>
+  <data name="psChangeLogDTK" xml:space="preserve">
+    <value>Change Log Days To Keep:</value>
+  </data>
+  <data name="psCHILL" xml:space="preserve">
+    <value>Chill</value>
+  </data>
+  <data name="psCircEnable" xml:space="preserve">
+    <value>Circulation Status</value>
+  </data>
+  <data name="psCircRampUp" xml:space="preserve">
+    <value>Circulation Ramp Up</value>
+  </data>
+  <data name="psCircRate" xml:space="preserve">
+    <value>Circulation Speed</value>
+  </data>
+  <data name="psCleanPos" xml:space="preserve">
+    <value>Clean Position</value>
+  </data>
+  <data name="psCLEAR" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="psClnUnknown" xml:space="preserve">
+    <value>Cleanout when next color unknown:</value>
+  </data>
+  <data name="psCLOSED" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="psColdStartOnPowerUp" xml:space="preserve">
+    <value>Cold Start On Power Up</value>
+  </data>
+  <data name="psColorChange" xml:space="preserve">
+    <value>Color Change</value>
+  </data>
+  <data name="psColorChangeCycleName" xml:space="preserve">
+    <value>Color Change Cycle Name</value>
+  </data>
+  <data name="psColorChangeCycleNumber" xml:space="preserve">
+    <value>Color Change Cycle Number</value>
+  </data>
+  <data name="psColorChangeCycleTime" xml:space="preserve">
+    <value>Color Change Cycle Time</value>
+  </data>
+  <data name="psColorChangeCycleTime1" xml:space="preserve">
+    <value>Color Change Cycle 1 Time</value>
+  </data>
+  <data name="psColorChangeCycleTime10" xml:space="preserve">
+    <value>Color Change Cycle 10 Time</value>
+  </data>
+  <data name="psColorChangeCycleTime2" xml:space="preserve">
+    <value>Color Change Cycle 2 Time</value>
+  </data>
+  <data name="psColorChangeCycleTime3" xml:space="preserve">
+    <value>Color Change Cycle 3 Time</value>
+  </data>
+  <data name="psColorChangeCycleTime4" xml:space="preserve">
+    <value>Color Change Cycle 4 Time</value>
+  </data>
+  <data name="psColorChangeCycleTime5" xml:space="preserve">
+    <value>Color Change Cycle 5 Time</value>
+  </data>
+  <data name="psColorChangeCycleTime6" xml:space="preserve">
+    <value>Color Change Cycle 6 Time</value>
+  </data>
+  <data name="psColorChangeCycleTime7" xml:space="preserve">
+    <value>Color Change Cycle 7 Time</value>
+  </data>
+  <data name="psColorChangeCycleTime8" xml:space="preserve">
+    <value>Color Change Cycle 8 Time</value>
+  </data>
+  <data name="psColorChangeCycleTime9" xml:space="preserve">
+    <value>Color Change Cycle 9 Time</value>
+  </data>
+  <data name="psCOLORS_CAP" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="psCommonOptions" xml:space="preserve">
+    <value>Common Options</value>
+  </data>
+  <data name="psControllerFNumber" xml:space="preserve">
+    <value>Robot 'F' Number (serial #)</value>
+  </data>
+  <data name="psControllerStatus" xml:space="preserve">
+    <value>Controller Status</value>
+  </data>
+  <data name="psCONTROLLERS_CAP" xml:space="preserve">
+    <value>Controllers</value>
+  </data>
+  <data name="psCONTROLLER_CAP" xml:space="preserve">
+    <value>Controller</value>
+  </data>
+  <data name="psCOPIED" xml:space="preserve">
+    <value>Copied</value>
+  </data>
+  <data name="psCOPY" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="psCOPY_ALL" xml:space="preserve">
+    <value>Copy &amp;All</value>
+  </data>
+  <data name="psCOPY_ERR" xml:space="preserve">
+    <value>Copy Error</value>
+  </data>
+  <data name="psCOPY_PARM05" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="psCOPY_VAL" xml:space="preserve">
+    <value>Copy &amp;Values</value>
+  </data>
+  <data name="psCurActFlow" xml:space="preserve">
+    <value>Circulation Flow Rate (GPM)</value>
+  </data>
+  <data name="psCurActVisc" xml:space="preserve">
+    <value>Current Viscosity (%)</value>
+  </data>
+  <data name="psCurGunTemp" xml:space="preserve">
+    <value>Gun Temperature (°F)</value>
+  </data>
+  <data name="psCurMtrTemp" xml:space="preserve">
+    <value>Meter Temperature (°F)</value>
+  </data>
+  <data name="psCurrentColorName" xml:space="preserve">
+    <value>Current Color Name</value>
+  </data>
+  <data name="psCurrentColorNumber" xml:space="preserve">
+    <value>Current Color Number</value>
+  </data>
+  <data name="psCurrentErrorProgram" xml:space="preserve">
+    <value>Current Error Program</value>
+  </data>
+  <data name="psCurrentFrame" xml:space="preserve">
+    <value>Current Frame</value>
+  </data>
+  <data name="psCurrentLineNumber" xml:space="preserve">
+    <value>Current Line Number</value>
+  </data>
+  <data name="psCurrentMeterTemp" xml:space="preserve">
+    <value>Current Meter Temp (°F)</value>
+  </data>
+  <data name="psCurrentProgramName" xml:space="preserve">
+    <value>Current Program Name</value>
+  </data>
+  <data name="psCurrentRoutineNumber" xml:space="preserve">
+    <value>Current Executing Routine Name</value>
+  </data>
+  <data name="psCurrentStyleNumber" xml:space="preserve">
+    <value>Current Style Number</value>
+  </data>
+  <data name="psCurrentTool" xml:space="preserve">
+    <value>Current Tool</value>
+  </data>
+  <data name="psCurrentViscosity" xml:space="preserve">
+    <value>Current Viscosity (%)</value>
+  </data>
+  <data name="psDaysToKeep" xml:space="preserve">
+    <value>Days To Keep</value>
+  </data>
+  <data name="psDBERROR" xml:space="preserve">
+    <value>Error reading databases.</value>
+  </data>
+  <data name="psDeDockPos" xml:space="preserve">
+    <value>Dedock Position</value>
+  </data>
+  <data name="psDEGREES" xml:space="preserve">
+    <value>°F</value>
+  </data>
+  <data name="psDELETE" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="psDetectSpacingLastErr" xml:space="preserve">
+    <value>Detect Spacing Last Error</value>
+  </data>
+  <data name="psDetectSpacingMax" xml:space="preserve">
+    <value>Detect Spacing Max  (Actual)</value>
+  </data>
+  <data name="psDetectSpacingMaxLim" xml:space="preserve">
+    <value>Detect Spacing Max Fault Limit</value>
+  </data>
+  <data name="psDetectSpacingMaxLimUpper" xml:space="preserve">
+    <value>Detect Spacing Max Fault Upper Limit</value>
+  </data>
+  <data name="psDetectSpacingMaxRec" xml:space="preserve">
+    <value>Detect Spacing Recording Max</value>
+  </data>
+  <data name="psDetectSpacingMin" xml:space="preserve">
+    <value>Detect Spacing Min  (Actual)</value>
+  </data>
+  <data name="psDetectSpacingMinLim" xml:space="preserve">
+    <value>Detect Spacing Min Fault Limit</value>
+  </data>
+  <data name="psDiagnosticArchiveDTK" xml:space="preserve">
+    <value>Diagnostic Archive Days To Keep:</value>
+  </data>
+  <data name="psDiagnosticLogDTK" xml:space="preserve">
+    <value>Diagnostic Log Days To Keep:</value>
+  </data>
+  <data name="psDISABLED" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="psDispenserStatus" xml:space="preserve">
+    <value>Dispenser Status</value>
+  </data>
+  <data name="psDispenseSetup" xml:space="preserve">
+    <value>Dispense Setup</value>
+  </data>
+  <data name="psDispMode" xml:space="preserve">
+    <value>Dispenser Mode</value>
+  </data>
+  <data name="psDispPresCAP" xml:space="preserve">
+    <value>Dispense Pressure</value>
+  </data>
+  <data name="psDispPressure" xml:space="preserve">
+    <value>Dispense Pressure (psi)</value>
+  </data>
+  <data name="psDISPPRESSUREGRAPH" xml:space="preserve">
+    <value>Dispense Pressure</value>
+  </data>
+  <data name="psDispStatus" xml:space="preserve">
+    <value>Dispenser Status</value>
+  </data>
+  <data name="psDockPos" xml:space="preserve">
+    <value>Dock Position</value>
+  </data>
+  <data name="psDriveFullThreshhold" xml:space="preserve">
+    <value>Drive Full Threshold (% Free):</value>
+  </data>
+  <data name="psEeResTime" xml:space="preserve">
+    <value>Estat reset timeout (ms):</value>
+  </data>
+  <data name="psENABLED" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="psEncAver" xml:space="preserve">
+    <value>Encoder average (samples):</value>
+  </data>
+  <data name="psEncMaxDist" xml:space="preserve">
+    <value>Maximum Travel to Start (mm):</value>
+  </data>
+  <data name="psEncMinDist" xml:space="preserve">
+    <value>Minimum Detect Distance (mm):</value>
+  </data>
+  <data name="psEncScale" xml:space="preserve">
+    <value>Encoder scale (pulse/mm)</value>
+  </data>
+  <data name="psEncThreshld" xml:space="preserve">
+    <value>Encoder threshold (mm/sec):</value>
+  </data>
+  <data name="psEq1ShapingAir1MaxOutputTime" xml:space="preserve">
+    <value>Shaping Air 1 Max Output Time</value>
+  </data>
+  <data name="psEq1ShapingAir1ModePermanent" xml:space="preserve">
+    <value>Shaping Air 1 Mode (Retentive)</value>
+  </data>
+  <data name="psEq1ShapingAir1ModeTemporary" xml:space="preserve">
+    <value>Shaping Air 1 Mode (Temporary)</value>
+  </data>
+  <data name="psEq1ShapingAir1SetpointReachedTol" xml:space="preserve">
+    <value>Shaping Air 1 Setpoint Reached Tolerance</value>
+  </data>
+  <data name="psEq1ShapingAir1ZeroSpeedTO" xml:space="preserve">
+    <value>Shaping Air 1 Zero Speed Timeout</value>
+  </data>
+  <data name="psEq1ShapingAir2MaxOutputTime" xml:space="preserve">
+    <value>Shaping Air 2 Max Output Time</value>
+  </data>
+  <data name="psEq1ShapingAir2ModePermanent" xml:space="preserve">
+    <value>Shaping Air 2 Mode (Retentive)</value>
+  </data>
+  <data name="psEq1ShapingAir2ModeTemporary" xml:space="preserve">
+    <value>Shaping Air 2 Mode (Temporary)</value>
+  </data>
+  <data name="psEq1ShapingAir2SetpointReachedTol" xml:space="preserve">
+    <value>Shaping Air 2 Setpoint Reached Tolerance</value>
+  </data>
+  <data name="psEq1ShapingAir2ZeroSpeedTO" xml:space="preserve">
+    <value>Shaping Air 2 Zero Speed Timeout</value>
+  </data>
+  <data name="psERROR" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="psEsContTrkDel" xml:space="preserve">
+    <value>Estat continue track delay (ms):</value>
+  </data>
+  <data name="psEsLowLevDel" xml:space="preserve">
+    <value>Estat low level delay (ms):</value>
+  </data>
+  <data name="psEsLowLevEnab" xml:space="preserve">
+    <value>Estat low level enable:</value>
+  </data>
+  <data name="psEsLowLevPre" xml:space="preserve">
+    <value>Estat low level preset#:</value>
+  </data>
+  <data name="psEsOneStroke" xml:space="preserve">
+    <value>Estat one-stroke enable:</value>
+  </data>
+  <data name="psEsSprTo" xml:space="preserve">
+    <value>Estat setpoint reached timeout (ms):</value>
+  </data>
+  <data name="psEstatPresetNumber" xml:space="preserve">
+    <value>Estat Preset Number</value>
+  </data>
+  <data name="psEstatSetup" xml:space="preserve">
+    <value>Estat Setup</value>
+  </data>
+  <data name="psEstatTrack" xml:space="preserve">
+    <value>Estat Tracking </value>
+  </data>
+  <data name="psFALSE" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="psFASAAnt" xml:space="preserve">
+    <value>Fan/Shaping Air anticipator (ms):</value>
+  </data>
+  <data name="psFastClock" xml:space="preserve">
+    <value>Fast Clock</value>
+  </data>
+  <data name="psFindLastGunOff" xml:space="preserve">
+    <value>Find last GUN=OFF instruction:</value>
+  </data>
+  <data name="psFlowAdaptiveTolerance" xml:space="preserve">
+    <value>Adaptive Tolerance (%)</value>
+  </data>
+  <data name="psFrameDefined" xml:space="preserve">
+    <value>Frame Defined:</value>
+  </data>
+  <data name="psFROM" xml:space="preserve">
+    <value>" from </value>
+  </data>
+  <data name="psGCCount" xml:space="preserve">
+    <value>Periodic cap clean count:</value>
+  </data>
+  <data name="psGlobalMatFactor" xml:space="preserve">
+    <value>Global Material Factor</value>
+  </data>
+  <data name="psGun1Status" xml:space="preserve">
+    <value>Gun 1</value>
+  </data>
+  <data name="psGun2Status" xml:space="preserve">
+    <value>Gun 2</value>
+  </data>
+  <data name="psGun3Status" xml:space="preserve">
+    <value>Gun 3</value>
+  </data>
+  <data name="psGun4Status" xml:space="preserve">
+    <value>Gun 4</value>
+  </data>
+  <data name="psGun5Status" xml:space="preserve">
+    <value>Gun 5</value>
+  </data>
+  <data name="psGun6Status" xml:space="preserve">
+    <value>Gun 6</value>
+  </data>
+  <data name="psGunOffDelay" xml:space="preserve">
+    <value>Gun off anticipator (ms):</value>
+  </data>
+  <data name="psGunOnDelay" xml:space="preserve">
+    <value>Gun on anticipator (ms):</value>
+  </data>
+  <data name="psGunPresCAP" xml:space="preserve">
+    <value>Gun Pressure</value>
+  </data>
+  <data name="psGunPressure" xml:space="preserve">
+    <value>Gun Pressure (psi)</value>
+  </data>
+  <data name="psGUNRESSUREGRAPH" xml:space="preserve">
+    <value>Gun Pressure</value>
+  </data>
+  <data name="psGunTempHighAlarm" xml:space="preserve">
+    <value>GunTemp High Alarm (°F)</value>
+  </data>
+  <data name="psGunTempHighWarn" xml:space="preserve">
+    <value>GunTemp High Warn (°F)</value>
+  </data>
+  <data name="psGunTempLowAlarm" xml:space="preserve">
+    <value>GunTemp Low Alarm (°F)</value>
+  </data>
+  <data name="psGunTempLowWarn" xml:space="preserve">
+    <value>GunTemp Low Warn  (°F)</value>
+  </data>
+  <data name="psHEAT" xml:space="preserve">
+    <value>Heat</value>
+  </data>
+  <data name="psHighPressFaultDelay" xml:space="preserve">
+    <value>High Pressure Fault Delay</value>
+  </data>
+  <data name="psHoldCC" xml:space="preserve">
+    <value>Hold for color change distance (mm):</value>
+  </data>
+  <data name="psHoldCycleHigh" xml:space="preserve">
+    <value>Hold 'Cycle Complete' High</value>
+  </data>
+  <data name="psHvonTo" xml:space="preserve">
+    <value>HVON feedback timeout (ms):</value>
+  </data>
+  <data name="psIgnoreEntMuteSw1" xml:space="preserve">
+    <value>Ignore Entrance Muting Switch # 1</value>
+  </data>
+  <data name="psIgnoreEntMuteSw2" xml:space="preserve">
+    <value>Ignore Entrance Muting Switch # 2</value>
+  </data>
+  <data name="psIgnoreEntMuteSw3" xml:space="preserve">
+    <value>Ignore Entrance Muting Switch # 3</value>
+  </data>
+  <data name="psIgnoreEntMuteSw4" xml:space="preserve">
+    <value>Ignore Entrance Muting Switch # 4</value>
+  </data>
+  <data name="psIgnoreExitMuteSw1" xml:space="preserve">
+    <value>Ignore Exit Muting Switch # 1</value>
+  </data>
+  <data name="psIgnoreExitMuteSw2" xml:space="preserve">
+    <value>Ignore Exit Muting Switch # 2</value>
+  </data>
+  <data name="psIgnoreExitMuteSw3" xml:space="preserve">
+    <value>Ignore Exit Muting Switch # 3</value>
+  </data>
+  <data name="psIgnoreExitMuteSw4" xml:space="preserve">
+    <value>Ignore Exit Muting Switch # 4</value>
+  </data>
+  <data name="psInBnd1" xml:space="preserve">
+    <value>In bound 1 (mm):</value>
+  </data>
+  <data name="psInBnd10" xml:space="preserve">
+    <value>In bound 10 (mm):</value>
+  </data>
+  <data name="psInBnd2" xml:space="preserve">
+    <value>In bound 2 (mm):</value>
+  </data>
+  <data name="psInBnd3" xml:space="preserve">
+    <value>In bound 3 (mm):</value>
+  </data>
+  <data name="psInBnd4" xml:space="preserve">
+    <value>In bound 4 (mm):</value>
+  </data>
+  <data name="psInBnd5" xml:space="preserve">
+    <value>In bound 5 (mm):</value>
+  </data>
+  <data name="psInBnd6" xml:space="preserve">
+    <value>In bound 6 (mm):</value>
+  </data>
+  <data name="psInBnd7" xml:space="preserve">
+    <value>In bound 7 (mm):</value>
+  </data>
+  <data name="psInBnd8" xml:space="preserve">
+    <value>In bound 8 (mm):</value>
+  </data>
+  <data name="psInBnd9" xml:space="preserve">
+    <value>In bound 9 (mm):</value>
+  </data>
+  <data name="psJobName" xml:space="preserve">
+    <value>Job Name</value>
+  </data>
+  <data name="psJobStatus" xml:space="preserve">
+    <value>Job Status</value>
+  </data>
+  <data name="psJobTimer" xml:space="preserve">
+    <value>Job Timer</value>
+  </data>
+  <data name="psLEFT_AIR_FAULT" xml:space="preserve">
+    <value>Left Air Fault</value>
+  </data>
+  <data name="psLineTracking" xml:space="preserve">
+    <value>Line Tracking</value>
+  </data>
+  <data name="psLOADING_CYCLE" xml:space="preserve">
+    <value>Loading cycle </value>
+  </data>
+  <data name="psLOADING_SOURCE" xml:space="preserve">
+    <value>Loading source presets</value>
+  </data>
+  <data name="psLOADING_SOURCE_DESC" xml:space="preserve">
+    <value>Loading source descriptions</value>
+  </data>
+  <data name="psLOADING_TARGET" xml:space="preserve">
+    <value>Loading target presets</value>
+  </data>
+  <data name="psLOADING_TARGET_DESC" xml:space="preserve">
+    <value>Loading target descriptions</value>
+  </data>
+  <data name="psLowPressFaultDelay" xml:space="preserve">
+    <value>Low Pressure Fault Delay</value>
+  </data>
+  <data name="psMachineLock" xml:space="preserve">
+    <value>Machine Lock</value>
+  </data>
+  <data name="psMANIFOLD_PRES" xml:space="preserve">
+    <value>Manifold Pressure (psi)</value>
+  </data>
+  <data name="psMaxMeterSpeedCalComplete" xml:space="preserve">
+    <value>Max Meter Speed Calibration Complete</value>
+  </data>
+  <data name="psMaxPressValue" xml:space="preserve">
+    <value>Maximum Pressure Value</value>
+  </data>
+  <data name="psMCPJogActive" xml:space="preserve">
+    <value>MCP Jog is active</value>
+  </data>
+  <data name="psMCPJogAvailable" xml:space="preserve">
+    <value>MCP Jog Available</value>
+  </data>
+  <data name="psMeterACAP" xml:space="preserve">
+    <value>Meter A</value>
+  </data>
+  <data name="psMeterBCAP" xml:space="preserve">
+    <value>Meter B</value>
+  </data>
+  <data name="psMeterDirection" xml:space="preserve">
+    <value>Meter Direction</value>
+  </data>
+  <data name="psMeterPosCAP" xml:space="preserve">
+    <value>Meter Position</value>
+  </data>
+  <data name="psMeterPosition" xml:space="preserve">
+    <value>Meter Position (%)</value>
+  </data>
+  <data name="psMeterPosPctCAP" xml:space="preserve">
+    <value>Meter Position</value>
+  </data>
+  <data name="psMeterTempHighAlarm" xml:space="preserve">
+    <value>Meter Temp High Alarm (°F)</value>
+  </data>
+  <data name="psMeterTempHighWarn" xml:space="preserve">
+    <value>Meter Temp High Warn (°F)</value>
+  </data>
+  <data name="psMeterTempLowAlarm" xml:space="preserve">
+    <value>Meter Temp Low Alarm (°F)</value>
+  </data>
+  <data name="psMeterTempLowWarn" xml:space="preserve">
+    <value>Meter Temp Low Warn (°F)</value>
+  </data>
+  <data name="psMinPressValue" xml:space="preserve">
+    <value>Minimum Pressure Value</value>
+  </data>
+  <data name="psMODE_BYPASSED" xml:space="preserve">
+    <value>Bypassed</value>
+  </data>
+  <data name="psMODE_DISPENSING" xml:space="preserve">
+    <value>Dispensing</value>
+  </data>
+  <data name="psMODE_ERROR" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="psMODE_JOGGING" xml:space="preserve">
+    <value>Jogging</value>
+  </data>
+  <data name="psMODE_PREPRESSURE" xml:space="preserve">
+    <value>Prepressure</value>
+  </data>
+  <data name="psMODE_RELIEVE" xml:space="preserve">
+    <value>Relieve</value>
+  </data>
+  <data name="psMODE_RELOAD" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="psMODE_REPOSITION" xml:space="preserve">
+    <value>Reposition</value>
+  </data>
+  <data name="psMODE_SLEEP" xml:space="preserve">
+    <value>Sleep</value>
+  </data>
+  <data name="psMODE_WAIT_RELOAD" xml:space="preserve">
+    <value>Wait Reload</value>
+  </data>
+  <data name="psMoveHomeAtJobEnd" xml:space="preserve">
+    <value>Move home at job end:</value>
+  </data>
+  <data name="psMtrAEmpty" xml:space="preserve">
+    <value>Meter A Empty</value>
+  </data>
+  <data name="psMtrAIsdMode" xml:space="preserve">
+    <value>Meter A ISD Mode</value>
+  </data>
+  <data name="psMtrAIsdStatus" xml:space="preserve">
+    <value>Meter A ISD Status</value>
+  </data>
+  <data name="psMtrAMachinelock" xml:space="preserve">
+    <value>Meter A Machinelock</value>
+  </data>
+  <data name="psMtrAOverTravel" xml:space="preserve">
+    <value>Meter A Overtravel</value>
+  </data>
+  <data name="psMtrAPnSrvRdy" xml:space="preserve">
+    <value>Meter A Pnuematic Servo Ready</value>
+  </data>
+  <data name="psMtrAPosition" xml:space="preserve">
+    <value>Meter A Position (%)</value>
+  </data>
+  <data name="psMtrAPressure" xml:space="preserve">
+    <value>Meter A Pressure (psi)</value>
+  </data>
+  <data name="psMtrASpeed" xml:space="preserve">
+    <value>Meter A Speed</value>
+  </data>
+  <data name="psMtrAVolumeLeft" xml:space="preserve">
+    <value>Meter A Volume Left</value>
+  </data>
+  <data name="psMtrBEmpty" xml:space="preserve">
+    <value>Meter B Empty</value>
+  </data>
+  <data name="psMtrBIsdMode" xml:space="preserve">
+    <value>Meter B ISD Mode</value>
+  </data>
+  <data name="psMtrBIsdStatus" xml:space="preserve">
+    <value>Meter B ISD Status</value>
+  </data>
+  <data name="psMtrBMachinelock" xml:space="preserve">
+    <value>Meter B Machinelock</value>
+  </data>
+  <data name="psMtrBOverTravel" xml:space="preserve">
+    <value>Meter B Overtravel</value>
+  </data>
+  <data name="psMtrBPnSrvRdy" xml:space="preserve">
+    <value>Meter B Pnuematic Servo Ready</value>
+  </data>
+  <data name="psMtrBPosition" xml:space="preserve">
+    <value>Meter B Position (%)</value>
+  </data>
+  <data name="psMtrBPressure" xml:space="preserve">
+    <value>Meter B Pressure (psi)</value>
+  </data>
+  <data name="psMtrBSpeed" xml:space="preserve">
+    <value>Meter B Speed</value>
+  </data>
+  <data name="psMtrBVolumeLeft" xml:space="preserve">
+    <value>Meter B Volume Left</value>
+  </data>
+  <data name="psMuting" xml:space="preserve">
+    <value>Muting</value>
+  </data>
+  <data name="psMutingSpacingLastErr" xml:space="preserve">
+    <value>Muting SpacingLast Error</value>
+  </data>
+  <data name="psMutingSpacingMax" xml:space="preserve">
+    <value>Muting Spacing Max (Actual)</value>
+  </data>
+  <data name="psMutingSpacingMaxLim" xml:space="preserve">
+    <value>Muting Spacing Max Fault Limit</value>
+  </data>
+  <data name="psMutingSpacingMin" xml:space="preserve">
+    <value>Muting Spacing Min (Actual)</value>
+  </data>
+  <data name="psMutingSpacingMinLim" xml:space="preserve">
+    <value>Muting Spacing Min Fault Limit</value>
+  </data>
+  <data name="psNA" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="psNEGATIVE" xml:space="preserve">
+    <value>Negative</value>
+  </data>
+  <data name="psNO" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="psNODESCRIPTION" xml:space="preserve">
+    <value>No Description</value>
+  </data>
+  <data name="psNONE" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="psNOTREADY" xml:space="preserve">
+    <value>Not Ready</value>
+  </data>
+  <data name="psNOT_COMP" xml:space="preserve">
+    <value>Not Complete</value>
+  </data>
+  <data name="psNOUNITS" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="psNumberOfDispensers" xml:space="preserve">
+    <value>Number of Dispensers</value>
+  </data>
+  <data name="psOFF" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="psON" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="psOPEN" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="psOpeners" xml:space="preserve">
+    <value>Openers</value>
+  </data>
+  <data name="psOTBOTH" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="psOTNEG" xml:space="preserve">
+    <value>Negative</value>
+  </data>
+  <data name="psOTOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="psOTPOS" xml:space="preserve">
+    <value>Positive</value>
+  </data>
+  <data name="psOutBnd1" xml:space="preserve">
+    <value>Out bound 1 (mm):</value>
+  </data>
+  <data name="psOutBnd10" xml:space="preserve">
+    <value>Out bound 10 (mm):</value>
+  </data>
+  <data name="psOutBnd2" xml:space="preserve">
+    <value>Out bound 2 (mm):</value>
+  </data>
+  <data name="psOutBnd3" xml:space="preserve">
+    <value>Out bound 3 (mm):</value>
+  </data>
+  <data name="psOutBnd4" xml:space="preserve">
+    <value>Out bound 4 (mm):</value>
+  </data>
+  <data name="psOutBnd5" xml:space="preserve">
+    <value>Out bound 5 (mm):</value>
+  </data>
+  <data name="psOutBnd6" xml:space="preserve">
+    <value>Out bound 6 (mm):</value>
+  </data>
+  <data name="psOutBnd7" xml:space="preserve">
+    <value>Out bound 7 (mm):</value>
+  </data>
+  <data name="psOutBnd8" xml:space="preserve">
+    <value>Out bound 8 (mm):</value>
+  </data>
+  <data name="psOutBnd9" xml:space="preserve">
+    <value>Out bound 9 (mm):</value>
+  </data>
+  <data name="psOUTLET_PRES" xml:space="preserve">
+    <value>Outlet Pressure (psi)</value>
+  </data>
+  <data name="psOUTPUT" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="psOUTPUT_COUNTS" xml:space="preserve">
+    <value>Output (Counts)</value>
+  </data>
+  <data name="psOverTravel" xml:space="preserve">
+    <value>Overtravel</value>
+  </data>
+  <data name="psOvertravelCAP" xml:space="preserve">
+    <value>Overtravel</value>
+  </data>
+  <data name="psPainters" xml:space="preserve">
+    <value>Painters</value>
+  </data>
+  <data name="psPaintWorksBackupsDTK" xml:space="preserve">
+    <value>PAINTworks Backups To Keep:</value>
+  </data>
+  <data name="psPartDetDist" xml:space="preserve">
+    <value>Part detect distance (mm):</value>
+  </data>
+  <data name="psPathName" xml:space="preserve">
+    <value>Path Name</value>
+  </data>
+  <data name="psPeriodicGC" xml:space="preserve">
+    <value>Enable periodic cap clean:</value>
+  </data>
+  <data name="psPFEAlarmNum0" xml:space="preserve">
+    <value>Alarm Number 0</value>
+  </data>
+  <data name="psPFEAlarmNum1" xml:space="preserve">
+    <value>Alarm Number 1</value>
+  </data>
+  <data name="psPFEAlarmNum10" xml:space="preserve">
+    <value>Alarm Number 10</value>
+  </data>
+  <data name="psPFEAlarmNum11" xml:space="preserve">
+    <value>Alarm Number 11</value>
+  </data>
+  <data name="psPFEAlarmNum12" xml:space="preserve">
+    <value>Alarm Number 12</value>
+  </data>
+  <data name="psPFEAlarmNum13" xml:space="preserve">
+    <value>Alarm Number 13</value>
+  </data>
+  <data name="psPFEAlarmNum14" xml:space="preserve">
+    <value>Alarm Number 14</value>
+  </data>
+  <data name="psPFEAlarmNum15" xml:space="preserve">
+    <value>Alarm Number 15</value>
+  </data>
+  <data name="psPFEAlarmNum16" xml:space="preserve">
+    <value>Alarm Number 16</value>
+  </data>
+  <data name="psPFEAlarmNum17" xml:space="preserve">
+    <value>Alarm Number 17</value>
+  </data>
+  <data name="psPFEAlarmNum18" xml:space="preserve">
+    <value>Alarm Number 18</value>
+  </data>
+  <data name="psPFEAlarmNum19" xml:space="preserve">
+    <value>Alarm Number 19</value>
+  </data>
+  <data name="psPFEAlarmNum2" xml:space="preserve">
+    <value>Alarm Number 2</value>
+  </data>
+  <data name="psPFEAlarmNum20" xml:space="preserve">
+    <value>Alarm Number 20</value>
+  </data>
+  <data name="psPFEAlarmNum21" xml:space="preserve">
+    <value>Alarm Number 21</value>
+  </data>
+  <data name="psPFEAlarmNum22" xml:space="preserve">
+    <value>Alarm Number 22</value>
+  </data>
+  <data name="psPFEAlarmNum23" xml:space="preserve">
+    <value>Alarm Number 23</value>
+  </data>
+  <data name="psPFEAlarmNum24" xml:space="preserve">
+    <value>Alarm Number 24</value>
+  </data>
+  <data name="psPFEAlarmNum25" xml:space="preserve">
+    <value>Alarm Number 25</value>
+  </data>
+  <data name="psPFEAlarmNum26" xml:space="preserve">
+    <value>Alarm Number 26</value>
+  </data>
+  <data name="psPFEAlarmNum27" xml:space="preserve">
+    <value>Alarm Number 27</value>
+  </data>
+  <data name="psPFEAlarmNum28" xml:space="preserve">
+    <value>Alarm Number 28</value>
+  </data>
+  <data name="psPFEAlarmNum29" xml:space="preserve">
+    <value>Alarm Number 29</value>
+  </data>
+  <data name="psPFEAlarmNum3" xml:space="preserve">
+    <value>Alarm Number 3</value>
+  </data>
+  <data name="psPFEAlarmNum30" xml:space="preserve">
+    <value>Alarm Number 30</value>
+  </data>
+  <data name="psPFEAlarmNum31" xml:space="preserve">
+    <value>Alarm Number 31</value>
+  </data>
+  <data name="psPFEAlarmNum32" xml:space="preserve">
+    <value>Alarm Number 32</value>
+  </data>
+  <data name="psPFEAlarmNum33" xml:space="preserve">
+    <value>Alarm Number 33</value>
+  </data>
+  <data name="psPFEAlarmNum34" xml:space="preserve">
+    <value>Alarm Number 34</value>
+  </data>
+  <data name="psPFEAlarmNum35" xml:space="preserve">
+    <value>Alarm Number 35</value>
+  </data>
+  <data name="psPFEAlarmNum36" xml:space="preserve">
+    <value>Alarm Number 36</value>
+  </data>
+  <data name="psPFEAlarmNum37" xml:space="preserve">
+    <value>Alarm Number 37</value>
+  </data>
+  <data name="psPFEAlarmNum38" xml:space="preserve">
+    <value>Alarm Number 38</value>
+  </data>
+  <data name="psPFEAlarmNum39" xml:space="preserve">
+    <value>Alarm Number 39</value>
+  </data>
+  <data name="psPFEAlarmNum4" xml:space="preserve">
+    <value>Alarm Number 4</value>
+  </data>
+  <data name="psPFEAlarmNum40" xml:space="preserve">
+    <value>Alarm Number 40</value>
+  </data>
+  <data name="psPFEAlarmNum41" xml:space="preserve">
+    <value>Alarm Number 41</value>
+  </data>
+  <data name="psPFEAlarmNum42" xml:space="preserve">
+    <value>Alarm Number 42</value>
+  </data>
+  <data name="psPFEAlarmNum43" xml:space="preserve">
+    <value>Alarm Number 43</value>
+  </data>
+  <data name="psPFEAlarmNum44" xml:space="preserve">
+    <value>Alarm Number 44</value>
+  </data>
+  <data name="psPFEAlarmNum45" xml:space="preserve">
+    <value>Alarm Number 45</value>
+  </data>
+  <data name="psPFEAlarmNum46" xml:space="preserve">
+    <value>Alarm Number 46</value>
+  </data>
+  <data name="psPFEAlarmNum47" xml:space="preserve">
+    <value>Alarm Number 47</value>
+  </data>
+  <data name="psPFEAlarmNum48" xml:space="preserve">
+    <value>Alarm Number 48</value>
+  </data>
+  <data name="psPFEAlarmNum49" xml:space="preserve">
+    <value>Alarm Number 49</value>
+  </data>
+  <data name="psPFEAlarmNum5" xml:space="preserve">
+    <value>Alarm Number 5</value>
+  </data>
+  <data name="psPFEAlarmNum50" xml:space="preserve">
+    <value>Alarm Number 50</value>
+  </data>
+  <data name="psPFEAlarmNum6" xml:space="preserve">
+    <value>Alarm Number 6</value>
+  </data>
+  <data name="psPFEAlarmNum7" xml:space="preserve">
+    <value>Alarm Number 7</value>
+  </data>
+  <data name="psPFEAlarmNum8" xml:space="preserve">
+    <value>Alarm Number 8</value>
+  </data>
+  <data name="psPFEAlarmNum9" xml:space="preserve">
+    <value>Alarm Number 9</value>
+  </data>
+  <data name="psPFEAlarms" xml:space="preserve">
+    <value>PFE Alarms</value>
+  </data>
+  <data name="psPFEAlarmText0" xml:space="preserve">
+    <value>Alarm Text 0</value>
+  </data>
+  <data name="psPFEAlarmText1" xml:space="preserve">
+    <value>Alarm Text 1</value>
+  </data>
+  <data name="psPFEAlarmText10" xml:space="preserve">
+    <value>Alarm Text 10</value>
+  </data>
+  <data name="psPFEAlarmText11" xml:space="preserve">
+    <value>Alarm Text 11</value>
+  </data>
+  <data name="psPFEAlarmText12" xml:space="preserve">
+    <value>Alarm Text 12</value>
+  </data>
+  <data name="psPFEAlarmText13" xml:space="preserve">
+    <value>Alarm Text 13</value>
+  </data>
+  <data name="psPFEAlarmText14" xml:space="preserve">
+    <value>Alarm Text 14</value>
+  </data>
+  <data name="psPFEAlarmText15" xml:space="preserve">
+    <value>Alarm Text 15</value>
+  </data>
+  <data name="psPFEAlarmText16" xml:space="preserve">
+    <value>Alarm Text 16</value>
+  </data>
+  <data name="psPFEAlarmText17" xml:space="preserve">
+    <value>Alarm Text 17</value>
+  </data>
+  <data name="psPFEAlarmText18" xml:space="preserve">
+    <value>Alarm Text 18</value>
+  </data>
+  <data name="psPFEAlarmText19" xml:space="preserve">
+    <value>Alarm Text 19</value>
+  </data>
+  <data name="psPFEAlarmText2" xml:space="preserve">
+    <value>Alarm Text 2</value>
+  </data>
+  <data name="psPFEAlarmText20" xml:space="preserve">
+    <value>Alarm Text 20</value>
+  </data>
+  <data name="psPFEAlarmText21" xml:space="preserve">
+    <value>Alarm Text 21</value>
+  </data>
+  <data name="psPFEAlarmText22" xml:space="preserve">
+    <value>Alarm Text 22</value>
+  </data>
+  <data name="psPFEAlarmText23" xml:space="preserve">
+    <value>Alarm Text 23</value>
+  </data>
+  <data name="psPFEAlarmText24" xml:space="preserve">
+    <value>Alarm Text 24</value>
+  </data>
+  <data name="psPFEAlarmText25" xml:space="preserve">
+    <value>Alarm Text 25</value>
+  </data>
+  <data name="psPFEAlarmText26" xml:space="preserve">
+    <value>Alarm Text 26</value>
+  </data>
+  <data name="psPFEAlarmText27" xml:space="preserve">
+    <value>Alarm Text 27</value>
+  </data>
+  <data name="psPFEAlarmText28" xml:space="preserve">
+    <value>Alarm Text 28</value>
+  </data>
+  <data name="psPFEAlarmText29" xml:space="preserve">
+    <value>Alarm Text 29</value>
+  </data>
+  <data name="psPFEAlarmText3" xml:space="preserve">
+    <value>Alarm Text 3</value>
+  </data>
+  <data name="psPFEAlarmText30" xml:space="preserve">
+    <value>Alarm Text 30</value>
+  </data>
+  <data name="psPFEAlarmText31" xml:space="preserve">
+    <value>Alarm Text 31</value>
+  </data>
+  <data name="psPFEAlarmText32" xml:space="preserve">
+    <value>Alarm Text 32</value>
+  </data>
+  <data name="psPFEAlarmText33" xml:space="preserve">
+    <value>Alarm Text 33</value>
+  </data>
+  <data name="psPFEAlarmText34" xml:space="preserve">
+    <value>Alarm Text 34</value>
+  </data>
+  <data name="psPFEAlarmText35" xml:space="preserve">
+    <value>Alarm Text 35</value>
+  </data>
+  <data name="psPFEAlarmText36" xml:space="preserve">
+    <value>Alarm Text 36</value>
+  </data>
+  <data name="psPFEAlarmText37" xml:space="preserve">
+    <value>Alarm Text 37</value>
+  </data>
+  <data name="psPFEAlarmText38" xml:space="preserve">
+    <value>Alarm Text 38</value>
+  </data>
+  <data name="psPFEAlarmText39" xml:space="preserve">
+    <value>Alarm Text 39</value>
+  </data>
+  <data name="psPFEAlarmText4" xml:space="preserve">
+    <value>Alarm Text 4</value>
+  </data>
+  <data name="psPFEAlarmText40" xml:space="preserve">
+    <value>Alarm Text 40</value>
+  </data>
+  <data name="psPFEAlarmText41" xml:space="preserve">
+    <value>Alarm Text 41</value>
+  </data>
+  <data name="psPFEAlarmText42" xml:space="preserve">
+    <value>Alarm Text 42</value>
+  </data>
+  <data name="psPFEAlarmText43" xml:space="preserve">
+    <value>Alarm Text 43</value>
+  </data>
+  <data name="psPFEAlarmText44" xml:space="preserve">
+    <value>Alarm Text 44</value>
+  </data>
+  <data name="psPFEAlarmText45" xml:space="preserve">
+    <value>Alarm Text 45</value>
+  </data>
+  <data name="psPFEAlarmText46" xml:space="preserve">
+    <value>Alarm Text 46</value>
+  </data>
+  <data name="psPFEAlarmText47" xml:space="preserve">
+    <value>Alarm Text 47</value>
+  </data>
+  <data name="psPFEAlarmText48" xml:space="preserve">
+    <value>Alarm Text 48</value>
+  </data>
+  <data name="psPFEAlarmText49" xml:space="preserve">
+    <value>Alarm Text 49</value>
+  </data>
+  <data name="psPFEAlarmText5" xml:space="preserve">
+    <value>Alarm Text 5</value>
+  </data>
+  <data name="psPFEAlarmText50" xml:space="preserve">
+    <value>Alarm Text 50</value>
+  </data>
+  <data name="psPFEAlarmText6" xml:space="preserve">
+    <value>Alarm Text 6</value>
+  </data>
+  <data name="psPFEAlarmText7" xml:space="preserve">
+    <value>Alarm Text 7</value>
+  </data>
+  <data name="psPFEAlarmText8" xml:space="preserve">
+    <value>Alarm Text 8</value>
+  </data>
+  <data name="psPFEAlarmText9" xml:space="preserve">
+    <value>Alarm Text 9</value>
+  </data>
+  <data name="psPLCFaultReport" xml:space="preserve">
+    <value>PLC Fault Reporting</value>
+  </data>
+  <data name="psPLCJobInProgress" xml:space="preserve">
+    <value>PLC-Initiated Job is in Progress</value>
+  </data>
+  <data name="psPLCRecovery" xml:space="preserve">
+    <value>PLC Error Recovery (Cancel/Continue)</value>
+  </data>
+  <data name="psPOSITIVE" xml:space="preserve">
+    <value>Positive</value>
+  </data>
+  <data name="psPotLifeTimeout" xml:space="preserve">
+    <value>Pot Life Timeout (Minutes):</value>
+  </data>
+  <data name="psPredetectSWDelay" xml:space="preserve">
+    <value>Predetect Switch Delay</value>
+  </data>
+  <data name="psPresetNumber" xml:space="preserve">
+    <value>Preset Number</value>
+  </data>
+  <data name="psPressureCalComplete" xml:space="preserve">
+    <value>Pressure Calibration Complete</value>
+  </data>
+  <data name="psProcessStatus" xml:space="preserve">
+    <value>Process Status</value>
+  </data>
+  <data name="psProdLogDTK" xml:space="preserve">
+    <value>Production Log Days To Keep:</value>
+  </data>
+  <data name="pspsi" xml:space="preserve">
+    <value>psi</value>
+  </data>
+  <data name="psPurgeBucketLimitFlt" xml:space="preserve">
+    <value>Purge Bucket Fault Limit</value>
+  </data>
+  <data name="psPurgeBucketLimitWarn" xml:space="preserve">
+    <value>Purge Bucket Warning Limit</value>
+  </data>
+  <data name="psPushoutEnabled" xml:space="preserve">
+    <value>Pushout enabled:</value>
+  </data>
+  <data name="psPushUnknown" xml:space="preserve">
+    <value>Pushout when next color unknown:</value>
+  </data>
+  <data name="psPUSH_VOL" xml:space="preserve">
+    <value>Pushout Volume(cc)</value>
+  </data>
+  <data name="psPWSetup" xml:space="preserve">
+    <value>PAINTworks Setup</value>
+  </data>
+  <data name="psREADY" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="psREFRESH" xml:space="preserve">
+    <value>AutoRefresh</value>
+  </data>
+  <data name="psREFRESHRATE" xml:space="preserve">
+    <value>Refresh Rate: </value>
+  </data>
+  <data name="psResTimDiff" xml:space="preserve">
+    <value>Resave gun timing difference (ms):</value>
+  </data>
+  <data name="psRestTimDel" xml:space="preserve">
+    <value>Restore time delay (ms):</value>
+  </data>
+  <data name="psRIGHT_AIR_FAULT" xml:space="preserve">
+    <value>Right Air Fault</value>
+  </data>
+  <data name="psRobotBackupsDTK" xml:space="preserve">
+    <value>Robot Backups To Keep:</value>
+  </data>
+  <data name="psRobotMastered" xml:space="preserve">
+    <value>Robot Mastered</value>
+  </data>
+  <data name="psRobotMotionDisabled" xml:space="preserve">
+    <value>Robot Motion Disabled</value>
+  </data>
+  <data name="psRobotSetup" xml:space="preserve">
+    <value>Robot Setup</value>
+  </data>
+  <data name="psRobotSetupSealer" xml:space="preserve">
+    <value>Robot Setup</value>
+  </data>
+  <data name="psRobotSetupSealerTab" xml:space="preserve">
+    <value>Robot Setup</value>
+  </data>
+  <data name="psRobotStateReport" xml:space="preserve">
+    <value>Robot State Reporting</value>
+  </data>
+  <data name="psRobotStatus" xml:space="preserve">
+    <value>Robot Status</value>
+  </data>
+  <data name="psROBOTS_CAP" xml:space="preserve">
+    <value>Robots</value>
+  </data>
+  <data name="psSchedule" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="psSchedule_S" xml:space="preserve">
+    <value>Schedules</value>
+  </data>
+  <data name="psSecPerDiv" xml:space="preserve">
+    <value>Sec/Division</value>
+  </data>
+  <data name="psSELECTCOPY_PARM" xml:space="preserve">
+    <value>Select Copy Parameters</value>
+  </data>
+  <data name="psSelectedProgram" xml:space="preserve">
+    <value>Selected Program</value>
+  </data>
+  <data name="psSELECTING" xml:space="preserve">
+    <value>Selecting </value>
+  </data>
+  <data name="psSETPOINTCONTROL" xml:space="preserve">
+    <value>Setpoint Control</value>
+  </data>
+  <data name="psShapingAirSetup" xml:space="preserve">
+    <value>Shaping Air Setup</value>
+  </data>
+  <data name="psSimConvSpd" xml:space="preserve">
+    <value>Simulated Conveyor Speed (mm/s):</value>
+  </data>
+  <data name="psSlNumGuns" xml:space="preserve">
+    <value>Number of Guns</value>
+  </data>
+  <data name="psSolAirTime" xml:space="preserve">
+    <value>Solv-Air Time</value>
+  </data>
+  <data name="psStaggeredFillMax" xml:space="preserve">
+    <value>Staggered Fill Max</value>
+  </data>
+  <data name="psSTART" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="psStartAtLast" xml:space="preserve">
+    <value>Start color change at last gun off:</value>
+  </data>
+  <data name="psStartSignalIgnore" xml:space="preserve">
+    <value>Ignore job start signal:</value>
+  </data>
+  <data name="psSTOP" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="psSUnitConfig" xml:space="preserve">
+    <value>S-Unit Config</value>
+  </data>
+  <data name="psSupplyPresCAP" xml:space="preserve">
+    <value>Supply Pressure</value>
+  </data>
+  <data name="psSupplyPressure" xml:space="preserve">
+    <value>Supply Pressure (psi)</value>
+  </data>
+  <data name="psSUPPLYPRESSUREGRAPH" xml:space="preserve">
+    <value>Bulk Supply Pressure</value>
+  </data>
+  <data name="psTCUCommandStatus" xml:space="preserve">
+    <value>TCU Command / Status</value>
+  </data>
+  <data name="psTCUDISABLED" xml:space="preserve">
+    <value>TCU Disabled</value>
+  </data>
+  <data name="psTCUDutyCycle" xml:space="preserve">
+    <value>TCU Duty Cycle</value>
+  </data>
+  <data name="psTCUEnable" xml:space="preserve">
+    <value>TCU Enable</value>
+  </data>
+  <data name="psTCUERROR" xml:space="preserve">
+    <value>TCU Error</value>
+  </data>
+  <data name="psTCUMode" xml:space="preserve">
+    <value>TCUMode</value>
+  </data>
+  <data name="psTemperatureControl" xml:space="preserve">
+    <value>Temperature Control</value>
+  </data>
+  <data name="psTEMPERATURECONTROLGRAPH" xml:space="preserve">
+    <value>Actual Temperature vs. Setpoint</value>
+  </data>
+  <data name="psTempSetpoint" xml:space="preserve">
+    <value>Temperature Setpoint (°F)</value>
+  </data>
+  <data name="psTO" xml:space="preserve">
+    <value> to </value>
+  </data>
+  <data name="psTPFaultRecovery" xml:space="preserve">
+    <value>TPFault Recovery</value>
+  </data>
+  <data name="psTrackGroup" xml:space="preserve">
+    <value>Group Number:</value>
+  </data>
+  <data name="psTRUE" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="psUNINIT" xml:space="preserve">
+    <value>Uninitialized</value>
+  </data>
+  <data name="psUOPSEnabled" xml:space="preserve">
+    <value>UOPs Enabled</value>
+  </data>
+  <data name="psValveA" xml:space="preserve">
+    <value>Valve A</value>
+  </data>
+  <data name="psValveACAP" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="psValveAIn" xml:space="preserve">
+    <value>Valve A Inlet</value>
+  </data>
+  <data name="psValveAOut" xml:space="preserve">
+    <value>Valve A Outlet</value>
+  </data>
+  <data name="psValveB" xml:space="preserve">
+    <value>Valve B</value>
+  </data>
+  <data name="psValveBCAP" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="psValveBIn" xml:space="preserve">
+    <value>Valve B Inlet</value>
+  </data>
+  <data name="psValveBOut" xml:space="preserve">
+    <value>Valve B Outlet</value>
+  </data>
+  <data name="psVALVES_CAP" xml:space="preserve">
+    <value>Valves</value>
+  </data>
+  <data name="psVALVE_CAP" xml:space="preserve">
+    <value>Valve</value>
+  </data>
+  <data name="psVISCCONTROL" xml:space="preserve">
+    <value>Viscosity Control</value>
+  </data>
+  <data name="psViscEnable" xml:space="preserve">
+    <value>Viscosity Control</value>
+  </data>
+  <data name="psVISCOSITYCONTROLGRAPH" xml:space="preserve">
+    <value>Actual Viscosity vs. Setpoint</value>
+  </data>
+  <data name="psViscositySetpoint" xml:space="preserve">
+    <value>Viscosity Setpoint (%)</value>
+  </data>
+  <data name="psVisionLogDTK" xml:space="preserve">
+    <value>Vision Log Days To Keep:</value>
+  </data>
+  <data name="psVisionStatus" xml:space="preserve">
+    <value>Vision Status</value>
+  </data>
+  <data name="psVolumeCalComplete" xml:space="preserve">
+    <value>Volume Calculation Calibrated</value>
+  </data>
+  <data name="psVolumeDispCAP" xml:space="preserve">
+    <value>Volume Dispensed (cc)</value>
+  </data>
+  <data name="psVolumeDispensed" xml:space="preserve">
+    <value>Volume Dispensed (cc)</value>
+  </data>
+  <data name="psWaitInterferenceZoneDelay" xml:space="preserve">
+    <value>'Waiting For Interference Zone' Warning Delay</value>
+  </data>
+  <data name="psWetMode" xml:space="preserve">
+    <value>Wet Mode</value>
+  </data>
+  <data name="psWetVlvDel" xml:space="preserve">
+    <value>Wet valve delay (ms):</value>
+  </data>
+  <data name="psYES" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="psMtrEmpty" xml:space="preserve">
+    <value>Meter Empty</value>
+  </data>
+  <data name="psMtrIsdMode" xml:space="preserve">
+    <value>Meter ISD Mode</value>
+  </data>
+  <data name="psMtrIsdStatus" xml:space="preserve">
+    <value>Meter ISD Status</value>
+  </data>
+  <data name="psMtrMachinelock" xml:space="preserve">
+    <value>Meter Machinelock</value>
+  </data>
+  <data name="psMtrOverTravel" xml:space="preserve">
+    <value>Meter Overtravel</value>
+  </data>
+  <data name="psMtrPnSrvRdy" xml:space="preserve">
+    <value>Meter Pnuematic Servo Ready</value>
+  </data>
+  <data name="psMtrPosition" xml:space="preserve">
+    <value>Meter Position (%)</value>
+  </data>
+  <data name="psMtrPressure" xml:space="preserve">
+    <value>Meter Pressure (psi)</value>
+  </data>
+  <data name="psMtrSpeed" xml:space="preserve">
+    <value>Meter Speed</value>
+  </data>
+  <data name="psMtrVolumeLeft" xml:space="preserve">
+    <value>Meter Volume Left</value>
+  </data>
+  <data name="GunOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GunOff.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GunOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GunOn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RefreshBlue0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RefreshBlue.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RefreshBlue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RefreshBlue1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RefreshBlue2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RefreshBlue2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RefreshBlue3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RefreshBlue3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Valve_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Valve_L.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Valve_L_On" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Valve_L_On.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Valve_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Valve_R.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Valve_R_On" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Valve_R_On.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psDispenserStatusDualIPS" xml:space="preserve">
+    <value>Dual IPS Dispenser Status</value>
+  </data>
+  <data name="psDispenserStatusIPS" xml:space="preserve">
+    <value>IPS Dispenser Status</value>
+  </data>
+  <data name="psDispenserStatusISD" xml:space="preserve">
+    <value>ISD Dispenser Status</value>
+  </data>
+  <data name="ps20HRColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="ps20HrJob1" xml:space="preserve">
+    <value>Job #1</value>
+  </data>
+  <data name="ps20HrJob10" xml:space="preserve">
+    <value>Job #10</value>
+  </data>
+  <data name="ps20HrJob11" xml:space="preserve">
+    <value>Job #11</value>
+  </data>
+  <data name="ps20HrJob12" xml:space="preserve">
+    <value>Job #12</value>
+  </data>
+  <data name="ps20HrJob13" xml:space="preserve">
+    <value>Job #13</value>
+  </data>
+  <data name="ps20HrJob14" xml:space="preserve">
+    <value>Job #14</value>
+  </data>
+  <data name="ps20HrJob15" xml:space="preserve">
+    <value>Job #15</value>
+  </data>
+  <data name="ps20HrJob16" xml:space="preserve">
+    <value>Job #16</value>
+  </data>
+  <data name="ps20HrJob17" xml:space="preserve">
+    <value>Job #17</value>
+  </data>
+  <data name="ps20HrJob18" xml:space="preserve">
+    <value>Job #18</value>
+  </data>
+  <data name="ps20HrJob19" xml:space="preserve">
+    <value>Job #19</value>
+  </data>
+  <data name="ps20HrJob2" xml:space="preserve">
+    <value>Job #2</value>
+  </data>
+  <data name="ps20HrJob20" xml:space="preserve">
+    <value>Job #20</value>
+  </data>
+  <data name="ps20HrJob3" xml:space="preserve">
+    <value>Job #3</value>
+  </data>
+  <data name="ps20HrJob4" xml:space="preserve">
+    <value>Job #4</value>
+  </data>
+  <data name="ps20HrJob5" xml:space="preserve">
+    <value>Job #5</value>
+  </data>
+  <data name="ps20HrJob6" xml:space="preserve">
+    <value>Job #6</value>
+  </data>
+  <data name="ps20HrJob7" xml:space="preserve">
+    <value>Job #7</value>
+  </data>
+  <data name="ps20HrJob8" xml:space="preserve">
+    <value>Job #8</value>
+  </data>
+  <data name="ps20HrJob9" xml:space="preserve">
+    <value>Job #9</value>
+  </data>
+  <data name="ps20HrJobs" xml:space="preserve">
+    <value>Job Number</value>
+  </data>
+  <data name="ps20HROption" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="ps20HRPitch" xml:space="preserve">
+    <value>Pitch</value>
+  </data>
+  <data name="ps20HrRunSetup" xml:space="preserve">
+    <value>20 Hour Run Setup</value>
+  </data>
+  <data name="ps20HRStyle" xml:space="preserve">
+    <value>Style</value>
+  </data>
+</root>

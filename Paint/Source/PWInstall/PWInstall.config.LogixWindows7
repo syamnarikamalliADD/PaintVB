@@ -1,0 +1,42 @@
+!PAINTWorks Installation Configuration
+PaintFolderSource,.\Paint\
+PaintFolderDest,C:\Paint\
+Robots,RC_1
+MakeFolders,DMON Data,DMON Data Archive,Help,Profile,PW Robot Backups,Database,VbApps
+AutoBackupFolder,\AutoBackups\
+DuplicatePaintFolder,D:\Paint\
+RobotBackupFolders,Master Backups,Robot Image Backups,Temp Backups
+extract,.\Paint\P1000Demo_Database.zip
+extract,.\Paint\P1000Demo_FanucManuals.zip
+extract,.\Paint\P1000Demo_Help.zip
+extract,.\Paint\P1000Demo_Paint_Common.zip
+extract,.\Paint\P1000Demo_Source.zip
+copyfile,.\PW Support\Hosts\hosts,%windir%\system32\drivers\etc\Hosts
+copyfile,.\Paint\Launch PAINTWorks,%USERPROFILE%\Desktop
+run,regsvr32.exe C:\paint\vbapps\objects\FSFTP.dll,Registering FTP dll.
+!Disable powercfg calls for windows XP
+run,powercfg -x -monitor-timeout-ac 30,Monitor Timeout.
+run,powercfg -x -standby-timeout-ac 0,Standby Timeout.
+run,powercfg -x -hibernate-timeout-ac 0ll,hibernate Timeout.
+regimport,.\PW Support\Windows Registry\PW.reg,Registry Settings
+vbs,.\PW Support\Windows Registry\ChangeTheme.vbs,PAINTWorks desktop theme.
+run,.\PW Support\SQL Server 2005 Express Edition\SQLEXPR32.exe INSTANCENAME=PAINTWORKS,SQL Server
+run,.\PW Support\Java\jRe-7u9-windows-i586.exe,Java Virtual Machine.
+!Redistributables needed for autodesk.  They casue a restart, though
+!run,.\PW Support\Redist\vcredist_x86.exe,Visual C Runtime.
+!run,.\PW Support\Redist\dotNetFx40_Full_x86_x64.exe,dotNet Runtime.
+!msi,.\PW Support\AutoDesk\SetupDesignReview2013.msi,Autodesk Design Review.
+run,.\PW Support\Adobe Reader X\AdbeRdr1011_en_US.exe,Adobe Reader.
+run,.\PW Support\AnyBus IPconfig - for SMC EX600\Anybus IPconfig Setup 1_5_1_1\Anybus IPconfig Setup 1_5_1_1.exe,Anybus IP Setup.
+!WinHelp32 not needed for windows XP
+run,.\PW Support\WinHelp32 for Windows 7\Windows6.1-KB917607-x86.msu,WinHelp32 for Windows 7.
+msi,.\PW Support\XML Notepad\XmlNotepad.msi,XML Notepad.
+msi,.\PW Support\SQL Server 2005 Management Studio Express\SQLServer2005_SSMSEE.msi,SQL Server Management Studio Express.
+!64bit#msi,.\PW Support\SQL Server 2005 Management Studio Express\SQLServer2005_SSMSEE_x64.msi,SQL Server Management Studio Express.
+!msi,.\PW Support\SQL Server 2005 Books online\SqlServer2K5_BOL _Jan2009.msi,SQL Server Books Online.
+run,.\PW Support\Cute PDF Writer v2.8\CuteWriter.exe,PDF Writer.
+run,.\PW Support\Cute PDF Writer v2.8\converter.exe,PDF Converter.
+run,.\PW Support\PCDK+_V810_A\setup.exe,Fanuc Robotics PCDK 8.10A
+run,.\PW Support\ASABTCP v2.10.2\Setup.exe,ASABTCP.
+run,.\PW Support\Visual Studio 2008 Express\VBExpress\setup.exe,Visual Basic Express
+vbs,c:\paint\profile\pw4usershell.vbs,PAINTWorks AutoStartup.

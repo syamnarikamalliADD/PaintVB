@@ -1,0 +1,299 @@
+﻿ParamSetup
+sysdiagrams
+
+
+ParamSetup
+RobotSetupItems
+Index,Label,Tab,DataSource,Datatype,PLCTag,ProgName1,VarName1,ProgName2,VarName2,DBName,DBTableName,DBRowName,DBColumnName,RegPath,RegKey,Edit,Min,Max,Scale,Precision,UseCbo,CustomCBO,Formula,Display,PainterOnly
+1,psPushUnknown,ColorChange,Robot,Boolean   ,,pavrccex,tCCEXCmos.sap_unknown,,,,,,,,,True,0,0,1,,,,,,True
+2,psAutoCC,ColorChange,Robot,Boolean   ,,pavrccex,tCCEXCmos.cc_req,,,,,,,,,True,0,0,1,,,,,,True
+3,psPeriodicGC,ColorChange,Robot,Boolean   ,,pavrccex,tCCEXCmos.gc_req,,,,,,,,,True,0,0,1,,,,,,True
+6,psClnUnknown,ColorChange,Robot,boolean   ,,pavrccex,tCCEXCmos.cln_unknown,,,,,,,,,True,0,0,1,,,,,,True
+8,psStartAtLast,ColorChange,Robot,boolean   ,,pavrccex,tCCEXCmos.ccgo_atlast,,,,,,,,,True,0,0,1,,,,,,True
+9,psWetVlvDel,ColorChange,Robot,integer   ,,pavrccex,tCCEXCmos.wet_delay_ms,,,,,,,,,True,0,999,1,,,,,,True
+10,psCCResume,ColorChange,Robot,boolean   ,,pavrccex,tCCEXCmos.ccresume_req;#VER7.30##NOT_USED#,,,,,,,,,True,0,0,1,,,,,False,True
+17,psPushoutEnabled,ArmOptions,Robot,integer   ,,pavroptn,#VER7.30#byoptn[#Equip#].byOp[7],,,,,,,,,True,0,1,1,,True,psNO;0;psBY_TIME;1;psBY_VOLUME;2,,,True
+18,psPushoutEnabled,ArmOptions,Robot,integer   ,,pavroptn,#VER6.30#byOp[7];#VER7.30##NOT_USED#,,,,,,,,,True,0,1,1,,True,psYES;1;psNO;0,,False,True
+19,psFindLastGunOff,ArmOptions,Robot,integer   ,,pavroptn,#VER6.30#byOp[13];#VER7.30#byoptn[#Equip#].byOp[13],,,,,,,,,True,0,1,1,,True,psYES;1;psNO;0,,,True
+20,psGCCount,ArmOptions,Robot,integer   ,,pavrccex,tCCEqCmos[#Equip#].gc_cnt,,,,,,,,,True,0,99,1,,,,,,True
+21,psMoveHomeAtJobEnd,ArmOptions,Robot,integer   ,,pavroptn,#VER6.30#byOp[30];#VER7.30#byoptn[#Equip#].byOp[30],,,,,,,,,True,0,0,1,,True,psYES;1;psNO;0,,,False
+22,psStartSignalIgnore,ArmOptions,Robot,integer   ,,pavroptn,#VER6.30#byOp[4];#VER7.30#byoptn[#Equip#].byOp[4],,,,,,,,,True,0,0,1,,True,psYES;1;psNO;0,,,False
+41,psGunOnDelay,ArmOptions,Robot,integer   ,,pavrguns,gun_on_time[#Equip#];#VER7.30##NOT_USED#,,,,,,,,,True,-100,1000,1,,,,,False,True
+42,psGunOffDelay,ArmOptions,Robot,integer   ,,pavrguns,gun_off_time[#Equip#];#VER7.30##NOT_USED#,,,,,,,,,True,-100,1000,1,,,,,False,True
+43,psAABSAnt,ArmOptions,Robot,integer   ,,pavrparm,CON_PRM_DESC[#Parm2#].APP_CON_TIME;#VER7.30#TPARMEQ[#Equip#].CON_PRM_DESC[2].APP_CON_TIME,,,,,,,,,True,-100,1000,1,,,,,,True
+44,psFASAAnt,ArmOptions,Robot,integer   ,,pavrparm,CON_PRM_DESC[#Parm3#].APP_CON_TIME;#VER7.30#TPARMEQ[#Equip#].CON_PRM_DESC[3].APP_CON_TIME,,,,,,,,,True,-100,1000,1,,,,,,True
+45,psResTimDiff,CommonOptions,Robot,integer   ,,pavroptn,psh_min_dif,,,,,,,,,True,0,9999,1,,,,,,True
+46,psRestTimDel,CommonOptions,Robot,integer   ,,pavrguns,restore_time,,,,,,,,,True,0,9999,1,,,,,,True
+47,psGunOnDelay,CommonOptions,Robot,integer   ,,pavrguns,#VER7.30#gun_on_time,,,,,,,,,True,-100,1000,1,,,,,,True
+48,psGunOffDelay,CommonOptions,Robot,integer   ,,pavrguns,#VER7.30#gun_off_time,,,,,,,,,True,-100,1000,1,,,,,,True
+61,psHvonTo,EstatSetup          ,Robot,integer   ,,pavrparm,EstatSetup[#Equip#].hvon_time,,,,,,,,,True,250,9999,1,,,,,,True
+62,psEsSprTo,EstatSetup          ,Robot,integer   ,,pavrparm,EstatSetup[#Equip#].SPR_time,,,,,,,,,True,500,30000,1,,,,,,True
+63,psEeResTime,EstatSetup          ,Robot,integer   ,,pavrparm,EstatSetup[#Equip#].ESRstTime,,,,,,,,,True,0,10000,1,,,,,,True
+71,psEsLowLevDel,EstatTracking       ,Robot,integer   ,,pavrlntr,lo_lev_delay,,,,,,,,,True,0,10000,1,,,,,False,True
+72,psEsContTrkDel,EstatTracking       ,Robot,integer   ,,pavrlntr,iMottimLim,,,,,,,,,True,0,9999,1,,,,,False,True
+73,psEsLowLevPre,EstatTracking       ,Robot,integer   ,,pavrlntr,estat_lo_lev,,,,,,,,,True,0,255,1,,,,,,True
+74,psEsLowLevEnab,EstatTracking       ,Robot,boolean   ,,pavrlntr,estat_opt,,,,,,,,,True,0,0,1,,,,,,True
+75,psEsOneStroke,EstatTracking       ,Robot,boolean   ,,pavrlntr,conv_opt,,,,,,,,,False,0,0,1,,,,,,True
+81,psPartDetDist,LineTracking,Robot,integer   ,,pavrlntr,BODY_DIST2[#Cust#],,,,,,,,,True,-99999,99999,1,,,,,,False
+82,psEncThreshld,LineTracking,Robot,integer   ,,pavrlntr,enc_thresh[1],,,,,,,,,True,0,9999,1,,,,,,False
+83,psEncMinDist,LineTracking,Robot,integer   ,,pavrlntr,enc_mindist[1],,,,,,,,,True,0,9999,1,,,,,,False
+84,psEncMaxDist,LineTracking,Robot,integer   ,,pavrlntr,enc_maxdist[1],,,,,,,,,True,0,99999,1,,,,,,False
+85,psSimConvSpd,LineTracking,Robot,integer   ,,pavrlntr,sim_conv_spd,,,,,,,,,True,0,300,1,0,,,,,False
+86,psEncAver,LineTracking,Robot,real      ,,pavrlntr,enc_average[1],,,,,,,,,True,0,100,1,2,,,,,False
+87,psEncScale,LineTracking,Robot,real      ,,pavrlntr,enc_scale[1],,,,,,,,,True,0,9999,1,2,,,,,False
+88,psHoldCC,LineTracking,Robot,integer   ,,pavrlntr,iholdccpos[#Cust#],,,,,,,,,True,-99999,99999,1,0,,,,,False
+89,psInBnd1,LineTracking,Robot,real      ,,pavrlntr,in_bound1[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND1[1],,,,,,,True,-99999,99999,1,2,,,,,False
+90,psOutBnd1,LineTracking,Robot,real      ,,pavrlntr,out_bound1[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND2[1],,,,,,,True,-99999,99999,1,2,,,,,False
+91,psInBnd2,LineTracking,Robot,real      ,,pavrlntr,in_bound2[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND1[2],,,,,,,True,-99999,99999,1,2,,,,,False
+92,psOutBnd2,LineTracking,Robot,real      ,,pavrlntr,out_bound2[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND2[2],,,,,,,True,-99999,99999,1,2,,,,,False
+93,psInBnd3,LineTracking,Robot,real      ,,pavrlntr,in_bound3[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND1[3],,,,,,,True,-99999,99999,1,2,,,,,False
+94,psOutBnd3,LineTracking,Robot,real      ,,pavrlntr,out_bound3[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND2[3],,,,,,,True,-99999,99999,1,2,,,,,False
+95,psInBnd4,LineTracking,Robot,real      ,,pavrlntr,in_bound4[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND1[4],,,,,,,True,-99999,99999,1,2,,,,,False
+96,psOutBnd4,LineTracking,Robot,real      ,,pavrlntr,out_bound4[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND2[4],,,,,,,True,-99999,99999,1,2,,,,,False
+97,psInBnd5,LineTracking,Robot,real      ,,pavrlntr,in_bound5[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND1[5],,,,,,,True,-99999,99999,1,2,,,,,False
+98,psOutBnd5,LineTracking,Robot,real      ,,pavrlntr,out_bound5[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND2[5],,,,,,,True,-99999,99999,1,2,,,,,False
+99,psInBnd6,LineTracking,Robot,real      ,,pavrlntr,in_bound6[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND1[6],,,,,,,True,-99999,99999,1,2,,,,,False
+100,psOutBnd6,LineTracking,Robot,real      ,,pavrlntr,out_bound6[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND2[6],,,,,,,True,-99999,99999,1,2,,,,,False
+101,psInBnd7,LineTracking,Robot,real      ,,pavrlntr,in_bound7[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND1[7],,,,,,,True,-99999,99999,1,2,,,,,False
+102,psOutBnd7,LineTracking,Robot,real      ,,pavrlntr,out_bound7[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND2[7],,,,,,,True,-99999,99999,1,2,,,,,False
+103,psInBnd8,LineTracking,Robot,real      ,,pavrlntr,in_bound8[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND1[8],,,,,,,True,-99999,99999,1,2,,,,,False
+104,psOutBnd8,LineTracking,Robot,real      ,,pavrlntr,out_bound8[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND2[8],,,,,,,True,-99999,99999,1,2,,,,,False
+105,psInBnd9,LineTracking,Robot,real      ,,pavrlntr,in_bound9[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND1[9],,,,,,,True,-99999,99999,1,2,,,,,False
+106,psOutBnd9,LineTracking,Robot,real      ,,pavrlntr,out_bound9[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND2[9],,,,,,,True,-99999,99999,1,2,,,,,False
+107,psInBnd10,LineTracking,Robot,real      ,,pavrlntr,in_bound10[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND1[10],,,,,,,True,-99999,99999,1,2,,,,,False
+108,psOutBnd10,LineTracking,Robot,real      ,,pavrlntr,out_bound10[#Cust#],*SYSTEM*,$LNSCH[#Cust#].$BOUND2[10],,,,,,,True,-99999,99999,1,2,,,,,False
+111,psPotLifeTimeout,ColorChange,plc,integer   ,#2K#Z#Zone#R#Controller#PotLifeTimeout,,,,,,,,,,,True,0,300,1,,,,,,True
+112,psEq1ShapingAir1ModePermanent,Shaping Air Setup   ,Robot,integer   ,,pavrtsgl,ts_chan_prm[#TsParm3#].op_mode,,,,,,,,,True,2,3,1,,True,Closed Loop;2;Open Loop;3,,True,True
+113,psEq1ShapingAir2ModePermanent,Shaping Air Setup   ,Robot,integer   ,,pavrtsgl,ts_chan_prm[#TsParm4#].op_mode,,,,,,,,,True,2,3,1,,True,Closed Loop;2;Open Loop;3,,True,True
+114,psEq1ShapingAir1ModeTemporary,Shaping Air Setup   ,Robot,integer   ,,patsctl,ts_chan_dyn[#TsParm3#].cur_op_mode,,,,,,,,,True,2,3,1,,True,Closed Loop;2;Open Loop;3,,True,True
+115,psEq1ShapingAir2ModeTemporary,Shaping Air Setup   ,Robot,integer   ,,patsctl,ts_chan_dyn[#TsParm4#].cur_op_mode,,,,,,,,,True,2,3,1,,True,Closed Loop;2;Open Loop;3,,True,True
+116,psEq1ShapingAir1MaxOutputTime,Shaping Air Setup   ,Robot,integer   ,,pavrtsgl,ts_chan_prm[#TsParm3#].max_out_ms,,,,,,,,,True,0,15000,1,,,,,True,True
+117,psEq1ShapingAir2MaxOutputTime,Shaping Air Setup   ,Robot,integer   ,,pavrtsgl,ts_chan_prm[#TsParm4#].max_out_ms,,,,,,,,,True,0,15000,1,,,,,True,True
+118,psEq1ShapingAir1SetpointReachedTol,Shaping Air Setup   ,Robot,integer   ,,pavrtsgl,ts_chan_prm[#TsParm3#].per_tol_band,,,,,,,,,True,0.1,9.99,0.1,1,,,0,True,True
+119,psEq1ShapingAir2SetpointReachedTol,Shaping Air Setup   ,Robot,integer   ,,pavrtsgl,ts_chan_prm[#TsParm4#].per_tol_band,,,,,,,,,True,0.1,9.99,0.1,1,,,,True,True
+120,psEq1ShapingAir1ZeroSpeedTO,Shaping Air Setup   ,Robot,integer   ,,pavrtsgl,ts_chan_prm[#TsParm3#].zero_spd_ms,,,,,,,,,True,0,5000,1,,,,,True,True
+121,psEq1ShapingAir2ZeroSpeedTO,Shaping Air Setup   ,Robot,integer   ,,pavrtsgl,ts_chan_prm[#TsParm4#].zero_spd_ms,,,,,,,,,True,0,5000,1,,,,,True,True
+
+
+ParamSetup
+PWIIISetupItems
+Index,Label,Tab,DataSource,Datatype,PLCTag,ProgName1,VarName1,ProgName2,VarName2,DBName,DBTableName,DBRowName,DBColumnName,RegPath,RegKey,Edit,Min,Max,Scale,Precision,UseCbo,CustomCBO,Formula,Display,PainterOnly
+1,psAlarmLogDTK,DaysToKeep,XML,int       ,,,,,,DaysToKeep,DaysToKeep,,Alarm,,,True,1,365,1,0,False,,0,,
+2,psProdLogDTK,DaysToKeep,XML,int       ,,,,,,DaysToKeep,DaysToKeep,,Production,,,True,1,365,1,0,False,,0,,
+3,psChangeLogDTK,DaysToKeep,XML,int       ,,,,,,DaysToKeep,DaysToKeep,,Change,,,True,1,365,1,0,False,,0,,
+4,psVisionLogDTK,DaysToKeep,XML,int       ,,,,,,DaysToKeep,DaysToKeep,,Vision,,,True,1,365,1,0,False,,0,False,
+5,psDiagnosticLogDTK,DaysToKeep,XML,int       ,,,,,,DaysToKeep,DaysToKeep,,Diagnostic,,,True,1,15,1,0,False,,0,,
+6,psDiagnosticArchiveDTK,DaysToKeep,XML,int       ,,,,,,DaysToKeep,DaysToKeep,,DiagnosticArchive,,,True,1,365,1,0,False,,0,,
+7,psRobotBackupsDTK,DaysToKeep,XML,int       ,,,,,,DaysToKeep,DaysToKeep,,RobotBackups,,,True,1,50,1,0,False,,0,,
+8,psDriveFullThreshhold,DaysToKeep,XML,int       ,,,,,,DaysToKeep,DaysToKeep,,DriveFullThreshold,,,True,1,100,1,0,False,,0,,
+21,psPFEAlarmNum0,PFEAlarms,PLC,int       ,Z1PFEAlarmNum0,,,,,,,,,,,True,0,100000,1,,,,,False,
+22,psPFEAlarmText0,PFEAlarms,PLC,string    ,Z1PFEAlarmText0,,,,,,,,,,,True,0,0,1,,,,,False,
+23,psPFEAlarmNum1,PFEAlarms,PLC,int       ,Z1PFEAlarmNum1,,,,,,,,,,,True,0,100000,1,,,,,False,
+24,psPFEAlarmText1,PFEAlarms,PLC,string    ,Z1PFEAlarmText1,,,,,,,,,,,True,0,0,1,,,,,False,
+25,psPFEAlarmNum2,PFEAlarms,PLC,int       ,Z1PFEAlarmNum2,,,,,,,,,,,True,0,100000,1,,,,,False,
+26,psPFEAlarmText2,PFEAlarms,PLC,string    ,Z1PFEAlarmText2,,,,,,,,,,,True,0,0,1,,,,,False,
+27,psPFEAlarmNum3,PFEAlarms,PLC,int       ,Z1PFEAlarmNum3,,,,,,,,,,,True,0,100000,1,,,,,False,
+28,psPFEAlarmText3,PFEAlarms,PLC,string    ,Z1PFEAlarmText3,,,,,,,,,,,True,0,0,1,,,,,False,
+29,psPFEAlarmNum4,PFEAlarms,PLC,int       ,Z1PFEAlarmNum4,,,,,,,,,,,True,0,100000,1,,,,,False,
+30,psPFEAlarmText4,PFEAlarms,PLC,string    ,Z1PFEAlarmText4,,,,,,,,,,,True,0,0,1,,,,,False,
+31,psPFEAlarmNum5,PFEAlarms,PLC,int       ,Z1PFEAlarmNum5,,,,,,,,,,,True,0,100000,1,,,,,False,
+32,psPFEAlarmText5,PFEAlarms,PLC,string    ,Z1PFEAlarmText5,,,,,,,,,,,True,0,0,1,,,,,False,
+33,psPFEAlarmNum6,PFEAlarms,PLC,int       ,Z1PFEAlarmNum6,,,,,,,,,,,True,0,100000,1,,,,,False,
+34,psPFEAlarmText6,PFEAlarms,PLC,string    ,Z1PFEAlarmText6,,,,,,,,,,,True,0,0,1,,,,,False,
+35,psPFEAlarmNum7,PFEAlarms,PLC,int       ,Z1PFEAlarmNum7,,,,,,,,,,,True,0,100000,1,,,,,False,
+36,psPFEAlarmText7,PFEAlarms,PLC,string    ,Z1PFEAlarmText7,,,,,,,,,,,True,0,0,1,,,,,False,
+37,psPFEAlarmNum8,PFEAlarms,PLC,int       ,Z1PFEAlarmNum8,,,,,,,,,,,True,0,100000,1,,,,,False,
+38,psPFEAlarmText8,PFEAlarms,PLC,string    ,Z1PFEAlarmText8,,,,,,,,,,,True,0,0,1,,,,,False,
+39,psPFEAlarmNum9,PFEAlarms,PLC,int       ,Z1PFEAlarmNum9,,,,,,,,,,,True,0,100000,1,,,,,False,
+40,psPFEAlarmText9,PFEAlarms,PLC,string    ,Z1PFEAlarmText9,,,,,,,,,,,True,0,0,1,,,,,False,
+41,psPFEAlarmNum10,PFEAlarms,PLC,int       ,Z1PFEAlarmNum10,,,,,,,,,,,True,0,100000,1,,,,,False,
+42,psPFEAlarmText10,PFEAlarms,PLC,string    ,Z1PFEAlarmText10,,,,,,,,,,,True,0,0,1,,,,,False,
+43,psPFEAlarmNum11,PFEAlarms,PLC,int       ,Z1PFEAlarmNum11,,,,,,,,,,,True,0,100000,1,,,,,False,
+44,psPFEAlarmText11,PFEAlarms,PLC,string    ,Z1PFEAlarmText11,,,,,,,,,,,True,0,0,1,,,,,False,
+45,psPFEAlarmNum12,PFEAlarms,PLC,int       ,Z1PFEAlarmNum12,,,,,,,,,,,True,0,100000,1,,,,,False,
+46,psPFEAlarmText12,PFEAlarms,PLC,string    ,Z1PFEAlarmText12,,,,,,,,,,,True,0,0,1,,,,,False,
+47,psPFEAlarmNum13,PFEAlarms,PLC,int       ,Z1PFEAlarmNum13,,,,,,,,,,,True,0,100000,1,,,,,False,
+48,psPFEAlarmText13,PFEAlarms,PLC,string    ,Z1PFEAlarmText13,,,,,,,,,,,True,0,0,1,,,,,False,
+49,psPFEAlarmNum14,PFEAlarms,PLC,int       ,Z1PFEAlarmNum14,,,,,,,,,,,True,0,100000,1,,,,,False,
+50,psPFEAlarmText14,PFEAlarms,PLC,string    ,Z1PFEAlarmText14,,,,,,,,,,,True,0,0,1,,,,,False,
+51,psPFEAlarmNum15,PFEAlarms,PLC,int       ,Z1PFEAlarmNum15,,,,,,,,,,,True,0,100000,1,,,,,False,
+52,psPFEAlarmText15,PFEAlarms,PLC,string    ,Z1PFEAlarmText15,,,,,,,,,,,True,0,0,1,,,,,False,
+53,psPFEAlarmNum16,PFEAlarms,PLC,int       ,Z1PFEAlarmNum16,,,,,,,,,,,True,0,100000,1,,,,,False,
+54,psPFEAlarmText16,PFEAlarms,PLC,string    ,Z1PFEAlarmText16,,,,,,,,,,,True,0,0,1,,,,,False,
+55,psPFEAlarmNum17,PFEAlarms,PLC,int       ,Z1PFEAlarmNum17,,,,,,,,,,,True,0,100000,1,,,,,False,
+56,psPFEAlarmText17,PFEAlarms,PLC,string    ,Z1PFEAlarmText17,,,,,,,,,,,True,0,0,1,,,,,False,
+57,psPFEAlarmNum18,PFEAlarms,PLC,int       ,Z1PFEAlarmNum18,,,,,,,,,,,True,0,100000,1,,,,,False,
+58,psPFEAlarmText18,PFEAlarms,PLC,string    ,Z1PFEAlarmText18,,,,,,,,,,,True,0,0,1,,,,,False,
+59,psPFEAlarmNum19,PFEAlarms,PLC,int       ,Z1PFEAlarmNum19,,,,,,,,,,,True,0,100000,1,,,,,False,
+60,psPFEAlarmText19,PFEAlarms,PLC,string    ,Z1PFEAlarmText19,,,,,,,,,,,True,0,0,1,,,,,False,
+61,psPFEAlarmNum20,PFEAlarms,PLC,int       ,Z1PFEAlarmNum20,,,,,,,,,,,True,0,100000,1,,,,,False,
+62,psPFEAlarmText20,PFEAlarms,PLC,string    ,Z1PFEAlarmText20,,,,,,,,,,,True,0,0,1,,,,,False,
+63,psPFEAlarmNum21,PFEAlarms,PLC,int       ,Z1PFEAlarmNum21,,,,,,,,,,,True,0,100000,1,,,,,False,
+64,psPFEAlarmText21,PFEAlarms,PLC,string    ,Z1PFEAlarmText21,,,,,,,,,,,True,0,0,1,,,,,False,
+65,psPFEAlarmNum22,PFEAlarms,PLC,int       ,Z1PFEAlarmNum22,,,,,,,,,,,True,0,100000,1,,,,,False,
+66,psPFEAlarmText22,PFEAlarms,PLC,string    ,Z1PFEAlarmText22,,,,,,,,,,,True,0,0,1,,,,,False,
+67,psPFEAlarmNum23,PFEAlarms,PLC,int       ,Z1PFEAlarmNum23,,,,,,,,,,,True,0,100000,1,,,,,False,
+68,psPFEAlarmText23,PFEAlarms,PLC,string    ,Z1PFEAlarmText23,,,,,,,,,,,True,0,0,1,,,,,False,
+69,psPFEAlarmNum24,PFEAlarms,PLC,int       ,Z1PFEAlarmNum24,,,,,,,,,,,True,0,100000,1,,,,,False,
+70,psPFEAlarmText24,PFEAlarms,PLC,string    ,Z1PFEAlarmText24,,,,,,,,,,,True,0,0,1,,,,,False,
+71,psPFEAlarmNum25,PFEAlarms,PLC,int       ,Z1PFEAlarmNum25,,,,,,,,,,,True,0,100000,1,,,,,False,
+72,psPFEAlarmText25,PFEAlarms,PLC,string    ,Z1PFEAlarmText25,,,,,,,,,,,True,0,0,1,,,,,False,
+73,psPFEAlarmNum26,PFEAlarms,PLC,int       ,Z1PFEAlarmNum26,,,,,,,,,,,True,0,100000,1,,,,,False,
+74,psPFEAlarmText26,PFEAlarms,PLC,string    ,Z1PFEAlarmText26,,,,,,,,,,,True,0,0,1,,,,,False,
+75,psPFEAlarmNum27,PFEAlarms,PLC,int       ,Z1PFEAlarmNum27,,,,,,,,,,,True,0,100000,1,,,,,False,
+76,psPFEAlarmText27,PFEAlarms,PLC,string    ,Z1PFEAlarmText27,,,,,,,,,,,True,0,0,1,,,,,False,
+77,psPFEAlarmNum28,PFEAlarms,PLC,int       ,Z1PFEAlarmNum28,,,,,,,,,,,True,0,100000,1,,,,,False,
+78,psPFEAlarmText28,PFEAlarms,PLC,string    ,Z1PFEAlarmText28,,,,,,,,,,,True,0,0,1,,,,,False,
+79,psPFEAlarmNum29,PFEAlarms,PLC,int       ,Z1PFEAlarmNum29,,,,,,,,,,,True,0,100000,1,,,,,False,
+80,psPFEAlarmText29,PFEAlarms,PLC,string    ,Z1PFEAlarmText29,,,,,,,,,,,True,0,0,1,,,,,False,
+81,psPFEAlarmNum30,PFEAlarms,PLC,int       ,Z1PFEAlarmNum30,,,,,,,,,,,True,0,100000,1,,,,,False,
+82,psPFEAlarmText30,PFEAlarms,PLC,string    ,Z1PFEAlarmText30,,,,,,,,,,,True,0,0,1,,,,,False,
+83,psPFEAlarmNum31,PFEAlarms,PLC,int       ,Z1PFEAlarmNum31,,,,,,,,,,,True,0,100000,1,,,,,False,
+84,psPFEAlarmText31,PFEAlarms,PLC,string    ,Z1PFEAlarmText31,,,,,,,,,,,True,0,0,1,,,,,False,
+85,psPFEAlarmNum32,PFEAlarms,PLC,int       ,Z1PFEAlarmNum32,,,,,,,,,,,True,0,100000,1,,,,,False,
+86,psPFEAlarmText32,PFEAlarms,PLC,string    ,Z1PFEAlarmText32,,,,,,,,,,,True,0,0,1,,,,,False,
+87,psPFEAlarmNum33,PFEAlarms,PLC,int       ,Z1PFEAlarmNum33,,,,,,,,,,,True,0,100000,1,,,,,False,
+88,psPFEAlarmText33,PFEAlarms,PLC,string    ,Z1PFEAlarmText33,,,,,,,,,,,True,0,0,1,,,,,False,
+89,psPFEAlarmNum34,PFEAlarms,PLC,int       ,Z1PFEAlarmNum34,,,,,,,,,,,True,0,100000,1,,,,,False,
+90,psPFEAlarmText34,PFEAlarms,PLC,string    ,Z1PFEAlarmText34,,,,,,,,,,,True,0,0,1,,,,,False,
+91,psPFEAlarmNum35,PFEAlarms,PLC,int       ,Z1PFEAlarmNum35,,,,,,,,,,,True,0,100000,1,,,,,False,
+92,psPFEAlarmText35,PFEAlarms,PLC,string    ,Z1PFEAlarmText35,,,,,,,,,,,True,0,0,1,,,,,False,
+93,psPFEAlarmNum36,PFEAlarms,PLC,int       ,Z1PFEAlarmNum36,,,,,,,,,,,True,0,100000,1,,,,,False,
+94,psPFEAlarmText36,PFEAlarms,PLC,string    ,Z1PFEAlarmText36,,,,,,,,,,,True,0,0,1,,,,,False,
+95,psPFEAlarmNum37,PFEAlarms,PLC,int       ,Z1PFEAlarmNum37,,,,,,,,,,,True,0,100000,1,,,,,False,
+96,psPFEAlarmText37,PFEAlarms,PLC,string    ,Z1PFEAlarmText37,,,,,,,,,,,True,0,0,1,,,,,False,
+97,psPFEAlarmNum38,PFEAlarms,PLC,int       ,Z1PFEAlarmNum38,,,,,,,,,,,True,0,100000,1,,,,,False,
+98,psPFEAlarmText38,PFEAlarms,PLC,string    ,Z1PFEAlarmText38,,,,,,,,,,,True,0,0,1,,,,,False,
+99,psPFEAlarmNum39,PFEAlarms,PLC,int       ,Z1PFEAlarmNum39,,,,,,,,,,,True,0,100000,1,,,,,False,
+100,psPFEAlarmText39,PFEAlarms,PLC,string    ,Z1PFEAlarmText39,,,,,,,,,,,True,0,0,1,,,,,False,
+101,psPFEAlarmNum40,PFEAlarms,PLC,int       ,Z1PFEAlarmNum40,,,,,,,,,,,True,0,100000,1,,,,,False,
+102,psPFEAlarmText40,PFEAlarms,PLC,string    ,Z1PFEAlarmText40,,,,,,,,,,,True,0,0,1,,,,,False,
+103,psPFEAlarmNum41,PFEAlarms,PLC,int       ,Z1PFEAlarmNum41,,,,,,,,,,,True,0,100000,1,,,,,False,
+104,psPFEAlarmText41,PFEAlarms,PLC,string    ,Z1PFEAlarmText41,,,,,,,,,,,True,0,0,1,,,,,False,
+105,psPFEAlarmNum42,PFEAlarms,PLC,int       ,Z1PFEAlarmNum42,,,,,,,,,,,True,0,100000,1,,,,,False,
+106,psPFEAlarmText42,PFEAlarms,PLC,string    ,Z1PFEAlarmText42,,,,,,,,,,,True,0,0,1,,,,,False,
+107,psPFEAlarmNum43,PFEAlarms,PLC,int       ,Z1PFEAlarmNum43,,,,,,,,,,,True,0,100000,1,,,,,False,
+108,psPFEAlarmText43,PFEAlarms,PLC,string    ,Z1PFEAlarmText43,,,,,,,,,,,True,0,0,1,,,,,False,
+109,psPFEAlarmNum44,PFEAlarms,PLC,int       ,Z1PFEAlarmNum44,,,,,,,,,,,True,0,100000,1,,,,,False,
+110,psPFEAlarmText44,PFEAlarms,PLC,string    ,Z1PFEAlarmText44,,,,,,,,,,,True,0,0,1,,,,,False,
+111,psPFEAlarmNum45,PFEAlarms,PLC,int       ,Z1PFEAlarmNum45,,,,,,,,,,,True,0,100000,1,,,,,False,
+112,psPFEAlarmText45,PFEAlarms,PLC,string    ,Z1PFEAlarmText45,,,,,,,,,,,True,0,0,1,,,,,False,
+113,psPFEAlarmNum46,PFEAlarms,PLC,int       ,Z1PFEAlarmNum46,,,,,,,,,,,True,0,100000,1,,,,,False,
+114,psPFEAlarmText46,PFEAlarms,PLC,string    ,Z1PFEAlarmText46,,,,,,,,,,,True,0,0,1,,,,,False,
+115,psPFEAlarmNum47,PFEAlarms,PLC,int       ,Z1PFEAlarmNum47,,,,,,,,,,,True,0,100000,1,,,,,False,
+116,psPFEAlarmText47,PFEAlarms,PLC,string    ,Z1PFEAlarmText47,,,,,,,,,,,True,0,0,1,,,,,False,
+117,psPFEAlarmNum48,PFEAlarms,PLC,int       ,Z1PFEAlarmNum48,,,,,,,,,,,True,0,100000,1,,,,,False,
+118,psPFEAlarmText48,PFEAlarms,PLC,string    ,Z1PFEAlarmText48,,,,,,,,,,,True,0,0,1,,,,,False,
+119,psPFEAlarmNum49,PFEAlarms,PLC,int       ,Z1PFEAlarmNum49,,,,,,,,,,,True,0,100000,1,,,,,False,
+120,psPFEAlarmText49,PFEAlarms,PLC,string    ,Z1PFEAlarmText49,,,,,,,,,,,True,0,0,1,,,,,False,
+121,psPFEAlarmNum50,PFEAlarms,PLC,int       ,Z1PFEAlarmNum50,,,,,,,,,,,True,0,100000,1,,,,,False,
+122,psPFEAlarmText50,PFEAlarms,PLC,string    ,Z1PFEAlarmText50,,,,,,,,,,,True,0,0,1,,,,,False,
+
+
+ParamSetup
+ItemsTemplate
+Index,Label,Tab,DataSource,Datatype,PLCTag,ProgName1,VarName1,ProgName2,VarName2,DBName,DBTableName,DBRowName,DBColumnName,RegPath,RegKey,Edit,Min,Max,Scale,Precision,UseCbo,CustomCBO,Formula,Display,PainterOnly
+1,psAflowAdaptModeEnabled,General,robot,int       ,,pavrafgl,op_mode,,,,,,,,,True,2,3,1,0,True,psYES;2;psNO;3,,True,True
+2,psAflowToleranceBand,General,robot,real      ,,pavrafgl,flow_outs,,,,,,,,,True,0,99.9,0.1,1,False,,,True,True
+3,psAflowMinToleranceBand,General,robot,int       ,,pavrafgl,tol_band,,,,,,,,,True,2,100,1,0,False,,,True,True
+4,psAflowSampleAmount,General,robot,int       ,,pavrafgl,sample_amt,,,,,,,,,True,1,5,1,0,False,,,True,True
+5,psAflowNormalGainMod,General,robot,real      ,,pavrafgl,gain_mod,,,,,,,,,True,1,125,0.1,1,False,,,True,True
+6,psAflowPulsingPumpGain,General,robot,real      ,,pavrafgl,low_gain_mod,,,,,,,,,True,1,75.5,0.1,1,False,,,True,True
+7,psAflowHysteresis,Calibration,robot,boolean   ,,pavrafgl,do_hyster,,,,,,,,,True,0,0,1,0,False,,,True,True
+8,psAflowLevelingTries,Calibration,robot,int       ,,pavrafgl,leveling_try,,,,,,,,,True,1,5,1,0,False,,,True,True
+9,psAflowCalTimeout,Calibration,robot,int       ,,pavrafgl,cal_time_out,,,,,,,,,True,10,60,1,0,False,,,True,True
+10,psAflowCalStepDelay,calibration,robot,int       ,,pavrafgl,cal_step_del,,,,,,,,,True,200,2000,1,0,False,,,True,True
+11,psAflowFlowInTolTries,Table Adjustment,robot,int       ,,pavrafgl,flow_trys,,,,,,,,,True,1,8,1,0,False,,,True,True
+12,psAflowIPSB,Table Adjustment,robot,real      ,,pavrafgl,ipsb,,,,,,,,,True,5,99.9,0.1,1,False,,,True,True
+13,psAflowKFTFactor,Equip Characteristic,robot,int       ,,pavrafgl,kft,,,,,,,,,True,1,9999,1,0,False,,,True,True
+14,psAflowTriggerDelay,Equip Characteristic,robot,int       ,,pavrafgl,clo_loop_del,,,,,,,,,True,0,9999,1,0,False,,,True,True
+15,psAflowFlowDelay,Equip Characteristic,robot,int       ,,pavrafgl,flow_delay,,,,,,,,,True,0,9999,1,0,False,,,True,True
+16,psAflowTimeUp,Equip Characteristic,robot,int       ,,pavrafgl,time_up,,,,,,,,,True,0,9999,1,0,False,,,True,True
+17,psAflowTimeDown,Equip Characteristic,robot,int       ,,pavrafgl,time_down,,,,,,,,,True,0,9999,1,0,False,,,True,True
+18,psFlowAdaptiveTolerance,Alarm,robot,real      ,,pavrafgl,adaptive_tol,,,,,,,,,True,5,99.9,0.1,1,False,,,True,True
+19,psAflowMaxErrorFromSetPt,Alarm,robot,real      ,,pavrafgl,max_st_pt_er,,,,,,,,,True,5,99.9,0.1,1,False,,,True,True
+20,psAflowMaxControlOut,Alarm,robot,int       ,,pavrafgl,max_out_ms,,,,,,,,,True,0,9999,1,0,False,,,True,True
+21,psAflowMinSetPtReached,Alarm,robot,int       ,,pavrafgl,min_st_pt_ms,,,,,,,,,True,0,9999,1,0,False,,,True,True
+22,psAflowGracePeriod,Alarm,robot,int       ,,pavrafgl,af_grace_ms,,,,,,,,,True,0,9999,1,0,False,,,True,True
+23,Integer Register,,robot,integer   ,,*NUMREG*,1,,,,,,,,,,0,0,1,,,,,,
+24,Real Register,,robot,single    ,,*NUMREG*,2,,,,,,,,,,0,0,1,,,,,,
+25,String Register,,robot,string    ,,*STRREG*,1,,,,,,,,,,0,0,1,,,,,,
+
+
+ParamSetup
+PWIIISetupTabs
+Index,TabLabel,TabTag,UseZone,UseController,UseArm,UseColor,UseValve,UseCustomParm,CustomParm,HelpFile
+1,psDaysToKeep,DaysToKeep          ,True,False,False,False,False,False,,[2.0]ConfigurationMenu\PWIIISetup.htm
+
+
+ParamSetup
+RobotSetupTabs
+Index,TabLabel,TabTag,UseZone,UseController,UseArm,UseColor,UseValve,UseCustomParm,CustomParm,HelpFile
+1,psColorChange,ColorChange         ,True,True,False,False,False,False,,[2.0]ConfigurationMenu\RobotSetupColorChange.htm
+2,psArmOptions,ArmOptions          ,True,True,True,False,False,False,,[2.0]ConfigurationMenu\RobotSetupArmOptions.htm
+4,psCommonOptions,CommonOptions       ,True,True,False,False,False,False,,[2.0]ConfigurationMenu\RobotSetupCommonOptions.htm
+5,psEstatSetup,EstatSetup          ,True,True,True,False,False,False,,[2.0]ConfigurationMenu\RobotSetupEstatSetup.htm
+6,psEstatTrack,EstatTracking       ,True,True,False,False,False,False,,[2.0]ConfigurationMenu\RobotSetupEstatTracking.htm
+7,psLineTracking,LineTracking        ,True,True,False,False,False,True,psSchedule;1;1;2;2;3;3;4;4;5;5;6;6;7;7;8;8,[2.0]ConfigurationMenu\RobotSetupTracking.htm
+8,psShapingAirSetup,Shaping Air Setup   ,True,True,True,False,False,False,,[2.0]ConfigurationMenu\RobotSetupShaping.htm
+
+
+ParamSetup
+TabsTemplate
+Index,TabLabel,TabTag,UseZone,UseController,UseArm,UseColor,UseValve,UseCustomParm,CustomParm,HelpFile
+1,psDaysToKeep,DaysToKeep          ,True,False,False,False,False,False,,[2.0]ConfigurationMenu\PWIIISetup.htm
+2,psPFEAlarms,PFEAlarms           ,True,False,False,False,False,False,,[2.0]ConfigurationMenu\PWIIISetup.htm
+
+
+ParamSetup
+AccuFlowSetupTabs
+Index,TabLabel,TabTag,UseZone,UseController,UseArm,UseColor,UseValve,UseCustomParm,CustomParm,HelpFile
+1,psAflowGeneral,General             ,True,True,False,False,False,False,,
+2,psAflowCalibration,Calibration         ,True,True,False,False,False,False,,
+3,psAflowTableAdjustment,Table Adjustment    ,True,True,False,False,False,False,,
+4,psAflowEquipmentCharacteristics,Equip Characteristic,True,True,False,False,False,False,,
+5,psAflowAlarm,Alarm               ,True,True,False,False,False,False,,
+
+
+ParamSetup
+AccuFlowSetupItems
+
+
+ParamSetup
+RobotSetupSealerItems
+Index,Label,Tab,DataSource,Datatype,PLCTag,ProgName1,VarName1,ProgName2,VarName2,DBName,DBTableName,DBRowName,DBColumnName,RegPath,RegKey,Edit,Min,Max,Scale,Precision,UseCbo,CustomCBO,Formula,Display,PainterOnly
+1,psHoldCycleHigh,BoothSetup,Robot,Boolean   ,,*SYSTEM*,$SLCELLSU[1].PULS_CYC_CMP,,,,,,,,,False,0,0,1,,True,psHOLDHIGH;1;psPULSE;0,,,False
+2,psPLCRecovery,BoothSetup,Robot,Boolean   ,,,$SLCELLSU[1].PLC_ERR_RECV,,,,,,,,,False,0,0,1,,True,psDISABLED;0;psENABLED;1,,,False
+3,psPLCFaultReport,BoothSetup,Robot,Boolean   ,,,$SHELL_CFG.$ERR_REPORT,,,,,,,,,False,0,0,1,,True,psDISABLED;0;psENABLED;1,,,False
+6,psRobotStateReport,BoothSetup,Robot,Boolean   ,,,$SLCELLSU[1].ROBOT_STATES,,,,,,,,,False,0,0,1,,True,psDISABLED;0;psENABLED;1,,,False
+8,psTPFaultRecovery,BoothSetup,Robot,Boolean   ,,,$SLCELLSU[1].TP_ERR_RECV,,,,,,,,,False,0,0,1,,True,psDISABLED;0;psENABLED;1,,,False
+20,psHighPressFaultDelay,DispenseSetup,Robot,integer   ,,,$SLSETUP[1].HIPRES_TIME,,,,,,,,,True,0,9999,1,,,,,,False
+21,psLowPressFaultDelay,DispenseSetup,Robot,integer   ,,,$SLSETUP[1].LOPRES_TIME,,,,,,,,,True,0,9999,1,,,,,,False
+22,psMaxPressValue,DispenseSetup,Robot,integer   ,,,$SLSETUP[1].MAX_PRESSURE,,,,,,,,,True,0,9999,1,,,,,,False
+23,psMinPressValue,DispenseSetup,Robot,integer   ,,,$SLSETUP[1].MIN_PRESSURE,,,,,,,,,True,0,9999,1,,,,,,False
+24,psGlobalMatFactor,DispenseSetup,Robot,integer   ,,,$SLSETUP[1].M_FACTOR,,,,,,,,,True,0,9999,1,,,,,,False
+30,psAccuPathUsed,RobotSetup,Robot,Boolean   ,,,$VCCFG.$VC_DISABLE,,,,,,,,,False,0,0,1,,True,psFALSE;1;psTRUE;0,,,False
+31,psMCPJogAvailable,RobotSetup,Robot,integer   ,,SLSHELL,MCP_JOG_USED,,,,,,,,,True,0,0,1,,True,psFALSE;0;psTRUE;1,,,False
+32,psColdStartOnPowerUp,RobotSetup,Robot,Boolean   ,,,$SEMIPOWERFL,,,,,,,,,True,0,0,1,,True,psFALSE;0;psTRUE;1,,,False
+33,psControllerFNumber,RobotSetup,Robot,String    ,,,$FNO,,,,,,,,,True,0,0,1,,,,,,False
+34,psRobotMotionDisabled,RobotSetup,Robot,Boolean   ,,,$MCR_GRP[1].$MACHINELOCK,,,,,,,,,True,0,0,1,,True,psFALSE;0;psTRUE;1,,,False
+35,psUOPSEnabled,RobotSetup,Robot,Boolean   ,,,$OPWORK.$UOP_DISABLE,,,,,,,,,True,0,0,1,,True,psDISABLED;1;psENABLED;0,,,False
+36,psWaitInterferenceZoneDelay,RobotSetup,Robot,integer   ,,,$IZONEIO.$INTZON_TOUT,,,,,,,,,True,0,9999,1,,,,,,False
+
+
+ParamSetup
+RobotSetupSealerTabs
+Index,TabLabel,TabTag,UseZone,UseController,UseArm,UseColor,UseValve,UseCustomParm,CustomParm,HelpFile
+1,RobotSetupSealerTabs,BoothSetup          ,True,True,False,False,False,False,,[2.0]ConfigurationMenu\RobotSetupSealerBoothSetup.htm
+2,psDispenseSetup,DispenseSetup       ,True,True,,False,False,False,,[2.0]ConfigurationMenu\RobotSetupSealerDispenseSetup.htm
+4,psRobotSetupSealerTab,RobotSetup          ,True,True,,False,False,False,,[2.0]ConfigurationMenu\RobotSetupSealerRobotSetup.htm
+
+
+ParamSetup
+ScreenList
+Index,ScreenName,TableName
+1,psPWIVSetup,PWIIISetup
+2,psRobotSetup,RobotSetup
+3,psAccuflowSetup,AccuFlowSetup
+
+

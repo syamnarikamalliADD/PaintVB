@@ -1,0 +1,96 @@
+
+<html>
+
+<head>
+    <title>PAINTworks Online Help - Configuration Menu - Job Setup - Repair</title>
+    <object id="HHCTRL" type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+    </object>
+    <script type="text/javascript"
+        src="../common/help.js">
+        document.write("Included Jscript file not found, some help may not be available.");
+    </script>
+</head>
+
+
+<body background="../common/indtextb.jpg">
+
+<p><font size="5"><b>Repairs</b></font></p>
+
+<p>The purpose of this screen is to configure repair panel information. Each
+repair panel is&nbsp; assigned a description. In the Robots 
+Required field, a checked robot means that robot is
+required to paint the selected repair panel while an unchecked robot is
+not. With the proper access level, a user can restore these values
+from either the database or the PLC in the current zone.</p>
+
+<p>The Repair Panel Robots Required information is saved to the PLC. The PLC uses this data
+to initialize the required motion controllers with the correct Repair Panel
+information. </p>
+
+<p><strong>Note: </strong>Changes to this screen can only be made
+by a user with sufficient access level. </p>
+
+<p>Click the area where you want help.</p>
+
+<p><map name="FPMap2">
+<area href="../[1.0]PAINTworksMainMenu/ConfigurationMenu.htm" shape="rect" 
+        coords="4, 20, 65, 70" ALT = "Closes the current screen.">
+<area href="JavaScript:HHCTRL.TextPopup(SaveButton,popfont,9,9,-1,-1)"shape="rect" 
+    coords="65, 20, 114, 70"   alt="Save surrent changes."/>
+<area href="JavaScript:HHCTRL.TextPopup(UndoButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="114, 20, 166, 70"   alt="Undo current changes."/>
+<area href="JavaScript:HHCTRL.TextPopup(PrintButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="225, 24, 279, 74"   alt="Print the setup data."/>
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="279, 24, 354, 74"   alt="Show changes made to this screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(UploadButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="355, 23, 418, 73" alt="Upload values from PLC"/>
+<area href="JavaScript:HHCTRL.TextPopup(StatusButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="417, 23, 461, 73" alt="Show current screen status."/>
+<area href="JavaScript:HHCTRL.TextPopup(UtilityImpExp,popfont,9,9,-1,-1)" shape="rect" 
+    coords="463, 23, 526, 73" alt="Import/Export Functions."/>
+
+
+<area href="JavaScript:HHCTRL.TextPopup(CboZone,popfont,9,9,-1,-1)" shape="rect"
+    coords="21, 96, 147, 116" alt="Click to select a zone.">
+    
+<area href="JobSetupStyles.htm" shape="rect" 
+        coords="11, 120, 107, 141" ALT = "Select the Style Tab.">
+<area href="JobSetupOptions.htm" shape="rect" 
+        coords="107, 120, 203, 141" ALT = "Select the Options Tab.">
+<area href="JobSetupRepair.htm" shape="rect" 
+        coords="204, 120, 294, 141" ALT = "Select the Repair Tab.">
+<area href="JobSetupIntrusion.htm" shape="rect" 
+        coords="294, 121, 436, 143" ALT = "Select the Intrusion/Skid Gap Tab.">
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar,popfont,9,9,-1,-1)" shape="rect" 
+    coords="0, 678, 1023, 703" alt="Current status."/>
+
+
+
+<area href="JavaScript:HHCTRL.TextPopup(PanelCopy,popfont,9,9,-1,-1)" 
+        coords="169, 23, 226, 72" shape="rect">
+
+<area href="JavaScript:HHCTRL.TextPopup(PanelStyle,popfont,9,9,-1,-1)" shape="rect" 
+        coords="156, 94, 300, 116">
+
+<area shape="rect" coords="46, 188, 92, 670"  
+        href="JavaScript:HHCTRL.TextPopup(PanelNumber,popfont,9,9,-1,-1)" 
+        Title="Panel Number">
+<area shape="rect" coords="95, 189, 309, 675"  
+        href="JavaScript:HHCTRL.TextPopup(PanelDesc,popfont,9,9,-1,-1)" 
+        Title="Panel Description">
+<area shape="rect" coords="317, 190, 457, 675"  
+        href="JavaScript:HHCTRL.TextPopup(PanelRobots,popfont,9,9,-1,-1)" 
+        Title="Robots Required for Panel">
+
+
+
+
+</map><img border="0" src="images/Config_JobSetup_Repair.jpg" usemap="#FPMap2" width="1024" height="703"></p>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+C:\Paint\Vbapps\DefaultPrint.exe
+C:\Paint\Vbapps\DefaultPrint.pdb
+C:\Paint\Vbapps\DefaultPrint.xml
+C:\Paint\Vbapps\en-CA\DefaultPrint.resources.dll
+C:\Paint\Vbapps\es-ES\DefaultPrint.resources.dll
+C:\Paint\Source\Utility\Default Printer.NET\obj\Release\ResolveAssemblyReference.cache
+C:\Paint\Source\Utility\Default Printer.NET\obj\Release\DefaultPrint.frmMain.resources
+C:\Paint\Source\Utility\Default Printer.NET\obj\Release\DefaultPrint.ProjectStrings.resources
+C:\Paint\Source\Utility\Default Printer.NET\obj\Release\DefaultPrint.ProjectStrings.en-CA.resources
+C:\Paint\Source\Utility\Default Printer.NET\obj\Release\DefaultPrint.ProjectStrings.es-ES.resources
+C:\Paint\Source\Utility\Default Printer.NET\obj\Release\DefaultPrint.vbproj.GenerateResource.Cache
+C:\Paint\Source\Utility\Default Printer.NET\obj\Release\en-CA\DefaultPrint.resources.dll
+C:\Paint\Source\Utility\Default Printer.NET\obj\Release\es-ES\DefaultPrint.resources.dll
+C:\Paint\Source\Utility\Default Printer.NET\obj\Release\DefaultPrint.exe
+C:\Paint\Source\Utility\Default Printer.NET\obj\Release\DefaultPrint.xml
+C:\Paint\Source\Utility\Default Printer.NET\obj\Release\DefaultPrint.pdb

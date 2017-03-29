@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="psAUTO_BKP_ERR" xml:space="preserve">
+    <value>Internal robot backup to FRA:\ error - </value>
+  </data>
+  <data name="psAUTO_BKP_TIMEOUT" xml:space="preserve">
+    <value> Internal backup to FRA:\ timed out error - </value>
+  </data>
+  <data name="psAUTO_BKP_WAIT" xml:space="preserve">
+    <value>Waiting for Robots internal backup to FRA:\ to complete</value>
+  </data>
+  <data name="psAUTO_REPORT_MSG" xml:space="preserve">
+    <value>Starting PAINTworks Auto Report Generator</value>
+  </data>
+  <data name="psBACKUP_DONE" xml:space="preserve">
+    <value> backup complete</value>
+  </data>
+  <data name="psBACKUP_MSG" xml:space="preserve">
+    <value>Backing up </value>
+  </data>
+  <data name="psCLEANUP_DB_ERR" xml:space="preserve">
+    <value>Failed to delete expired records.</value>
+  </data>
+  <data name="psCLEANUP_MSG" xml:space="preserve">
+    <value>Cleaning up databases</value>
+  </data>
+  <data name="psCLEANUP_OP" xml:space="preserve">
+    <value>File/Database Cleanup </value>
+  </data>
+  <data name="psCLEANUP_STATUS" xml:space="preserve">
+    <value>Cleaning up </value>
+  </data>
+  <data name="psCLOSE" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="psCOMPACT_ERR" xml:space="preserve">
+    <value>Database compact failed</value>
+  </data>
+  <data name="psCOMPACT_MSG" xml:space="preserve">
+    <value>Compacting databases</value>
+  </data>
+  <data name="psCOMPACT_OP" xml:space="preserve">
+    <value>Compact</value>
+  </data>
+  <data name="psCOMPACT_STATUS" xml:space="preserve">
+    <value>Compacting </value>
+  </data>
+  <data name="psCOPY_FOLDER_ERR" xml:space="preserve">
+    <value>Cannot copy folder </value>
+  </data>
+  <data name="psCOPY_OP" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="psCOPY_STATUS" xml:space="preserve">
+    <value>Copying </value>
+  </data>
+  <data name="psCREATE_FOLDER_ERR" xml:space="preserve">
+    <value>Cannot create folder </value>
+  </data>
+  <data name="psCREATE_PROC_ERR" xml:space="preserve">
+    <value>CreateProcess Failed - File: </value>
+  </data>
+  <data name="psDEL_AGE_STATUS" xml:space="preserve">
+    <value> older than </value>
+  </data>
+  <data name="psDEL_DAYS_STATUS" xml:space="preserve">
+    <value> days from </value>
+  </data>
+  <data name="psDEL_RECS_STATUS" xml:space="preserve">
+    <value>Deleting records</value>
+  </data>
+  <data name="psDELBACKUP_MSG" xml:space="preserve">
+    <value>Deleting expired robot backup folder </value>
+  </data>
+  <data name="psDELETE_STATUS" xml:space="preserve">
+    <value>Deleting </value>
+  </data>
+  <data name="psDELFILES_STATUS" xml:space="preserve">
+    <value>Deleting files</value>
+  </data>
+  <data name="psDELTEMP_MSG" xml:space="preserve">
+    <value>Deleting Temporary Files</value>
+  </data>
+  <data name="psDEST_MSG" xml:space="preserve">
+    <value> to </value>
+  </data>
+  <data name="psDISK_BACKUP_ERR" xml:space="preserve">
+    <value>Could not write backup to destination drive </value>
+  </data>
+  <data name="psDISK_LOW_SPACE_ERR" xml:space="preserve">
+    <value>Destination drive free space below threshold</value>
+  </data>
+  <data name="psDISKBACK_MSG" xml:space="preserve">
+    <value> to Disk</value>
+  </data>
+  <data name="psERROR" xml:space="preserve">
+    <value>Error: </value>
+  </data>
+  <data name="psFILE_BACKUP_FOLDER_MSG" xml:space="preserve">
+    <value>Creating PAINTworks backup folder </value>
+  </data>
+  <data name="psFILE_BACKUP_OP" xml:space="preserve">
+    <value>PAINTworks File Backup </value>
+  </data>
+  <data name="psGEN_DT_REPORT" xml:space="preserve">
+    <value>Generating Downtime Reports</value>
+  </data>
+  <data name="psGEN_PROD_REPORT" xml:space="preserve">
+    <value>Generating Production Reports</value>
+  </data>
+  <data name="psGET_DIR_STATUS" xml:space="preserve">
+    <value>Getting file directory from </value>
+  </data>
+  <data name="psINT_BACKUP_ERR_MSG" xml:space="preserve">
+    <value>Internal controller backup to FRA:\ error  - </value>
+  </data>
+  <data name="psINTERNAL_ERROR" xml:space="preserve">
+    <value>Internal error, see PAINTworks Application Event Log</value>
+  </data>
+  <data name="psLAST_PERF_ERR" xml:space="preserve">
+    <value>Unable to update Last Performed date for </value>
+  </data>
+  <data name="psLOG_TITLE" xml:space="preserve">
+    <value>Scheduled Maintenance Log</value>
+  </data>
+  <data name="psMAINT_ABORT" xml:space="preserve">
+    <value> aborted by user.</value>
+  </data>
+  <data name="psMAINT_DONE" xml:space="preserve">
+    <value> complete</value>
+  </data>
+  <data name="psMAINT_START" xml:space="preserve">
+    <value> started</value>
+  </data>
+  <data name="psNO_CONNECT_ERR" xml:space="preserve">
+    <value>Could not establish a connection with </value>
+  </data>
+  <data name="psNO_FILE_ERR" xml:space="preserve">
+    <value>Could not back up: </value>
+  </data>
+  <data name="psNO_FILE_ERR_CODE" xml:space="preserve">
+    <value> - Error Code: </value>
+  </data>
+  <data name="psNO_ROB_ERR" xml:space="preserve">
+    <value>No robot controllers found in collection. Exiting Robot File Backup.</value>
+  </data>
+  <data name="psNOT_SELECTED_OP" xml:space="preserve">
+    <value>option not selected</value>
+  </data>
+  <data name="psPRINT_DATE_COL_HDR" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="psPRINT_EVENT_COL_HDR" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="psPRINT_LOG_CAP" xml:space="preserve">
+    <value>Print Log</value>
+  </data>
+  <data name="psPRINT_SECT_HDR" xml:space="preserve">
+    <value>PAINTworks Scheduled Maintenance Event Log</value>
+  </data>
+  <data name="psPRINT_SITE" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="psPRINT_TIME_COL_HDR" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="psPRINT_ZONE" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="psPW_SCREENS_MSG" xml:space="preserve">
+    <value>any open PAINTworks screens</value>
+  </data>
+  <data name="psPW4_SCHED_MAINT" xml:space="preserve">
+    <value>PAINTworks Scheduled Maintenance</value>
+  </data>
+  <data name="psREPORT_GENERATOR_OP" xml:space="preserve">
+    <value>PAINTworks Auto Report Generator</value>
+  </data>
+  <data name="psRESTART_PW_CAP" xml:space="preserve">
+    <value>Restart PAINTworks</value>
+  </data>
+  <data name="psROB_BACKUP_FOLDER_MSG" xml:space="preserve">
+    <value>Creating Robot backup folder </value>
+  </data>
+  <data name="psROB_BACKUP_OP" xml:space="preserve">
+    <value>Robot Backup </value>
+  </data>
+  <data name="psROB_DIR_ERR" xml:space="preserve">
+    <value>Unable to retrieve file directory from </value>
+  </data>
+  <data name="psROB_FILE_BACKUP_ERR" xml:space="preserve">
+    <value>Error backing up file: </value>
+  </data>
+  <data name="psSCREEN_TITLE" xml:space="preserve">
+    <value>Scheduled Maintenance Status</value>
+  </data>
+  <data name="psSELECTED_OP" xml:space="preserve">
+    <value>option selected</value>
+  </data>
+  <data name="psSEND_REPORT" xml:space="preserve">
+    <value>Sending Reports</value>
+  </data>
+  <data name="psSHUTDOWN_MSG" xml:space="preserve">
+    <value>Shutting Down PAINTworks ...</value>
+  </data>
+  <data name="psSHUTDOWN_STATUS" xml:space="preserve">
+    <value>Shutting Down </value>
+  </data>
+  <data name="psSTARTUP_MSG" xml:space="preserve">
+    <value>PAINTworks Scheduled Maintenance will start in a short period of time. PAINTworks will be shut down automatically. At this time, please save any unsaved edits and Log Off or press Cancel to abort.</value>
+  </data>
+  <data name="psSTARTUP_TITLE" xml:space="preserve">
+    <value>PWMaint Startup Notification</value>
+  </data>
+  <data name="psTIME_LEFT_LBL" xml:space="preserve">
+    <value>Time Remaining:</value>
+  </data>
+  <data name="psVIEW_LOG_CAP" xml:space="preserve">
+    <value>View Log</value>
+  </data>
+  <data name="psCONTROLLER_FILES" xml:space="preserve">
+    <value>controller files</value>
+  </data>
+  <data name="psPW_FILES" xml:space="preserve">
+    <value>PAINTworks files</value>
+  </data>
+  <data name="psROB_DIR_ERR1" xml:space="preserve">
+    <value>Unable to retrieve file autobackup directory from FRA: device on </value>
+  </data>
+  <data name="psROB_DIR_ERR2" xml:space="preserve">
+    <value>  Reading directory from robot memory device</value>
+  </data>
+  <data name="psLATEST" xml:space="preserve">
+    <value>Latest</value>
+  </data>
+  <data name="psSTARTUP_MANUAL_MSG" xml:space="preserve">
+    <value>Select the PAINTworks Maintenance items you would like to run. PAINTworks will be shut down automatically. </value>
+  </data>
+</root>

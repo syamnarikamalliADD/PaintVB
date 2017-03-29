@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Controllers>
+<Prime>
+    <Controller>
+      <DisplayName>RC_P1</DisplayName>
+      <HostName>RC_P1</HostName>
+      <ControllerNumber>1</ControllerNumber>
+      <SortOrder>1</SortOrder>
+      <ControllerType>6</ControllerType>
+      <InternalBackup>False</InternalBackup>
+      <BackupPath>MD:</BackupPath>
+      <HotEditLoggerDO>0</HotEditLoggerDO>
+      <VisionController>False</VisionController>
+    </Controller>
+	<Controller>
+      <DisplayName>RC_P2</DisplayName>
+      <HostName>RC_P2</HostName>
+      <ControllerNumber>2</ControllerNumber>
+      <SortOrder>1</SortOrder>
+      <ControllerType>6</ControllerType>
+      <InternalBackup>False</InternalBackup>
+      <BackupPath>MD:</BackupPath>
+      <HotEditLoggerDO>0</HotEditLoggerDO>
+      <VisionController>False</VisionController>
+    </Controller>
+  </Prime>
+  <Base>
+    <Controller>
+      <DisplayName>RC_B1</DisplayName>
+      <HostName>RC_B1</HostName>
+      <ControllerNumber>1</ControllerNumber>
+      <SortOrder>1</SortOrder>
+      <ControllerType>6</ControllerType>
+      <InternalBackup>False</InternalBackup>
+      <BackupPath>MD:</BackupPath>
+      <HotEditLoggerDO>0</HotEditLoggerDO>
+      <VisionController>False</VisionController>
+    </Controller>
+	 <Controller>
+      <DisplayName>RC_B2</DisplayName>
+      <HostName>RC_B2</HostName>
+      <ControllerNumber>2</ControllerNumber>
+      <SortOrder>1</SortOrder>
+      <ControllerType>6</ControllerType>
+      <InternalBackup>False</InternalBackup>
+      <BackupPath>MD:</BackupPath>
+      <HotEditLoggerDO>0</HotEditLoggerDO>
+      <VisionController>False</VisionController>
+    </Controller>
+  </Base>
+</Controllers>

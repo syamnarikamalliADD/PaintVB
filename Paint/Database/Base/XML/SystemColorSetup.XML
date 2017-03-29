@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SystemColorSetup>
+  <PresetsByStyle>False</PresetsByStyle>
+  <UseAscii>False</UseAscii>
+  <Use2K>true</Use2K>
+  <UseTricoat>false</UseTricoat>
+  <AsciiCharacters>2</AsciiCharacters>
+  <UseCPColor>false</UseCPColor>
+</SystemColorSetup>

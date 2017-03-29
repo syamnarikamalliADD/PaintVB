@@ -1,0 +1,60 @@
+
+<html>
+
+<head>
+    <title>PAINTworks Online Help - Configuration Menu - Job Setup - Repair</title>
+    <object id="HHCTRL" type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+    </object>
+    <script type="text/javascript"
+        src="../common/help.js">
+        document.write("Included Jscript file not found, some help may not be available.");
+    </script>
+</head>
+
+
+<body background="../common/indtextb.jpg">
+
+
+<p><font size="5"><b>Repairs</b></font></p>
+
+<p>The purpose of this screen is to configure repair panel information.
+The plant styles are assigned to FANUC styles. Each style is&nbsp; assigned a description. Both the Plant Style and Fanuc Style
+fields can be assigned the same number. However, each Plant Style
+field must be unique. Enter a 0 for any unused styles. The FANUC
+style is the style number used when the JOB is created. Each robot can be 
+enabled or disabled for each style. Under the <strong>Robots 
+Required</strong> field, a checked robot means that robot is
+required to paint the selected style while an unchecked robot is
+not. With the proper access level, a user can restore these styles
+from either the database or the PLC in the current zone.</p>
+
+<p>The Style information is saved to the PLC. The PLC uses this data
+to verify that the Style is valid and to initialize the required motion controllers with the correct
+Style number.&nbsp; </p>
+
+
+<p><strong>Note: </strong>Changes to this screen can only be made
+by a user with sufficient access level. </p>
+
+<p>Click the area where you want help.</p>
+
+
+<p><map name="FPMap2">
+<area href="../[1.0]PAINTworksMainMenu/ConfigurationMenu.htm" shape="rect" coords="4, 24, 101, 77" ALT = "Closes the current screen.">
+<area shape="rect" coords="107, 21, 205, 77"  href="JavaScript:HHCTRL.TextPopup(SaveButton,popfont,9,9,-1,-1)" Title="Click for help">
+<area shape="rect" coords="204, 20, 301, 77"  href="JavaScript:HHCTRL.TextPopup(PrintButton,popfont,9,9,-1,-1)" Title="Click for help">
+<area shape="rect" coords="394, 20, 491, 77"  href="JavaScript:HHCTRL.TextPopup(UndoButton,popfont,9,9,-1,-1)" Title="Click for help">
+<area shape="rect" coords="500, 24, 609, 79"  href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" Title="Click for help">
+<area shape="rect" coords="608, 24, 706, 78"  href="JavaScript:HHCTRL.TextPopup(StatusButton,popfont,9,9,-1,-1)" Title="Click for help">
+<area shape="rect" coords="712, 24, 821, 78"  href="JavaScript:HHCTRL.TextPopup(RestoreButton,popfont,9,9,-1,-1)" Title="Click for help">
+<area shape="rect" coords="68, 202, 114, 508"  href="JavaScript:HHCTRL.TextPopup(PanelNumber,popfont,9,9,-1,-1)" Title="Click for help">
+<area shape="rect" coords="116, 202, 457, 508"  href="JavaScript:HHCTRL.TextPopup(PanelDesc,popfont,9,9,-1,-1)" Title="Click for help">
+<area shape="rect" coords="458, 202, 909, 508"  href="JavaScript:HHCTRL.TextPopup(PanelRobots,popfont,9,9,-1,-1)" Title="Click for help">
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar,popfont,9,9,-1,-1)" shape="rect" coords="4, 669, 339, 701">
+<area href="JavaScript:HHCTRL.TextPopup(PanelStyle,popfont,9,9,-1,-1)" shape="rect" coords="74, 118, 357, 151">
+<area href="JavaScript:HHCTRL.TextPopup(PanelJob,popfont,9,9,-1,-1)" shape="rect" coords="357, 116, 642, 150">
+<area href="JavaScript:HHCTRL.TextPopup(PanelCopy,popfont,9,9,-1,-1)" coords="299, 23, 397, 78" shape="rect">
+</map><img border="0" src="images/Config_Repairs.jpg" usemap="#FPMap2" width="1024" height="703"></p>
+</body>
+</html>

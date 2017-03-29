@@ -1,0 +1,249 @@
+<html>
+<head>
+    <title>PAINTworks Online Help - Utilities Menu - Archive</title>
+    <object id="HHCTRL" type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+    </object>
+    <script type="text/javascript"
+        src="../common/help.js">
+        document.write("Included Jscript file not found, some help may not be available.");
+    </script>
+    <script type="text/javascript">                                                            
+    function ShowSQL(){
+        screenshot.src='Images/Utilities_Archive_SQL.jpg'
+        screenshot.useMap='#FPMap0'
+    }
+    function ShowAccess(){
+        screenshot.src='Images/Utilities_Archive_Access.jpg';
+        screenshot.useMap='#FPMap1'
+    }
+    function ShowXML(){
+        screenshot.src='Images/Utilities_Archive_XML.jpg'
+        screenshot.useMap='#FPMap1'
+    }
+    function ShowImage(){
+        screenshot.src='Images/Utilities_Archive_Image.jpg'
+        screenshot.useMap='#FPMap1'
+    }
+    function ShowNotepad(){
+        screenshot.src='Images/Utilities_Archive_Notepad.jpg'
+        screenshot.useMap='#FPMap1'
+    }
+    function ShowRobots(){
+        screenshot.src='Images/Utilities_Archive_Robots.jpg'
+        screenshot.useMap='#FPMap2'
+    }
+    function ShowApplication(){
+        screenshot.src='Images/Utilities_Archive_Application.jpg'
+        screenshot.useMap='#FPMap1'
+    }
+    function ShowDMON(){
+        screenshot.src='Images/Utilities_Archive_DMON.jpg'
+        screenshot.useMap='#FPMap1'
+    }
+    function ShowDMONArchive(){
+        screenshot.src='Images/Utilities_Archive_DMONArchive.jpg'
+        screenshot.useMap='#FPMap1'
+    }
+</script>
+   
+</head>
+
+<body background="../common/indtextb.jpg">
+    <h2>Utilities Menu</h2>
+    <h1>Archive</h1>
+    <p>This screen is used to backup PAINTworks databases, robot files, application, and DMON data.
+    Several tabs provide backup functions for different components of PAINTworks.  Each tab provides functions to
+    backup it's files to a folder or zip archive.&nbsp; Some tabs may not be present on 
+        all systems.</p>
+    <ul>
+    <li><strong>Managed Databases (SQL Server)</strong> - SQL Server manages these databases.  The backup function on this 
+    tab creates a backup in the zone database folder (C:\Paint\Database\<i>{Zone name}</i>\Backup\) and copies the backup 
+    file to the archive location.  The backup file can be restored using the SQL server.  Databases may also be exported to 
+    CSV format which can be read in most spreadsheet programs and text editors.</li>
+    <li><strong>Access Databases</strong> - Access databases are backed up by copying the file to the archive location.  
+    They can be read in Microsoft Access.  They can be restored by copying the backup file to the zone database folder - 
+    C:\Paint\Database\<i>{Zone name}</i>\</li>
+    <li><strong>XML Data</strong> - XML databases are backed up by copying the file to the archive location.  They can be 
+    read in a text editor.  They can be restored by copying the backup file to the zone database folder - 
+    C:\Paint\Database\<i>{Zone name}</i>\XML\</li>
+    <li><strong>Image Backup Configuration</strong> - Image backup configuration files are backed up by copying the file to the 
+    archive location.  They can be read in a text editor.  They can be restored by copying the backup file to the zone database 
+    folder - C:\Paint\Database\<i>{Zone name}</i>\ECBR\</li>
+    <li><strong>Notepad</strong> - Storage for the Notepad utility.  These files can be restored by copying the backup file to 
+    the zone database folder - C:\Paint\Database\<i>{Zone name}</i>\Notepad\</li>
+    <li><strong>Robots</strong> - Robot backups are created using the File Copy Utility screen, PAINTworks scheduled maintenance, 
+    or image backups initiated at the robot teach pendant.  This tab allows each type of backup to be archived. Most backups can be 
+    restored directly from the archive using the File Copy Utility.  Image Backups can be restored by copying them to the image 
+    backup folder (C:\Paint|Robot Image Backups\) before initiating an image restore at the teach pendant.</li>
+    <li><strong>Application</strong> - This tab creates backups of the PAINTworks Application installation.</li>
+    <li><strong>DMON Data</strong> - This tab Accesses DMON logger files.</li>
+    <li><strong>DMON Data Archive</strong> - This tab Accesses DMON logger Archive files.</li>
+    </ul>
+    <p>
+        The utilities button also provides options to backup all the database tabs at 
+        once - Managed Databases, Access Databases, XML, Image backup Configuration, and 
+        Notepad.
+</p>
+    <p>
+        <strong>Note: </strong>Changes to this screen can only be made by a user 
+        with sufficient access level.</p>
+<p>
+        Click the area where you want help.</p>
+
+
+<map id="FPMap0" name="FPMap0">
+<area href="../[1.0]PAINTworksMainMenu/UtilitiesMenu.htm" shape="rect" 
+        coords="9,25,42,64" ALT = "Closes the current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="48,22,97,61"   alt="Show changes made to this screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(StatusButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="108,24,145,63" 
+        alt="Click to display the status box." />
+<area href="JavaScript:HHCTRL.TextPopup(ArchiveUtilityButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="152,22,187,62"   
+        alt="Click to backup all databases together." />
+<area href="JavaScript:HHCTRL.TextPopup(StatusBox,popfont,9,9,-1,-1)" shape="rect"
+    coords="166,79,530,120" alt="Displays the current backup status."/>
+
+<area onClick="ShowSQL()"
+        shape="rect" coords="5,126,155,143"  alt="SQL Databases."/>
+<area onClick="ShowXML()"
+        shape="rect" coords="160,128,195,144"  alt="XML Databases."/>
+<area onClick="ShowImage()"
+        shape="rect" coords="215,129,317,145"   alt="Robot Image Backup Configuration."/>
+<area onClick="ShowNotepad()"
+        shape="rect" coords="336,130,370,146"   alt="Notepad utility files."/>
+<area onClick="ShowRobots()"
+        shape="rect" coords="376,129,406,145"  alt="Robot Backups."/>
+<area onClick="ShowApplication()"
+        shape="rect" coords="413,129,476,145"  alt="Application Backups."/>
+<area onClick="ShowDMON()"
+        shape="rect" coords="493,129,539,145"  alt="DMON Logger files."/>
+<area onClick="ShowDMONArchive()"
+        shape="rect" coords="550,129,627,145"  alt="DMON Archive files."/>
+
+
+<area href="JavaScript:HHCTRL.TextPopup(SelectFiles,popfont,9,9,-1,-1)" 
+        shape="rect" coords="15,209,414,695"  alt="Select files to backup."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(ArchToFolderButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="443,174,557,190"  
+        alt="Backup to a folder."/>
+<area href="JavaScript:HHCTRL.TextPopup(ArchToZipButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="455,207,569,224"  
+        alt="Backup to a zip archive."/>
+<area href="JavaScript:HHCTRL.TextPopup(ArchCSVToFolderButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="456,244,570,261"  
+        alt="Backup to CSV files."/>
+<area href="JavaScript:HHCTRL.TextPopup(ArchCSVToZipButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="450,286,564,302"  
+        alt="Backup to CSV files in a zip archive."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar,popfont,9,9,-1,-1)" shape="rect" 
+        coords="5,715,629,736" alt="Displays status messages."/>
+</map>
+
+<map id="FPMap1" name="FPMap1">
+<area href="../[1.0]PAINTworksMainMenu/UtilitiesMenu.htm" shape="rect" 
+        coords="0, 18, 55, 68" ALT = "Closes the current screen.">
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="55, 18, 135, 68"   alt="Show changes made to this screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(StatusButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="133, 18, 194, 68" 
+        alt="Click to display the status box." />
+<area href="JavaScript:HHCTRL.TextPopup(ArchiveUtilityButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="191, 17, 248, 68"   
+        alt="Click to backup all databases together." />
+<area href="JavaScript:HHCTRL.TextPopup(StatusBox,popfont,9,9,-1,-1)" shape="rect"
+    coords="203, 67, 800, 120" alt="Displays the current backup status."/>
+
+<area onClick="ShowSQL()"
+        shape="rect" coords="1, 124, 196, 144"  alt="SQL Databases."/>
+<area onClick="ShowAccess()" 
+        shape="rect" coords="197, 124, 315, 144"  alt="Access Databases."/>
+<area onClick="ShowXML()"
+        shape="rect" coords="315, 124, 374, 144"  alt="XML Databases."/>
+<area onClick="ShowImage()"
+        shape="rect" coords="374, 124, 540, 144"   alt="Robot Image Backup Configuration."/>
+<area onClick="ShowNotepad()"
+        shape="rect" coords="540, 124, 597, 144"   alt="Notepad utility files."/>
+<area onClick="ShowRobots()"
+        shape="rect" coords="597, 124, 646, 144"  alt="Robot Backups."/>
+<area onClick="ShowApplication()"
+        shape="rect" coords="646, 124, 749, 144"  alt="Application Backups."/>
+<area onClick="ShowDMON()"
+        shape="rect" coords="749, 124, 825, 144"  alt="DMON Logger files."/>
+<area onClick="ShowDMONArchive()"
+        shape="rect" coords="825, 124, 950, 144"  alt="DMON Archive files."/>
+
+
+<area href="JavaScript:HHCTRL.TextPopup(SelectFiles,popfont,9,9,-1,-1)" 
+        shape="rect" coords="10, 200, 417, 695"  alt="Select files to backup."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(ArchToFolderButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="435, 167, 623, 188"  
+        alt="Backup to a folder."/>
+<area href="JavaScript:HHCTRL.TextPopup(ArchToZipButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="435, 205, 623, 227"  
+        alt="Backup to a zip archive."/>
+
+
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar,popfont,9,9,-1,-1)" shape="rect" 
+        coords="0, 715, 1024, 742" alt="Displays status messages."/>
+</map>
+
+
+<map id="FPMap2" name="FPMap2">
+<area href="../[1.0]PAINTworksMainMenu/UtilitiesMenu.htm" shape="rect" 
+        coords="0, 18, 55, 68" ALT = "Closes the current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="55, 18, 135, 68"   alt="Show changes made to this screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(StatusButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="133, 18, 194, 68" 
+        alt="Click to display the status box." />
+<area href="JavaScript:HHCTRL.TextPopup(ArchiveUtilityButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="191, 17, 248, 68"   
+        alt="Click to backup all databases together." />
+<area href="JavaScript:HHCTRL.TextPopup(StatusBox,popfont,9,9,-1,-1)" shape="rect"
+    coords="203, 67, 800, 120" alt="Displays the current backup status."/>
+
+<area onClick="ShowSQL()"
+        shape="rect" coords="1, 124, 196, 144"  alt="SQL Databases."/>
+<area onClick="ShowAccess()" 
+        shape="rect" coords="197, 124, 315, 144"  alt="Access Databases."/>
+<area onClick="ShowXML()"
+        shape="rect" coords="315, 124, 374, 144"  alt="XML Databases."/>
+<area onClick="ShowImage()"
+        shape="rect" coords="374, 124, 540, 144"   alt="Robot Image Backup Configuration."/>
+<area onClick="ShowNotepad()"
+        shape="rect" coords="540, 124, 597, 144"   alt="Notepad utility files."/>
+<area onClick="ShowRobots()"
+        shape="rect" coords="597, 124, 646, 144"  alt="Robot Backups."/>
+<area onClick="ShowApplication()"
+        shape="rect" coords="646, 124, 749, 144"  alt="Application Backups."/>
+<area onClick="ShowDMON()"
+        shape="rect" coords="749, 124, 825, 144"  alt="DMON Logger files."/>
+<area onClick="ShowDMONArchive()"
+        shape="rect" coords="825, 124, 950, 144"  alt="DMON Archive files."/>
+
+
+<area href="JavaScript:HHCTRL.TextPopup(SelectFiles,popfont,9,9,-1,-1)" 
+        shape="rect" coords="10, 200, 486, 695"  alt="Select files to backup."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(ArchToFolderButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="510, 167, 701, 188"  
+        alt="Backup to a folder."/>
+<area href="JavaScript:HHCTRL.TextPopup(ArchToZipButton,popfont,9,9,-1,-1)" 
+        shape="rect" coords="510, 205, 701, 227"  
+        alt="Backup to a zip archive."/>
+
+
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar,popfont,9,9,-1,-1)" shape="rect" 
+        coords="0, 715, 1024, 742" alt="Displays status messages."/>
+</map>
+<img name="screenshot" border="0" src="images/Utilities_Archive_tabDBSQL.jpg_SQL.jpg" usemap="#FPMap0" width="1024" height="742"/>
+
+</body>
+
+</html>

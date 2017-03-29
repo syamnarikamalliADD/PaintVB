@@ -1,0 +1,87 @@
+'>>> Button Tags are 100, 200 etc...
+
+
+    Private mdsMenuData As New DataSet
+    Private mfrmSubMenu As frmMenu
+
+    Private Sub toolbarMain_ButtonClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.ToolBarButtonClickEventArgs) Handles toolbarMain.ButtonClick
+        Dim frmSubMenu As New frmMenu
+
+        'If a sub menu is already showing, then close it
+        If Not mfrmSubMenu Is Nothing Then
+            mfrmSubMenu.Close()
+        End If
+
+        'Show the sub-menu for the selected main menu button in the proper location
+        mfrmSubMenu = frmSubMenu
+        mfrmSubMenu.Hide()
+
+        'Construct the sub-menu panel
+        mfrmSubMenu.MenuData = mdsMenuData
+        mfrmSubMenu.MenuScreenID() = e.Button.Tag()
+
+        'Show the sub-menu for the selected main menu button in the proper location
+        mfrmSubMenu.MenuLeft = e.Button.Rectangle.Left
+        mfrmSubMenu.MenuTop = toolbarMain.Size.Height + toolbarMain.Location.Y
+        mfrmSubMenu.Show()
+        frmSubMenu = Nothing
+
+    End Sub
+
+    Private Sub subDrawMainMenu(ByVal nUserId As Integer)
+        Dim dtMenuData As New DataTable
+        Dim drMainMenuButton As DataRow
+        Dim nButton As Integer
+        Dim nMMButtonHeight as Integer
+	Dim nMMButtonWidth as Integer
+        Dim sMainScreenID As String
+        Dim objUserData As New Authorization.AuthorizationService
+
+        'Read the data for the submenus into a dataset from the Authorization web service
+        mdsMenuData = Nothing
+        mdsMenuData = objUserData.BuildDSScreenAccessList(nUserId)
+
+        'Read the menu panel configurations for each main menu button
+        dtMenuData = mdsMenuData.Tables("MainMenuData")
+
+        'Temporarily, make all the main menu buttons invisible
+        For nButton = 0 To toolbarMain.Buttons.Count - 1
+            toolbarMain.Buttons(nButton).Visible = False
+        Next
+
+        'The only main menu buttons that should be visible are the ones this user has privilege for.
+        For Each drMainMenuButton In dtMenuData.Rows
+            sMainScreenID = drMainMenuButton.Item("MainScreenID")
+            For nButton = 0 To toolbarMain.Buttons.Count - 1
+                If toolbarMain.Buttons(nButton).Tag = sMainScreenID Then
+                    toolbarMain.Buttons(nButton).Text = drMainMenuButton.Item("TitleTag")
+                    toolbarMain.Buttons(nButton).Visible = True
+                End If
+            Next
+        Next
+
+        'Need to trick the tollbar into keeping the original button size. 
+        'This is tacky, but so is VB sometimes ...ps)
+        nMMButtonHeight = toolbarMain.ButtonSize.Height
+        nMMButtonWidth = toolbarMain.ButtonSize.Width
+        Me.toolbarMain.ButtonSize = New System.Drawing.Size(nMMButtonWidth + 4, nMMButtonHeight)
+        Me.toolbarMain.Refresh()
+        Me.toolbarMain.ButtonSize = New System.Drawing.Size(nMMButtonWidth, nMMButtonHeight)
+        Me.toolbarMain.Refresh()
+
+        'Clean Up
+        dtMenuData = Nothing
+        drMainMenuButton = Nothing
+
+    End Sub
+
+    Private Sub frmMain_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Dim objScreenBounds As Rectangle
+
+        'Redraw the main menu for the current user
+        objScreenBounds = Screen.GetBounds(toolbarMain)
+        Me.Width = objScreenBounds.Width
+        Me.Height = toolbarMain.Height
+        Call subDrawMainMenu(50)
+
+    End Sub

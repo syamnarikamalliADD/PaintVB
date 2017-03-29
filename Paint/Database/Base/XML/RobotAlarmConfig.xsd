@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RobotAlarmConfig" targetNamespace="http://tempuri.org/RobotAlarmConfig.xsd" xmlns:mstns="http://tempuri.org/RobotAlarmConfig.xsd" xmlns="http://tempuri.org/RobotAlarmConfig.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RobotAlarmConfig" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RobotAlarmConfig" msprop:Generator_DataSetName="RobotAlarmConfig">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EquipAssignment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Facility" type="xs:string" default="PNT1" />
+              <xs:element name="Equipment" type="xs:int" default="1" />
+              <xs:element name="LBound" type="xs:int" default="0" />
+              <xs:element name="UBound" type="xs:int" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AssocData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Equipment" type="xs:int" default="1" />
+              <xs:element name="StyleProg" type="xs:string" default="" />
+              <xs:element name="StyleVar" type="xs:string" default="" />
+              <xs:element name="ColorProg" type="xs:string" default="" />
+              <xs:element name="ColorVar" type="xs:string" default="" />
+              <xs:element name="ValveProg" type="xs:string" default="" />
+              <xs:element name="ValveVar" type="xs:string" default="" />
+              <xs:element name="JobProg" type="xs:string" default="" />
+              <xs:element name="JobVar" type="xs:string" default="" />
+              <xs:element name="ProcessProg" type="xs:string" default="" />
+              <xs:element name="ProcessVar" type="xs:string" default="" />
+              <xs:element name="NodeProg" type="xs:string" default="" />
+              <xs:element name="NodeVar" type="xs:string" default="" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

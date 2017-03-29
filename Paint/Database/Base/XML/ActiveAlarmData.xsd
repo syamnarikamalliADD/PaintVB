@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ActiveAlarmData" targetNamespace="http://tempuri.org/ActiveAlarmData.xsd" xmlns:mstns="http://tempuri.org/ActiveAlarmData.xsd" xmlns="http://tempuri.org/ActiveAlarmData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ActiveAlarmData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ActiveAlarmData" msprop:Generator_DataSetName="ActiveAlarmData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ActiveAlarms" msprop:Generator_UserTableName="ActiveAlarms" msprop:Generator_RowDeletedName="ActiveAlarmsRowDeleted" msprop:Generator_RowChangedName="ActiveAlarmsRowChanged" msprop:Generator_RowClassName="ActiveAlarmsRow" msprop:Generator_RowChangingName="ActiveAlarmsRowChanging" msprop:Generator_RowEvArgName="ActiveAlarmsRowChangeEvent" msprop:Generator_RowEvHandlerName="ActiveAlarmsRowChangeEventHandler" msprop:Generator_TableClassName="ActiveAlarmsDataTable" msprop:Generator_TableVarName="tableActiveAlarms" msprop:Generator_RowDeletingName="ActiveAlarmsRowDeleting" msprop:Generator_TablePropName="ActiveAlarms">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AlarmNumber" msprop:Generator_UserColumnName="AlarmNumber" msprop:Generator_ColumnVarNameInTable="columnAlarmNumber" msprop:Generator_ColumnPropNameInRow="AlarmNumber" msprop:Generator_ColumnPropNameInTable="AlarmNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Device" msprop:Generator_UserColumnName="Device" msprop:Generator_ColumnVarNameInTable="columnDevice" msprop:Generator_ColumnPropNameInRow="Device" msprop:Generator_ColumnPropNameInTable="DeviceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Severity" msprop:Generator_UserColumnName="Severity" msprop:Generator_ColumnVarNameInTable="columnSeverity" msprop:Generator_ColumnPropNameInRow="Severity" msprop:Generator_ColumnPropNameInTable="SeverityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CauseMnemonic" msprop:Generator_UserColumnName="CauseMnemonic" msprop:Generator_ColumnVarNameInTable="columnCauseMnemonic" msprop:Generator_ColumnPropNameInRow="CauseMnemonic" msprop:Generator_ColumnPropNameInTable="CauseMnemonicColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="StartSerial" msprop:Generator_UserColumnName="StartSerial" msprop:Generator_ColumnVarNameInTable="columnStartSerial" msprop:Generator_ColumnPropNameInRow="StartSerial" msprop:Generator_ColumnPropNameInTable="StartSerialColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EndSerial" msprop:Generator_UserColumnName="EndSerial" msprop:Generator_ColumnVarNameInTable="columnEndSerial" msprop:Generator_ColumnPropNameInRow="EndSerial" msprop:Generator_ColumnPropNameInTable="EndSerialColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Zone" msprop:Generator_UserColumnName="Zone" msprop:Generator_ColumnVarNameInTable="columnZone" msprop:Generator_ColumnPropNameInRow="Zone" msprop:Generator_ColumnPropNameInTable="ZoneColumn" type="xs:integer" minOccurs="0" />
+              <xs:element name="ProdID" msprop:Generator_UserColumnName="ProdID" msprop:Generator_ColumnVarNameInTable="columnProdID" msprop:Generator_ColumnPropNameInRow="ProdID" msprop:Generator_ColumnPropNameInTable="ProdIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="JobID" msprop:Generator_UserColumnName="JobID" msprop:Generator_ColumnVarNameInTable="columnJobID" msprop:Generator_ColumnPropNameInRow="JobID" msprop:Generator_ColumnPropNameInTable="JobIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Style" msprop:Generator_UserColumnName="Style" msprop:Generator_ColumnVarNameInTable="columnStyle" msprop:Generator_ColumnPropNameInRow="Style" msprop:Generator_ColumnPropNameInTable="StyleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Color" msprop:Generator_UserColumnName="Color" msprop:Generator_ColumnVarNameInTable="columnColor" msprop:Generator_ColumnPropNameInRow="Color" msprop:Generator_ColumnPropNameInTable="ColorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Valve" msprop:Generator_UserColumnName="Valve" msprop:Generator_ColumnVarNameInTable="columnValve" msprop:Generator_ColumnPropNameInRow="Valve" msprop:Generator_ColumnPropNameInTable="ValveColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="JobName" msprop:Generator_UserColumnName="JobName" msprop:Generator_ColumnVarNameInTable="columnJobName" msprop:Generator_ColumnPropNameInRow="JobName" msprop:Generator_ColumnPropNameInTable="JobNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Process" msprop:Generator_UserColumnName="Process" msprop:Generator_ColumnVarNameInTable="columnProcess" msprop:Generator_ColumnPropNameInRow="Process" msprop:Generator_ColumnPropNameInTable="ProcessColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Node" msprop:Generator_UserColumnName="Node" msprop:Generator_ColumnVarNameInTable="columnNode" msprop:Generator_ColumnPropNameInRow="Node" msprop:Generator_ColumnPropNameInTable="NodeColumn" type="xs:integer" minOccurs="0" />
+              <xs:element name="Category" msprop:Generator_UserColumnName="Category" msprop:Generator_ColumnVarNameInTable="columnCategory" msprop:Generator_ColumnPropNameInRow="Category" msprop:Generator_ColumnPropNameInTable="CategoryColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DowntimeFlag" msprop:Generator_UserColumnName="DowntimeFlag" msprop:Generator_ColumnVarNameInTable="columnDowntimeFlag" msprop:Generator_ColumnPropNameInRow="DowntimeFlag" msprop:Generator_ColumnPropNameInTable="DowntimeFlagColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Facility" msprop:Generator_UserColumnName="Facility" msprop:Generator_ColumnVarNameInTable="columnFacility" msprop:Generator_ColumnPropNameInRow="Facility" msprop:Generator_ColumnPropNameInTable="FacilityColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

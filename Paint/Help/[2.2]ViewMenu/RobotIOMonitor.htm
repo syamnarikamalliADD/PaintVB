@@ -1,0 +1,52 @@
+
+<html>
+
+<head>
+<title>View Menu Robot I/O Monitor</title>
+    <object id="HHCTRL" type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+    </object>
+    <script type="text/javascript"
+        src="../common/help.js">
+        document.write("Included Jscript file not found, some help may not be available.");
+    </script>
+</head>
+
+<body background="../common/indtextb.jpg">
+<p><b> Robot I/O Monitor </b></p>
+<p>This screen is used to monitor robot I/O, simulate robot I/O, and
+modify I/O comments.</p>
+<p>The left side lists a group of  I/O points by type.  The auto-refresh button applies to items on the left.  The I/O monitor feature on the right runs a faster update for the selected I/O points.</p>
+
+<p><strong>Note: </strong>Changes to this screen can only be made
+by a user with sufficient access level. </p>
+
+<p>Click the area where you want help.</p>
+
+
+<p><map name="FPMap2">
+<area href="../[1.0]PAINTworksMainMenu/ViewMenu.htm" shape="rect" coords="3, 20, 60, 80" ALT = "Closes current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(SaveButton,popfont,9,9,-1,-1)" shape="rect" coords="60, 20, 112, 79" ALT = "Save changes."/>
+<area href="JavaScript:HHCTRL.TextPopup(IORefreshButton,popfont,9,9,-1,-1)" shape="rect" coords="112, 20, 192, 80" ALT = "Enable or disable the auto-refresh, or adjust the rate."/>
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect" coords="192, 20, 272, 80" ALT = "Show the change log for the current screen."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(CboZone,popfont,9,9,-1,-1)"  shape="rect" coords="13, 100, 140, 120"   alt="Select a zone." />
+<area href="JavaScript:HHCTRL.TextPopup(CboRobot,popfont,9,9,-1,-1)" shape="rect" coords="145, 100, 285, 120"  alt="Select a robot." />
+<area href="JavaScript:HHCTRL.TextPopup(IOType,popfont,9,9,-1,-1)" shape="rect" coords="250, 135, 510, 155"   alt="Select an IO type." />
+
+<area href="JavaScript:HHCTRL.TextPopup(IODesc,popfont,9,9,-1,-1)" shape="rect" coords="37, 160, 120, 711" alt="IO Label" />
+<area href="JavaScript:HHCTRL.TextPopup(IOSimStatus,popfont,9,9,-1,-1)" shape="rect" coords="120, 160, 200, 711" alt="Simulate Status" />
+<area href="JavaScript:HHCTRL.TextPopup(IOValue,popfont,9,9,-1,-1)" shape="rect" coords="200, 160, 275, 711" alt="I/O Point Value"/>
+
+<area href="JavaScript:HHCTRL.TextPopup(IOUnSimAll,popfont,9,9,-1,-1)" shape="rect" coords="516, 170, 618, 190" alt="Unsimulate all I/O points." />
+<area href="JavaScript:HHCTRL.TextPopup(IOSetComment,popfont,9,9,-1,-1)" shape="rect" coords="619, 170, 690, 190" alt="Set the I/O comment for the current point."/>
+<area href="JavaScript:HHCTRL.TextPopup(IOSimulate,popfont,9,9,-1,-1)" shape="rect" coords="618, 203, 690, 224" alt="Simulate the I/O point."/>
+<area href="JavaScript:HHCTRL.TextPopup(IOAddMonitor,popfont,9,9,-1,-1)" shape="rect" coords="695, 203, 765, 224" alt="Add the current point to the monitor list."/>
+<area href="JavaScript:HHCTRL.TextPopup(IOMonitor,popfont,9,9,-1,-1)" shape="rect" coords="516, 225, 1024, 711" alt="I/O monitor list."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar,popfont,9,9,-1,-1)" shape="rect" coords="0, 711, 715, 740" alt="Status bar - Displays status messages."/>
+<area href="JavaScript:HHCTRL.TextPopup(RobotsOnline,popfont,9,9,-1,-1)" shape="rect" coords="715, 711, 1020, 740" alt="Robot status icons.  Green=OK."/>
+</map><img border="0" src="Images/View_Robot_IO.jpg" usemap="#FPMap2" / / width="1024" height="742" ></p>
+</body>
+
+</html>

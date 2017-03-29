@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="criteria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Checkpad.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\changeLogNew.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psADJUST_FOR_BREAK" xml:space="preserve">
+    <value>Adjusting records for break times...</value>
+  </data>
+  <data name="psADJUST_TIME" xml:space="preserve">
+    <value>Adjust Time</value>
+  </data>
+  <data name="psALARM_CAP" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="psALARM_REPORT" xml:space="preserve">
+    <value>Alarm Log Reporting</value>
+  </data>
+  <data name="psBREAK_ACTIVE_DESC" xml:space="preserve">
+    <value>Break Active</value>
+    <comment>This text should match the break active alarm text</comment>
+  </data>
+  <data name="psCANNISTER_TPSU_CAP" xml:space="preserve">
+    <value>TPSU</value>
+  </data>
+  <data name="psCARRIER_CAP" xml:space="preserve">
+    <value>Carrier</value>
+  </data>
+  <data name="psCATEGORY_CAP" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="psCC_TIME_CAP" xml:space="preserve">
+    <value>CC Time (sec)</value>
+  </data>
+  <data name="psCHANGE_REPORT" xml:space="preserve">
+    <value>Change Log Reporting</value>
+  </data>
+  <data name="psCHECK_ALARM_RECORDS" xml:space="preserve">
+    <value>Check alarm records</value>
+  </data>
+  <data name="psCHECK_PROC_RECORDS" xml:space="preserve">
+    <value>Check production records</value>
+  </data>
+  <data name="psCOLOR_CAP" xml:space="preserve">
+    <value>Colour</value>
+  </data>
+  <data name="psCOMPLETE_TIME_CAP" xml:space="preserve">
+    <value>Complete Time</value>
+  </data>
+  <data name="psCONVEYOR_REPORT" xml:space="preserve">
+    <value>Conveyor Reporting</value>
+  </data>
+  <data name="psCUR_CONV_HELD_FANUC" xml:space="preserve">
+    <value>Conveyor Currently Held By FANUC</value>
+  </data>
+  <data name="psCUR_CONV_HELD_OTHERS" xml:space="preserve">
+    <value>Conveyor Currently Held By Others</value>
+  </data>
+  <data name="psCUR_CONV_RUNNING" xml:space="preserve">
+    <value>Conveyor Currently Running</value>
+  </data>
+  <data name="psCYCLE_TIME_CAP" xml:space="preserve">
+    <value>Cycle Time (sec)</value>
+  </data>
+  <data name="psDATETIME_FORMAT1" xml:space="preserve">
+    <value>M/d h:mm:ss.ff</value>
+  </data>
+  <data name="psDATETIME_FORMAT2" xml:space="preserve">
+    <value>M/d h:mm tt</value>
+  </data>
+  <data name="psDEGRADE_STATUS_CAP" xml:space="preserve">
+    <value>Degrade</value>
+  </data>
+  <data name="psDESC_CAP" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="psDOWNTIME_REPORT" xml:space="preserve">
+    <value>Downtime Reporting</value>
+  </data>
+  <data name="psDURATION_CAP" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="psEND" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="psEND_TIME_CAP" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="psEND_TIME_LATER" xml:space="preserve">
+    <value>Select an end time that is later than the start time.</value>
+  </data>
+  <data name="psFILTER_ONESHOT_ALARMS" xml:space="preserve">
+    <value>Filtering Oneshot Alarms...</value>
+  </data>
+  <data name="psFORMATTING" xml:space="preserve">
+    <value>Formatting report....</value>
+  </data>
+  <data name="psGETTING_BREAK_ALRM" xml:space="preserve">
+    <value>Getting Break Times...</value>
+  </data>
+  <data name="psGETTING_CONV_ALARMS" xml:space="preserve">
+    <value>Getting Conveyor Alarms...</value>
+  </data>
+  <data name="psGETTING_DATA" xml:space="preserve">
+    <value>Retrieving data from database...</value>
+  </data>
+  <data name="psGETTING_DT_DATA" xml:space="preserve">
+    <value>Getting Downtime Alarm Data...</value>
+  </data>
+  <data name="psGOT_DATA" xml:space="preserve">
+    <value>Data retrieved</value>
+  </data>
+  <data name="psGOT_NO_DATA" xml:space="preserve">
+    <value>Unable to retrieve data</value>
+  </data>
+  <data name="psINCLUDE_HBO" xml:space="preserve">
+    <value>Include Held By Others</value>
+  </data>
+  <data name="psINIT_STRING_CAP" xml:space="preserve">
+    <value>Init String</value>
+  </data>
+  <data name="psITEM_CAP" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="psJOB_REPORT_CAP" xml:space="preserve">
+    <value>Job Report</value>
+  </data>
+  <data name="psJOB_STATUS_CAP" xml:space="preserve">
+    <value>Job Status</value>
+  </data>
+  <data name="psJOB_STATUS01" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="psJOB_STATUS02" xml:space="preserve">
+    <value>Complete w\Line Stop</value>
+  </data>
+  <data name="psJOB_STATUS03" xml:space="preserve">
+    <value>Complete w\Error</value>
+  </data>
+  <data name="psJOB_STATUS04" xml:space="preserve">
+    <value>Aborted</value>
+  </data>
+  <data name="psJOB_STATUS05" xml:space="preserve">
+    <value>No Paint</value>
+  </data>
+  <data name="psJOB_STATUS06" xml:space="preserve">
+    <value>Invalid Data</value>
+  </data>
+  <data name="psJOB_STATUS07" xml:space="preserve">
+    <value>Not Required</value>
+  </data>
+  <data name="psJOB_STATUS08" xml:space="preserve">
+    <value>Ghost</value>
+  </data>
+  <data name="psJOB_STATUS09" xml:space="preserve">
+    <value>Bypassed</value>
+  </data>
+  <data name="psJOB_STATUS10" xml:space="preserve">
+    <value>Ghost - Complete w/ Error</value>
+  </data>
+  <data name="psJOB_STATUS11" xml:space="preserve">
+    <value>Ghost - Aborted</value>
+  </data>
+  <data name="psJOB_STATUS12" xml:space="preserve">
+    <value>Ghost - Not Required</value>
+  </data>
+  <data name="psJOB_STATUS13" xml:space="preserve">
+    <value>Ghost - Bypassed</value>
+  </data>
+  <data name="psJOB_STATUS14" xml:space="preserve">
+    <value>No Status</value>
+  </data>
+  <data name="psJOB_STATUS15" xml:space="preserve">
+    <value>No Status</value>
+  </data>
+  <data name="psJOBNAME_CAP" xml:space="preserve">
+    <value>Job Name</value>
+  </data>
+  <data name="psLIMIT_TO_100_HOURS" xml:space="preserve">
+    <value>This type of report is limited to 100 hours. Adjust end time?</value>
+  </data>
+  <data name="psLOTSA_RECORDS" xml:space="preserve">
+    <value>There are %s records. Are you sure you want to print?</value>
+  </data>
+  <data name="psMATERIAL_LEARNED_CAP" xml:space="preserve">
+    <value>Material Learned</value>
+  </data>
+  <data name="psMATERIAL_LEARNED2_CAP" xml:space="preserve">
+    <value>Material Learned 2</value>
+  </data>
+  <data name="psMATERIAL_TEMP_CAP" xml:space="preserve">
+    <value>Material Temp</value>
+  </data>
+  <data name="psMATERIAL_TEMP2_CAP" xml:space="preserve">
+    <value>Material Temp 2</value>
+  </data>
+  <data name="psMOST_RECENT" xml:space="preserve">
+    <value>Most Recent</value>
+  </data>
+  <data name="psNO_BREAK_FOUND" xml:space="preserve">
+    <value>No break time found.</value>
+  </data>
+  <data name="psNO_RECORDS" xml:space="preserve">
+    <value>No Records Found.</value>
+  </data>
+  <data name="psNODE_CAP" xml:space="preserve">
+    <value>Node</value>
+  </data>
+  <data name="psOCCURRENCES_CAP" xml:space="preserve">
+    <value>Occurrences</value>
+  </data>
+  <data name="psOPTION_CAP" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="psOPTIONS" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="psOTHER" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="psPAINT_TOTAL_CAP" xml:space="preserve">
+    <value>Paint Used (cc)</value>
+    <comment>Paint Total 1</comment>
+  </data>
+  <data name="psPAINT_TOTAL2_CAP" xml:space="preserve">
+    <value>Paint Total 2</value>
+  </data>
+  <data name="psPERCENT_CAP" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="psPIE_TITLE_CONV" xml:space="preserve">
+    <value>Conveyor Alarms</value>
+  </data>
+  <data name="psPIE_TITLE_DT" xml:space="preserve">
+    <value>Downtime Alarms by </value>
+  </data>
+  <data name="psPLANT_REPAIR_CAP" xml:space="preserve">
+    <value>Plant Repair</value>
+  </data>
+  <data name="psPROCESSNAME_CAP" xml:space="preserve">
+    <value>Process Name</value>
+  </data>
+  <data name="psPRODUCTION_REPORT" xml:space="preserve">
+    <value>Production Log Reporting</value>
+  </data>
+  <data name="psPURGE_STATUS_CAP" xml:space="preserve">
+    <value>Purge Status</value>
+  </data>
+  <data name="psQUERY_FAIL_MSG" xml:space="preserve">
+    <value>Failed to find any records of the requested type.</value>
+  </data>
+  <data name="psRATIO_CAP" xml:space="preserve">
+    <value>Ratio</value>
+  </data>
+  <data name="psROBOT_REPAIR_CAP" xml:space="preserve">
+    <value>Robot Repair</value>
+  </data>
+  <data name="psROWS_FOUND" xml:space="preserve">
+    <value>Records Found</value>
+  </data>
+  <data name="psSCREENCAPTION" xml:space="preserve">
+    <value>PAINTworks Reporting</value>
+  </data>
+  <data name="psSCREENS_CAP" xml:space="preserve">
+    <value>Screens</value>
+  </data>
+  <data name="psSELECT_CRITERIA" xml:space="preserve">
+    <value>Select Criteria</value>
+  </data>
+  <data name="psSEVERITY_CAP" xml:space="preserve">
+    <value>Severity</value>
+  </data>
+  <data name="psSHIFT_BOX_CAP" xml:space="preserve">
+    <value>Set To Shift Times</value>
+  </data>
+  <data name="psSHIFT1" xml:space="preserve">
+    <value>Shift &amp;1</value>
+  </data>
+  <data name="psSHIFT2" xml:space="preserve">
+    <value>Shift &amp;2</value>
+  </data>
+  <data name="psSHIFT3" xml:space="preserve">
+    <value>Shift &amp;3</value>
+  </data>
+  <data name="psSTART" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="psSTART_TIME_CAP" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="psSTYLE_CAP" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="psSUMMARY_REPORT" xml:space="preserve">
+    <value>Summary Report</value>
+  </data>
+  <data name="psSUMMARY_ROWS_FOUND" xml:space="preserve">
+    <value>Categories Found</value>
+  </data>
+  <data name="psTOTAL_CAP" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="psTUTONE_CAP" xml:space="preserve">
+    <value>TuTone</value>
+  </data>
+  <data name="psUNKNOWN_CONV_STAT" xml:space="preserve">
+    <value>Unknown Conveyor Status</value>
+  </data>
+  <data name="psUSER_SELECTED" xml:space="preserve">
+    <value>User Selected</value>
+  </data>
+  <data name="psVIN_CAP" xml:space="preserve">
+    <value>VIN Number</value>
+  </data>
+  <data name="reporttype" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\setting.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psUPTIME" xml:space="preserve">
+    <value>Uptime</value>
+  </data>
+  <data name="psJOB_STATUS00" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="psUNKNOWN" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="psDURATION_PERC_CAP" xml:space="preserve">
+    <value>Duration(%)</value>
+  </data>
+  <data name="psMTBF" xml:space="preserve">
+    <value>MTBF</value>
+  </data>
+  <data name="psMTTR" xml:space="preserve">
+    <value>MTTR</value>
+  </data>
+  <data name="psOCCURRENCES_PERC_CAP" xml:space="preserve">
+    <value>Occurrences(%)</value>
+  </data>
+  <data name="psSUMMARY_BY" xml:space="preserve">
+    <value>Summary by </value>
+  </data>
+  <data name="psCHART" xml:space="preserve">
+    <value>Chart</value>
+  </data>
+  <data name="psSAVE_CSV" xml:space="preserve">
+    <value>Save as CSV(Comma Seperated Value) File</value>
+  </data>
+  <data name="psSAVE_XLS" xml:space="preserve">
+    <value>Save as XLS(Microsoft Excel) File</value>
+  </data>
+  <data name="psALL_ALARMS" xml:space="preserve">
+    <value>All Alarms</value>
+  </data>
+  <data name="psBY_DURATION" xml:space="preserve">
+    <value>By Duration</value>
+  </data>
+  <data name="psBY_OCCURANCE" xml:space="preserve">
+    <value>By Occurrence</value>
+  </data>
+  <data name="psSELECT_CHART" xml:space="preserve">
+    <value>Select Chart Criteria</value>
+  </data>
+  <data name="psSELECT_CHART_SIZE" xml:space="preserve">
+    <value>Select Chart Size</value>
+  </data>
+  <data name="psSELECT_CHART_TYPE" xml:space="preserve">
+    <value>Select Chart Type</value>
+  </data>
+  <data name="psTOP_X" xml:space="preserve">
+    <value>Top </value>
+  </data>
+  <data name="psBUILDING_CHART" xml:space="preserve">
+    <value>Building Chart</value>
+  </data>
+  <data name="psBUILDING_TABLE" xml:space="preserve">
+    <value>Building Table</value>
+  </data>
+  <data name="psCREATING_SPREADSHEET_FILE" xml:space="preserve">
+    <value>Creating Spreadsheet File.</value>
+  </data>
+  <data name="psHMS" xml:space="preserve">
+    <value>(h:mm:ss)</value>
+  </data>
+  <data name="psSEC" xml:space="preserve">
+    <value>(sec)</value>
+  </data>
+  <data name="psFINDING_CHART_DATA" xml:space="preserve">
+    <value>Finding Chart Data</value>
+  </data>
+  <data name="psGRAPH_SHEET_NAME" xml:space="preserve">
+    <value>Chart</value>
+  </data>
+  <data name="psOCCURRENCE_SUMMARY_SHEET_NAME" xml:space="preserve">
+    <value>OccurrenceSummary</value>
+  </data>
+  <data name="psBOTH_CAP" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="psRMCHARTS" xml:space="preserve">
+    <value>RM Charts</value>
+  </data>
+  <data name="psWEEKLY_REPORT" xml:space="preserve">
+    <value>Weekly Report</value>
+  </data>
+  <data name="psALARMS_SHEET_NAME" xml:space="preserve">
+    <value>Alarms</value>
+  </data>
+  <data name="psDOWNTIME_ALARMS" xml:space="preserve">
+    <value>Downtime Alarms</value>
+  </data>
+  <data name="psDURATION_SUMMARY_SHEET_NAME" xml:space="preserve">
+    <value>DurationSummary</value>
+  </data>
+  <data name="psERR_FAILED_TO_SAVE_FILE" xml:space="preserve">
+    <value>Error: Failed to save file</value>
+  </data>
+  <data name="psLASTWEEK" xml:space="preserve">
+    <value>LastWeek</value>
+  </data>
+  <data name="psLAST_WEEK" xml:space="preserve">
+    <value>Last Week</value>
+  </data>
+  <data name="psLAST_WEEK_TITLE_PRE" xml:space="preserve">
+    <value>Last Week's</value>
+  </data>
+  <data name="psTHISWEEK" xml:space="preserve">
+    <value>ThisWeek</value>
+  </data>
+  <data name="psTHIS_WEEK" xml:space="preserve">
+    <value>This Week</value>
+  </data>
+  <data name="psTHIS_WEEK_TITLE_PRE" xml:space="preserve">
+    <value>Current Week's</value>
+  </data>
+  <data name="psFROM" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="psOVERALL" xml:space="preserve">
+    <value>Overall</value>
+  </data>
+  <data name="psTO" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="psTOT_EACH_WEEK" xml:space="preserve">
+    <value>Total of Each Week's </value>
+  </data>
+  <data name="psWEEKLY_REPORT_FILENAME" xml:space="preserve">
+    <value>WeeklyReport</value>
+  </data>
+  <data name="psWEEK_OF" xml:space="preserve">
+    <value>Week of</value>
+  </data>
+  <data name="psYEARLY_DATA_FILENAME" xml:space="preserve">
+    <value>YearlyRMData</value>
+  </data>
+  <data name="psSEQUENCE_CAP" xml:space="preserve">
+    <value>Sequence Number</value>
+  </data>
+  <data name="psGHOST_STATUS_CAP" xml:space="preserve">
+    <value>Ghost</value>
+  </data>
+  <data name="psHELP_FORM_CAP" xml:space="preserve">
+    <value>Alarm Cause/Remedy Information</value>
+  </data>
+  <data name="psFULL_FILE" xml:space="preserve">
+    <value>Full Help File</value>
+  </data>
+  <data name="psSINGLE_ALARM" xml:space="preserve">
+    <value>One Alarm </value>
+  </data>
+  <data name="psALARM_SUMMARY_SHEET_NAME" xml:space="preserve">
+    <value>AlarmSummary</value>
+  </data>
+  <data name="psVISION_REPORT" xml:space="preserve">
+    <value>Vision Log Reporting</value>
+  </data>
+  <data name="psVISION_STATUS_CAP" xml:space="preserve">
+    <value>Vision Status</value>
+  </data>
+  <data name="psVISION_STAT_1" xml:space="preserve">
+    <value>Part Found</value>
+  </data>
+  <data name="psVISION_STAT_8000" xml:space="preserve">
+    <value>Too Many Vision Processes</value>
+  </data>
+  <data name="psVISION_STAT_8001" xml:space="preserve">
+    <value>Target Discarded</value>
+  </data>
+  <data name="psVISION_STAT_9006" xml:space="preserve">
+    <value>Invalid Vision Process Name</value>
+  </data>
+  <data name="psVISION_STAT_9007" xml:space="preserve">
+    <value>Invalid Camera View Name</value>
+  </data>
+  <data name="psVISION_STAT_9008" xml:space="preserve">
+    <value>General Error in Snap</value>
+  </data>
+  <data name="psVISION_STAT_9011" xml:space="preserve">
+    <value>Camera View Not Setup</value>
+  </data>
+  <data name="psVISION_STAT_9012" xml:space="preserve">
+    <value>Vision Process Not Setup</value>
+  </data>
+  <data name="psVISION_STAT_9016" xml:space="preserve">
+    <value>Setup Mode Active</value>
+  </data>
+  <data name="psVISION_STAT_9024" xml:space="preserve">
+    <value>Tool Measurement Failed</value>
+  </data>
+  <data name="psVISION_STAT_9026" xml:space="preserve">
+    <value>One or More Camera View Targets Not Found</value>
+  </data>
+  <data name="psVISION_STAT_9027" xml:space="preserve">
+    <value>Too Few Camera View Targets Found</value>
+  </data>
+  <data name="psVISION_STAT_9028" xml:space="preserve">
+    <value>Invalid Vision Project Name</value>
+  </data>
+  <data name="psVISION_STAT_UNKNOWN" xml:space="preserve">
+    <value>Vision status {0} Unknown</value>
+  </data>
+  <data name="psVISION_STAT_99999" xml:space="preserve">
+    <value>Vision Change Log</value>
+  </data>
+  <data name="psINDEX_TIME_CAP" xml:space="preserve">
+    <value>Index Time (sec)</value>
+  </data>
+  <data name="psSTART_DATE" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="psSTART_TIME_CAP1" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="psFIND_FRM_CAP" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="psNEXT_BTN" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="psPREV_BTN" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="psAUTO_GEN" xml:space="preserve">
+    <value>Auto Gen</value>
+  </data>
+  <data name="psDAILY" xml:space="preserve">
+    <value>Apply time range each day</value>
+  </data>
+</root>

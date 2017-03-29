@@ -1,0 +1,10 @@
+C:\Paint\VBApps\AlarmMask.exe
+C:\Paint\VBApps\AlarmMask.pdb
+C:\Paint\VBApps\AlarmMask.xml
+C:\Paint\Source\Maint\AlarmMask.NET\obj\Release\ResolveAssemblyReference.cache
+C:\Paint\Source\Maint\AlarmMask.NET\obj\Release\AlarmMask.frmMain.resources
+C:\Paint\Source\Maint\AlarmMask.NET\obj\Release\AlarmMask.Resources.resources
+C:\Paint\Source\Maint\AlarmMask.NET\obj\Release\AlarmMask.vbproj.GenerateResource.Cache
+C:\Paint\Source\Maint\AlarmMask.NET\obj\Release\AlarmMask.exe
+C:\Paint\Source\Maint\AlarmMask.NET\obj\Release\AlarmMask.xml
+C:\Paint\Source\Maint\AlarmMask.NET\obj\Release\AlarmMask.pdb

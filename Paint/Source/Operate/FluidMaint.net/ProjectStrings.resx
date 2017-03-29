@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="psACTUAL" xml:space="preserve">
+    <value>Actual</value>
+  </data>
+  <data name="psATOMAIR" xml:space="preserve">
+    <value>Atom Air (psi)</value>
+  </data>
+  <data name="psCANISTER_FILL_ERR" xml:space="preserve">
+    <value>Canister Fill Error</value>
+  </data>
+  <data name="psCC" xml:space="preserve">
+    <value>cc</value>
+  </data>
+  <data name="psCNTS" xml:space="preserve">
+    <value>cnts</value>
+  </data>
+  <data name="psCOLOR_OPERATE" xml:space="preserve">
+    <value>Color To Operate</value>
+  </data>
+  <data name="psCOULDNOTWRITEFTPARAMS" xml:space="preserve">
+    <value>Could not write flow test parameters to PLC.</value>
+  </data>
+  <data name="psCURRENT_COLOR" xml:space="preserve">
+    <value>Current color = </value>
+  </data>
+  <data name="psCYLINDER_POS" xml:space="preserve">
+    <value>Cylinder Position</value>
+  </data>
+  <data name="psESTAT_QUESTION" xml:space="preserve">
+    <value>Are you sure you want to test E-Stats?</value>
+  </data>
+  <data name="psESTATKV" xml:space="preserve">
+    <value>E-Stat (kV)</value>
+  </data>
+  <data name="psESTATS_ENABLED" xml:space="preserve">
+    <value>E-stats Enabled</value>
+  </data>
+  <data name="psFANAIR" xml:space="preserve">
+    <value>Fan Air (psi)</value>
+  </data>
+  <data name="psFLOWRATE" xml:space="preserve">
+    <value>Flow Rate (cc/min)</value>
+  </data>
+  <data name="psNO_CHANGE_CAN_POS" xml:space="preserve">
+    <value>No change in canister position</value>
+  </data>
+  <data name="psPERFORMED_SCALE_CAL" xml:space="preserve">
+    <value>Performed scale calibration</value>
+  </data>
+  <data name="psREAD_CAL_STATUS" xml:space="preserve">
+    <value>Getting scale calibration status</value>
+  </data>
+  <data name="psROBOTTOVIEW" xml:space="preserve">
+    <value>Robot To View</value>
+  </data>
+  <data name="psRUN" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="psSCALE_CAL" xml:space="preserve">
+    <value>Scale Cal</value>
+  </data>
+  <data name="psSCALE_CAL_ABORTED" xml:space="preserve">
+    <value>Scale calibration aborted</value>
+  </data>
+  <data name="psSCALE_CAL_ERROR" xml:space="preserve">
+    <value>Scale calibration error</value>
+  </data>
+  <data name="psSCALE_CAL_SUCCESS" xml:space="preserve">
+    <value>Scale calibration successful</value>
+  </data>
+  <data name="psSCREENCAPTION" xml:space="preserve">
+    <value>Fluid Maintenance </value>
+  </data>
+  <data name="psSEND_TO_PLC" xml:space="preserve">
+    <value>Sending Color Number To PLC</value>
+  </data>
+  <data name="psSTART_SCALE_CAL" xml:space="preserve">
+    <value>Started scale calibration</value>
+  </data>
+  <data name="psTEST" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="psTIME_SECONDS" xml:space="preserve">
+    <value>Time (seconds)</value>
+  </data>
+  <data name="psTOTAL" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="psUA" xml:space="preserve">
+    <value>µA</value>
+  </data>
+  <data name="psAPPLICATOR_OPERATE" xml:space="preserve">
+    <value>Applicator</value>
+  </data>
+  <data name="psCALIBRATION" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="psDQ" xml:space="preserve">
+    <value>SA</value>
+  </data>
+  <data name="psPAINTINCAN" xml:space="preserve">
+    <value>Paint In Can</value>
+  </data>
+  <data name="psPAINT_CAL" xml:space="preserve">
+    <value>Paint Cal</value>
+  </data>
+  <data name="psCAL_STAT" xml:space="preserve">
+    <value>Cal Status</value>
+  </data>
+  <data name="psKV" xml:space="preserve">
+    <value>kV</value>
+  </data>
+  <data name="psAll_ROBOTS" xml:space="preserve">
+    <value>(All Robots)</value>
+  </data>
+  <data name="psCALDONE" xml:space="preserve">
+    <value>Calibration Success</value>
+    <comment>Was(Calibration Complete)</comment>
+  </data>
+  <data name="psCAL_NOT_DONE" xml:space="preserve">
+    <value>Calibration Error</value>
+    <comment>Was (Calibration Not Complete)</comment>
+  </data>
+  <data name="psDQCALACT1" xml:space="preserve">
+    <value>Cmd </value>
+  </data>
+  <data name="psDQCALACT2" xml:space="preserve">
+    <value>(counts), Man. Pres. </value>
+  </data>
+  <data name="psDQCALACT3" xml:space="preserve">
+    <value>(psi)</value>
+  </data>
+  <data name="psDQCAL_STAT" xml:space="preserve">
+    <value>Shaping Air Cal Status</value>
+  </data>
+  <data name="psFLUID_DIAGRAM" xml:space="preserve">
+    <value>Valve Display (Selected Robot)</value>
+  </data>
+  <data name="psCALIBRATING" xml:space="preserve">
+    <value>Calibrating</value>
+  </data>
+  <data name="psBEAKER_MODE" xml:space="preserve">
+    <value>Beaker Mode</value>
+  </data>
+  <data name="psBEAKER_TOOLTIPTEXT" xml:space="preserve">
+    <value>Enable or Disable Beaker mode.</value>
+  </data>
+  <data name="psDEVICE_TOOLTIPTEXT" xml:space="preserve">
+    <value>Show the status items required for manual operations on all devices.</value>
+  </data>
+  <data name="psDISABLE_BEAKER_TEXT" xml:space="preserve">
+    <value>Disable beaker mode?  This will enable the automatic bell spin and shaping air.</value>
+  </data>
+  <data name="psDISABLE_BEAKER_TITLE" xml:space="preserve">
+    <value>Disable Beaker Mode</value>
+  </data>
+  <data name="psENABLE_BEAKER_TEXT" xml:space="preserve">
+    <value>Enable beaker mode?  This will stop the automatic bell spin and shaping air.</value>
+  </data>
+  <data name="psENABLE_BEAKER_TITLE" xml:space="preserve">
+    <value>Enable Beaker Mode</value>
+  </data>
+  <data name="psUNIT_MENU_TOOLTIP" xml:space="preserve">
+    <value>Right click to select counts or engineering units.</value>
+  </data>
+  <data name="psSYSCOL" xml:space="preserve">
+    <value>Color: </value>
+  </data>
+  <data name="psVALVE" xml:space="preserve">
+    <value>Valve: </value>
+  </data>
+  <data name="psSTART_AUTO_CAL" xml:space="preserve">
+    <value>Started auto calibration</value>
+  </data>
+  <data name="psSTART_CC_CYCLE" xml:space="preserve">
+    <value>Started a color change cycle</value>
+  </data>
+  <data name="psSTART_DQ_CAL" xml:space="preserve">
+    <value>Started Shaping Air auto calibration</value>
+  </data>
+  <data name="psSTART_FLOW_TEST" xml:space="preserve">
+    <value>Started a flow test</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FormIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Fluid Maintenance.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psPERFORMED_DQ_CAL" xml:space="preserve">
+    <value>Performed DQ calibration</value>
+  </data>
+  <data name="psSTART_TEST_BTN" xml:space="preserve">
+    <value>Start Test</value>
+  </data>
+  <data name="psCLBROBOT_TOOLTIP" xml:space="preserve">
+    <value>If robots can not be enabled, check the device screen.</value>
+  </data>
+  <data name="psCLBROBOT_TOOLTIP2" xml:space="preserve">
+    <value>Robot not enabled, check the device screen.</value>
+  </data>
+  <data name="psVIEWDETAIL_TOOLTIP" xml:space="preserve">
+    <value>Right-click to select another view.</value>
+  </data>
+  <data name="psCAL_FINISHED" xml:space="preserve">
+    <value>Calibration sequence finished.</value>
+  </data>
+  <data name="psCAL_STARTED" xml:space="preserve">
+    <value>Calibration sequence started.</value>
+  </data>
+  <data name="psSTART_DQ2_CAL" xml:space="preserve">
+    <value>Started Shaping Air 2 auto calibration</value>
+  </data>
+  <data name="psDQ2" xml:space="preserve">
+    <value>SA2</value>
+  </data>
+  <data name="psDQ2CAL_STAT" xml:space="preserve">
+    <value>Shaping Air 2 Cal Status</value>
+  </data>
+  <data name="psSAFACALACT1" xml:space="preserve">
+    <value>Cmd </value>
+  </data>
+  <data name="psSAFACALACT2" xml:space="preserve">
+    <value>(counts), SA </value>
+  </data>
+  <data name="psSAFACALACT3" xml:space="preserve">
+    <value>(sLPM)</value>
+  </data>
+  <data name="psCAL" xml:space="preserve">
+    <value>Cal</value>
+  </data>
+  <data name="psSHAPING_AIR" xml:space="preserve">
+    <value>Shaping Air</value>
+  </data>
+  <data name="psPRESSURE_TEST" xml:space="preserve">
+    <value>Pressure Test</value>
+  </data>
+  <data name="psPRES_TST_ABORT" xml:space="preserve">
+    <value>Aborting pressure test.</value>
+  </data>
+  <data name="psPRES_TST_FILL_AIR" xml:space="preserve">
+    <value>Pressure Test: Filling air.</value>
+  </data>
+  <data name="psPRES_TST_FILL_SOL" xml:space="preserve">
+    <value>Pressure Test: Filling solvent.</value>
+  </data>
+  <data name="psPRES_TST_FINISH" xml:space="preserve">
+    <value>Finished pressure test.</value>
+  </data>
+  <data name="psPRES_TST_MEAS_AIR" xml:space="preserve">
+    <value>Pressure Test: Measuring air.</value>
+  </data>
+  <data name="psPRES_TST_MEAS_SOL" xml:space="preserve">
+    <value>Pressure Test: Measuring solvent.</value>
+  </data>
+  <data name="psOUTLET_PRESSURE" xml:space="preserve">
+    <value>Outlet Press. (psi)</value>
+  </data>
+  <data name="psPT_AIR_PRES" xml:space="preserve">
+    <value>(psi) Air: </value>
+  </data>
+  <data name="psPT_FILL_AIR" xml:space="preserve">
+    <value>(psi) Filling Air: </value>
+  </data>
+  <data name="psPT_FILL_SOLV" xml:space="preserve">
+    <value>Filling Solvent: </value>
+  </data>
+  <data name="psPT_MEAS_AIR" xml:space="preserve">
+    <value>(psi) Measuring Air: </value>
+  </data>
+  <data name="psPT_MEAS_SOLV" xml:space="preserve">
+    <value>Measuring Solvent: </value>
+  </data>
+  <data name="psPT_PSI" xml:space="preserve">
+    <value>(psi)</value>
+  </data>
+  <data name="psPT_SOLV_PRES" xml:space="preserve">
+    <value>Solvent: </value>
+  </data>
+  <data name="psPRESS_TEST" xml:space="preserve">
+    <value>Press. Test</value>
+  </data>
+  <data name="psCAN_CAL" xml:space="preserve">
+    <value>Can Cal</value>
+  </data>
+  <data name="psSUNIT_CAL" xml:space="preserve">
+    <value>S-Unit Cal</value>
+  </data>
+  <data name="psMOVE_CLEAN" xml:space="preserve">
+    <value>Move To Clean</value>
+  </data>
+  <data name="psMOVE_DEDOCK" xml:space="preserve">
+    <value>Move To De-Dock</value>
+  </data>
+  <data name="psMOVE_DOCK" xml:space="preserve">
+    <value>Move To Dock</value>
+  </data>
+  <data name="psDOCK_CONTROL" xml:space="preserve">
+    <value>S-Unit Control</value>
+  </data>
+  <data name="psTPR" xml:space="preserve">
+    <value>TPR (cc)</value>
+  </data>
+  <data name="psDOCK_CAL_STAT" xml:space="preserve">
+    <value>S-Unit Cal Status</value>
+  </data>
+  <data name="psSTART_DOCK_CAL" xml:space="preserve">
+    <value>Started S-Unit calibration</value>
+  </data>
+  <data name="psCUR_COLOR_CAP" xml:space="preserve">
+    <value>Current Color</value>
+  </data>
+  <data name="psAFLOWCAL1" xml:space="preserve">
+    <value>AOUT: </value>
+  </data>
+  <data name="psAFLOWCAL2" xml:space="preserve">
+    <value>Actual Flow: </value>
+  </data>
+  <data name="psPERFORMED_AF_CAL" xml:space="preserve">
+    <value>Performed Accuflow calibration</value>
+  </data>
+  <data name="psABORTED" xml:space="preserve">
+    <value>Aborted</value>
+  </data>
+  <data name="psAF_ADAPT_OUT" xml:space="preserve">
+    <value>Adapted Out Error</value>
+  </data>
+  <data name="psAF_CANT_LOWR" xml:space="preserve">
+    <value>No Lower Limit</value>
+  </data>
+  <data name="psAF_CANT_UPR" xml:space="preserve">
+    <value>No Upper Limit</value>
+  </data>
+  <data name="psAF_LOWER_LIM" xml:space="preserve">
+    <value>Lower Limit Error</value>
+  </data>
+  <data name="psAF_UPPER_LIM" xml:space="preserve">
+    <value>Upper Limit Error</value>
+  </data>
+  <data name="psCOMPLETE" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="psCOPIED" xml:space="preserve">
+    <value>Copied</value>
+  </data>
+  <data name="psNOT_COMP" xml:space="preserve">
+    <value>Not Complete</value>
+  </data>
+  <data name="psCLEAN0_CYCLE_LIST" xml:space="preserve">
+    <value>Clean to 0 Cycle List</value>
+  </data>
+  <data name="psFULL_CYCLE_LIST" xml:space="preserve">
+    <value>Full Cycle List</value>
+  </data>
+  <data name="psSTANDARD_CYCLE_LIST" xml:space="preserve">
+    <value>Standard Cycle List</value>
+  </data>
+  <data name="psPUMP_1_ENABLE" xml:space="preserve">
+    <value>Pump 1 Enable</value>
+  </data>
+  <data name="psPUMP_2_ENABLE" xml:space="preserve">
+    <value>Pump 2 Enable</value>
+  </data>
+  <data name="psPUMP_ENABLES" xml:space="preserve">
+    <value>Pump Enables</value>
+  </data>
+  <data name="psPERFORMED_AUTO_CAL" xml:space="preserve">
+    <value>Performed Auto Calibration</value>
+  </data>
+  <data name="psHDR_IN_OUT" xml:space="preserve">
+    <value>Hardener In/Out (PSI)</value>
+  </data>
+  <data name="psRESIN_IN_OUT" xml:space="preserve">
+    <value>Resin In/Out (PSI)</value>
+  </data>
+  <data name="psCCMIN" xml:space="preserve">
+    <value>cc/min</value>
+  </data>
+  <data name="psP1" xml:space="preserve">
+    <value> P1: </value>
+  </data>
+  <data name="psP2" xml:space="preserve">
+    <value> P2: </value>
+  </data>
+  <data name="psPSI" xml:space="preserve">
+    <value>psi</value>
+  </data>
+  <data name="psAMPS" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="psHINT_ALL_ROBOTS" xml:space="preserve">
+    <value>Hint: Right-Click the display area (above) to show the view menu and enable calibration functions.</value>
+  </data>
+</root>

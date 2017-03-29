@@ -1,0 +1,527 @@
+<html 
+<head>
+<head>
+    <style type="text/css">
+
+a:link
+	{color:#3366CC;
+	text-decoration:underline;
+	text-underline:single;}
+    </style>
+</head>
+</head>
+
+<body bgcolor=white background="../common/indtextb.jpg">
+
+    <h2>View Menu</h2>
+    <h1>Bulk Supply Monitor</h1>
+
+<p>This screen displays the status of
+the bulk material supply system. The user may click on the desired tab to view 
+the status of the associated drum.</p>
+
+<p><strong>Note: </strong>Changes to this screen can only be made by a
+user with sufficient access level.</p>
+
+<p>Refer to the <i>Description of Screen Controls</i> section below for more information. </p>
+
+<p><map id="FPMap0" name="FPMap0">
+<area shape=Rect coords="1, 24, 99, 79"
+    href="../%5b1.0%5dPAINTWorksMainMenu/ViewMenu.htm"
+    ALT="Closes the current screen."></map>
+<img border=0 width=1024 height=703  usemap="#FPMap0"
+     src="images/View_BulkSupply.jpg"
+</p>
+
+<p>When the ‘Remote/Local’ selector switch
+for a drum is in the ‘Remote’ position, the ‘Prime Pump’, ‘Pump Reset’, and
+‘Pump On’ graphics operate as pushbuttons that may be clicked on to perform the
+same function as the local pushbuttons.
+The ‘Depressurize’ mushroom pushbutton graphic may be clicked on anytime
+to depressurize the system.</p>
+
+<p>When the ‘Drum Alternate’ feature
+is enabled, each drum is offline for the number of minutes set in the ‘Drum On
+Time’ textbox. This allows some material
+to be used from each drum repeatedly.
+This can be useful when the material supply header is in line with the
+drums, causing more material to be drawn from the first drum than the
+others.Caution must be observed when
+utilizing this feature, however, to avoid the situation where all drums are
+empty at the same time.</p>
+
+<p>The user may also enable/disable
+the Auto Depressurize function using the ‘Auto Depressurize Enabled’
+checkbox.When enabled, the bulk supply
+system will automatically depressurize when the client robots have been idle
+for the preset time period.If multiple
+robot cells utilize the same supply system, this feature must be enabled on
+each, and the bulk supply will not depressurize until all client cells have
+been idle for their preset times.</p>
+
+<p>The ‘Pump Count Status’ area for
+each drum displays the number of pump cycles since the last reset. These counts should be reset, by clicking on
+the ‘Pump x Count Reset’ pushbuttons, after maintenance has been
+performed.When the ‘Actual’ count
+reaches the ‘Notify’ count, a popup reminder is displayed indicating that it is
+time to perform the required maintenance.</p>
+
+<p><The ‘Material Per Pump Stroke’ constant is used to calculate a rough estimate of the total amount
+of material used.The accumulated total
+may be reset by clicking on the ‘Reset’ button below the box displaying the
+current total.This value is accumulated
+for each drum individually, however the per stroke constant is common. The constant should not be changed unless
+directed to do so by the pump manufacturer. </p>
+
+        <H2>Description of Screen Controls</H2>
+        <p>The following table provides a functional 
+    description of the various screen objects</p>
+
+
+
+<table border="1" bordercolordark="#000000" bordercolorlight="#666666" 
+    cellpadding="0" cellspacing="1" class="MsoNormalTable" 
+    style="WIDTH: 100%; mso-cellspacing: .7pt; mso-padding-alt: 5.25pt 5.25pt 5.25pt 5.25pt" 
+    width="100%">
+    <tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p align="center">
+                <b><span style="FONT-FAMILY: Arial">ITEM</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p align="center">
+                <b><span style="FONT-FAMILY: Arial">DESCRIPTION</span></b></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 1">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p>
+                <b><span style="FONT-FAMILY: Arial">Close</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p>
+                <span style="FONT-FAMILY: Arial">Click on this button to close this screen and 
+                return to the main menu.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 2">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p>
+                <b><span style="FONT-FAMILY: Arial">Save</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p>
+                <span style="FONT-FAMILY: Arial">Click on this button to save changes to the PLC 
+                and database.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 3">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">Undo</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: Arial">Click on this button to cancel current edits. 
+                This does NOT apply to changes that have already been saved.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 4">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p>
+                <b><span style="FONT-FAMILY: Arial">Change Summary</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p>
+                <span style="FONT-FAMILY: Arial">Click on this button to display the Change 
+                Summary screen. Clicking the arrow to the right of this button displays a menu 
+                from which to choose &#39;Last 24 Hours&#39;, &#39;Last 7 Days&#39;, and &#39;All Available&#39;. 
+                Selecting one of these options will display data for the associated length of 
+                time.<o:p></o:p></span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 5">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p>
+                <b><span style="FONT-FAMILY: Arial">Status</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p>
+                <span style="FONT-FAMILY: Arial">The Status button displays/hides a window where 
+                information regarding data read and write operations is logged.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 6">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">Zone</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: 'Trebuchet MS'">This dropdown box allows the user to 
+                select the appropriate zone. If only one zone exists, then only one zone will be 
+                available.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 7">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">Drum &#39;x&#39; Status</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: 'Trebuchet MS'">Displays the status of the associated 
+                drum.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 8">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">Auto Depressurization</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: 'Trebuchet MS'">This area displays the auto 
+                depressurize settings.</span> <o:p></o:p>
+            </p>
+            <table border="0" cellpadding="0" class="MsoNormalTable" 
+                style="WIDTH: 100%; mso-cellspacing: 1.5pt" width="100%">
+                <tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 3%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="3%">
+                        <p class="MsoNormal">
+                            <o:p> </o:p>
+                        </p>
+                    </td>
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 10%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="10%">
+                        <p class="MsoNormal">
+                            <b><span style="FONT-FAMILY: 'Trebuchet MS'">Auto Depressurize Enabled</span></b><o:p></o:p></p>
+                    </td>
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 34%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="34%">
+                        <p class="MsoNormal">
+                            <span style="FONT-FAMILY: 'Trebuchet MS'">When this checkbox is checked, the 
+                            bulk supply system will automatically depressurize after the preset number of 
+                            hours and minutes of system idle time.</span></p>
+                    </td>
+                </tr>
+                <tr style="mso-yfti-irow: 1">
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 3%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="3%">
+                        <p class="MsoNormal">
+                            <o:p> </o:p>
+                        </p>
+                    </td>
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 10%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="10%">
+                        <p class="MsoNormal">
+                            <b><span style="FONT-FAMILY: 'Trebuchet MS'">Preset</span></b><o:p></o:p></p>
+                    </td>
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 34%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="34%">
+                        <p class="MsoNormal">
+                            <span style="FONT-FAMILY: 'Trebuchet MS'">This is where the user enters the 
+                            desired idle time in hours and minutes.</span></p>
+                    </td>
+                </tr>
+                <tr style="mso-yfti-irow: 2; mso-yfti-lastrow: yes">
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 3%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="3%">
+                        <p class="MsoNormal">
+                            <o:p> </o:p>
+                        </p>
+                    </td>
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 10%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="10%">
+                        <p class="MsoNormal">
+                            <b><span style="FONT-FAMILY: 'Trebuchet MS'">Actual</span></b><o:p></o:p></p>
+                    </td>
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 34%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="34%">
+                        <p class="MsoNormal">
+                            <span style="FONT-FAMILY: 'Trebuchet MS'">This is the current idle time. When 
+                            the number of hours and minutes equal the preset number of hours and minutes, 
+                            the bulk supply system will automatically depressurize.</span></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="MsoNormal">
+                <o:p></o:p>
+            </p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 9">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">Bulk Supply Depressurization</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: 'Trebuchet MS'">Displays the status of the mushroom 
+                type depressurize pushbutton on the local control panel for the associated drum. 
+                This graphic may also be clicked on to depressurize the system.</span> <o:p></o:p>
+            </p>
+            <table border="0" cellpadding="0" class="MsoNormalTable" 
+                style="WIDTH: 100%; mso-cellspacing: 1.5pt" width="100%">
+                <tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes">
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 3%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        width="3%">
+                        <p class="MsoNormal">
+                            <o:p> </o:p>
+                        </p>
+                    </td>
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 1%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="1%">
+                        <p class="MsoNormal">
+                            <b><span style="FONT-FAMILY: 'Trebuchet MS'">Note:</span></b><o:p></o:p></p>
+                    </td>
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 61%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="61%">
+                        <p class="MsoNormal">
+                            <span style="FONT-FAMILY: 'Trebuchet MS'">Clicking on this graphic (or pressing 
+                            the actual button on the control panel) depressurizes the entire supply system, 
+                            not just the associated drum.</span></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="MsoNormal">
+                <o:p></o:p>
+            </p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 10">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">System Pressurized</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: 'Trebuchet MS'">This graphic displays the status of 
+                the associated light on the supply drum&#39;s local control panel. This light is on 
+                when the system is pressurized and the drum is online.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 11">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">Pump Active</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: 'Trebuchet MS'">This graphic displays the status of 
+                the associated light on the supply drum&#39;s local control panel. This light is on 
+                when the system is pressurized and the drum is online and flashes when the drum 
+                is currently being primed.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 12">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">Air Press On</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: 'Trebuchet MS'">This graphic displays the status of 
+                the associated light on the supply drum&#39;s local control panel. This light is on 
+                when there is sufficient air pressure to the system.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 13">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">Drum Present</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: 'Trebuchet MS'">This graphic displays the status of 
+                the associated light on the supply drum&#39;s local control panel. This light is on 
+                when a drum is in place.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 14">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">Drum Ready</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: 'Trebuchet MS'">This graphic displays the status of 
+                the associated light on the supply drum&#39;s local control panel. This light is on 
+                when the drum&#39;s ram (plunger) is inserted into the drum.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 15">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">Prime Pump</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: 'Trebuchet MS'">Click on this button to initiate a 
+                drum prime operation. This must only be performed upon initial load of a new 
+                drum. The prime operation will end automatically when the pumps stroke 10 times. 
+                If there is not enough room to pump 10 times, then the Pump Reset button may be 
+                pressed to end the prime.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 16">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">Pump Reset</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: 'Trebuchet MS'">Click on this button to manually end a 
+                drum prime operation, or to take a drum offline.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 17">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">Pump On</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: 'Trebuchet MS'">Click on this button to put a drum 
+                online.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 18">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">Local / Remote SS</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: 'Trebuchet MS'">This graphic displays the status of 
+                the Local / Remote selector switch on the drum&#39;s local control panel. The 
+                Depressurization, Prime, Reset, and Pump On pushbuttons on this screen will only 
+                function when this switch is in the Remote position.</span></p>
+        </td>
+    </tr>
+    <tr style="mso-yfti-irow: 19; mso-yfti-lastrow: yes">
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 25%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="25%">
+            <p class="MsoNormal">
+                <b><span style="FONT-FAMILY: Arial">Pump Count Status</span></b><o:p></o:p></p>
+        </td>
+        <td style="PADDING-BOTTOM: 5.25pt; PADDING-LEFT: 5.25pt; WIDTH: 75%; PADDING-RIGHT: 5.25pt; PADDING-TOP: 5.25pt" 
+            valign="top" width="75%">
+            <p class="MsoNormal">
+                <span style="FONT-FAMILY: 'Trebuchet MS'">This area displays the current pump 
+                stroke count for each of the two pumps per drum. The accumulated value may be 
+                reset and the notification preset may also be configured.</span> <o:p></o:p>
+            </p>
+            <table border="0" cellpadding="0" class="MsoNormalTable" 
+                style="WIDTH: 100%; mso-cellspacing: 1.5pt" width="100%">
+                <tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 3%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="3%">
+                        <p class="MsoNormal">
+                            <o:p> </o:p>
+                        </p>
+                    </td>
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 10%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="10%">
+                        <p class="MsoNormal">
+                            <b><span style="FONT-FAMILY: 'Trebuchet MS'">Pump &#39;x&#39; Count Reset</span></b><o:p></o:p></p>
+                    </td>
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 34%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="34%">
+                        <p class="MsoNormal">
+                            <span style="FONT-FAMILY: 'Trebuchet MS'">This button resets the accumulated 
+                            pump count for the associated pump. This should be done after required 
+                            maintenance has been performed.</span></p>
+                    </td>
+                </tr>
+                <tr style="mso-yfti-irow: 1">
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 3%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="3%">
+                        <p class="MsoNormal">
+                            <o:p> </o:p>
+                        </p>
+                    </td>
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 10%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="10%">
+                        <p class="MsoNormal">
+                            <b><span style="FONT-FAMILY: 'Trebuchet MS'">Notify</span></b><o:p></o:p></p>
+                    </td>
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 34%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="34%">
+                        <p class="MsoNormal">
+                            <span style="FONT-FAMILY: 'Trebuchet MS'">This is the preset number of pump 
+                            stroke counts. When this many strokes have been counted, the system will notify 
+                            the user that it is time to perform required maintenance. Refer to the supply 
+                            system documentation for maintenance procedures.</span></p>
+                    </td>
+                </tr>
+                <tr style="mso-yfti-irow: 2; mso-yfti-lastrow: yes">
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 3%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="3%">
+                        <p class="MsoNormal">
+                            <o:p> </o:p>
+                        </p>
+                    </td>
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 10%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="10%">
+                        <p class="MsoNormal">
+                            <b><span style="FONT-FAMILY: 'Trebuchet MS'">Actual</span></b><o:p></o:p></p>
+                    </td>
+                    <td style="PADDING-BOTTOM: 0.75pt; PADDING-LEFT: 0.75pt; WIDTH: 34%; PADDING-RIGHT: 0.75pt; PADDING-TOP: 0.75pt" 
+                        valign="top" width="34%">
+                        <p class="MsoNormal">
+                            <span style="FONT-FAMILY: 'Trebuchet MS'">This is the number of pump strokes 
+                            since the last time the count was reset.</span></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="MsoNormal">
+                <o:p></o:p>
+            </p>
+        </td>
+    </tr>
+</table>
+<p>
+    Click <b>Close</b> to return to the
+    <a href="../[1.0]PAINTworksMainMenu/Viewmenu.htm">View Menu</a>.</p>
+    </body>
+</html>

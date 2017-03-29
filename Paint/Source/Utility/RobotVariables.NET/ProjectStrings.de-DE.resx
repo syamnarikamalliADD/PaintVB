@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FormIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Robot Vars.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psACCEPT" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="psACCESS_APP" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="psACCESS_CAP" xml:space="preserve">
+    <value>Access:</value>
+  </data>
+  <data name="psACCESS_FP" xml:space="preserve">
+    <value>Field Protection</value>
+  </data>
+  <data name="psACCESS_MOT" xml:space="preserve">
+    <value>Motion Control</value>
+  </data>
+  <data name="psACCESS_NO" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="psACCESS_RD" xml:space="preserve">
+    <value>Read Access</value>
+  </data>
+  <data name="psACCESS_RW" xml:space="preserve">
+    <value>Read/Write</value>
+  </data>
+  <data name="psADD" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="psALREADY_EXISTS" xml:space="preserve">
+    <value> already exists in the list.</value>
+  </data>
+  <data name="psALREADY_IN_LIST" xml:space="preserve">
+    <value>Already In List.</value>
+  </data>
+  <data name="psBROWSE" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="psCANNOT_WRITE_POS_DAT" xml:space="preserve">
+    <value>Cannot write position data.</value>
+  </data>
+  <data name="psCANNOT_WRITE_VAR" xml:space="preserve">
+    <value>Cannot wite to variable: </value>
+  </data>
+  <data name="psCMOS" xml:space="preserve">
+    <value>CMOS</value>
+  </data>
+  <data name="psCONTINUE" xml:space="preserve">
+    <value>Continue?</value>
+  </data>
+  <data name="psCONTROLLER" xml:space="preserve">
+    <value>Controller </value>
+  </data>
+  <data name="psCONTROLLER_NOT_AVAILABLE" xml:space="preserve">
+    <value>Controller Not Available</value>
+  </data>
+  <data name="psCONT_NEXT_RC" xml:space="preserve">
+    <value>Continue with the next controller?</value>
+  </data>
+  <data name="psCOPY" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="psCOPY_TO_ALL" xml:space="preserve">
+    <value>Copy to all selected robots</value>
+  </data>
+  <data name="psCOUNT_CAP" xml:space="preserve">
+    <value>Count:</value>
+  </data>
+  <data name="psCURRENT_VALUE" xml:space="preserve">
+    <value>Current Value</value>
+  </data>
+  <data name="psDATA_ERROR" xml:space="preserve">
+    <value>Data Error</value>
+  </data>
+  <data name="psDESCRIPTION_CAP" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="psDRAM" xml:space="preserve">
+    <value>DRAM</value>
+  </data>
+  <data name="psEDIT" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="psERROR" xml:space="preserve">
+    <value>Error.</value>
+  </data>
+  <data name="psERR_WRT_VAR" xml:space="preserve">
+    <value>Error while writing variables.</value>
+  </data>
+  <data name="psERR_WRT_VAR_TO" xml:space="preserve">
+    <value>Error while writing variable to </value>
+  </data>
+  <data name="psFAST_CMOS" xml:space="preserve">
+    <value>Fast CMOS</value>
+  </data>
+  <data name="psGROUP_CAP" xml:space="preserve">
+    <value>Group:</value>
+  </data>
+  <data name="psINVALID_VAR_NAME" xml:space="preserve">
+    <value>Invalid Variable Name</value>
+  </data>
+  <data name="psINV_DATA" xml:space="preserve">
+    <value>Invalid Data.</value>
+  </data>
+  <data name="psIS_NOT_AVAILABLE" xml:space="preserve">
+    <value> is not available.</value>
+  </data>
+  <data name="psIS_NOT_VALID" xml:space="preserve">
+    <value> is not valid.</value>
+  </data>
+  <data name="psLIST" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="psMAX_CAP" xml:space="preserve">
+    <value>Maximum:</value>
+  </data>
+  <data name="psMIN_CAP" xml:space="preserve">
+    <value>Minimum:</value>
+  </data>
+  <data name="psNA" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="psNOT_VALID" xml:space="preserve">
+    <value>Not Valid</value>
+  </data>
+  <data name="psNO_WRT_ACC" xml:space="preserve">
+    <value>No write access to variable.</value>
+  </data>
+  <data name="psNUMERIC_REQ" xml:space="preserve">
+    <value>Numeric data Required</value>
+  </data>
+  <data name="psPROGRAM" xml:space="preserve">
+    <value>Program </value>
+  </data>
+  <data name="psPROGRAM_NOT_AVAILABLE" xml:space="preserve">
+    <value>Program Not Available</value>
+  </data>
+  <data name="psPROG_NAME_CAP" xml:space="preserve">
+    <value>Program Name:</value>
+  </data>
+  <data name="psREMOVE" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="psSCREENCAPTION" xml:space="preserve">
+    <value>Robot Variables</value>
+  </data>
+  <data name="psSELECT_VAR" xml:space="preserve">
+    <value>Select a Variable</value>
+  </data>
+  <data name="psSETEMPTY" xml:space="preserve">
+    <value>Set Empty?</value>
+  </data>
+  <data name="psSET_TO_EMPTY" xml:space="preserve">
+    <value>Set variable to an empty string?</value>
+  </data>
+  <data name="psSTORAGE_CAP" xml:space="preserve">
+    <value>Storage:</value>
+  </data>
+  <data name="psSTR_GRT_MAX_LEN" xml:space="preserve">
+    <value>String greater than max length.</value>
+  </data>
+  <data name="psSTR_LEN_CAP" xml:space="preserve">
+    <value>Length:</value>
+  </data>
+  <data name="psUNINITIALIZED" xml:space="preserve">
+    <value>Uninitialized</value>
+  </data>
+  <data name="psVAL_OUT_RANGE" xml:space="preserve">
+    <value>Value out of range.</value>
+  </data>
+  <data name="psVARIABLE" xml:space="preserve">
+    <value>Variable </value>
+  </data>
+  <data name="psVARIABLE_NAME" xml:space="preserve">
+    <value>Variable name </value>
+  </data>
+  <data name="psVARIABLE_NOT_AVAILABLE" xml:space="preserve">
+    <value>Variable Not Available</value>
+  </data>
+  <data name="psVAR_NAME_CAP" xml:space="preserve">
+    <value>Variable Name:</value>
+  </data>
+  <data name="psVAR_TYPE_CAP" xml:space="preserve">
+    <value>Variable Type:</value>
+  </data>
+  <data name="psWRITE_TO_RC" xml:space="preserve">
+    <value>Write to Selected Controllers</value>
+  </data>
+</root>

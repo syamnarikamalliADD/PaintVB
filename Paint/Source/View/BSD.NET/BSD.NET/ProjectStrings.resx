@@ -1,0 +1,1324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="FormIcon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAQAAEABADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/wu7D/////////C7sP/wD/8Lmw/////////wubD/8A//
+        C7sP////////8Luw//AP/wAAD/////////AAAP/wD//wsP//////////Cw//8A///wsPAP////8A8LD/
+        //AP///wsLD/////CwsP///w3////wsP//////Cw/////d/////w////////D/////3f////////////
+        ///////93////////////////////dzP/M/8z/zP/M/8z/zP/M3cz/zP/M/8z/zP/M/8z/zN3///////
+        /////////////d/////w////////D/////3f////Cw//////8LD////93///8LCw/////wsLD////Q//
+        /wsPAP////8A8LD///AP//Cw//////////8LD//wD/8AAA/////////wAAD/8A//C7sP////////8Luw
+        //AP/wubD/////////C5sP/wD/8Luw/////////wu7D/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////w==
+</value>
+  </data>
+  <data name="imgBooth" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAPxJREFUWEftV9ES
+        hCAIrP//aBOTST1xoZxwpmPGh+5kXRYS2vfN2YiA53I9nNUPUQTPtYXSiEwI1zqf7xnCyoELBDKRKQQE
+        rDGBrMIUAgKWSKCtiXsJiIns1FabbroEfvA5d0+iZ9ARVlcByZGjQWqU+1AgaW9Kj2A1wPmqIjP5RLgh
+        AToMRdEjpPbRELhIoNjr/zVqkfpQAduxxt1MgFJbpve152UIGIWbt32ZGkAhqSq6AVH5aBRQv9MFAbVP
+        Kv7B7Wa61TIBi88avWC5boh6OCrYTr+v5gI4D3AOeS5UVTPophKWOBElh0/NhL28v/ab52dZ+jL6E/BW
+        4AC4IMV8RmMM5AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="imgConv" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAPRJREFUWEftVusO
+        hSAItjf3zevYohGC4ITY2WrzR0v5Llxs20ry0whkrlTw0/0I9aWW3Ro3hMCpzEjCjUAD5JbmxDIBDIrB
+        XnEAwKlKK/hSEUrgmuUd2dkD3vuXa6BTVH7FyCyJuAsBDrDWuuMFe1xTQIO2dwrMEXl0y2xOsdpHIAM4
+        kGkx4KwpBRJoKAEL6K1iQj11gXUA5xLbJVayQABEcHUBcTsCAI4PaySk4ksnMOoI0YHrF+1uJ0093a+1
+        oakGIKg0PLhasMwAlzaUHAkloM37mXakAkyDSJuWaXfBaC5QUqG3oebQ6LtLCj4CnwN/7cAB3CCwprzo
+        guYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="imgGhost" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABkAAAAcCAYAAACUJBTQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAUpJREFUSEvNlgsO
+        gzAMQ+HmHI2bsYViNXHdtN2kaUgI8WlenF/Z9+0Hh0FWz/eSi8/MxhIAhq/72MrlueKdgk1DzAgbVvf2
+        HYOmIBrwCCFFBmbQEBIBMMyAen+e5xpkFYAcMShVUiDtUQugJp+LwoesC6mACOLSRQ78cygCaABhJW1/
+        3EVMfWNgH7L/VOI9933CORkqmW28WBK1CAzg+0WGq5f0tsPbhmTAPYDlrAkjpN/ZaoZx0lMIPOoZmg3V
+        spIRWIVKQvQoiWO95ibOLBWqBBL3C3g4o0TtKyHxbVWVzoWHWXX5UHVHvb1gg36hArEyNKCEHM/s8TH1
+        88gv7oXMOyghSDYMH0dRpa6Z4lQJjLNhHyL2FI5xLuCY3E+8CvuQQ8dA7zXUeeXppsV7g+ULOeN31gMc
+        0mEJr/7kPX+fYdP66r/rEwew5gXmQ3XCTIk1PQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="imgProcess" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAa9JREFUWEfFV4sW
+        gyAIdX/ep/VnTlASFQQ6tbVxOlvpvXB51OeT/EdOqXxTKmsiyxaAnDLugwfs5LFyGyzKx3Hg2bNGuqcs
+        BT+q5WKejTj4eZ63SSzgEQLgOYCTRSMhgnsJNMHR8zskNHDMBa8E5HGUxA7cRYASj2vPSeyksMBNAhx8
+        1h6AeVTmynCBFwaqBBI4j8KuMtzgGgELnOeNJNFQ55DpxWrRVyt+98+chBFwWiuSYJgaOFLRvImWm0Zi
+        Bz4QoA0oufjZar1d89qqea5IYed60FTB/q7ZrlcsCdfmxZCwTPMxGZoElvdaBNT2yoYWEEHHuBZ1HKJd
+        EYDQDezaAqr1aJ3D/TyP4HcvA4sAuTaR6Fk/jVSt1BoJDRxnDB80UgTgvx4FBkzz3KpzxfPLGW3SSWUY
+        6nCK5qD7UPq3CDibjKT50vjCBB4EX3KAh12U4GHwhYDUBfnYpUKy2mudON22jYwk2HXC69pmqs0djghY
+        T1zi88Ab2a4RWQj8EvzKgXCHa8PlbtiXPlDzwNleHwRnVfAfcCqA8V3N6O1PhF2UwCqXt6673ozeAod9
+        v4lNxcQUOAreAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="imgQueue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAbRJREFUWEfFVgG2
+        gyAM05tzNG/mbytloVJanHtfxybiSFqSyr5vvznObaPP/CDsnU7+fr/RlMxh0oTg+Rr4BZhvJx3E7x0C
+        F3CBRn1GoKOUIr/a51++J+DfEvhEjOB8fcEh2JDE0yWIU20Jef2HGogF9hGfpHsmxicOGBNAATIBL2oe
+        g2efE8gq/q4PJlDrz3cuELFNmqcVDHqpDsTi67PSvO7UB9FHdgkYvEATMlmvD7LUgokI6IMIztcrXrfL
+        1P47qwNRui0hrx/N4y5BJDCMSsptIEgdP44jZ8MRAYyGJ/Sirq/iBoTPtiUl0lMRoujCNI4ESvcwWiUr
+        81bw0AUdMGnePQc2Y3BtOA+CSzEauSATcbcc+mqd7AcQmK8V90ZAJi7QFv1+y1IlZSO/EWgRIThfr7zb
+        7SLpf2vtd7IdvFQsIa8/ST8H4RU8lsFMXt3YtZXKndbvawQwGgb0ouYx71mz9nMCVnTGwy6BCtJFq3MZ
+        v7sE2sYAIvE8PLJn1u9TAt0GYRCV9bD2lVBX8aDKod/TBGxGPHBLwpbYDLhbCaM9wpvj6R3Rm6CP94S/
+        IPHvGfgDgErmlW7w25oAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="imgUtil" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAATJJREFUWEfFl0sO
+        wyAMRJtD5nC9DRfpHbrvgmYWI7kUsLEdEQklCh8/xp+Q43hsvgCwsw2N18+7llLq3XBdgGe9rgEA3qM/
+        C84FkAnRBcDuZi5AHyHO8wy5yQWAuMiCWHIBY4OBKSG8MWEGoPFW8iiECWBkPEMJFUAzHoWYAliNRyCG
+        ACw2q2mGYESzFqsuwOvKsuw2Kuk/AF6jzATcZ2v01AwD0Gh774EAoIVIAZAKzFS4DQC73aYAjVMFLQam
+        LkCnNxC1eZRfBZADvc/8lKMWtGu06fhXB+QEyroCwjksRqOdE0Q9kHrLsQSYnStVAExegegpEAaQJyDt
+        2wAAjE9VgDuwKEFA65nR5AIpoQWCijELUlzARbSobo1rLltWwPKnZIE0p6HFYGTMLQqsAG0H+ALmLpAq
+        7PDWOAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="LITTLEG" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAARAAALODgAAAAAAAAAADO4ALi4gACDgwAAAAAAAAg4O4uLgAuLADgAAAAAAACwA4ODgwi4uLgAAAAA
+        AAABC4AACACL+/uLgAAAAAAAAAi4uLC4v7i/uAAAAAAAAAAA+/uLi/v/+4sAAAAAAAAAAA+/uLi/v7+4
+        AAAAAAAAAAAL//v7+//7i4AAAAAAAAAAAL//uL+/v7iwAAAAAAAAAACL+/v7//v7iwAAAAAAAAAAv/+/
+        v7+/v7gAAAAAAAAAAPv/+/v/+/uLAAAAAAAAAAC/v7+/v/+/uLAAAAAAAAAAC//78Av7APuAAAAAAAAA
+        AA+//wAAsAAPsAAAAAAAAAAL//sAAPAAC4AAAAAAAAAAD7//AACwAA+wAAAAAAAAAAD///AL+wD7AAAA
+        AAAAAAAAv///v/+/uAAAAAAAAAAAAAv///v/+4AAAAAAAAAAAAAAv7//v7+wAAAAAAAAAAAAAAv7+/v7
+        AAAAAAAAAAAAAAAAD7+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////////////
+        /////w//8AAD/8AAAf+AAAH/gAAD/4AAA//AAAP/4AAD//AAA//wAAP/+AAD//gAAf/4AAH/+AAB//gA
+        AP/8AAD//AAA//wAAP/8AAD//gAB//4AAf//AAP//4AD///AB///4A////g//w==
+</value>
+  </data>
+  <data name="psAUTO_MODE" xml:space="preserve">
+    <value>Auto Mode</value>
+  </data>
+  <data name="psBOOTH" xml:space="preserve">
+    <value>&amp;Booth</value>
+  </data>
+  <data name="psBOOTHMODE" xml:space="preserve">
+    <value>Booth Mode</value>
+  </data>
+  <data name="psCC" xml:space="preserve">
+    <value>cc</value>
+  </data>
+  <data name="psCNTS" xml:space="preserve">
+    <value>cnts</value>
+  </data>
+  <data name="psCOLOR_LBL" xml:space="preserve">
+    <value>Color:</value>
+  </data>
+  <data name="psCONV_SPEED" xml:space="preserve">
+    <value>Conveyor Speed</value>
+  </data>
+  <data name="psCONV_STAT" xml:space="preserve">
+    <value>Conveyor Status</value>
+  </data>
+  <data name="psCONVEYOR" xml:space="preserve">
+    <value>Conve&amp;yor</value>
+  </data>
+  <data name="psESTOP" xml:space="preserve">
+    <value>E-Stop</value>
+  </data>
+  <data name="psFT_S" xml:space="preserve">
+    <value>ft/s</value>
+  </data>
+  <data name="psGHOST" xml:space="preserve">
+    <value>&amp;Ghost</value>
+  </data>
+  <data name="psGHOST_DEV_OFF00" xml:space="preserve">
+    <value>Queue Not Empty</value>
+  </data>
+  <data name="psGHOST_DEV_OFF01" xml:space="preserve">
+    <value>Not In Auto Mode</value>
+  </data>
+  <data name="psGHOST_DEV_OFF02" xml:space="preserve">
+    <value>Robots Not Ready</value>
+  </data>
+  <data name="psGHOST_DEV_OFF03" xml:space="preserve">
+    <value>Jog Functions Enabled</value>
+  </data>
+  <data name="psGHOST_DEV_OFF04" xml:space="preserve">
+    <value>Zone Not Ready for Ghost</value>
+  </data>
+  <data name="psGHOST_DEV_ON00" xml:space="preserve">
+    <value>Queue Empty</value>
+  </data>
+  <data name="psGHOST_DEV_ON01" xml:space="preserve">
+    <value>Auto Mode</value>
+  </data>
+  <data name="psGHOST_DEV_ON02" xml:space="preserve">
+    <value>Robots Ready</value>
+  </data>
+  <data name="psGHOST_DEV_ON03" xml:space="preserve">
+    <value>Jog Functions Disabled</value>
+  </data>
+  <data name="psGHOST_DEV_ON04" xml:space="preserve">
+    <value>Zone Ready for Ghost</value>
+  </data>
+  <data name="psINTERLOCKCAP1" xml:space="preserve">
+    <value>Control Power On</value>
+  </data>
+  <data name="psINTERLOCKCAP2" xml:space="preserve">
+    <value>Fire Interlock</value>
+  </data>
+  <data name="psINTERLOCKCAP3" xml:space="preserve">
+    <value>Booth Air</value>
+  </data>
+  <data name="psINTERLOCKCAP4" xml:space="preserve">
+    <value>Paint Interlock</value>
+  </data>
+  <data name="psINTERLOCKCAP5" xml:space="preserve">
+    <value>Conveyor Hold</value>
+  </data>
+  <data name="psINTERLOCKCAP6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="psJOB_COUNT" xml:space="preserve">
+    <value>Job Count</value>
+  </data>
+  <data name="psMANUAL_MODE" xml:space="preserve">
+    <value>Manual Mode</value>
+  </data>
+  <data name="psMM_S" xml:space="preserve">
+    <value>mm/s</value>
+  </data>
+  <data name="psPOS_BYPASS" xml:space="preserve">
+    <value>At Bypass</value>
+  </data>
+  <data name="psPOS_CANC" xml:space="preserve">
+    <value>Wait Cancel</value>
+  </data>
+  <data name="psPOS_CANCCONT" xml:space="preserve">
+    <value>Cancel Continue</value>
+  </data>
+  <data name="psPOS_DOCK" xml:space="preserve">
+    <value>At Dock</value>
+  </data>
+  <data name="psPOS_FAULTED" xml:space="preserve">
+    <value>Faulted</value>
+  </data>
+  <data name="psPOS_HOME" xml:space="preserve">
+    <value>At Home</value>
+  </data>
+  <data name="psPOS_INCYC" xml:space="preserve">
+    <value>In Cycle</value>
+  </data>
+  <data name="psPOS_SP1" xml:space="preserve">
+    <value>At Special 1</value>
+  </data>
+  <data name="psPOS_SP2" xml:space="preserve">
+    <value>At Special 2</value>
+  </data>
+  <data name="psPROC_CAP01" xml:space="preserve">
+    <value>CID</value>
+    <comment>Carrier</comment>
+  </data>
+  <data name="psPROC_CAP02" xml:space="preserve">
+    <value>Job</value>
+  </data>
+  <data name="psPROC_CAP03" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="psPROC_CAP06" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="psPROC_CAP07" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="psPROC_CAP08" xml:space="preserve">
+    <value>Cycle Time</value>
+  </data>
+  <data name="psPROC_CAP09" xml:space="preserve">
+    <value>Preset #</value>
+  </data>
+  <data name="psPROC_CAP10" xml:space="preserve">
+    <value>Requested Flow(cc/min)</value>
+  </data>
+  <data name="psPROC_CAP11" xml:space="preserve">
+    <value>Total Flow(cc/min)</value>
+  </data>
+  <data name="psPROC_CAP13" xml:space="preserve">
+    <value>#2K#Hdr In/Out (psi)#WB#Torque(Amps)</value>
+  </data>
+  <data name="psPROC_CAP14" xml:space="preserve">
+    <value>Rqstd. Bell Speed (krpm)</value>
+  </data>
+  <data name="psPROC_CAP15" xml:space="preserve">
+    <value>Actual Bell Speed(krpm)</value>
+  </data>
+  <data name="psPROC_CAP16" xml:space="preserve">
+    <value>Requested Shaping Air (lpm)</value>
+    <comment>Was Requested Shaping Air(lpm)</comment>
+  </data>
+  <data name="psPROC_CAP17" xml:space="preserve">
+    <value>Actual Shaping Air (lpm)</value>
+    <comment>Was Shaping Air Manifold Pressure(psi)</comment>
+  </data>
+  <data name="psPROC_CAP20" xml:space="preserve">
+    <value>Estat Preset #</value>
+    <comment>Was Estat Preset #</comment>
+  </data>
+  <data name="psPROC_CAP21" xml:space="preserve">
+    <value>Estat Command (kv)</value>
+    <comment>Was Estat Command (kv)</comment>
+  </data>
+  <data name="psPROC_CAP22" xml:space="preserve">
+    <value>Actual kV</value>
+    <comment>Was Actual kV</comment>
+  </data>
+  <data name="psPROC_CAP23" xml:space="preserve">
+    <value>Actual µA</value>
+    <comment>Was Actual µA</comment>
+  </data>
+  <data name="psPROC_CAP24" xml:space="preserve">
+    <value>CC Cycle</value>
+    <comment>Was CC Cycle</comment>
+  </data>
+  <data name="psPROCESS" xml:space="preserve">
+    <value>P&amp;rocess</value>
+  </data>
+  <data name="psQUEUE" xml:space="preserve">
+    <value>&amp;Queue</value>
+  </data>
+  <data name="psROB_BOX_PROC_CAP" xml:space="preserve">
+    <value>View Robot Valves</value>
+  </data>
+  <data name="psSCREENCAPTION" xml:space="preserve">
+    <value>Booth Status Display</value>
+  </data>
+  <data name="psSTYLE_LBL" xml:space="preserve">
+    <value>Style:</value>
+  </data>
+  <data name="psTEACH_MODE" xml:space="preserve">
+    <value>Teach Mode</value>
+  </data>
+  <data name="psUNKNOWN" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="psUNKNOWN_MODE" xml:space="preserve">
+    <value>Unknown Mode</value>
+  </data>
+  <data name="psUTILITIES" xml:space="preserve">
+    <value>&amp;Utilities</value>
+  </data>
+  <data name="psVIN_LBL" xml:space="preserve">
+    <value>Vin:</value>
+  </data>
+  <data name="psPROC_CAP25" xml:space="preserve">
+    <value>CC Time</value>
+    <comment>Was CC Time</comment>
+  </data>
+  <data name="psCARRIER_LBL" xml:space="preserve">
+    <value>CID:</value>
+    <comment>Carrier:</comment>
+  </data>
+  <data name="psEMPTY" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="psNOPAINT" xml:space="preserve">
+    <value>No Paint</value>
+  </data>
+  <data name="psOPTION_LBL" xml:space="preserve">
+    <value>Option:</value>
+  </data>
+  <data name="psPAINT" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="psREPAIR_LBL" xml:space="preserve">
+    <value>Repair:</value>
+  </data>
+  <data name="psQUE_POS" xml:space="preserve">
+    <value>Queue Pos #</value>
+  </data>
+  <data name="psCOMM_ERROR" xml:space="preserve">
+    <value>Held by Communication Error</value>
+  </data>
+  <data name="psCONV_ENAB" xml:space="preserve">
+    <value>Conveyor Enable</value>
+  </data>
+  <data name="psCONV_RUNNING" xml:space="preserve">
+    <value>Conveyor Running</value>
+  </data>
+  <data name="psDEGRADE_MODE" xml:space="preserve">
+    <value>Degrade Mode</value>
+  </data>
+  <data name="psDETECT" xml:space="preserve">
+    <value>Part Detect</value>
+  </data>
+  <data name="psENTRANCE" xml:space="preserve">
+    <value>Entrance</value>
+  </data>
+  <data name="psESTAT_DISC" xml:space="preserve">
+    <value>E-stat Disc.</value>
+  </data>
+  <data name="psESTAT_NOT_IN_REMOTE" xml:space="preserve">
+    <value>Estats Not in Remote</value>
+  </data>
+  <data name="psEXIT" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="psFT_MIN" xml:space="preserve">
+    <value>Ft/Min</value>
+  </data>
+  <data name="psHELD_BY_SOC" xml:space="preserve">
+    <value>Held at System Operator Console</value>
+  </data>
+  <data name="psHELD_BY_BOOTH" xml:space="preserve">
+    <value>Held by Booth Interlock</value>
+  </data>
+  <data name="psHELD_BY_DOOR" xml:space="preserve">
+    <value>Held by Door Fault</value>
+  </data>
+  <data name="psHELD_BY_GHOST" xml:space="preserve">
+    <value>Held by Ghost Simulation</value>
+  </data>
+  <data name="psHELD_BY_INTR" xml:space="preserve">
+    <value>Held by Intrusion Fault</value>
+  </data>
+  <data name="psHELD_BY_JOG" xml:space="preserve">
+    <value>Jog Functions Enabled</value>
+  </data>
+  <data name="psHELD_BY_LIM_SW" xml:space="preserve">
+    <value>Held by Limit Switch Failure</value>
+  </data>
+  <data name="psHELD_BY_QEDIT" xml:space="preserve">
+    <value>Held by Queue Edit</value>
+  </data>
+  <data name="psINC_JOB_MAN" xml:space="preserve">
+    <value>Incoming Job in Manual</value>
+  </data>
+  <data name="psMUTE_SW_TT" xml:space="preserve">
+    <value>Intrusion Muting Switch #</value>
+  </data>
+  <data name="psROB_FAULTED" xml:space="preserve">
+    <value>Robot Faulted</value>
+  </data>
+  <data name="psWAIT_CAN_CON" xml:space="preserve">
+    <value>Wait for Cancel or Continue</value>
+  </data>
+  <data name="psWAIT_COL_CHG" xml:space="preserve">
+    <value>Wait for Color Change</value>
+  </data>
+  <data name="psWAIT_HOME" xml:space="preserve">
+    <value>Robot not at Home</value>
+  </data>
+  <data name="psLAMP_TEST" xml:space="preserve">
+    <value>Lamp Test</value>
+  </data>
+  <data name="psRESET_JOB_COUNT" xml:space="preserve">
+    <value>Reset Job Count</value>
+  </data>
+  <data name="psCONV" xml:space="preserve">
+    <value>Conveyor</value>
+  </data>
+  <data name="psESTAT" xml:space="preserve">
+    <value>E-stat</value>
+  </data>
+  <data name="psALL" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="psAPPLICATOR" xml:space="preserve">
+    <value>Applicator</value>
+  </data>
+  <data name="psBYPASS" xml:space="preserve">
+    <value>Bypass</value>
+  </data>
+  <data name="psCANCCONT" xml:space="preserve">
+    <value>Cancel/Continue</value>
+  </data>
+  <data name="psCANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="psCONTINUE" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="psCONVINTLK" xml:space="preserve">
+    <value>Conveyor Interlock</value>
+  </data>
+  <data name="psDISABLE" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="psENABLE" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="psJOG" xml:space="preserve">
+    <value>Axis Jog</value>
+  </data>
+  <data name="psMANFUNC" xml:space="preserve">
+    <value>Manual Functions</value>
+  </data>
+  <data name="psMOVETO" xml:space="preserve">
+    <value>Move To</value>
+  </data>
+  <data name="psPROC" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="psSUPERPURGE" xml:space="preserve">
+    <value>Superpurge</value>
+  </data>
+  <data name="psTRIGGER" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="psCLEANIN" xml:space="preserve">
+    <value>Clean In</value>
+  </data>
+  <data name="psCLEANOUT" xml:space="preserve">
+    <value>Clean Out </value>
+  </data>
+  <data name="psHOME" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="psMASTER_POS" xml:space="preserve">
+    <value>Master Position</value>
+  </data>
+  <data name="psPURGE" xml:space="preserve">
+    <value>Purge Position</value>
+  </data>
+  <data name="psSPECIAL" xml:space="preserve">
+    <value>Special Position </value>
+  </data>
+  <data name="psAXIS" xml:space="preserve">
+    <value>Axis</value>
+  </data>
+  <data name="psCOORD" xml:space="preserve">
+    <value>Coordinates</value>
+  </data>
+  <data name="psCOORD_WRAIL" xml:space="preserve">
+    <value>World Rail</value>
+  </data>
+  <data name="psCOORD_WX" xml:space="preserve">
+    <value>World X Axis</value>
+  </data>
+  <data name="psCOORD_WY" xml:space="preserve">
+    <value>World Y Axis</value>
+  </data>
+  <data name="psCOORD_WZ" xml:space="preserve">
+    <value>World Z Axis</value>
+  </data>
+  <data name="psJOINT" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="psWORLD" xml:space="preserve">
+    <value>World</value>
+  </data>
+  <data name="psAXISJOG" xml:space="preserve">
+    <value>Manual Jog Axis Selection</value>
+  </data>
+  <data name="psGHOST_STATUS" xml:space="preserve">
+    <value>Ghost Status</value>
+  </data>
+  <data name="psACCEPT" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="psCARRIER" xml:space="preserve">
+    <value>CID</value>
+    <comment>Carrier</comment>
+  </data>
+  <data name="psCONV_SIMULATED" xml:space="preserve">
+    <value>conveyor simulated.</value>
+  </data>
+  <data name="psCONV_SIM_SPEED" xml:space="preserve">
+    <value>Conveyor Sim Speed</value>
+  </data>
+  <data name="psEDIT_POS_QUEUE_POS" xml:space="preserve">
+    <value>Edit Pos-detect Queue Position </value>
+  </data>
+  <data name="psEDIT_PRE_QUEUE_POS" xml:space="preserve">
+    <value>Edit Pre-detect Queue Position </value>
+  </data>
+  <data name="psENTER_GHOST_JOB" xml:space="preserve">
+    <value>Enter Ghost Job</value>
+  </data>
+  <data name="psGHOST_JOB_INIT" xml:space="preserve">
+    <value>Ghost Job Started:</value>
+  </data>
+  <data name="psJOB_STATUS" xml:space="preserve">
+    <value>Job Status</value>
+  </data>
+  <data name="psOPTION" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="psREPAIR_PANEL" xml:space="preserve">
+    <value>Repair Panel # </value>
+  </data>
+  <data name="psREPAIR_PANELS" xml:space="preserve">
+    <value>Repair Panels</value>
+  </data>
+  <data name="psSIM_CONV" xml:space="preserve">
+    <value>Simulate Conveyor</value>
+  </data>
+  <data name="psSTYLE" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="psTUTONE" xml:space="preserve">
+    <value>Tutone</value>
+  </data>
+  <data name="psVIN" xml:space="preserve">
+    <value>Vin</value>
+  </data>
+  <data name="psPOS_CLNIN" xml:space="preserve">
+    <value>At Clean In</value>
+  </data>
+  <data name="psPOS_MASTER" xml:space="preserve">
+    <value>At Master Pos</value>
+  </data>
+  <data name="psPOS_PURGE" xml:space="preserve">
+    <value>At Purge Pos</value>
+  </data>
+  <data name="psBYPASS_SW_TT" xml:space="preserve">
+    <value>Bypass Prox</value>
+  </data>
+  <data name="psNOCARRIER" xml:space="preserve">
+    <value>No Carrier</value>
+  </data>
+  <data name="psHOLD_CONV_FOR_EDIT" xml:space="preserve">
+    <value>The conveyor mulst be held at the SOC for queue edit.</value>
+  </data>
+  <data name="psQUEUE_EDIT" xml:space="preserve">
+    <value>Queue Edit</value>
+  </data>
+  <data name="psPOSTDETECTQUEPOS" xml:space="preserve">
+    <value>Post-detect queue position </value>
+  </data>
+  <data name="psPREDETECTQUEPOS" xml:space="preserve">
+    <value>Pre-detect queue position </value>
+  </data>
+  <data name="psHELD_BY_OTHERS" xml:space="preserve">
+    <value>Held by others</value>
+  </data>
+  <data name="psHELD_BY_ROBOTS" xml:space="preserve">
+    <value>Held By Robot Faults</value>
+  </data>
+  <data name="psDetailView" xml:space="preserve">
+    <value>Detail View</value>
+  </data>
+  <data name="psGraphParm1" xml:space="preserve">
+    <value>Graph Paint</value>
+  </data>
+  <data name="psGraphParm2" xml:space="preserve">
+    <value>Graph Bell Speed</value>
+  </data>
+  <data name="psGraphParm3" xml:space="preserve">
+    <value>Graph Shaping Air Inner</value>
+  </data>
+  <data name="psGraphParm4" xml:space="preserve">
+    <value>Graph Estat</value>
+  </data>
+  <data name="psHELD_BY_FANUC" xml:space="preserve">
+    <value>Held by Fanuc</value>
+  </data>
+  <data name="psGraphTitle1" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="psGraphTitle2" xml:space="preserve">
+    <value>Bell Speed</value>
+  </data>
+  <data name="psGraphTitle3" xml:space="preserve">
+    <value>Shaping Air Inner</value>
+  </data>
+  <data name="psGraphTitle4" xml:space="preserve">
+    <value>Estat</value>
+  </data>
+  <data name="psSecPerDiv" xml:space="preserve">
+    <value>Sec/Division</value>
+  </data>
+  <data name="psSTART" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="psSTOP" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="psBYPASSED" xml:space="preserve">
+    <value>Bypassed</value>
+  </data>
+  <data name="psESTAT_STATUS_TT" xml:space="preserve">
+    <value>E-Stat Status</value>
+  </data>
+  <data name="psRC_ESTOP_LBL" xml:space="preserve">
+    <value>E-Stop</value>
+  </data>
+  <data name="psRC_ESTOP_TT" xml:space="preserve">
+    <value>SOP E-Stop PB Status</value>
+  </data>
+  <data name="psRC_PURGE_LBL" xml:space="preserve">
+    <value>Purge</value>
+  </data>
+  <data name="psRC_PURGE_TT" xml:space="preserve">
+    <value>Equipment Cavity Purge Status</value>
+  </data>
+  <data name="psRC_SERVO_LBL" xml:space="preserve">
+    <value>Servo</value>
+  </data>
+  <data name="psRC_SERVO_TT" xml:space="preserve">
+    <value>Servo Lockout Status</value>
+  </data>
+  <data name="psRC_TP_LBL" xml:space="preserve">
+    <value>TP</value>
+  </data>
+  <data name="psRC_TP_TT" xml:space="preserve">
+    <value>Teach Pendant E-Stop PB Status</value>
+  </data>
+  <data name="psCONV_INTLK_BYP_TT" xml:space="preserve">
+    <value>Conveyor Interlock Bypassed</value>
+  </data>
+  <data name="psREL_TP" xml:space="preserve">
+    <value>Release TP As Enabling Device</value>
+  </data>
+  <data name="psESTOP_1" xml:space="preserve">
+    <value>E-Stop #1</value>
+  </data>
+  <data name="psESTOP_2" xml:space="preserve">
+    <value>E-Stop #2</value>
+  </data>
+  <data name="psMAINT_LOCK_TT" xml:space="preserve">
+    <value>Maintenance Door #</value>
+  </data>
+  <data name="psBYPASS_CONV_INTLK" xml:space="preserve">
+    <value>This action will DISABLE conveyor interlocks for selected robot(s). Equipment damage could result if the arm is not out of the way. Are you sure you want to disable conveyor interlocks?</value>
+  </data>
+  <data name="psCONV_INTLK" xml:space="preserve">
+    <value>Conveyor Interlock Bypass</value>
+  </data>
+  <data name="psEASY_BUTTON" xml:space="preserve">
+    <value>Debug Data</value>
+  </data>
+  <data name="psEASY_BUTTON_MESSAGE" xml:space="preserve">
+    <value>Collect debug data from robot?</value>
+  </data>
+  <data name="psWAIT_DEBUG_DATA" xml:space="preserve">
+    <value>Waiting for robot to collect debug data.</value>
+  </data>
+  <data name="psJOB_DATA_ERR" xml:space="preserve">
+    <value>Invalid Job Data</value>
+  </data>
+  <data name="psGraphParm5" xml:space="preserve">
+    <value>Graph Shape Air Outer</value>
+  </data>
+  <data name="psGraphTitle5" xml:space="preserve">
+    <value>Shaping Air Outer</value>
+  </data>
+  <data name="psFORTRESS" xml:space="preserve">
+    <value>Maint. Door</value>
+  </data>
+  <data name="psISOLATE" xml:space="preserve">
+    <value>Isolate </value>
+  </data>
+  <data name="psISOLATED" xml:space="preserve">
+    <value>Isolated</value>
+  </data>
+  <data name="psISOLATE_CONFIRM" xml:space="preserve">
+    <value>Are you sure you want to enable Robot Isolation?</value>
+  </data>
+  <data name="psISOLATE_ROBOT" xml:space="preserve">
+    <value>Isolate Robot Arm</value>
+  </data>
+  <data name="psISOLATE_WARN" xml:space="preserve">
+    <value>Isolation will place the Robot Arm in Machine Lock in it's current position. This feature should only be used if the Robot Arm cannot be moved due to a failure.</value>
+  </data>
+  <data name="psSOC" xml:space="preserve">
+    <value>SOC</value>
+  </data>
+  <data name="psPOS_MAINT" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="psPROC_CAP04" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="psPROC_CAP05" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="psT1_MODE" xml:space="preserve">
+    <value>T1 Jog Mode</value>
+  </data>
+  <data name="psCOVER_CHANGE" xml:space="preserve">
+    <value>To Cover Change (Special2) All</value>
+  </data>
+  <data name="psIGNORE_OPENER_INPUT" xml:space="preserve">
+    <value>Ignore Opener Input</value>
+  </data>
+  <data name="psCOLOR" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="psGHOST_DEV_OFF05" xml:space="preserve">
+    <value>Booth Not Ready For Ghost</value>
+  </data>
+  <data name="psGHOST_DEV_OFF06" xml:space="preserve">
+    <value>Conveyor Not Held at SOC</value>
+  </data>
+  <data name="psGHOST_DEV_ON05" xml:space="preserve">
+    <value>Booth Ready For Ghost</value>
+  </data>
+  <data name="psGHOST_DEV_ON06" xml:space="preserve">
+    <value>Conveyor Held at SOC</value>
+  </data>
+  <data name="psMAINT" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="psMAINT_MODE" xml:space="preserve">
+    <value>Maintenance Mode</value>
+  </data>
+  <data name="psMAINT_TO_HOME" xml:space="preserve">
+    <value>Maintenance To Home</value>
+  </data>
+  <data name="psREPAIR" xml:space="preserve">
+    <value>Repair</value>
+  </data>
+  <data name="psNO" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="psRETRY" xml:space="preserve">
+    <value>&amp;Retry</value>
+  </data>
+  <data name="psVIEWONLY" xml:space="preserve">
+    <value>&amp;View Only</value>
+  </data>
+  <data name="psYES" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="psDATA_ERR_OUT" xml:space="preserve">
+    <value>Communication Error With Next Zone</value>
+  </data>
+  <data name="psDATA_TRANS_ERR" xml:space="preserve">
+    <value>Data Transfer Error</value>
+  </data>
+  <data name="psMAINT_ROB_MOVE" xml:space="preserve">
+    <value>Robot motion in Maintenance Mode</value>
+  </data>
+  <data name="psROB_NOT_PROD" xml:space="preserve">
+    <value>Robot Not In Production</value>
+  </data>
+  <data name="psPROC_CAP18" xml:space="preserve">
+    <value>Requested Shaping Air 2 (lpm)</value>
+  </data>
+  <data name="psPROC_CAP19" xml:space="preserve">
+    <value>Actual Shaping Air 2 (lpm)</value>
+  </data>
+  <data name="psALL_ARMS" xml:space="preserve">
+    <value>All Arms</value>
+  </data>
+  <data name="psALL_OPENERS" xml:space="preserve">
+    <value>All Openers</value>
+  </data>
+  <data name="psALL_PAINTERS" xml:space="preserve">
+    <value>All Painters</value>
+  </data>
+  <data name="psLC_TITLE" xml:space="preserve">
+    <value>Life Cycles</value>
+  </data>
+  <data name="psLC_RESET_ALL" xml:space="preserve">
+    <value>Reset All</value>
+  </data>
+  <data name="psLC_RESET_SINGLE" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="psLC_SAVE_ALL" xml:space="preserve">
+    <value>Save All</value>
+  </data>
+  <data name="psLC_ACT_CYC_CAP" xml:space="preserve">
+    <value>Actual Cycles</value>
+  </data>
+  <data name="psLC_ACT_HR_CAP" xml:space="preserve">
+    <value>Actual Hours</value>
+  </data>
+  <data name="psLC_ACT_LTR_CAP" xml:space="preserve">
+    <value>Actual Liters</value>
+  </data>
+  <data name="psLC_CCV_GRP_CAP" xml:space="preserve">
+    <value>CC Valve</value>
+  </data>
+  <data name="psLC_COLOR_VALVE" xml:space="preserve">
+    <value>Color valve </value>
+  </data>
+  <data name="psLC_COLV_GRP_CAP" xml:space="preserve">
+    <value>Color Valve</value>
+  </data>
+  <data name="psLC_EST_GRP_CAP" xml:space="preserve">
+    <value>Estat</value>
+  </data>
+  <data name="psLC_FLT_CAP" xml:space="preserve">
+    <value>Fault</value>
+  </data>
+  <data name="psLC_GROUP_VALVE" xml:space="preserve">
+    <value>Group valve </value>
+  </data>
+  <data name="psLC_PUMP1_CAP" xml:space="preserve">
+    <value>Pump 1</value>
+  </data>
+  <data name="psLC_PUMP2_CAP" xml:space="preserve">
+    <value>Pump 2</value>
+  </data>
+  <data name="psLC_PUMP_GRP_CAP" xml:space="preserve">
+    <value>Pumps</value>
+  </data>
+  <data name="psLC_REG_GRP_CAP" xml:space="preserve">
+    <value>Regulators</value>
+  </data>
+  <data name="psLC_SHARED_VALVE" xml:space="preserve">
+    <value>Shared valve </value>
+  </data>
+  <data name="psLC_TOL_CAP" xml:space="preserve">
+    <value>Tolerance</value>
+  </data>
+  <data name="psLC_VAL_ABOVE_MAX" xml:space="preserve">
+    <value>value above maximum.</value>
+  </data>
+  <data name="psLC_VAL_BELOW_MIN" xml:space="preserve">
+    <value>value below minimum.</value>
+  </data>
+  <data name="psUNASSIGNED" xml:space="preserve">
+    <value>Unassigned</value>
+  </data>
+  <data name="psPROC_CAP12" xml:space="preserve">
+    <value>#IPC#Outlet Pressure(psi)#2K#Res In/Out (psi)#WB#Can (cc)</value>
+  </data>
+  <data name="psINC_JOB" xml:space="preserve">
+    <value>Held for incoming Job</value>
+  </data>
+  <data name="psPLC_RESET_WARN" xml:space="preserve">
+    <value>Reset values in PLC?</value>
+  </data>
+  <data name="psCONV_REV_RUN" xml:space="preserve">
+    <value>Conveyor Running In Reverse</value>
+  </data>
+  <data name="psCONV_REV_SEL" xml:space="preserve">
+    <value>Conveyor Reverse Selected</value>
+  </data>
+  <data name="psINT_BROKE" xml:space="preserve">
+    <value>Beam Broke: </value>
+  </data>
+  <data name="psINT_MADE" xml:space="preserve">
+    <value>Beam Made: </value>
+  </data>
+  <data name="psLBL_ENT_INT" xml:space="preserve">
+    <value>Entrance Intrusion</value>
+  </data>
+  <data name="psLBL_EXIT_INT" xml:space="preserve">
+    <value>Exit Intrusion</value>
+  </data>
+  <data name="psMUTE_COUNT" xml:space="preserve">
+    <value>Counts: </value>
+  </data>
+  <data name="psMUTING_OFF" xml:space="preserve">
+    <value>Muting : Off</value>
+  </data>
+  <data name="psMUTING_ON" xml:space="preserve">
+    <value>Muting : On</value>
+  </data>
+  <data name="psWATER_HEATER_1" xml:space="preserve">
+    <value>Water Heater 1</value>
+  </data>
+  <data name="psWH_ENABLE" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="psWH_LEVEL" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="psWH_START" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="psWH_TEMP" xml:space="preserve">
+    <value>Temp OK</value>
+  </data>
+  <data name="psMNU_OFF" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="psMNU_ON" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="psWATER_HEATER_2" xml:space="preserve">
+    <value>Water Heater 2</value>
+  </data>
+  <data name="psWATER_HEATER_3" xml:space="preserve">
+    <value>Water Heater 3</value>
+  </data>
+  <data name="psWATER_HEATER_4" xml:space="preserve">
+    <value>Water Heater 4</value>
+  </data>
+  <data name="psCAN_NOT_FIND_DEBUG_DATA_ON" xml:space="preserve">
+    <value>Can not find debug data on {0}</value>
+  </data>
+  <data name="psCOPYING_DEBUG_DATA_FROM" xml:space="preserve">
+    <value>Copying debug data from {0}.</value>
+  </data>
+  <data name="psCOPYING_EASYDBGZIP_TO" xml:space="preserve">
+    <value>Copying MD:EASYDBG.ZIP to {0}.</value>
+  </data>
+  <data name="psCOPYING_X_TO" xml:space="preserve">
+    <value>Copying {0} to {1}.</value>
+  </data>
+  <data name="psEASYDBGFOLDER_FOUND" xml:space="preserve">
+    <value>Easy debug found in {0} on {1}.</value>
+  </data>
+  <data name="psEASYDBGZIP_FOUND" xml:space="preserve">
+    <value>MD:EASYDBG.ZIP found on {0}.</value>
+  </data>
+  <data name="psEASY_DEBUG_COMP_CAP" xml:space="preserve">
+    <value>Easy Debug Ready</value>
+  </data>
+  <data name="psEASY_DEBUG_COMP_LBL" xml:space="preserve">
+    <value>Easy debug saved to controller in FR7:\log{0}.  It is also collected in MD:EASYDBG.ZIP.
+Debug data can be copied now or it can be copied from the file copy uitility later.</value>
+  </data>
+  <data name="psEXIT_BTN" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="psFAILED_TO_COPY" xml:space="preserve">
+    <value>Failed to copy {0}.
+</value>
+  </data>
+  <data name="psFAILED_TO_COPY_DEBUG_DATA" xml:space="preserve">
+    <value>Failed to copy debug data.
+</value>
+  </data>
+  <data name="psGET_DATA" xml:space="preserve">
+    <value>Get Data</value>
+  </data>
+  <data name="psNO_EASYDBG_FOUND" xml:space="preserve">
+    <value>No easy debug data found on {0}.</value>
+  </data>
+  <data name="psSELECT_FOLDER" xml:space="preserve">
+    <value>Select a folder.</value>
+  </data>
+  <data name="psZIPMASK" xml:space="preserve">
+    <value>ZIP Archive Files (*.ZIP) | *.zip</value>
+  </data>
+  <data name="psZIP_EXT" xml:space="preserve">
+    <value>ZIP</value>
+  </data>
+  <data name="psLC_HDR_VALVE" xml:space="preserve">
+    <value>Hardener </value>
+  </data>
+  <data name="psESTAT_MOTION_DISC" xml:space="preserve">
+    <value>E-stat/ Motion</value>
+  </data>
+  <data name="psPROC_CAP26" xml:space="preserve">
+    <value>CC Status</value>
+  </data>
+  <data name="psSA_ERROR" xml:space="preserve">
+    <value>Robot Communication Error.  Shut down and restart this screen to recover.</value>
+  </data>
+  <data name="psPAINTMIXBOX" xml:space="preserve">
+    <value>Paint Mix - Status and Requests</value>
+  </data>
+  <data name="psREQ_ENT" xml:space="preserve">
+    <value>Req. To Enter</value>
+  </data>
+  <data name="psCONV_HELD_MIS" xml:space="preserve">
+    <value>Conveyor Held At MIS</value>
+  </data>
+  <data name="psEMPTYCARRIER" xml:space="preserve">
+    <value>Empty Carrier</value>
+  </data>
+  <data name="psJOBS_TOO_CLOSE" xml:space="preserve">
+    <value>Held for Jobs Too Close</value>
+  </data>
+  <data name="psCONV_HELD_BY_ESTOP" xml:space="preserve">
+    <value>Conveyor Held By E-Stop</value>
+  </data>
+  <data name="psPROC_AIR" xml:space="preserve">
+    <value>Process Air</value>
+  </data>
+  <data name="psAPPL_STATUS_1" xml:space="preserve">
+    <value>IPC Pressure Monitor</value>
+  </data>
+  <data name="psAPPL_STATUS_2" xml:space="preserve">
+    <value>IPC Inlet Regulator</value>
+  </data>
+  <data name="psAPPL_STATUS_3" xml:space="preserve">
+    <value>Shaping Air 1 Closed Loop</value>
+  </data>
+  <data name="psAPPL_STATUS_4" xml:space="preserve">
+    <value>Shaping Air 2 Closed Loop</value>
+  </data>
+  <data name="psAPPL_STATUS_TT" xml:space="preserve">
+    <value>Applicator Status. Right Click for details.</value>
+  </data>
+  <data name="psESTOP_3" xml:space="preserve">
+    <value>E-Stop #3</value>
+  </data>
+  <data name="psESTOP_4" xml:space="preserve">
+    <value>E-Stop #4</value>
+  </data>
+  <data name="psESTOP_FS_Ent" xml:space="preserve">
+    <value>Farside Entrance E-Stop</value>
+  </data>
+  <data name="psESTOP_FS_Exit" xml:space="preserve">
+    <value>Farside Exit E-Stop</value>
+  </data>
+  <data name="psCLEARPATH" xml:space="preserve">
+    <value>Clear Path</value>
+  </data>
+  <data name="psPROC_CAP27" xml:space="preserve">
+    <value>#2K#Pot Life Timer</value>
+  </data>
+  <data name="psESTOP_NS_Ent" xml:space="preserve">
+    <value>Nearside Entrance E-Stop</value>
+  </data>
+  <data name="psESTOP_NS_Exit" xml:space="preserve">
+    <value>Nearside Exit E-Stop</value>
+  </data>
+  <data name="psZDT_BUTTON_OK" xml:space="preserve">
+    <value>ZDT Tests OK</value>
+  </data>
+  <data name="psZDT_BUTTON_WARNING" xml:space="preserve">
+    <value>ZDT Test  Required</value>
+  </data>
+  <data name="psZDT_J1_COL_CAP" xml:space="preserve">
+    <value>J1 Test Status</value>
+  </data>
+  <data name="psZDT_TEST_STATUS" xml:space="preserve">
+    <value>ZDT Test Status</value>
+  </data>
+  <data name="psZDT_ARM_ALERT" xml:space="preserve">
+    <value>Send ZDT Results To Fanuc</value>
+  </data>
+  <data name="psOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="psOVC_RESET_DELAY" xml:space="preserve">
+    <value>OVC Reset Delay {0}</value>
+  </data>
+  <data name="psZDT_ARM_OK" xml:space="preserve">
+    <value>Test Result OK</value>
+  </data>
+  <data name="psZDT_ARM_WARNING" xml:space="preserve">
+    <value>Test Required</value>
+  </data>
+  <data name="psZDT_BUTTON_ALERT" xml:space="preserve">
+    <value>Send ZDT Results To Fanuc</value>
+  </data>
+  <data name="psNA" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="psRESET_STATUS" xml:space="preserve">
+    <value>Reset Status</value>
+  </data>
+  <data name="psUPDATE_COMPLETE" xml:space="preserve">
+    <value>Update Complete</value>
+  </data>
+  <data name="psUPDATE_LOG" xml:space="preserve">
+    <value>Update Log</value>
+  </data>
+  <data name="psUPDATING_LOG" xml:space="preserve">
+    <value>Updating Log</value>
+  </data>
+  <data name="psSAVE_ZDT_TT" xml:space="preserve">
+    <value>Save ZDT logs to a ZIP file.</value>
+  </data>
+  <data name="psUPDATE_LOG_TT" xml:space="preserve">
+    <value>Update the log files from the robot.</value>
+  </data>
+  <data name="psUPDATE_ZDT_DATA_CAP" xml:space="preserve">
+    <value>Update ZDT Data</value>
+  </data>
+  <data name="psUPDATE_ZDT_DATA_TEXT" xml:space="preserve">
+    <value>Update ZDT log data from robot before saving?</value>
+  </data>
+  <data name="psINIT_SA" xml:space="preserve">
+    <value>Initializing Scattered Access</value>
+  </data>
+  <data name="psINIT_SA_COMP" xml:space="preserve">
+    <value>Scattered Access Init Complete</value>
+  </data>
+  <data name="psINIT_ZDT" xml:space="preserve">
+    <value>Initializing ZDT</value>
+  </data>
+  <data name="psINIT_ZDT_COMP" xml:space="preserve">
+    <value>ZDT Init Complete</value>
+  </data>
+  <data name="psZDT" xml:space="preserve">
+    <value>ZDT</value>
+  </data>
+  <data name="psZDT_DEV_OFF00" xml:space="preserve">
+    <value>Queue Not Empty</value>
+  </data>
+  <data name="psZDT_DEV_OFF01" xml:space="preserve">
+    <value>Not In Auto Mode</value>
+  </data>
+  <data name="psZDT_DEV_OFF02" xml:space="preserve">
+    <value />
+  </data>
+  <data name="psZDT_DEV_OFF03" xml:space="preserve">
+    <value>Jog Functions Enabled</value>
+  </data>
+  <data name="psZDT_DEV_OFF04" xml:space="preserve">
+    <value />
+  </data>
+  <data name="psZDT_DEV_OFF05" xml:space="preserve">
+    <value>Robots Not Ready</value>
+  </data>
+  <data name="psZDT_DEV_OFF06" xml:space="preserve">
+    <value>Zone Not Ready</value>
+  </data>
+  <data name="psZDT_DEV_ON00" xml:space="preserve">
+    <value>Queue Empty</value>
+  </data>
+  <data name="psZDT_DEV_ON01" xml:space="preserve">
+    <value>Auto Mode</value>
+  </data>
+  <data name="psZDT_DEV_ON02" xml:space="preserve">
+    <value />
+  </data>
+  <data name="psZDT_DEV_ON03" xml:space="preserve">
+    <value>Jog Functions Disabled</value>
+  </data>
+  <data name="psZDT_DEV_ON04" xml:space="preserve">
+    <value />
+  </data>
+  <data name="psZDT_DEV_ON05" xml:space="preserve">
+    <value>Robots Ready</value>
+  </data>
+  <data name="psZDT_DEV_ON06" xml:space="preserve">
+    <value>Zone Ready for ZDT</value>
+  </data>
+  <data name="psARCHIVE_TEST_DATA" xml:space="preserve">
+    <value>Archive old test data and clear it from the current test data folder?
+NOTE: Please clear data only after maintenance is performed on the drive.</value>
+  </data>
+  <data name="psARCHIVE_TEST_DATA_CAP" xml:space="preserve">
+    <value>Archive Test Data</value>
+  </data>
+  <data name="psRESET_DATA" xml:space="preserve">
+    <value>Reset Data</value>
+  </data>
+  <data name="psCONV_HELD_BY_MUTING_IN_COVER_CHANGE" xml:space="preserve">
+    <value>Held by Muting During Cover Change</value>
+  </data>
+</root>

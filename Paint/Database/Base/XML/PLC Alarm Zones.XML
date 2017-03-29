@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PLCAlarmZones>
+  <PLCAlarmZone>
+    <ID>1</ID>
+    <ZoneName>Prime</ZoneName>
+    <StatusTag>Z1_Status</StatusTag>
+    <AckTag>Z1_Ack</AckTag>
+  </PLCAlarmZone>
+  <PLCAlarmZone>
+    <ID>2</ID>
+    <ZoneName>Base</ZoneName>
+    <StatusTag>Z2_Status</StatusTag>
+    <AckTag>Z2_Ack</AckTag>
+  </PLCAlarmZone>
+</PLCAlarmZones>

@@ -1,0 +1,187 @@
+<HTML><HEAD><link rel="Stylesheet" href="Support/main.css" type="text/css"><title>Image Backup Procedure</title></HEAD> 
+<BODY> 
+<A name='TOP'></A>  
+<TABLE CLASS='FILE-HEADER' CELLPADDING='4' CELLSPACING='0' BORDER='5' > 
+  <TBODY>  
+  <TR>  
+    <TD VALIGN='TOP' WIDTH='100'> 
+       <A href="http://www.fanucrobotics.com"><img src="Support/frnalogo.gif" border=0 width="150" height="57"></A></TD> 
+                <td>
+                    <p class='title-in-file-header'>
+                        PaintTool Documentation</p>
+                    <p class='title-in-file-header'>
+                        R-30iA PaintTool V7.xx</p>
+                    <p class='part-num-in-file-header'>
+                        2-Nov-2011</p>
+                </td>
+  </TR> 
+  </TBODY>  
+</TABLE>
+
+<FONT FACE="Arial">
+<p align="center"><A href="#top">Top</a> | <a href="SLP.pdf">Software Load Procedure.</a> | 
+<a href="ImgIntroR30iA.htm">Image Backup Overview</a> | <a href="ImgBkupR30iA.htm">Image Backup Procedure</a> | 
+<a href="ImgRstrR30iA.htm">Image Restore Procedure</a> | <a href="SetupR30iA.htm">IO Setup and Variable Restore.</a> |<a href="Index.htm">Index</a></p></FONT>
+
+<p align="center"><b>Making an Image Backup</b></p>
+<FONT FACE="Arial"><P>This procedure will save an image backup to a memory card or the PAINTworks computer.  It will use 67MB.  Once the backup is made, It can be used to load software on any robot with the same configuration, but it is easiest to use an image from the robot you are loading.<br />
+        Image backup can be started from the <A href="#FileMenu">teach pendant file menu</a>, or from the <A href="#BootMon">boot monitor menu.</A></P>
+
+<A name='FileMenu'><p align="center"><b>A. Start An Image Backup from the File Menu</b></p></A>
+
+<P>1)Enable the teach pendant.&nbsp; If you are making a memory card backup, put the 
+    memory card in it&#39;s slot in the R-30iA CPU.</P>
+
+<P>2)Press MENU, then select 7 FILE. to get to the file menu.</P>
+<P><TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE>FILE
+   MC:\*.*
+     1 *      *   (All Files)
+...
+[TYPE] [DIR] LOAD [BACKUP] [UTIL]</PRE>
+</TD></TR></TABLE>
+3)Press F4 [BACKUP] and select Image Backup.</P>
+   
+<P><TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE>Destination Device
+&nbsp;&nbsp;1. Memory Card(MC:)
+&nbsp;&nbsp;2. Ethernet(TFTP:)</PRE>
+</TD></TR></TABLE>
+        4)Select
+        <br />
+&nbsp;&nbsp;&nbsp; 1 Memory Card(MC:) to back up to a memory card in the controller CPU.<br />
+&nbsp;&nbsp;&nbsp; 2 Ethernet(TFTP:) for a backup directly to the PAINTworks computer over the network.</P>
+
+<P><TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0">
+<PRE>Remove existing IMG files ?
+                       YES    NO</PRE>
+                </TD></TR></TABLE>
+5)If you see this prompt, Press F4 (YES) to confirm</P>
+        
+
+<P><TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0">
+<PRE>Cycle Power?
+                        OK    Cancel</PRE>
+                </TD></TR></TABLE>
+6)Press F4 (OK) to confirm.&nbsp; The controller will shut down to start the backup.</P>
+        
+<p><TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE>
+****Auto image backup start ****
+
+Checking *.IMG files on MC:\
+
+ **** BACKUP Controller Images ****
+Writing MC:\FROM...</PRE>
+</TD></TR></TABLE>
+The Controller will reboot when it finished making the backup.</p>
+<P><TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE>FILE
+   MC:\*.*
+     1 *      *   (All Files)
+...
+Image backup completed successfully.
+                  OK
+</PRE>
+</TD></TR></TABLE>
+7)Press F4 OK to continue using the robot.</P>
+
+<A name='BootMon'><p align="center"><b>B. Start An Image Backup from the Boot Monitor Menu</p></A>
+<P>1)With the power off, press and hold the F1 and F5 keys on the teach pendant. While holding these keys, press the ON button. Wait  about ten seconds, or until you see the BMON Menu (below) on the teach pendant before releasing the buttons.</P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE>
+***BOOT MONITOR ***se Version V7.50P/10 [Release 2]
+Initializing file devices...done.
+1. Configuration menu
+2. All software installation
+3. INIT start
+4. Controller backup/restore
+5. Hardware diagnosis
+6. Maintenance
+7. All software installation(Ethernet)
+8. All software installation(USB)
+
+Select : _ </PRE></TD>
+</TR></TABLE>
+<P>2) Select: </FONT><FONT FACE="Courier New">4. Controller backup/restore </FONT><FONT FACE="Arial">to see the backup/restore menu:</FONT></P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE>
+***BOOT MONITOR ***
+Base Version V7.50P/10 [Release 2]
+**** BACKUP/RESTORE MENU  *****
+0.   Return to Main Menu
+1.   Emergency Backup
+2.   Backup Controller As Images
+3.   Restore Controller Images
+4.   Bootstrap To Cfg Menu
+
+Select : _ </PRE></TD></TR></TABLE>
+<P><FONT FACE="Arial">3) Select: </FONT><FONT FACE="Courier New">2. Backup Controller As Images </FONT><FONT FACE="Arial">:</FONT></P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+***BOOT MONITOR***
+**** Device selection menu  *****
+1. Memory Card(MC:)
+2. Ethernet(TFTP:)
+
+Select : _ </PRE></FONT></TD></TR></TABLE>
+
+<P><FONT FACE="Arial">For backup to PAINTworks computer over ethernet, skip to <A href="#Enet">D. Ethernet Backup</A>.</FONT></P>
+<A name='MemCard'><p align="center"><b>C. Memory Card Backup</b></p></A>
+<P><FONT FACE="Arial">1) For backup to memory card select: </FONT><FONT FACE="Courier New">1. Memory Card(MC:) </FONT><FONT FACE="Arial">to start the backup:</FONT></P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+***BOOT MONITOR***
+**** BACKUP Controller as Images  *****
+     Module size to backup:
+     FROM: 64 mb  SRAM: 3 mb
+
+     Please Insert MC: which has at least
+     1Mb free space.
+     Are you ready?[Y=1/N=else]:
+
+
+</PRE></FONT></TD></TR></TABLE>
+<P><FONT FACE="Arial">2) Place the memory card in the slot on the controller. Press 1, ENTER to continue.<br>
+The teach pendant will display status messages while it writes to the card</FONT><br>
+<FONT FACE="Courier New">Writing MC:\FROM00.IMG (1/35)</FONT><br>
+<FONT FACE="Arial">If the card does not have enough free space, it will ask for another.</P>
+<P>When it is finished it will say it is done.  Press ENTER to continue. Turn the controller off then on to return to production.</P></FONT>
+
+<A name='Enet'><P align="center"><B>D. Ethernet Backup</B></A>
+<P><FONT FACE="Arial">1) To start backup over ethernet to PAINTworks computer select: </FONT><FONT FACE="Courier New">2. Ethernet(TFTP:) </FONT><FONT FACE="Arial">:</FONT></P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+***BOOT MONITOR***
+**** BACKUP Controller as Images  *****
+     Module size to backup:
+     FROM: 64 mb  SRAM: 3 mb
+
+   Disk spave required on remote host is
+     67Mb free space.
+     Are you ready?[Y=1/N=else]:
+
+
+</PRE></FONT></TD></TR></TABLE>
+
+<P><FONT FACE="Arial">2) Press 1, ENTER to continue.<br>
+The teach pendant will display status messages while it writes to the computer:</FONT><br>
+<FONT FACE="Courier New">Writing MC:\FROM00.IMG (1/35)</FONT><br>
+
+<P>When it is finished it will say it is done.  Press ENTER to continue. Turn the controller off then on to return to production.</P></FONT>
+
+<FONT FACE="Arial">
+<p align="center"><A href="#top">Top</a> | <a href="SLP.pdf">Software Load Procedure.</a> | <a href="ImgIntroR30iA.htm">Image Backup Overview</a> | <a href="ImgBkupR30iA.htm">Image Backup Procedure</a> | 
+<a href="ImgRstrR30iA.htm">Image Restore Procedure</a> | <a href="SetupR30iA.htm">IO Setup and Variable Restore.</a> |<a href="Index.htm">Index</a></p></FONT>
+
+<HR CLASS='EOF-MARKER'> 
+<P class='footer-copyright'><A href="http://www.fanucrobotics.com">Copyright &copy; 1999 by FANUC Robotics North America, Inc.</a></P> 
+</ol>
+</BODY></HTML>

@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<MaskedAlarms xmlns="http://tempuri.org/MaskedAlarms.xsd">
+  <Alarm>
+    <FacilityName>PLCZ</FacilityName>
+    <AlarmNumber>000</AlarmNumber>
+  </Alarm>
+</MaskedAlarms>

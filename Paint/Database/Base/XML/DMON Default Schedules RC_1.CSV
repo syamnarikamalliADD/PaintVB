@@ -1,0 +1,15 @@
+﻿DMONSchedMan - Schedules
+DAP - DAP_CCEXTL1,
+Device: RC_1,DMON Schedules
+Schedule,Comment,File Device,File Name,File Index,File Size,Number of Items,Sample Req.-Act.,Monitor Req.-Act.,Record Req.-Act.,Record Mode,Start Item,Stop Item,Items
+1,IPC Eq1:,RD:,IPC,1,0KB,10,20:20,20:20,20:20,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,9; 10; 11; 12; 13; 4; 1; 2; 3; 5
+2,Bell Speed Eq1:,RD:,BELL,1,0KB,9,20:20,20:20,20:20,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,17; 18; 19; 20; 4; 1; 2; 3; 5
+3,SA Eq1:,RD:,SA,1,0KB,9,20:0,20:0,20:0,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,25; 26; 27; 1; 2; 5; 28; 29; 30
+4,Estat Eq1:,RD:,ESTAT,1,0KB,10,20:0,20:0,20:0,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,33; 34; 35; 36; 37; 38; 1; 2; 3; 5
+5,CCIPC Eq1:,RD:,CCIPC,1,0KB,8,20:0,20:0,20:0,Continuous,Disabled,Disabled,48; 49; 50; 9; 10; 11; 4; 3
+6,IPC Eq2:,RD:,IPC2,1,0KB,10,20:0,20:0,20:0,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,51; 52; 53; 54; 55; 8; 6; 7; 3; 5
+7,Bell Speed Eq2:,RD:,BELL2,1,0KB,9,20:20,20:20,20:20,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,59; 60; 61; 62; 8; 6; 7; 3; 5
+8,SA Eq2:,RD:,SA2,1,0KB,9,20:0,20:0,20:0,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,67; 68; 69; 6; 7; 5; 70; 71; 72
+9,Estat Eq2:,RD:,ESTAT,1,0KB,10,20:0,20:0,20:0,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,72; 73; 74; 75; 76; 77; 6; 7; 3; 5
+10,CCIPC Eq2:,RD:,CCIPC2,1,0KB,8,20:0,20:0,20:0,Continuous,Disabled,Disabled,90; 91; 92; 51; 52; 53; 8; 3
+

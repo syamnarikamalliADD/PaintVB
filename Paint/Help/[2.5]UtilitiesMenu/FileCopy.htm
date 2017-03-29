@@ -1,0 +1,265 @@
+﻿<html>
+<head>
+<title>PAINTworks Online Help - Utilities Menu - FileCopy</title>
+    <object id="HHCTRL" type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+    </object>
+    <script type="text/javascript"
+        src="../common/help.js">
+        document.write("Included Jscript file not found, some help may not be available.");
+    </script>
+<script type="text/javascript">                                                            
+    function ShowSource(){
+        screenshot.src='Images/Utility_FileCopy_tabSource.jpg'
+        screenshot.useMap='#FPMap0'
+    }
+    function ShowFileSelect(){
+        screenshot.src='Images/Utility_FileCopy_tabFiles.jpg'
+        screenshot.useMap='#FPMap1'
+    }
+    function ShowDest(){
+        screenshot.src='Images/Utility_FileCopy_tabDest.jpg'
+        screenshot.useMap='#FPMap2'
+    }
+    function ShowDoCopy(){
+        screenshot.src='Images/Utility_FileCopy_tabDoCopy.jpg'
+        screenshot.useMap='#FPMap3'
+    }
+</script>
+
+</head>
+
+
+<body background="../common/indtextb.jpg" >
+ <h2>Utilities Menu</h2>
+    <h1>File Copy</h1>
+    <p>This screen is used to backup and restore robot files.   The tabs allow configuration of the backup.</p>
+    <ul>
+    <li><strong>Source</strong> - Select the source of the files.  Select robot controllers to do a backup.  Select the backup files to 
+    restore those files to the controller.  If the controller is your source, you can also select the file device to read from.  MDB: is the 
+    standard memory device with all the teach pendant and variable files.  MD: has all the files from MDB: plus translations into text files.  
+    Additional choices are only for users familiar with the robot controllers.  The drop-down list provides several default folders for backups and 
+    you may also choose to browse to any folder or zip file to select the source files.</li>
+    <li><strong>Select Files</strong> - Select the files to copy.  If "All Files" are selected on the source tab, this will not be used.</li>
+    <li><strong>Destination</strong> - Select the destination for the files.  Select robot controllers to restore files.  Select a folder or 
+    zip file to perform a backup.</li>
+    <li><strong>Do Copy</strong> - This tab displays a summary of the operation.  Press the "Do Copy" buttont to start.</li>
+    </ul>    
+    <h3>Delete Function</h3>
+    <p>Use this button to delete files from any of the source locations.</p>
+    <h3>Utilities Button</h3>
+    <p>Several default choices are available from the utilities button.  The drop down menu from the utilities button offer several default 
+    backup choices.  These functions set all the settings requireed for the backup and select the "Do Copy" tab.</p>
+    <ul>
+    <li><strong>Backup All to Temp Backups</strong> - Select all the default backup files on the robots for the source.  Select "Temporary Backups" as the destination.</li>
+    <li><strong>Backup All to Temp Backups With Text Files</strong> - Select all the files on the robots for the source.  Select "Temporary Backups" as the destination.</li>
+    <li><strong>Backup All to Master Backups</strong> - Select all the default backup files on the robots for the source.  Select "Master Backups" as the destination.</li>
+    <li><strong>Backup All to Master Backups With Text Files</strong> - Select all the files on the robots for the source.  Select "Master Backups" as the destination.</li>
+    <li><strong>Get Easy Debug</strong> - Get the zipped easy debug files from the robot.  Select "Temporary Backups" as the destination.</li>
+    <li><strong>Backup Text Files</strong> - Select the text file translations of variable and teach pendant files on the robots for the source.  Select "Temporary Backups" as the destination.</li>
+    <li><strong>View/Compare</strong> - Open the compare window without selecting a file first.  </li>
+    </ul>
+    <p>
+        <strong>Note: </strong>Changes to this screen can only be made by a user 
+        with sufficient access level.</p>
+    <p>
+        Click the area where you want help.</p>
+
+<map id="FPMap0" name="FPMap0">
+<area href="../[1.0]PAINTworksMainMenu/UtilitiesMenu.htm" shape="rect" 
+        coords="2, 17, 40, 65" alt = "Closes current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="40, 16, 119, 65"  alt = "Show change log summary for current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(StatusButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="119, 16, 177, 65" alt = "Show status box."/>
+<area href="JavaScript:HHCTRL.TextPopup(FCDeleteButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="177, 18, 247, 67" alt = "Show next document."/>
+<area href="JavaScript:HHCTRL.TextPopup(FCUtilityButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="247, 18, 300, 67" alt = "Show previous document."/>
+
+<area shape="rect" coords="7, 93, 126, 110"  
+        href="JavaScript:HHCTRL.TextPopup(CboZone,popfont,9,9,-1,-1)" 
+        alt="Select a zone." />
+<area href="JavaScript:HHCTRL.TextPopup(StatusBox,popfont,9,9,-1,-1)" shape="rect" 
+        coords="133, 68, 1020, 158" alt = "Show list window."/>
+
+
+<area onclick="ShowSource()" shape="rect" 
+        coords="5, 161, 46, 185" alt = "Choose the Source tab."/>
+<area onclick="ShowFileSelect()" shape="rect" 
+        coords="46, 161, 76, 185" alt = "Choose the Files tab."/>
+<area onclick="ShowDest()" shape="rect" 
+        coords="77, 161, 131, 185" alt = "Choose the Destination tab."/>
+<area onclick="ShowDoCopy()" shape="rect" 
+        coords="131, 161, 176, 185" alt = "Choose the Do Copy tab."/>
+
+<area onclick="ShowFileSelect()" shape="rect" 
+        coords="310, 642, 392, 665" alt="Next tab."/>
+
+
+<area href="JavaScript:HHCTRL.TextPopup(FCSourceType,popfont,9,9,-1,-1)" shape="rect" 
+        coords="14, 192, 230, 226" alt = "Select Source Type."/>
+<area href="JavaScript:HHCTRL.TextPopup(FCAllSelect,popfont,9,9,-1,-1)" shape="rect" 
+        coords="245, 184, 389, 223" alt = "Select all or individual files."/>
+<area href="JavaScript:HHCTRL.TextPopup(FCRobotDevice,popfont,9,9,-1,-1)" shape="rect" 
+        coords="391, 185, 555, 207" alt = "Robot file types."/>
+
+        
+<area href="JavaScript:HHCTRL.TextPopup(FCSourceRobot,popfont,9,9,-1,-1)" shape="rect" 
+        coords="15, 228, 231, 675"alt = "Select Devices."/>
+<area href="JavaScript:HHCTRL.TextPopup(FCFileMask,popfont,9,9,-1,-1)" shape="rect" 
+        coords="232, 229, 393, 356" alt = "File Mask."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar, popfont,9,9,-1,-1 )" shape="rect" 
+        coords="4, 676, 714, 702" alt = ""/>
+<area href="JavaScript:HHCTRL.TextPopup(RobotsOnline,popfont,9,9,-1,-1)" shape="rect" 
+        coords="715, 676, 1023, 702">
+</map>
+
+
+
+
+<map id="FPMap1" name="FPMap1">
+<area href="../[1.0]PAINTworksMainMenu/UtilitiesMenu.htm" shape="rect" 
+        coords="2, 17, 40, 65" alt = "Closes current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="40, 16, 119, 65"  alt = "Show change log summary for current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(StatusButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="119, 16, 177, 65" alt = "Show status box."/>
+<area href="JavaScript:HHCTRL.TextPopup(FCDeleteButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="177, 18, 247, 67" alt = "Show next document."/>
+<area href="JavaScript:HHCTRL.TextPopup(FCUtilityButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="247, 18, 300, 67" alt = "Show previous document."/>
+
+<area shape="rect" coords="7, 93, 126, 110"  
+        href="JavaScript:HHCTRL.TextPopup(CboZone,popfont,9,9,-1,-1)" 
+        alt="Select a zone." />
+<area href="JavaScript:HHCTRL.TextPopup(StatusBox,popfont,9,9,-1,-1)" shape="rect" 
+        coords="133, 68, 1020, 158" alt = "Show list window."/>
+
+
+<area onclick="ShowSource()" shape="rect" 
+        coords="5, 161, 46, 185" alt = "Choose the Source tab."/>
+<area onclick="ShowFileSelect()" shape="rect" 
+        coords="46, 161, 76, 185" alt = "Choose the Files tab."/>
+<area onclick="ShowDest()" shape="rect" 
+        coords="77, 161, 131, 185" alt = "Choose the Destination tab."/>
+<area onclick="ShowDoCopy()" shape="rect" 
+        coords="131, 161, 176, 185" alt = "Choose the Do Copy tab."/>
+
+<area onclick="ShowSource()" shape="rect" 
+        coords="230, 646, 306, 669" alt="Previous tab."/>
+<area onclick="ShowDest()" shape="rect" 
+        coords="310, 646, 389, 669" alt="Next tab."/>
+
+
+<area href="JavaScript:HHCTRL.TextPopup(FCclbSelectFiles,popfont,9,9,-1,-1)" shape="rect" 
+        coords="15, 207, 1016, 633"alt = "List of documents."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar, popfont,9,9,-1,-1 )" shape="rect" 
+        coords="4, 676, 714, 702" alt = ""/>
+<area href="JavaScript:HHCTRL.TextPopup(RobotsOnline,popfont,9,9,-1,-1)" shape="rect" 
+        coords="715, 676, 1023, 702">
+
+</map>
+<map id="FPMap2" name="FPMap2">
+<area href="../[1.0]PAINTworksMainMenu/UtilitiesMenu.htm" shape="rect" 
+        coords="2, 17, 40, 65" alt = "Closes current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="40, 16, 119, 65"  alt = "Show change log summary for current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(StatusButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="119, 16, 177, 65" alt = "Show status box."/>
+<area href="JavaScript:HHCTRL.TextPopup(FCDeleteButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="177, 18, 247, 67" alt = "Show next document."/>
+<area href="JavaScript:HHCTRL.TextPopup(FCUtilityButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="247, 18, 300, 67" alt = "Show previous document."/>
+
+<area shape="rect" coords="7, 93, 126, 110"  
+        href="JavaScript:HHCTRL.TextPopup(CboZone,popfont,9,9,-1,-1)" 
+        alt="Select a zone." />
+<area href="JavaScript:HHCTRL.TextPopup(StatusBox,popfont,9,9,-1,-1)" shape="rect" 
+        coords="133, 68, 1020, 158" alt = "Show list window."/>
+
+
+<area onclick="ShowSource()" shape="rect" 
+        coords="5, 161, 46, 185" alt = "Choose the Source tab."/>
+<area onclick="ShowFileSelect()" shape="rect" 
+        coords="46, 161, 76, 185" alt = "Choose the Files tab."/>
+<area onclick="ShowDest()" shape="rect" 
+        coords="77, 161, 131, 185" alt = "Choose the Destination tab."/>
+<area onclick="ShowDoCopy()" shape="rect" 
+        coords="131, 161, 176, 185" alt = "Choose the Do Copy tab."/>
+
+<area onclick="ShowFileSelect()" shape="rect" 
+        coords="230, 646, 306, 669" alt="Previous tab."/>
+<area onclick="ShowDoCopy()" shape="rect" 
+        coords="310, 646, 389, 669" alt="Next tab."/>
+
+
+<area href="JavaScript:HHCTRL.TextPopup(FCDestType,popfont,9,9,-1,-1)" shape="rect" 
+        coords="14, 192, 230, 226" alt = "Select Source Type."/>
+<area href="JavaScript:HHCTRL.TextPopup(FCDestRobot,popfont,9,9,-1,-1)" shape="rect" 
+        coords="15, 228, 231, 675"alt = "Select Devices."/>
+
+
+
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar, popfont,9,9,-1,-1 )" shape="rect" 
+        coords="4, 676, 714, 702" alt = ""/>
+<area href="JavaScript:HHCTRL.TextPopup(RobotsOnline,popfont,9,9,-1,-1)" shape="rect" 
+        coords="715, 676, 1023, 702">
+
+</map>
+
+
+
+<map id="FPMap3" name="FPMap3">
+<area href="../[1.0]PAINTworksMainMenu/UtilitiesMenu.htm" shape="rect" 
+        coords="2, 17, 40, 65" alt = "Closes current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="40, 16, 119, 65"  alt = "Show change log summary for current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(StatusButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="119, 16, 177, 65" alt = "Show status box."/>
+<area href="JavaScript:HHCTRL.TextPopup(FCDeleteButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="177, 18, 247, 67" alt = "Show next document."/>
+<area href="JavaScript:HHCTRL.TextPopup(FCUtilityButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="247, 18, 300, 67" alt = "Show previous document."/>
+
+<area shape="rect" coords="7, 93, 126, 110"  
+        href="JavaScript:HHCTRL.TextPopup(CboZone,popfont,9,9,-1,-1)" 
+        alt="Select a zone." />
+<area href="JavaScript:HHCTRL.TextPopup(StatusBox,popfont,9,9,-1,-1)" shape="rect" 
+        coords="133, 68, 1020, 158" alt = "Show list window."/>
+
+
+<area onclick="ShowSource()" shape="rect" 
+        coords="5, 161, 46, 185" alt = "Choose the Source tab."/>
+<area onclick="ShowFileSelect()" shape="rect" 
+        coords="46, 161, 76, 185" alt = "Choose the Files tab."/>
+<area onclick="ShowDest()" shape="rect" 
+        coords="77, 161, 131, 185" alt = "Choose the Destination tab."/>
+<area onclick="ShowDoCopy()" shape="rect" 
+        coords="131, 161, 176, 185" alt = "Choose the Do Copy tab."/>
+
+<area onclick="ShowDest()" shape="rect" 
+        coords="230, 646, 306, 669" alt="Previous tab."/>
+        
+        
+<area href="JavaScript:HHCTRL.TextPopup(FCDoCopy,popfont,9,9,-1,-1)" shape="rect" 
+        coords="310, 646, 389, 669" alt="Next tab."/>
+
+
+<area href="JavaScript:HHCTRL.TextPopup(FCclbCopySummary,popfont,9,9,-1,-1)" shape="rect" 
+        coords="15, 207, 1016, 633"alt = "List of documents."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar, popfont,9,9,-1,-1 )" shape="rect" 
+        coords="4, 676, 714, 702" alt = ""/>
+<area href="JavaScript:HHCTRL.TextPopup(RobotsOnline,popfont,9,9,-1,-1)" shape="rect" 
+        coords="715, 676, 1023, 702">
+
+</map>
+
+<img name="screenshot" src="images/Utility_FileCopy_tabSource.jpg" usemap="#FPMap0" width="1024" 
+        height="703" alt=""/>
+</body>
+
+</html>

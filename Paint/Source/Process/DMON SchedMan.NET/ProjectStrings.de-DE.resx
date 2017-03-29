@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="psARCHIVE" xml:space="preserve">
+    <value>Archive Zips</value>
+  </data>
+  <data name="psCONTROLLER_NAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="psDAYS_TO_KEEP" xml:space="preserve">
+    <value>Days To Keep</value>
+  </data>
+  <data name="psDMONFiles" xml:space="preserve">
+    <value>DMON Files</value>
+  </data>
+  <data name="psDMON_AUTO_SAMPLE" xml:space="preserve">
+    <value>DMON Auto Sample</value>
+  </data>
+  <data name="psDMON_PLC_ENABLE" xml:space="preserve">
+    <value>DMON PLC Enable</value>
+  </data>
+  <data name="psDMON_SCHEDULE" xml:space="preserve">
+    <value>DMON Selected Schedule</value>
+  </data>
+  <data name="psDMON_SCHEDULE_COMMENT" xml:space="preserve">
+    <value>DMON Schedule {0}  Comment</value>
+  </data>
+  <data name="psENABLE" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="psSCHEDULE" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="psSCREENCAPTION" xml:space="preserve">
+    <value>DMONSchedMan</value>
+  </data>
+  <data name="psDMON_SCHEDULE_FILE_NAME" xml:space="preserve">
+    <value>DMON Schedule {0}  File Name</value>
+  </data>
+  <data name="psDMON_ITEM_AXIS" xml:space="preserve">
+    <value>DMON Item {0} Axis</value>
+  </data>
+  <data name="psDMON_ITEM_DESC" xml:space="preserve">
+    <value>DMON Item {0} Description</value>
+  </data>
+  <data name="psDMON_ITEM_GROUP" xml:space="preserve">
+    <value>DMON Item {0} Group</value>
+  </data>
+  <data name="psDMON_ITEM_INTERCEPT" xml:space="preserve">
+    <value>DMON Item {0} Intercept</value>
+  </data>
+  <data name="psDMON_ITEM_IO_TYPE" xml:space="preserve">
+    <value>DMON Item {0} IO Type</value>
+  </data>
+  <data name="psDMON_ITEM_PORT_NUM" xml:space="preserve">
+    <value>DMON Item {0} Port Number</value>
+  </data>
+  <data name="psDMON_ITEM_PRG_NAME" xml:space="preserve">
+    <value>DMON Item {0} Program Name</value>
+  </data>
+  <data name="psDMON_ITEM_SLOPE" xml:space="preserve">
+    <value>DMON Item {0} Slope</value>
+  </data>
+  <data name="psDMON_ITEM_SQUARE" xml:space="preserve">
+    <value>DMON Item {0} Square</value>
+  </data>
+  <data name="psDMON_ITEM_TYPE" xml:space="preserve">
+    <value>DMON Item {0} Type</value>
+  </data>
+  <data name="psDMON_ITEM_UNITS" xml:space="preserve">
+    <value>DMON Item {0} Units</value>
+  </data>
+  <data name="psDMON_ITEM_VAR_NAME" xml:space="preserve">
+    <value>DMON Item {0} Variable Name</value>
+  </data>
+  <data name="psDMON_SCHEDULE_DEVICE" xml:space="preserve">
+    <value>DMON Schedule {0}  Device</value>
+  </data>
+  <data name="psDMON_SCHEDULE_ITEM" xml:space="preserve">
+    <value>DMON Schedule {0}  Item {1}</value>
+  </data>
+  <data name="psDMON_SCHEDULE_NUM_ITEMS" xml:space="preserve">
+    <value>DMON Schedule {0}  Number of Items</value>
+  </data>
+  <data name="psDMON_SCHEDULE_START_COND" xml:space="preserve">
+    <value>DMON Schedule {0}  Start Condition</value>
+  </data>
+  <data name="psDMON_SCHEDULE_START_ENBL" xml:space="preserve">
+    <value>DMON Schedule {0}  Start Enable</value>
+  </data>
+  <data name="psDMON_SCHEDULE_START_ITEM" xml:space="preserve">
+    <value>DMON Schedule {0}  Start Item</value>
+  </data>
+  <data name="psDMON_SCHEDULE_START_VALUE" xml:space="preserve">
+    <value>DMON Schedule {0}  Start Value</value>
+  </data>
+  <data name="psDMON_SCHEDULE_STOP_COND" xml:space="preserve">
+    <value>DMON Schedule {0}  Stop Condition</value>
+  </data>
+  <data name="psDMON_SCHEDULE_STOP_ENBL" xml:space="preserve">
+    <value>DMON Schedule {0}  Stop Enable</value>
+  </data>
+  <data name="psDMON_SCHEDULE_STOP_ITEM" xml:space="preserve">
+    <value>DMON Schedule {0}  Stop Item</value>
+  </data>
+  <data name="psDMON_SCHEDULE_STOP_VALUE" xml:space="preserve">
+    <value>DMON Schedule {0}  Stop Value</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DMON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>DMON.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psITEM" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="psITEMS" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="psSCHEDULES" xml:space="preserve">
+    <value>Schedules</value>
+  </data>
+  <data name="psSYSTEM" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="psACT" xml:space="preserve">
+    <value>Act.</value>
+  </data>
+  <data name="psCOMMENT" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="psDMON_SCHEDULE_FILE_INDEX" xml:space="preserve">
+    <value>DMON Schedule {0}  FIle Index</value>
+  </data>
+  <data name="psDMON_SCHEDULE_FILE_SIZE" xml:space="preserve">
+    <value>DMON Schedule {0}  File Size (KB)</value>
+  </data>
+  <data name="psDMON_SCHEDULE_MNTR_REQ" xml:space="preserve">
+    <value>DMON Schedule {0}  Monitor Frequency Request</value>
+  </data>
+  <data name="psDMON_SCHEDULE_REC_MODE" xml:space="preserve">
+    <value>DMON Schedule {0}  Record Mode</value>
+  </data>
+  <data name="psDMON_SCHEDULE_REC_REQ" xml:space="preserve">
+    <value>DMON Schedule {0}  Record Frequency Request</value>
+  </data>
+  <data name="psDMON_SCHEDULE_SAMP_REQ" xml:space="preserve">
+    <value>DMON Schedule {0}  Sample Frequency Request</value>
+  </data>
+  <data name="psFILEDEVICE" xml:space="preserve">
+    <value>File Device</value>
+  </data>
+  <data name="psFILEDEVICE1" xml:space="preserve">
+    <value>FLPY:</value>
+  </data>
+  <data name="psFILEDEVICE2" xml:space="preserve">
+    <value>PRN:</value>
+  </data>
+  <data name="psFILEDEVICE3" xml:space="preserve">
+    <value>FR:</value>
+  </data>
+  <data name="psFILEDEVICE4" xml:space="preserve">
+    <value>MC:</value>
+  </data>
+  <data name="psFILEDEVICE5" xml:space="preserve">
+    <value>CONS:</value>
+  </data>
+  <data name="psFILEDEVICE6" xml:space="preserve">
+    <value>RD:</value>
+  </data>
+  <data name="psFILEINDEX" xml:space="preserve">
+    <value>File Index</value>
+  </data>
+  <data name="psFILENAME" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="psFILESIZE" xml:space="preserve">
+    <value>File Size</value>
+  </data>
+  <data name="psFREQUENCY" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="psITEM_X" xml:space="preserve">
+    <value>Item {0}</value>
+  </data>
+  <data name="psKB" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="psMONITOR" xml:space="preserve">
+    <value>Monitor</value>
+  </data>
+  <data name="psNUMITEMS" xml:space="preserve">
+    <value>Number of Items</value>
+  </data>
+  <data name="psRECORD" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="psRECORDMODE" xml:space="preserve">
+    <value>Record Mode</value>
+  </data>
+  <data name="psRECORDMODE1" xml:space="preserve">
+    <value>One Buffer</value>
+  </data>
+  <data name="psRECORDMODE2" xml:space="preserve">
+    <value>Continuous</value>
+  </data>
+  <data name="psREQ" xml:space="preserve">
+    <value>Req.</value>
+  </data>
+  <data name="psSAMPLE" xml:space="preserve">
+    <value>Sample</value>
+  </data>
+  <data name="psSTARTITEM" xml:space="preserve">
+    <value>Start Item</value>
+  </data>
+  <data name="psSTARTSTOPCOND1" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="psSTARTSTOPCOND2" xml:space="preserve">
+    <value>&lt;&gt;</value>
+  </data>
+  <data name="psSTARTSTOPCOND3" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="psSTARTSTOPCOND4" xml:space="preserve">
+    <value>&lt;=</value>
+  </data>
+  <data name="psSTARTSTOPCOND5" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="psSTARTSTOPCOND6" xml:space="preserve">
+    <value>&gt;=</value>
+  </data>
+  <data name="psSTOPITEM" xml:space="preserve">
+    <value>Stop Item</value>
+  </data>
+  <data name="psA" xml:space="preserve">
+    <value>A:</value>
+  </data>
+  <data name="psAI" xml:space="preserve">
+    <value>AI</value>
+  </data>
+  <data name="psAO" xml:space="preserve">
+    <value>AO</value>
+  </data>
+  <data name="psAXIS" xml:space="preserve">
+    <value>Axis</value>
+  </data>
+  <data name="psDESC" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="psDI" xml:space="preserve">
+    <value>DI</value>
+  </data>
+  <data name="psDO" xml:space="preserve">
+    <value>DO</value>
+  </data>
+  <data name="psG" xml:space="preserve">
+    <value>G:</value>
+  </data>
+  <data name="psGI" xml:space="preserve">
+    <value>GI</value>
+  </data>
+  <data name="psGO" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="psINTEGER" xml:space="preserve">
+    <value>Integer</value>
+  </data>
+  <data name="psINTERCEPT" xml:space="preserve">
+    <value>Intercept</value>
+  </data>
+  <data name="psIO" xml:space="preserve">
+    <value>IO</value>
+  </data>
+  <data name="psIOTYPE" xml:space="preserve">
+    <value>IO Type</value>
+  </data>
+  <data name="psPORTNUM" xml:space="preserve">
+    <value>Port or Register Number</value>
+  </data>
+  <data name="psPRGNAME" xml:space="preserve">
+    <value>Program Name</value>
+  </data>
+  <data name="psREAL" xml:space="preserve">
+    <value>Real</value>
+  </data>
+  <data name="psREGISTER" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="psRI" xml:space="preserve">
+    <value>RI</value>
+  </data>
+  <data name="psRO" xml:space="preserve">
+    <value>RO</value>
+  </data>
+  <data name="psSLOPE" xml:space="preserve">
+    <value>Slope</value>
+  </data>
+  <data name="psTYPE" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="psUNITS" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="psVARNAME" xml:space="preserve">
+    <value>Variable Name</value>
+  </data>
+  <data name="psWI" xml:space="preserve">
+    <value>WI</value>
+  </data>
+  <data name="psWO" xml:space="preserve">
+    <value>WO</value>
+  </data>
+  <data name="psDISABLED" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="psPRINTALL" xml:space="preserve">
+    <value>Print All</value>
+  </data>
+  <data name="psDSBLAUTOWARN" xml:space="preserve">
+    <value>Disable auto sample to edit schedules or items.</value>
+  </data>
+  <data name="psJOBORCC" xml:space="preserve">
+    <value>Job or CC</value>
+  </data>
+  <data name="psDMON" xml:space="preserve">
+    <value>DMON </value>
+  </data>
+  <data name="psIMPORT_PROMPT1" xml:space="preserve">
+    <value>There are {0} {1}s available for import.</value>
+  </data>
+  <data name="psIMPORT_PROMPT2" xml:space="preserve">
+    <value>Select "All" or an individual {0} for import</value>
+  </data>
+  <data name="psIMPORT_PROMPT3" xml:space="preserve">
+    <value>Import to {0}</value>
+  </data>
+  <data name="psUNKNOWN" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="psVALID_IMPORT_DATA_NOT_FOUND_CAP" xml:space="preserve">
+    <value>Import Data Not Found.</value>
+  </data>
+  <data name="psVALID_IMPORT_DATA_NOT_FOUND_TEXT" xml:space="preserve">
+    <value>The selected file does not contain valid data for import</value>
+  </data>
+  <data name="psIMPORT_FAIL_CAP" xml:space="preserve">
+    <value>Import Error</value>
+  </data>
+  <data name="psIMPORT_FAIL_TEXT" xml:space="preserve">
+    <value>Import data error = "{0}" on column = "{1}".  Value = "{2}"</value>
+  </data>
+  <data name="FormIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DMONSchedMan.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psVALIDATE" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="psVAL_AXIS_AXIS_ERR" xml:space="preserve">
+    <value>Axis {0} is not valid.  Group {1}  has {2} axes.</value>
+  </data>
+  <data name="psVAL_AXIS_AXIS_ERR1" xml:space="preserve">
+    <value>Axis {0} is not valid.  Group {1}  has 1 axis.</value>
+  </data>
+  <data name="psVAL_AXIS_GROUP_ERR" xml:space="preserve">
+    <value>Group {0} is not valid.  This controller has {1} motion groups.</value>
+  </data>
+  <data name="psVAL_AXIS_GROUP_ERR1" xml:space="preserve">
+    <value>Group {0} is not valid.  This controller has 1 motion group.</value>
+  </data>
+  <data name="psVAL_AXIS_VAL_ERR" xml:space="preserve">
+    <value>Axis validation error: </value>
+  </data>
+  <data name="psVAL_CAP" xml:space="preserve">
+    <value>Item Validation</value>
+  </data>
+  <data name="psVAL_ERR1" xml:space="preserve">
+    <value>Item Validation Error: </value>
+  </data>
+  <data name="psVAL_ERR2" xml:space="preserve">
+    <value>Variable Validation Error: </value>
+  </data>
+  <data name="psVAL_IO_POINT_NOT_FOUND" xml:space="preserve">
+    <value>{0}[{1}] not found.</value>
+  </data>
+  <data name="psVAL_IO_TYPE_NOT_FOUND" xml:space="preserve">
+    <value>I/O type not found.</value>
+  </data>
+  <data name="psVAL_IO_TYPE_VAL_ERR" xml:space="preserve">
+    <value>I/O type validation error: </value>
+  </data>
+  <data name="psVAL_OK" xml:space="preserve">
+    <value>Validation successful.</value>
+  </data>
+  <data name="psVAL_PRG_NOT_FOUND" xml:space="preserve">
+    <value>Karel Variable "{0}" not found.</value>
+  </data>
+  <data name="psVAL_PRG_VAR_NOT_FOUND" xml:space="preserve">
+    <value>Karel Variable "[{0}]{1}" not found.</value>
+  </data>
+  <data name="psVAL_PRG_VAR_STRUCTURE" xml:space="preserve">
+    <value>Karel Variable "[{0}]{1}" is an array or a structure, not an individual variable.  </value>
+  </data>
+  <data name="psVAL_REG_ERR" xml:space="preserve">
+    <value>Register validation error.</value>
+  </data>
+  <data name="psVAL_REG_NOT_FOUND" xml:space="preserve">
+    <value>Register {0} not found.</value>
+  </data>
+  <data name="psVAL_SYS_VAR_NOT_FOUND" xml:space="preserve">
+    <value>System Variable "{0}" not found.</value>
+  </data>
+  <data name="psVAL_SYS_VAR_STRUCTURE" xml:space="preserve">
+    <value>System Variable "{0}"  is an array or a structure, not an individual variable.</value>
+  </data>
+  <data name="psVAL_VAR_TYPE_MISMATCH" xml:space="preserve">
+    <value>Variable type mismatch.  Type on controller is {0}.</value>
+  </data>
+  <data name="psBROWSE" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="psBROWSE_AXIS_ERR" xml:space="preserve">
+    <value>Error accessing axis configuration.</value>
+  </data>
+  <data name="psBROWSE_CAP" xml:space="preserve">
+    <value>Browse for item configuration.</value>
+  </data>
+  <data name="psBROWSE_REG_ERR" xml:space="preserve">
+    <value>Error accessing register configuration.</value>
+  </data>
+  <data name="psDMON_DEFAULTS_FILE" xml:space="preserve">
+    <value>DMON Default {0} {1}.CSV</value>
+  </data>
+  <data name="psSAVE_DEFAULT_CAP" xml:space="preserve">
+    <value>Save Default {0} for {1}</value>
+  </data>
+  <data name="psDEFAULT_NOT_FOUND" xml:space="preserve">
+    <value>Default {0} for {1} not found.  Browse for file?</value>
+  </data>
+  <data name="psDEFAULT_NOT_FOUND_CAP" xml:space="preserve">
+    <value>Default Not Found.</value>
+  </data>
+  <data name="psRESTORE_DEFAULT_MNU" xml:space="preserve">
+    <value>Restore Defaults</value>
+  </data>
+  <data name="psSAVE_DEFAULT" xml:space="preserve">
+    <value>Save current data as default {0} for {1} to {2}?</value>
+  </data>
+  <data name="psSAVE_DEFAULT_MNU" xml:space="preserve">
+    <value>Save Defaults</value>
+  </data>
+  <data name="psSAVE_DEFAULT_OW" xml:space="preserve">
+    <value>{0} already exists.  Overwrite with new default {1} for {2}?</value>
+  </data>
+  <data name="psAI_CMT" xml:space="preserve">
+    <value>AI[{0}:{1}]</value>
+  </data>
+  <data name="psAO_CMT" xml:space="preserve">
+    <value>AO[{0}:{1}]</value>
+  </data>
+  <data name="psDI_CMT" xml:space="preserve">
+    <value>DI[{0}:{1}]</value>
+  </data>
+  <data name="psDO_CMT" xml:space="preserve">
+    <value>DO[{0}:{1}]</value>
+  </data>
+  <data name="psFIND" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="psGI_CMT" xml:space="preserve">
+    <value>GI[{0}:{1}]</value>
+  </data>
+  <data name="psGO_CMT" xml:space="preserve">
+    <value>GO[{0}:{1}]</value>
+  </data>
+  <data name="psREG_CMT" xml:space="preserve">
+    <value>R[{0}:{1}]</value>
+  </data>
+  <data name="psRI_CMT" xml:space="preserve">
+    <value>RI[{0}:{1}]</value>
+  </data>
+  <data name="psRO_CMT" xml:space="preserve">
+    <value>RO[{0}:{1}]</value>
+  </data>
+  <data name="psVAL_IMCOMP" xml:space="preserve">
+    <value>Item setup incomplete</value>
+  </data>
+  <data name="psWO_CMT" xml:space="preserve">
+    <value>WO[{0}:{1}]</value>
+  </data>
+  <data name="pWI_CMT" xml:space="preserve">
+    <value>WI[{0}:{1}]</value>
+  </data>
+  <data name="psAXIS_TAB" xml:space="preserve">
+    <value>Axis</value>
+  </data>
+  <data name="psINC_SEL" xml:space="preserve">
+    <value>Incomplete selection.  Try again or cancel.</value>
+  </data>
+  <data name="psINC_SEL_CAP" xml:space="preserve">
+    <value>Incomplete Selection.</value>
+  </data>
+  <data name="psIO_TAB" xml:space="preserve">
+    <value>I/O</value>
+  </data>
+  <data name="psREG_TAB" xml:space="preserve">
+    <value>Registers</value>
+  </data>
+  <data name="psVAR_TAB" xml:space="preserve">
+    <value>Variables</value>
+  </data>
+  <data name="psPROG_SEL" xml:space="preserve">
+    <value>Program selected.  Continue selection</value>
+  </data>
+  <data name="psVARS_SEL" xml:space="preserve">
+    <value>Structure or Array selected.  Continue selection</value>
+  </data>
+  <data name="psVAR_TYPE_SEL_NOK" xml:space="preserve">
+    <value>{0} variable selected.  Not valid for DMON.</value>
+  </data>
+  <data name="psVAR_TYPE_SEL_OK" xml:space="preserve">
+    <value>{0} variable selected.  Valid for DMON.</value>
+  </data>
+  <data name="psINV_VAR_SEL" xml:space="preserve">
+    <value>Invalid variable selection.  Continue selection.</value>
+  </data>
+  <data name="psINV_VAR_SEL_CAP" xml:space="preserve">
+    <value>Invalid Variable Selection.</value>
+  </data>
+</root>

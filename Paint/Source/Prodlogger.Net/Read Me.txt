@@ -1,0 +1,3 @@
+This prodlogger uses a configurable routine to add data to the DB.
+The configuration is handled by ProdData.XML
+the SQL server needs to have SQLAddProductionRecordFlex.sql in the production log database.

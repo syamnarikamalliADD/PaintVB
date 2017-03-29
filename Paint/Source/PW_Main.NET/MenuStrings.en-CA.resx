@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ALL_MNU_CANCEL_CAP" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ALL_MNU_CANCEL_TT" xml:space="preserve">
+    <value>Close this menu</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="C_INTRUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ConfigMenu\C_INTRUS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_JOB_CFG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ConfigMenu\C_JOB_CFG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_PW_CFG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ConfigMenu\C_PW_CFG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_ROBCFG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ConfigMenu\C_ROBCFG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_SYSCOL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ConfigMenu\C_SYSCOL.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CFG_BTN01_CAP" xml:space="preserve">
+    <value>Click now to show the Job Setup screen</value>
+  </data>
+  <data name="CFG_BTN01_DESC" xml:space="preserve">
+    <value>Job Setup</value>
+  </data>
+  <data name="CFG_BTN01_TT" xml:space="preserve">
+    <value>Configure Styles, Options, etc.</value>
+  </data>
+  <data name="CFG_BTN02_CAP" xml:space="preserve">
+    <value>Click now to show the System Colours screen</value>
+  </data>
+  <data name="CFG_BTN02_DESC" xml:space="preserve">
+    <value>System Colours</value>
+  </data>
+  <data name="CFG_BTN02_TT" xml:space="preserve">
+    <value>Configure System Colours</value>
+  </data>
+  <data name="CFG_BTN03_CAP" xml:space="preserve">
+    <value>Click now to show the PAINTworks Setup screen</value>
+  </data>
+  <data name="CFG_BTN03_DESC" xml:space="preserve">
+    <value>PAINTworks Setup</value>
+  </data>
+  <data name="CFG_BTN03_TT" xml:space="preserve">
+    <value>Configure PAINTworks</value>
+  </data>
+  <data name="CFG_BTN04_CAP" xml:space="preserve">
+    <value>Click now to show the Robot Setup screen</value>
+  </data>
+  <data name="CFG_BTN04_DESC" xml:space="preserve">
+    <value>Robot Setup</value>
+  </data>
+  <data name="CFG_BTN04_TT" xml:space="preserve">
+    <value>Configure Robot Parameters</value>
+  </data>
+  <data name="CFG_BTN05_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned5&gt; screen</value>
+  </data>
+  <data name="CFG_BTN05_DESC" xml:space="preserve">
+    <value>&lt;unassigned5&gt;</value>
+  </data>
+  <data name="CFG_BTN05_TT" xml:space="preserve">
+    <value>Configure &lt;unassigned5&gt;</value>
+  </data>
+  <data name="CFG_BTN06_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned6&gt; screen</value>
+  </data>
+  <data name="CFG_BTN06_DESC" xml:space="preserve">
+    <value>&lt;unassigned6&gt;</value>
+  </data>
+  <data name="CFG_BTN06_TT" xml:space="preserve">
+    <value>Configure &lt;unassigned6&gt;</value>
+  </data>
+  <data name="CFG_BTN07_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned7&gt; screen</value>
+  </data>
+  <data name="CFG_BTN07_DESC" xml:space="preserve">
+    <value>&lt;unassigned7&gt;</value>
+  </data>
+  <data name="CFG_BTN07_TT" xml:space="preserve">
+    <value>Configure &lt;unassigned7&gt;</value>
+  </data>
+  <data name="CFG_BTN08_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned8&gt; screen</value>
+  </data>
+  <data name="CFG_BTN08_DESC" xml:space="preserve">
+    <value>&lt;unassigned8&gt;</value>
+  </data>
+  <data name="CFG_BTN08_TT" xml:space="preserve">
+    <value>Configure &lt;unassigned8&gt;</value>
+  </data>
+  <data name="CFG_BTN09_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned9&gt; screen</value>
+  </data>
+  <data name="CFG_BTN09_DESC" xml:space="preserve">
+    <value>&lt;unassigned9&gt;</value>
+  </data>
+  <data name="CFG_BTN09_TT" xml:space="preserve">
+    <value>Configure &lt;unassigned9&gt;</value>
+  </data>
+  <data name="CFG_BTN10_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned10&gt; screen</value>
+  </data>
+  <data name="CFG_BTN10_DESC" xml:space="preserve">
+    <value>&lt;unassigned10&gt;</value>
+  </data>
+  <data name="CFG_BTN10_TT" xml:space="preserve">
+    <value>Configure &lt;unassigned10&gt;</value>
+  </data>
+  <data name="CFG_MNU_CAP" xml:space="preserve">
+    <value>Configuration Menu</value>
+  </data>
+  <data name="CFG_MNU_TITLE" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="H_HELP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HelpMenu\H_HELP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HELP_BTN01_CAP" xml:space="preserve">
+    <value>Click now to show the Online Manuals screen</value>
+  </data>
+  <data name="HELP_BTN01_DESC" xml:space="preserve">
+    <value>Online Manuals</value>
+  </data>
+  <data name="HELP_BTN01_TT" xml:space="preserve">
+    <value>FANUC Online Manuals</value>
+  </data>
+  <data name="HELP_BTN02_CAP" xml:space="preserve">
+    <value>Click now to show the PAINTworks Help screen</value>
+  </data>
+  <data name="HELP_BTN02_DESC" xml:space="preserve">
+    <value>PAINTworks Help</value>
+  </data>
+  <data name="HELP_BTN02_TT" xml:space="preserve">
+    <value>PAINTworks Online Help</value>
+  </data>
+  <data name="HELP_BTN03_CAP" xml:space="preserve">
+    <value>Click now to show Customer Service Manual</value>
+  </data>
+  <data name="HELP_BTN03_DESC" xml:space="preserve">
+    <value>Customer Service Manual</value>
+  </data>
+  <data name="HELP_BTN03_TT" xml:space="preserve">
+    <value>Customer Service Manual</value>
+  </data>
+  <data name="HELP_BTN04_CAP" xml:space="preserve">
+    <value>Click now to show Warranty Manual Book screen</value>
+  </data>
+  <data name="HELP_BTN04_DESC" xml:space="preserve">
+    <value>Warranty Manual Book</value>
+  </data>
+  <data name="HELP_BTN04_TT" xml:space="preserve">
+    <value>Warranty Manual Book</value>
+  </data>
+  <data name="HELP_BTN05_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned5&gt; screen</value>
+  </data>
+  <data name="HELP_BTN05_DESC" xml:space="preserve">
+    <value>&lt;unassigned5&gt;</value>
+  </data>
+  <data name="HELP_BTN05_TT" xml:space="preserve">
+    <value>Help &lt;unassigned5&gt;</value>
+  </data>
+  <data name="HELP_BTN06_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned6&gt; screen</value>
+  </data>
+  <data name="HELP_BTN06_DESC" xml:space="preserve">
+    <value>&lt;unassigned6&gt;</value>
+  </data>
+  <data name="HELP_BTN06_TT" xml:space="preserve">
+    <value>Help &lt;unassigned6&gt;</value>
+  </data>
+  <data name="HELP_BTN07_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned7&gt; screen</value>
+  </data>
+  <data name="HELP_BTN07_DESC" xml:space="preserve">
+    <value>&lt;unassigned7&gt;</value>
+  </data>
+  <data name="HELP_BTN07_TT" xml:space="preserve">
+    <value>Help &lt;unassigned7&gt;</value>
+  </data>
+  <data name="HELP_BTN08_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned8&gt; screen</value>
+  </data>
+  <data name="HELP_BTN08_DESC" xml:space="preserve">
+    <value>&lt;unassigned8&gt;</value>
+  </data>
+  <data name="HELP_BTN08_TT" xml:space="preserve">
+    <value>Help &lt;unassigned8&gt;</value>
+  </data>
+  <data name="HELP_BTN09_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned9&gt; screen</value>
+  </data>
+  <data name="HELP_BTN09_DESC" xml:space="preserve">
+    <value>&lt;unassigned9&gt;</value>
+  </data>
+  <data name="HELP_BTN09_TT" xml:space="preserve">
+    <value>Help &lt;unassigned9&gt;</value>
+  </data>
+  <data name="HELP_BTN10_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned10&gt; screen</value>
+  </data>
+  <data name="HELP_BTN10_DESC" xml:space="preserve">
+    <value>&lt;unassigned10&gt;</value>
+  </data>
+  <data name="HELP_BTN10_TT" xml:space="preserve">
+    <value>Help &lt;unassigned10&gt;</value>
+  </data>
+  <data name="HELP_MNU_CAP" xml:space="preserve">
+    <value>Help Menu</value>
+  </data>
+  <data name="HELP_MNU_TITLE" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="M_NETWRK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MaintenanceMenu\M_NETWRK.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_REMHDW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MaintenanceMenu\M_REMHDW.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_SHUTDN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MaintenanceMenu\M_SHUTDN.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MNT_BTN01_CAP" xml:space="preserve">
+    <value>Click now to show the Network Configuration screen</value>
+  </data>
+  <data name="MNT_BTN01_DESC" xml:space="preserve">
+    <value>Network Configuration</value>
+  </data>
+  <data name="MNT_BTN01_TT" xml:space="preserve">
+    <value>Network Setup and Diagnostics</value>
+  </data>
+  <data name="MNT_BTN02_CAP" xml:space="preserve">
+    <value>Click now to Safely Remove Hardware</value>
+  </data>
+  <data name="MNT_BTN02_DESC" xml:space="preserve">
+    <value>Remove Hardware</value>
+  </data>
+  <data name="MNT_BTN02_TT" xml:space="preserve">
+    <value>Safely Remove USB Devices</value>
+  </data>
+  <data name="MNT_BTN03_CAP" xml:space="preserve">
+    <value>Click now to Shut Down PAINTworks</value>
+  </data>
+  <data name="MNT_BTN03_DESC" xml:space="preserve">
+    <value>Shut Down</value>
+  </data>
+  <data name="MNT_BTN03_TT" xml:space="preserve">
+    <value>Shut Down PAINTworks</value>
+  </data>
+  <data name="MNT_BTN04_CAP" xml:space="preserve">
+    <value>Click now to access PLC software</value>
+  </data>
+  <data name="MNT_BTN04_DESC" xml:space="preserve">
+    <value>PLC Program</value>
+  </data>
+  <data name="MNT_BTN04_TT" xml:space="preserve">
+    <value>PLC Programming Software</value>
+  </data>
+  <data name="MNT_BTN05_CAP" xml:space="preserve">
+    <value>Click now to run Hirschmann Discovery</value>
+  </data>
+  <data name="MNT_BTN05_DESC" xml:space="preserve">
+    <value>Hirschmann Discovery</value>
+  </data>
+  <data name="MNT_BTN05_TT" xml:space="preserve">
+    <value>Run Hirschmann Discovery</value>
+  </data>
+  <data name="MNT_BTN06_CAP" xml:space="preserve">
+    <value>Click now to show SMC Anybus IPConfig</value>
+  </data>
+  <data name="MNT_BTN06_DESC" xml:space="preserve">
+    <value>SMC Anybus IPConfig</value>
+  </data>
+  <data name="MNT_BTN06_TT" xml:space="preserve">
+    <value>Run SMC Anybus IPConfig</value>
+  </data>
+  <data name="MNT_BTN07_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned7&gt; screen</value>
+  </data>
+  <data name="MNT_BTN07_DESC" xml:space="preserve">
+    <value>&lt;unassigned7&gt;</value>
+  </data>
+  <data name="MNT_BTN07_TT" xml:space="preserve">
+    <value>View &lt;unassigned7&gt;</value>
+  </data>
+  <data name="MNT_BTN08_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned8&gt; screen</value>
+  </data>
+  <data name="MNT_BTN08_DESC" xml:space="preserve">
+    <value>&lt;unassigned8&gt;</value>
+  </data>
+  <data name="MNT_BTN08_TT" xml:space="preserve">
+    <value>View &lt;unassigned8&gt;</value>
+  </data>
+  <data name="MNT_BTN09_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned9&gt; screen</value>
+  </data>
+  <data name="MNT_BTN09_DESC" xml:space="preserve">
+    <value>&lt;unassigned9&gt;</value>
+  </data>
+  <data name="MNT_BTN09_TT" xml:space="preserve">
+    <value>View &lt;unassigned9&gt;</value>
+  </data>
+  <data name="MNT_BTN10_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned10&gt; screen</value>
+  </data>
+  <data name="MNT_BTN10_DESC" xml:space="preserve">
+    <value>&lt;unassigned10&gt;</value>
+  </data>
+  <data name="MNT_BTN10_TT" xml:space="preserve">
+    <value>View &lt;unassigned10&gt;</value>
+  </data>
+  <data name="MNT_MNU_CAP" xml:space="preserve">
+    <value>Maintenance Menu</value>
+  </data>
+  <data name="MNT_MNU_TITLE" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="O_AIRCAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\OperateMenu\O_AIRCAL.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O_FLMNT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\OperateMenu\O_FLMNT.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPR_BTN01_CAP" xml:space="preserve">
+    <value>Click now to show the Fluid Maintenance screen</value>
+  </data>
+  <data name="OPR_BTN01_DESC" xml:space="preserve">
+    <value>Fluid Maint</value>
+  </data>
+  <data name="OPR_BTN01_TT" xml:space="preserve">
+    <value>Manual Fluid Control</value>
+  </data>
+  <data name="OPR_BTN02_CAP" xml:space="preserve">
+    <value>Click now to show the Fluid Maintenance screen</value>
+  </data>
+  <data name="OPR_BTN02_DESC" xml:space="preserve">
+    <value>Paint Discharge</value>
+  </data>
+  <data name="OPR_BTN02_TT" xml:space="preserve">
+    <value>Paint Discharge</value>
+  </data>
+  <data name="OPR_BTN03_CAP" xml:space="preserve">
+    <value>Click now to show Paint Discharge screen</value>
+  </data>
+  <data name="OPR_BTN03_DESC" xml:space="preserve">
+    <value>&lt;unassigned3 &gt;</value>
+  </data>
+  <data name="OPR_BTN03_TT" xml:space="preserve">
+    <value>Operate &lt;unassigned3&gt;</value>
+  </data>
+  <data name="OPR_BTN04_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned4&gt; screen</value>
+  </data>
+  <data name="OPR_BTN04_DESC" xml:space="preserve">
+    <value>&lt;unassigned4&gt;</value>
+  </data>
+  <data name="OPR_BTN04_TT" xml:space="preserve">
+    <value>Operate &lt;unassigned4&gt;</value>
+  </data>
+  <data name="OPR_BTN05_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned5&gt; screen</value>
+  </data>
+  <data name="OPR_BTN05_DESC" xml:space="preserve">
+    <value>&lt;unassigned5&gt;</value>
+  </data>
+  <data name="OPR_BTN05_TT" xml:space="preserve">
+    <value>Operate &lt;unassigned5&gt;</value>
+  </data>
+  <data name="OPR_BTN06_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned6&gt; screen</value>
+  </data>
+  <data name="OPR_BTN06_DESC" xml:space="preserve">
+    <value>&lt;unassigned6&gt;</value>
+  </data>
+  <data name="OPR_BTN06_TT" xml:space="preserve">
+    <value>Operate &lt;unassigned6&gt;</value>
+  </data>
+  <data name="OPR_BTN07_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned7&gt; screen</value>
+  </data>
+  <data name="OPR_BTN07_DESC" xml:space="preserve">
+    <value>&lt;unassigned7&gt;</value>
+  </data>
+  <data name="OPR_BTN07_TT" xml:space="preserve">
+    <value>Operate &lt;unassigned7&gt;</value>
+  </data>
+  <data name="OPR_BTN08_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned8&gt; screen</value>
+  </data>
+  <data name="OPR_BTN08_DESC" xml:space="preserve">
+    <value>&lt;unassigned8&gt;</value>
+  </data>
+  <data name="OPR_BTN08_TT" xml:space="preserve">
+    <value>Operate &lt;unassigned8&gt;</value>
+  </data>
+  <data name="OPR_BTN09_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned9&gt; screen</value>
+  </data>
+  <data name="OPR_BTN09_DESC" xml:space="preserve">
+    <value>&lt;unassigned9&gt;</value>
+  </data>
+  <data name="OPR_BTN09_TT" xml:space="preserve">
+    <value>Operate &lt;unassigned9&gt;</value>
+  </data>
+  <data name="OPR_BTN10_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned10&gt; screen</value>
+  </data>
+  <data name="OPR_BTN10_DESC" xml:space="preserve">
+    <value>&lt;unassigned10&gt;</value>
+  </data>
+  <data name="OPR_BTN10_TT" xml:space="preserve">
+    <value>Operate &lt;unassigned10&gt;</value>
+  </data>
+  <data name="OPR_MNU_CAP" xml:space="preserve">
+    <value>Operate Menu</value>
+  </data>
+  <data name="OPR_MNU_TITLE" xml:space="preserve">
+    <value>Operate</value>
+  </data>
+  <data name="P_CCHG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ProcessMenu\P_CCHG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_DMON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ProcessMenu\P_DMON.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_ESTPAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ProcessMenu\P_ESTPAR.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_FLDPRE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ProcessMenu\P_FLDPRE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PRC_BTN01_CAP" xml:space="preserve">
+    <value>Click now to show the Fluid Presets screen</value>
+  </data>
+  <data name="PRC_BTN01_DESC" xml:space="preserve">
+    <value>Presets</value>
+  </data>
+  <data name="PRC_BTN01_TT" xml:space="preserve">
+    <value>View/Modify Fluid Presets</value>
+  </data>
+  <data name="PRC_BTN02_CAP" xml:space="preserve">
+    <value>Click now to show the Colour Change screen</value>
+  </data>
+  <data name="PRC_BTN02_DESC" xml:space="preserve">
+    <value>Colour Change</value>
+  </data>
+  <data name="PRC_BTN02_TT" xml:space="preserve">
+    <value>View/Modify Colour Change Process</value>
+  </data>
+  <data name="PRC_BTN03_CAP" xml:space="preserve">
+    <value>Click now to show the E-Stat Parameters screen</value>
+  </data>
+  <data name="PRC_BTN03_DESC" xml:space="preserve">
+    <value>E-Stat Parameters</value>
+  </data>
+  <data name="PRC_BTN03_TT" xml:space="preserve">
+    <value>View/Modify E-Stat Parameters</value>
+  </data>
+  <data name="PRC_BTN04_CAP" xml:space="preserve">
+    <value>Click now to show the Diagnostic Manager screen</value>
+  </data>
+  <data name="PRC_BTN04_DESC" xml:space="preserve">
+    <value>Diagnostic Manager</value>
+  </data>
+  <data name="PRC_BTN04_TT" xml:space="preserve">
+    <value>View/Modify Diagnostic Manager settings</value>
+  </data>
+  <data name="PRC_BTN05_CAP" xml:space="preserve">
+    <value>Click now to show the Accuflow Parameters screen</value>
+  </data>
+  <data name="PRC_BTN05_DESC" xml:space="preserve">
+    <value>Accuflow Parameters</value>
+  </data>
+  <data name="PRC_BTN05_TT" xml:space="preserve">
+    <value>View/Modify Accuflow Parameters</value>
+  </data>
+  <data name="PRC_BTN06_CAP" xml:space="preserve">
+    <value>Click now to show the Calibration screen</value>
+  </data>
+  <data name="PRC_BTN06_DESC" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="PRC_BTN06_TT" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="PRC_BTN07_CAP" xml:space="preserve">
+    <value>Click now to show E-stat Presets</value>
+  </data>
+  <data name="PRC_BTN07_DESC" xml:space="preserve">
+    <value>Estat Presets</value>
+  </data>
+  <data name="PRC_BTN07_TT" xml:space="preserve">
+    <value>Estat Presets</value>
+  </data>
+  <data name="PRC_BTN08_CAP" xml:space="preserve">
+    <value>Click now to run Paint Pro</value>
+  </data>
+  <data name="PRC_BTN08_DESC" xml:space="preserve">
+    <value>Paint Pro</value>
+  </data>
+  <data name="PRC_BTN08_TT" xml:space="preserve">
+    <value>Paint Pro</value>
+  </data>
+  <data name="PRC_BTN09_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned9&gt; screen</value>
+  </data>
+  <data name="PRC_BTN09_DESC" xml:space="preserve">
+    <value>&lt;unassigned9&gt;</value>
+  </data>
+  <data name="PRC_BTN09_TT" xml:space="preserve">
+    <value>Process &lt;unassigned9&gt;</value>
+  </data>
+  <data name="PRC_BTN10_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned10&gt; screen</value>
+  </data>
+  <data name="PRC_BTN10_DESC" xml:space="preserve">
+    <value>&lt;unassigned10&gt;</value>
+  </data>
+  <data name="PRC_BTN10_TT" xml:space="preserve">
+    <value>Process &lt;unassigned10&gt;</value>
+  </data>
+  <data name="PRC_MNU_CAP" xml:space="preserve">
+    <value>Process Menu</value>
+  </data>
+  <data name="PRC_MNU_TITLE" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="R_ALARM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ReportsMenu\R_ALARM.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_CHANGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ReportsMenu\R_CHANGE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_DOWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ReportsMenu\R_DOWN.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_PRDLOG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ReportsMenu\R_PRDLOG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="REP_BTN01_CAP" xml:space="preserve">
+    <value>Click now to show Production Reports screen</value>
+  </data>
+  <data name="REP_BTN01_DESC" xml:space="preserve">
+    <value>Production Reports</value>
+  </data>
+  <data name="REP_BTN01_TT" xml:space="preserve">
+    <value>View Production Reports</value>
+  </data>
+  <data name="REP_BTN02_CAP" xml:space="preserve">
+    <value>Click now to show Alarm Reports screen</value>
+  </data>
+  <data name="REP_BTN02_DESC" xml:space="preserve">
+    <value>Alarm Reports</value>
+  </data>
+  <data name="REP_BTN02_TT" xml:space="preserve">
+    <value>View Alarm Reports</value>
+  </data>
+  <data name="REP_BTN03_CAP" xml:space="preserve">
+    <value>Click now to show Downtime Reports screen</value>
+  </data>
+  <data name="REP_BTN03_DESC" xml:space="preserve">
+    <value>Downtime Reports</value>
+  </data>
+  <data name="REP_BTN03_TT" xml:space="preserve">
+    <value>View Downtime Reports</value>
+  </data>
+  <data name="REP_BTN04_CAP" xml:space="preserve">
+    <value>Click now to show Change Log Reports screen</value>
+  </data>
+  <data name="REP_BTN04_DESC" xml:space="preserve">
+    <value>Change Log Reports</value>
+  </data>
+  <data name="REP_BTN04_TT" xml:space="preserve">
+    <value>View Change Log Reports</value>
+  </data>
+  <data name="REP_BTN05_CAP" xml:space="preserve">
+    <value>Click now to show Vision screen</value>
+  </data>
+  <data name="REP_BTN05_DESC" xml:space="preserve">
+    <value>Vision Reports</value>
+  </data>
+  <data name="REP_BTN05_TT" xml:space="preserve">
+    <value>View Vision Reports</value>
+  </data>
+  <data name="REP_BTN06_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned6&gt; screen</value>
+  </data>
+  <data name="REP_BTN06_DESC" xml:space="preserve">
+    <value>&lt;unassigned6&gt;</value>
+  </data>
+  <data name="REP_BTN06_TT" xml:space="preserve">
+    <value>Reports &lt;unassigned6&gt;</value>
+  </data>
+  <data name="REP_BTN07_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned7&gt; screen</value>
+  </data>
+  <data name="REP_BTN07_DESC" xml:space="preserve">
+    <value>&lt;unassigned7&gt;</value>
+  </data>
+  <data name="REP_BTN07_TT" xml:space="preserve">
+    <value>Reports &lt;unassigned7&gt;</value>
+  </data>
+  <data name="REP_BTN08_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned8&gt; screen</value>
+  </data>
+  <data name="REP_BTN08_DESC" xml:space="preserve">
+    <value>&lt;unassigned8&gt;</value>
+  </data>
+  <data name="REP_BTN08_TT" xml:space="preserve">
+    <value>Reports &lt;unassigned8&gt;</value>
+  </data>
+  <data name="REP_BTN09_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned9&gt; screen</value>
+  </data>
+  <data name="REP_BTN09_DESC" xml:space="preserve">
+    <value>&lt;unassigned9&gt;</value>
+  </data>
+  <data name="REP_BTN09_TT" xml:space="preserve">
+    <value>Reports &lt;unassigned9&gt;</value>
+  </data>
+  <data name="REP_BTN10_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned10&gt; screen</value>
+  </data>
+  <data name="REP_BTN10_DESC" xml:space="preserve">
+    <value>&lt;unassigned10&gt;</value>
+  </data>
+  <data name="REP_BTN10_TT" xml:space="preserve">
+    <value>Reports &lt;unassigned10&gt;</value>
+  </data>
+  <data name="REP_MNU_CAP" xml:space="preserve">
+    <value>Reports Menu</value>
+  </data>
+  <data name="REP_MNU_TITLE" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="U_ARCH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UtilitiesMenu\U_ARCH.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U_CALC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UtilitiesMenu\U_CALC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U_DATIM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UtilitiesMenu\U_DATIM.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U_NOTEPD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UtilitiesMenu\U_NOTEPD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U_PWDMNT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UtilitiesMenu\U_PWDMNT.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U_ROBFC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UtilitiesMenu\U_ROBFC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U_RVARS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UtilitiesMenu\U_RVARS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U_SCHED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UtilitiesMenu\U_SCHED.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UNASGND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UNASGND.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UTIL_BTN01_CAP" xml:space="preserve">
+    <value>Click now to show the Robot File Copy screen</value>
+  </data>
+  <data name="UTIL_BTN01_DESC" xml:space="preserve">
+    <value>Robot File Copy</value>
+  </data>
+  <data name="UTIL_BTN01_TT" xml:space="preserve">
+    <value>Robot File Copy Utility</value>
+  </data>
+  <data name="UTIL_BTN02_CAP" xml:space="preserve">
+    <value>Click now to show the Robot Variables screen</value>
+  </data>
+  <data name="UTIL_BTN02_DESC" xml:space="preserve">
+    <value>Robot Variables</value>
+  </data>
+  <data name="UTIL_BTN02_TT" xml:space="preserve">
+    <value>Robot Variables Utility</value>
+  </data>
+  <data name="UTIL_BTN03_CAP" xml:space="preserve">
+    <value>Click now to show the Archive screen</value>
+  </data>
+  <data name="UTIL_BTN03_DESC" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="UTIL_BTN03_TT" xml:space="preserve">
+    <value>Archive files to removable media Utility</value>
+  </data>
+  <data name="UTIL_BTN04_CAP" xml:space="preserve">
+    <value>Click now to show the Date/Time screen</value>
+  </data>
+  <data name="UTIL_BTN04_DESC" xml:space="preserve">
+    <value>Date/Time</value>
+  </data>
+  <data name="UTIL_BTN04_TT" xml:space="preserve">
+    <value>Robot/PLC Date/Time Utility</value>
+  </data>
+  <data name="UTIL_BTN05_CAP" xml:space="preserve">
+    <value>Click now to show the Password Manager screen</value>
+  </data>
+  <data name="UTIL_BTN05_DESC" xml:space="preserve">
+    <value>Password Manager</value>
+  </data>
+  <data name="UTIL_BTN05_TT" xml:space="preserve">
+    <value>PAINTworks Password Manager Utility</value>
+  </data>
+  <data name="UTIL_BTN06_CAP" xml:space="preserve">
+    <value>Click now to show the Schedule Manager screen</value>
+  </data>
+  <data name="UTIL_BTN06_DESC" xml:space="preserve">
+    <value>Scheduler</value>
+  </data>
+  <data name="UTIL_BTN06_TT" xml:space="preserve">
+    <value>PAINTworks Schedule Manager Utility</value>
+  </data>
+  <data name="UTIL_BTN07_CAP" xml:space="preserve">
+    <value>Click now to show the PAINTworks Notepad screen</value>
+  </data>
+  <data name="UTIL_BTN07_DESC" xml:space="preserve">
+    <value>Notepad</value>
+  </data>
+  <data name="UTIL_BTN07_TT" xml:space="preserve">
+    <value>PAINTworks Notepad Utility</value>
+  </data>
+  <data name="UTIL_BTN08_CAP" xml:space="preserve">
+    <value>Click now to show the Calculator</value>
+  </data>
+  <data name="UTIL_BTN08_DESC" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="UTIL_BTN08_TT" xml:space="preserve">
+    <value>Calculator Utility</value>
+  </data>
+  <data name="UTIL_BTN09_CAP" xml:space="preserve">
+    <value>Click now to select the default printer</value>
+  </data>
+  <data name="UTIL_BTN09_DESC" xml:space="preserve">
+    <value>Default Printer Select</value>
+  </data>
+  <data name="UTIL_BTN09_TT" xml:space="preserve">
+    <value>Default Printer Select</value>
+  </data>
+  <data name="UTIL_BTN10_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned10&gt; screen</value>
+  </data>
+  <data name="UTIL_BTN10_DESC" xml:space="preserve">
+    <value>&lt;unassigned10&gt;</value>
+  </data>
+  <data name="UTIL_BTN10_TT" xml:space="preserve">
+    <value>Utilities &lt;unassigned10&gt;</value>
+  </data>
+  <data name="UTIL_MNU_CAP" xml:space="preserve">
+    <value>Utilities Menu</value>
+  </data>
+  <data name="UTIL_MNU_TITLE" xml:space="preserve">
+    <value>Utilities</value>
+  </data>
+  <data name="V_BOOTH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ViewMenu\V_BOOTH.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_DMON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ViewMenu\V_DMON.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_PLCIO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ViewMenu\V_PLCIO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_PROC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ViewMenu\V_PROC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_RIO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ViewMenu\V_RIO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_RWEB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ViewMenu\V_RWEB.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VIEW_BTN01_CAP" xml:space="preserve">
+    <value>Click now to show the Booth Status screen</value>
+  </data>
+  <data name="VIEW_BTN01_DESC" xml:space="preserve">
+    <value>Booth Status</value>
+  </data>
+  <data name="VIEW_BTN01_TT" xml:space="preserve">
+    <value>Booth Status Monitor</value>
+  </data>
+  <data name="VIEW_BTN02_CAP" xml:space="preserve">
+    <value>Click now to show the Robot Status screen</value>
+  </data>
+  <data name="VIEW_BTN02_DESC" xml:space="preserve">
+    <value>Robot Status</value>
+  </data>
+  <data name="VIEW_BTN02_TT" xml:space="preserve">
+    <value>Robot Teach Pendant Status Monitor</value>
+  </data>
+  <data name="VIEW_BTN03_CAP" xml:space="preserve">
+    <value>Click now to show PLC I/O screen</value>
+  </data>
+  <data name="VIEW_BTN03_DESC" xml:space="preserve">
+    <value>PLC I/O</value>
+  </data>
+  <data name="VIEW_BTN03_TT" xml:space="preserve">
+    <value>PLC I/O Monitor</value>
+  </data>
+  <data name="VIEW_BTN04_CAP" xml:space="preserve">
+    <value>Click now to show the Robot I/O screen</value>
+  </data>
+  <data name="VIEW_BTN04_DESC" xml:space="preserve">
+    <value>Robot I/O</value>
+  </data>
+  <data name="VIEW_BTN04_TT" xml:space="preserve">
+    <value>Robot I/O Monitor</value>
+  </data>
+  <data name="VIEW_BTN05_CAP" xml:space="preserve">
+    <value>Click now to show the Robot Web screen</value>
+  </data>
+  <data name="VIEW_BTN05_DESC" xml:space="preserve">
+    <value>Robot Web</value>
+  </data>
+  <data name="VIEW_BTN05_TT" xml:space="preserve">
+    <value>Robot Web Page Viewer</value>
+  </data>
+  <data name="VIEW_BTN06_CAP" xml:space="preserve">
+    <value>Click now to show the Diagnostic View screen</value>
+  </data>
+  <data name="VIEW_BTN06_DESC" xml:space="preserve">
+    <value>Diag Viewer</value>
+  </data>
+  <data name="VIEW_BTN06_TT" xml:space="preserve">
+    <value>Robot Diagnostic Viewer</value>
+  </data>
+  <data name="VIEW_BTN07_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned7&gt; screen</value>
+  </data>
+  <data name="VIEW_BTN07_DESC" xml:space="preserve">
+    <value>&lt;unassigned7&gt;</value>
+  </data>
+  <data name="VIEW_BTN07_TT" xml:space="preserve">
+    <value>View &lt;unassigned7&gt;</value>
+  </data>
+  <data name="VIEW_BTN08_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned8&gt; screen</value>
+  </data>
+  <data name="VIEW_BTN08_DESC" xml:space="preserve">
+    <value>&lt;unassigned8&gt;</value>
+  </data>
+  <data name="VIEW_BTN08_TT" xml:space="preserve">
+    <value>View &lt;unassigned8&gt;</value>
+  </data>
+  <data name="VIEW_BTN09_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned9&gt; screen</value>
+  </data>
+  <data name="VIEW_BTN09_DESC" xml:space="preserve">
+    <value>&lt;unassigned9&gt;</value>
+  </data>
+  <data name="VIEW_BTN09_TT" xml:space="preserve">
+    <value>View &lt;unassigned9&gt;</value>
+  </data>
+  <data name="VIEW_BTN10_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned10&gt; screen</value>
+  </data>
+  <data name="VIEW_BTN10_DESC" xml:space="preserve">
+    <value>&lt;unassigned10&gt;</value>
+  </data>
+  <data name="VIEW_BTN10_TT" xml:space="preserve">
+    <value>View &lt;unassigned10&gt;</value>
+  </data>
+  <data name="VIEW_MNU_CAP" xml:space="preserve">
+    <value>View Menu</value>
+  </data>
+  <data name="VIEW_MNU_TITLE" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="P_CAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ViewMenu\V_DMON1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_ESTPRE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estat Presets.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_PLC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\6200.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_AFPAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\P_AFPAR.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_FB200_PAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\P_FB200_PAR.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_HIRSCH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\M_HIRSCH.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_SMC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\M_SMC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_RSLOGIX5K" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Other\RsLogix5k.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_PAINTPRO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Other\PaintPro.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PRC_BTN11_CAP" xml:space="preserve">
+    <value>Click now to show the Learned Volumes screen</value>
+  </data>
+  <data name="PRC_BTN11_DESC" xml:space="preserve">
+    <value>Learned Volumes</value>
+  </data>
+  <data name="PRC_BTN11_TT" xml:space="preserve">
+    <value>View Learned Volumes</value>
+  </data>
+  <data name="PRC_BTN12_CAP" xml:space="preserve">
+    <value>Click now to show the Area Volumes screen</value>
+  </data>
+  <data name="PRC_BTN12_DESC" xml:space="preserve">
+    <value>Area Volumes</value>
+  </data>
+  <data name="PRC_BTN12_TT" xml:space="preserve">
+    <value>View Area Volumes</value>
+  </data>
+  <data name="PRC_BTN13_CAP" xml:space="preserve">
+    <value>Click now to show the Dispenser Status screen</value>
+  </data>
+  <data name="PRC_BTN13_DESC" xml:space="preserve">
+    <value>Dispenser Status</value>
+  </data>
+  <data name="PRC_BTN13_TT" xml:space="preserve">
+    <value>View Dispenser Status</value>
+  </data>
+  <data name="PRC_BTN14_CAP" xml:space="preserve">
+    <value>Click now to show the Sealant Schedules screen</value>
+  </data>
+  <data name="PRC_BTN14_DESC" xml:space="preserve">
+    <value>Sealant Schedules</value>
+  </data>
+  <data name="PRC_BTN14_TT" xml:space="preserve">
+    <value>View Sealant Schedules</value>
+  </data>
+  <data name="PRC_BTN15_CAP" xml:space="preserve">
+    <value>Click now to show the DMON Schedule Manager screen</value>
+  </data>
+  <data name="PRC_BTN15_DESC" xml:space="preserve">
+    <value>DMON Schedule Manager</value>
+  </data>
+  <data name="PRC_BTN15_TT" xml:space="preserve">
+    <value>View DMON Schedule Manager</value>
+  </data>
+  <data name="PRC_BTN16_CAP" xml:space="preserve">
+    <value>Click now to show the DMON Viewer</value>
+  </data>
+  <data name="PRC_BTN16_DESC" xml:space="preserve">
+    <value>DMON Viewer</value>
+  </data>
+  <data name="PRC_BTN16_TT" xml:space="preserve">
+    <value>DMON Viewer</value>
+  </data>
+  <data name="PRC_BTN17_CAP" xml:space="preserve">
+    <value>Click now to show Sealer Diagnostics</value>
+  </data>
+  <data name="PRC_BTN17_DESC" xml:space="preserve">
+    <value>Sealer Diagnostics</value>
+  </data>
+  <data name="PRC_BTN17_TT" xml:space="preserve">
+    <value>Sealer Diagnostics</value>
+  </data>
+  <data name="PRC_BTN18_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned8&gt; screen</value>
+  </data>
+  <data name="PRC_BTN18_DESC" xml:space="preserve">
+    <value>Process &lt;unassigned8&gt;</value>
+  </data>
+  <data name="PRC_BTN18_TT" xml:space="preserve">
+    <value>Process &lt;unassigned8&gt;</value>
+  </data>
+  <data name="PRC_BTN19_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned9&gt; screen</value>
+  </data>
+  <data name="PRC_BTN19_DESC" xml:space="preserve">
+    <value>&lt;unassigned9&gt;</value>
+  </data>
+  <data name="PRC_BTN19_TT" xml:space="preserve">
+    <value>Process &lt;unassigned9&gt;</value>
+  </data>
+  <data name="AreaVolumes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Sealer\AreaVolumes.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diagnostics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Sealer\Diagnostics.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dispense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Sealer\Dispense.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DMonView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Sealer\DMonView.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LearnedVolume" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Sealer\LearnedVolume.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SealerView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Sealer\SealerView.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SealSchedule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Sealer\SealSchedule.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vision" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Sealer\Vision.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BulkSupply" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Sealer\BulkSupply.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GunTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Sealer\GunTest.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ManualCycle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Sealer\ManualCycle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VisionReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Sealer\VisionReport.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPR_BTN11_CAP" xml:space="preserve">
+    <value>Click now to show the Manual Cycle screen</value>
+  </data>
+  <data name="OPR_BTN11_DESC" xml:space="preserve">
+    <value>Manual Cycle</value>
+  </data>
+  <data name="OPR_BTN11_TT" xml:space="preserve">
+    <value>Operate Manual Cycle</value>
+  </data>
+  <data name="OPR_BTN12_CAP" xml:space="preserve">
+    <value>Click now to show Gun Test screen</value>
+  </data>
+  <data name="OPR_BTN12_DESC" xml:space="preserve">
+    <value>Gun Test</value>
+  </data>
+  <data name="OPR_BTN12_TT" xml:space="preserve">
+    <value>Operate Gun Test</value>
+  </data>
+  <data name="VIEW_BTN11_CAP" xml:space="preserve">
+    <value>Click now to show the Bulk Supply screen</value>
+  </data>
+  <data name="VIEW_BTN11_DESC" xml:space="preserve">
+    <value>Bulk Supply</value>
+  </data>
+  <data name="VIEW_BTN11_TT" xml:space="preserve">
+    <value>Operate Bulk Supply</value>
+  </data>
+  <data name="VIEW_BTN12_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned12&gt; screen</value>
+  </data>
+  <data name="VIEW_BTN12_DESC" xml:space="preserve">
+    <value>&lt;unassigned12&gt;</value>
+  </data>
+  <data name="VIEW_BTN12_TT" xml:space="preserve">
+    <value>View &lt;unassigned12&gt;</value>
+  </data>
+  <data name="VIEW_BTN13_CAP" xml:space="preserve">
+    <value>Click now to show &lt;unassigned13&gt; screen</value>
+  </data>
+  <data name="VIEW_BTN13_DESC" xml:space="preserve">
+    <value>&lt;unassigned13&gt;</value>
+  </data>
+  <data name="VIEW_BTN13_TT" xml:space="preserve">
+    <value>View &lt;unassigned13&gt;</value>
+  </data>
+  <data name="U_PRINT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\U_PRINT.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O_DISCHARGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Discharge.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VIEW_BTN01S_CAP" xml:space="preserve">
+    <value>Click now to show the Cell Status screen</value>
+  </data>
+  <data name="VIEW_BTN01S_DESC" xml:space="preserve">
+    <value>Cell Status</value>
+  </data>
+  <data name="VIEW_BTN01S_TT" xml:space="preserve">
+    <value>Cell Status Monitor</value>
+  </data>
+</root>

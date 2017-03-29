@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F56526C2-779C-4045-BCDC-D51CF9A0D978}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PWUserMaint.StartupModule</StartupObject>
+    <RootNamespace>PWUserMaint</RootNamespace>
+    <AssemblyName>PWUserMaint</AssemblyName>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <OptionStrict>On</OptionStrict>
+    <ApplicationIcon>Passwords.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/Scheduler/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PWUserMaint.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Vbapps\</OutputPath>
+    <DocumentationFile>PWUserMaint.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FocusedTextBox, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\FocusedTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.FRRobot, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\Interop.FRRobot.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.FRRobotNeighborhood, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\Interop.FRRobotNeighborhood.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Globalization" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Common.NET\clsInterProcessComm.vb">
+      <Link>clsInterProcessComm.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsPrintHtml.vb">
+      <Link>clsPrintHtml.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsPWUser.vb">
+      <Link>clsPWUser.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsScreenCapture.vb">
+      <Link>clsScreenCapture.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CommonStrings.Designer.vb">
+      <Link>CommonStrings.Designer.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommonStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\frmPrintOptions\frmPrintOptions.designer.vb">
+      <Link>frmPrintOptions.designer.vb</Link>
+      <DependentUpon>frmPrintOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\frmPrintOptions\frmPrintOptions.vb">
+      <Link>frmPrintOptions.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mDebug.vb">
+      <Link>mDebug.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mDeclares.vb">
+      <Link>mDeclares.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mLanguage.vb">
+      <Link>mLanguage.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mMathFunctions.vb">
+      <Link>mMathFunctions.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mPrintFunctions.vb">
+      <Link>mPrintFunctions.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mPWCommon.vb">
+      <Link>mPWCommon.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mScreenSetup.vb">
+      <Link>mScreenSetup.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Placeholders\AlarmAssocData.vb">
+      <Link>AlarmAssocData.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Placeholders\clsApplicator.vb">
+      <Link>clsApplicator.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Placeholders\clsDMONCfg.vb">
+      <Link>clsDMONCfg.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Placeholders\SysColors.vb">
+      <Link>SysColors.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Placeholders\SysStyles.vb">
+      <Link>SysStyles.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Robots.vb">
+      <Link>Robots.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\StartupModule.vb">
+      <Link>StartupModule.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\ValueClasses.vb">
+      <Link>ValueClasses.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Zones.vb">
+      <Link>Zones.vb</Link>
+    </Compile>
+    <Compile Include="frmMain.designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\Common.NET\CommonStrings.de-DE.resx">
+      <Link>CommonStrings.de-DE.resx</Link>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CommonStrings.es-ES.resx">
+      <Link>CommonStrings.es-ES.resx</Link>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CommonStrings.resx">
+      <Link>CommonStrings.resx</Link>
+      <SubType>Designer</SubType>
+      <LastGenOutput>CommonStrings.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CommonStrings.en-CA.resx">
+      <Link>CommonStrings.en-CA.resx</Link>
+      <SubType>Designer</SubType>
+      <LastGenOutput>CommonStrings.en-CA.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\frmPrintOptions\frmPrintOptions.resx">
+      <Link>frmPrintOptions.resx</Link>
+      <DependentUpon>frmPrintOptions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectStrings.de-DE.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectStrings.en-CA.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.es.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectStrings.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectStrings.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Passwords.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

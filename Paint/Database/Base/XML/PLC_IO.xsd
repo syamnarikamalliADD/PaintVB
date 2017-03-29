@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Plc_Io" targetNamespace="http://tempuri.org/Plc_Io.xsd" xmlns:mstns="http://tempuri.org/Plc_Io.xsd" xmlns="http://tempuri.org/Plc_Io.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Plc_Io" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Plc_Io" msprop:Generator_DataSetName="Plc_Io">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Config" msprop:Generator_UserTableName="Config" msprop:Generator_RowDeletedName="ConfigRowDeleted" msprop:Generator_RowChangedName="ConfigRowChanged" msprop:Generator_RowClassName="ConfigRow" msprop:Generator_RowChangingName="ConfigRowChanging" msprop:Generator_RowEvArgName="ConfigRowChangeEvent" msprop:Generator_RowEvHandlerName="ConfigRowChangeEventHandler" msprop:Generator_TableClassName="ConfigDataTable" msprop:Generator_TableVarName="tableConfig" msprop:Generator_RowDeletingName="ConfigRowDeleting" msprop:Generator_TablePropName="Config">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DataLength" msprop:Generator_UserColumnName="DataLength" msprop:Generator_ColumnPropNameInRow="DataLength" msprop:Generator_ColumnVarNameInTable="columnDataLength" msprop:Generator_ColumnPropNameInTable="DataLengthColumn" type="xs:string" default="0" minOccurs="0" />
+              <xs:element name="HorizontalMargin" msprop:Generator_UserColumnName="HorizontalMargin" msprop:Generator_ColumnPropNameInRow="HorizontalMargin" msprop:Generator_ColumnVarNameInTable="columnHorizontalMargin" msprop:Generator_ColumnPropNameInTable="HorizontalMarginColumn" type="xs:string" default="10" minOccurs="0" />
+              <xs:element name="VerticalMargin" msprop:Generator_UserColumnName="VerticalMargin" msprop:Generator_ColumnPropNameInRow="VerticalMargin" msprop:Generator_ColumnVarNameInTable="columnVerticalMargin" msprop:Generator_ColumnPropNameInTable="VerticalMarginColumn" type="xs:string" default="10" minOccurs="0" />
+              <xs:element name="InputTitleBackColor" msprop:Generator_UserColumnName="InputTitleBackColor" msprop:Generator_ColumnPropNameInRow="InputTitleBackColor" msprop:Generator_ColumnVarNameInTable="columnInputTitleBackColor" msprop:Generator_ColumnPropNameInTable="InputTitleBackColorColumn" type="xs:string" default="yellow" minOccurs="0" />
+              <xs:element name="OutputTitleBackColor" msprop:Generator_UserColumnName="OutputTitleBackColor" msprop:Generator_ColumnPropNameInRow="OutputTitleBackColor" msprop:Generator_ColumnVarNameInTable="columnOutputTitleBackColor" msprop:Generator_ColumnPropNameInTable="OutputTitleBackColorColumn" type="xs:string" default="blue" minOccurs="0" />
+              <xs:element name="AnalogTitleBackColor" msprop:Generator_UserColumnName="AnalogTitleBackColor" msprop:Generator_ColumnPropNameInRow="AnalogTitleBackColor" msprop:Generator_ColumnVarNameInTable="columnAnalogTitleBackColor" msprop:Generator_ColumnPropNameInTable="AnalogTitleBackColorColumn" type="xs:string" default="orange" minOccurs="0" />
+              <xs:element name="OtherTitleBackColor" msprop:Generator_UserColumnName="OtherTitleBackColor" msprop:Generator_ColumnPropNameInRow="OtherTitleBackColor" msprop:Generator_ColumnVarNameInTable="columnOtherTitleBackColor" msprop:Generator_ColumnPropNameInTable="OtherTitleBackColorColumn" type="xs:string" default="violet" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Racks" msprop:Generator_UserTableName="Racks" msprop:Generator_RowDeletedName="RacksRowDeleted" msprop:Generator_RowChangedName="RacksRowChanged" msprop:Generator_RowClassName="RacksRow" msprop:Generator_RowChangingName="RacksRowChanging" msprop:Generator_RowEvArgName="RacksRowChangeEvent" msprop:Generator_RowEvHandlerName="RacksRowChangeEventHandler" msprop:Generator_TableClassName="RacksDataTable" msprop:Generator_TableVarName="tableRacks" msprop:Generator_RowDeletingName="RacksRowDeleting" msprop:Generator_TablePropName="Racks">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RackNumber" msprop:Generator_UserColumnName="RackNumber" msprop:Generator_ColumnPropNameInRow="RackNumber" msprop:Generator_ColumnVarNameInTable="columnRackNumber" msprop:Generator_ColumnPropNameInTable="RackNumberColumn" type="xs:string" default="0" minOccurs="0" />
+              <xs:element name="View" msprop:Generator_UserColumnName="View" msprop:Generator_ColumnPropNameInRow="View" msprop:Generator_ColumnVarNameInTable="columnView" msprop:Generator_ColumnPropNameInTable="ViewColumn" type="xs:boolean" default="true" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Modules" msprop:Generator_UserTableName="Modules" msprop:Generator_RowDeletedName="ModulesRowDeleted" msprop:Generator_RowChangedName="ModulesRowChanged" msprop:Generator_RowClassName="ModulesRow" msprop:Generator_RowChangingName="ModulesRowChanging" msprop:Generator_RowEvArgName="ModulesRowChangeEvent" msprop:Generator_RowEvHandlerName="ModulesRowChangeEventHandler" msprop:Generator_TableClassName="ModulesDataTable" msprop:Generator_TableVarName="tableModules" msprop:Generator_RowDeletingName="ModulesRowDeleting" msprop:Generator_TablePropName="Modules">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RackNumber" msprop:Generator_UserColumnName="RackNumber" msprop:Generator_ColumnPropNameInRow="RackNumber" msprop:Generator_ColumnVarNameInTable="columnRackNumber" msprop:Generator_ColumnPropNameInTable="RackNumberColumn" type="xs:string" default="0" minOccurs="0" />
+              <xs:element name="SlotNumber" msprop:Generator_UserColumnName="SlotNumber" msprop:Generator_ColumnPropNameInRow="SlotNumber" msprop:Generator_ColumnVarNameInTable="columnSlotNumber" msprop:Generator_ColumnPropNameInTable="SlotNumberColumn" type="xs:string" default="0" minOccurs="0" />
+              <xs:element name="ModuleNumber" msprop:Generator_UserColumnName="ModuleNumber" msprop:Generator_ColumnPropNameInRow="ModuleNumber" msprop:Generator_ColumnVarNameInTable="columnModuleNumber" msprop:Generator_ColumnPropNameInTable="ModuleNumberColumn" type="xs:string" default="0" minOccurs="0" />
+              <xs:element name="ModuleType" msprop:Generator_UserColumnName="ModuleType" msprop:Generator_ColumnPropNameInRow="ModuleType" msprop:Generator_ColumnVarNameInTable="columnModuleType" msprop:Generator_ColumnPropNameInTable="ModuleTypeColumn" type="xs:string" default="&lt;Module&gt;" minOccurs="0" />
+              <xs:element name="Density" msprop:Generator_UserColumnName="Density" msprop:Generator_ColumnPropNameInRow="Density" msprop:Generator_ColumnVarNameInTable="columnDensity" msprop:Generator_ColumnPropNameInTable="DensityColumn" type="xs:string" default="16" minOccurs="0" />
+              <xs:element name="DisplayIndex" msprop:Generator_UserColumnName="DisplayIndex" msprop:Generator_ColumnPropNameInRow="DisplayIndex" msprop:Generator_ColumnVarNameInTable="columnDisplayIndex" msprop:Generator_ColumnPropNameInTable="DisplayIndexColumn" type="xs:string" default="0" />
+              <xs:element name="View" msprop:Generator_UserColumnName="View" msprop:Generator_ColumnPropNameInRow="View" msprop:Generator_ColumnVarNameInTable="columnView" msprop:Generator_ColumnPropNameInTable="ViewColumn" type="xs:boolean" default="true" />
+              <xs:element name="PlcInput" msprop:Generator_UserColumnName="PlcInput" msprop:Generator_ColumnPropNameInRow="PlcInput" msprop:Generator_ColumnVarNameInTable="columnPlcInput" msprop:Generator_ColumnPropNameInTable="PlcInputColumn" type="xs:boolean" default="true" />
+              <xs:element name="Analog" msprop:Generator_UserColumnName="Analog" msprop:Generator_ColumnPropNameInRow="Analog" msprop:Generator_ColumnVarNameInTable="columnAnalog" msprop:Generator_ColumnPropNameInTable="AnalogColumn" type="xs:boolean" default="false" />
+              <xs:element name="DataIndex" msprop:Generator_UserColumnName="DataIndex" msprop:Generator_ColumnPropNameInRow="DataIndex" msprop:Generator_ColumnVarNameInTable="columnDataIndex" msprop:Generator_ColumnPropNameInTable="DataIndexColumn" type="xs:string" default="0" minOccurs="0" />
+              <xs:element name="DataLength" msprop:Generator_UserColumnName="DataLength" msprop:Generator_ColumnPropNameInRow="DataLength" msprop:Generator_ColumnVarNameInTable="columnDataLength" msprop:Generator_ColumnPropNameInTable="DataLengthColumn" type="xs:string" default="1" minOccurs="0" />
+              <xs:element name="URL" msprop:Generator_UserColumnName="URL" msprop:Generator_ColumnPropNameInRow="URL" msprop:Generator_ColumnVarNameInTable="columnURL" msprop:Generator_ColumnPropNameInTable="URLColumn" type="xs:string" default="0.0.0.0" minOccurs="0" />
+              <xs:element name="AutoFill" msprop:Generator_UserColumnName="AutoFill" msprop:Generator_ColumnPropNameInRow="AutoFill" msprop:Generator_ColumnVarNameInTable="columnAutoFill" msprop:Generator_ColumnPropNameInTable="AutoFillColumn" type="xs:string" default="0.0.0.0" minOccurs="0" />
+              <xs:element name="RackLabels" msprop:Generator_UserColumnName="RackLabels" msprop:Generator_ColumnPropNameInRow="RackLabels" msprop:Generator_ColumnVarNameInTable="columnRackLabels" msprop:Generator_ColumnPropNameInTable="RackLabelsColumn" type="xs:string" default="0.0.0.0" minOccurs="0" />
+              <xs:element name="EnableToolTips" msprop:Generator_UserColumnName="EnableToolTips" msprop:Generator_ColumnVarNameInTable="columnEnableToolTips" msprop:Generator_ColumnPropNameInRow="EnableToolTips" msprop:Generator_ColumnPropNameInTable="EnableToolTipsColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Racks_Modules" msdata:parent="Racks" msdata:child="Modules" msdata:parentkey="RackNumber" msdata:childkey="RackNumber" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

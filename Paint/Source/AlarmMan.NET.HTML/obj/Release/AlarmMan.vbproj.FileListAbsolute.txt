@@ -1,0 +1,13 @@
+C:\Paint\VbApps\AlarmMan.exe
+C:\Paint\VbApps\AlarmMan.pdb
+C:\Paint\Source\AlarmMan.NET.HTML\obj\Release\ResolveAssemblyReference.cache
+C:\Paint\Source\AlarmMan.NET.HTML\obj\Release\AlarmMan.CommonStrings.resources
+C:\Paint\Source\AlarmMan.NET.HTML\obj\Release\AlarmMan.frmPrintOptions.resources
+C:\Paint\Source\AlarmMan.NET.HTML\obj\Release\AlarmMan.frmHelp.resources
+C:\Paint\Source\AlarmMan.NET.HTML\obj\Release\AlarmMan.frmMain.resources
+C:\Paint\Source\AlarmMan.NET.HTML\obj\Release\AlarmMan.Resources.resources
+C:\Paint\Source\AlarmMan.NET.HTML\obj\Release\AlarmMan.PLCAlarmStrings.resources
+C:\Paint\Source\AlarmMan.NET.HTML\obj\Release\AlarmMan.ProjectStrings.resources
+C:\Paint\Source\AlarmMan.NET.HTML\obj\Release\AlarmMan.vbproj.GenerateResource.Cache
+C:\Paint\Source\AlarmMan.NET.HTML\obj\Release\AlarmMan.exe
+C:\Paint\Source\AlarmMan.NET.HTML\obj\Release\AlarmMan.pdb

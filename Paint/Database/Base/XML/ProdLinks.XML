@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XML>
+  <ProdZones>
+    <ProdZone>
+      <ID>1</ID>
+      <ZoneName>Prime</ZoneName>
+      <StatusTag>Z1ProdStatus</StatusTag>
+      <AckTag>Z1ProdAck</AckTag>
+    </ProdZone>
+    <ProdZone>
+      <ID>2</ID>
+      <ZoneName>Base</ZoneName>
+      <StatusTag>Z2ProdStatus</StatusTag>
+      <AckTag>Z2ProdAck</AckTag>
+    </ProdZone>
+  </ProdZones>
+  <ProdDevices>
+    <ProdDevice>
+      <ID>1</ID>
+      <ZoneName>Prime</ZoneName>
+      <DeviceName>P1</DeviceName>
+      <BitIndex>1</BitIndex>
+      <Tag>P1ProdData</Tag>
+    </ProdDevice>
+    <ProdDevice>
+      <ID>2</ID>
+      <ZoneName>Prime</ZoneName>
+      <DeviceName>P2</DeviceName>
+      <BitIndex>2</BitIndex>
+      <Tag>P2ProdData</Tag>
+    </ProdDevice>
+    <ProdDevice>
+      <ID>3</ID>
+      <ZoneName>Base</ZoneName>
+      <DeviceName>B1</DeviceName>
+      <BitIndex>1</BitIndex>
+      <Tag>B1ProdData</Tag>
+    </ProdDevice>
+    <ProdDevice>
+      <ID>4</ID>
+      <ZoneName>Base</ZoneName>
+      <DeviceName>B2</DeviceName>
+      <BitIndex>2</BitIndex>
+      <Tag>B2ProdData</Tag>
+    </ProdDevice>
+  </ProdDevices>
+</XML>

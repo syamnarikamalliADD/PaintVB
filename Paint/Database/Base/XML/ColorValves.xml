@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ColorValves>
+  <Prime>
+    <ColorValve>
+      <ValveNumber>1</ValveNumber>
+      <Description>Color ABCD</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>2</ValveNumber>
+      <Description>Color 2</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>3</ValveNumber>
+      <Description>Color 3</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>4</ValveNumber>
+      <Description>Color 4</Description>
+    </ColorValve>
+  </Prime>
+  <Base>
+    <ColorValve>
+      <ValveNumber>1</ValveNumber>
+      <Description>Color 1</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>2</ValveNumber>
+      <Description>Color 2</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>3</ValveNumber>
+      <Description>Color 3</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>4</ValveNumber>
+      <Description>Valve 4 Desc</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>5</ValveNumber>
+      <Description>Color 5</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>6</ValveNumber>
+      <Description>Color 6</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>7</ValveNumber>
+      <Description>Color 7</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>8</ValveNumber>
+      <Description>Color 8</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>9</ValveNumber>
+      <Description>Color 9</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>10</ValveNumber>
+      <Description>Color 10</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>11</ValveNumber>
+      <Description>Color 11</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>12</ValveNumber>
+      <Description>Color 12</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>13</ValveNumber>
+      <Description>Color 13</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>14</ValveNumber>
+      <Description>Color 14</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>15</ValveNumber>
+      <Description>Fancy Blue Pig Color 1</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>16</ValveNumber>
+      <Description>Less Fancy Black Pig Color 2</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>17</ValveNumber>
+      <Description>Super Dooper Red Pig Color 3</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>18</ValveNumber>
+      <Description>Color 18</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>19</ValveNumber>
+      <Description>Color 19</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>20</ValveNumber>
+      <Description>Color 20</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>21</ValveNumber>
+      <Description>Color 21</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>22</ValveNumber>
+      <Description>Color 22</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>23</ValveNumber>
+      <Description>Color 23</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>24</ValveNumber>
+      <Description>Color 24</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>25</ValveNumber>
+      <Description>Color 25</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>26</ValveNumber>
+      <Description>Color 26</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>27</ValveNumber>
+      <Description>Color 27</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>28</ValveNumber>
+      <Description>Color 28</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>29</ValveNumber>
+      <Description>Color 29</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>30</ValveNumber>
+      <Description>Color 30</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>31</ValveNumber>
+      <Description>Color 31</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>32</ValveNumber>
+      <Description>Color 32</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>33</ValveNumber>
+      <Description>Color 33</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>34</ValveNumber>
+      <Description>Color 34</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>35</ValveNumber>
+      <Description>Color 35</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>36</ValveNumber>
+      <Description>Color 36</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>37</ValveNumber>
+      <Description>Color 37</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>38</ValveNumber>
+      <Description>Color 38</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>39</ValveNumber>
+      <Description>Color 39</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>40</ValveNumber>
+      <Description>Color 40</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>41</ValveNumber>
+      <Description>Color 41</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>42</ValveNumber>
+      <Description>Color 42</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>43</ValveNumber>
+      <Description>Color 43</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>44</ValveNumber>
+      <Description>Color 44</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>45</ValveNumber>
+      <Description>Color 45</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>46</ValveNumber>
+      <Description>Color 46</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>47</ValveNumber>
+      <Description>Color 47</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>48</ValveNumber>
+      <Description>Color 48</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>49</ValveNumber>
+      <Description>Color 49</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>50</ValveNumber>
+      <Description>Color 50</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>51</ValveNumber>
+      <Description>Color 51</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>52</ValveNumber>
+      <Description>Color 52</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>53</ValveNumber>
+      <Description>Color 53</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>54</ValveNumber>
+      <Description>Color 54</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>55</ValveNumber>
+      <Description>Color 55</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>56</ValveNumber>
+      <Description>Color 56</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>57</ValveNumber>
+      <Description>Color 57</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>58</ValveNumber>
+      <Description>Color 58</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>59</ValveNumber>
+      <Description>Color 59</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>60</ValveNumber>
+      <Description>Color 60</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>61</ValveNumber>
+      <Description>Color 61</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>62</ValveNumber>
+      <Description>Color 62</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>63</ValveNumber>
+      <Description>Color 63</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>64</ValveNumber>
+      <Description>Color 64</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>65</ValveNumber>
+      <Description>Color 65</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>66</ValveNumber>
+      <Description>Color 66</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>67</ValveNumber>
+      <Description>Color 67</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>68</ValveNumber>
+      <Description>Color 68</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>69</ValveNumber>
+      <Description>Color 69</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>70</ValveNumber>
+      <Description>Color 70</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>71</ValveNumber>
+      <Description>Color 71</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>72</ValveNumber>
+      <Description>Color 72</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>73</ValveNumber>
+      <Description>Color 73</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>74</ValveNumber>
+      <Description>Color 74</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>75</ValveNumber>
+      <Description>Color 75</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>76</ValveNumber>
+      <Description>Color 76</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>77</ValveNumber>
+      <Description>Color 77</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>78</ValveNumber>
+      <Description>Color 78</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>79</ValveNumber>
+      <Description>Color 79</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>80</ValveNumber>
+      <Description>Color 80</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>81</ValveNumber>
+      <Description>Color 81</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>82</ValveNumber>
+      <Description>Color 82</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>83</ValveNumber>
+      <Description>Color 83</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>84</ValveNumber>
+      <Description>Color 84</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>85</ValveNumber>
+      <Description>Color 85</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>86</ValveNumber>
+      <Description>Color 86</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>87</ValveNumber>
+      <Description>Color 87</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>88</ValveNumber>
+      <Description>Color 88</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>89</ValveNumber>
+      <Description>Color 89</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>90</ValveNumber>
+      <Description>Color 90</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>91</ValveNumber>
+      <Description>Color 91</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>92</ValveNumber>
+      <Description>Color 92</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>93</ValveNumber>
+      <Description>Color 93</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>94</ValveNumber>
+      <Description>Color 94</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>95</ValveNumber>
+      <Description>Color 95</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>96</ValveNumber>
+      <Description>Color 96</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>97</ValveNumber>
+      <Description>Color 97</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>98</ValveNumber>
+      <Description>Color 98</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>99</ValveNumber>
+      <Description>Color 99</Description>
+    </ColorValve>
+  </Base>
+  <Mica>
+    <ColorValve>
+      <ValveNumber>1</ValveNumber>
+      <Description>Color 1</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>2</ValveNumber>
+      <Description>Color 2</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>3</ValveNumber>
+      <Description>Color 3</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>4</ValveNumber>
+      <Description>Color 4</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>5</ValveNumber>
+      <Description>Color 5</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>6</ValveNumber>
+      <Description>Color 6</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>7</ValveNumber>
+      <Description>Color 7</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>8</ValveNumber>
+      <Description>Color 8</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>9</ValveNumber>
+      <Description>Color 9</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>10</ValveNumber>
+      <Description>Color 10</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>11</ValveNumber>
+      <Description>Color 11</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>12</ValveNumber>
+      <Description>Color 12</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>13</ValveNumber>
+      <Description>Color 13</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>14</ValveNumber>
+      <Description>Color 14</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>15</ValveNumber>
+      <Description>Pig color 1</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>16</ValveNumber>
+      <Description>Pig Color 2</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>17</ValveNumber>
+      <Description>Pig Color 3</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>18</ValveNumber>
+      <Description>Color 18</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>19</ValveNumber>
+      <Description>Color 19</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>20</ValveNumber>
+      <Description>Color 20</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>21</ValveNumber>
+      <Description>Color 21</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>22</ValveNumber>
+      <Description>Color 22</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>23</ValveNumber>
+      <Description>Color 23</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>24</ValveNumber>
+      <Description>Color 24</Description>
+    </ColorValve>
+  </Mica>
+  <Clear>
+    <ColorValve>
+      <ValveNumber>1</ValveNumber>
+      <Description>Color 10</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>2</ValveNumber>
+      <Description>Color 2</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>3</ValveNumber>
+      <Description>Color 3</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>4</ValveNumber>
+      <Description>Color 4</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>5</ValveNumber>
+      <Description>Color 5</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>6</ValveNumber>
+      <Description>Color 6</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>7</ValveNumber>
+      <Description>Color 7</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>8</ValveNumber>
+      <Description>Color 8</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>9</ValveNumber>
+      <Description>Color 9</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>10</ValveNumber>
+      <Description>Color 10</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>11</ValveNumber>
+      <Description>Color 11</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>12</ValveNumber>
+      <Description>Color 12</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>13</ValveNumber>
+      <Description>Color 13</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>14</ValveNumber>
+      <Description>Color 14</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>15</ValveNumber>
+      <Description>Pig Color 1</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>16</ValveNumber>
+      <Description>Pig Color 2</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>17</ValveNumber>
+      <Description>Pig color 3</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>18</ValveNumber>
+      <Description>Color 18</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>19</ValveNumber>
+      <Description>Color 19</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>20</ValveNumber>
+      <Description>Color 20</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>21</ValveNumber>
+      <Description>Color 21</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>22</ValveNumber>
+      <Description>Color 22</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>23</ValveNumber>
+      <Description>Color 23</Description>
+    </ColorValve>
+    <ColorValve>
+      <ValveNumber>24</ValveNumber>
+      <Description>Color 24</Description>
+    </ColorValve>
+  </Clear>
+</ColorValves>

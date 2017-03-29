@@ -1,0 +1,10 @@
+C:\Paint\vbapps\LogixTagconverter.exe
+C:\Paint\vbapps\LogixTagconverter.pdb
+C:\Paint\vbapps\LogixTagconverter.xml
+C:\Paint\Source\View\LogixTagConverter\obj\Release\ResolveAssemblyReference.cache
+C:\Paint\Source\View\LogixTagConverter\obj\Release\LogixTagConverter.frmMain.resources
+C:\Paint\Source\View\LogixTagConverter\obj\Release\LogixTagConverter.Resources.resources
+C:\Paint\Source\View\LogixTagConverter\obj\Release\LogixTagconverter.vbproj.GenerateResource.Cache
+C:\Paint\Source\View\LogixTagConverter\obj\Release\LogixTagconverter.exe
+C:\Paint\Source\View\LogixTagConverter\obj\Release\LogixTagconverter.xml
+C:\Paint\Source\View\LogixTagConverter\obj\Release\LogixTagconverter.pdb

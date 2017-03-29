@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="rsSTEP" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="rsNUM_STEPS" xml:space="preserve">
+    <value>number of steps</value>
+  </data>
+  <data name="rsVALVE" xml:space="preserve">
+    <value>Valve</value>
+  </data>
+  <data name="rsPRESET" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="rsDURATION" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="rsNONE" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="rsACTIONEVENT" xml:space="preserve">
+    <value>Action/Event</value>
+  </data>
+  <data name="rsNODESCRIPTION" xml:space="preserve">
+    <value>No Description</value>
+  </data>
+  <data name="rsPSP_CAP" xml:space="preserve">
+    <value>PSP</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsPAP_CAP" xml:space="preserve">
+    <value>PAP</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsPT_CAP" xml:space="preserve">
+    <value>PT</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsUnused_CAP" xml:space="preserve">
+    <value>Unused</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsCE_CAP" xml:space="preserve">
+    <value>Color Enable</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsACSP_CAP" xml:space="preserve">
+    <value>ACSP</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsACAP_CAP" xml:space="preserve">
+    <value>Gun Cleaner Air</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsPD_CAP" xml:space="preserve">
+    <value>pDUMP</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsRO_CAP" xml:space="preserve">
+    <value>Regulator Override</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsPP_CAP" xml:space="preserve">
+    <value>Piston Pressure</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsPF_CAP" xml:space="preserve">
+    <value>Paint Fill</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsPT" xml:space="preserve">
+    <value>Trigget</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsUnused" xml:space="preserve">
+    <value>NA</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsCE" xml:space="preserve">
+    <value>CE</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsACSP" xml:space="preserve">
+    <value>ACSP</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsPSP" xml:space="preserve">
+    <value>Purge Solvent</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsPAP" xml:space="preserve">
+    <value>Purge Air Pilot</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsPD" xml:space="preserve">
+    <value>PD</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsRO" xml:space="preserve">
+    <value>RO</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsPOS_ATBYPASS" xml:space="preserve">
+    <value>At Bypass</value>
+  </data>
+  <data name="rsPOS_BYPASS" xml:space="preserve">
+    <value>Bypass</value>
+  </data>
+  <data name="rsPOS_CANC_CONT" xml:space="preserve">
+    <value>Wait Canc/Cont</value>
+  </data>
+  <data name="rsPOS_CONC_ONLY" xml:space="preserve">
+    <value>Wait Canc Only</value>
+  </data>
+  <data name="rsPOS_HOME" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="rsPOS_INCYCLE" xml:space="preserve">
+    <value>In Cycle</value>
+  </data>
+  <data name="rsPOS_PURGE" xml:space="preserve">
+    <value>Purge</value>
+  </data>
+  <data name="rsPOS_SP1" xml:space="preserve">
+    <value>Special 1</value>
+  </data>
+  <data name="rsPOS_SP2" xml:space="preserve">
+    <value>Special 2</value>
+  </data>
+  <data name="rsPOS_UNKNOWN" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="rsCONNSTAT_AVAIL" xml:space="preserve">
+    <value>AVAILABLE</value>
+  </data>
+  <data name="rsCONNSTAT_CONNECTED" xml:space="preserve">
+    <value>CONNECTED</value>
+  </data>
+  <data name="rsCONNSTAT_DISCONNECTING" xml:space="preserve">
+    <value>DISCONNECTING</value>
+  </data>
+  <data name="rsCONNSTAT_UNAVAIL" xml:space="preserve">
+    <value>UNAVAILABLE</value>
+  </data>
+  <data name="rsCONNSTAT_UNKNOWN" xml:space="preserve">
+    <value>UNKNOWN</value>
+  </data>
+  <data name="rspTRIG_CAP" xml:space="preserve">
+    <value>pTRIG</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rsRESERVED_CAP" xml:space="preserve">
+    <value>Reserved</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rsRESERVED" xml:space="preserve">
+    <value>Reserved</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspCC1_24_CAP" xml:space="preserve">
+    <value>pCE</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspIW" xml:space="preserve">
+    <value>pIW</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspIW_CAP" xml:space="preserve">
+    <value>pIW</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspBW_CAP" xml:space="preserve">
+    <value>pBW</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspSOL_CAP" xml:space="preserve">
+    <value>pSOL</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspAIR_CAP" xml:space="preserve">
+    <value>pAir</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspCC_CAP" xml:space="preserve">
+    <value>PCC</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspDUMP_CAP" xml:space="preserve">
+    <value>pDUMP</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspFLUSH_CAP" xml:space="preserve">
+    <value>Flush</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspSEAL_CAP" xml:space="preserve">
+    <value>pSeal</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspDUMP2_CAP" xml:space="preserve">
+    <value>pDUMP2</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspVENT_CAP" xml:space="preserve">
+    <value>pVent</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspBW" xml:space="preserve">
+    <value>Bell Wash</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspSOL" xml:space="preserve">
+    <value>Purge Solvent</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspAIR" xml:space="preserve">
+    <value>Purge Air</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rsACA_CAP" xml:space="preserve">
+    <value>ACA</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspACS_CAP" xml:space="preserve">
+    <value>pACS</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rsAIR_SUPPLY" xml:space="preserve">
+    <value>AIR SUPPLY</value>
+    <comment>Header Text</comment>
+  </data>
+  <data name="rsSOLVENT_SUPPLY" xml:space="preserve">
+    <value>SOLVENT SUPPLY</value>
+    <comment>Header Text</comment>
+  </data>
+  <data name="rsPAINT_SUPPLY" xml:space="preserve">
+    <value>PAINTSUPPLY</value>
+  </data>
+  <data name="rsACCUSTAT" xml:space="preserve">
+    <value>Accustat</value>
+    <comment>Applicator name displays</comment>
+  </data>
+  <data name="rsAQUABELL" xml:space="preserve">
+    <value>AquaBell</value>
+    <comment>Applicator name displays</comment>
+  </data>
+  <data name="rsBELL" xml:space="preserve">
+    <value>Bell</value>
+    <comment>Applicator name displays</comment>
+  </data>
+  <data name="rsBELL2K" xml:space="preserve">
+    <value>2K Bell</value>
+    <comment>Applicator name long form</comment>
+  </data>
+  <data name="rsGUN" xml:space="preserve">
+    <value>Gun</value>
+    <comment>Applicator name displays</comment>
+  </data>
+  <data name="rsGUN_2K" xml:space="preserve">
+    <value>2K Gun</value>
+    <comment>Applicator name long form</comment>
+  </data>
+  <data name="rsGUN_DUAL_PURGE" xml:space="preserve">
+    <value>Dual Purge Gun</value>
+    <comment>Applicator name long form</comment>
+  </data>
+  <data name="rsGUN_MOD_DUAL_PURGE" xml:space="preserve">
+    <value>Mod. Dual Purge Gun</value>
+    <comment>Applicator name long form</comment>
+  </data>
+  <data name="rsGUN_SINGLE_PURGE" xml:space="preserve">
+    <value>Single Purge Gun</value>
+    <comment>Applicator name long form</comment>
+  </data>
+  <data name="rsPOWDER" xml:space="preserve">
+    <value>Powder</value>
+    <comment>Applicator name displays</comment>
+  </data>
+  <data name="rsSERVOBELL" xml:space="preserve">
+    <value>Servobell</value>
+    <comment>Applicator name displays</comment>
+  </data>
+  <data name="rsVERSABELL" xml:space="preserve">
+    <value>Versabell</value>
+    <comment>Applicator name displays</comment>
+  </data>
+  <data name="rsVERSABELL2" xml:space="preserve">
+    <value>Versabell II</value>
+    <comment>Applicator name long form</comment>
+  </data>
+  <data name="rsVERSABELL2_2K" xml:space="preserve">
+    <value>Versabell II 2K</value>
+    <comment>Applicator name long form</comment>
+  </data>
+  <data name="rsVERSABELL2_2K_1PLUS1" xml:space="preserve">
+    <value>Versabell II 2K 1+1</value>
+    <comment>Applicator name long form</comment>
+  </data>
+  <data name="rsVERSABELL2_2K_MULTIRESIN" xml:space="preserve">
+    <value>Versabell 2K Multiresin</value>
+    <comment>Applicator name long form</comment>
+  </data>
+  <data name="rsVERSABELL2_PLUS" xml:space="preserve">
+    <value>Versabell II+</value>
+    <comment>Applicator name long form</comment>
+  </data>
+  <data name="rsVERSABELL2_WB" xml:space="preserve">
+    <value>P-500 WB</value>
+    <comment>Applicator name long form</comment>
+  </data>
+  <data name="rsVERSABELL_2K" xml:space="preserve">
+    <value>Versabell 2K</value>
+    <comment>Applicator name long form</comment>
+  </data>
+  <data name="rs_CMD_FLOW_CCMIN" xml:space="preserve">
+    <value>Commanded Flow (cc/min)</value>
+  </data>
+  <data name="rsATOMAIR" xml:space="preserve">
+    <value>Atom Air</value>
+    <comment>Labels for flow test</comment>
+  </data>
+  <data name="rsBELLSPEED" xml:space="preserve">
+    <value>Bell Speed</value>
+    <comment>Labels for flow test</comment>
+  </data>
+  <data name="rsCCMIN" xml:space="preserve">
+    <value>cc/min</value>
+    <comment>Labels for flow test</comment>
+  </data>
+  <data name="rsESTAT" xml:space="preserve">
+    <value>E-stat</value>
+    <comment>Labels for flow test</comment>
+  </data>
+  <data name="rsFANAIR" xml:space="preserve">
+    <value>Fan Air</value>
+    <comment>Labels for flow test</comment>
+  </data>
+  <data name="rsFLOWRATE" xml:space="preserve">
+    <value>Flow Rate</value>
+    <comment>Labels for flow test</comment>
+  </data>
+  <data name="rsKV" xml:space="preserve">
+    <value>kV</value>
+    <comment>Labels for flow test</comment>
+  </data>
+  <data name="rsLPM" xml:space="preserve">
+    <value>lpm</value>
+    <comment>Labels for flow test</comment>
+  </data>
+  <data name="rsPSI" xml:space="preserve">
+    <value>psi</value>
+    <comment>Labels for flow test</comment>
+  </data>
+  <data name="rsSHAPINGAIR" xml:space="preserve">
+    <value>Shaping Air 1</value>
+    <comment>Labels for flow test</comment>
+  </data>
+  <data name="rsUA" xml:space="preserve">
+    <value>µA</value>
+    <comment>Labels for flow test</comment>
+  </data>
+  <data name="rsKRPM" xml:space="preserve">
+    <value>krpm</value>
+    <comment>Labels for flow test</comment>
+  </data>
+  <data name="rsREG_ORIDE" xml:space="preserve">
+    <value>Regulator Override</value>
+  </data>
+  <data name="rspPE_CAP" xml:space="preserve">
+    <value>pPE</value>
+    <comment>Versabell 2+ valve names</comment>
+  </data>
+  <data name="rsp2T" xml:space="preserve">
+    <value>p2T</value>
+    <comment>Versabell 2+ valve names</comment>
+  </data>
+  <data name="rsACA" xml:space="preserve">
+    <value>ACA</value>
+    <comment>Versabell 2+ valve names</comment>
+  </data>
+  <data name="rspACS" xml:space="preserve">
+    <value>App Cleaner Solvent</value>
+    <comment>Versabell 2+ valve names</comment>
+  </data>
+  <data name="rspACVA" xml:space="preserve">
+    <value>pACVA</value>
+    <comment>Versabell 2+ valve names</comment>
+  </data>
+  <data name="rsOUT_PRESSURE" xml:space="preserve">
+    <value>Outlet Pressure (psi)</value>
+    <comment>Versabell cartoon labels</comment>
+  </data>
+  <data name="rsCOUNTS" xml:space="preserve">
+    <value>Counts</value>
+    <comment>Counts</comment>
+  </data>
+  <data name="rsENG_UNITS" xml:space="preserve">
+    <value>Engineering Units</value>
+    <comment>Engineering units</comment>
+  </data>
+  <data name="rsPAINT" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="rsCC_PRESETS" xml:space="preserve">
+    <value>Color Change Presets</value>
+  </data>
+  <data name="rsNO_ACTION" xml:space="preserve">
+    <value>No Action</value>
+  </data>
+  <data name="rsNO_EVENT" xml:space="preserve">
+    <value>No Event</value>
+  </data>
+  <data name="rsBSC" xml:space="preserve">
+    <value>Bell Speed</value>
+  </data>
+  <data name="rsBSC_CAP" xml:space="preserve">
+    <value>Bell Speed krpm</value>
+  </data>
+  <data name="rsES" xml:space="preserve">
+    <value>Estat</value>
+  </data>
+  <data name="rsES_CAP" xml:space="preserve">
+    <value>Estat kv</value>
+  </data>
+  <data name="rsNA" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="rsNA_CAP" xml:space="preserve">
+    <value>Paint cc/min</value>
+  </data>
+  <data name="rsSA2" xml:space="preserve">
+    <value>Shaping Air 2</value>
+  </data>
+  <data name="rsSA2_CAP" xml:space="preserve">
+    <value>Shaping Air 2 sLPM</value>
+  </data>
+  <data name="rsSAC" xml:space="preserve">
+    <value>Shaping Air</value>
+  </data>
+  <data name="rsSAC_CAP" xml:space="preserve">
+    <value>Shaping Air sLPM</value>
+  </data>
+  <data name="rsAA" xml:space="preserve">
+    <value>Atomizing Air</value>
+  </data>
+  <data name="rsAA_CAP" xml:space="preserve">
+    <value>Atomizing Air psi</value>
+  </data>
+  <data name="rsAA_UNITS" xml:space="preserve">
+    <value>psi</value>
+  </data>
+  <data name="rsBSC_UNITS" xml:space="preserve">
+    <value>krpm</value>
+  </data>
+  <data name="rsFA" xml:space="preserve">
+    <value>Fan Air</value>
+  </data>
+  <data name="rsFA_CAP" xml:space="preserve">
+    <value>Fan Air psi</value>
+  </data>
+  <data name="rsFA_UNITS" xml:space="preserve">
+    <value>psi</value>
+  </data>
+  <data name="rsFF" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="rsFF_CAP" xml:space="preserve">
+    <value>Paint cc/min</value>
+  </data>
+  <data name="rsFF_UNITS" xml:space="preserve">
+    <value>cc/min</value>
+  </data>
+  <data name="rsNA_UNITS" xml:space="preserve">
+    <value>cc/min</value>
+  </data>
+  <data name="rsSA2_UNITS" xml:space="preserve">
+    <value>sLPM</value>
+  </data>
+  <data name="rsSAC_UNITS" xml:space="preserve">
+    <value>sLPM</value>
+  </data>
+  <data name="rsVOL" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="rsVOL_CAP" xml:space="preserve">
+    <value>Volume cc</value>
+  </data>
+  <data name="rsVOL_UNITS" xml:space="preserve">
+    <value>cc</value>
+  </data>
+  <data name="rsAbove_Cleaner" xml:space="preserve">
+    <value>Wait for above cleaner</value>
+  </data>
+  <data name="rsACVA" xml:space="preserve">
+    <value>App Cleaner Vacuum Air</value>
+  </data>
+  <data name="rsACVA_CAP" xml:space="preserve">
+    <value>ACVA</value>
+  </data>
+  <data name="rsAt_Home" xml:space="preserve">
+    <value>Wait for at home</value>
+  </data>
+  <data name="rsAt_Purge" xml:space="preserve">
+    <value>Wait for at purge</value>
+  </data>
+  <data name="rsCap_Clean_Cycle" xml:space="preserve">
+    <value>Cap Clean Cycle</value>
+  </data>
+  <data name="rsClean_Out_Cycle" xml:space="preserve">
+    <value>Clean Out Cycle</value>
+  </data>
+  <data name="rsExit_App_Clnr" xml:space="preserve">
+    <value>Exit applicator cleaner.</value>
+  </data>
+  <data name="rsFast_Fill" xml:space="preserve">
+    <value>Fast Fill</value>
+  </data>
+  <data name="rsFill_Cycle" xml:space="preserve">
+    <value>Fill Cycle</value>
+  </data>
+  <data name="rsFull_Push_to_Dump" xml:space="preserve">
+    <value>Full Push to Dump</value>
+  </data>
+  <data name="rsGoto_App_Clnr" xml:space="preserve">
+    <value>Go to Applicator Cleaner position.</value>
+  </data>
+  <data name="rsGoto_CanEmpty" xml:space="preserve">
+    <value>Go to Can Empty position.</value>
+  </data>
+  <data name="rsGoto_CanFull" xml:space="preserve">
+    <value>Go to Can Full position.</value>
+  </data>
+  <data name="rsGoto_Home" xml:space="preserve">
+    <value>Go to Home position.</value>
+  </data>
+  <data name="rsGoto_Purge" xml:space="preserve">
+    <value>Go to Purge position.</value>
+  </data>
+  <data name="rsIn_Cleaner" xml:space="preserve">
+    <value>Wait for in cleaner</value>
+  </data>
+  <data name="rsMotor_To_Stop" xml:space="preserve">
+    <value>Wait for motor to stop</value>
+  </data>
+  <data name="rsp2T_CAP" xml:space="preserve">
+    <value>p2T</value>
+  </data>
+  <data name="rspCAN" xml:space="preserve">
+    <value>Canister</value>
+  </data>
+  <data name="rspCAN_CAP" xml:space="preserve">
+    <value>pCAN</value>
+  </data>
+  <data name="rspCC" xml:space="preserve">
+    <value>Purge Color Changer</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspCC1_24" xml:space="preserve">
+    <value>Color Enable</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspDUMP" xml:space="preserve">
+    <value>Dump </value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspDUMP2" xml:space="preserve">
+    <value>Dump 2</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rsPF" xml:space="preserve">
+    <value>PF</value>
+  </data>
+  <data name="rspFLULSH" xml:space="preserve">
+    <value>pFLUSH</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspFLUSH" xml:space="preserve">
+    <value>Flush</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspIAIR" xml:space="preserve">
+    <value>pIAIR</value>
+  </data>
+  <data name="rspIAIR_CAP" xml:space="preserve">
+    <value>pIAIR</value>
+  </data>
+  <data name="rsPP" xml:space="preserve">
+    <value>PP</value>
+  </data>
+  <data name="rspPAINT" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="rspPAINT_CAP" xml:space="preserve">
+    <value>pPAINT</value>
+  </data>
+  <data name="rspPE" xml:space="preserve">
+    <value>Paint Enable</value>
+  </data>
+  <data name="rspPI" xml:space="preserve">
+    <value>pPI</value>
+  </data>
+  <data name="rspPI_CAP" xml:space="preserve">
+    <value>pPI</value>
+  </data>
+  <data name="rspSEAL" xml:space="preserve">
+    <value>Seal</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rspSOL2" xml:space="preserve">
+    <value>Solvent 2</value>
+  </data>
+  <data name="rspSOL2_CAP" xml:space="preserve">
+    <value>pSOL2</value>
+  </data>
+  <data name="rspTRIG" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="rsPush_Out_Cycle" xml:space="preserve">
+    <value>Push Out Cycle</value>
+  </data>
+  <data name="rspVAC" xml:space="preserve">
+    <value>pVAC</value>
+  </data>
+  <data name="rspVAC_CAP" xml:space="preserve">
+    <value>pVAC</value>
+  </data>
+  <data name="rspVAIR" xml:space="preserve">
+    <value>pVAIR</value>
+  </data>
+  <data name="rspVAIR_CAP" xml:space="preserve">
+    <value>pVAIR</value>
+  </data>
+  <data name="rspVENT" xml:space="preserve">
+    <value>Vent</value>
+    <comment>For Versabell</comment>
+  </data>
+  <data name="rsRefill_Cycle" xml:space="preserve">
+    <value>Refill Cycle</value>
+  </data>
+  <data name="rsSlow_Fill" xml:space="preserve">
+    <value>Slow Fill</value>
+  </data>
+  <data name="rsSpare_1" xml:space="preserve">
+    <value>Spare Cycle 1</value>
+  </data>
+  <data name="rsSuper_Purge" xml:space="preserve">
+    <value>Super Purge</value>
+  </data>
+  <data name="rsWAIT_FOR_TORQ" xml:space="preserve">
+    <value>Wait for torque</value>
+  </data>
+  <data name="rsHONDA_1K" xml:space="preserve">
+    <value>Honda 1k</value>
+  </data>
+  <data name="rsHONDA_WB" xml:space="preserve">
+    <value>Honda Waterborne</value>
+  </data>
+  <data name="rsVERSABELL2_PLUS_WB" xml:space="preserve">
+    <value>P-700 WB</value>
+  </data>
+  <data name="rsSHAPINGAIR2" xml:space="preserve">
+    <value>Shaping Air 2</value>
+    <comment>Labels for flow test</comment>
+  </data>
+  <data name="rsSA2Cap" xml:space="preserve">
+    <value>SA 2</value>
+  </data>
+  <data name="rsSACap" xml:space="preserve">
+    <value>SA 1</value>
+  </data>
+  <data name="rspCUP_AH_CAP" xml:space="preserve">
+    <value>Cup A-H</value>
+  </data>
+  <data name="rspCUP_AL_CAP" xml:space="preserve">
+    <value>Cup A-L</value>
+  </data>
+  <data name="rspCUP_SP_CAP" xml:space="preserve">
+    <value>Cup S-P</value>
+  </data>
+  <data name="rspDV_CAP" xml:space="preserve">
+    <value>pDV</value>
+  </data>
+  <data name="rspGV_CAP" xml:space="preserve">
+    <value>pGV</value>
+  </data>
+  <data name="rspCUP_AH" xml:space="preserve">
+    <value>Cup A-H</value>
+  </data>
+  <data name="rspCUP_AL" xml:space="preserve">
+    <value>Cup A-L</value>
+  </data>
+  <data name="rspCUP_SP" xml:space="preserve">
+    <value>Cup S-P</value>
+  </data>
+  <data name="rspDV" xml:space="preserve">
+    <value>pDV</value>
+  </data>
+  <data name="rspGV" xml:space="preserve">
+    <value>pGV</value>
+  </data>
+  <data name="rsSA" xml:space="preserve">
+    <value>Shaping Air 1</value>
+  </data>
+  <data name="rsSA_CAP" xml:space="preserve">
+    <value>Shaping Air 1 sLPM</value>
+  </data>
+  <data name="rsSA_UNITS" xml:space="preserve">
+    <value>sLPM</value>
+  </data>
+  <data name="rsCAN_POS" xml:space="preserve">
+    <value>Canister Position</value>
+  </data>
+  <data name="rsCAN_TORQUE" xml:space="preserve">
+    <value>Canister Torque</value>
+  </data>
+  <data name="rsGoto_DeDock" xml:space="preserve">
+    <value>Go to DeDock</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsGoto_Dock" xml:space="preserve">
+    <value>Go to Dock</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rspACA" xml:space="preserve">
+    <value>App Clener Air</value>
+    <comment>Versabell 2+ valve names</comment>
+  </data>
+  <data name="rspACA_CAP" xml:space="preserve">
+    <value>pACA</value>
+    <comment>Versabell 2+ valve names</comment>
+  </data>
+  <data name="rspACDA" xml:space="preserve">
+    <value>App Cleaner Dry Air</value>
+    <comment>Versabell 2+ valve names</comment>
+  </data>
+  <data name="rspACDA_CAP" xml:space="preserve">
+    <value>pACDA</value>
+    <comment>Versabell 2+ valve names</comment>
+  </data>
+  <data name="rspDUMP3" xml:space="preserve">
+    <value>#WB#Reserved#DEF#Dump 3</value>
+  </data>
+  <data name="rspDUMP3_CAP" xml:space="preserve">
+    <value>#WB#Reserved#DEF#pDUMP3</value>
+  </data>
+  <data name="rspWASH" xml:space="preserve">
+    <value>Wash</value>
+  </data>
+  <data name="rspWASH_CAP" xml:space="preserve">
+    <value>pWash</value>
+  </data>
+  <data name="rsWB_CAN_POS" xml:space="preserve">
+    <value>Can. Pos. (cc)</value>
+  </data>
+  <data name="rsWB_CAN_TORQUE" xml:space="preserve">
+    <value>Can. Torq. (Amps)</value>
+  </data>
+  <data name="rs1K_Clean_Cycle" xml:space="preserve">
+    <value>1K Clean Cycle</value>
+  </data>
+  <data name="rs1K_Fill_Cycle" xml:space="preserve">
+    <value>1K Fill Cycle</value>
+  </data>
+  <data name="rsCatalyst_Enab" xml:space="preserve">
+    <value>pHE</value>
+  </data>
+  <data name="rsCatalyst_Enab_CAP" xml:space="preserve">
+    <value>pHE</value>
+  </data>
+  <data name="rspFLUSH2" xml:space="preserve">
+    <value>Flush2</value>
+  </data>
+  <data name="rspFLUSH2_CAP" xml:space="preserve">
+    <value>Flush2</value>
+  </data>
+  <data name="rsPot_Life_Fill_Cycl" xml:space="preserve">
+    <value>Pot Life Fill Cycle</value>
+  </data>
+  <data name="rsCap_Cup_Wash_Cycle" xml:space="preserve">
+    <value>Cap/Cup Wash Cycle</value>
+  </data>
+  <data name="rsPot_Life_Clean_Cyc" xml:space="preserve">
+    <value>Pot Life Clean Cycle</value>
+  </data>
+  <data name="rsIN_PRESSURE" xml:space="preserve">
+    <value>Inlet Pressure  (psi)</value>
+  </data>
+  <data name="rsES_UNITS" xml:space="preserve">
+    <value>kv</value>
+  </data>
+  <data name="rsTA" xml:space="preserve">
+    <value>Bell Speed</value>
+  </data>
+  <data name="rsTA_CAP" xml:space="preserve">
+    <value>Bell Speed kRPM</value>
+  </data>
+  <data name="rsBS" xml:space="preserve">
+    <value>Bell Speed</value>
+  </data>
+  <data name="rsBS_CAP" xml:space="preserve">
+    <value>Bell Speed krpm</value>
+  </data>
+  <data name="rsBS_UNITS" xml:space="preserve">
+    <value>krpm</value>
+  </data>
+  <data name="rsColor_Enable" xml:space="preserve">
+    <value>CE</value>
+    <comment>For Accustat</comment>
+  </data>
+  <data name="rsColor_Enable_CAP" xml:space="preserve">
+    <value>Color Enable</value>
+  </data>
+  <data name="rsGun__1" xml:space="preserve">
+    <value>Gun 1</value>
+  </data>
+  <data name="rsGun__1_CAP" xml:space="preserve">
+    <value>Gun 1</value>
+  </data>
+  <data name="rsREG_OVERIDE" xml:space="preserve">
+    <value>RO</value>
+  </data>
+  <data name="rsREG_OVERIDE_CAP" xml:space="preserve">
+    <value>Regulator Override</value>
+  </data>
+  <data name="rsCC_MIN" xml:space="preserve">
+    <value>cc/min</value>
+  </data>
+  <data name="rsBELL_SPEED" xml:space="preserve">
+    <value>Bell Speed</value>
+  </data>
+  <data name="rsESTATS" xml:space="preserve">
+    <value>Estats</value>
+  </data>
+  <data name="rsFLUID_FLOW" xml:space="preserve">
+    <value>Fluid Flow</value>
+  </data>
+  <data name="rsSHAPING_AIR" xml:space="preserve">
+    <value>Shaping Air</value>
+  </data>
+  <data name="rsCCS" xml:space="preserve">
+    <value>cc</value>
+  </data>
+  <data name="rsSLPM" xml:space="preserve">
+    <value>slpm</value>
+  </data>
+  <data name="rspHA" xml:space="preserve">
+    <value>pHA</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rspHA_CAP" xml:space="preserve">
+    <value>High Air</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rspHW" xml:space="preserve">
+    <value>pHW</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rspHW_CAP" xml:space="preserve">
+    <value>High Water</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rspLA" xml:space="preserve">
+    <value>pLA</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rspLA_CAP" xml:space="preserve">
+    <value>Low Air</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rspLW" xml:space="preserve">
+    <value>pLW</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rspLW_CAP" xml:space="preserve">
+    <value>Low Water</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rspWS" xml:space="preserve">
+    <value>pWS</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rspWS_CAP" xml:space="preserve">
+    <value>Water/Solv</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rspX" xml:space="preserve">
+    <value>pX</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rspX_CAP" xml:space="preserve">
+    <value>pX</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rspY" xml:space="preserve">
+    <value>pY</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rspY_CAP" xml:space="preserve">
+    <value>pY</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsWait_S_Unit" xml:space="preserve">
+    <value>Wait for S-Unit</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsHWB_CAN_POS" xml:space="preserve">
+    <value>Can. Pos. (cc)</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsHWB_CAN_TORQUE" xml:space="preserve">
+    <value>Can. Torq. (Amps)</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsHWB_CMD_FLOW_CCMIN" xml:space="preserve">
+    <value>Flow Cmd. (cc/min)</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsHWB_DOCK_POS" xml:space="preserve">
+    <value>Dock Position</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsHWB_DOCK_POS_CLN" xml:space="preserve">
+    <value>Clean</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsHWB_DOCK_POS_DDK" xml:space="preserve">
+    <value>De-Dock</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsHWB_DOCK_POS_DOCK" xml:space="preserve">
+    <value>Dock</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsHWB_DOCK_POS_UNK" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsHWB_DOCK_TORQUE" xml:space="preserve">
+    <value>Dock Force (N)</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsHWB_HIGH_AIR_SUPPLY" xml:space="preserve">
+    <value>HIGH AIR SUPPLY</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsHWB_LOW_AIR_SUPPLY" xml:space="preserve">
+    <value>LOW AIR SUPPLY</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsHWB_WATERSOLV_SUPPLY" xml:space="preserve">
+    <value>WATER/SOLVENT SUPPLY</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsHWB_WATER_SUPPLY" xml:space="preserve">
+    <value>WATER SUPPLY</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsLast_Fill" xml:space="preserve">
+    <value>Last Fill</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsSpare1_Cycle" xml:space="preserve">
+    <value>Spare Cycle 1</value>
+  </data>
+  <data name="rsSpare2_Cycle" xml:space="preserve">
+    <value>Spare Cycle 2</value>
+  </data>
+  <data name="rsGoto_Clean" xml:space="preserve">
+    <value>Go to Clean</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsOne_Fill" xml:space="preserve">
+    <value>One Fill</value>
+    <comment>For Honda WB</comment>
+  </data>
+  <data name="rsBELL_WASH" xml:space="preserve">
+    <value>Bell Wash</value>
+  </data>
+  <data name="rsCLEAN_OUT" xml:space="preserve">
+    <value>Clean Out</value>
+  </data>
+  <data name="rsCLEAN_OUT2" xml:space="preserve">
+    <value>Clean Out 2</value>
+  </data>
+  <data name="rsCLEAN_STACK" xml:space="preserve">
+    <value>Clean Stack</value>
+  </data>
+  <data name="rsCLEAN_STACK2" xml:space="preserve">
+    <value>Clean Stack 2</value>
+  </data>
+  <data name="rsFILL" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="rsFILL2" xml:space="preserve">
+    <value>Fill 2</value>
+  </data>
+  <data name="rsFILL_STACK" xml:space="preserve">
+    <value>Fill Stack</value>
+  </data>
+  <data name="rsFILL_STACK2" xml:space="preserve">
+    <value>Fill Stack 2</value>
+  </data>
+  <data name="rsFULL_PUSH" xml:space="preserve">
+    <value>Full Push</value>
+  </data>
+  <data name="rsFULL_PUSH2" xml:space="preserve">
+    <value>Full Push 2</value>
+  </data>
+  <data name="rsMOTOR2_TO_STO" xml:space="preserve">
+    <value>Wait for motor 2 to stop</value>
+  </data>
+  <data name="rsPBW_BW2_CAP" xml:space="preserve">
+    <value>pBW/BW2</value>
+  </data>
+  <data name="rsPCAN2_CAP" xml:space="preserve">
+    <value>pCAN2</value>
+  </data>
+  <data name="rsPCAN3_CAP" xml:space="preserve">
+    <value>pCAN3</value>
+  </data>
+  <data name="rsPCAN4_CAP" xml:space="preserve">
+    <value>pCAN4</value>
+  </data>
+  <data name="rsPDUMP4_CAP" xml:space="preserve">
+    <value>pDUMP4</value>
+  </data>
+  <data name="rsPIAIR1_CAP" xml:space="preserve">
+    <value>pIAIR1</value>
+  </data>
+  <data name="rsPIAIR2_CAP" xml:space="preserve">
+    <value>pIAIR2</value>
+  </data>
+  <data name="rsPIAIR3_CAP" xml:space="preserve">
+    <value>pIAIR3</value>
+  </data>
+  <data name="rsPIAIR4_CAP" xml:space="preserve">
+    <value>pIAIR4</value>
+  </data>
+  <data name="rsPISOL3_CAP" xml:space="preserve">
+    <value>pISOL3</value>
+  </data>
+  <data name="rsPISOL4_CAP" xml:space="preserve">
+    <value>pISOL4</value>
+  </data>
+  <data name="rsPPAINT2_CAP" xml:space="preserve">
+    <value>pPAINT2</value>
+  </data>
+  <data name="rsPPI1_CAP" xml:space="preserve">
+    <value>pPI1</value>
+  </data>
+  <data name="rsPPI2_CAP" xml:space="preserve">
+    <value>pPI2</value>
+  </data>
+  <data name="rsPSEL1_CAP" xml:space="preserve">
+    <value>pSEL1</value>
+  </data>
+  <data name="rsPSEL2_CAP" xml:space="preserve">
+    <value>pSEL2</value>
+  </data>
+  <data name="rsPVAC2_CAP" xml:space="preserve">
+    <value>pVAC2</value>
+  </data>
+  <data name="rsREFILL" xml:space="preserve">
+    <value>Refill</value>
+  </data>
+  <data name="rsREFILL2" xml:space="preserve">
+    <value>Refill 2</value>
+  </data>
+  <data name="rsSPARE" xml:space="preserve">
+    <value>Spare</value>
+  </data>
+  <data name="rsSPARE1_1" xml:space="preserve">
+    <value>Spare1-1</value>
+  </data>
+  <data name="rsSPARE1_2" xml:space="preserve">
+    <value>Spare1-2</value>
+  </data>
+  <data name="rsSPARE1_3" xml:space="preserve">
+    <value>Spare1-3</value>
+  </data>
+  <data name="rsSPARE1_4" xml:space="preserve">
+    <value>Spare1-4</value>
+  </data>
+  <data name="rsSPARE2_1" xml:space="preserve">
+    <value>Spare2-1</value>
+  </data>
+  <data name="rsSPARE2_2" xml:space="preserve">
+    <value>Spare2-2</value>
+  </data>
+  <data name="rsSPARE2_3" xml:space="preserve">
+    <value>Spare2-3</value>
+  </data>
+  <data name="rsSPARE2_4" xml:space="preserve">
+    <value>Spare2-4</value>
+  </data>
+  <data name="rsTRIG_FILL" xml:space="preserve">
+    <value>Trig Fill</value>
+  </data>
+  <data name="rsTRIG_FILL2" xml:space="preserve">
+    <value>Trig Fill 2</value>
+  </data>
+  <data name="rsVERSABELL3_DUAL_WB" xml:space="preserve">
+    <value>VB 3 Dual Can</value>
+  </data>
+  <data name="rsVERSABELL3_WB" xml:space="preserve">
+    <value>VB 3 WB</value>
+  </data>
+  <data name="rsVERSABELL3" xml:space="preserve">
+    <value>VB III</value>
+  </data>
+  <data name="rsBar" xml:space="preserve">
+    <value>bar</value>
+  </data>
+  <data name="rsSHAPE_AIR2" xml:space="preserve">
+    <value>Shaping Air 2</value>
+  </data>
+  <data name="rsVERSABELL3P1000" xml:space="preserve">
+    <value>VB III P-1000</value>
+  </data>
+</root>

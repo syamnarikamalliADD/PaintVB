@@ -1,0 +1,10 @@
+﻿DMONSchedMan - Schedules
+GM Flint - Flint_Prime
+
+Device: RC_3,DMON Schedules
+Schedule,Comment,File Device,File Name,File Index,File Size,Number of Items,Sample Req.-Act.,Monitor Req.-Act.,Record Req.-Act.,Record Mode,Start Item,Stop Item,Items
+1,Flow Diagnostics,RD:,FLOW,0,0KB,6,25:25,1:1,10:10,Continuous,20:Sample Trigger > 0,20:Sample Trigger < 1,1; 2; 3; 4; 5; 20
+2,Turb Speed/Shap A,RD:,TURBSHAP,0,0KB,6,25:25,1:1,10:10,Continuous,20:Sample Trigger > 0,20:Sample Trigger < 1,6; 7; 8; 9; 4; 20
+3,Bell Diagnostics,RD:,Bell,0,0KB,6,25:25,1:1,10:10,Continuous,20:Sample Trigger > 0,20:Sample Trigger < 1,10; 11; 12; 13; 5; 20
+4,Estat Diagnostics,RD:,ESTAT,0,0KB,6,20:19.23077,20:19.23077,20:19.23077,Continuous,20:Sample Trigger > 0,20:Sample Trigger < 1,16; 17; 18; 19; 5; 20
+5,Color Change,RD:,CC,0,0KB,1,25:25,1:1,10:8.333333,Continuous,Disabled,Disabled,1

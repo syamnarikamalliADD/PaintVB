@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ProdData xmlns="http://tempuri.org/ProdData.xsd">
+  <PLCDataElement>
+    <FieldName>Sequence Number</FieldName>
+    <Offset>2</Offset>
+    <Length>1</Length>
+    <Type>Integer32</Type>
+    <Enable>true</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Carrier Number</FieldName>
+    <Offset>0</Offset>
+    <Length>1</Length>
+    <Type>Integer32</Type>
+    <Enable>true</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>VIN Number</FieldName>
+    <Offset>27</Offset>
+    <Length>1</Length>
+    <Type>Integer32</Type>
+    <Enable>true</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Plant Style</FieldName>
+    <Offset>1</Offset>
+    <Length>1</Length>
+    <Type>Integer32</Type>
+    <Enable>true</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Plant Color</FieldName>
+    <Offset>3</Offset>
+    <Length>1</Length>
+    <Type>Integer32</Type>
+    <Enable>true</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Plant Option</FieldName>
+    <Offset>5</Offset>
+    <Length>1</Length>
+    <Type>Integer32</Type>
+    <Enable>true</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Plant Tutone</FieldName>
+    <Offset>26</Offset>
+    <Length>1</Length>
+    <Type>Integer32</Type>
+    <Enable>true</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Plant Repair</FieldName>
+    <Offset>6</Offset>
+    <Length>2</Length>
+    <Type>Integer32</Type>
+    <Enable>true</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Robot Repair</FieldName>
+    <Offset>0</Offset>
+    <Length>0</Length>
+    <Type>BinaryString32</Type>
+    <Enable>false</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Purge Status</FieldName>
+    <Offset>18</Offset>
+    <Length>1</Length>
+    <Type>Integer32</Type>
+    <Enable>true</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Completion Status</FieldName>
+    <Offset>20</Offset>
+    <Length>1</Length>
+    <Type>Integer32</Type>
+    <Enable>true</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Degrade Status</FieldName>
+    <Offset>19</Offset>
+    <Length>1</Length>
+    <Type>Boolean</Type>
+    <Enable>true</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Cycle Time</FieldName>
+    <Offset>22</Offset>
+    <Length>1</Length>
+    <Type>Float</Type>
+    <Enable>true</Enable>
+    <Scale>10</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Index Time</FieldName>
+    <Offset>37</Offset>
+    <Length>1</Length>
+    <Type>Float</Type>
+    <Enable>false</Enable>
+    <Scale>1000</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>VisionTime</FieldName>
+    <Offset>0</Offset>
+    <Length>0</Length>
+    <Type>Integer16</Type>
+    <Enable>false</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Paint Total 1</FieldName>
+    <Offset>24</Offset>
+    <Length>1</Length>
+    <Type>Integer32</Type>
+    <Enable>true</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Paint Total 2</FieldName>
+    <Offset>25</Offset>
+    <Length>2</Length>
+    <Type>Integer32</Type>
+    <Enable>false</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Material Learned 1</FieldName>
+    <Offset>39</Offset>
+    <Length>1</Length>
+    <Type>Integer16</Type>
+    <Enable>false</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Material Learned 2</FieldName>
+    <Offset>0</Offset>
+    <Length>1</Length>
+    <Type>Integer16</Type>
+    <Enable>false</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Material Temperature 1</FieldName>
+    <Offset>0</Offset>
+    <Length>1</Length>
+    <Type>Integer16</Type>
+    <Enable>false</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Material Temperature 2</FieldName>
+    <Offset>0</Offset>
+    <Length>1</Length>
+    <Type>Integer16</Type>
+    <Enable>false</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>ErrorString</FieldName>
+    <Offset>0</Offset>
+    <Length>0</Length>
+    <Type>BinaryString16</Type>
+    <Enable>false</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Ghost</FieldName>
+    <Offset>4</Offset>
+    <Length>1</Length>
+    <Type>Boolean</Type>
+    <Enable>false</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Color Change Time</FieldName>
+    <Offset>9</Offset>
+    <Length>1</Length>
+    <Type>Float</Type>
+    <Enable>true</Enable>
+    <Scale>10</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Canister TPSU</FieldName>
+    <Offset>0</Offset>
+    <Length>0</Length>
+    <Type>Integer16</Type>
+    <Enable>false</Enable>
+    <Scale>1</Scale>
+  </PLCDataElement>
+  <PLCDataElement>
+    <FieldName>Ratio</FieldName>
+    <Offset>0</Offset>
+    <Length>1</Length>
+    <Type>Float</Type>
+    <Enable>false</Enable>
+    <Scale>10</Scale>
+  </PLCDataElement>
+</ProdData>

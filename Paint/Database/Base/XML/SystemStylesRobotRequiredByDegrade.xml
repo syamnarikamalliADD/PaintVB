@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyleID>
+  <DAP_CCEXTL1>
+    <Item>
+      <TableIndex>0</TableIndex>
+      <Enable>0</Enable>
+      <Description>None</Description>
+    </Item>
+    <Item>
+      <TableIndex>1</TableIndex>
+      <Enable>0</Enable>
+      <Description>P1 Down</Description>
+    </Item>
+    <Item>
+      <TableIndex>2</TableIndex>
+      <Enable>0</Enable>
+      <Description>P2 Down</Description>
+    </Item>
+    <Item>
+      <TableIndex>3</TableIndex>
+      <Enable>0</Enable>
+      <Description>P3 Down</Description>
+    </Item>
+    <Item>
+      <TableIndex>4</TableIndex>
+      <Enable>0</Enable>
+      <Description>P4 Down</Description>
+    </Item>
+    <Item>
+      <TableIndex>5</TableIndex>
+      <Enable>0</Enable>
+      <Description>2P1 Down</Description>
+    </Item>
+    <Item>
+      <TableIndex>6</TableIndex>
+      <Enable>0</Enable>
+      <Description>2P2 Down</Description>
+    </Item>
+    <Item>
+      <TableIndex>7</TableIndex>
+      <Enable>0</Enable>
+      <Description>2P3 Down</Description>
+    </Item>
+    <Item>
+      <TableIndex>8</TableIndex>
+      <Enable>0</Enable>
+      <Description>2P4 Down</Description>
+    </Item>
+    <Item>
+      <TableIndex>9</TableIndex>
+      <Enable>0</Enable>
+      <Description>2P5 Down</Description>
+    </Item>
+    <Item>
+      <TableIndex>10</TableIndex>
+      <Enable>0</Enable>
+      <Description>2P6 Down</Description>
+    </Item>
+    <Item>
+      <TableIndex>11</TableIndex>
+      <Enable>0</Enable>
+      <Description>3P1 Down</Description>
+    </Item>
+    <Item>
+      <TableIndex>12</TableIndex>
+      <Enable>0</Enable>
+      <Description>3P2 Down</Description>
+    </Item>
+    <Item>
+      <TableIndex>13</TableIndex>
+      <Enable>0</Enable>
+      <Description>3P3 Down</Description>
+    </Item>
+    <Item>
+      <TableIndex>14</TableIndex>
+      <Enable>0</Enable>
+      <Description>3P4 Down</Description>
+    </Item>
+  </DAP_CCEXTL1>
+</StyleID>

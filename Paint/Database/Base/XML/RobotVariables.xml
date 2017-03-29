@@ -1,0 +1,10 @@
+<RobotVariables>
+  <RobotVariable>
+    <Name>[PAVRCCEX]TCCEXCMOS.SAP_UNKNOWN</Name>
+    <Description />
+  </RobotVariable>
+  <RobotVariable>
+    <Name>[*SYSTEM*]$WAIT_DATA.$LINE_NUM</Name>
+    <Description />
+  </RobotVariable>
+</RobotVariables>

@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FormIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\U_RBR.ICO;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psALL_FILES" xml:space="preserve">
+    <value>All Files</value>
+  </data>
+  <data name="psALL_FILE_MASK" xml:space="preserve">
+    <value>*.* | All Files</value>
+  </data>
+  <data name="psBACK" xml:space="preserve">
+    <value>&lt; Back</value>
+  </data>
+  <data name="psDEST" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="psDG_FILE_MASK" xml:space="preserve">
+    <value>*.DG | Diagnostic Listing File</value>
+  </data>
+  <data name="psDO_COPY" xml:space="preserve">
+    <value>Do Copy</value>
+  </data>
+  <data name="psDT_FILE_MASK" xml:space="preserve">
+    <value>*.DT | Data File</value>
+  </data>
+  <data name="psFILES" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="psFILE_TYPE_EXP" xml:space="preserve">
+    <value>Robot Controller File Types:
+*.* - get all files available.
+*.TP - Teach pendant programs.
+*.VR - Karel variable files.
+*.SV - System variable files.
+*.IO - IO Configuration file.
+*.DG - Diagnostic output files.
+*.LS - text listing, Translated TP files.
+*.VA - Text translated variable files.
+*.DT - Data files.
+*.IMG - Image backup files.
+</value>
+  </data>
+  <data name="psFRA" xml:space="preserve">
+    <value>FRA:</value>
+  </data>
+  <data name="psIO_FILE_MASK" xml:space="preserve">
+    <value>*.IO | IO Configuration files</value>
+  </data>
+  <data name="psLS_FILE_MASK" xml:space="preserve">
+    <value>*.LS | Text File; Translated TP File</value>
+  </data>
+  <data name="psMASTER_BACKUPS" xml:space="preserve">
+    <value>Master Backups</value>
+  </data>
+  <data name="psMD" xml:space="preserve">
+    <value>MD:</value>
+  </data>
+  <data name="psMDB" xml:space="preserve">
+    <value>MDB:</value>
+  </data>
+  <data name="psNEXT" xml:space="preserve">
+    <value>Next &gt;</value>
+  </data>
+  <data name="psPW_BACKUPS" xml:space="preserve">
+    <value>PAINTworks Auto Backups</value>
+  </data>
+  <data name="psROBOT_CONTROLLERS" xml:space="preserve">
+    <value>Robot Controllers</value>
+  </data>
+  <data name="psROBOT_DEV_EXP" xml:space="preserve">
+    <value>Robot Controller File Devices:
+MDB: The standard backup directory.  This provides access to all the files needed for a backup.
+MD: Controller memory device.  Access to all teach pendant(*.TP) and variable(*.VR,*.SV)  files, text translations of teach pendant programs(*.LS) and variable files(*.VA), and diagnostic (*.DG) and error listing (*.LS) files.
+FRA:  provides access to the robot's automatic backup directory.
+RD: Ram Disk.  Temporary storage on the robot controller.  Used primarily for diagnostic data.
+MC:  PCMCIA Memory card in the controller's operator panel (R-J3, R-J3iB), or on the CPU(R-30iA).
+UD1: USB storage device at the controller's operator panel (R-30iA only).
+UT1: USB port on the teach pendant (R-30iA iPendant only)</value>
+  </data>
+  <data name="psSELECT_A_FOLDER" xml:space="preserve">
+    <value>Select a folder...</value>
+  </data>
+  <data name="psSELECT_FILES" xml:space="preserve">
+    <value>Select Files</value>
+  </data>
+  <data name="psSOURCE" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="psSV_FILE_MASK" xml:space="preserve">
+    <value>*.SV | System Variable Files</value>
+  </data>
+  <data name="psTEMP_BACKUPS" xml:space="preserve">
+    <value>Temporary Backups</value>
+  </data>
+  <data name="psTP_FILE_MASK" xml:space="preserve">
+    <value>*.TP | Teach Pendant Files</value>
+  </data>
+  <data name="psUSE_ROBOT_FOLDERS" xml:space="preserve">
+    <value>Use robot folder names?</value>
+  </data>
+  <data name="psVA_FILE_MASK" xml:space="preserve">
+    <value>*.VA | Translated Variable File</value>
+  </data>
+  <data name="psVR_FILE_MASK" xml:space="preserve">
+    <value>*.VR | Karel Variable Files</value>
+  </data>
+  <data name="psSELECT_FOLDER" xml:space="preserve">
+    <value>Select a folder.</value>
+  </data>
+  <data name="psSELECT_PWBACKUP" xml:space="preserve">
+    <value>Select a backup folder.</value>
+  </data>
+  <data name="psREADING_DIRECTORY" xml:space="preserve">
+    <value>Reading directory.</value>
+  </data>
+  <data name="psREADY" xml:space="preserve">
+    <value>Ready.</value>
+  </data>
+  <data name="psSELECTED_ROBOT" xml:space="preserve">
+    <value>Selected Robot: </value>
+  </data>
+  <data name="psSELECTED_ROBOTS" xml:space="preserve">
+    <value>Selected Robots: </value>
+  </data>
+  <data name="psSELECT_DEST" xml:space="preserve">
+    <value>Select destination robots or folders.</value>
+  </data>
+  <data name="psSELECT_SOURCE" xml:space="preserve">
+    <value>Select source robots or folders.</value>
+  </data>
+  <data name="psSOURCE_SELECTED" xml:space="preserve">
+    <value>Source Selected: </value>
+  </data>
+  <data name="psVERIFY_DO_COPY" xml:space="preserve">
+    <value>Verify selections.</value>
+  </data>
+  <data name="psBACKUP_ALL" xml:space="preserve">
+    <value>Backup All</value>
+  </data>
+  <data name="psCONTROLLER" xml:space="preserve">
+    <value>Robot Controller </value>
+  </data>
+  <data name="psCONTROLLERS" xml:space="preserve">
+    <value>Robot Controllers </value>
+  </data>
+  <data name="psCOPY_FILES" xml:space="preserve">
+    <value>Ready to copy files.</value>
+  </data>
+  <data name="psCOPY_SOURCE" xml:space="preserve">
+    <value>Copy Source: </value>
+  </data>
+  <data name="psDELETE_FILES" xml:space="preserve">
+    <value>Delete Files</value>
+  </data>
+  <data name="psDELETE_FILES_CNTR" xml:space="preserve">
+    <value>Delete files from robot controller </value>
+  </data>
+  <data name="psDELETE_FILES_FROM" xml:space="preserve">
+    <value>Delete files from folder </value>
+  </data>
+  <data name="psDEVICE" xml:space="preserve">
+    <value>File Device </value>
+  </data>
+  <data name="psFOLDER" xml:space="preserve">
+    <value>Folder </value>
+  </data>
+  <data name="psFOLDERS" xml:space="preserve">
+    <value>Folders </value>
+  </data>
+  <data name="psGET_DIAG" xml:space="preserve">
+    <value>Get Easy Debug</value>
+  </data>
+  <data name="psUTILITIES" xml:space="preserve">
+    <value>Utilities</value>
+  </data>
+  <data name="psDESTINATION" xml:space="preserve">
+    <value>Destination: </value>
+  </data>
+  <data name="psFILES_HEADING" xml:space="preserve">
+    <value>Files: </value>
+  </data>
+  <data name="psFILE_MASK" xml:space="preserve">
+    <value>File Mask: </value>
+  </data>
+  <data name="psNO_SEL_COPY_ALL" xml:space="preserve">
+    <value>Copy All selected, no file selection required.</value>
+  </data>
+  <data name="psSELECT_FILES_DEL" xml:space="preserve">
+    <value>Select files to delete from </value>
+  </data>
+  <data name="psSEL_FILES_COP_FRM" xml:space="preserve">
+    <value>Select files to copy from </value>
+  </data>
+  <data name="psDO_DELETE" xml:space="preserve">
+    <value>Delete Files</value>
+  </data>
+  <data name="psCOPIED" xml:space="preserve">
+    <value>Copied file </value>
+  </data>
+  <data name="psCOPIED_ALL" xml:space="preserve">
+    <value>Copied all </value>
+  </data>
+  <data name="psCOPYING" xml:space="preserve">
+    <value>Copying </value>
+  </data>
+  <data name="psDELETED_FILE" xml:space="preserve">
+    <value>Deleted file </value>
+  </data>
+  <data name="psDELETING" xml:space="preserve">
+    <value>Deleting </value>
+  </data>
+  <data name="psFROM" xml:space="preserve">
+    <value> from </value>
+  </data>
+  <data name="psTO" xml:space="preserve">
+    <value> to </value>
+  </data>
+  <data name="psFAILED_TO_DELETE" xml:space="preserve">
+    <value>Failed to delete </value>
+  </data>
+  <data name="psREADING_DIR_FROM" xml:space="preserve">
+    <value>Reading directory from </value>
+  </data>
+  <data name="psFILE_EXISTS_DELETE_PROMPT" xml:space="preserve">
+    <value>{0} already exists at {1}.  Overwrite?</value>
+  </data>
+  <data name="psOVERWRITE_FILES" xml:space="preserve">
+    <value>Overwrite Files.</value>
+  </data>
+  <data name="psOVERWRITE_FILE_QM" xml:space="preserve">
+    <value>Overwrite File?</value>
+  </data>
+  <data name="psFAILED_TO_COPY" xml:space="preserve">
+    <value>Failed to copy </value>
+  </data>
+  <data name="psNO" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="psYES" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="psYES_TO_ALL" xml:space="preserve">
+    <value>Yes to All</value>
+  </data>
+  <data name="psCOPYING_FILES_FROM" xml:space="preserve">
+    <value>Copying files from </value>
+  </data>
+  <data name="psCOPY_COMPLETE" xml:space="preserve">
+    <value>Copy complete.</value>
+  </data>
+  <data name="psOPERATION_COMPLETE" xml:space="preserve">
+    <value>Operation complete.</value>
+  </data>
+  <data name="psCOPY_CANCELLED" xml:space="preserve">
+    <value>Copy cancelled.</value>
+  </data>
+  <data name="psOPERATION_CANCELLED" xml:space="preserve">
+    <value>Operation Cancelled.</value>
+  </data>
+  <data name="psFR" xml:space="preserve">
+    <value>FR:</value>
+  </data>
+  <data name="psLOGIN_BROWSE" xml:space="preserve">
+    <value>Current login does not allow write to browsed folders.  Change login to continue.</value>
+  </data>
+  <data name="psLOGIN_FOR_ACCES_TO" xml:space="preserve">
+    <value>Current login does not allow acces to </value>
+  </data>
+  <data name="psLOGIN_FOR_VAR_WRITE" xml:space="preserve">
+    <value>Current login only allows TP files to be written to robots.  Change login to write variables.</value>
+  </data>
+  <data name="psLOGIN_MASTER_BACKUPS" xml:space="preserve">
+    <value>Current login does not allow write to master backups.  Change login to continue.</value>
+  </data>
+  <data name="psLOGIN_REQUIRED" xml:space="preserve">
+    <value>Login required.</value>
+  </data>
+  <data name="psLOGIN_SAVE_BACKUP" xml:space="preserve">
+    <value>Current login does not allow file copies.  Change login to continue.</value>
+  </data>
+  <data name="psLOGIN_WRITE_TO_ROBOT" xml:space="preserve">
+    <value>Current login does not allow file transfer to robot controllers.  Change login to continue</value>
+  </data>
+  <data name="psMC" xml:space="preserve">
+    <value>MC:</value>
+  </data>
+  <data name="psPRINT" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="psRD" xml:space="preserve">
+    <value>RD:</value>
+  </data>
+  <data name="psUD1" xml:space="preserve">
+    <value>UD1:</value>
+  </data>
+  <data name="psVIEW_COMPARE" xml:space="preserve">
+    <value>View/Compare</value>
+  </data>
+  <data name="psARRANGEALL" xml:space="preserve">
+    <value>&amp;Arrange Icons</value>
+  </data>
+  <data name="psCASCADE" xml:space="preserve">
+    <value>&amp;Cascade</value>
+  </data>
+  <data name="psCLOSEALL" xml:space="preserve">
+    <value>C&amp;lose All</value>
+  </data>
+  <data name="psCOMPARE" xml:space="preserve">
+    <value>&amp;Run Compare</value>
+  </data>
+  <data name="psCOPY" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="psEDIT" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="psEXIT" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="psFILE" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="psHELP" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="psHELPSCREEN" xml:space="preserve">
+    <value>&amp;Help Screen</value>
+  </data>
+  <data name="psOPEN" xml:space="preserve">
+    <value>&amp;Open</value>
+  </data>
+  <data name="psPRINTMNU" xml:space="preserve">
+    <value>&amp;Print</value>
+  </data>
+  <data name="psPRINTPREVIEW" xml:space="preserve">
+    <value>Print Pre&amp;view</value>
+  </data>
+  <data name="psPRINTSETUP" xml:space="preserve">
+    <value>Print Setup</value>
+  </data>
+  <data name="psSAVE" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="psSELECTALL" xml:space="preserve">
+    <value>Select &amp;All</value>
+  </data>
+  <data name="psSTATUSBAR" xml:space="preserve">
+    <value>&amp;Status Bar</value>
+  </data>
+  <data name="psTILEHORZ" xml:space="preserve">
+    <value>Tile &amp;Horizontal</value>
+  </data>
+  <data name="psTILEVERT" xml:space="preserve">
+    <value>Tile &amp;Vertical</value>
+  </data>
+  <data name="psTOOLBAR" xml:space="preserve">
+    <value>&amp;Toolbar</value>
+  </data>
+  <data name="psVIEW" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="psWINDOWS" xml:space="preserve">
+    <value>&amp;Windows</value>
+  </data>
+  <data name="psOPENSAVEFILEMASK" xml:space="preserve">
+    <value>Robot Text Files (*.TXT;*.LS;*.VA;*.DG;*.DT)|*.TXT;*.LS;*.VA;*.DG;*.DT|All Files (*.*)|*.*|Text Files (*.TXT)|*.TXT |Translated TP Files (*.LS)|*.LS|Translated Variable Files(*.VA)|*.VA|Diagnostic Files(*.DG)|*.DG|Data Files(*.DT)|*.DT|Image Backup Files(*.IMG) | *.img</value>
+  </data>
+  <data name="psCOMPSELBASE" xml:space="preserve">
+    <value>Select Base File</value>
+  </data>
+  <data name="psCOMPSELCOMP" xml:space="preserve">
+    <value>Select Compare File</value>
+  </data>
+  <data name="ps_BASE" xml:space="preserve">
+    <value> - Base File</value>
+  </data>
+  <data name="ps_COMPARE" xml:space="preserve">
+    <value> - Compare File</value>
+  </data>
+  <data name="ps_FVC_CHILD_STAT1" xml:space="preserve">
+    <value>Date Modified: </value>
+  </data>
+  <data name="ps_FVC_CHILD_STAT2" xml:space="preserve">
+    <value>, Line: </value>
+  </data>
+  <data name="ps_FVC_CHILD_STAT3" xml:space="preserve">
+    <value>, Column: </value>
+  </data>
+  <data name="psCOMPARE_TT" xml:space="preserve">
+    <value>Run a comparison.</value>
+  </data>
+  <data name="psCOMPDIFFSTAT1" xml:space="preserve">
+    <value>There are </value>
+  </data>
+  <data name="psCOMPDIFFSTAT2" xml:space="preserve">
+    <value> differences.</value>
+  </data>
+  <data name="psCOMPDIFFSTAT3" xml:space="preserve">
+    <value>There are no differences.</value>
+  </data>
+  <data name="psFVC_COMPARING_FILES" xml:space="preserve">
+    <value>Comparing files.</value>
+  </data>
+  <data name="psFVC_NEED_MORE_FILES" xml:space="preserve">
+    <value>Open more files to run a comparison.</value>
+  </data>
+  <data name="psOPEN_TT" xml:space="preserve">
+    <value>Open a new file.</value>
+  </data>
+  <data name="psPREV" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="psPRINT_PREVIEW_TT" xml:space="preserve">
+    <value>Preview a printout of the selected window.</value>
+  </data>
+  <data name="psPRINT_TT" xml:space="preserve">
+    <value>Print the selected window.</value>
+  </data>
+  <data name="psSAVE_TT" xml:space="preserve">
+    <value>Save the selected file.</value>
+  </data>
+  <data name="psSYNCSCROLL" xml:space="preserve">
+    <value>Sync. Scroll</value>
+  </data>
+  <data name="psSYNCSCROLL_TT" xml:space="preserve">
+    <value>Syncronize scrollbars</value>
+  </data>
+  <data name="psBACKUP_ALL_TO" xml:space="preserve">
+    <value>Backup All to </value>
+  </data>
+  <data name="psDEST_SELECTED" xml:space="preserve">
+    <value>Destination Selected:</value>
+  </data>
+  <data name="psBACKUP_TEXT" xml:space="preserve">
+    <value>Backup Text Files</value>
+  </data>
+  <data name="psCOMPARE_MNU" xml:space="preserve">
+    <value>Compare</value>
+  </data>
+  <data name="psTEXT_FILE_MASK" xml:space="preserve">
+    <value>*.LS; *.VA; *.DT; *.DAT; *.TXT; *.XML; *.DG | Text Files</value>
+  </data>
+  <data name="psDIR_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Directory does not exist.</value>
+  </data>
+  <data name="psEMPTY_FOLDER" xml:space="preserve">
+    <value>Empty Folder.</value>
+  </data>
+  <data name="psOPEN_FOLDER" xml:space="preserve">
+    <value>Open Folder.</value>
+  </data>
+  <data name="psOPEN_FOLDER_MNU" xml:space="preserve">
+    <value>Open &amp;Folder.</value>
+  </data>
+  <data name="psFVC_NEED_MORE_FOLDERS" xml:space="preserve">
+    <value>Open more folders to run a comparison.</value>
+  </data>
+  <data name="ps_FILES" xml:space="preserve">
+    <value> files.</value>
+  </data>
+  <data name="psCANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="psREPLACE" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="psSELECT_A_ZIP" xml:space="preserve">
+    <value>Select a ZIP file ...</value>
+  </data>
+  <data name="psUPDATE" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="psZIPMASK" xml:space="preserve">
+    <value>ZIP Archive Files (*.ZIP) | *.zip</value>
+  </data>
+  <data name="psZIP_EXT" xml:space="preserve">
+    <value>ZIP</value>
+  </data>
+  <data name="psZIP_FILE_EXISTS_PROMPT" xml:space="preserve">
+    <value>{0} already exists.</value>
+  </data>
+  <data name="psIMG_FILE_MASK" xml:space="preserve">
+    <value>*.IMG | Image Backup Files(*.IMG)</value>
+  </data>
+  <data name="psUT1" xml:space="preserve">
+    <value>UT1:</value>
+  </data>
+  <data name="psABORT_COPY_CAPTION" xml:space="preserve">
+    <value>Abort Copy?</value>
+  </data>
+  <data name="psABORT_COPY_MESSAGE" xml:space="preserve">
+    <value>Abort Copy?  Select OK to abort the copy and close this Program.  Select Cancel to continue the copy.</value>
+  </data>
+  <data name="psSCREENCAPTION" xml:space="preserve">
+    <value>File Copy</value>
+  </data>
+  <data name="psPATH" xml:space="preserve">
+    <value>Path: </value>
+  </data>
+  <data name="ps_WITH_TEXT" xml:space="preserve">
+    <value> with Text Files</value>
+  </data>
+  <data name="psZIP_FILE_EXISTS" xml:space="preserve">
+    <value>Zip File Already Exists</value>
+  </data>
+  <data name="psCOPY_FAIL" xml:space="preserve">
+    <value>Copy operation failed.</value>
+  </data>
+  <data name="psIS_OFFLINE" xml:space="preserve">
+    <value> is Offline.</value>
+  </data>
+  <data name="psCOPY_COMPLETE_WITHERR" xml:space="preserve">
+    <value>Copy complete with errors.</value>
+  </data>
+  <data name="psOPERATION_COMPLETE_WITHERR" xml:space="preserve">
+    <value>Operation complete with errors.</value>
+  </data>
+</root>

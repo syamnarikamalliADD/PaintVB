@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="psPRINT_TAB_MNU" xml:space="preserve">
+    <value>Print this Tab</value>
+  </data>
+  <data name="psTAB1_TXT" xml:space="preserve">
+    <value>User Password</value>
+  </data>
+  <data name="psTAB2_TXT" xml:space="preserve">
+    <value>User Privileges</value>
+  </data>
+  <data name="psTAB3_TXT" xml:space="preserve">
+    <value>Group Privileges</value>
+  </data>
+  <data name="psTAB4_TXT" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FormIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Passwords.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psBTN_ACCEPT_TXT" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="psBTN_ADD_GRP_TXT" xml:space="preserve">
+    <value>Add User Group</value>
+  </data>
+  <data name="psBTN_ADD_USER_TXT" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+  <data name="psBTN_ALLOW_TXT" xml:space="preserve">
+    <value>Allowed</value>
+  </data>
+  <data name="psBTN_CANCEL_TXT" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="psBTN_CHG_USER_TXT" xml:space="preserve">
+    <value>Change Group / Password</value>
+  </data>
+  <data name="psBTN_NOT_ALLOW_TXT" xml:space="preserve">
+    <value>Not Allowed</value>
+  </data>
+  <data name="psBTN_REM_GRP_TXT" xml:space="preserve">
+    <value>Remove User Group</value>
+  </data>
+  <data name="psBTN_REM_USER_TXT" xml:space="preserve">
+    <value>Remove User</value>
+  </data>
+  <data name="psCBO_USER_GRP_TXT" xml:space="preserve">
+    <value>Select User Group:</value>
+  </data>
+  <data name="psGBP_SETUP_TXT" xml:space="preserve">
+    <value>Auto Logout</value>
+  </data>
+  <data name="psGPB_CHG_PWD_TXT" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="psGPB_EDIT_GRP_PWD_TXT" xml:space="preserve">
+    <value>Edit User Group / Password</value>
+  </data>
+  <data name="psGPB_EDIT_GRP_TXT" xml:space="preserve">
+    <value>Edit Group</value>
+  </data>
+  <data name="psGPB_EDIT_USER_TXT" xml:space="preserve">
+    <value>Edit User</value>
+  </data>
+  <data name="psGPB_GRP_PRIV_TXT" xml:space="preserve">
+    <value>Edit Group Privileges</value>
+  </data>
+  <data name="psGPB_USER_PRIV_TXT" xml:space="preserve">
+    <value>Edit User Privileges</value>
+  </data>
+  <data name="psLBL_AL_TIME_TXT" xml:space="preserve">
+    <value>Auto Logout Timeout:</value>
+  </data>
+  <data name="psLBL_AL_UNITS_TXT" xml:space="preserve">
+    <value>(min)</value>
+  </data>
+  <data name="psLBL_AL_WARN_TXT" xml:space="preserve">
+    <value>Auto Logout Warning:</value>
+  </data>
+  <data name="psLBL_CHG_PWD_CUR_TXT" xml:space="preserve">
+    <value>Current Password:</value>
+  </data>
+  <data name="psLBL_CHG_PWD_NEW_TXT" xml:space="preserve">
+    <value>New Password:</value>
+  </data>
+  <data name="psLBL_CHG_PWD_VRF_TXT" xml:space="preserve">
+    <value>Verify New Password:</value>
+  </data>
+  <data name="psLBL_EDIT_PWD_NEW_TXT" xml:space="preserve">
+    <value>Enter New Password:</value>
+  </data>
+  <data name="psLBL_EDIT_PWD_VRF_TXT" xml:space="preserve">
+    <value>Verify New Password:</value>
+  </data>
+  <data name="psLBL_EN_AL_TXT" xml:space="preserve">
+    <value>Enable Auto Logout:</value>
+  </data>
+  <data name="psLOGIN_REQD_MSG" xml:space="preserve">
+    <value>Please Log In to use this screen.</value>
+  </data>
+  <data name="psPWD_ERROR" xml:space="preserve">
+    <value>PASSWORD ERROR</value>
+  </data>
+  <data name="psPWD_MISMATCH_MSG" xml:space="preserve">
+    <value>Verify password does not match new password.</value>
+  </data>
+  <data name="psSCREENCAPTION" xml:space="preserve">
+    <value>PAINTworks User Manager</value>
+  </data>
+  <data name="psCHG_USER_FANUC_MSG" xml:space="preserve">
+    <value>Cannot change password for user FANUC.</value>
+  </data>
+  <data name="psEMPTY_PWD_ERR_MSG" xml:space="preserve">
+    <value>Username and/or Password cannot be an empty string.</value>
+  </data>
+  <data name="psOP_FAIL_MSG" xml:space="preserve">
+    <value>Operation failed due to database error.</value>
+  </data>
+  <data name="psOP_SUCCESS_MSG" xml:space="preserve">
+    <value>Operation completed successfully.</value>
+  </data>
+  <data name="psPWD_INVALID_MSG" xml:space="preserve">
+    <value>Current Password entry is invalid.</value>
+  </data>
+  <data name="psPWD_NA_MSG" xml:space="preserve">
+    <value>Password not available. Please choose a different Password.</value>
+  </data>
+  <data name="psUSERNAME_NA_MSG" xml:space="preserve">
+    <value>User Name not available. Please choose a different User Name.</value>
+  </data>
+  <data name="psUSER_CURR_DEL_FAIL_MSG" xml:space="preserve">
+    <value>Cannot delete current user.</value>
+  </data>
+  <data name="psUSER_FANUC_DEL_FAIL_MSG" xml:space="preserve">
+    <value>Cannot delete user FANUC.</value>
+  </data>
+  <data name="psENTER_NEW_USER_MSG" xml:space="preserve">
+    <value>Enter a new User Name.</value>
+  </data>
+  <data name="psCUSTOM_TXT" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="psUSER_NOT_UNIQUE_MSG" xml:space="preserve">
+    <value>User Name must be unique. Please choose a different User Name.</value>
+  </data>
+  <data name="psALLOW_TXT" xml:space="preserve">
+    <value>: Allowed</value>
+  </data>
+  <data name="psNOT_ALLOW_TXT" xml:space="preserve">
+    <value>: Not Allowed</value>
+  </data>
+  <data name="psINSUF_PRIV_MSG" xml:space="preserve">
+    <value>You do not have sufficient privilige to use this screen.</value>
+  </data>
+  <data name="psPRIVILEGE_TXT" xml:space="preserve">
+    <value>, Privilege: </value>
+  </data>
+  <data name="psSCREEN_TXT" xml:space="preserve">
+    <value>, Screen: </value>
+  </data>
+  <data name="psUSER_TXT" xml:space="preserve">
+    <value>User: </value>
+  </data>
+  <data name="psANSWERING_NO_MSG" xml:space="preserve">
+    <value>Answering 'No' will save this user's privileges as 'Custom'.</value>
+  </data>
+  <data name="psGROUP_TXT" xml:space="preserve">
+    <value>Group: </value>
+  </data>
+  <data name="psUPDATE_GROUP_MSG" xml:space="preserve">
+    <value>Do you want to update the privileges for the group this user is a member of?</value>
+  </data>
+  <data name="psUSER_GROUP_TXT" xml:space="preserve">
+    <value> User Group</value>
+  </data>
+  <data name="psADD_USER_MSG" xml:space="preserve">
+    <value>Added User: </value>
+  </data>
+  <data name="psCHG_USER_PWD_MSG" xml:space="preserve">
+    <value>Changed Password for User: </value>
+  </data>
+  <data name="psADD_GROUP_MSG" xml:space="preserve">
+    <value>Added User Group: </value>
+  </data>
+  <data name="psDELETE_GROUP_MSG" xml:space="preserve">
+    <value>Deleted User Group:</value>
+  </data>
+  <data name="psDELETE_USER_MSG" xml:space="preserve">
+    <value>Deleted User: </value>
+  </data>
+  <data name="psEMPTY_GROUP_ERR_MSG" xml:space="preserve">
+    <value>Group Name cannot be an empty string.</value>
+  </data>
+  <data name="psENTER_NEW_GROUP_MSG" xml:space="preserve">
+    <value>Enter a new Group Name.</value>
+  </data>
+  <data name="psGROUP_NOT_UNIQUE_MSG" xml:space="preserve">
+    <value>Group Name must be unique. Please choose a different Group Name.</value>
+  </data>
+  <data name="psDISABLED_TXT" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="psENABLED_TXT" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="psINV_AL_WARN_MSG" xml:space="preserve">
+    <value>Auto Logout Warning time must be less than AutoLogout Timeout.</value>
+  </data>
+  <data name="psDATA_LOAD_FAIL_MSG" xml:space="preserve">
+    <value>Data load failed due to the following error:</value>
+  </data>
+  <data name="psDATA_SAVE_FAIL_MSG" xml:space="preserve">
+    <value>Data save failed due to the following error: </value>
+  </data>
+  <data name="psDELETE_PRIV_MSG" xml:space="preserve">
+    <value>, Privilege: </value>
+  </data>
+  <data name="psDELETE_PROC_MSG" xml:space="preserve">
+    <value>Deleted Process: </value>
+  </data>
+  <data name="psDESC_TXT" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="psPERMISSION_TXT" xml:space="preserve">
+    <value>Permission</value>
+  </data>
+  <data name="psPRIV_NAME_TXT" xml:space="preserve">
+    <value>Privilege Name</value>
+  </data>
+  <data name="psPROC_NAME_TXT" xml:space="preserve">
+    <value>Process Name</value>
+  </data>
+  <data name="psVALUE_TXT" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="psBTN_DEL_PRIV_TXT" xml:space="preserve">
+    <value>Delete Privilege</value>
+  </data>
+  <data name="psBTN_DEL_PROC_TXT" xml:space="preserve">
+    <value>Delete Process</value>
+  </data>
+  <data name="psGPB_MAINT_TXT" xml:space="preserve">
+    <value>Process/Privilege Maintenance</value>
+  </data>
+</root>

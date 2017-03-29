@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DaysToKeep>
+  <Alarm>98</Alarm>
+  <Change>99</Change>
+  <Production>99</Production>
+  <Vision>99</Vision>
+  <Diagnostic>10</Diagnostic>
+  <DiagnosticArchive>90</DiagnosticArchive>
+  <RobotBackups>2</RobotBackups>
+  <PaintWorksBackups>50</PaintWorksBackups>
+  <DriveFullThreshold>4</DriveFullThreshold>
+</DaysToKeep>

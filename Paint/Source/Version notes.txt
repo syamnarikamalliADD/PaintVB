@@ -1,0 +1,131 @@
+4.01.00.00
+Apply the first version to .NET PAINTworks  Mostly Orion, with updates copied from various sites.
+Version 4.1 includes changes to some PLC interfaces, refer to the PLC Reference folder for prodlogger, DMON, easy debug.
+DMON logger has been removed.  The logging is done by the .net version of prodlogger.
+DMON archive functions are now in schedman
+Easy debug is entirely in the BSD now.
+Life cycles weren't changed specifically for this, but they tend to vary from place to place.  The refence PLC program works with the BSD life cycles in this version.
+The sample database has the cross references removed for the zone name.  It's easier to edit, but you need to make sure you get the name changed in all 
+the tables that use it:  Controllers, Zone Info, Report Parameters. PLC Alarm Devices, PLC Production Zones, PLC Alarm Zones, PLC Production Devices, and Setup Info
+The image backups are now in a standard folder name "Paint\Robot Image Backups".  The TFTP and BOOTP files are in {Database path}\ECBR.  They can be configured on the network screen.
+Archive now uses the SQL server to make a backup like the maintenance program.  It also accounts for the subdirectories under the database folder.
+PW Maint includes the image backups as a standard folder now.  There's an added feature to copy extra folders around at the end.  It kills the SQL server so you can copy the whole db folder over to another drive or network folder.
+The help files are indexed to the fanuc manuals in "\\Hqarch01\archive_works006\PW3 Development\Paint\Help\R30iA GM Paint and Dispense eDoc"
+
+4.01.00.* Revs
+Merged standalone changes from HGB
+Merge some sealer support in main, utilities
+
+4.01.01.00 - Flint Mod Build
+DB Changes - mainly for speed improvements,
+	move setup info, zone, robot, and controller tables from config DB to XML
+	Move Help DB to XML
+Add .NET DMON schedman screen, put it in the process folder with the other process menu screens
+Add .NET version screen, clean up version labels throughout common folder.
+Archive screen - add application backup tab to back up PW(vbapps,profile,...), source, project help, fanuc manuals
+clsFSFTP - change some flags so prodlogger doesn't resave the same diag file from memory on multiple jobs.
+
+4.01.02.00 
+New in .Net: Password.NET, password setup screen, DMON Viewer, Robot IO
+
+4.01.03.00 
+Scattered Access.Net.  Support for it in Main, BSD, fluid maint.
+Move most of the rest of the tables from SQL to XML for quicker access.  No more Confgig DB
+Copy Ricky O's fix for the CommonString build to the rest of the projects
+
+Change reports for job status.  No longer link tables in SQL DB, the screen gets integer data and
+manages it in VB.  This includes SQL procedure changes, so make sure to use the newest production log
+That also finishes off the last config table move from SQL to XML.
+
+Print/Export from clsPrintHTML 
+clsPrintHTML manages output to a web page or spreadsheet for export.  I tried out a few
+formats, but only csv is enabled by default.
+For DMON viewer I also enabled xls, ods, and xlsx.  It takes a screenshot of the graph and 
+puts it in the spreadsheet file.
+xlsx (excel 2007) and ods(open ffice) are built without a link to MS Excel.  They're 
+actually made up of zipped  XML files.
+xls files still use a link to excel to build the spreadsheet.  ExcelUtil.exe imports an XML
+database to excel and saves in excel format, it also adds a picture for DMON.
+Only ExcelUtil.exe links to MS excel, so if excel isn't installed just delete ExcelUtil.exe
+and clsPrintHtml won't offer that option.
+
+4.01.04.00
+PWCommon changelog routines now write to an XML that prodlogger will read and add to 
+the SQL DB.  This was done for speed.  With most of the DBs moved to XML, starting up the
+SQL connection for the changelog woudl cause a 5 second delay for the first change saved
+on each screen
+
+Changed most screens to use a startup module to check for another copy already running
+due to quirks in the Win7 UI that made it really easy to accidentally start another copy
+of any running screen.  Browser gets a custom startup so each F1 or help menu selection
+will update the page selection without launching another copy of the screen.
+
+Honda Canada
+Merge in some mitsubishi changes, ELP changes that haven't made it into product yet.
+
+Versions - Use the whole project folder to pick the date for .NET projects
+
+Maint/ParamSetup - Add a separate "PAINTworksBackups" so we can have we don't have to keep the same number of
+PAINTworks backup folders and robot backup folders.
+
+4.1.5.0...
+Add Canadian language files.  Fill out all the language file linking for Spanish, German.  
+Change PLC tag Z1DQCalScreenActive to Z1FluidMaintScreenActive.
+
+Generic production logger - requires a new routine in DB, but will pick columns to save in DB
+based only on XML. Production DB needs SQLAddProductionRecordFlex.sql added to stored functions.
+
+Standalone changelog screen - This allows us to isolate the Access and SQL dependencies to allow for easier code maintenance in the long run.  
+
+Added PW.sln that opens all the screens or background programs together.  It's handy when you change a common file and want to get everything rebuilt.
+
+Added vision and hotedit loggers, updated reports and main to match.  Maintenance and archive worked with the new database without changes.
+
+ScatteredAccess - Change to read variable structures where convenient.  Speed up startup by only loading variables for read, not display.
+
+ParamSetup - Updates to support use as a status screen.  Integrate scattered access, speed up reload.  Add the ability to disable tabs in the DB without removing the entries. Add the ability to change icons for the different screens.
+
+Main, Paramsetup, reports, PW user maint - Change password management so it can use different screen names for the same executable, run the names through the resource file for display.
+
+Updated names and logos - use "FANUC" and "PAINTworks"
+
+Initialize applicator DBs during startup
+
+Finally got the little robot picture to stay put on the status bar when the progress bar is updating.
+
+
+4.01.06.00
+Added PLCComm.dll - Each plccomm project builds a dll with the same name and public routines.  There a some minor changes to how the PLC form is 
+accessed, but now we won't need to change the references whenever we switch PLCs, just copy the PLCComm.dll for the correct PLC into vbapps.  
+The old plc classes are still in the same spot.  The new plccomm projects are in the PLCComm folder.
+
+I also added the FakePLCComm form.  It reads and writes to FakePLCComm.xml for debug.  It's good for some simple simulation, it probably 
+won't handle more than one screen at a time very well.
+
+Changed the screenshot code to save jpgs.  That's what we use in the help files.
+
+Updated some help file links.
+
+Add graphs to paramsetup for sealer
+
+Add versabell3 cartoon classes.  Just the structure so far, they still need work.
+
+PW_Main - manage screens that run without managing to open a window.  Kill them and restart if possible.  Make sure Main doesn't 
+tell a screen to start minimized.
+
+Handle robot number out of sequence - only tested on sealer.
+For paint, fluid maint,sys color and BSD would need to be checked.
+
+
+4.01.07.00
+Merge P1000 changes from KTP, sealer updates from Fairfax and oakville mod builds.
+Change cross-thread handling to use "BeginInvoke" instead of "Invoke".  Primarily for PCDK interface, invoke could end up with both
+threads waiting for each other.  BeginInvoke is asyncronous 
+Split reports into two versions.
+Reports.Net RM uses excel for Ford's RM reports
+
+
+
+Still to do:
+Finish filling out the screen DBs for different sealer applicators and temp control options.
+Sealer diagnostics

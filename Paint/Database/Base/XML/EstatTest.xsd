@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EstatTest" targetNamespace="http://tempuri.org/EstatTest.xsd" xmlns:mstns="http://tempuri.org/EstatTest.xsd" xmlns="http://tempuri.org/EstatTest.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="EstatTest" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="EstatTest" msprop:Generator_DataSetName="EstatTest">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ConfigData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BaseRegister" type="xs:int" default="0" />
+              <xs:element name="GhostStyle" type="xs:int" default="0" />
+              <xs:element name="GhostColor" type="xs:int" default="0" />
+              <xs:element name="GhostOption" type="xs:int" default="0" />
+              <xs:element name="WarnHours" type="xs:int" default="0" />
+              <xs:element name="MaxHours" type="xs:int" default="0" />
+              <xs:element name="AwayMinCurrent" type="xs:int" default="0" />
+              <xs:element name="AwayMaxCurrent" type="xs:int" default="0" />
+              <xs:element name="TargetMinCurrent" type="xs:int" default="0" />
+              <xs:element name="TargetMaxCurrent" type="xs:int" default="0" />
+              <xs:element name="TestMinCurrent" type="xs:int" default="0" />
+              <xs:element name="TestMaxCurrent" type="xs:int" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TestData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DisplayIndex" type="xs:int" default="0" />
+              <xs:element name="ArmDisplayName" type="xs:string" default="" />
+              <xs:element name="ControllerNumber" type="xs:int" default="0" />
+              <xs:element name="EquipNumber" type="xs:int" default="0" />
+              <xs:element name="Enabled" type="xs:boolean" default="false" />
+              <xs:element name="CalDate" type="xs:string" default="00/00/00" />
+              <xs:element name="OpHours" type="xs:int" default="0" />
+              <xs:element name="TestDate" type="xs:string" default="00/00/00" />
+              <xs:element name="RefAwayCurrent" type="xs:int" default="0" />
+              <xs:element name="RefTargetCurrent" type="xs:int" default="0" />
+              <xs:element name="RefTestCurrent" type="xs:int" default="0" />
+              <xs:element name="AwayCurrent" type="xs:int" default="0" />
+              <xs:element name="TargetCurrent" type="xs:int" default="0" />
+              <xs:element name="TestCurrent" type="xs:int" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

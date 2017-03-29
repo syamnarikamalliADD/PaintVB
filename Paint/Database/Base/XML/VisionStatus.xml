@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisionStatus>
+    <VisionStatusItem>
+      <Number>1</Number>
+      <String>psVISION_STAT_1</String>
+      <Comment>Part Found</Comment>
+    </VisionStatusItem>
+    <VisionStatusItem>
+      <Number>8000</Number>
+      <String>psVISION_STAT_8000</String>
+      <Comment>Too Many Vision Processes</Comment>
+    </VisionStatusItem>
+    <VisionStatusItem>
+      <Number>8001</Number>
+      <String>psVISION_STAT_8001</String>
+      <Comment>Target Discarded</Comment>
+    </VisionStatusItem>
+    <VisionStatusItem>
+      <Number>9006</Number>
+      <String>psVISION_STAT_9006</String>
+      <Comment>Invalid Vision Process Name</Comment>
+    </VisionStatusItem>
+    <VisionStatusItem>
+      <Number>9007</Number>
+      <String>psVISION_STAT_9007</String>
+      <Comment>Invalid Camera View Name</Comment>
+    </VisionStatusItem>
+    <VisionStatusItem>
+      <Number>9008</Number>
+      <String>psVISION_STAT_9008</String>
+      <Comment>General Error in Snap</Comment>
+    </VisionStatusItem>
+    <VisionStatusItem>
+      <Number>9011</Number>
+      <String>psVISION_STAT_9011</String>
+      <Comment>Camera View Not Setup</Comment>
+    </VisionStatusItem>
+    <VisionStatusItem>
+      <Number>9012</Number>
+      <String>psVISION_STAT_9012</String>
+      <Comment>Vision Process Not Setup</Comment>
+    </VisionStatusItem>
+    <VisionStatusItem>
+      <Number>9016</Number>
+      <String>psVISION_STAT_9016</String>
+      <Comment>Setup Mode Active</Comment>
+    </VisionStatusItem>
+    <VisionStatusItem>
+      <Number>9024</Number>
+      <String>psVISION_STAT_9024</String>
+      <Comment>Tool Measurment Failed</Comment>
+    </VisionStatusItem>
+    <VisionStatusItem>
+      <Number>9026</Number>
+      <String>psVISION_STAT_9026</String>
+      <Comment>One or More Camera View Targets Not Found</Comment>
+    </VisionStatusItem>
+    <VisionStatusItem>
+      <Number>9027</Number>
+      <String>psVISION_STAT_9027</String>
+      <Comment>Too Few Camera View Targets Found</Comment>
+    </VisionStatusItem>
+    <VisionStatusItem>
+      <Number>9028</Number>
+      <String>psVISION_STAT_9028</String>
+      <Comment>Invalid Vision Project Name</Comment>
+    </VisionStatusItem>
+</VisionStatus>
+

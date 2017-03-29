@@ -1,0 +1,372 @@
+/*This is a Cascading Style Sheet for the HTML Version of FANUC Technical Manuals.*/
+
+
+	/*This body style controls all background colors (white), font faces, and font sizes from within the 
+	<body> tag.*/
+BODY {
+	font-family			: Helvetica, sans-serif;
+	font-size			: 10pt;
+	margin-left			: 9%;
+	margin-right			: 1%;
+	text-align  			: left;}
+
+
+
+	/*This heading 1 style controls the font face, font size, and font alignment for all <h2> tags.*/
+H1 {
+	font-family			: Helvetica, sans-serif;
+	font-size			: 16pt;
+	font-weight			: bold;
+	margin-left			: -6%;
+	text-transform 		: uppercase;}
+
+
+
+	/*This heading 2 style controls the font face, font size, font alignment, and font bold for all <h3> tags.*/
+H2 {
+	font-family			: Helvetica, sans-serif;
+	font-size			: 12pt;
+	font-weight			: bold;
+	margin-left			: -4%;
+	text-transform 		: uppercase;}
+
+
+
+	/*This heading 3 style controls the font face, font size, font alingment, and font underline for 
+	 all <h4> tags.*/
+H3 	{
+	font-family			: Helvetica, sans-serif;
+	font-size			: 12pt;
+	margin-left			: -2%;}
+
+
+
+	/*This heading 4 style controls the font face, font size, font alingment, and font underline for 
+	 all <h4> tags.*/
+H4 	{
+	font-family			: Helvetica, sans-serif;
+	font-size			: 10pt;
+	font-weight			: bold;
+	margin-left			: 0%;}
+
+
+
+H5 	{
+	font-family			: Helvetica, sans-serif;
+	font-weight			: bold;
+	margin-left			: 0%;}
+
+
+
+H6 {
+	font-family			: Helvetica, sans-serif;
+	font-size			: 10pt;
+	margin-left			: 0%;
+	margin-right			: 1%;}
+
+
+
+H6.proc-title	{
+	font-family			: Helvetica, sans-serif;
+	font-size			: 11pt;
+	font-weight			: bold;
+	margin-left			: -2%;
+	text-decoration			: underline;}
+
+
+
+H6.proc-condition-head {
+	font-family			: Helvetica, sans-serif;
+	font-size			: 11pt;
+	font-weight			: bold;
+	margin-left			: 0%;}
+
+
+
+H6.proc-step-head{
+	font-family			: Helvetica, sans-serif;
+	font-size			: 11pt;
+	font-weight			: bold;
+	margin-left			: 0%;}
+
+
+HR.eof-marker {
+	background-color	: white;
+	color				: yellow;
+	height				: 4px;
+	margin-left			: -6%;}
+
+
+
+
+LI.error-code-data	{
+	margin-left			: 4%;}
+
+
+LI.note-listitem	{
+	font-family			: Helvetica, sans-serif;
+	font-size			: 9pt;
+  	margin-left         : 3em;
+	margin-right		: 25%;}
+
+
+P {
+	font-family			: Helvetica, sans-serif;
+	font-size			: 10pt;}
+
+
+P.all-rights-reserved	{
+	font-family			: Helvetica, sans-serif;
+	font-weight			: bold;}
+
+
+
+P.address	{
+	font-family			: Helvetica, sans-serif;
+	font-weight			: bold;
+	margin-left			: 25%;}
+
+
+
+P.caution-head	{
+	color				: black;
+	font-family			: Helvetica, sans-serif;
+	font-weight			: bold;
+	margin-right		: 25%;
+	margin-left         : 3em;}
+
+
+
+P.caution-text	{
+	font-family			: Helvetica, sans-serif;
+	font-size			: 9pt;
+	margin-left         : 3em;
+	margin-right		: 25%;}	
+
+
+
+P.copyright	{
+	font-family			: Helvetica, sans-serif;
+	font-weight			: bold;}
+
+
+
+P.doc-title {
+	font-family			: Helvetica, sans-serif;
+	font-size			: 14pt;
+	font-weight			: bold;
+	margin-right		: 1%;}
+
+
+
+P.error-code-head	{
+	font-family			: Helvetica, sans-serif;
+	font-size			: 12pt;
+	font-weight			: bold;}
+
+
+
+P.figure-title	{
+	font-family			: Helvetica, sans-serif;
+	font-weight			: bold;}
+
+
+
+P.file-links {
+	font-family			: Helvetica, sans-serif;
+	text-align			: center;
+	margin-left			: -6%;}
+
+
+
+P.footer-copyright {
+	font-family			: Helvetica, sans-serif;
+	font-size			: 9pt;
+	font-weight			: bold;
+	margin-left			: -6%;}	
+
+
+
+P.indent {
+    margin-left  		:2em;}
+
+
+P.karel-statement-name 	{
+	font-family			: Helvetica, sans-serif;
+	font-weight			: bold;
+	margin-left			: -3%;}
+
+
+P.kcl-command-name  {
+	font-family			: Helvetica, sans-serif;
+	font-weight			: bold;
+	margin-left			: -3%;}
+
+
+P.manual-part-number	{
+	font-family			: Courier, Monospace;
+	font-size			: 12pt;
+	font-weight			: bold;
+	margin-right		: 1%;
+	text-transform 		: uppercase;}
+
+
+
+P.manual-version	{
+	font-family			: Helvetica, sans-serif;
+	font-weight			: bold;
+	margin-right		: 1%;
+	text-transform 		: uppercase;}
+
+
+
+P.note-head {
+	color				: black;
+	font-family			: Helvetica, sans-serif;
+	font-weight			: bold;
+	margin-right		: 25%;
+	margin-left         : 3em;}
+
+
+
+P.note-text	{
+	font-family			: serif;
+	font-size			: 9pt;
+	margin-left         : 3em;
+	margin-right		: 25%;}
+
+
+
+P.part-num-in-file-header{
+	font-family			: Courier, Monospace;
+	font-size			: 12pt;
+	font-weight			: bold;}
+
+		    
+P.sv-data{
+	font-family			: Helvetica, sans-serif;
+	margin-left			: 2%;}
+
+
+P.sv-desc{
+	font-family			: Helvetica, sans-serif;
+	margin-left			: 2%;}
+
+
+P.sv-head{
+	font-family			: Helvetica, sans-serif;
+	margin-left			: -4%;
+	font-size			: 12pt;
+	font-weight			: bold;}
+
+P.sv-name{
+	font-family			: Helvetica, sans-serif;
+	margin-left			: 2%;}
+
+
+P.sv-pwrup{
+	font-family			: Helvetica, sans-serif;
+	margin-left			: 2%;}
+
+
+P.sv-seealso{
+	font-family			: Helvetica, sans-serif;
+	margin-left			: 2%;}
+
+
+P.sv-uif{
+	font-family			: Helvetica, sans-serif;
+	margin-left			: 2%;}
+
+
+P.table-title-outside-of-table{
+	font-family			: Helvetica, sans-serif;
+	font-weight			: bold;}
+
+
+P.title-in-file-header{
+	font-family			: Helvetica, sans-serif;
+	font-size			: 14pt;
+	font-weight			: bold;}
+
+
+
+P.top-of-file-link-text {
+	font-family			: Helvetica, sans-serif;
+	font-size			: 9pt;}
+
+
+
+P.trade-marks	{
+	font-family			: Helvetica, sans-serif;
+	font-weight			: bold;}
+
+
+
+P.trade-names	{
+	font-family			: Helvetica, sans-serif;
+	font-weight			: bold;}
+
+
+
+P.training-address	 {}
+
+
+P.unmapped-component {
+    color				: red;
+	font-family			: serif;
+	font-size			: 24pt;
+	font-style			: italic;
+	font-weight			: bold;}
+	
+
+
+P.version-in-file-header {
+	font-family			: Helvetica, sans-serif;
+	font-size			: 12pt;
+	font-weight			: bold;}
+
+
+
+P.warning-head {
+	color				: black;
+	font-family			: Helvetica, sans-serif;
+	font-weight			: bold;
+	margin-right		: 25%;
+	margin-left         : 3em;}
+
+
+
+P.warning-text	{
+	font-family			: serif;
+	font-size			: 9pt;
+	margin-left         : 3em;
+	margin-right		: 25%;}
+
+
+TABLE.file-header	{
+	background			: #FFE912;
+	margin-left			: -8%;
+	width    			: 107%;}
+
+
+TABLE.ssrvals	{
+	margin-left			: 2%;}
+
+
+
+	/*This table data style controls the font face and font size of each cell's text.*/
+
+TD 	{
+	font-family			: Helvetica, sans-serif;
+	font-size			: 9pt;}
+
+
+TH	{
+	font-family			: Helvetica, sans-serif;
+	font-size			: 12pt;
+	font-weight			: bold;}
+
+UL	{
+	font-family			: Helvetica, sans-serif;
+	font-size			: 10pt;}

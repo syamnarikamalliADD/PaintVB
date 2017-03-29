@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DefaultPrint
+</name>
+</assembly>
+<members>
+<member name="P:DefaultPrint.My.Resources.ProjectStrings.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DefaultPrint.My.Resources.ProjectStrings.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:DefaultPrint.My.Resources.ProjectStrings.psCOMMAND">
+	<summary>
+  Looks up a localized string similar to Set Printer.
+</summary>
+</member><member name="P:DefaultPrint.My.Resources.ProjectStrings.psFORM">
+	<summary>
+  Looks up a localized string similar to Select Printer.
+</summary>
+</member><member name="P:DefaultPrint.My.Resources.ProjectStrings.psLABEL">
+	<summary>
+  Looks up a localized string similar to Select the printer to use as the system default printer and click Set Printer.
+</summary>
+</member><member name="T:DefaultPrint.My.Resources.ProjectStrings">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

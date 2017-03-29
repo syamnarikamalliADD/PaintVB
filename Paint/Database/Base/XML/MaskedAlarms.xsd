@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MaskedAlarms" targetNamespace="http://tempuri.org/MaskedAlarms.xsd" xmlns:mstns="http://tempuri.org/MaskedAlarms.xsd" xmlns="http://tempuri.org/MaskedAlarms.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MaskedAlarms" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MaskedAlarms" msprop:Generator_DataSetName="MaskedAlarms">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Alarm" msprop:Generator_UserTableName="Alarm" msprop:Generator_RowDeletedName="AlarmRowDeleted" msprop:Generator_TableClassName="AlarmDataTable" msprop:Generator_RowChangedName="AlarmRowChanged" msprop:Generator_RowClassName="AlarmRow" msprop:Generator_RowChangingName="AlarmRowChanging" msprop:Generator_RowEvArgName="AlarmRowChangeEvent" msprop:Generator_RowEvHandlerName="AlarmRowChangeEventHandler" msprop:Generator_TablePropName="Alarm" msprop:Generator_TableVarName="tableAlarm" msprop:Generator_RowDeletingName="AlarmRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FacilityName" msprop:Generator_UserColumnName="FacilityName" msprop:Generator_ColumnPropNameInRow="FacilityName" msprop:Generator_ColumnVarNameInTable="columnFacilityName" msprop:Generator_ColumnPropNameInTable="FacilityNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AlarmNumber" msprop:Generator_UserColumnName="AlarmNumber" msprop:Generator_ColumnPropNameInRow="AlarmNumber" msprop:Generator_ColumnVarNameInTable="columnAlarmNumber" msprop:Generator_ColumnPropNameInTable="AlarmNumberColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

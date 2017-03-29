@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MenuDev">
+</Property><Property Name="Solution File" Value="C:\Paint\Source\PW4_Main.NET\MenuDev\MenuDev.sln">
+</Property><Property Name="Date" Value="Thursday, March 19, 2009">
+</Property><Property Name="Time" Value="7:56 AM">
+</Property></Properties><Event ErrorLevel="0" Project="MenuDev" Source="MenuDev.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MenuDev" Source="MenuDev.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MenuDev.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MenuDev.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MenuDev" Source="MenuDev.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

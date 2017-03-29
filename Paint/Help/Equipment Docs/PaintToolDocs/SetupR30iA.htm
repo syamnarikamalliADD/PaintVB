@@ -1,0 +1,135 @@
+<HTML><HEAD><link rel="Stylesheet" href="Support/main.css" type="text/css"><title>IO Setup and Variable Restore</title></HEAD> 
+<BODY> 
+<A name='TOP'></A>  
+<TABLE CLASS='FILE-HEADER' CELLPADDING='4' CELLSPACING='0' BORDER='5' > 
+  <TBODY>  
+  <TR>  
+    <TD VALIGN='TOP' WIDTH='100'> 
+       <A href="http://www.fanucrobotics.com"><img src="Support/frnalogo.gif" border=0 width="150" height="57"></A></TD> 
+    <TD>  
+                    <p class='title-in-file-header'>
+                        PaintTool Documentation</p>
+                    <p class='title-in-file-header'>
+                        R-30iA PaintTool V7.xx</p>
+                    <p class='part-num-in-file-header'>
+                        2-Nov-2011</p>
+    </TD> 
+  </TR> 
+  </TBODY>  
+</TABLE>
+
+<FONT FACE="Arial">
+<p align="center"><A href="#top">Top</a> | <a href="SLP.pdf">Software Load Procedure.</a> | 
+<a href="ImgIntroR30iA.htm">Image Backup Overview</a> | <a href="ImgBkupR30iA.htm">Image Backup Procedure</a> | 
+<a href="ImgRstrR30iA.htm">Image Restore Procedure</a> | <a href="SetupR30iA.htm">IO Setup and Variable Restore.</a> |<a href="Index.htm">Index</a></p></FONT>
+
+<H1></h1>
+<p align="center"><b>IO Setup and Variable Restore</b></p>
+<FONT FACE="Arial"><P>This procedure will setup the communication with the PLC and GUI, it can be used to restore variables after an image was loaded from another robot with the same options.<br>
+If you don't need to change the robot number and only want to restore the variables or run the I/O setup, start at <A href="#Restore">step 5</a></P>
+<p align="center"><b>Select the Robot and Zone</b></p>
+
+<P>1) With the power off, press and hold the USER2 button on the operator panel of the R-30iA controller or press and hold the PREV and NEXT keys on the teach pendant. While holding these keys, press the ON button. Wait  about ten seconds, or until you see the Configuration Menu (below) on the teach pendant before releasing the buttons.</P>
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=294><TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+----- CONFIGURATION MENU -----
+
+1. Hot start
+2. Cold start
+3. CNTL start
+4. Maintenance
+
+Select &gt; </PRE></FONT></TD></TR></TABLE>
+
+<P>2) Select: </FONT><FONT FACE="Courier New">3. Controlled Start </FONT><FONT FACE="Arial"> It will bring you to the PaintTool setup screen:</P>
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=294><TR><TD VALIGN="MIDDLE" BGCOLOR="#a0a0a0">
+<PRE><FONT SIZE=2>PaintTool Setup       CONTROLLED START</PRE></FONT></TD></TR>
+<TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+1  F Number:                 
+2  Version :V7.50p18    Project: 122392
+3  Engineer:           Date:  
+4  Controller Number:        1
+5  Zone Number:              Prime
+6  Applicator Type:          Gun
+   I/O Configuration:        Enhanced
+7  Cell I/O Hardware:        Ethernet I/P
+8  Process I/O Hardware:     Model A (R1-10)
+9  No. of System Colors:     35
+10 No. of Color Valves:      31
+</PRE></FONT></TD></TR></TABLE>
+
+<p>
+Select the Zone name and set the controller number.<br>
+Press F2(Setup) to run the setup.  It will take a few minutes.</p>
+<p>4) When it finishes it will display </FONT><FONT FACE="Courier New">"Press FCTN then START (COLD) when done."</FONT><FONT FACE="Arial"> Press FCTN, then ENTER to cold start.  It will take a few minutes to finish.</p>  
+
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=280><TR><TD BGCOLOR="#a0a0a0">
+<PRE><FONT SIZE=2>UTILITIES Hints            JOINT  10 %</PRE></FONT></TD></TR>
+<TR><TD BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+
+
+          PaintTool (N. A.)
+
+               V7.50P/18 
+
+Copyright 2006. All Rights Reserved
+FANUC LTD, FANUC Robotics America, Inc.
+Licensed software: Your use constitutes
+your acceptance. This product protected
+by several U.S. Patents
+</PRE></FONT></TD></TR></TABLE>
+
+<p></p>
+<p align="center"><A name='Restore'><b>Variable Restore</b></A></p>
+<P>5) With the power off, press and hold the USER2 button on the operator panel of the R-30iA controller or press and hold the PREV and NEXT keys on the teach pendant. While holding these keys, press the ON button. Wait  about ten seconds, or until you see the Configuration Menu (below) on the teach pendant before releasing the buttons.</P>
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=294><TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+----- CONFIGURATION MENU -----
+
+1. Hot start
+2. Cold start
+3. CNTL start
+4. Maintenance
+
+Select &gt; </PRE></FONT></TD></TR></TABLE>
+
+<P>6) Select: </FONT><FONT FACE="Courier New">3. Controlled Start </FONT><FONT FACE="Arial"> It will bring you to the PaintTool setup screen:</P>
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=294><TR><TD VALIGN="MIDDLE" BGCOLOR="#a0a0a0">
+<PRE><FONT SIZE=2>PaintTool Setup       CONTROLLED START</PRE></FONT></TD></TR>
+<TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+1  F Number:                 
+2  Version :V7.50p18    Project: 118643
+3  Engineer:           Date:  
+4  Controller Number:        1
+5  Zone Number:              Base
+6  Applicator Type:          Gun
+   I/O Configuration:        Enhanced
+7  Cell I/O Hardware:        Ethernet I/P
+8  Process I/O Hardware:     Model A (R1-10)
+9  No. of System Colors:     35
+10 No. of Color Valves:      31
+</PRE></FONT></TD></TR></TABLE>
+<p>11) You may now restore variables and teach pendant programs (*.SV, *.VR, and *.TP) from the PAINTworks file copy utility.  Wait for PAINTworks to finish.</p>
+<p>12) Press FCTN, then ENTER to cold start.  It will take a few minutes to finish.<br>It will end up at the utilities menu.</p>  
+
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=280><TR><TD BGCOLOR="#a0a0a0">
+<PRE><FONT SIZE=2>UTILITIES Hints            JOINT  10 %</PRE></FONT></TD></TR>
+<TR><TD BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+
+
+          PaintTool (N. A.)
+
+               V7.50P/18 
+
+Copyright 2006. All Rights Reserved
+FANUC LTD, FANUC Robotics America, Inc.
+Licensed software: Your use constitutes
+your acceptance. This product protected
+by several U.S. Patents
+</PRE></FONT></TD></TR></TABLE>
+<FONT FACE="Arial">
+<p align="center"><A href="#top">Top</a> | <a href="SLP.pdf">Software Load Procedure.</a> | 
+<a href="ImgIntroR30iA.htm">Image Backup Overview</a> | <a href="ImgBkupR30iA.htm">Image Backup Procedure</a> | 
+<a href="ImgRstrR30iA.htm">Image Restore Procedure</a> | <a href="SetupR30iA.htm">IO Setup and Variable Restore.</a> |<a href="Index.htm">Index</a></p></FONT>
+
+<HR CLASS='EOF-MARKER'> 
+<P class='footer-copyright'><A href="http://www.fanucrobotics.com">Copyright &copy; 1999 by FANUC Robotics North America, Inc.</a></P> 
+</BODY></HTML>

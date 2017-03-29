@@ -1,0 +1,143 @@
+<html>
+<head>
+<title>PAINTworks Online Help - Operate Menu - Fluid Maintenance</title>
+    <object id="HHCTRL" type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+    </object>
+    <script type="text/javascript"
+        src="../common/help.js">
+        document.write("Included Jscript file not found, some help may not be available.");
+    </script>
+</head>
+
+
+<body background="../common/indtextb.jpg" >
+    <h2>Operate Menu</h2>
+    <h1>Fluid Maintenance</h1>
+<p>The purpose of this screen is to allow the operator to perform manual flow
+tests, run color change cycles and to control individual color change valve states.</p>
+<p>To request a manual fluid function, the operator must first select the color
+and robot(s). Flow test and valve commands can be sent to multiple robots
+simultaneously but the current robot valve state is displayed one robot at a
+time. The operator can enable Individual valves by clicking on the graphical
+representation of the color valve stack. When valves are selected to be on and
+the feedback from the robot controller goes on, the GUI icon will be highlighted.
+When the valve is disabled (toggle state) and the feedback from the robot controller goes off, 
+the GUI icon returns to it’s normal color.</p>
+<p>The graphical valve area can display other flow information.  
+Right click to bring up a menu that allows a choice of displays. </p>
+<p>Flow tests are started by first entering the flow test parameters into the
+Flow Test text boxes. Data for Paint Flow (cc), Turbine Speed (KRPM), Shaping Air Pressure
+(SLPM), Estats (step) and Flow Test Time Duration (seconds) can be
+entered. The operator starts the flow test by pressing the Start button. The
+test is aborted by pressing the Cancel button. When a flow test is active, the
+flow test status bar shows the percentage of the flow test complete. During a 
+flow test, instantaneous and total feedback values are displayed.</p>
+<p>Some parameters can also be sent as output counts instead of engineering units.  
+Right click on the units label to select Engineering units or counts.  This applies to most analog or group output parameters.  It is not available for Servo-driven fluid control or Fanuc bell speed control.</p>
+<p>A manual color change cycle is started by selecting and individual color
+change cycle and pressing the Run [Color Change] Button. Any valves energized
+during the color change cycle are displayed by the graphical representation of
+the color changer valve stack.</p>
+<p>Autocal can be run for any parameter that supports it(Accuflow, Accustat, DQ Shaping Air).  The graphical valve area will change to display autoacal status.</p>
+
+<p><strong>Note: </strong>Changes to this screen can only be made
+by a user with sufficient access level. </p>
+
+<p>Click the area where you want help.</p>
+
+
+<p><map id="FPMap0" name="FPMap0">
+<area href="../[1.0]PAINTworksMainMenu/OperateMenu.htm" shape="rect" 
+        coords="8,23,44,62" alt = "Closes current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="49,20,95,59" alt="The change button shows the change log for the current screen."/>
+<area href="FluidMaintenanceSubs/FluidMaintenanceDevices.htm" 
+        coords="106,20,145,59" shape="rect" alt = "Click now to view device status." />
+<area href="JavaScript:HHCTRL.TextPopup(StatusButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="152,21,183,60" alt="The status button displays the communication status of the screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(BeakerMode,popfont,9,9,-1,-1)" shape="rect" 
+        coords="197,20,248,59" alt="This button allows the operator to disable the bell spin requirement when performing fluid measurements."/>
+
+<area shape="rect" coords="18,100,78,116"  
+        href="JavaScript:HHCTRL.TextPopup(CboZone,popfont,9,9,-1,-1)" 
+        alt="Select a zone." />
+<area href="JavaScript:HHCTRL.TextPopup(CboApplicator,popfont,9,9,-1,-1)" shape="rect" 
+        coords="100,97,175,114" alt="Select an applicator."/>
+<area shape="rect" coords="199,97,316,115"  
+        href="JavaScript:HHCTRL.TextPopup(CboColor,popfont,9,9,-1,-1)" 
+        alt="Select a color." />
+<area shape="rect" coords="351,98,410,115"  
+        href="JavaScript:HHCTRL.TextPopup(CboRobot,popfont,9,9,-1,-1)" 
+        alt="Select a robot for the detailed view."/>
+        
+        
+<area shape="rect" coords="239,204,380,223"  
+        href="JavaScript:HHCTRL.TextPopup(ManualColorChange,popfont,9,9,-1,-1)" 
+        alt="Select a color change cycle."/>
+<area shape="rect" coords="19,141,89,170"  
+        href="JavaScript:HHCTRL.TextPopup(Robots2Operate,popfont,9,9,-1,-1)" 
+        alt="Select the robots to operate." />
+<area href="JavaScript:HHCTRL.TextPopup(MaintGraphic,popfont,9,9,-1,-1)" 
+        shape="rect" coords="425,112,617,480" alt="This panel shows details.  Right click to select different views" />
+<area href="JavaScript:HHCTRL.TextPopup(MFlowRate,popfont,9,9,-1,-1)" 
+        coords="4,227,99,243" shape="rect" alt=""/>
+<area href="JavaScript:HHCTRL.TextPopup(MTurbineSpeed,popfont,9,9,-1,-1)" 
+        coords="5,261,100,278" shape="rect" alt="Flow test Fluid Flow selection."/>
+<area href="JavaScript:HHCTRL.TextPopup(MShapingAir,popfont,9,9,-1,-1)" 
+        coords="6,296,100,312" shape="rect" alt="Flow test Fan or Shaping air selection."/>
+<area href="JavaScript:HHCTRL.TextPopup(MEstats,popfont,9,9,-1,-1)" 
+        coords="6,331,101,347" shape="rect" alt="Flow test Estat selection."/>
+<area href="JavaScript:HHCTRL.TextPopup(MDuration,popfont,9,9,-1,-1)" 
+        coords="4,365,98,382" shape="rect" alt="Flow test time."/>
+<area href="JavaScript:HHCTRL.TextPopup(MStartTest,popfont,9,9,-1,-1)" 
+        coords="70,424,173,443" shape="rect" alt="Start a flow test."/>
+<area href="JavaScript:HHCTRL.TextPopup(ActFlowRate,popfont,9,9,-1,-1)" 
+        shape="rect" coords="161,229,190,243" alt="Actual flow rate."/>
+<area href="JavaScript:HHCTRL.TextPopup(TotalFlow,popfont,9,9,-1,-1)" 
+        coords="202,297,222,313" shape="rect" alt="Total flow."/>
+<area coords="161,264,188,278" shape="rect" 
+        href="JavaScript:HHCTRL.TextPopup(ActTurbSpeed,popfont,9,9,-1,-1)" alt="Actual Turbine Speed."/>
+<area href="JavaScript:HHCTRL.TextPopup(ActManfPressure,popfont,9,9,-1,-1)" 
+        shape="rect" coords="165,298,191,311" alt="Actual Manifold Pressure."/>
+<area coords="162,331,189,346" shape="rect" 
+        href="JavaScript:HHCTRL.TextPopup(ActEStatVolts,popfont,9,9,-1,-1)" alt="Actual Estat Voltage."/>
+<area coords="198,332,225,345" shape="rect" 
+        href="JavaScript:HHCTRL.TextPopup(ActEStatAmps,popfont,9,9,-1,-1)" alt="Actual Estat Current."/>
+<area href="JavaScript:HHCTRL.TextPopup(TestElapsed,popfont,9,9,-1,-1)" shape="rect" 
+        coords="163,366,190,379" alt="Elapsed time."/>
+
+
+
+<area href="JavaScript:HHCTRL.TextPopup(TPushOut,popfont,9,9,-1,-1)" shape="rect" 
+        coords="313,232,418,246" alt="Pushout time."/>
+<area href="JavaScript:HHCTRL.TextPopup(TCleanOut,popfont,9,9,-1,-1)" shape="rect" 
+        coords="313,250,418,265" alt="Cleanout time."/>
+<area href="JavaScript:HHCTRL.TextPopup(TCapClean,popfont,9,9,-1,-1)" shape="rect" 
+        coords="313,270,418,285" alt="Bel Wash time."/>
+<area href="JavaScript:HHCTRL.TextPopup(TFill,popfont,9,9,-1,-1)" shape="rect" 
+        coords="316,289,421,304" alt="Fill time."/>
+<area href="JavaScript:HHCTRL.TextPopup(TReFill,popfont,9,9,-1,-1)" shape="rect" 
+        coords="316,307,421,321" alt="Refill time."/>
+<area href="JavaScript:HHCTRL.TextPopup(TFullPush,popfont,9,9,-1,-1)" shape="rect" 
+        coords="312,326,421,339" alt="Full Push time."/>
+<area href="JavaScript:HHCTRL.TextPopup(TSuperPurge,popfont,9,9,-1,-1)" 
+        shape="rect" coords="314,358,419,375" alt="Superpurge time."/>
+<area href="JavaScript:HHCTRL.TextPopup(SACal,popfont,9,9,-1,-1)" shape="rect" 
+        coords="338,427,369,451" alt="Total color change time."/>
+<area href="JavaScript:HHCTRL.TextPopup(TSpare1,popfont,9,9,-1,-1)" shape="rect" 
+        coords="315,342,419,358" alt="Spare cycle time."/>
+
+
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar,popfont,9,9,-1,-1)" shape="rect" 
+        coords="6,681,556,697" alt=""/>
+<area href="JavaScript:HHCTRL.TextPopup(RobotsOnline,popfont,9,9,-1,-1)" shape="rect" 
+        coords="947,680,1018,697" alt=""/>
+<area href="JavaScript:HHCTRL.TextPopup(ActiveColor,popfont,9,9,-1,-1)" 
+        shape="rect" coords="447,70,600,83" alt=""/>
+<area href="JavaScript:HHCTRL.TextPopup(CurrentColor,popfont,9,9,-1,-1)" shape="rect" coords="14,481,152,498">
+<area href="JavaScript:HHCTRL.TextPopup(SelectDisplay,popfont,9,9,-1,-1)" shape="rect" coords="429,533,624,558">
+
+</map><img src="images/Operate_FluidMaint.jpg" usemap="#FPMap0" width="1024" height="703" alt=""/></p>
+</body>
+</html>

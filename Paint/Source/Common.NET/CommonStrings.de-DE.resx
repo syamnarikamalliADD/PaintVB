@@ -1,0 +1,2404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="imgPrint" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        rFrw/wKQhUTmxGcptwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="imgSBRGrey" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2eBgAAAAAAADYEAAAoAAAAHAAAABYAAAABAAgAAAAAAAAAAADCHgAAwh4AAAABAAAAAQAABAIE/wSC
+        BP8EgoT/RGJk/8TCxP8EAoT/hIKE/4QCRP9EIiT/BKIE/0SChP/8/vz/RCJk/6SipP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wQE
+        BAQEBAQEBAMHAwMDAwMABAQEBAQEBAQEBAQEBAQEBAQEAAMKBw0NAw0NDQMEBAQEBAQEBAQEBAQEBAQE
+        AwcKCgoNDQMDDQ0NAwQEBAQEBAQEBAQEBAQNAwcKAwMHDQMDBA0DDQ0DBAQEBAQEBAQEBAQEBAQAAwMK
+        BwgNAw0EDQMNAAQEBAQEBAQEBAQEBAQEAAcDAw0NDQ0DBAQEDQMEBAQEBAQEBAQEBAQEBAAHDQMDAw0E
+        DQYNBAQABAQEBAQEBAQEBAQEBAQDBw0DBwQDDQMHBAQEAwQEBAQEBAQEBAQEBAQEAAcHAwcEBAoKAwcE
+        BAAEBAQEBAQEBAQEBAQEBAADAwMKBAQHAwMGBgQDBAQEAwQDBAQEBAQEDQcNBAcKCgQEBwcDDQMDAAQE
+        BAUADAQEBAQEBA0GDQ0DBwoNBAoDDQQNAwQEDQQCAAwEBAQEBAcEBAEEBwoKBAQDAw0EAAQEBAMAAAgE
+        BAQEDQYNBAQNBAAKCgQEDQ0DAwQEAAAACAAEBAQEBAQGCQ0NBAQAAwMEDQAABAMHBw0NCwQEBAQEBAQE
+        BwkEBA0EAwMNDQ0ADQcHDQ0EAwQEBAQEBAQEBAYJDQQEBAMHBwADBwcNBAMDBAQEBAQEBAQEBAQEBg0N
+        BwAAAwoHCg0NAwMEBAQEBAQEBAQEBAQEDQcEAwMABwcHDQ0NBgMNBAQEBAQEBAQEBAQEBAQEBAAHCgcN
+        DQQAAwQEBAQEBAQEBAQEBAQEBAQEBAQDBwcNDQcABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQNDQQEBAQE
+        BAQEBAQEBAQEBAQEBAQ=
+</value>
+  </data>
+  <data name="imgSBRRed" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2eBgAAAAAAADYEAAAoAAAAHAAAABYAAAABAAgAAAAAAAAAAADEDgAAxA4AAAABAAAAAQAABAIE/wSC
+        BP8EgoT/BAKE/8TCxP9EYmT/hAJE/4SChP9EIiT/BKIE/0SChP8EAvz//P78/0QiZP+koqT/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wsL
+        CwsLCwsLCwUGBQUFBQUACwsLCwsLCwsLCwsLCwsLCwsLAAUKBg4OBQ4ODgULCwsLCwsLCwsLCwsLCwsL
+        BQYKCgoODgUFDg4OBQsLCwsLCwsLCwsLCwsLBQYKBQUGDgUFBA4FDg4FCwsLCwsLCwsLCwsLCwsABQUK
+        BggOBQ4EDgUOAAsLCwsLCwsLCwsLCwsLAAYFBQ4ODg4FBAQEDgULCwsLCwsLCwsLCwsLCwAGDgUFBQ4E
+        DgcEBAQACwsLCwsLCwsLCwsLCwsFBg4FBgQFDgUGBA4EBQsLCwsLCwsLCwsLCwsLAAYGBQYEBAoKBQYE
+        BAALCwsLCwsLCwsLCwsLCwAFBQUKBAQGBQUHBwQFCwsLBQsFCwsLCwsLCwYOBAYKCgQEBgYFDgUFAAsL
+        CwMADQsLCwsLCw4HDg4FBgoOBAoFDgQEBQsLCwsCAA0LCwsLCwYLCwEEBgoKBAQFBQ4OAAsLCwUAAAgL
+        CwsLCwcOCwsOBAAKCgQEDg4FBQsLAAAACAALCwsLCwsHCQ4OCwsABQUEDgAABAUGBg4ODAsLCwsLCwsL
+        BgkEBAsLBQUODg4ADgYGDg4EBQsLCwsLCwsLCwcJDgsLCwUGBgAFBgYOBAUFCwsLCwsLCwsLCwsEBw4O
+        BgAABQoGCg4OBQULCwsLCwsLCwsLCwsLCwYEBQUABgYGDg4OBwULCwsLCwsLCwsLCwsLCwsLCwAGCgYO
+        DgQABQsLCwsLCwsLCwsLCwsLCwsLCwsFBgYODgYACwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsODgsLCwsL
+        CwsLCwsLCwsLCwsLCws=
+</value>
+  </data>
+  <data name="imgRemote" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="imgSBRGreen" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2eBgAAAAAAADYEAAAoAAAAHAAAABYAAAABAAgAAAAAAAAAAADEDgAAxA4AAAABAAAAAQAABAIE/wSC
+        BP8EgoT/RGJk/8TCxP8EAoT/hIKE/4QCRP8E/gT/RCIk/wSiBP9EgoT//P78/0QiZP+koqT/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wgI
+        CAgICAgICAMHAwMDAwMACAgICAgICAgICAgICAgICAgIAAMLBw4OAw4ODgMICAgICAgICAgICAgICAgI
+        AwcLCwsODgMDDg4OAwgICAgICAgICAgICAgIAwcLAwMHDgMDBA4DDg4DCAgICAgICAgICAgICAgAAwML
+        BwkOAw4EDgMOAAgICAgICAgICAgICAgIAAcDAw4ODg4DBAQEDgMICAgICAgICAgICAgICAAHDgMDAw4E
+        DgYEBAQACAgICAgICAgICAgICAgDBw4DBwQDDgMHBA4EAwgICAgICAgICAgICAgIAAcHAwcEBAsLAwcE
+        BAAICAgICAgICAgICAgICAADAwMLBAQHAwMGBgQDCAgIAwgDCAgICAgICAcOBAcLCwQEBwcDDgMDAAgI
+        CAUADQgICAgICA4GDg4DBwsOBAsDDgQEAwgICAgCAA0ICAgICAcICAEEBwsLBAQDAw4OAAgICAMAAAkI
+        CAgICAYOCAgOBAALCwQEDg4DAwgIAAAACQAICAgICAgGCg4OCAgAAwMEDgAABAMHBw4ODAgICAgICAgI
+        BwoEBAgIAwMODg4ADgcHDg4EAwgICAgICAgICAYKDggICAMHBwADBwcOBAMDCAgICAgICAgICAgEBg4O
+        BwAAAwsHCw4OAwMICAgICAgICAgICAgICAcEAwMABwcHDg4OBgMICAgICAgICAgICAgICAgICAAHCwcO
+        DgQAAwgICAgICAgICAgICAgICAgICAgDBwcODgcACAgICAgICAgICAgICAgICAgICAgICAgODggICAgI
+        CAgICAgICAgICAgICAg=
+</value>
+  </data>
+  <data name="imgLock1" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHlJREFUOE/NUlsK
+        wDAI69E9mjfrpkwXxLb6MZgg9qFpbBzjzzZvcugtrjPaA1YC0Vpm9tdlLVYFyZJ7APi6/UNylrajNC1Z
+        Iq7xLmtHk3cuRUSUKhMl2+4BxNvwnzcFVjGweAEEteJLANP6FL9jcOo9TmccgpYKWHwBvO5NMdc/aEgA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="imgSBRYellow" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2eBgAAAAAAADYEAAAoAAAAHAAAABYAAAABAAgAAAAAAAAAAADEDgAAxA4AAAABAAAAAQAABAIE/wSC
+        BP8EgoT/BP78/0RiZP8EAoT/hIKE/4QCRP/EwsT/RCIk/wSiBP9EgoT/RCJk/6SipP/8/vz/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wMD
+        AwMDAwMDAwQHBAQEBAQAAwMDAwMDAwMDAwMDAwMDAwMDAAQLBw0NBA0NDQQDAwMDAwMDAwMDAwMDAwMD
+        BAcLCwsNDQQEDQ0NBAMDAwMDAwMDAwMDAwMDBAcLBAQHDQQECA0EDQ0EAwMDAwMDAwMDAwMDAwMABAQL
+        BwkNBA0IDQQNAAMDAwMDAwMDAwMDAwMDAAcEBA0NDQ0ECAgIDQQDAwMDAwMDAwMDAwMDAwAHDQQEBA0I
+        DQYICAgAAwMDAwMDAwMDAwMDAwMEBw0EBwgEDQQHCA0IBAMDAwMDAwMDAwMDAwMDAAcHBAcICAsLBAcI
+        CAADAwMDAwMDAwMDAwMDAwAEBAQLCAgHBAQGBggEAwMDBAMEAwMDAwMDAwcNCAcLCwgIBwcEDQQEAAMD
+        AwUADAMDAwMDAw0GDQ0EBwsNCAsEDQgIBAMDAwMCAAwDAwMDAwcDAwEIBwsLCAgEBA0NAAMDAwQAAAkD
+        AwMDAwYNAwMNCAALCwgIDQ0EBAMDAAAACQADAwMDAwMGCg0NAwMABAQIDQAACAQHBw0NDgMDAwMDAwMD
+        BwoICAMDBAQNDQ0ADQcHDQ0IBAMDAwMDAwMDAwYKDQMDAwQHBwAEBwcNCAQEAwMDAwMDAwMDAwMIBg0N
+        BwAABAsHCw0NBAQDAwMDAwMDAwMDAwMDAwcIBAQABwcHDQ0NBgQDAwMDAwMDAwMDAwMDAwMDAwAHCwcN
+        DQgABAMDAwMDAwMDAwMDAwMDAwMDAwMEBwcNDQcAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMNDQMDAwMD
+        AwMDAwMDAwMDAwMDAwM=
+</value>
+  </data>
+  <data name="z_Beaker" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDwAYAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwICAgP8AAAD/AP//AAAA//8A/wD/////
+        /wAAwwAAzwAA2wAA5wAA8wAA/xcX/y8v/1NT/2dr/39//4uL/5eX/6Oj/6+v/7u7/8fH/8fP/9vb/+fn
+        //Pz//f7/1MrK183N2tDQ3dPT39XV4tjY5dvb6d/f7OLi7+Xl8+np9uzs+e/v+/Hx/fPzysrUzc3X0ND
+        a09Pd1tbg2dnj3Nzm39/p4uLs5eXv6Ojy6+v17u748PD69PT+y9TLztfO0drR1N3U1+DX2uPa3ebd4On
+        g4+zj5u/m6fLp7PXs7/jv8vvy9f715dvh6d/l7ePp8Obs9Orw9+3z+vD22+Xi3ujk4evn5O7q5/Ht7Pb
+        y7/n18vz45tvC6N7D6+HE7ePF8ObG8+nF9uzG+e/I/PLK//XN//z///r///f///T///H//+3//+j//+X
+        //+D//9r//9L/+cA59cA18cAw7cAt6cAo5cAl4sAi3cAd2cAZ1MATzMAL///6///5///3///0///u///
+        m///P/fzAOvnAN/fANPTAMfHALu7AK+zAKenAJebAI+XAH9/AHd3AF9fAEdHADMzAPf//+f//9v//8f/
+        /7v//5f//3///1P//wDv7wDj4wDX1wDLywC/vwCzswCjowCTlwCDiwB7ewBrZwBbWwBLRwAjI/P/8+f/
+        39f/18//w7v/u6P/o4f/h2f/Zzf/NwD/CwDzAADrAADjAADXAADLAAC/AACzAACnAACfAACTAACHAAB/
+        AAB3AABvAABnAABfAABTAABHAAA3AAAjAP/z9//r6//f3//T0//Dw/+vr/+bm/+Li/93d/9nZ/9TU/9D
+        Q/8vL/8XF0cAAFcAAGcAAHMAAH8AAIsAAJcAAKMAAK8AALsAAMMAAM8AANsAAOcAAPMAAFQAfGkAm34A
+        upMA2aoA8LYk/8JI/85s/9qQ/+a0//Dw8Nzc3MjIyLS0tKCgoICAgP8AAAD/AP//AAAA//8A/wD/////
+        /yH5BAEAAAcALAAAAAAPABgAAAjyAA8IHHjAGcGDMKbROECvGgsYMg4ekDENGzUX1qxNG/OMYDMW1shh
+        uzYSm7WDGUmGGydO3LhrB6WpXBluJbaDL66FY3GCGzdpM2ZIdEaDXj16MYzSk8jwAAAW0lwEgsG03osV
+        Ga1Rozp0GjVr165pZHpA2jSw1qpJIxvNxLRqLqKSfXGxBbVp09hSo9bChYu8TKNNa0HYbkSJUamx6OuC
+        BYuD9upFhgEAQKADRgYRpGfvQL3KAFrZs7dUYDN6SOzdAx3onuel8462gIEASSvQB+4tpWfU9aUWoC/V
+        S3GUd+57q0GTPuGCN+cWuenhpneCRUAAOw==
+</value>
+  </data>
+  <data name="imgSBRBlue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2eBgAAAAAAADYEAAAoAAAAHAAAABYAAAABAAgAAAAAAAAAAADEDgAAxA4AAAABAAAAAQAABAIE/wSC
+        BP8EgoT/RGJk/8TCxP8EAoT/hIKE/4QCRP/8/gT/RCIk/wSiBP9EgoT//P78/0QiZP+koqT/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wgI
+        CAgICAgICAMHAwMDAwMACAgICAgICAgICAgICAgICAgIAAMLBw4OAw4ODgMICAgICAgICAgICAgICAgI
+        AwcLCwsODgMDDg4OAwgICAgICAgICAgICAgIAwcLAwMHDgMDBA4DDg4DCAgICAgICAgICAgICAgAAwML
+        BwkOAw4EDgMOAAgICAgICAgICAgICAgIAAcDAw4EDg4DBAQEDgMICAgICAgICAgICAgICAAHDgMDAw4E
+        DgYEBAQACAgICAgICAgICAgICAgDBw4DBw4DDgMHBAQEAwgICAgICAgICAgICAgIAAcHAwcEBAsLAwcE
+        BAAICAgICAgICAgICAgICAADAwMLBAQHAwMGBgQDCAgIAwgDCAgICAgICAcOBAcLCwQEBwcDDgMDAAgI
+        CAUADQgICAgICA4GDg4DBwsEBAsDDg4EAwgICAgCAA0ICAgICAcICAEEBwsLDgQDAw4EAAgICAMAAAkI
+        CAgICAYOCAgOBAALCwQEDg4DAwgIAAAACQAICAgICAgGCg4OCAgAAwMEDgAABAMHBw4ODAgICAgICAgI
+        BwoEBAgIAwMODg4ADgcHDg4EAwgICAgICAgICAYKDggICAMHBwADBwcOBAMDCAgICAgICAgICAgEBg4O
+        BwAAAwsHCw4OAwMICAgICAgICAgICAgICAcEAwMABwcHDg4OBgMICAgICAgICAgICAgICAgICAAHCwcO
+        DgQAAwgICAgICAgICAgICAgICAgICAgDBwcODgcACAgICAgICAgICAgICAgICAgICAgICAgODggICAgI
+        CAgICAgICAgICAgICAg=
+</value>
+  </data>
+  <data name="imgUnlock1" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJBJREFUOE+1U0EO
+        wCAImz/3afzMWTcY6UTZYSYEEqBAwXLEr5GrLGJfrsavRzBgiDdyRQQJQ2DjZUF8slb5BqCVXY95gN4o
+        mjW5QfIArrpxoDyQb0piq7WagDwlk/WM0BEMAYjaXiMJvglH17qy4kBsDNu93kCkqYsHwM++skMAvbad
+        /q+D3ez8P/gI0hvg/Z8ypGOeFV48KAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="imgChange" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        EP8fX/0/4sPSd83LUF8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="imgClose" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        fva/PsJJrTHC/G8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="imgCopy" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="imgLock" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOwQAA
+        DsEBuJFr7QAAAjdJREFUOE+tlF9IU1Ecx12vPVQYUXsw0h4SIigKgvUUSoI2IWFgEQnRgwspcMRCgsQY
+        Eoj4J0OwSGEUtMSSjGFZzIHFTJqZlGzoGneMXGhXH0Td+XZ/v6l41Z3rwHv5cjjn3vO5v/v7/n7HJLJE
+        1o5eBNzO3WQ7DJLRu9uCBdsOAaJ9TV+fmNOCDYEEWl5o5OicJie+PN7H8w7rmS2hUmAiWA4x14Che7n6
+        zZEadFbkZQ7Ej9tb5m3ccxKe6v2ZA5c+X9sEpGgJONy+C0P2c5ug0l+eeV+E5xXHEPae4rxBqQVFTcCx
+        rmwovafhc+3VQdMCY8NWTHbnA4utwN96iNEqJAM34H9k4ei67hzgMR58KAeSe+Ts98EqjHbuQV9zAcPm
+        fZdAEVNUVDaTA1cgkv+gRt/IgSHPUSQCZVD8pfC3FWL2QzFoLf7NheRiIqWlKITws9RYqxw48SIHCN+F
+        4ru8ARDQIuoFll/yuCo15jIG0i8qn2y67qA0hAadqK2x69ZVxSEH/nSbQeUS7S9Bcq6FTWGHtXHgtQMd
+        9y9wsbNZmtTILTmQyoEMiHgLUxvJ4RUAwV7VW/gDtEZSwzflQHI23mfBlPcsxJ8HLK4/TdMfr2Lk2fm1
+        OT1Tx67LgcGnu/G750QKqPXsehFw+l2xbm3cfdAYSE6H3mpt9UtL+IrIeeqS1bkaKOe2rDPVGXdKf3Ve
+        Cqi5TcJIJeeVDGuxHYHdZM/8PKSOcVea0XzxOBw51rTn38YT/D/cBK4+3d91CQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="imgMultiView" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADwAAAA4CAYAAAChbZtkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOwQAA
+        DsEBuJFr7QAABxhJREFUaEPtmWtQVGUYx6HR+pBNOZajXT6oFUWOHyyzGT40Y6WWWiOlNl4aQw3X2wwL
+        wmheAhkwATcLhpshylUQDYON4qYjAgprxoITiIKDOsWEZpfxC/LP/0PvzpGLuyx7yA1hnnnP2ffs7vN7
+        /8/lPWc9uzy6PIbVH4GH0/+wgpVoHk7q3gf+L9XOy7OAZtpRJKaXL0Me0lXf/4ja2kZUVf2MkpI65ORU
+        IjHWjF0mM6IOnEJodAn2eO5xX+DzTU1oa2tDVaUFZvNxJGWXIjEpXcbck1aYG68g89dbNgtNroVx3Fb3
+        Be7o6BBAU0E1Yk82I7XlTxT+BbHKzu6RRuikK0BYdqN7A9fWWLG7vAkRzRAjFOEUqBbW1AqE5rdizWvR
+        Ynrkse45nFFWD1qQtRuYUApaO/KY8yE/XHdv4IJj50AjsBaa4FojLOeNlTdhmJ0s5pYK02lW5BWnumzQ
+        ClyFuVoMjrzO8EGWmNsCs/34m9sFZsPZbiWVqXOOnF9UAaxaZRZzW+CCAisMR9oERkFx1BrnaDOLu+D3
+        WQMiPSPdF3jjkcugEYam4LSjmuO4IPwijJ5G9wVmb6X5mCGmhVPHfH3Z0RsITG6GccOJ/wfwlG+AnkZQ
+        tqKYrxsRuLYYC7y2YOnDfmJum8N0PDHxNCZk3bIZ8ze29DckJ9fDYKiCr28h5nnO001ZtXi6bzzUF+2L
+        qMHM/dcQeaYLeeW/CGhAwAmBVbZ6/GZdVNVGypABHzpUB6ocE1kBVu20NIucE1qBc06PMB5yYN5AtLf/
+        jpaWDvCYd0/szVyE8PByBAeXiHEBuBB6QuuuMHdZhOzs7BRTwLwn5g3//v0VCA09KqaAw1fn6AY9BMAN
+        Aqm1C62XYLU2CXBpqQVRUVlihKfCIStS3Bc4bVspCMgwVsaHAlSYgNa6BsTEJGP79nQ5p8ofvxLivsDM
+        x/jAw7cf6TSIqsrUIx6TqRgJCcWSzzz+yCcE/p7+7g1M6J2rU0Dj8ys+x1IWF1eMsOADWDFjm2w29NpS
+        DnkfVl/YH7CeldnhtpSRuRepKfrciNMJLy+vAYfuYH3qs0ovX+yNOaOj8daDcfi2KAX8knfHx+P2j244
+        Z2kasJP9qTcQYFf51CcwwRaOz0Jc7ASBzsuPFyMs5xbMeX7Q0EkJCVDmSDi7yicbMFWcPmKHgBj8pyEk
+        6FWBWzM1HfMnR+O9CV9i34Eo5Obki6ObggKw2PcFp8H5GS03gLuprIdPdygcEbpJcrbgu2xRlsA04zof
+        REQ8LapvDnoG2RkZyC1Ix8ol02+r/ZRT0I4Ac/Fd7ZMNOHKzESPjPZCZkoaTFcdhsVaAG4RP/Kbg/XHx
+        thym+ksnpmLWQzslt/ncmSG+ZP7UAYE7AqyHTzZgKkrgM+WVKDIXStjW1NSIiiwYfI2LwZCm6jWnTwj0
+        wtG7JL+pOhVxNL8dAdbDJxswQ0cpzLA+VlaGszXVAhdgeEfyldtAgqlQ55aREcCKTni+jz+r8CbBXiEi
+        cKudHNbDJwFmaBrXr8XRg3mipFKTKnp4PI7Pt0/DluBJ8oMYw53XcUGoplZRtRAcn33uTVmYq1cbesFb
+        D3qjsfBtsYa8l1F3eHava3TzSasEqzQhRdl1o3CuvhoLR+UidMdEBBq8JcRpVJs5S6d4TjDt5xj8Ztii
+        4JFHJ9vaj2pDBOVCMBL+vlaPsi/G9rpGXetyn3qGHr9o46erREUes0LPGnlIFOY5ixQrNUOZ+cxo4DjD
+        ZwwuXTgv4Mx1HsfGjBDw9ZNel/BVRlWvXykGblrwx+UjKDU9KXNsU32ZK33qtfFQvY+tqbHlJ2lPWoVZ
+        vZmzbFEsZoTlqFTVLmDqv20tZPI86bfKGvPGov2YN1qKXpIxc+MDd8xrr+WxK33qc6fFcKMyVJFtaOWS
+        N0RV5jCBuQh8nZBhYWtlE0JwhjrVVdBz5z4hj3Y4aheCgD3NXpFzlU/9PvEg8HKvFOnBhKOqFZWlcuMe
+        uP4x2Ykxrwnf0FyHpPjdskgc7Tnv7LwrfOoXmECE5I5KtR6CcWdFNfkaYal4dWUF2EJYsTk6C2Tvfa7w
+        6a4KL5v4lQAzdKkygdiH2ZIIzXBmfhGY11EBnttz3Nl5fv5gfborMLeQVJI5zN0UoRiyKl/ZkgjPMSoq
+        UnZlzsI48j4CD9anPoG5h1Y3DVKYtr4oucyeyjakVZqKs0qzjfXsx45AOHqNq3zqE5hV9cNx+dKOqC6h
+        CcxWxUpMJfl4lVtJhjqhWZ0Hc7toD9xVPvUJzCeLi3zHCDQ3HCwWVJlQ3CtzAQhHUEJzZDHjXtue487O
+        u8qnfnP4oqVNQpRqci/Nik0wAjOElardIe7cPfFA4V3hk0O/PHDfzJAmPI0Kq5GLwvwaqPODvd5ZnxwC
+        Hqxz99L77wPfS2ro4ct9hfVY1XvpM4edwv8AvTrv+Ssr658AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="imgRestore" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADYAAAAzCAYAAADciPtuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOwQAA
+        DsEBuJFr7QAACB9JREFUaEPdmntMlWUcx3HT6cIbgsuZrY05m6iJMDUg/1BTA3OR5BSmOME00aZSlJfE
+        lSIGWYmQLrJyXAQRNyBvaBSCOlIbi9QCYaIiirCVOQNTfj3f55zn5Tkv7+0c0Bay3w5yLns+7/f7+z6X
+        9/Rqd2t365H/ANYTf3okFHdhT1TLEIz1HXVXiYun93mP4+JqKoYBxMWNp8zMqVKFsN+XOFFvsdfGs9pC
+        YuD4XatWrZrncBG7A1QXDFCtjQvpdtFMXi0Fr7FaTncLVmhWK/s7Cs/j8VHBGlaJ1P5bvgJ26dJxKizM
+        Vaq4+AA1N5+igweTKSIiWKkFC2Yqv7sKaQgGoOphT9F19z5KtfTvS39pFHkOIvL348/RAHeiGTN4tW9/
+        WwHbvj2DPDxS7LWNAgM/oYqKImptPUP37pUpVVdXQGFh07sEZwh2vz6KGr6NpGtTn6dqZs8Ge91hj3c1
+        imUR0ZAhHFCAPdqywgHMzS2N2S6J1Vby8vqYFi36nFauTFUqM3MfBzx8eCcJi0JNZ5XTBdu0yY/OnVtM
+        bW1pVL9jHl190VsBA6AeHAcLCDAAS2dQHXBubhvZ/9cqBVBhUcC5akvduB88uC9FRQWyq5dC/7C6dXAZ
+        1Qxxt6ScbMXOikEtfTh39zjy90+i0tJ8rlxLSwmvtLSN3JpWlTOdx9aunU5lZe/S/fpEurHXZkthSSPl
+        uC2ZctpWhGKibLaUlRs4cB23aGzsLtqwIYWqqo5QevoHPDmtwpmChYVNYH6PobbmHdT8YyzdfN3XAQxw
+        6Dcta8KWjmC5kloAk5UDoKMtYdHhw+O5NQsLdyiBYkU1Q7CIiIlUU/MRt+Odk2vois8wno6yYmaB8odD
+        eAAsQwVk3HMCDLZEWoqeM4PTBYPskZEBHKohYwnVvuFHv/frzXtMTkgzW8pgFRUnWK/sZ3WAFi7cL9lR
+        35boOdgSaYlpAcohLV0GmzTJmzZvnsNTsW7ZFA5TZYcSYFqAakvKYPJgsrIO0ezZObz8/bMMew6WBBwC
+        BRM6Vi9mvaYb92lp4dTYmOQAJtQSkFqWVAeKHpiAvHGjjBISvrHPbfq29PBYz9MS/QYwOMpINYMJegn9
+        WRVPV9cH0+UJzypqyaqZ2RLqNUo9pjcQrD4SEvaZKgc4LMlcAgsOHkcoJGFDUQxdHtCPQ52x21ANVjOo
+        P92c6EONQePp5vhRncLFCpgMbLOltnICDBN3cHCQoR07KSYnoQADlIBTg12ZOIaayr+iv2sLqDFnG9V6
+        P+MQLs6CQTnbkqsznABDQl68eIAnpJ4LHMDgW6w2EBg1+5fShYjJXCnAyCUsWMsWqoARHw64a6nvUf3L
+        kxU4Z8GQmh2Ttzott1J0dDrl5eXwhIyODnUe7HzUSxxKlAwG+0EpGUq+coCrGzuS29JZMKQl7Ojl9aUd
+        UD2JJ1FMzNeug1VFBXGoo706w9VOmcDtZ5RKwpbOguEzT58+yqeBjsWyI1wH2KtdV0xW7tdXAkwnSAwQ
+        ypldAL2LM3duvtRnjqsVbHPa2vKZFZ0G20tqK8rKWQUzWx0YPW8DA5C60pgVk3kOIA8shweuQltbCZ2N
+        nuNgQ9mW/y1YBt+UugAWyhtTgMlKCbj/NVjpsrl0yB4earizFnus61YUuwFHO3aLYmo4QD4JsNDQM6y/
+        jmj2WbeAAUQN90NIkKVUVCt26lQJ7d59zNJ7Adanzzk7nKNyXQIrj4ukY0978QABmAx3OvAFS4NTgyUm
+        FtPYsZVsIXvC8P3Yt82aBahKewHMVqNHZ9LOnbv4PtHJVLSFRxNbi134NJYKBg9UwAQggF2BAxhUCAr6
+        WVe53NwT/PmhQwVUJX+PKEBVV6fwVDTakzmsFfFCrBexBsMis6boM00wod7FL9Y5pRzAhAqwGmyJ/Zis
+        LP7WoVQHHP7m6XmenxpXse1UcnKYdTB+l8J+M8IK2PmEGJfBMFAtW8rwakABhnsIOGSyrBjAhGpmYFw1
+        H29CL1qNdfWg1baMjS0hX19HlWQ4NZhLO2iAoc94iPiN7tRnSqAwOKvKJSaWU69ezbzkAcOWIlj0bChb
+        EYq5fOYBMJzAPnxYQWKyFjDqRyRnpQVbJib+QuPGES81nBGQgBozpoKfUgHKKBF5S2nJiTcGBfnyI2Yk
+        pBmYsCXmN0zel7K2atpTBhsxgqh37/u6QaEGnT//Ozp5co/lOzCG54oABBwG+n3YNF07ygpCvQq2ZUdi
+        om79tE+BlMGgGuC0rClDoQ8BlZOTyi7yh10HE0EiVKs9nkpHRj2nG//qSRyAaouqwcxsCSjYD0oJqPDw
+        kZbCyuSI2zav4VTo3u1iApwzylkF07OlsF9T0x5+agYos9AQrWV6UwIftHp1uNJvwpZaKxKzUNFTTM+W
+        ISFHuQVxcFtaupiWL/dhCnp2XTFBDzgcdV2/fpiHibClXkrKtpTT0ghMz5ZYWhUUvEMPHizlBTgr86ap
+        YjIcAJ21pTzHWQFT2xJ9BuVw4w9g5eVzCHdbXTri1rsi4s6+uBEOW2IqEIX+U1vUWTDZlnI64gwkO/t9
+        5poVHM7MlpYVk5XDHX1hS1gThYkc0Y5lFqwoALFDEO+FYlBEDF7vEa8RyskreyypECJWbOk0mJgGoB52
+        ATj8wSNWBEhO7AhQUBOFZZkAw/c8cIprVIWFe1hgJLBVfDyvvLw4pdBrUOyxgclWFfbEzTgMSKvE62Gl
+        nJw3DSs7O4I9P8208AUbpxfBVlJH/Rqj710pc4t9S9Td39HSGq9LVnQF/Em/p8eC/Qvnr8/PRc7T+gAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="imgSave" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOwQAA
+        DsEBuJFr7QAAARVJREFUWEftmA0OwiAMhefNORpH4SbVoo/U8it2m5ksIbgh69dHa8EbbbT9xMUgLxgm
+        OqzBbrIPCO89oTnniB4Dto3S+9kOOy1hkhp7g4QQMpDoMFakqUikFsr0PmNc9mnOUxFWAj2DAKatSMlw
+        yUgJgJdWzIci8yDacMvrGlCMtzxG7BSB1x8oglhkZWxB5BIgphoxMgdimMK1rBkLVkOQ72LEEGQposvD
+        UuRainCq8Zpa9rK6Dxc9PWmP+6Gf+D0MX0sRq72sVGVqaeQklO5ejw2QrLamIFqdGtAhIKU9hQZaIP+t
+        iAxY02AtHbJqqdZLW4xPBesZB3HpUBRCHoRHvbX+XgbCD6yN9N73dgjX/1WccX8HwL4tkEQI0C8AAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="imgUndo" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOwQAA
+        DsEBuJFr7QAABHNJREFUaEPtl31MU2cUxmEmhsShLgSMCWaJI2nUsLhpxDCVbuoGQROW7AvCl4UNC+ps
+        N8WSgkXERkRhUijtVD5i+RDGdJXWMjdpkAGKZjEuG5sbuiVG8Y9NYuYfs3287zVt7rW37W1poTej5EnI
+        7T3t+d3nnPechiMMYYJ+EQAh/wk6ebp6hPz0/98AH2UDH2YBM+2gXyW0MQV4MRL4QGgApsFfkJi0GU3N
+        Y0hNBdZt+BWnu3tn1AXeDrT09CNPuhtarRYy2QSWLwdWrRrFF/X60AdobLfgs5JyKBS1qKoCYmOpnMME
+        AqDrvIjC3XtRXNxIJ08Sd2jp0t8hye9Dtd7uVJvZNq2OeCyhNvM1JKemoaamC0olO3kCERUFrFzJVm7B
+        A5A4pkzD40GDcgtwsmcAkZGRGBi4DonENXkCsG0bMDnJVkPDKTqOqfezt08vgOpYE9ZvEGNiYgJi8X+I
+        iOAGINejo9kqLHxMxzF1vE6Dl6KiaRkodwI5O1wc2LHvEAp3ytDVdQNr1wLz5nEnz+wF5v8xMaDjmJLJ
+        7mNoaIjWlrT3EP9aAoqKKwMCwgKQ7CyBqkINtXoEycm+Je4OiFyPiwMyMp6poeECDAYD/T3k+6bqBgtA
+        WaXH54pRekh5Smgq7+XlAaWlwP7916AsK0f+LiVMI3f8BnEpoU/3/YklS/4KGoADXiwG6urGkZubC8XB
+        4+i+9JNfEC4AnabLyN9uweLFd4MOIRIBViuQnv4x9pSdRU//E58hOI/Rc5d+hEzeivnzJzFnzpOgg5hM
+        QGYmkJxmDwwAaay+q3eoWq2YFifmzgX1oIAXKMW/7huE12VOqTJgxYqbnC6Q60VF9U65u8+Xpl8WH2AA
+        y5VxlFX2Yc2aKy4QZBtVqVROSaVa6qhsYyku7jefSpD8zli/yY4eK79+8OoAKSfz8C1UHLEiMXGQlQwB
+        OFxdgy7zD07pWs6woHJyWpCSYnaJ9eZKq5HfUsgL4FlP3Ea1xoKEhGFqOj9yrtO1Gh2r8ch9LWdMLGl0
+        zZDLj9GxRDEx9726kvmJHR193iF4AzgmpvakgdqTrmPBgn/oHzTPA3BNVtPgGEgc0cFKNTUoe7Fo0T2v
+        EIpDQQAgCeqpMtn89jCSkvp5ATChSOzR2npk5VzAwoV/e4SQlz70eqz67IAjmebOXpQfOOAzgCP+q2+v
+        Qir9kp4z4eF2ThDi1AnDeY8QfgOQRNqNVr8BSLxx4BbdG+7KKSLiMdIl/wYPYKqbJIm3jPwB+Z5uiERj
+        nC68m+F5LkzJgUAAkM/ovfwz3tnygBMg6a3baDv3vVsXQgKAQBw9YcMbb7r2greTLmQACESJ2sY57T0d
+        1SEFcERvwysitguCcoC40Hqe7cIsQKBOGr6fI3gHCOjhRhtiXwZWrx5FQYHO47AMqSZmurTsVTu2bjXS
+        q7lgTiEmQNFeG3bJjKiu0aCDWlnclWDIOkASbuow4lT7N6G9C3lqbsPZ73D664vCBeBzcoV0Cc0C8HkC
+        M33PbAnNtANPAS5jRnw7DIIIAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="imgUnlock" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOwQAA
+        DsEBuJFr7QAAAlRJREFUOE+dlG9IU1EYxrWvfagwIvxg9A+Cog9RUKxPkRRYCxIGFVERfdCIAocUIiTE
+        kEVEugJBQoVRkEElGcNcsRYGE2mmkbVZa9wxclEeC0q95+m877bLvTVvtzYezu7ZPT/ec57zvOWyTJb9
+        y2fcvx70/sbGd+Ul1xHQ6VdoXkB2sHITJ1BqnWPY91wzgyYHdyB8eZkB/h3qGChTTRhqXmNU9cq/Fone
+        dZAzVyyVOgZipM4CpMqueVYByQv/B9Rjp9DbsPyPc/t4bzOo2uLWHVVIW/3yeC+GOxZhqH6nBfo6uBIk
+        W+Ct4xuQDG3B/I+rgNYCjJ+D1rcVYz0VPEZ8S0s6zFfQ7FJm2I2fwgfMBoDPrZCjZ0BbjV53IX5zMXoa
+        V3CV2bjfHtjp3pa/Bgoy2r0E/W27GfYtcpC3SlU9D1TgffgIpD4NkX5gDyT7c7FaaNEDiN6oxtfBGr4S
+        2Zc+6LM5ltTjkDLKEpmAPfDt7Sq2X4scNgD6XFotjilQHzB/h8eiRMb3dyBtUXvqMRJQjFji2Xm0NNVb
+        5imCC8WVTXkTrMTci2NID+yDPtPOprDDagzf96Lz4p68UQWJ1Fl7IF0HMiAVquYoscM0KgDB7ra68hEr
+        SCRP2wPJ2Wy/Cx9C2yE/XWLx/VOaenIUI127jDn6T4ydtAfSHaMIMVA1AbMIOPWoxjJnTkbJbkNAcjrx
+        UMVqQh14QeQ8pYSe6beIHQI1BHN2F2xfAw2qHRFQuU2i7kLnSoa1e1bbQsxQS/QoMcG6SrTt3wRvlRv0
+        7LSbF9/7BVuFuUVGzF/FAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="days7" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        /Rd5nJfI5zGS/wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="daysall" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="hours24" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        x8OW8AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="imgStatus" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="imgAdd" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAewQAA
+        HsEBw2lUUwAAARNJREFUaEPtmrEKglAYRqWtICSIHqAXaKigGurJCgyHXqOlpa0naA2CXqEllx7CcGtQ
+        +QSJTzuKi35c/nvOL1cuBgEHBP6LQLiMbp3JIS26+ov9qbFERpvt43ofp0HOebxM0+F6d2ZyjgQw52hF
+        qQlzCiXHDOYcrSg1YU6h5JjBnKMVpSbMKZQcM5hztKLUhDmFkmPG0lzZvkfVZ2XbDFXHKsp3Z/FLlpsN
+        krfv4XjvmQzScBW9mVxGAHMmjUtbfr+QtGWT27KuNegX61xvHifyUlBX0PILhckJBDAnQLKMYM5Si1AU
+        5gRIlhHMWWoRisKcAMkygjlLLUJRmBMgWUYwZ6lFKKrV5lr9v6UglwgEcgh8AJep6sqhTvDbAAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="imgDelete" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAA4CAYAAAC/pKvXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOwQAA
+        DsEBuJFr7QAAA/hJREFUaEPtmT1IVWEYx/3vUdEHImH0QZlRWBgNgVSDkNQQSWtCDtKQIi3hokOKJdGF
+        hkpzcZHQ/EAiilAwgttqtLjY4NRgm+vT+7924nju+573PV94vFzlgnI+nvf3fD/PhdRITUX8EKQSfisC
+        ouRVlWCNKkgerVh1rbxZpWqRXWORX/guM7ghRZyRNZyVKXRJ3g7vP4/RtVbQWALwPvx/BA9yC2ME8UN4
+        f3/DaZnEWC5hnC3iwUzj1O4Cmcfjba7lt1BBuVne4sVokU1syiguGWGe4GrmMD8wL7+x5iQntI6sY13G
+        cU4Lk2Xw/1Fy55Si6AWUU8QXK4y1IK5iVaj9YBajkCyCn1ZYCiivAxeV/JVQGCsIY4GWYerVwXxSwb+M
+        ZavGXGLqIx6VyRjBEWlAgyxiMTkID7GBDXmLPi3MayXIprEwEL8r+ZPKXewvQfSi16ooJ4t4h2ACMME8
+        V+anG7po3n8PO4igK9Flz2OPNKFJCig4vTMSCA8QBjOE60I3dIUpYrTMwpM4JnXYJ21ok2lMO78rMogN
+        5hluC93QBrOAzrJs2IvDCqJOOtAROe5igYTBMCEU0C20nA5GFw985so/VxrAgFUJuvfGBrHBMJaCMLp4
+        +ICTckJBtKBFJjARCyKV5YMpZqhlP4wuHt6gXupxQNrRbk2vNldNZBF/NnuFe2U+78HMaK6xPtSiVrrU
+        nFNEMbYlvDOkAuK52QvcNPZmpvqQpP44DVY2U+quM1vZYFjkotQH13OkZhFPIGEKuKa1TCcOliq1a5Fz
+        hUgl2IPCdJnJcytmqB5VP6IUTVeYVC3CzlXXWPrjg03mZ8wmDu4gYGogOghCsVoH5/8sYFIBMUGw8WtG
+        s/ThcuYwiUF0hY6WIASrNRs/1hFdNkvTMolAOAgF3SYI4c9mbCiDMZQWTGyQJQw5Q2xPzd2ZwMQCMWUn
+        FjvGRNgcYerNklomMogJIkqxywImEogJgg0gB6JhDDvXh7RhnEFMEKzWbMV70OMMEdwB0K2SFk0nEE51
+        wQWBtzy7gL2leSJuK07LvMO46GCm8NRZOVYQEwRBGBcM7jnMOQs09U5sW7ggD36VMYaHTu+2gixoqjKF
+        bW07osWFrQHkok+3omU3bXs2FES36fA0xjmb2w6bgKjXOWgNaZQ3q745+xqyHgoFeY872rmCWYrDkW2N
+        GRXCu39r33y/LG7YFZhkhoLoZm1a5BYOlWbtuAd1fY6FdVAd3t/WtKJVKzcU5KdaHAd7I8ZGI44mWt24
+        gvA+utqAWqC/xPH/ySXWXosBSC1wROWHLpVFbNjg6FL96DeOydasZROQl+tVkLxYIvUF3U6DVV1rpy2Q
+        2Tpop8H+AkgZg7h0NnxmAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="imgCopyBoth" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        aREAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="imgCopyDesc" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        oW84AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="imgCopyValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="imgView" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOdAAA
+        DnQBaySz1gAABp9JREFUWEftWFlPk2kULqiIiAsQQDYRZFNUJCiIBAQXRIxcENCoUS9ABRNENEIENRRL
+        aaEsLWurCNQBlEU2rWyFVlaRXYQyMgg6M5nEWeIvcJ7OR7B+3YTphRdt3gv69Xznfd7nnPOc86Lz5csX
+        yg/1AaAf6kP5odBIw6UFpIYBLUPqUkTLkEYYGhubKy7uz8vrrqsbU+dwmb9XVAzBP5//+rtCVlTU6+TE
+        MTFhhIT8JBROLXNP5a9VV4/s338f/j09ueoBpaYKvby4+vr3KJTkTZsyQkPLa2pGNIgJpz18uGTjxjT4
+        d3JiqwKESMEaaGC6uPBmerpIU4AQqeBgvp5eCuFfDSAOp8vRkQ1uVq1KWb+erqcnJUmDgGprRxGjtWtT
+        4X/dOrq+Pg2JoZSh5OQ2WAOEjk6ym1vBnTutoEpXl6opQIWFvQEBD4EDh7S3z7lx43lIyKPt23MVAEKk
+        8vN7du8uWLGCunr1PXf3gqSklv7+mbCwCjzRCKDKyqFjx/g43sqVKQhTdHS9SDSdkPBix448BYDYbGmk
+        1qyhgR57+2wWS0xkTHh4pUYAAY2nZxFyAGjMzTOAY2joPfzfutWsABCd3uHjcx+mYHLPniIms/P161kN
+        AkKkgoLKDA1T4d/OLgcgwA3hnwzozZt5LrcPAdLVTUakEM7bt1tkqykpqdnX98HRo2WQr+VVWVXVyJEj
+        pTgtmLazy46MfDo8LOWG+BQU9Jw9W/U1ZFlZYhcXDiKFLLaxyYRuyu86ODgr62JJsFDhoNzQkK6jQ0Uu
+        x8e/mJiYJ3kYH59fAJSWJo0UUVMeHoX4OjLyFfuSNlZojEghi4EGkXJwYN+8KejoUKz4UkAvX06jpAEF
+        1sj848f59fVjra2TbW3S1d4+uZhGS0LW0SEhPCBSBw4UI0yE+h06VKKCZimglpa3YGVRi42NGa6ueTt3
+        5hML9X/5cv3YGJle1eBAibc3j/CwbVvuhg3SzkAsf/+HEBFlr1NARkTEU0tLlmx/kP0bzEEFrlxpQNR5
+        vD7C0ejoHMKKJ1hQqcbGceI5zpaY2IKHSF5UhkKfSOeYmCZEQCEmCooNkoBI4WWIt4MDx929iLQcHTk4
+        IjQ+IKAYudnZKcnN7QZKPMEyNmZevFgnEExgj9jYJiMjBh5aWWW6uRXKu8ITZ+dcNOm4uOcDAwuCIouM
+        As1GKyGyBxtzOP3d3fOySyyeYzC6LCxY//UNBtqIlxcPooBKQVPEwjE2b85CBe3dy8UfMIPD8PCq5uZ3
+        JFfEVxar19Iy09Y2C5EB0ySeFgAh4zw8uFSqaHr6T3kmx8f/SEhoc3HJIxIfy8Ii48yZJ9HRDViQE6Ah
+        tBQLXJ48WV1T81ZZlggE72xts2Hp7X1fPpkoERG1YNjenk2jLbQIZY5iY19YW2cRG+/bx+vpebdoef36
+        cwMDqfgCjb9/aU/PBxUpLxLN+fo+hKW7eyEaPpkhKysWIsXlDs7O/q26cCSST0xmN9jGxhjwZLUAWUxM
+        EeBGNRpiC7F4PizsCYKOg/F4/d/kELwj+77HC15raJCAS2WAoKvXrjV/p1bFxAjgB1JJpbYvH1Bjo8YA
+        Xb1KAErVAlISQqUMGRjQXF3znz1bGEpUZ0BZ2SiGGPCMfifbfUG7tXUm8vrSpaYPHz6rTaP37/+JiGhA
+        EdjYZGVkfHNloJw48cjEhBkY+IjPJ1cgyS+b3Y9yNTNLP3euCg1H9te+vhkaTejszIHQR0U9m5z8pALT
+        8PDvkZGNW7eyMdLjAjMw8Ms3SQ0JAVL0nZCQytpaxf3l48fP5eXjfn4lECEjozSMkfL7CYUS6TVPqpms
+        lBTx4OBvCjG9evVrYqLQzCwDGgth7O0ld1nK3butpqZMYEIF+vgUNzUpiN3jx2927SqE9KFRbNmSjeuR
+        /GZdXT8HBpYiagBtapoeF9c8M/MXyWxq6lNUVBM4hg0sg4L48oMNRSSSYDZFByZ0FrG7cKFOdp0/XxcQ
+        UIpJEgYYwul0obLhobx8MDS0gpByZ+e806drSK5OnapGpPArFCssrBJzkvzBpPMQBlNcRDA3QTeRT+iO
+        sgttztw8HdM0DOLjBRMTqtpCWdkAJkNYYhrGriRXuHNi0jp4sCQ4GCmreDD/OlOj8SJV/fyKERrZBYHH
+        Hu3tU/KdWWGWYJSDJTIBVxySK8wkuNVgXMTsrCzryfcyAE9L65RdDEYnblJqK5lkgJTKzBSTXOXkdKEe
+        VbtS/9+PpUL5n/ZaQOoI1DKkZUgdA+p+/xccYsi8KtJCggAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="imgDevices" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        4pxs/Q9Hn5Vd1GQwjQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="imgUtil" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAATJJREFUWEfFl0sO
+        wyAMRJtD5nC9DRfpHbrvgmYWI7kUsLEdEQklCh8/xp+Q43hsvgCwsw2N18+7llLq3XBdgGe9rgEA3qM/
+        C84FkAnRBcDuZi5AHyHO8wy5yQWAuMiCWHIBY4OBKSG8MWEGoPFW8iiECWBkPEMJFUAzHoWYAliNRyCG
+        ACw2q2mGYESzFqsuwOvKsuw2Kuk/AF6jzATcZ2v01AwD0Gh774EAoIVIAZAKzFS4DQC73aYAjVMFLQam
+        LkCnNxC1eZRfBZADvc/8lKMWtGu06fhXB+QEyroCwjksRqOdE0Q9kHrLsQSYnStVAExegegpEAaQJyDt
+        2wAAjE9VgDuwKEFA65nR5AIpoQWCijELUlzARbSobo1rLltWwPKnZIE0p6HFYGTMLQqsAG0H+ALmLpAq
+        7PDWOAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cs24HRS" xml:space="preserve">
+    <value>Letzten 24 Stunden</value>
+  </data>
+  <data name="cs7DAYS" xml:space="preserve">
+    <value>Letzten 7 Tage</value>
+  </data>
+  <data name="csABORT" xml:space="preserve">
+    <value>Abbruch</value>
+  </data>
+  <data name="csALL" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="csALLCHG" xml:space="preserve">
+    <value>Alle Änderungem</value>
+  </data>
+  <data name="csALREADY_RUNNING_REMOTE" xml:space="preserve">
+    <value>Die Anwendung läuft bereits auf dem Remote-Rechner. Um trotzdem darauf zuzugreifen, schliessen sie die Anwendung</value>
+  </data>
+  <data name="csAPPLICATOR_TYPE_DIFFERENT" xml:space="preserve">
+    <value>Warnung: Die angewählten Applikatoren sind nich alle vom gleichen Type</value>
+  </data>
+  <data name="csAREA_CAP" xml:space="preserve">
+    <value>Bereich</value>
+  </data>
+  <data name="csAUTORECONNECTING" xml:space="preserve">
+    <value>Automatisch wieder verbinden</value>
+  </data>
+  <data name="csAVAILABLE" xml:space="preserve">
+    <value>Verfügbar</value>
+  </data>
+  <data name="csBAD_DATA_PLC_WRITE" xml:space="preserve">
+    <value>Falsche oder fehlende Daten für "SPS write"</value>
+  </data>
+  <data name="csBAD_ENTRY" xml:space="preserve">
+    <value>Die eingegebenen Daten sind ungültig. Der ursprünglichen Wert wird benutzt</value>
+  </data>
+  <data name="csCANCEL" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="csCANT_ACCESS_DB_FILES_ZONE" xml:space="preserve">
+    <value>Es kann nicht auf die Datenbank der Zone zugegriffen werden:</value>
+  </data>
+  <data name="csCANT_FIND_CONFIG_FILE" xml:space="preserve">
+    <value>Konfigurationsdatei wurde nicht gefunden.</value>
+  </data>
+  <data name="csCCCYCLE" xml:space="preserve">
+    <value>CC Zyklus</value>
+  </data>
+  <data name="csCHANGED_FROM" xml:space="preserve">
+    <value>geändert von</value>
+  </data>
+  <data name="csCHANGELOG" xml:space="preserve">
+    <value>Änderungsbericht</value>
+  </data>
+  <data name="csCHANGELOGFORM" xml:space="preserve">
+    <value>Paintworks Änderungsbericht</value>
+  </data>
+  <data name="csCHANGE_SUM_CAP" xml:space="preserve">
+    <value>Auflisten der Änderungen</value>
+  </data>
+  <data name="csCLICK_OK_PROCEED" xml:space="preserve">
+    <value>Um fortzufahre, klicken Sie auf OK.</value>
+  </data>
+  <data name="csCLOSE" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="csCOLOR" xml:space="preserve">
+    <value>Farbe</value>
+  </data>
+  <data name="csCOLOR_CAP" xml:space="preserve">
+    <value>Farbe</value>
+  </data>
+  <data name="csCOLOR_CHG_CYCLE" xml:space="preserve">
+    <value>Farbwechselzyklus</value>
+  </data>
+  <data name="csCONFIRM_COPY" xml:space="preserve">
+    <value>Das Kopieren bestätigen</value>
+  </data>
+  <data name="csCONNECTED" xml:space="preserve">
+    <value>Verbunden</value>
+  </data>
+  <data name="csCONNECTING" xml:space="preserve">
+    <value>Verbinden</value>
+  </data>
+  <data name="csCONNECTION_STAT" xml:space="preserve">
+    <value>Status der Verbindung:</value>
+  </data>
+  <data name="csCONVFAILED" xml:space="preserve">
+    <value>Konvertierung fehlgeschlagen:</value>
+  </data>
+  <data name="csCOPIED" xml:space="preserve">
+    <value>Kopiert</value>
+  </data>
+  <data name="csCOPY" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="csCOPY_COMPLETE" xml:space="preserve">
+    <value>Vollständig kopieren</value>
+  </data>
+  <data name="csCOPY_FAILED" xml:space="preserve">
+    <value>Kopieren ist fehlgeschlagen ...</value>
+  </data>
+  <data name="csCOPY_PARAM_NOT_SAME" xml:space="preserve">
+    <value>Die ausgewählten Parameter müssen bei der Auswahl mehrere Quell-Parameter übereinstimmen.</value>
+  </data>
+  <data name="csCOPY_ROBOTS_NOT_SAME" xml:space="preserve">
+    <value>Die Auswahl der Roboter muss bei der mehrere Quell-Roboter übereinstimmen.</value>
+  </data>
+  <data name="csCOPY_STARTED" xml:space="preserve">
+    <value>Kopieren begonnen ....</value>
+  </data>
+  <data name="csCOPY_SUBPARAM_NOT_SAME" xml:space="preserve">
+    <value>Die ausgewählten Parameter müssen bei der Auswahl mehrere Quell-Parameter übereinstimmen.</value>
+  </data>
+  <data name="csCOULD_NOT_CONNECT" xml:space="preserve">
+    <value>Konnte keine Verbindung zum Controller aufbauen</value>
+  </data>
+  <data name="csCOULD_NOT_LOAD_ROB" xml:space="preserve">
+    <value>Die Roboter konnten nicht geladen werden</value>
+  </data>
+  <data name="csCOULD_NOT_READ_PLC" xml:space="preserve">
+    <value>Lesen der SPS Daten ist fehlgeschlagen</value>
+  </data>
+  <data name="csCOULD_NOT_WRITE_PLC" xml:space="preserve">
+    <value>Schreiben der SPS Daten ist fehlgeschlagen</value>
+  </data>
+  <data name="csCYCLE_CAP" xml:space="preserve">
+    <value>Zyklus</value>
+  </data>
+  <data name="csDATABASE" xml:space="preserve">
+    <value>Datenbank</value>
+  </data>
+  <data name="csDB_ERROR" xml:space="preserve">
+    <value>Fehler beim Lesen der Datenbank</value>
+  </data>
+  <data name="csDESCRIPTION_CAP" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="csDEVICES" xml:space="preserve">
+    <value>Geräte</value>
+  </data>
+  <data name="csDISCONNECTING" xml:space="preserve">
+    <value>Verbindung Trennen</value>
+  </data>
+  <data name="csDOCUMENT_UNCONTROLLED" xml:space="preserve">
+    <value>Dieses Dokument ist unkontrolliert. Nur als Referenz.</value>
+  </data>
+  <data name="csDONE" xml:space="preserve">
+    <value>Fertig</value>
+  </data>
+  <data name="csERROR" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="csEXPORTFAILED" xml:space="preserve">
+    <value>Aufgrund folgenden Fehlers nicht exportiert:</value>
+  </data>
+  <data name="csEXPORT_CSV" xml:space="preserve">
+    <value>In eine Kalkulationstabelle exportieren</value>
+  </data>
+  <data name="csFAILED_OPEN_ODS" xml:space="preserve">
+    <value>Fehler beim Öffnen der ODS Datei</value>
+  </data>
+  <data name="csFAILED_OPEN_XLSX" xml:space="preserve">
+    <value>Fehler beim Öffnen der XLSX Datei</value>
+  </data>
+  <data name="csFAILED_SAVE_ODS" xml:space="preserve">
+    <value>Fehler beim Speichern der ODS Datei</value>
+  </data>
+  <data name="csFAILED_SAVE_XLSX" xml:space="preserve">
+    <value>Fehler beim Speichern der XLSX Datei</value>
+  </data>
+  <data name="csFAILED_XLS_XML" xml:space="preserve">
+    <value>Fehler beim konvertieren von XLS nach XML</value>
+  </data>
+  <data name="csFAILED_XML_XLS" xml:space="preserve">
+    <value>Fehler beim konvertieren von XML nach XLS</value>
+  </data>
+  <data name="csFANUC_PRN" xml:space="preserve">
+    <value>FANUC America</value>
+  </data>
+  <data name="csFROM" xml:space="preserve">
+    <value>Von</value>
+  </data>
+  <data name="csFROM_DB" xml:space="preserve">
+    <value>Aus Datenbank</value>
+  </data>
+  <data name="csFROM_PLC" xml:space="preserve">
+    <value>Aus SPS</value>
+  </data>
+  <data name="csFTP_CONNECTING" xml:space="preserve">
+    <value>Verbinden nach</value>
+  </data>
+  <data name="csFTP_DIR_FILES" xml:space="preserve">
+    <value>Verzeichnis %s Dateien =</value>
+  </data>
+  <data name="csFTP_DIR_NO_FILES" xml:space="preserve">
+    <value>Verzeichnis %s Dateien nicht gefunden</value>
+  </data>
+  <data name="csFTP_DLOAD_FAIL" xml:space="preserve">
+    <value>Download fehlgeschlagen. Fehler =</value>
+  </data>
+  <data name="csFTP_DLOAD_RESULT" xml:space="preserve">
+    <value>Download %s Bytes in %r Sekunden</value>
+  </data>
+  <data name="csFTP_ERR_NO_HOST" xml:space="preserve">
+    <value>Kein Host-Namen zur Verfügung gestellt</value>
+  </data>
+  <data name="csFTP_ERR_PING_FAIL" xml:space="preserve">
+    <value>nicht verfügbar.</value>
+  </data>
+  <data name="csFTP_ULOAD_FAIL" xml:space="preserve">
+    <value>Hochladen fehlgeschlagen. Fehler =</value>
+  </data>
+  <data name="csFTP_ULOAD_FAIL2" xml:space="preserve">
+    <value>Hochladen fehlgeschlagen. Die Datei ist eventuell schon geöffnet. Fehler =</value>
+  </data>
+  <data name="csFTP_ULOAD_RESULT" xml:space="preserve">
+    <value>Upload %s Bytes in %r Sekunden</value>
+  </data>
+  <data name="csHB_LOST" xml:space="preserve">
+    <value>Lebenszeichen verloren</value>
+  </data>
+  <data name="csHOST_ENTRY_ERR" xml:space="preserve">
+    <value>Fehler beim Suchen der Host-Informationen für:</value>
+  </data>
+  <data name="csIMPORTFAILED" xml:space="preserve">
+    <value>Konnte aufgrund folgendem Fehlers nicht importieren:</value>
+  </data>
+  <data name="csIMPORT_CSV" xml:space="preserve">
+    <value>Aus einer Kalkulationstabelle importieren</value>
+  </data>
+  <data name="csINITALIZING" xml:space="preserve">
+    <value>Initialisierung…</value>
+  </data>
+  <data name="csINTEGER_REQ" xml:space="preserve">
+    <value>Ein Integer Wert ist erforderlich. Der ursprüngliche Wert wird verwendet.</value>
+  </data>
+  <data name="csINVALID_DATA" xml:space="preserve">
+    <value>Ungültige Daten</value>
+  </data>
+  <data name="csINVALID_VALVESTATE" xml:space="preserve">
+    <value>Ungültiger Ventil Zustand ausgewählt. Widersprüchliche Ventile wurden ausgeschaltet.</value>
+  </data>
+  <data name="csINVALID_XPATH_SYNTAX" xml:space="preserve">
+    <value>Ungültige Xpath Syntax</value>
+  </data>
+  <data name="csINV_ENTRY" xml:space="preserve">
+    <value>Ungültiger Eintrag. Der ursprüngliche Wert wird verwendet.</value>
+  </data>
+  <data name="csISUNAVAILABLE" xml:space="preserve">
+    <value>inst nicht erreichbar.</value>
+  </data>
+  <data name="csIS_OFFLINE" xml:space="preserve">
+    <value> ist offline.</value>
+  </data>
+  <data name="csIS_ONLINE" xml:space="preserve">
+    <value> ist online.</value>
+  </data>
+  <data name="csITEM_CAP" xml:space="preserve">
+    <value>Eintrag</value>
+  </data>
+  <data name="csJOB" xml:space="preserve">
+    <value>Job</value>
+  </data>
+  <data name="csLINK_TO_PLC" xml:space="preserve">
+    <value>Verbinden nach SPS</value>
+  </data>
+  <data name="csLOADDONE" xml:space="preserve">
+    <value>Laden abgeschlossen.</value>
+  </data>
+  <data name="csLOADFAILED" xml:space="preserve">
+    <value>Daten konnten nicht geladen werden</value>
+  </data>
+  <data name="csLoadFile" xml:space="preserve">
+    <value>Lade Datei</value>
+  </data>
+  <data name="csLOADINGDATA" xml:space="preserve">
+    <value>Daten laden. Bitte warten.</value>
+  </data>
+  <data name="csLOAD_FROM" xml:space="preserve">
+    <value>Laden von</value>
+  </data>
+  <data name="csLOAD_GUI" xml:space="preserve">
+    <value>Laden aus der Datenbank</value>
+  </data>
+  <data name="csLOAD_PLC" xml:space="preserve">
+    <value>Laden aus der SPS</value>
+  </data>
+  <data name="csLOAD_ROBOT" xml:space="preserve">
+    <value>Laden aus dem Controller</value>
+  </data>
+  <data name="csLOCAL_ZONE" xml:space="preserve">
+    <value>Lokale Zone</value>
+  </data>
+  <data name="csLOGGED_IN" xml:space="preserve">
+    <value>Angemeldet</value>
+  </data>
+  <data name="csLOGGED_OUT" xml:space="preserve">
+    <value>Abgemeldet</value>
+  </data>
+  <data name="csLOGIN" xml:space="preserve">
+    <value>Angemelden</value>
+  </data>
+  <data name="csLOGOUT" xml:space="preserve">
+    <value>Abgemelden</value>
+  </data>
+  <data name="csMAXIMUM_EQ" xml:space="preserve">
+    <value>Maximum = </value>
+  </data>
+  <data name="csMAX_ROWS" xml:space="preserve">
+    <value>Maximale Anzahl von Zeilen pro Seite</value>
+  </data>
+  <data name="csMINIMUM_EQ" xml:space="preserve">
+    <value>Minimum = </value>
+  </data>
+  <data name="csMISSING_CONTROLLER_TABLE" xml:space="preserve">
+    <value>Controller Tabelle fehlt in der Datenbank</value>
+  </data>
+  <data name="csMISSING_ZONE_NAME" xml:space="preserve">
+    <value>Der Zonenname fehlt.</value>
+  </data>
+  <data name="csMULTIVIEW" xml:space="preserve">
+    <value>&amp;Multi-View</value>
+  </data>
+  <data name="csNEW_VALUE_CAP" xml:space="preserve">
+    <value>Neuer Wert</value>
+  </data>
+  <data name="csNONE" xml:space="preserve">
+    <value>Keine</value>
+  </data>
+  <data name="csNOTHING_SELECTED_COPY" xml:space="preserve">
+    <value>Keine Parameter für die Kopie aus dem Dropdown-Menü ausgewählt.</value>
+  </data>
+  <data name="csNO_CHANGES_FOUND" xml:space="preserve">
+    <value>Keine Änderungen gefunden</value>
+  </data>
+  <data name="csNO_DESCRIPTION" xml:space="preserve">
+    <value>&lt;Keine Beschreibung&gt;</value>
+  </data>
+  <data name="csNO_NULL" xml:space="preserve">
+    <value>Das Feld darf nicht leer bleiben. Der ursprüngliche Wert wird verwendet.</value>
+  </data>
+  <data name="csNO_PARAMETER" xml:space="preserve">
+    <value>keine</value>
+  </data>
+  <data name="csNO_USER" xml:space="preserve">
+    <value>Unbekannter Benutzer</value>
+  </data>
+  <data name="csODS_META_INF_MANIFEST_XML1" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;manifest:manifest xmlns:manifest="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0"&gt;
+  &lt;manifest:file-entry manifest:media-type="application/vnd.oasis.opendocument.spreadsheet" manifest:version="1.2" manifest:full-path="/" /&gt;
+  &lt;manifest:file-entry manifest:media-type="text/xml" manifest:full-path="content.xml" /&gt;
+  &lt;manifest:file-entry manifest:media-type="text/xml" manifest:full-path="styles.xml" /&gt;
+  &lt;manifest:file-entry manifest:media-type="text/xml" manifest:full-path="meta.xml" /&gt;
+  &lt;manifest:file-entry manifest:media-type="text/xml" manifest:full-path="settings.xml" /&gt;
+</value>
+  </data>
+  <data name="csODS_META_INF_MANIFEST_XML2" xml:space="preserve">
+    <value>&lt;/manifest:manifest&gt;
+</value>
+  </data>
+  <data name="csODS_PRINT_HEADER1" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;office:document-content 
+    xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" 
+    xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" 
+    xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" 
+    xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" 
+    xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" office:version="1.2" grddl:transformation="http://docs.oasis-open.org/office/1.2/xslt/odf2rdf.xsl"&gt;&lt;office:scripts/&gt;&lt;office:font-face-decls&gt;&lt;style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable"/&gt;&lt;style:font-face style:name="Arial Unicode MS" svg:font-family="&amp;apos;Arial Unicode MS&amp;apos;" style:font-family-generic="system" style:font-pitch="variable"/&gt;&lt;style:font-face style:name="Mangal" svg:font-family="Mangal" style:font-family-generic="system" style:font-pitch="variable"/&gt;&lt;style:font-face style:name="Microsoft YaHei" svg:font-family="&amp;apos;Microsoft YaHei&amp;apos;" style:font-family-generic="system" style:font-pitch="variable"/&gt;&lt;style:font-face style:name="Tahoma" svg:font-family="Tahoma" style:font-family-generic="system" style:font-pitch="variable"/&gt;&lt;/office:font-face-decls&gt;
+    &lt;office:automatic-styles&gt;
+</value>
+  </data>
+  <data name="csODS_PRINT_HEADER2" xml:space="preserve">
+    <value>    &lt;style:style style:name="ro1" style:family="table-row"&gt;&lt;style:table-row-properties style:row-height="0.1783in" fo:break-before="auto" style:use-optimal-row-height="true"/&gt;&lt;/style:style&gt;
+    &lt;style:style style:name="ta1" style:family="table" style:master-page-name="Default"&gt;&lt;style:table-properties table:display="true" style:writing-mode="lr-tb"/&gt;
+    &lt;/style:style&gt;&lt;number:date-style style:name="N36" number:automatic-order="true"&gt;&lt;number:month number:style="long"/&gt;
+			&lt;number:text&gt;/&lt;/number:text&gt;
+			&lt;number:day number:style="long"/&gt;
+			&lt;number:text&gt;/&lt;/number:text&gt;
+			&lt;number:year number:style="long"/&gt;
+		&lt;/number:date-style&gt;
+		&lt;number:time-style style:name="N44" number:truncate-on-overflow="false"&gt;
+			&lt;number:hours number:style="long"/&gt;
+			&lt;number:text&gt;:&lt;/number:text&gt;
+			&lt;number:minutes number:style="long"/&gt;
+			&lt;number:text&gt;:&lt;/number:text&gt;
+			&lt;number:seconds number:style="long"/&gt;
+		&lt;/number:time-style&gt;
+	  &lt;style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N118"/&gt;
+	  &lt;style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N44"/&gt;
+	  &lt;style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N36"/&gt;
+	  &lt;style:style style:name="ce4" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N117"/&gt;
+      &lt;/office:automatic-styles&gt;
+    &lt;office:body&gt;&lt;office:spreadsheet&gt;</value>
+  </data>
+  <data name="csODS_SETTINGS_XML" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;office:document-settings xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2"&gt;
+	&lt;office:settings&gt;
+		&lt;config:config-item-set config:name="ooo:view-settings"&gt;
+			&lt;config:config-item config:name="VisibleAreaTop" config:type="int"&gt;0&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="VisibleAreaLeft" config:type="int"&gt;0&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="VisibleAreaWidth" config:type="int"&gt;20323&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="VisibleAreaHeight" config:type="int"&gt;15355&lt;/config:config-item&gt;
+			&lt;config:config-item-map-indexed config:name="Views"&gt;
+				&lt;config:config-item-map-entry&gt;
+					&lt;config:config-item config:name="ViewId" config:type="string"&gt;view1&lt;/config:config-item&gt;
+					&lt;config:config-item-map-named config:name="Tables"&gt;
+						&lt;config:config-item-map-entry config:name="Style Numbers"&gt;
+							&lt;config:config-item config:name="CursorPositionX" config:type="int"&gt;0&lt;/config:config-item&gt;
+							&lt;config:config-item config:name="CursorPositionY" config:type="int"&gt;0&lt;/config:config-item&gt;
+							&lt;config:config-item config:name="HorizontalSplitMode" config:type="short"&gt;0&lt;/config:config-item&gt;
+							&lt;config:config-item config:name="VerticalSplitMode" config:type="short"&gt;0&lt;/config:config-item&gt;
+							&lt;config:config-item config:name="HorizontalSplitPosition" config:type="int"&gt;0&lt;/config:config-item&gt;
+							&lt;config:config-item config:name="VerticalSplitPosition" config:type="int"&gt;0&lt;/config:config-item&gt;
+							&lt;config:config-item config:name="ActiveSplitRange" config:type="short"&gt;2&lt;/config:config-item&gt;
+							&lt;config:config-item config:name="PositionLeft" config:type="int"&gt;0&lt;/config:config-item&gt;
+							&lt;config:config-item config:name="PositionRight" config:type="int"&gt;0&lt;/config:config-item&gt;
+							&lt;config:config-item config:name="PositionTop" config:type="int"&gt;0&lt;/config:config-item&gt;
+							&lt;config:config-item config:name="PositionBottom" config:type="int"&gt;0&lt;/config:config-item&gt;
+							&lt;config:config-item config:name="ZoomType" config:type="short"&gt;0&lt;/config:config-item&gt;
+							&lt;config:config-item config:name="ZoomValue" config:type="int"&gt;100&lt;/config:config-item&gt;
+							&lt;config:config-item config:name="PageViewZoomValue" config:type="int"&gt;60&lt;/config:config-item&gt;
+						&lt;/config:config-item-map-entry&gt;
+					&lt;/config:config-item-map-named&gt;
+					&lt;config:config-item config:name="ActiveTable" config:type="string"&gt;Style Numbers&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="HorizontalScrollbarWidth" config:type="int"&gt;270&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="ZoomType" config:type="short"&gt;0&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="ZoomValue" config:type="int"&gt;100&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="PageViewZoomValue" config:type="int"&gt;60&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="ShowPageBreakPreview" config:type="boolean"&gt;false&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="ShowZeroValues" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="ShowNotes" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="ShowGrid" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="GridColor" config:type="long"&gt;12632256&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="ShowPageBreaks" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="HasColumnRowHeaders" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="HasSheetTabs" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="IsSnapToRaster" config:type="boolean"&gt;false&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="RasterIsVisible" config:type="boolean"&gt;false&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="RasterResolutionX" config:type="int"&gt;1270&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="RasterResolutionY" config:type="int"&gt;1270&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="RasterSubdivisionX" config:type="int"&gt;1&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="RasterSubdivisionY" config:type="int"&gt;1&lt;/config:config-item&gt;
+					&lt;config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+				&lt;/config:config-item-map-entry&gt;
+			&lt;/config:config-item-map-indexed&gt;
+		&lt;/config:config-item-set&gt;
+		&lt;config:config-item-set config:name="ooo:configuration-settings"&gt;
+			&lt;config:config-item config:name="IsKernAsianPunctuation" config:type="boolean"&gt;false&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="LinkUpdateMode" config:type="short"&gt;3&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="SaveVersionOnClose" config:type="boolean"&gt;false&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="AllowPrintJobCancel" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="HasSheetTabs" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="ShowPageBreaks" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="RasterResolutionX" config:type="int"&gt;1270&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="PrinterSetup" config:type="base64Binary"/&gt;
+			&lt;config:config-item config:name="RasterResolutionY" config:type="int"&gt;1270&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="LoadReadonly" config:type="boolean"&gt;false&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="RasterSubdivisionX" config:type="int"&gt;1&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="ShowNotes" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="ShowZeroValues" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="RasterSubdivisionY" config:type="int"&gt;1&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="ApplyUserData" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="GridColor" config:type="long"&gt;12632256&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="RasterIsVisible" config:type="boolean"&gt;false&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="IsSnapToRaster" config:type="boolean"&gt;false&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="PrinterName" config:type="string"/&gt;
+			&lt;config:config-item config:name="ShowGrid" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="CharacterCompressionType" config:type="short"&gt;0&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="HasColumnRowHeaders" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="AutoCalculate" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="IsDocumentShared" config:type="boolean"&gt;false&lt;/config:config-item&gt;
+			&lt;config:config-item config:name="UpdateFromTemplate" config:type="boolean"&gt;true&lt;/config:config-item&gt;
+		&lt;/config:config-item-set&gt;
+	&lt;/office:settings&gt;
+&lt;/office:document-settings&gt;</value>
+  </data>
+  <data name="csODS_STYLES_XML" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;office:document-styles xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" office:version="1.2" grddl:transformation="http://docs.oasis-open.org/office/1.2/xslt/odf2rdf.xsl"&gt;
+	&lt;office:font-face-decls&gt;
+		&lt;style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable"/&gt;
+		&lt;style:font-face style:name="Arial Unicode MS" svg:font-family="&amp;apos;Arial Unicode MS&amp;apos;" style:font-family-generic="system" style:font-pitch="variable"/&gt;
+		&lt;style:font-face style:name="Mangal" svg:font-family="Mangal" style:font-family-generic="system" style:font-pitch="variable"/&gt;
+		&lt;style:font-face style:name="Microsoft YaHei" svg:font-family="&amp;apos;Microsoft YaHei&amp;apos;" style:font-family-generic="system" style:font-pitch="variable"/&gt;
+		&lt;style:font-face style:name="Tahoma" svg:font-family="Tahoma" style:font-family-generic="system" style:font-pitch="variable"/&gt;
+	&lt;/office:font-face-decls&gt;
+	&lt;office:styles&gt;
+		&lt;style:default-style style:family="table-cell"&gt;
+			&lt;style:paragraph-properties style:tab-stop-distance="0.5in"/&gt;
+			&lt;style:text-properties style:font-name="Arial" fo:language="en" fo:country="US" style:font-name-asian="Arial Unicode MS" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Tahoma" style:language-complex="hi" style:country-complex="IN"/&gt;
+		&lt;/style:default-style&gt;
+		&lt;number:number-style style:name="N0"&gt;
+			&lt;number:number number:min-integer-digits="1"/&gt;
+		&lt;/number:number-style&gt;
+		&lt;number:currency-style style:name="N104P0" style:volatile="true"&gt;
+			&lt;number:currency-symbol number:language="en" number:country="US"&gt;$&lt;/number:currency-symbol&gt;
+			&lt;number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/&gt;
+		&lt;/number:currency-style&gt;
+		&lt;number:currency-style style:name="N104"&gt;
+			&lt;style:text-properties fo:color="#ff0000"/&gt;
+			&lt;number:text&gt;-&lt;/number:text&gt;
+			&lt;number:currency-symbol number:language="en" number:country="US"&gt;$&lt;/number:currency-symbol&gt;
+			&lt;number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/&gt;
+			&lt;style:map style:condition="value()&amp;gt;=0" style:apply-style-name="N104P0"/&gt;
+		&lt;/number:currency-style&gt;
+ 		&lt;number:date-style style:name="N117"&gt;
+			&lt;number:month number:style="long"/&gt;
+			&lt;number:text&gt;/&lt;/number:text&gt;
+			&lt;number:day number:style="long"/&gt;
+			&lt;number:text&gt;/&lt;/number:text&gt;
+			&lt;number:year/&gt;
+			&lt;number:text&gt; &lt;/number:text&gt;
+			&lt;number:hours number:style="long"/&gt;
+			&lt;number:text&gt;:&lt;/number:text&gt;
+			&lt;number:minutes number:style="long"/&gt;
+			&lt;number:text&gt;:&lt;/number:text&gt;
+			&lt;number:seconds number:style="long"/&gt;
+			&lt;number:text&gt; &lt;/number:text&gt;
+			&lt;number:am-pm/&gt;
+		&lt;/number:date-style&gt;
+		&lt;number:percentage-style style:name="N118"&gt;
+			&lt;number:number number:decimal-places="1" number:min-integer-digits="1"/&gt;
+			&lt;number:text&gt;%&lt;/number:text&gt;
+		&lt;/number:percentage-style&gt;
+		&lt;style:style style:name="Default" style:family="table-cell"&gt;
+			&lt;style:text-properties style:font-name-asian="Microsoft YaHei" style:font-name-complex="Mangal"/&gt;
+		&lt;/style:style&gt;
+		&lt;style:style style:name="Result" style:family="table-cell" style:parent-style-name="Default"&gt;
+			&lt;style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold"/&gt;
+		&lt;/style:style&gt;
+		&lt;style:style style:name="Result2" style:family="table-cell" style:parent-style-name="Result" style:data-style-name="N104"/&gt;
+		&lt;style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default"&gt;
+			&lt;style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/&gt;
+			&lt;style:paragraph-properties fo:text-align="center"/&gt;
+			&lt;style:text-properties fo:font-size="16pt" fo:font-style="italic" fo:font-weight="bold"/&gt;
+		&lt;/style:style&gt;
+		&lt;style:style style:name="Heading1" style:family="table-cell" style:parent-style-name="Heading"&gt;
+			&lt;style:table-cell-properties style:rotation-angle="90"/&gt;
+		&lt;/style:style&gt;
+	&lt;/office:styles&gt;
+	&lt;office:automatic-styles&gt;
+		&lt;style:page-layout style:name="Mpm1"&gt;
+			&lt;style:page-layout-properties style:writing-mode="lr-tb"/&gt;
+			&lt;style:header-style&gt;
+				&lt;style:header-footer-properties fo:min-height="0.2957in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.0984in"/&gt;
+			&lt;/style:header-style&gt;
+			&lt;style:footer-style&gt;
+				&lt;style:header-footer-properties fo:min-height="0.2957in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.0984in"/&gt;
+			&lt;/style:footer-style&gt;
+		&lt;/style:page-layout&gt;
+		&lt;style:page-layout style:name="Mpm2"&gt;
+			&lt;style:page-layout-properties style:writing-mode="lr-tb"/&gt;
+			&lt;style:header-style&gt;
+				&lt;style:header-footer-properties fo:min-height="0.2957in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.0984in" fo:border="0.0346in solid #000000" fo:padding="0.0071in" fo:background-color="#c0c0c0"&gt;
+					&lt;style:background-image/&gt;
+				&lt;/style:header-footer-properties&gt;
+			&lt;/style:header-style&gt;
+			&lt;style:footer-style&gt;
+				&lt;style:header-footer-properties fo:min-height="0.2957in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.0984in" fo:border="0.0346in solid #000000" fo:padding="0.0071in" fo:background-color="#c0c0c0"&gt;
+					&lt;style:background-image/&gt;
+				&lt;/style:header-footer-properties&gt;
+			&lt;/style:footer-style&gt;
+		&lt;/style:page-layout&gt;
+	&lt;/office:automatic-styles&gt;
+	&lt;office:master-styles&gt;
+		&lt;style:master-page style:name="Default" style:page-layout-name="Mpm1"&gt;
+			&lt;style:header&gt;
+				&lt;text:p&gt;
+					&lt;text:sheet-name&gt;???&lt;/text:sheet-name&gt;
+				&lt;/text:p&gt;
+			&lt;/style:header&gt;
+			&lt;style:header-left style:display="false"/&gt;
+			&lt;style:footer&gt;
+			&lt;text:p&gt;Page &lt;text:page-number&gt;1&lt;/text:page-number&gt;
+		&lt;/text:p&gt;
+	&lt;/style:footer&gt;
+	&lt;style:footer-left style:display="false"/&gt;
+&lt;/style:master-page&gt;
+&lt;style:master-page style:name="Report" style:page-layout-name="Mpm2"&gt;
+	&lt;style:header&gt;
+		&lt;style:region-left&gt;
+			&lt;text:p&gt;
+			&lt;text:sheet-name&gt;???&lt;/text:sheet-name&gt; (&lt;text:title&gt;???&lt;/text:title&gt;)&lt;/text:p&gt;
+		&lt;/style:region-left&gt;
+		&lt;style:region-right&gt;
+			&lt;text:p&gt;
+				&lt;text:date style:data-style-name="N2" text:date-value="2012-05-01"&gt;05/01/2012&lt;/text:date&gt;, &lt;text:time&gt;12:51:03&lt;/text:time&gt;
+			&lt;/text:p&gt;
+		&lt;/style:region-right&gt;
+	&lt;/style:header&gt;
+	&lt;style:header-left style:display="false"/&gt;
+	&lt;style:footer&gt;
+	&lt;text:p&gt;Page &lt;text:page-number&gt;1&lt;/text:page-number&gt; / &lt;text:page-count&gt;99&lt;/text:page-count&gt;
+&lt;/text:p&gt;
+&lt;/style:footer&gt;
+&lt;style:footer-left style:display="false"/&gt;
+&lt;/style:master-page&gt;
+&lt;/office:master-styles&gt;
+&lt;/office:document-styles&gt;</value>
+  </data>
+  <data name="csOFF" xml:space="preserve">
+    <value>Aus</value>
+  </data>
+  <data name="csOK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="csON" xml:space="preserve">
+    <value>An</value>
+  </data>
+  <data name="csOPCSERVER_STATE_ERR" xml:space="preserve">
+    <value>Konnte keine Verbindung zum OPC-Server aufbauen - Server Status: =</value>
+  </data>
+  <data name="csOPEN_FILE_DLG_CAP" xml:space="preserve">
+    <value>Wählen Sie eine Datei zum öffnen.</value>
+  </data>
+  <data name="csPAGE_SETUP" xml:space="preserve">
+    <value>Seite einrichten</value>
+  </data>
+  <data name="csPAGE_X_OF_Y" xml:space="preserve">
+    <value>Seite X von Y</value>
+  </data>
+  <data name="csPAINTWORKS" xml:space="preserve">
+    <value>PAINTworks</value>
+  </data>
+  <data name="csPARAMETER_CAP" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="csPATHACCESS_ERROR" xml:space="preserve">
+    <value>Kann nicht auf diesen Pfad zugreifen. Der folgende Fehler wurde zurückgegeben:</value>
+  </data>
+  <data name="csPLC" xml:space="preserve">
+    <value>SPS</value>
+  </data>
+  <data name="csPLC_COMM_ERROR" xml:space="preserve">
+    <value>Kommunikationsfehler SPS.</value>
+  </data>
+  <data name="csPLC_TAG_MULT_INST" xml:space="preserve">
+    <value>Dieser Tag existiert bereits in der SPS Konfigurationsfile</value>
+  </data>
+  <data name="csPLC_TAG_NOT_DEFINED" xml:space="preserve">
+    <value>Tag ist nicht definiert</value>
+  </data>
+  <data name="csPLC_TOPIC_MULT_INST" xml:space="preserve">
+    <value>Diese Instanz existiert bereits in der SPS Konfigurationsfile</value>
+  </data>
+  <data name="csPLC_TOPIC_NOT_DEFINED" xml:space="preserve">
+    <value>Thema ist nicht definiert.</value>
+  </data>
+  <data name="csPLC_WRITE_SIZE_ERR" xml:space="preserve">
+    <value>Ungültige Datenlänge für "PLC write".</value>
+  </data>
+  <data name="csPOLLREADFAILED" xml:space="preserve">
+    <value>Kann die abgefragten Daten vom Server nicht lesen</value>
+  </data>
+  <data name="csPRINT" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="csPRINTFAILED" xml:space="preserve">
+    <value>Kann wegen folgendem Fehler nicht gedruckt werden</value>
+  </data>
+  <data name="csPRINTING" xml:space="preserve">
+    <value>Drucken, bitte warten</value>
+  </data>
+  <data name="csPRINTMNU" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="csPRINT_FILE" xml:space="preserve">
+    <value>In Datei drucken</value>
+  </data>
+  <data name="csPRINT_FORMATTING" xml:space="preserve">
+    <value>Formatieren des Dokumentes …</value>
+  </data>
+  <data name="csPRINT_OPTIONS" xml:space="preserve">
+    <value>Druckoptionen</value>
+  </data>
+  <data name="csPRINT_PREVIEW" xml:space="preserve">
+    <value>Druckvorschau</value>
+  </data>
+  <data name="csPRINT_PRN" xml:space="preserve">
+    <value>Gedruckt</value>
+  </data>
+  <data name="csPRINT_SENDING" xml:space="preserve">
+    <value>Sende Dokument zum Drucker ...</value>
+  </data>
+  <data name="csREADY" xml:space="preserve">
+    <value>Bereit.</value>
+  </data>
+  <data name="csREFRESH" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="csREMOTE_ZONE" xml:space="preserve">
+    <value>Remote zone</value>
+  </data>
+  <data name="csRESTORE" xml:space="preserve">
+    <value>Wiederherstellen</value>
+  </data>
+  <data name="csROBOT" xml:space="preserve">
+    <value>Roboter</value>
+  </data>
+  <data name="csROBOTS_OPERATE" xml:space="preserve">
+    <value>Roboter betreiben</value>
+  </data>
+  <data name="csROBOT_CAP" xml:space="preserve">
+    <value>Gerät</value>
+  </data>
+  <data name="csSAVE" xml:space="preserve">
+    <value>&amp;Speichern</value>
+  </data>
+  <data name="csSAVEFAILED" xml:space="preserve">
+    <value>Speichern fehlgeschlagen</value>
+  </data>
+  <data name="csSAVEFAILEDPLC" xml:space="preserve">
+    <value>Speichern ain SPS fehlgeschlagen</value>
+  </data>
+  <data name="csSAVEMSG" xml:space="preserve">
+    <value>Wollen sie die Änderungen abspeichern?</value>
+  </data>
+  <data name="csSAVEMSG1" xml:space="preserve">
+    <value>Sie haben nicht gespeicherte Änderungen.</value>
+  </data>
+  <data name="csSAVEMSG3" xml:space="preserve">
+    <value>Änderungen müssen vor Verwendung der Kopierfunktion gespeichert werden.</value>
+  </data>
+  <data name="csSAVEROBOTOFFLINE" xml:space="preserve">
+    <value>Controller {0} ist offline.</value>
+  </data>
+  <data name="csSAVE_ALL_FILTER" xml:space="preserve">
+    <value>Alle Dateien|*.*</value>
+  </data>
+  <data name="csSAVE_CANCEL" xml:space="preserve">
+    <value>Speichern abgebrochen</value>
+  </data>
+  <data name="csSAVE_CHANGES" xml:space="preserve">
+    <value>Änderungen abspeichern?</value>
+  </data>
+  <data name="csSAVE_CSV_CDFILTER" xml:space="preserve">
+    <value>Komma getrennte Datei (*.csv)|*.csv</value>
+  </data>
+  <data name="csSAVE_CSV_FILTER" xml:space="preserve">
+    <value>Komma getrennte Datei|*.csv</value>
+  </data>
+  <data name="csSAVE_CSV_TXT_FILTER" xml:space="preserve">
+    <value>Alle Dateien|*.*| Komma getrennte Datei |*.csv| Tabulator getrennte Datei |.*txt</value>
+  </data>
+  <data name="csSAVE_CSV_XLS_ALL_FILTER" xml:space="preserve">
+    <value>Alle Dateien|*.*| Komma getrennte Datei |*.csv| Excel Datei |.*xls</value>
+  </data>
+  <data name="csSAVE_DONE" xml:space="preserve">
+    <value>Speichern beendet.</value>
+  </data>
+  <data name="csSAVE_FILE_DLG_CAP" xml:space="preserve">
+    <value>Wählen Sie den Speicherort</value>
+  </data>
+  <data name="csSAVE_GUI" xml:space="preserve">
+    <value>In die Datenbank speichern</value>
+  </data>
+  <data name="csSAVE_ODS_FILTER" xml:space="preserve">
+    <value>Open Office Spreadsheet|*.ods</value>
+  </data>
+  <data name="csSAVE_PLC" xml:space="preserve">
+    <value>In die SPS speichern</value>
+  </data>
+  <data name="csSAVE_ROBOT" xml:space="preserve">
+    <value>In den Controller speichern</value>
+  </data>
+  <data name="csSAVE_SPR_FILTER" xml:space="preserve">
+    <value>Alle Dateien|*.*| Komma getrennte Datei |*.csv| Excel XML Spreadsheet|*.xml| Tabulator getrennte Datei |.*txt</value>
+  </data>
+  <data name="csSAVE_TO" xml:space="preserve">
+    <value>Speichern unter</value>
+  </data>
+  <data name="csSAVE_TXT_ALL_FILTER" xml:space="preserve">
+    <value>Text (*.txt)|*.txt|All Files|*.*</value>
+  </data>
+  <data name="csSAVE_TXT_FILTER" xml:space="preserve">
+    <value>Tabulator getrennte Datei|*.txt</value>
+  </data>
+  <data name="csSAVE_TXT_RTF_ALL_FILTER" xml:space="preserve">
+    <value>Text (*.txt)|*.txt|Rich Text Format (*.rtf)|*.rtf|All Files|*.*</value>
+  </data>
+  <data name="csSAVE_XLSX_FILTER" xml:space="preserve">
+    <value>Excel XML Spreadsheet|*.xlsx</value>
+  </data>
+  <data name="csSAVE_XLS_FILTER" xml:space="preserve">
+    <value>Excel Spreadsheet|*.xls</value>
+  </data>
+  <data name="csSAVE_XML_FILTER" xml:space="preserve">
+    <value>XML Spreadsheet|*.xml</value>
+  </data>
+  <data name="csSAVINGDATA" xml:space="preserve">
+    <value>Speichern der Daten, bitte warten.</value>
+  </data>
+  <data name="csSA_SETUP_COMP" xml:space="preserve">
+    <value>Scattered access Setup ist abgeschlossen.</value>
+  </data>
+  <data name="csSELECTED" xml:space="preserve">
+    <value> angewählt.</value>
+  </data>
+  <data name="csSELECTED_AS_SOURCE" xml:space="preserve">
+    <value> als Quelle ausgewählt.</value>
+  </data>
+  <data name="csSELECTED_AS_TARGET" xml:space="preserve">
+    <value> als Ziel ausgewählt.</value>
+  </data>
+  <data name="csSELECTED_FOR_COPY" xml:space="preserve">
+    <value> zum Kopieren angewählt.</value>
+  </data>
+  <data name="csSELECTED_FOR_COPY_DEF" xml:space="preserve">
+    <value>als Standard zum kopieren angewählt.</value>
+  </data>
+  <data name="csSELECTED_ZONE_UNAVAILABLE" xml:space="preserve">
+    <value>Die angewählte Zone ist nicht erreichbar.</value>
+  </data>
+  <data name="csSELECT_ALL" xml:space="preserve">
+    <value>Alles anwählen</value>
+  </data>
+  <data name="csSELECT_APPLICATOR" xml:space="preserve">
+    <value>Applikator anwählen</value>
+  </data>
+  <data name="csSELECT_COLOR" xml:space="preserve">
+    <value>Farbe anwählen</value>
+  </data>
+  <data name="csSELECT_FILE_LOC" xml:space="preserve">
+    <value>Wählen sie einen Namen und einen Ort für die Datei</value>
+  </data>
+  <data name="csSELECT_NONE" xml:space="preserve">
+    <value>Alle abwählen</value>
+  </data>
+  <data name="csSELECT_PAINTDB_FOLDER" xml:space="preserve">
+    <value>Wählen sie den gewünschten Datenbank-Ordner.</value>
+  </data>
+  <data name="csSELECT_PAINT_FAIL" xml:space="preserve">
+    <value>Im ausgewählten Ordner sind keine PAINTworks Dateien vorhanden, oder Sie haben keine Berechtigung auf die Dateien zugreifen.</value>
+  </data>
+  <data name="csSELECT_PAINT_FOLDER" xml:space="preserve">
+    <value>Wählen Sie den Remote-Lack-Ordner.</value>
+  </data>
+  <data name="csSELECT_PAINT_SUCCESS" xml:space="preserve">
+    <value>Bitte warten Sie, während auf den Remote-Rechner zugegriffen wird.</value>
+  </data>
+  <data name="csSELECT_ROBOT" xml:space="preserve">
+    <value>Roboter anwählen</value>
+  </data>
+  <data name="csSELECT_SOURCE" xml:space="preserve">
+    <value>Wählen sie die Quelle der Daten</value>
+  </data>
+  <data name="csSELECT_TARGET" xml:space="preserve">
+    <value>Wählen sie das Ziel der Daten</value>
+  </data>
+  <data name="csSELECT_VALVE" xml:space="preserve">
+    <value>Wählen sie das Ventil</value>
+  </data>
+  <data name="csSELECT_ZONE" xml:space="preserve">
+    <value>Wählen sie die Zone</value>
+  </data>
+  <data name="csSELPRNTMNU" xml:space="preserve">
+    <value>Drucker wählen</value>
+  </data>
+  <data name="csSET_UP_SA_FOR" xml:space="preserve">
+    <value>Scattered access einrichten für:</value>
+  </data>
+  <data name="csSPECIFIC_CAP" xml:space="preserve">
+    <value>Spezifisch</value>
+  </data>
+  <data name="csSPLIT_LARGE_TABLES" xml:space="preserve">
+    <value>Teilen großer Tabellen?</value>
+  </data>
+  <data name="csSTARTING_SAVE_TO" xml:space="preserve">
+    <value>Speichern nach starten:</value>
+  </data>
+  <data name="csSTATUS" xml:space="preserve">
+    <value>S&amp;tatus</value>
+  </data>
+  <data name="csSYNCSCROLL" xml:space="preserve">
+    <value>Blättern synchronisieren</value>
+  </data>
+  <data name="csTAG_NAME" xml:space="preserve">
+    <value>Tagname</value>
+  </data>
+  <data name="csTIME_CAP" xml:space="preserve">
+    <value>Zeit</value>
+  </data>
+  <data name="csTO" xml:space="preserve">
+    <value>nach</value>
+  </data>
+  <data name="csUNABLE_CONNECT_CONTROLLERS" xml:space="preserve">
+    <value>Verbindung zu allen Controllern fehlgeschlagen.</value>
+  </data>
+  <data name="csUNABLE_DETERMINE_RUNNING" xml:space="preserve">
+    <value>Kann nicht feststellen, ob das Programm auf dem Remote-Computer ausgeführt wird. Wenn das Programm ausgeführt wird, können Ihre Änderungen überschrieben werden.</value>
+  </data>
+  <data name="csUNABLE_TO_ACCESS_DB" xml:space="preserve">
+    <value>Kann nicht auf Datenbank zuzugreifen.</value>
+  </data>
+  <data name="csUNAUTH_ACCESS" xml:space="preserve">
+    <value>Das folgende Verzeichnis ist nicht vorhanden, oder Sie haben keine ausreichenden Rechte, um darauf zugreifen:</value>
+  </data>
+  <data name="csUNAVAILABLE" xml:space="preserve">
+    <value>Nicht erreichbar</value>
+  </data>
+  <data name="csUNDO" xml:space="preserve">
+    <value>Rückgängig machen</value>
+  </data>
+  <data name="csUNDOMSG" xml:space="preserve">
+    <value>Alle Änderungen rückgängig machen?</value>
+  </data>
+  <data name="csUNKNOWN" xml:space="preserve">
+    <value>Unbekannt</value>
+  </data>
+  <data name="csUNSELECT_ALL" xml:space="preserve">
+    <value>Alles abwählen</value>
+  </data>
+  <data name="csUPD_CHANGELOG" xml:space="preserve">
+    <value>Aktualisieren des Änderungsprotokolls.</value>
+  </data>
+  <data name="csUSER_CAP" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+  <data name="csUTILITIES" xml:space="preserve">
+    <value>Dienstprogramme</value>
+  </data>
+  <data name="csU_SELECTED_FOR_COPY" xml:space="preserve">
+    <value>Sie haben zum kopieren ausgewählt:</value>
+  </data>
+  <data name="csVALUE" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="csVAL_ABOVE_MAX" xml:space="preserve">
+    <value>Eintrag über Maximalwert. Der ursprüngliche Wert wird verwendet.</value>
+  </data>
+  <data name="csVAL_BELOW_MIN" xml:space="preserve">
+    <value>Eintrag unter Mindestwert.  Der ursprüngliche Wert wird verwendet.</value>
+  </data>
+  <data name="csVERSION" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="csVIEWALL_FORM" xml:space="preserve">
+    <value>Multi-view</value>
+  </data>
+  <data name="csVIEWING" xml:space="preserve">
+    <value>Ansicht:</value>
+  </data>
+  <data name="csWARNING" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="csWIDTH" xml:space="preserve">
+    <value>Tabellenbreite</value>
+  </data>
+  <data name="csWRITE_FAIL" xml:space="preserve">
+    <value>Schreiben fehlgeschlagen.</value>
+  </data>
+  <data name="csWRITE_SUCCESS" xml:space="preserve">
+    <value>Daten erfolgreich geschrieben</value>
+  </data>
+  <data name="csWRITING_TARGET" xml:space="preserve">
+    <value>Schreibe Daten nach</value>
+  </data>
+  <data name="csXLSX_APP" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"&gt;&lt;Application&gt;Microsoft Excel&lt;/Application&gt;&lt;DocSecurity&gt;0&lt;/DocSecurity&gt;&lt;ScaleCrop&gt;false&lt;/ScaleCrop&gt;&lt;HeadingPairs&gt;&lt;vt:vector size="2" baseType="variant"&gt;&lt;vt:variant&gt;&lt;vt:lpstr&gt;Worksheets&lt;/vt:lpstr&gt;&lt;/vt:variant&gt;&lt;vt:variant&gt;&lt;vt:i4&gt;{0}&lt;/vt:i4&gt;&lt;/vt:variant&gt;&lt;/vt:vector&gt;&lt;/HeadingPairs&gt;&lt;TitlesOfParts&gt;&lt;vt:vector size="{1}" baseType="lpstr"&gt;{2}&lt;/vt:vector&gt;&lt;/TitlesOfParts&gt;&lt;LinksUpToDate&gt;false&lt;/LinksUpToDate&gt;&lt;SharedDoc&gt;false&lt;/SharedDoc&gt;&lt;HyperlinksChanged&gt;false&lt;/HyperlinksChanged&gt;&lt;AppVersion&gt;12.0000&lt;/AppVersion&gt;&lt;/Properties&gt;</value>
+  </data>
+  <data name="csXLSX_APP_1" xml:space="preserve">
+    <value>&lt;vt:lpstr&gt;{0}&lt;/vt:lpstr&gt;</value>
+  </data>
+  <data name="csXLSX_CONTENT_1" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"&gt;&lt;Override PartName="/xl/theme/theme1.xml" ContentType="application/vnd.openxmlformats-officedocument.theme+xml"/&gt;&lt;Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/&gt;&lt;Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/&gt;&lt;Default Extension="xml" ContentType="application/xml"/&gt;&lt;Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/&gt;&lt;Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/&gt;</value>
+  </data>
+  <data name="csXLSX_CONTENT_2" xml:space="preserve">
+    <value>&lt;Override PartName="/xl/sharedStrings.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml"/&gt;&lt;Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/&gt;&lt;/Types&gt;</value>
+  </data>
+  <data name="csXLSX_CONTENT_DRAWING" xml:space="preserve">
+    <value>&lt;Override PartName="/xl/drawings/drawing1.xml" ContentType="application/vnd.openxmlformats-officedocument.drawing+xml"/&gt;</value>
+  </data>
+  <data name="csXLSX_CONTENT_ITEMS" xml:space="preserve">
+    <value>&lt;Override PartName="/xl/worksheets/sheet{0}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/&gt;</value>
+  </data>
+  <data name="csXLSX_CONTENT_PNG" xml:space="preserve">
+    <value>&lt;Default Extension="png" ContentType="image/png"/&gt;</value>
+  </data>
+  <data name="csXLSX_CORE" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+	&lt;cp:lastModifiedBy&gt;PaintWorksUser&lt;/cp:lastModifiedBy&gt;
+	&lt;dcterms:created xsi:type="dcterms:W3CDTF"&gt;{0}&lt;/dcterms:created&gt;
+	&lt;dcterms:modified xsi:type="dcterms:W3CDTF"&gt;{1}&lt;/dcterms:modified&gt;
+&lt;/cp:coreProperties&gt;</value>
+  </data>
+  <data name="csXLSX_DRAWINGS_DRAWINGS" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;xdr:wsDr xmlns:xdr="http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"&gt;&lt;xdr:twoCellAnchor editAs="oneCell"&gt;&lt;xdr:from&gt;&lt;xdr:col&gt;{0}&lt;/xdr:col&gt;&lt;xdr:colOff&gt;0&lt;/xdr:colOff&gt;&lt;xdr:row&gt;{1}&lt;/xdr:row&gt;&lt;xdr:rowOff&gt;0&lt;/xdr:rowOff&gt;&lt;/xdr:from&gt;&lt;xdr:to&gt;&lt;xdr:col&gt;{2}&lt;/xdr:col&gt;&lt;xdr:colOff&gt;400050&lt;/xdr:colOff&gt;&lt;xdr:row&gt;{3}&lt;/xdr:row&gt;&lt;xdr:rowOff&gt;85725&lt;/xdr:rowOff&gt;&lt;/xdr:to&gt;&lt;xdr:pic&gt;&lt;xdr:nvPicPr&gt;&lt;xdr:cNvPr id="1025" name="Picture 1"/&gt;&lt;xdr:cNvPicPr&gt;&lt;a:picLocks noChangeAspect="1" noChangeArrowheads="1"/&gt;&lt;/xdr:cNvPicPr&gt;&lt;/xdr:nvPicPr&gt;&lt;xdr:blipFill&gt;&lt;a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId1" cstate="print"/&gt;&lt;a:srcRect/&gt;&lt;a:stretch&gt;&lt;a:fillRect/&gt;&lt;/a:stretch&gt;&lt;/xdr:blipFill&gt;&lt;xdr:spPr bwMode="auto"&gt;&lt;a:xfrm&gt;&lt;a:off x="0" y="809625"/&gt;&lt;a:ext cx="13430250" cy="4943475"/&gt;&lt;/a:xfrm&gt;&lt;a:prstGeom prst="rect"&gt;&lt;a:avLst/&gt;&lt;/a:prstGeom&gt;&lt;a:noFill/&gt;&lt;a:ln w="1"&gt;&lt;a:noFill/&gt;&lt;a:miter lim="800000"/&gt;&lt;a:headEnd/&gt;&lt;a:tailEnd/&gt;&lt;/a:ln&gt;&lt;a:effectLst/&gt;&lt;/xdr:spPr&gt;&lt;/xdr:pic&gt;&lt;xdr:clientData/&gt;&lt;/xdr:twoCellAnchor&gt;&lt;/xdr:wsDr&gt;</value>
+  </data>
+  <data name="csXLSX_DRAWINGS_RELS" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"&gt;&lt;Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="{0}"/&gt;&lt;/Relationships&gt;</value>
+  </data>
+  <data name="csXLSX_RELS1" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"&gt;&lt;Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/&gt;&lt;Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/&gt;&lt;Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/&gt;&lt;/Relationships&gt;</value>
+  </data>
+  <data name="csXLSX_SHAREDSTRING_1" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="{0}" uniqueCount="{1}"&gt;</value>
+  </data>
+  <data name="csXLSX_SHAREDSTRING_2" xml:space="preserve">
+    <value>&lt;/sst&gt;</value>
+  </data>
+  <data name="csXLSX_SHAREDSTRING_ITEM" xml:space="preserve">
+    <value>&lt;si&gt;&lt;t&gt;{0}&lt;/t&gt;&lt;/si&gt;</value>
+  </data>
+  <data name="csXLSX_SHAREDSTRING_ITEM_WS" xml:space="preserve">
+    <value>&lt;si&gt;&lt;t xml:space="preserve"&gt;{0}&lt;/t&gt;&lt;/si&gt;</value>
+  </data>
+  <data name="csXLSX_SHEETS_RELS" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"&gt;&lt;Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/drawing" Target="../drawings/drawing1.xml"/&gt;&lt;/Relationships&gt;</value>
+  </data>
+  <data name="csXLSX_SHEET_DRAWING_END" xml:space="preserve">
+    <value>&lt;/sheetData&gt;&lt;phoneticPr fontId="0" type="noConversion"/&gt;&lt;pageMargins left="0.75" right="0.75" top="1" bottom="1" header="0.5" footer="0.5"/&gt;&lt;headerFooter alignWithMargins="0"/&gt;&lt;drawing r:id="rId1"/&gt;&lt;/worksheet&gt;</value>
+  </data>
+  <data name="csXLSX_SHEET_END" xml:space="preserve">
+    <value>&lt;/sheetData&gt;
+	&lt;phoneticPr fontId="0" type="noConversion"/&gt;
+	&lt;pageMargins left="0.75" right="0.75" top="1" bottom="1" header="0.5" footer="0.5"/&gt;
+	&lt;headerFooter alignWithMargins="0"/&gt;
+&lt;/worksheet&gt;</value>
+  </data>
+  <data name="csXLSX_SHEET_START" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"&gt;
+	&lt;sheetViews&gt;
+		&lt;sheetView tabSelected="1" workbookViewId="0"&gt;
+			&lt;selection activeCell="A1" sqref="A1"/&gt;
+		&lt;/sheetView&gt;
+	&lt;/sheetViews&gt;
+	&lt;sheetFormatPr defaultRowHeight="12.75"/&gt;</value>
+  </data>
+  <data name="csXLSX_STYLES" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"&gt;&lt;numFmts count="2"&gt;&lt;numFmt numFmtId="164" formatCode="m/d/yyyy\ h:mm:ss\ AM/PM"/&gt;&lt;numFmt numFmtId="165" formatCode="0.0%"/&gt;&lt;/numFmts&gt;&lt;fonts count="2"&gt;&lt;font&gt;&lt;sz val="10"/&gt;&lt;name val="Arial"/&gt;&lt;/font&gt;&lt;font&gt;&lt;sz val="10"/&gt;&lt;name val="Arial"/&gt;&lt;/font&gt;&lt;/fonts&gt;&lt;fills count="2"&gt;&lt;fill&gt;&lt;patternFill patternType="none"/&gt;&lt;/fill&gt;&lt;fill&gt;&lt;patternFill patternType="gray125"/&gt;&lt;/fill&gt;&lt;/fills&gt;&lt;borders count="1"&gt;&lt;border&gt;&lt;left/&gt;&lt;right/&gt;&lt;top/&gt;&lt;bottom/&gt;&lt;diagonal/&gt;&lt;/border&gt;&lt;/borders&gt;&lt;cellStyleXfs count="2"&gt;&lt;xf numFmtId="0" fontId="0" fillId="0" borderId="0"/&gt;&lt;xf numFmtId="0" fontId="1" fillId="0" borderId="0" applyNumberFormat="0" applyFont="0" applyFill="0" applyBorder="0" applyAlignment="0" applyProtection="0"/&gt;&lt;/cellStyleXfs&gt;&lt;cellXfs count="8"&gt;&lt;xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/&gt;&lt;xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="1" applyFont="1"/&gt;&lt;xf numFmtId="10" fontId="0" fillId="0" borderId="0" xfId="1" applyNumberFormat="1" applyFont="1"/&gt;&lt;xf numFmtId="21" fontId="0" fillId="0" borderId="0" xfId="1" applyNumberFormat="1" applyFont="1"/&gt;&lt;xf numFmtId="46" fontId="0" fillId="0" borderId="0" xfId="1" applyNumberFormat="1" applyFont="1"/&gt;&lt;xf numFmtId="164" fontId="0" fillId="0" borderId="0" xfId="1" applyNumberFormat="1" applyFont="1"/&gt;&lt;xf numFmtId="14" fontId="0" fillId="0" borderId="0" xfId="1" applyNumberFormat="1" applyFont="1"/&gt;&lt;xf numFmtId="165" fontId="0" fillId="0" borderId="0" xfId="1" applyNumberFormat="1" applyFont="1"/&gt;&lt;/cellXfs&gt;&lt;cellStyles count="2"&gt;&lt;cellStyle name="Default" xfId="1"/&gt;&lt;cellStyle name="Normal" xfId="0" builtinId="0"/&gt;&lt;/cellStyles&gt;&lt;dxfs count="0"/&gt;&lt;tableStyles count="0" defaultTableStyle="TableStyleMedium9" defaultPivotStyle="PivotStyleLight16"/&gt;&lt;/styleSheet&gt;</value>
+  </data>
+  <data name="csXLSX_THEME" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;a:theme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="Office Theme"&gt;&lt;a:themeElements&gt;&lt;a:clrScheme name="Office"&gt;&lt;a:dk1&gt;&lt;a:sysClr val="windowText" lastClr="000000"/&gt;&lt;/a:dk1&gt;&lt;a:lt1&gt;&lt;a:sysClr val="window" lastClr="FFFFFF"/&gt;&lt;/a:lt1&gt;&lt;a:dk2&gt;&lt;a:srgbClr val="1F497D"/&gt;&lt;/a:dk2&gt;&lt;a:lt2&gt;&lt;a:srgbClr val="EEECE1"/&gt;&lt;/a:lt2&gt;&lt;a:accent1&gt;&lt;a:srgbClr val="4F81BD"/&gt;&lt;/a:accent1&gt;&lt;a:accent2&gt;&lt;a:srgbClr val="C0504D"/&gt;&lt;/a:accent2&gt;&lt;a:accent3&gt;&lt;a:srgbClr val="9BBB59"/&gt;&lt;/a:accent3&gt;&lt;a:accent4&gt;&lt;a:srgbClr val="8064A2"/&gt;&lt;/a:accent4&gt;&lt;a:accent5&gt;&lt;a:srgbClr val="4BACC6"/&gt;&lt;/a:accent5&gt;&lt;a:accent6&gt;&lt;a:srgbClr val="F79646"/&gt;&lt;/a:accent6&gt;&lt;a:hlink&gt;&lt;a:srgbClr val="0000FF"/&gt;&lt;/a:hlink&gt;&lt;a:folHlink&gt;&lt;a:srgbClr val="800080"/&gt;&lt;/a:folHlink&gt;&lt;/a:clrScheme&gt;&lt;a:fontScheme name="Office"&gt;&lt;a:majorFont&gt;&lt;a:latin typeface="Cambria"/&gt;&lt;a:ea typeface=""/&gt;&lt;a:cs typeface=""/&gt;&lt;a:font script="Jpan" typeface="ＭＳ Ｐゴシック"/&gt;&lt;a:font script="Hang" typeface="맑은 고딕"/&gt;&lt;a:font script="Hans" typeface="宋体"/&gt;&lt;a:font script="Hant" typeface="新細明體"/&gt;&lt;a:font script="Arab" typeface="Times New Roman"/&gt;&lt;a:font script="Hebr" typeface="Times New Roman"/&gt;&lt;a:font script="Thai" typeface="Tahoma"/&gt;&lt;a:font script="Ethi" typeface="Nyala"/&gt;&lt;a:font script="Beng" typeface="Vrinda"/&gt;&lt;a:font script="Gujr" typeface="Shruti"/&gt;&lt;a:font script="Khmr" typeface="MoolBoran"/&gt;&lt;a:font script="Knda" typeface="Tunga"/&gt;&lt;a:font script="Guru" typeface="Raavi"/&gt;&lt;a:font script="Cans" typeface="Euphemia"/&gt;&lt;a:font script="Cher" typeface="Plantagenet Cherokee"/&gt;&lt;a:font script="Yiii" typeface="Microsoft Yi Baiti"/&gt;&lt;a:font script="Tibt" typeface="Microsoft Himalaya"/&gt;&lt;a:font script="Thaa" typeface="MV Boli"/&gt;&lt;a:font script="Deva" typeface="Mangal"/&gt;&lt;a:font script="Telu" typeface="Gautami"/&gt;&lt;a:font script="Taml" typeface="Latha"/&gt;&lt;a:font script="Syrc" typeface="Estrangelo Edessa"/&gt;&lt;a:font script="Orya" typeface="Kalinga"/&gt;&lt;a:font script="Mlym" typeface="Kartika"/&gt;&lt;a:font script="Laoo" typeface="DokChampa"/&gt;&lt;a:font script="Sinh" typeface="Iskoola Pota"/&gt;&lt;a:font script="Mong" typeface="Mongolian Baiti"/&gt;&lt;a:font script="Viet" typeface="Times New Roman"/&gt;&lt;a:font script="Uigh" typeface="Microsoft Uighur"/&gt;&lt;/a:majorFont&gt;&lt;a:minorFont&gt;&lt;a:latin typeface="Calibri"/&gt;&lt;a:ea typeface=""/&gt;&lt;a:cs typeface=""/&gt;&lt;a:font script="Jpan" typeface="ＭＳ Ｐゴシック"/&gt;&lt;a:font script="Hang" typeface="맑은 고딕"/&gt;&lt;a:font script="Hans" typeface="宋体"/&gt;&lt;a:font script="Hant" typeface="新細明體"/&gt;&lt;a:font script="Arab" typeface="Arial"/&gt;&lt;a:font script="Hebr" typeface="Arial"/&gt;&lt;a:font script="Thai" typeface="Tahoma"/&gt;&lt;a:font script="Ethi" typeface="Nyala"/&gt;&lt;a:font script="Beng" typeface="Vrinda"/&gt;&lt;a:font script="Gujr" typeface="Shruti"/&gt;&lt;a:font script="Khmr" typeface="DaunPenh"/&gt;&lt;a:font script="Knda" typeface="Tunga"/&gt;&lt;a:font script="Guru" typeface="Raavi"/&gt;&lt;a:font script="Cans" typeface="Euphemia"/&gt;&lt;a:font script="Cher" typeface="Plantagenet Cherokee"/&gt;&lt;a:font script="Yiii" typeface="Microsoft Yi Baiti"/&gt;&lt;a:font script="Tibt" typeface="Microsoft Himalaya"/&gt;&lt;a:font script="Thaa" typeface="MV Boli"/&gt;&lt;a:font script="Deva" typeface="Mangal"/&gt;&lt;a:font script="Telu" typeface="Gautami"/&gt;&lt;a:font script="Taml" typeface="Latha"/&gt;&lt;a:font script="Syrc" typeface="Estrangelo Edessa"/&gt;&lt;a:font script="Orya" typeface="Kalinga"/&gt;&lt;a:font script="Mlym" typeface="Kartika"/&gt;&lt;a:font script="Laoo" typeface="DokChampa"/&gt;&lt;a:font script="Sinh" typeface="Iskoola Pota"/&gt;&lt;a:font script="Mong" typeface="Mongolian Baiti"/&gt;&lt;a:font script="Viet" typeface="Arial"/&gt;&lt;a:font script="Uigh" typeface="Microsoft Uighur"/&gt;&lt;/a:minorFont&gt;&lt;/a:fontScheme&gt;&lt;a:fmtScheme name="Office"&gt;&lt;a:fillStyleLst&gt;&lt;a:solidFill&gt;&lt;a:schemeClr val="phClr"/&gt;&lt;/a:solidFill&gt;&lt;a:gradFill rotWithShape="1"&gt;&lt;a:gsLst&gt;&lt;a:gs pos="0"&gt;&lt;a:schemeClr val="phClr"&gt;&lt;a:tint val="50000"/&gt;&lt;a:satMod val="300000"/&gt;&lt;/a:schemeClr&gt;&lt;/a:gs&gt;&lt;a:gs pos="35000"&gt;&lt;a:schemeClr val="phClr"&gt;&lt;a:tint val="37000"/&gt;&lt;a:satMod val="300000"/&gt;&lt;/a:schemeClr&gt;&lt;/a:gs&gt;&lt;a:gs pos="100000"&gt;&lt;a:schemeClr val="phClr"&gt;&lt;a:tint val="15000"/&gt;&lt;a:satMod val="350000"/&gt;&lt;/a:schemeClr&gt;&lt;/a:gs&gt;&lt;/a:gsLst&gt;&lt;a:lin ang="16200000" scaled="1"/&gt;&lt;/a:gradFill&gt;&lt;a:gradFill rotWithShape="1"&gt;&lt;a:gsLst&gt;&lt;a:gs pos="0"&gt;&lt;a:schemeClr val="phClr"&gt;&lt;a:shade val="51000"/&gt;&lt;a:satMod val="130000"/&gt;&lt;/a:schemeClr&gt;&lt;/a:gs&gt;&lt;a:gs pos="80000"&gt;&lt;a:schemeClr val="phClr"&gt;&lt;a:shade val="93000"/&gt;&lt;a:satMod val="130000"/&gt;&lt;/a:schemeClr&gt;&lt;/a:gs&gt;&lt;a:gs pos="100000"&gt;&lt;a:schemeClr val="phClr"&gt;&lt;a:shade val="94000"/&gt;&lt;a:satMod val="135000"/&gt;&lt;/a:schemeClr&gt;&lt;/a:gs&gt;&lt;/a:gsLst&gt;&lt;a:lin ang="16200000" scaled="0"/&gt;&lt;/a:gradFill&gt;&lt;/a:fillStyleLst&gt;&lt;a:lnStyleLst&gt;&lt;a:ln w="9525" cap="flat" cmpd="sng" algn="ctr"&gt;&lt;a:solidFill&gt;&lt;a:schemeClr val="phClr"&gt;&lt;a:shade val="95000"/&gt;&lt;a:satMod val="105000"/&gt;&lt;/a:schemeClr&gt;&lt;/a:solidFill&gt;&lt;a:prstDash val="solid"/&gt;&lt;/a:ln&gt;&lt;a:ln w="25400" cap="flat" cmpd="sng" algn="ctr"&gt;&lt;a:solidFill&gt;&lt;a:schemeClr val="phClr"/&gt;&lt;/a:solidFill&gt;&lt;a:prstDash val="solid"/&gt;&lt;/a:ln&gt;&lt;a:ln w="38100" cap="flat" cmpd="sng" algn="ctr"&gt;&lt;a:solidFill&gt;&lt;a:schemeClr val="phClr"/&gt;&lt;/a:solidFill&gt;&lt;a:prstDash val="solid"/&gt;&lt;/a:ln&gt;&lt;/a:lnStyleLst&gt;&lt;a:effectStyleLst&gt;&lt;a:effectStyle&gt;&lt;a:effectLst&gt;&lt;a:outerShdw blurRad="40000" dist="20000" dir="5400000" rotWithShape="0"&gt;&lt;a:srgbClr val="000000"&gt;&lt;a:alpha val="38000"/&gt;&lt;/a:srgbClr&gt;&lt;/a:outerShdw&gt;&lt;/a:effectLst&gt;&lt;/a:effectStyle&gt;&lt;a:effectStyle&gt;&lt;a:effectLst&gt;&lt;a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"&gt;&lt;a:srgbClr val="000000"&gt;&lt;a:alpha val="35000"/&gt;&lt;/a:srgbClr&gt;&lt;/a:outerShdw&gt;&lt;/a:effectLst&gt;&lt;/a:effectStyle&gt;&lt;a:effectStyle&gt;&lt;a:effectLst&gt;&lt;a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"&gt;&lt;a:srgbClr val="000000"&gt;&lt;a:alpha val="35000"/&gt;&lt;/a:srgbClr&gt;&lt;/a:outerShdw&gt;&lt;/a:effectLst&gt;&lt;a:scene3d&gt;&lt;a:camera prst="orthographicFront"&gt;&lt;a:rot lat="0" lon="0" rev="0"/&gt;&lt;/a:camera&gt;&lt;a:lightRig rig="threePt" dir="t"&gt;&lt;a:rot lat="0" lon="0" rev="1200000"/&gt;&lt;/a:lightRig&gt;&lt;/a:scene3d&gt;&lt;a:sp3d&gt;&lt;a:bevelT w="63500" h="25400"/&gt;&lt;/a:sp3d&gt;&lt;/a:effectStyle&gt;&lt;/a:effectStyleLst&gt;&lt;a:bgFillStyleLst&gt;&lt;a:solidFill&gt;&lt;a:schemeClr val="phClr"/&gt;&lt;/a:solidFill&gt;&lt;a:gradFill rotWithShape="1"&gt;&lt;a:gsLst&gt;&lt;a:gs pos="0"&gt;&lt;a:schemeClr val="phClr"&gt;&lt;a:tint val="40000"/&gt;&lt;a:satMod val="350000"/&gt;&lt;/a:schemeClr&gt;&lt;/a:gs&gt;&lt;a:gs pos="40000"&gt;&lt;a:schemeClr val="phClr"&gt;&lt;a:tint val="45000"/&gt;&lt;a:shade val="99000"/&gt;&lt;a:satMod val="350000"/&gt;&lt;/a:schemeClr&gt;&lt;/a:gs&gt;&lt;a:gs pos="100000"&gt;&lt;a:schemeClr val="phClr"&gt;&lt;a:shade val="20000"/&gt;&lt;a:satMod val="255000"/&gt;&lt;/a:schemeClr&gt;&lt;/a:gs&gt;&lt;/a:gsLst&gt;&lt;a:path path="circle"&gt;&lt;a:fillToRect l="50000" t="-80000" r="50000" b="180000"/&gt;&lt;/a:path&gt;&lt;/a:gradFill&gt;&lt;a:gradFill rotWithShape="1"&gt;&lt;a:gsLst&gt;&lt;a:gs pos="0"&gt;&lt;a:schemeClr val="phClr"&gt;&lt;a:tint val="80000"/&gt;&lt;a:satMod val="300000"/&gt;&lt;/a:schemeClr&gt;&lt;/a:gs&gt;&lt;a:gs pos="100000"&gt;&lt;a:schemeClr val="phClr"&gt;&lt;a:shade val="30000"/&gt;&lt;a:satMod val="200000"/&gt;&lt;/a:schemeClr&gt;&lt;/a:gs&gt;&lt;/a:gsLst&gt;&lt;a:path path="circle"&gt;&lt;a:fillToRect l="50000" t="50000" r="50000" b="50000"/&gt;&lt;/a:path&gt;&lt;/a:gradFill&gt;&lt;/a:bgFillStyleLst&gt;&lt;/a:fmtScheme&gt;&lt;/a:themeElements&gt;&lt;a:objectDefaults/&gt;&lt;a:extraClrSchemeLst/&gt;&lt;/a:theme&gt;</value>
+  </data>
+  <data name="csXLSX_WB" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"&gt;&lt;fileVersion appName="xl" lastEdited="4" lowestEdited="4" rupBuild="4506"/&gt;&lt;workbookPr defaultThemeVersion="124226"/&gt;&lt;bookViews&gt;&lt;workbookView xWindow="120" yWindow="135" windowWidth="10005" windowHeight="10005" activeTab="0"/&gt;&lt;/bookViews&gt;&lt;sheets&gt;{0}&lt;/sheets&gt;&lt;calcPr calcId="114210"/&gt;&lt;/workbook&gt;</value>
+  </data>
+  <data name="csXLSX_WB1TAB" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"&gt;&lt;fileVersion appName="xl" lastEdited="4" lowestEdited="4" rupBuild="4506"/&gt;&lt;workbookPr defaultThemeVersion="124226"/&gt;&lt;bookViews&gt;&lt;workbookView xWindow="120" yWindow="135" windowWidth="10005" windowHeight="10005"/&gt;&lt;/bookViews&gt;&lt;sheets&gt;{0}&lt;/sheets&gt;&lt;calcPr calcId="114210"/&gt;&lt;/workbook&gt;</value>
+  </data>
+  <data name="csXLSX_WB_SHEET" xml:space="preserve">
+    <value>&lt;sheet name="{0}" sheetId="{1}" r:id="rId{2}"/&gt;</value>
+  </data>
+  <data name="csXLSX_WB_XML_RELS_1" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"&gt;</value>
+  </data>
+  <data name="csXLSX_WB_XML_RELS_2" xml:space="preserve">
+    <value>&lt;/Relationships&gt;</value>
+  </data>
+  <data name="csXLSX_WB_XML_RELS_SHARED" xml:space="preserve">
+    <value>&lt;Relationship Id="rId{0}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings" Target="sharedStrings.xml"/&gt;</value>
+  </data>
+  <data name="csXLSX_WB_XML_RELS_SHEET" xml:space="preserve">
+    <value>&lt;Relationship Id="rId{0}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet{1}.xml"/&gt;</value>
+  </data>
+  <data name="csXLSX_WB_XML_RELS_STYLES" xml:space="preserve">
+    <value>&lt;Relationship Id="rId{0}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/&gt;</value>
+  </data>
+  <data name="csXLSX_WB_XML_RELS_THEME" xml:space="preserve">
+    <value>&lt;Relationship Id="rId{0}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/&gt;</value>
+  </data>
+  <data name="csXML_PRINT_HEADER" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;?mso-application progid="Excel.Sheet"?&gt;
+&lt;Workbook xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel"&gt;
+&lt;OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"&gt;&lt;Colors&gt;&lt;/Colors&gt;&lt;/OfficeDocumentSettings&gt;
+&lt;ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"&gt;&lt;/ExcelWorkbook&gt;
+&lt;Styles&gt;&lt;Style ss:ID="Default" ss:Name="Normal"/&gt;&lt;Style ss:ID="co1"/&gt;&lt;Style ss:ID="ta1"/&gt;
+&lt;Style ss:ID="s21" ss:Name="Default"/&gt;
+&lt;Style ss:ID="s23" ss:Parent="s21"&gt;&lt;NumberFormat/&gt;&lt;/Style&gt;
+&lt;Style ss:ID="s24" ss:Parent="s21"&gt;&lt;NumberFormat ss:Format="Percent"/&gt;&lt;/Style&gt;
+&lt;Style ss:ID="s25"&gt;&lt;NumberFormat ss:Format="[h]:mm:ss;@"/&gt;&lt;/Style&gt;
+&lt;Style ss:ID="s26" ss:Parent="s21"&gt;&lt;NumberFormat ss:Format="Short Date"/&gt;&lt;/Style&gt;
+&lt;Style ss:ID="s27" ss:Parent="s21"&gt;&lt;NumberFormat ss:Format="m/d/yyyy\ h:mm:ss\ AM/PM"/&gt;&lt;/Style&gt;&lt;/Styles&gt;</value>
+  </data>
+  <data name="csZONE_CAP" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="csZONE_NAME" xml:space="preserve">
+    <value>Zonen-Name</value>
+  </data>
+  <data name="csHBLOST" xml:space="preserve">
+    <value>Heartbeat Lost</value>
+  </data>
+  <data name="csPLC_DATA_TYPE" xml:space="preserve">
+    <value>Data Type</value>
+  </data>
+  <data name="csPLC_UNSUP_TYPE" xml:space="preserve">
+    <value>Unsupported data type.</value>
+  </data>
+  <data name="csPLC_CONN_MULT_INST" xml:space="preserve">
+    <value>Multiple instances of the connection exist in the PLC configuration file.</value>
+  </data>
+  <data name="csPLC_CONN_NOT_DEFINED" xml:space="preserve">
+    <value>Connection not defined.</value>
+  </data>
+  <data name="csADD" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="csCLEARALL" xml:space="preserve">
+    <value>Clear All</value>
+  </data>
+  <data name="csFTP_ERR_DEST_NOT_SPEC" xml:space="preserve">
+    <value>Error: Destination Folder not specified.</value>
+  </data>
+  <data name="csFTP_ERR_SRC_NOT_SPEC" xml:space="preserve">
+    <value>Error: SourceFolder not specified.</value>
+  </data>
+  <data name="csTEACH_PENDANT_USER" xml:space="preserve">
+    <value>Teach Pendant User</value>
+  </data>
+  <data name="csANYBUS_IPCONFIG" xml:space="preserve">
+    <value>Anybus I/P Configuration</value>
+  </data>
+  <data name="csARCHIVE" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="csBSD" xml:space="preserve">
+    <value>Booth Status Display</value>
+  </data>
+  <data name="csCALIBRATION" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="csCLOCK" xml:space="preserve">
+    <value>Clock</value>
+  </data>
+  <data name="csCOLORCHANGE" xml:space="preserve">
+    <value>Color Change</value>
+  </data>
+  <data name="csDMONSCHEDMAN" xml:space="preserve">
+    <value>DMON Schedule Manager</value>
+  </data>
+  <data name="csDMONVIEWER" xml:space="preserve">
+    <value>DMONViewer</value>
+  </data>
+  <data name="csFILECOPY" xml:space="preserve">
+    <value>File Copy Utility</value>
+  </data>
+  <data name="csFLUIDMAINT" xml:space="preserve">
+    <value>FluidMaint</value>
+  </data>
+  <data name="csGPPW" xml:space="preserve">
+    <value>GPPW</value>
+  </data>
+  <data name="csJOB_SETUP" xml:space="preserve">
+    <value>Job Setup</value>
+  </data>
+  <data name="csNETWORK" xml:space="preserve">
+    <value>Network Maintenance</value>
+  </data>
+  <data name="csNOTEPAD" xml:space="preserve">
+    <value>Notepad</value>
+  </data>
+  <data name="csPAINTDISCHARGE" xml:space="preserve">
+    <value>Paint Discharge</value>
+  </data>
+  <data name="csPARAMSETUP" xml:space="preserve">
+    <value>Parameter Setup</value>
+  </data>
+  <data name="csPLC_IO" xml:space="preserve">
+    <value>PLC I/O</value>
+  </data>
+  <data name="csPRESETS" xml:space="preserve">
+    <value>Presets</value>
+  </data>
+  <data name="csPW4_MAIN" xml:space="preserve">
+    <value>PAINTworks Main</value>
+  </data>
+  <data name="csPWBROWSER" xml:space="preserve">
+    <value>PWBrowser</value>
+  </data>
+  <data name="csPWIIISETUP" xml:space="preserve">
+    <value>PAINTworks Setup</value>
+  </data>
+  <data name="csPWUSERMAINT" xml:space="preserve">
+    <value>PAINTworks User Maintenance</value>
+  </data>
+  <data name="csREPORTS" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="csROBOTSETUP" xml:space="preserve">
+    <value>Robot Setup</value>
+  </data>
+  <data name="csROBOTSTATUS" xml:space="preserve">
+    <value>Robot Status</value>
+  </data>
+  <data name="csROBOTVARIABLES" xml:space="preserve">
+    <value>Robot Variables</value>
+  </data>
+  <data name="csROBOT_IO" xml:space="preserve">
+    <value>Robot I/O</value>
+  </data>
+  <data name="csSCHEDULER" xml:space="preserve">
+    <value>Scheduler</value>
+  </data>
+  <data name="csSYSTEM_COLORS" xml:space="preserve">
+    <value>System Colors</value>
+  </data>
+  <data name="csVERSIONS" xml:space="preserve">
+    <value>Versions</value>
+  </data>
+  <data name="csACCUFLOWSETUP" xml:space="preserve">
+    <value>Accuflow Setup Screen</value>
+  </data>
+  <data name="csDISPENSERSTATUS" xml:space="preserve">
+    <value>Dispenser Status Screen</value>
+  </data>
+  <data name="csHOTEDITLOGGER" xml:space="preserve">
+    <value>Hot Edit Logger</value>
+  </data>
+  <data name="csMANUALOPERATIONS" xml:space="preserve">
+    <value>Manual Operations</value>
+  </data>
+  <data name="csSEALANTSCHED" xml:space="preserve">
+    <value>Sealant Schedules</value>
+  </data>
+  <data name="csTEMPERATURECONTROL" xml:space="preserve">
+    <value>Temperature Control Screen</value>
+  </data>
+  <data name="csVISIONLOGGER" xml:space="preserve">
+    <value>Vision Logger</value>
+  </data>
+  <data name="csVOLUME" xml:space="preserve">
+    <value>Learned Volumes</value>
+  </data>
+  <data name="csAV_STATUS_CAP" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="csAV_STATUS_HIFLT" xml:space="preserve">
+    <value>High Fault</value>
+  </data>
+  <data name="csAV_STATUS_HIWARN" xml:space="preserve">
+    <value>High Warning</value>
+  </data>
+  <data name="csAV_STATUS_LOFLT" xml:space="preserve">
+    <value>Low Fault</value>
+  </data>
+  <data name="csAV_STATUS_LOWARN" xml:space="preserve">
+    <value>Low Warning</value>
+  </data>
+  <data name="csAV_STATUS_PASS" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="csAV_STATUS_UNKNOWN" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="csMANUALCYCLE" xml:space="preserve">
+    <value>Manual Cycle</value>
+  </data>
+  <data name="csPWSETUP" xml:space="preserve">
+    <value>PAINTworks Setup</value>
+  </data>
+  <data name="csRSLOGIX5000LOADER" xml:space="preserve">
+    <value>RS Logix 5000</value>
+  </data>
+  <data name="csSEALERDIAG" xml:space="preserve">
+    <value>Sealer Diagnostics</value>
+  </data>
+  <data name="csBULKSUPPLY" xml:space="preserve">
+    <value>Bulk Supply</value>
+  </data>
+  <data name="csCELLSTATUS" xml:space="preserve">
+    <value>Cell Status Display</value>
+  </data>
+  <data name="csNEW" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="csOPEN" xml:space="preserve">
+    <value>&amp;Open</value>
+  </data>
+  <data name="imgOpen" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAE8SURBVFhHxZJRDoMwDEPZzXfzra80NAouKhkwS09ESWPng+W1LH9FNp9ENp9ENrMUfSLqnUc2
+        z1K0C7UaRu9rHYdnKRoGjebUUGtrZimSwZ6i7QhPncXHd1E0PqBoNzS8SZaioffhA/BGWYqG3ujTZTXf
+        tWYeDc9QtAs22tzCfLhJL84Sj1GgGvTnA0z+CH1Q/47neIIKjKC2ODY8O8cTVGAEtUWkDbvm5niCCoyg
+        urTKm/raNDfHE1RgBLXFsaGf8/5ijgP7dw1/v6/DHaADfe/K8BY8f4A9VmYZzM/9AyZ/RA9XJlnwg6mf
+        kJkyyYIfWPjhAfRBGWXBz4e7A0z3hJtfDHcHGGu4MsmCH6hwQDUYUSuTLPiBCjZQi7/nABXqQdulyiSD
+        +anACNoWrkSFKZA0+AUVNEI2n2NZvhtxxu0Vo7gmAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="csBACK" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="csFORWARD" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="csNEXT" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="csPREV" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="imgBack" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NC
+        NwAAAOlJREFUWEfFk0sOwjAMRM0FYM39D8gRytiKqyie8rESZ6Qnta+JxwuQm8hWqKyEykqorITKSqis
+        hMpKqPwGcjCfgcpPIIfCvmWg8grEyhX2PQOVI8gTnOUKO5eByh7kDqxU48/sbAYqe5CzXNPeX+7/Jcwf
+        RQ9il/o0t34BxC7MCmbZ0qEnCJEHmFqu8ZmhL4gF5RqfG/pGYXLBEj4zdI3CQaYugVm//QZ6kLAE3tP/
+        ACV0jGIEsYsePNcuoCB2uS1AB2WhkoGc5Qo7k4HKK5C9CyjI3gUUZO8CM6GyEiorobISKiuhsg6RNwFA
+        IPDFcuzPAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="imgForward" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NC
+        NwAAAOxJREFUWEfFklESgjAMBesF9Nv7H5AjYFIJlmTRIUp8Mzsw25KXD9qltb+CshKUlaCsBGUlKCtB
+        mUEyk/8EygySWaGzd6DMIOkLKHS+B8oMknUBhe4QKDNIerHG3umeJ4rl4yRT30Bizs/3RLEdeJR1AY15
+        3zESBQz6Jsu83SWiWD74ZWym7+p9QZywgMbmhr4gTljAZgq30BfE8+L//4EEkz7H2JnvGIniNfAomwXM
+        +/kelBkkvXAsF650dwRlBslYrNzpngdlBslaTud7oMwgOVyuoMwgOVyuoKwEZSUoK0FZCcpKUFaCso7W
+        Hu8WIPD4Jja1AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="imgNew" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wQAADsEBuJFr7QAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTFH80I3AAABeElEQVRYR+2X
+        z06EMBDG+SMgJHCAC+HAxYtejB59jH0jHtWjN48qa6jfDLRWIkXBbvfgl3wpU4aZX7osTb1JPlzCB9/3
+        n5IkeS7LcqjrWjRN8yNTLj0TBMFxqkcmhXAwXo4SQrB1MQCaHzC+d10nthjP6mYIAHlwjNoIRxkBYAb4
+        rSTADIRVFAVBMBDFSP8eAEm7AfTrybz8tBJSSLELQJpB0PslFeK2BFBUfw5AmkHw8pNwSwKoOSsAJA3i
+        cerjY/p0AKQZxB2mjADHPQAmt21L4wPSJYCSDtBvBVhzlmXUVf8JlHYDrIlqosdZAHBzsq6TAaD++QO8
+        WQYwvwPwi2WAC4ROAa4QOgW4QegU4BqhU4B7hE4BbhEuAyDB9nfgEqERYNNuuCYNIELobgXQwzlAgNAp
+        gNvt+B8APZY3IzS3DgCbATDyd8CGUXuAl/8FMAH0YRi+5nk+4LgtqqpSxpzRaZoKHO2/OI5jEUURLX2P
+        2nx0/wTwvA/eq00GXW25bwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="imgNext" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NC
+        NwAAAM9JREFUWEftlUEOwyAMBMkH2nP+/8A8oVmiOgI6BtRK7oWVRkomYO8taUvpr6CMBGUkKCNB2UN5
+        jaB7Hih7KLboKJ6rd7rngbKHci2h2De654Gyh7IKrAKrwCqwCsQVUO6hBfmnc7x3VmnOVdD8DMoSBQdS
+        5K9y5bkMzTVQtijuUi92h+aVoCSU6RJ2lua0oCSUXQxL2BmaQaD0UB7CLWHf6K4HyhHKRwlzdL4HyhmU
+        u4Q907kRKGdRflqeQTmL8hRfL8+gjARlJCgjQRlHSiefRiDwCuOh3gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="imgPrevious" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NC
+        NwAAANBJREFUWEftlTsOwjAUBM0FoOb+B+QIycbKRrYZO64eFB5pJLJ+v470SOmnYhgphpFiGCmGs4qX
+        3OhtVgxnFZul9xkxnFHkxQf+TXV3YninuJYbZ1Q/EsOe4im/lhu/UW9PDEnxlt3lxjU0g8SQFLfLjWtp
+        TiuGrWJ6uXEPzSvFsFRcw0oJ5Z/TqpbmWgytqAad5iXnzoqmrpLmH2I4UuSBhN+oryeGI8U6YB2wDlgH
+        rAP+4wDZ/utd39TXE8ORolyKUl9PDCPFMFIMI8UwzpR25D0g8J1sRLwAAAAASUVORK5CYII=
+</value>
+  </data>
+</root>

@@ -1,0 +1,7 @@
+<SchedAdditionalFolders>
+  <AdditionalFolders>
+    <Name>PLC</Name>
+    <FolderPath>C:\Paint\PLC</FolderPath>
+    <IncludeSubfolders>True</IncludeSubfolders>
+  </AdditionalFolders>
+</SchedAdditionalFolders>

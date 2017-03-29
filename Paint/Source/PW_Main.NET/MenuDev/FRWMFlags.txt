@@ -1,0 +1,20 @@
+# FRWM Flags
+# Entries are in the following format:
+# flag text,flag value  #optional comment
+#
+# Important: The list must be in increasing order by flag value!
+#
+# FRWM Flags with Gaylord's additions
+#
+
+FW_PREVENT_MINIMIZE,1
+FW_PREVENT_MAXIMIZE,2
+FW_PREVENT_SIZE,4
+FW_PREVENT_MOVE,8
+FW_PREVENT_SYSTEM,16
+FW_EMPTY_SYSTEM,32
+FW_PREVENT_ALL,47
+FW_EXCLUSIVE_MODE,64 #Gaylord's
+FW_INTERCEPT_RIGHTCLICK,128 #Gaylord's
+FW_MULTI_START,256 #Gaylord's
+

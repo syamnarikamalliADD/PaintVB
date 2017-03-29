@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="psSHAPCAP" xml:space="preserve">
+    <value>Shaping Air sLPM</value>
+  </data>
+  <data name="psPRESET" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="psCOPY_ALL" xml:space="preserve">
+    <value>Copy &amp;All</value>
+  </data>
+  <data name="psLOADING_TARGET_DESC" xml:space="preserve">
+    <value>Loading target descriptions</value>
+  </data>
+  <data name="psTO" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="psFROM" xml:space="preserve">
+    <value>From:</value>
+  </data>
+  <data name="psLOADING_SOURCE" xml:space="preserve">
+    <value>Loading source colour change data</value>
+  </data>
+  <data name="psCOPY_VAL" xml:space="preserve">
+    <value>Copy &amp;Values</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FormIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Color Change.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psLOADING_TARGET" xml:space="preserve">
+    <value>Loading target colour change data</value>
+  </data>
+  <data name="psCOLORCHANGE_COPY" xml:space="preserve">
+    <value>Colour Change Copy</value>
+  </data>
+  <data name="psATOMCAP" xml:space="preserve">
+    <value>Atom Air PSI</value>
+  </data>
+  <data name="psSCREENCAPTION" xml:space="preserve">
+    <value>Colour Change</value>
+  </data>
+  <data name="psBELLSPDCAP" xml:space="preserve">
+    <value>Bell Speed kRPM</value>
+  </data>
+  <data name="psCOPY_DESC" xml:space="preserve">
+    <value>Copy &amp;Descriptions</value>
+  </data>
+  <data name="psLOADING_SOURCE_DESC" xml:space="preserve">
+    <value>Loading source descriptions</value>
+  </data>
+  <data name="Fluid_Presets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Color Change.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psNODESCRIPTION" xml:space="preserve">
+    <value>No Description</value>
+  </data>
+  <data name="psCANT_CREATE_RECORDS_COPY" xml:space="preserve">
+    <value>Can't create missing data records during a copy. Save the data for this colour, and then perform copy.</value>
+  </data>
+  <data name="psATOMINITIAL" xml:space="preserve">
+    <value>Atomize</value>
+  </data>
+  <data name="psCOPY_PARM05" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="psSELECTCOPY_PARM" xml:space="preserve">
+    <value>Select Copy Parameters</value>
+  </data>
+  <data name="psGP" xml:space="preserve">
+    <value>Gp#</value>
+  </data>
+  <data name="psGRID_VIEW" xml:space="preserve">
+    <value>Grid View</value>
+  </data>
+  <data name="psPUSH_VOL" xml:space="preserve">
+    <value>Pushout Volume(cc)</value>
+  </data>
+  <data name="psSH" xml:space="preserve">
+    <value>Sh#</value>
+  </data>
+  <data name="psSTEP_ACT_EVT" xml:space="preserve">
+    <value>Steps:Actions/Events</value>
+  </data>
+  <data name="psSTEP_TIME" xml:space="preserve">
+    <value>Step Time (sec)</value>
+  </data>
+  <data name="psTOTAL_TIME" xml:space="preserve">
+    <value>Total Cycle Time (sec)</value>
+  </data>
+  <data name="psVALVES" xml:space="preserve">
+    <value>Valves</value>
+  </data>
+  <data name="psACTION" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="psAPPEND" xml:space="preserve">
+    <value>Append</value>
+  </data>
+  <data name="psAPP_QUES_A" xml:space="preserve">
+    <value>This will insert a step after step </value>
+  </data>
+  <data name="psDELETE" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="psDEL_QUES_A" xml:space="preserve">
+    <value>This will delete step </value>
+  </data>
+  <data name="psEVENT" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="psINSERT" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="psINS_QUES_A" xml:space="preserve">
+    <value>This will insert a step before step </value>
+  </data>
+  <data name="psSEC" xml:space="preserve">
+    <value>(sec)</value>
+  </data>
+  <data name="psSTEP_QUES_B" xml:space="preserve">
+    <value>. Continue?</value>
+  </data>
+  <data name="psLOAD_CCPRESETS" xml:space="preserve">
+    <value>Loading colour change presets from </value>
+  </data>
+  <data name="psLOAD_CYCLE_DATA" xml:space="preserve">
+    <value>Loading cycles from </value>
+  </data>
+  <data name="psSELECTING" xml:space="preserve">
+    <value>Selecting </value>
+  </data>
+  <data name="psSELECT_CYCLE" xml:space="preserve">
+    <value>Select a colour change cycle to view.</value>
+  </data>
+  <data name="ps_AND_COLOR" xml:space="preserve">
+    <value>, Colour </value>
+  </data>
+  <data name="psLOADING_CYCLE" xml:space="preserve">
+    <value>Loading cycle </value>
+  </data>
+  <data name="psSTEP" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="psTIME" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="psDC" xml:space="preserve">
+    <value>Don't Change</value>
+  </data>
+  <data name="psNUM_STEPS" xml:space="preserve">
+    <value>Number of steps</value>
+  </data>
+  <data name="psOFF" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="psON" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="psSAVING_CYCLE" xml:space="preserve">
+    <value>Saving Cycle</value>
+  </data>
+  <data name="psSTEP_CL" xml:space="preserve">
+    <value>, Step # </value>
+  </data>
+  <data name="psVALVE" xml:space="preserve">
+    <value>Valve</value>
+  </data>
+  <data name="psPRINT_ALL" xml:space="preserve">
+    <value>Print All Cycles</value>
+  </data>
+  <data name="psPRINT_CYCLE" xml:space="preserve">
+    <value>Print This Cycle</value>
+  </data>
+  <data name="psCOPY" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="psCCPRESETS" xml:space="preserve">
+    <value>CC Presets</value>
+  </data>
+  <data name="imgscale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\imgscale.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Forward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Forward.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Previous" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Previous.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_Next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Next.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psALL_CYCLES" xml:space="preserve">
+    <value>All Cycles</value>
+  </data>
+  <data name="psIMPORT_CYCLE" xml:space="preserve">
+    <value>Import Cycle {0}</value>
+  </data>
+  <data name="psITEM" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="psSELECT_IMPORT" xml:space="preserve">
+    <value>Select cycles to import to robot:  {0},  colour: {1} </value>
+  </data>
+  <data name="psVALID_IMPORT_DATA_NOT_FOUND_CAP" xml:space="preserve">
+    <value>Import Data Not Found.</value>
+  </data>
+  <data name="psVALID_IMPORT_DATA_NOT_FOUND_TEXT" xml:space="preserve">
+    <value>The selected file does not contain valid data for import</value>
+  </data>
+</root>

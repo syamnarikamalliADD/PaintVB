@@ -1,0 +1,15 @@
+﻿DMONSchedMan - Schedules
+GM_Tech_Center - GM_Tech_Center,
+Device: RC_1,DMON Schedules
+Schedule,Comment,File Device,File Name,File Index,File Size,Number of Items,Sample Req.-Act.,Monitor Req.-Act.,Record Req.-Act.,Record Mode,Start Item,Stop Item,Items
+1,ICS Eq1:,RD:,ICS,1,0KB,9,20:0,20:0,20:0,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,9; 10; 11; 12; 4; 1; 2; 3; 5
+2,Bell Speed Eq1:  ,RD:,BELL,1,0KB,9,20:0,20:0,20:0,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,17; 18; 19; 20; 4; 1; 2; 3; 5
+3,SA Eq1:,RD:,SA,1,0KB,9,20:0,20:0,20:0,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,25; 26; 27; 1; 2; 5; 28; 29; 30
+4,Estat Eq1:,RD:,ESTAT,1,0KB,10,20:0,20:0,20:0,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,33; 34; 35; 36; 37; 38; 1; 2; 3; 5
+5,CCIC Eq1:,RD:,CCIC,1,0KB,10,20:0,20:0,20:0,Continuous,Disabled,Disabled,48; 49; 50; 4; 3; 9; 10; 11; 12; 13
+6,,FLPY:,,0,0KB,0,0:0,0:0,0:0,Continuous,Disabled,Disabled,
+7,,FLPY:,,0,0KB,0,0:0,0:0,0:0,Continuous,Disabled,Disabled,
+8,,FLPY:,,0,0KB,0,0:0,0:0,0:0,Continuous,Disabled,Disabled,
+9,,FLPY:,,0,0KB,0,0:0,0:0,0:0,Continuous,Disabled,Disabled,
+10,Collision Guard E,RD:,CG2,1,0KB,9,20:0,20:0,20:0,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,83; 84; 85; 86; 87; 1; 2; 3; 5
+

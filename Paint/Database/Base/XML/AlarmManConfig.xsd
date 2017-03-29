@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AlarmManConfig" targetNamespace="http://tempuri.org/AlarmManConfig.xsd" xmlns:mstns="http://tempuri.org/AlarmManConfig.xsd" xmlns="http://tempuri.org/AlarmManConfig.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AlarmManConfig" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="AlarmManConfig" msprop:Generator_DataSetName="AlarmManConfig">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ViewPreference" msprop:Generator_UserTableName="ViewPreference" msprop:Generator_RowDeletedName="ViewPreferenceRowDeleted" msprop:Generator_RowChangedName="ViewPreferenceRowChanged" msprop:Generator_RowClassName="ViewPreferenceRow" msprop:Generator_RowChangingName="ViewPreferenceRowChanging" msprop:Generator_RowEvArgName="ViewPreferenceRowChangeEvent" msprop:Generator_RowEvHandlerName="ViewPreferenceRowChangeEventHandler" msprop:Generator_TableClassName="ViewPreferenceDataTable" msprop:Generator_TableVarName="tableViewPreference" msprop:Generator_RowDeletingName="ViewPreferenceRowDeleting" msprop:Generator_TablePropName="ViewPreference">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ViewType" msprop:Generator_UserColumnName="ViewType" msprop:Generator_ColumnPropNameInRow="ViewType" msprop:Generator_ColumnVarNameInTable="columnViewType" msprop:Generator_ColumnPropNameInTable="ViewTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CauseMnemonic" msprop:Generator_UserColumnName="CauseMnemonic" msprop:Generator_ColumnPropNameInRow="CauseMnemonic" msprop:Generator_ColumnVarNameInTable="columnCauseMnemonic" msprop:Generator_ColumnPropNameInTable="CauseMnemonicColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Zone" msprop:Generator_UserColumnName="Zone" msprop:Generator_ColumnPropNameInRow="Zone" msprop:Generator_ColumnVarNameInTable="columnZone" msprop:Generator_ColumnPropNameInTable="ZoneColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ProdID" msprop:Generator_UserColumnName="ProdID" msprop:Generator_ColumnPropNameInRow="ProdID" msprop:Generator_ColumnVarNameInTable="columnProdID" msprop:Generator_ColumnPropNameInTable="ProdIDColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="JobID" msprop:Generator_UserColumnName="JobID" msprop:Generator_ColumnPropNameInRow="JobID" msprop:Generator_ColumnVarNameInTable="columnJobID" msprop:Generator_ColumnPropNameInTable="JobIDColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Style" msprop:Generator_UserColumnName="Style" msprop:Generator_ColumnPropNameInRow="Style" msprop:Generator_ColumnVarNameInTable="columnStyle" msprop:Generator_ColumnPropNameInTable="StyleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Color" msprop:Generator_UserColumnName="Color" msprop:Generator_ColumnPropNameInRow="Color" msprop:Generator_ColumnVarNameInTable="columnColor" msprop:Generator_ColumnPropNameInTable="ColorColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Valve" msprop:Generator_UserColumnName="Valve" msprop:Generator_ColumnPropNameInRow="Valve" msprop:Generator_ColumnVarNameInTable="columnValve" msprop:Generator_ColumnPropNameInTable="ValveColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="JobName" msprop:Generator_UserColumnName="JobName" msprop:Generator_ColumnPropNameInRow="JobName" msprop:Generator_ColumnVarNameInTable="columnJobName" msprop:Generator_ColumnPropNameInTable="JobNameColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Process" msprop:Generator_UserColumnName="Process" msprop:Generator_ColumnPropNameInRow="Process" msprop:Generator_ColumnVarNameInTable="columnProcess" msprop:Generator_ColumnPropNameInTable="ProcessColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Node" msprop:Generator_UserColumnName="Node" msprop:Generator_ColumnPropNameInRow="Node" msprop:Generator_ColumnVarNameInTable="columnNode" msprop:Generator_ColumnPropNameInTable="NodeColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="AutoAck" msprop:Generator_UserColumnName="AutoAck" msprop:Generator_ColumnPropNameInRow="AutoAck" msprop:Generator_ColumnVarNameInTable="columnAutoAck" msprop:Generator_ColumnPropNameInTable="AutoAckColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Configuration">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaxAlarms" type="xs:int" default="200" />
+              <xs:element name="EnableRobotAlarms" type="xs:boolean" default="false" />
+              <xs:element name="EnablePLCAlarms" type="xs:boolean" default="false" />
+              <xs:element name="Use32Bit" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FilterEnable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AlarmNumber" type="xs:boolean" default="false" />
+              <xs:element name="Device" type="xs:boolean" default="false" />
+              <xs:element name="Description" type="xs:boolean" default="false" />
+              <xs:element name="Severity" type="xs:string" default="false" />
+              <xs:element name="CauseMnemonic" type="xs:boolean" default="false" />
+              <xs:element name="StartSerial" type="xs:boolean" default="false" />
+              <xs:element name="EndSerial" type="xs:boolean" default="false" />
+              <xs:element name="Zone" type="xs:boolean" default="false" />
+              <xs:element name="ProdID" type="xs:boolean" default="false" />
+              <xs:element name="JobID" type="xs:boolean" default="false" />
+              <xs:element name="Style" type="xs:boolean" default="false" />
+              <xs:element name="Color" type="xs:boolean" default="false" />
+              <xs:element name="Valve" type="xs:boolean" default="false" />
+              <xs:element name="JobName" type="xs:boolean" default="false" />
+              <xs:element name="Process" type="xs:boolean" default="false" />
+              <xs:element name="Node" type="xs:boolean" default="false" />
+              <xs:element name="Category" type="xs:boolean" default="false" />
+              <xs:element name="DowntimeFlag" type="xs:boolean" default="false" />
+              <xs:element name="Facility" type="xs:boolean" default="false" />
+              <xs:element name="Status_Col" type="xs:boolean" default="false" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

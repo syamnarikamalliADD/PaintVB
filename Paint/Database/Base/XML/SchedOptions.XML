@@ -1,0 +1,15 @@
+<SchedOptions>
+  <Path>C:\AutoBackups</Path>
+  <NewFolder>True</NewFolder>
+  <Database>True</Database>
+  <RobotMaster>True</RobotMaster>
+  <RobotScheduled>True</RobotScheduled>
+  <RobotTemp>True</RobotTemp>
+  <RobotImage>True</RobotImage>
+  <AdditionalFolders>True</AdditionalFolders>
+  <ExtraCopies>True</ExtraCopies>
+  <Logfile>True</Logfile>
+  <NotifyStartShift>False</NotifyStartShift>
+  <NotifyEndShift>False</NotifyEndShift>
+  <WeeklyReports>True</WeeklyReports>
+</SchedOptions>

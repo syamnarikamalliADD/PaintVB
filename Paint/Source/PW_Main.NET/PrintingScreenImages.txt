@@ -1,0 +1,183 @@
+Title: Print a form's image in VB.NET 
+Description: This example shows how to print a form's image in VB.NET. 
+It makes a Bitmap, uses BitBlt to copy the form's image into it, and 
+prints the result. 
+ 
+ 
+When the user clicks the Print button, the program calls the GetFormImage 
+subroutine to make a Bitmap holding an image of the form's contents. It 
+saves the result in a global variable. It then creates a PrintDocument 
+object and calls its Print method to print the result. 
+
+Subroutine GetFormImage gets a Graphics object for the form. It makes a 
+Bitmap big enough to hold the image and gets a Graphics object for it. It 
+then gets the device context handles (hDC) for the two Graphics objects 
+and uses BitBlt to copy the form's image into the Bitmap. 
+
+The PrintDocument's Print method uses the DrawImage method to draw the 
+form's picture centered on the printout. 
+ 
+Note: This method copies only the form's client area. This does not 
+include the window decoration (borders, title bar, system menu, and 
+system buttons).
+ 
+
+Private Declare Auto Function BitBlt Lib "gdi32.dll" (ByVal _
+    hdcDest As IntPtr, ByVal nXDest As Integer, ByVal _
+    nYDest As Integer, ByVal nWidth As Integer, ByVal _
+    nHeight As Integer, ByVal hdcSrc As IntPtr, ByVal nXSrc _
+    As Integer, ByVal nYSrc As Integer, ByVal dwRop As _
+    System.Int32) As Boolean
+Private Const SRCCOPY As Integer = &HCC0020
+
+' Variables used to print.
+Private m_PrintBitmap As Bitmap
+Private WithEvents m_PrintDocument As PrintDocument
+
+' Print the picture.
+Private Sub btnPrint_Click(ByVal sender As System.Object, _
+    ByVal e As System.EventArgs) Handles btnPrint.Click
+    ' Copy the form's image into a bitmap.
+    m_PrintBitmap = GetFormImage()
+
+    ' Make a PrintDocument and print.
+    m_PrintDocument = New PrintDocument
+    m_PrintDocument.Print()
+End Sub
+
+Private Function GetFormImage() As Bitmap
+    ' Get this form's Graphics object.
+    Dim me_gr As Graphics = Me.CreateGraphics
+
+    ' Make a Bitmap to hold the image.
+    Dim bm As New Bitmap(Me.ClientSize.Width, _
+        Me.ClientSize.Height, me_gr)
+    Dim bm_gr As Graphics = me_gr.FromImage(bm)
+    Dim bm_hdc As IntPtr = bm_gr.GetHdc
+
+    ' Get the form's hDC. We must do this after 
+    ' creating the new Bitmap, which uses me_gr.
+    Dim me_hdc As IntPtr = me_gr.GetHdc
+
+    ' BitBlt the form's image onto the Bitmap.
+    BitBlt(bm_hdc, 0, 0, Me.ClientSize.Width, _
+        Me.ClientSize.Height, _
+        me_hdc, 0, 0, SRCCOPY)
+    me_gr.ReleaseHdc(me_hdc)
+    bm_gr.ReleaseHdc(bm_hdc)
+
+    ' Return the result.
+    Return bm
+End Function
+
+' Print the form image.
+Private Sub m_PrintDocument_PrintPage(ByVal sender As _
+    Object, ByVal e As _
+    System.Drawing.Printing.PrintPageEventArgs) Handles _
+    m_PrintDocument.PrintPage
+    ' Draw the image centered.
+    Dim x As Integer = e.MarginBounds.X + _
+        (e.MarginBounds.Width - m_PrintBitmap.Width) \ 2
+    Dim y As Integer = e.MarginBounds.Y + _
+        (e.MarginBounds.Height - m_PrintBitmap.Height) \ 2
+    e.Graphics.DrawImage(m_PrintBitmap, x, y)
+
+    ' There's only one page.
+    e.HasMorePages = False
+End Sub
+ 
+
+
+Title: Print a form's decorated image in VB.NET 
+Description: This example shows how to print a form's decorated image 
+in VB.NET. It makes a Bitmap, uses BitBlt to copy the form's image 
+into it, and prints the result. 
+
+Note: This method includes the form's client area. It also includes 
+the window decoration (borders, title bar, system menu, and system 
+buttons).
+ 
+Thanks to ViNEGAR for the hint about using GetWindowDC(Me.Handle). 
+When the user clicks the Print button, the program calls the 
+GetDecoratedFormImage subroutine to make a Bitmap holding an image of 
+the form's contents. It saves the result in a global variable. It then 
+creates a PrintDocument object and calls its Print method to print the 
+result. 
+
+Subroutine GetDecoratedFormImage gets a Graphics object for the form. 
+It makes a Bitmap big enough to hold the image and gets a Graphics 
+object for it. It then gets the device context handles (hDC) for the 
+two Graphics objects and uses BitBlt to copy the form's image into the 
+Bitmap. 
+
+The PrintDocument's Print method uses the DrawImage method to draw the 
+form's picture centered on the printout. 
+ 
+ 
+ 
+Private Declare Auto Function BitBlt Lib "gdi32.dll" (ByVal _
+    hdcDest As IntPtr, ByVal nXDest As Integer, ByVal _
+    nYDest As Integer, ByVal nWidth As Integer, ByVal _
+    nHeight As Integer, ByVal hdcSrc As IntPtr, ByVal nXSrc _
+    As Integer, ByVal nYSrc As Integer, ByVal dwRop As _
+    System.Int32) As Boolean
+Private Const SRCCOPY As Integer = &HCC0020
+
+' Variables used to print.
+Private m_PrintBitmap As Bitmap
+Private WithEvents m_PrintDocument As PrintDocument
+
+' Print the picture.
+Private Sub btnPrint_Click(ByVal sender As System.Object, _
+    ByVal e As System.EventArgs) Handles btnPrint.Click
+    ' Copy the form's image into a bitmap.
+    m_PrintBitmap = GetDecoratedFormImage()
+
+    ' Make a PrintDocument and print.
+    m_PrintDocument = New PrintDocument
+    m_PrintDocument.Print()
+End Sub
+
+' Get an image of the form plus its decoration
+' (borders, title bar, etc).
+Private Function GetDecoratedFormImage() As Bitmap
+    ' Get this form's Graphics object.
+    Dim me_gr As Graphics = Me.CreateGraphics
+
+    ' Make a Bitmap to hold the image.
+    Dim bm As New Bitmap(Me.Width, Me.Height, me_gr)
+    Dim bm_gr As Graphics = me_gr.FromImage(bm)
+    Dim bm_hdc As IntPtr = bm_gr.GetHdc
+
+    ' Get the form's hDC. We must do this after 
+    ' creating the new Bitmap, which uses me_gr.
+    Dim me_hdc As IntPtr = GetWindowDC(Me.Handle)
+
+    ' BitBlt the form's image onto the Bitmap.
+    BitBlt(bm_hdc, 0, 0, Me.Width, Me.Height, _
+        me_hdc, 0, 0, SRCCOPY)
+    bm_gr.ReleaseHdc(bm_hdc)
+
+    ' Return the result.
+    Return bm
+End Function
+
+' Print the form image.
+Private Sub m_PrintDocument_PrintPage(ByVal sender As _
+    Object, ByVal e As _
+    System.Drawing.Printing.PrintPageEventArgs) Handles _
+    m_PrintDocument.PrintPage
+    ' Draw the image centered.
+    Dim x As Integer = e.MarginBounds.X + _
+        (e.MarginBounds.Width - m_PrintBitmap.Width) \ 2
+    Dim y As Integer = e.MarginBounds.Y + _
+        (e.MarginBounds.Height - m_PrintBitmap.Height) \ 2
+    e.Graphics.DrawImage(m_PrintBitmap, x, y)
+
+    ' There's only one page.
+    e.HasMorePages = False
+End Sub
+ 
+
+ 
+

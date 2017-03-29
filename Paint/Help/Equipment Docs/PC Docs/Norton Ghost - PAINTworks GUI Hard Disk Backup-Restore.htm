@@ -1,0 +1,669 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List
+href="PAINTworks%20III%20GUI%20Hard%20Disk%20Backup-Restore_files/filelist.xml">
+<title>Creating a Norton Ghost Boot Disk</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="date"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Rick Olejniczak</o:Author>
+  <o:LastAuthor>Rick Olejniczak</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>219</o:TotalTime>
+  <o:Created>2003-09-04T16:57:00Z</o:Created>
+  <o:LastSaved>2003-09-04T16:57:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>1403</o:Words>
+  <o:Characters>8003</o:Characters>
+  <o:Company>FANUC Robotics America, Inc.</o:Company>
+  <o:Lines>66</o:Lines>
+  <o:Paragraphs>18</o:Paragraphs>
+  <o:CharactersWithSpaces>9388</o:CharactersWithSpaces>
+  <o:Version>10.4219</o:Version>
+ </o:DocumentProperties>
+ <o:CustomDocumentProperties>
+  <o:_AdHocReviewCycleID dt:dt="float">-327546168</o:_AdHocReviewCycleID>
+  <o:_EmailSubject dt:dt="string">P500 system</o:_EmailSubject>
+  <o:_AuthorEmail dt:dt="string">Richard.Olejniczak@fanucrobotics.com</o:_AuthorEmail>
+  <o:_AuthorEmailDisplayName dt:dt="string">Olejniczak, Richard</o:_AuthorEmailDisplayName>
+ </o:CustomDocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:Compatibility>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+   <w:UseWord97LineBreakingRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:14.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:14.0pt;
+	mso-bidi-font-weight:normal;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-font-weight:normal;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-header:url("PAINTworks%20III%20GUI%20Hard%20Disk%20Backup-Restore_files/header.htm") h1;
+	mso-footer:url("PAINTworks%20III%20GUI%20Hard%20Disk%20Backup-Restore_files/header.htm") f1;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:363142338;
+	mso-list-type:simple;
+	mso-list-template-ids:67698703;}
+@list l0:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:1096899286;
+	mso-list-type:simple;
+	mso-list-template-ids:67698703;}
+@list l1:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:1355962443;
+	mso-list-type:simple;
+	mso-list-template-ids:67698703;}
+@list l2:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:1786734149;
+	mso-list-type:simple;
+	mso-list-template-ids:67698703;}
+@list l3:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:1918320962;
+	mso-list-type:simple;
+	mso-list-template-ids:67698703;}
+@list l4:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<h1><a name="_Toc22545501">Overview</a></h1>
+
+<p class=MsoNormal><span style='mso-bookmark:_Toc22545501'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='mso-bookmark:_Toc22545501'><span
+style='mso-tab-count:1'>                </span>The PAINTworks GUI computer
+supplied with the paint system is equipped with a CD-RW drive as well as
+additional hardware and software for backup and disaster recovery purposes. </span></p>
+
+<p class=MsoNormal><span style='mso-bookmark:_Toc22545501'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='mso-bookmark:_Toc22545501'><span
+style='mso-tab-count:1'>                </span>In addition to the<span
+style='mso-spacerun:yes'>  </span>Primary (C:) hard drive, a Backup (D<span
+style='mso-no-proof:yes'>:)<span style='mso-spacerun:yes'>  </span>hard drive
+is installed. The backup hard drive is the hardware equivalent of the primary
+drive and can be used to replace the primary drive in the case of a hard drive
+failure. <o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span style='mso-bookmark:_Toc22545501'><span
+style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></span></p>
+
+<p class=MsoNormal><span style='mso-bookmark:_Toc22545501'><span
+style='mso-no-proof:yes'><span style='mso-tab-count:1'>                </span>The
+Symatec Norton Ghost software application and the Roxio Easy CD Creator software
+application are <span style='mso-spacerun:yes'> </span>installed in the primary
+C: drive. The Ghost application is used to create hard drive image files
+on either the backup hard drive or directly to CD media on supported CD-RW
+drives. Roxio Easy CD Creator is used to copy image files from the backup hard
+drive to CDs in the event that the CD-RW drive is not compatible with Norton
+Ghost .<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span style='mso-bookmark:_Toc22545501'><span
+style='mso-no-proof:yes'><o:p>&nbsp;</o:p></span></span></p>
+
+<p class=MsoNormal><span style='mso-bookmark:_Toc22545501'><span
+style='mso-no-proof:yes'><span style='mso-tab-count:1'>                </span>The
+following sections describe the steps required to create an image backup of the
+primary hard drive and restore the data from the backups to a hard drive. PAINTworks
+must be shut down and the operator must be able to log into the PAINTworks
+GUI as an Administrator in order to perform these functions. It is assumed in
+this document that the CD-RW drive is not compatible with Norton Ghost for
+direct write to CD.</span><o:p></o:p></span></p>
+
+<h1><span style='mso-bookmark:_Toc22545501'><o:p>&nbsp;</o:p></span></h1>
+
+<h1><span style='mso-bookmark:_Toc22545501'>Creating a Norton Ghost 2003 Boot
+Disk</span> Set</h1>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>In
+addition to creating an image backup of the primary hard drive, a Ghost Boot
+floppy disk set must be created in order to restore an image to the hard drive
+in the event of a system failure. To create a boot floppy disk set, two blank
+1.44Mb floppies will be required.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Insert a Blank Floppy Disk in Drive A.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>From the Start Menu, select Programs/Norton Ghost
+/Norton Ghost or Right-Click on the Ghost tray icon and select Launch
+Norton Ghost.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Select Ghost Utilities from the left side menu.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Click on the Norton Ghost Boot Wizard Icon.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Select CD/DVD Startup Disk with Ghost and click Next.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Select Use PC-Dos when prompted to choose a DOS version
+and click Next.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Select the Default Program Location &quot;C:\Program
+Files\Symantec\Norton Ghost 2003\Ghost.exe&quot; and click Next.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Select Floppy Disk Drive = A:</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>9.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Number of Disk Sets to Create = 1</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>10.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>Select
+Format Disk(s) first and Quick Format.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>11.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>Click
+Next.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>12.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>Click
+Next on the Screen that displays your selected options.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>13.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>Windows
+XP will now prompt you to format your floppy disk.<span
+style='mso-spacerun:yes'>  </span>Click Start to Format the disk in Drive A.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>14.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>Click
+OK to continue.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>15.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>Click
+OK again when the format is complete.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>16.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>Close
+the format utility and the Ghost Boot Disk wizard will resume.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>17.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>Norton
+Ghost Boot Wizard will now copy the necessary files to the floppy disk and
+prompt for a second disk.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo1;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>18.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>When
+Ghost has finished writing the second disk, select FINISH to complete the Ghost
+Boot Disk Creation.</p>
+
+<b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt;font-family:Arial;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";mso-font-kerning:14.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><br clear=all
+style='page-break-before:always'>
+</span></b>
+
+<h1><a name="_Toc22545502">Backing Up Your PAINTworks GUI</a></h1>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>The
+following procedure details how to create an image file of the primary hard
+drive (C<span style='mso-no-proof:yes'>:) on the secondary hard drive (D:). The
+image file will be split into a number of 600Mb or smaller span files that can
+be copied to CD-R media. In this example the image files are created in the
+root directory of the backup (D:) drive but they can also be created in your
+own folder (example D:\GHOST\) on the backup drive. Image backups should be
+made whenever PAINTworks software changes are made or whenever new hardware or software
+is installed in the GUI.<o:p></o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l1 level1 lfo2;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>From the Start Menu, select Programs/Norton Ghost
+2003/Norton Ghost<span style='mso-spacerun:yes'>  </span>then click on the
+Backup Icon or Right-Click on the Ghost tray icon and select Backup your
+Computer.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l1 level1 lfo2;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Click Next on the Backup Wizard window to continue and
+bring up the Backup Disk or Partition window.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l1 level1 lfo2;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Select Disk 1 (C:) as the Source and File as the
+Destination, then click on Next to bring up the Create a New Backup Image
+window.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l1 level1 lfo2;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Enter a filename and location on the D: backup drive for
+the image file in the Image File Name field (example D:\P500). Ghost will
+automatically add the .GHO file extension when the image file is created. Click
+Next to continue and bring up the Advanced Settings window.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l1 level1 lfo2;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Click the Advanced Settings button.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l1 level1 lfo2;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Click on the Compression tab and select High.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l1 level1 lfo2;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Click on the Ghost Command Line tab and enter
+&quot;-split=600&quot; into the text box. This splits the image file into 600Mb
+files that can be written to CDR media.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l1 level1 lfo2;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Click on the Apply button, then click on the OK button.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l1 level1 lfo2;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>9.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Click the Next button on the Advanced Settings window.
+Ghost will inform you that your computer will be re-started in DOS mode to
+create the image backup. Click Next.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l1 level1 lfo2;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>10.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>Click
+Continue on the Disaster Recovery window</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l1 level1 lfo2;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>11.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>Ghost
+will now re-start your computer and create an image of your PAINTworks
+disk. When this operation is complete, your computer will reboot back into
+Windows.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h2><a name="_Toc22545503">Copying Your Ghost Image Files to CDs.</a></h2>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l4 level1 lfo3;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>From the Windows XP Start Menu select Programs\Roxio
+Easy CD Creator 5\Project Selector. </p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l4 level1 lfo3;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Select Make a Data CD and then Data CD Project from the
+Select a Project menu.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l4 level1 lfo3;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Select the folder on the backup hard drive where the
+Ghost image files are stored in the Select Source Files dropbox (example D:\ or
+D:\Ghost).</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l4 level1 lfo3;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>The main Ghost image file will have a .GHO extension (example
+P500.GHO). Subsequent spanned files will have a .GHS extension with a 3 digit
+spanned disk sequence number in the filename (example P500001.GHS would be the
+first spanned file, P500002.GHS would be the second and so on).</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l4 level1 lfo3;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Label a blank 700Mb CD-R disk PW3 Image 1 of n and
+insert it in the CD-RW drive .</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l4 level1 lfo3;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Select (highlight) the first ghost image file (example
+P500.GHO), then click the Add (down arrow) button. Next, click the Record
+button to copy this file to the CD. Remove the CD from the drive when the
+operation is complete.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l4 level1 lfo3;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>In the same fashion label additional CDs and copy each
+of the spanned (.GHS) files to them until all of the spanned image files have
+been copied to CDs.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l4 level1 lfo3;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Store this backup file set in a safe place.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt;font-family:Arial;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";mso-font-kerning:14.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><br clear=all
+style='page-break-before:always'>
+</span></b>
+
+<h1><a name="_Toc22545504">Restoring Your PAINTworks GUI </a></h1>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>The
+following procedure details how to restore a PAINTworks GUI primary hard drive
+from a disk image. The disk can be restored from CD ROMs or from image files
+stored on the backup hard drive. Note that data files such as Microsoft Access
+database files and robot backup files in the image backup may be out of date.
+PAINTworks is configured to make scheduled backups of<span
+style='mso-spacerun:yes'>  </span>these files to the backup (D:) drive (or
+other user specified location). An Archive utility also is available from the
+PAINTworks Utilities menu that allows an operator to archive data files to a
+floppy disk. It is advisable to put a maintenace program in place that assures
+that these files are periodically backed up manually and stored in a safe
+location so they are available in the event of a system failure. PAINTworks
+data files from scheduled backups or archives should be used to replace out of
+date data files after a disk image is restored.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>In the
+event that a primary hard drive hardware failure made it necessary to perform
+this restoration, the primary hard drive must be replaced with a compatible
+hard drive with the equivalent or greater storage capacity. </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>In the
+case where a replacement hard drive is not immediately available, the backup
+(D:) drive can be used by removing the data cable connector from both the C and
+D drives and then plugging the connector that was in the C drive into the
+backup drive. <b style='mso-bidi-font-weight:normal'>Warning:</b> <i
+style='mso-bidi-font-style:normal'>All data on the backup drive will be lost
+when the image is restored. If the only recent backups of PAINTworks data files
+reside on the backup drive, an effort should be made by a qualified computer
+technician to retrieve them prior to executing this procedure.<o:p></o:p></i></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>                </span>This
+procedure can only be used on the original or identical GUI hardware. If the
+GUI computer must be replaced with another model due to hardware failure,
+contact FANUC Robotics America, Inc. for assistance.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo4;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>With the GUI computer powered off, insert disk 1 of <span
+style='mso-spacerun:yes'> </span>your Symantec Norton Ghost Boot Disk Set in
+drive A. Switch computer power on.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo4;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>The computer will load DOS from the floppy disk. It
+will also attempt to load drivers for a number of CDROM drive types. Most of
+these drivers will fail to load because these drive types are not installed.
+Please ignore any related error messages. You will be prompted to insert the
+second floppy disk of the Boot Disk Set when it is required.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo4;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>If you are restoring from CDs, insert the first CD of
+your spanned backup into the CD-RW drive.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo4;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Wait for the computer to load the Norton Ghost utility, then click OK on the About Norton Ghost screen.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo4;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>From the displayed menu, select LOCAL, select DISK and then
+select FROM IMAGE.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo4;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Using the Look In drop down box, select the CD-ROM
+drive or other location where image files are located.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo4;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Select the image file with a .GHO extension as the image
+source.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo4;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Select Drive 1 as your destination and click OK.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo4;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>9.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Click OK to select the default Destination Drive
+Details.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo4;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>10.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>Norton
+Ghost will prompt you if you'd like to proceed with disk load.<span
+style='mso-spacerun:yes'>  </span>Click yes to continue.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo4;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>11.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>Follow
+Norton Ghost's prompts for subsequent CDs until the restore is complete. When
+restoring from spanned image files in the same folder on a hard drive, Click OK
+when Ghost prompts for the next spanned image file.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo4;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>12.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>Remove
+any floppy disks from the disk drive and any CDs from the CD-ROM drive and
+restart the computer.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo4;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>13.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>From
+the Windows desktop, using Explorer, replace out of date PAINTworks database
+files in C:\Paint\Database with files from a recent archive.</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo4;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>14.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>Re-start
+PAINTworks.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>

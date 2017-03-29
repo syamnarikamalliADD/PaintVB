@@ -1,0 +1,344 @@
+<html>
+<head>
+    <title>PAINTworks Online Help - Process Menu - Temperature Control - Multiview</title>
+    <object id="HHCTRL" type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+    </object>
+    <script type="text/javascript"
+        src="../common/help.js">
+        document.write("Included Jscript file not found, some help may not be available.");
+    </script>
+</head>
+
+<body background="../common/indtextb.jpg">
+    <h2>Process Menu</h2>
+    <h1>Temperature Control</h1>
+    <p>This screen is used to configure and monitor the material temperature control. </p>
+
+<p><strong>Note: </strong>Changes to this screen can only be made
+by a user with sufficient access level. </p>
+
+<p>Click the area where you want help.</p>
+
+
+<p><map name="FPMap0">
+
+<area href="../[1.0]PAINTworksMainMenu/ProcessMenu.htm" shape="rect" 
+        coords="4, 28, 66, 91" ALT = "Closes the current screen.">
+<area href="JavaScript:HHCTRL.TextPopup(SaveButton,popfont,9,9,-1,-1)"shape="rect" 
+    coords="64, 28, 125, 91"   alt="Save surrent changes."/>
+<area href="JavaScript:HHCTRL.TextPopup(UndoButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="124, 28, 181, 93"   alt="Undo current changes."/>
+<area href="JavaScript:HHCTRL.TextPopup(PrintButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="180, 30, 246, 92"   alt="Print the setup data."/>
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="247, 29, 343, 94"   alt="Show changes made to this screen."/>
+<area href="TemperatureControl.htm" shape="rect" 
+    coords="343, 30, 413, 94"     alt="The multiview button allows the the operator to view data for multiple robots simultaneously for comparison."/>
+<area href="JavaScript:HHCTRL.TextPopup(MVAddButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="412, 28, 491, 93" alt="Add item to multiview display."/>
+<area href="JavaScript:HHCTRL.TextPopup(MVClearButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="490, 28, 563, 92" alt="Clear multiview display."/>
+<area href="JavaScript:HHCTRL.TextPopup(StatusButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="568, 29, 638, 93" alt="Show current screen status."/>
+<area href="JavaScript:HHCTRL.TextPopup(AutoRefreshButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="638, 27, 727, 93" alt="Enable autorefresh of the display."/>
+<area href="JavaScript:HHCTRL.TextPopup(UtilityImpExp,popfont,9,9,-1,-1)" shape="rect" 
+    coords="727, 29, 799, 93" alt="Import from or export to a spreadsheet."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(CboZone,popfont,9,9,-1,-1)" shape="rect"
+    coords="12, 110, 188, 167" alt="Click to select a zone.">
+<area href="JavaScript:HHCTRL.TextPopup(CboRobot,popfont,9,9,-1,-1)" shape="rect" 
+        coords="191, 111, 316, 166"  alt="Select a robot.">
+        
+<area shape="rect" coords="0, 213, 739, 241"  
+        href="JavaScript:HHCTRL.TextPopup(SelectedZone,popfont,9,9,-1,-1)" 
+        alt="Selected zone."/>
+<area shape="rect" coords="0, 239, 737, 262"  
+        href="JavaScript:HHCTRL.TextPopup(SelectedController,popfont,9,9,-1,-1)" 
+        alt="Selected Controller."/>
+<area shape="rect" coords="0, 261, 738, 593"  
+        href="JavaScript:HHCTRL.TextPopup(StatusData,popfont,9,9,-1,-1)" 
+        alt="Status Data."/>
+		
+		
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar,popfont,9,9,-1,-1)" shape="rect" 
+        coords="0, 663, 596, 699" alt="Current screen status."/>
+<area href="JavaScript:HHCTRL.TextPopup(RobotsOnline,popfont,9,9,-1,-1)" shape="rect" 
+        coords="596, 660, 842, 699" alt="Current robot communication status."/>
+        
+        
+        
+
+</map>
+    <img rectangle=" (11,383) (841,409) JavaScript:HHCTRL.TextPopup(AtomAirAnticipator,popfont,9,9,-1,-1)" 
+        rectangle=" (10,182) (84,202) RobotSetupColorChange_MV.htm" 
+        rectangle=" (64,21) (125,84) JavaScript:HHCTRL.TextPopup(SaveButton,popfont,9,9,-1,-1)" 
+        rectangle=" (124,20) (181,85) JavaScript:HHCTRL.TextPopup(UndoButton,popfont,9,9,-1,-1)" 
+        rectangle=" (181,22) (247,84) JavaScript:HHCTRL.TextPopup(PrintButton,popfont,9,9,-1,-1)" 
+        rectangle=" (246,20) (342,85) JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" 
+        rectangle=" (411,20) (490,85) JavaScript:HHCTRL.TextPopup(MVAddButton,popfont,9,9,-1,-1)" 
+        rectangle=" (490,21) (563,85) JavaScript:HHCTRL.TextPopup(MVClearButton,popfont,9,9,-1,-1)" 
+        rectangle=" (562,20) (632,84) JavaScript:HHCTRL.TextPopup(StatusButton,popfont,9,9,-1,-1)" 
+        rectangle=" (631,20) (701,84) JavaScript:HHCTRL.TextPopup(UtilityImpExp,popfont,9,9,-1,-1)" 
+        rectangle=" (16,132) (178,158) JavaScript:HHCTRL.TextPopup(CboZone,popfont,9,9,-1,-1)" 
+        rectangle=" (197,133) (306,160) JavaScript:HHCTRL.TextPopup(CboRobot,popfont,9,9,-1,-1)" 
+        rectangle=" (499,91) (822,146) JavaScript:HHCTRL.TextPopup(StatusBox,popfont,9,9,-1,-1)" 
+        rectangle=" (598,699) (841,730) JavaScript:HHCTRL.TextPopup(RobotsOnline,popfont,9,9,-1,-1)" 
+        rectangle=" (8,699) (598,730) JavaScript:HHCTRL.TextPopup(StatusBar,popfont,9,9,-1,-1)" 
+        rectangle=" (12,361) (841,386) JavaScript:HHCTRL.TextPopup(JobStartSignal,popfont,9,9,-1,-1)" 
+        rectangle=" (4,20) (66,83) ../[1.0]PAINTworksMainMenu/ConfigurationMenu.htm" 
+        rectangle=" (154,181) (248,204) RobotSetupCommonOptions_MV.htm" 
+        rectangle=" (248,182) (316,203) RobotSetupEstatSetup_MV.htm" 
+        rectangle=" (316,181) (397,201) RobotSetupEstatTracking_MV.htm" 
+        rectangle=" (397,181) (475,202) RobotSetupTracking_MV.htm" 
+        rectangle=" (476,183) (574,204) RobotSetupShaping_MV.htm" 
+        rectangle=" (8,202) (817,227) JavaScript:HHCTRL.TextPopup(SelectedZone,popfont,9,9,-1,-1)" 
+        rectangle=" (7,227) (819,249) JavaScript:HHCTRL.TextPopup(SelectedController,popfont,9,9,-1,-1)" 
+        rectangle=" (10,246) (837,272) JavaScript:HHCTRL.TextPopup(SelectedArm,popfont,9,9,-1,-1)" 
+        rectangle=" (10,269) (841,296) JavaScript:HHCTRL.TextPopup(PushoutEnabled,popfont,9,9,-1,-1)" 
+        rectangle=" (13,296) (841,319) JavaScript:HHCTRL.TextPopup(FindLastGunOff,popfont,9,9,-1,-1)" 
+        rectangle=" (13,316) (841,338) JavaScript:HHCTRL.TextPopup(JobsBetweenCleans,popfont,9,9,-1,-1)" 
+        rectangle=" (12,338) (841,362) JavaScript:HHCTRL.TextPopup(MoveHomeAtJobEnd,popfont,9,9,-1,-1)" 
+        src="images/TemperatureControl_TemperatureControl_MV.jpg" usemap="#FPMap0" />
+
+
+<H3>Description of Screen Controls</H3>
+<p>
+   The following table provides a functional description of the 
+    various screen objects:</p>
+        <table border="1" bordercolordark="#000000" bordercolorlight="#666666" 
+            cellpadding="7" cellspacing="1" width="100%">
+            <tr>
+                <td valign="top" align="center" width="25%">
+                    <b>ITEM</b>
+                </td>
+                <td valign="top" align="center" width="75%">
+                    <b>DESCRIPTION</b>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Close</b>
+                </td>
+                <td valign="top" width="75%">
+                    Click on this button to close this screen and return to the main menu.
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Save</b>
+                </td>
+                <td valign="top" width="75%">
+                    Click on this button to save changes to the PLC and database.
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Undo</b>
+                </td>
+                <td valign="top" width="75%">
+                    Click on this button to cancel current edits. This does NOT 
+                    apply to changes that have already been saved.
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Print</b>
+                </td>
+                <td valign="top" width="75%">
+                    Click on this button to print the data displayed.
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Change Log</b>
+                </td>
+                <td valign="top" width="75%">
+                    Click on this button to display the Change Log screen. Clicking the arrow to 
+                    the right of this button displays a menu from which to choose &#39;Last 24 Hours&#39;, 
+                    &#39;Last 7 Days&#39;, and &#39;All Available&#39;. Selecting one of these options will display 
+                    data for the associated length of time.
+                     <p>Click <a href="../[2.4]ReportsMenu/ChangeLogSummary.htm">here</a> for more information on
+                      the Change Summary screen. </p>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Multi-View</b>
+                </td>
+                <td valign="top" width="75%">
+                    This button allows the user to toggle between <i>Single-View</i> 
+                    and <i>Multi-View</i> modes. In Multi-View mode, the user may select multiple 
+                    robots to view data for simultaneously. Alternatively, <i>Single-View </i>mode 
+                    displays data for only one robot at a time.
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Add</b></td>
+                <td valign="top" width="75%">
+                    When in multi-vew mode, this button adds the selected robot, controller, or 
+                    tracking schedule.&nbsp; A drop-down menu allows you to add groups of robots, 
+                    controllers, or schedules.&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Clear</b></td>
+                <td valign="top" width="75%">
+                    When in multi-view mode, this button clears all the displayed columns.</td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Status</b>
+                </td>
+                <td valign="top" width="75%">
+                    The Status button displays/hides a window where information regarding data read 
+                    and write operations is logged.
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>AutoRefresh</b>
+                </td>
+                <td valign="top" width="75%">
+                  This button allows the user to enable and disable the screen auto update feature. When enabled, 
+                  the button is displayed in the pushed in state, and automatically updates the data displayed 
+                  automatically. When disabled, the button is shown in a normal state. Disabling this feature 
+                  allows the user to freeze the data displayed so that it may be recorded or printed.
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Utilities</b>
+                </td>
+                <td valign="top" width="75%">
+                    The Utilities button opens a dropdown menu that offers import from or export 
+                    to a spreadsheet.
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Zone</b>
+                </td>
+                <td valign="top" width="75%">
+                    This dropdown box allows the user to select the appropriate zone. If only one 
+                    zone exists, then only one zone will be available.
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Controller</b>
+                </td>
+                <td valign="top" width="75%">
+                    This is a dropdown box from which the desired robot is selected.
+                    In <i>Single-View</i> mode, the display is updated whenever a robot is selected. In <i>Multi-View</i> mode, this selection is used by the Add 
+                    button.
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Temperature Setup Items</b>
+                </td>
+                <td valign="top" width="75%">
+                    <p>Each tab displays the robot setup items applicable to that area. The user may 
+                    either enter or select a new value.</p>
+                    <p><b>Note:</b> Changes will appear in red, and will not take effect until the Save 
+                        button is pressed.</p>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>TCU Enable</b></td>
+                <td valign="top" width="75%">
+                    Enables Temperature Conditioning.</td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Enables Temperature Conditioning.</b></td>
+                <td valign="top" width="75%">
+                    TCU Set-point value. Valid range for the Temperature 
+                    Set-point is anywhere between the &quot;Meter Low Temp Warning Threshold&quot; and the 
+                    &quot;Meter High Temp Warning Threshold&quot;. If values outside of this range are used, 
+                    the software will automatically reduce the set-point to the appropriate limit.</td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <p><b>Current Meter Temp</b></p>
+                </td>
+                <td valign="top" width="75%">
+                    Current meter temperature in degrees Fahrenheit.</td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Meter Temp High/Low Alarm</b></td>
+                <td valign="top" width="75%">
+                    Meter temperature fault threshold in degrees Fahrenheit.</td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Meter Temp High/Low Warning</b></td>
+                <td valign="top" width="75%">
+                    Meter temperature warning threshold in degrees Fahrenheit.</td>
+            </tr>            <tr>
+                <td valign="top" width="25%">
+                    <b>Gun Temp High/Low Alarm</b></td>
+                <td valign="top" width="75%">
+                    Gun temperature fault threshold in degrees Fahrenheit.</td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Gun Temp High/Low Warning</b></td>
+                <td valign="top" width="75%">
+                    Gun temperature warning threshold in degrees Fahrenheit.</td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Current Gun Temp</b></td>
+                <td valign="top" width="75%">
+                    Current Gun Temperature in degrees Fahrenheit.</td>
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Viscosity Control</b></td>
+                <td valign="top" width="75%">
+                    Enables Viscosity Compensation. True = Enabled, False = Disabled. The TCU must also be 
+                    enabled for the viscosity compensation to work.</td>
+            </tr>
+            <tr>
+                 <td valign="top" width="25%">
+                    <b>Viscosity Setpoint</b></td>
+                <td valign="top" width="75%">
+                   Calibrated for nominal ~ 100% set-point.
+            </tr>
+            <tr>
+                <td valign="top" width="25%">
+                    <b>Current Viscosity</b></td>
+                <td valign="top" width="75%">
+                    Material viscosity is typically calibrated so that the material has optimal application 
+                    properties when the Viscosity Set-point is 100%. The current viscosity is expressed as a 
+                    percentage. If the current viscosity is 86% and the Viscosity Set-point is 100%, the 
+                    material will be chilled slightly to increase the viscosity until the set-point is reached. 
+                    The Current Viscosity is only calculated during material circulation.
+               </tr>
+               <tr>
+                <td valign="middle" align="center" width="25%">
+                        <img border="0" height="35" 
+                            src="../common/RobotS7.gif" width="45" />
+                </td>
+                <td valign="top" width="75%">
+                    This indicator, located at the bottom of most screens that 
+                    communicate directly with robots, provides information regarding the status of 
+                    communications with each robot in the system. The indicator is green when 
+                    communicating properly, red when not communicating, and yellow when a connection 
+                    is being established. When the mouse pointer is held over one of these icons, a 
+                    tooltip is displayed that indicates which robot it applies to.
+                </td>
+            </tr>
+        </table>
+<p>Click <b>Close</b> to return to the <a href="../[1.0]PAINTworksMainMenu/ProcessMenu.htm">Process Menu</a>.</p>
+</body>
+
+</html>
+

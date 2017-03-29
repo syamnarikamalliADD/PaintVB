@@ -1,0 +1,647 @@
+<ScreenOptions>
+  <Screen>
+    <id>Presets</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Presets_MultiView</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>35</MaxRows>
+  </Screen>
+  <Screen>
+    <id>ChangeLog</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>14</MaxRows>
+  </Screen>
+  <Screen>
+    <id>PWSetup</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Calibration</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>RobotSetup</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>37</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Calibration_MultiView</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>35</MaxRows>
+  </Screen>
+  <Screen>
+    <id>ColorChange_MultiView</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>35</MaxRows>
+  </Screen>
+  <Screen>
+    <id>SystemColors</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>35</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Job_Setup</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>100</MaxRows>
+  </Screen>
+  <Screen>
+    <id>PAINTworks Reporting  version  4.00.00.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>15</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.00.00.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Archive_Archive</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>0</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.00.00.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>ColorChange</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>40</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.00.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.00.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.00.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.00.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.00.02</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.00.02</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>10</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.00.02</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.00.02</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Scheduler</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>AccuFlowSetup</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>AlarmMan</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.01.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>PAINTworks Reporting  version  4.01.01.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>PAINTworks Reporting  version  4.01.01.02</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Notepad</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Versions</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>FileCopy</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>FileViewCompare</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Network</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>DmonViewer</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>PAINTworks Reporting  version  4.01.01.03</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>RM Charts</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>ScatteredAccess</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>ScatteredAccessClient</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>PWUserMaint</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.03.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.03.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.03.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>PAINTworks Reporting  version  4.01.03.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.03.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>PAINTworks Reporting  version  4.01.03.01</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.03.01</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.03.01</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.03.01</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.03.02</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>PAINTworks Reporting  version  4.01.03.02</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>PAINTworks Reporting  version  4.01.03.03</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Weekly Report</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Weekly Report  version  4.01.03.03</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.03.03</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.03.03</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.03.03</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.03.03</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>ParamSetup</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.03.04</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.03.04</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.04.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.04.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.04.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.04.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.04.01</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.04.01</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.04.01</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.04.01</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.04.02</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.04.02</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.04.02</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.04.02</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.04.03</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.04.03</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.04.03</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.04.03</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.05.00</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.05.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.05.00</id>
+    <SplitTables>False</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.05.00</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Vision Log Reporting</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Vision Log Reporting  version  4.01.05.00</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>RobotSetupSealer</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>RobotStatus</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.05.01</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>TemperatureControl</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>DispenserStatus</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.05.02</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Volume</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>PWSetup</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>AccuflowSetup</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.05.02</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.05.03</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.05.03</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.05.03</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>SealerDiag</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.05.03</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.05.04</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.05.04</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.05.04</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.05.04</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.06.00</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.06.00</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.06.00</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.06.00</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>RM Charts  version  4.01.06.00</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Weekly Report  version  4.01.06.00</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>RM Charts  version  4.01.07.03</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Weekly Report  version  4.01.07.03</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.07.03</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.07.03</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.07.03</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.07.03</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Weekly Report  version  4.01.07.04</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.07.04</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.07.04</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.07.04</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>RM Charts  version  4.01.07.04</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.07.04</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Alarm Log Reporting  version  4.01.07.06</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Change Log Reporting  version  4.01.07.06</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Production Log Reporting  version  4.01.07.06</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Downtime Reporting  version  4.01.07.06</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+  <Screen>
+    <id>Weekly Report  version  4.01.07.06</id>
+    <SplitTables>True</SplitTables>
+    <MaxRows>30</MaxRows>
+  </Screen>
+</ScreenOptions>

@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>FANUC Robotics PAINTworks Help</title>
+</head>
+
+<body background="common/indtextb.jpg" >
+<h1>FANUC Robotics PAINTworks Help</h1>
+
+<p><b><font size="5"><a href="[1.0]PAINTworksMainMenu/PWMainMenu.htm">PAINTworks Help Screens</a></font></b>
+<br />Help files for PAINTworks screens organized by the PAINTworks menu.</p>
+
+<p><b><font size="5"><a href="FANUCManuals/PW_Index_Main/index.htm">Fanuc Robotics Product Manuals</a></font></b>
+<br />Electrical robot controller manual, robots mechanical unit manuals, and robot software manuals.</p>
+
+<p><b><font size="5"><a href="Equipment Docs/Links.htm">Additional Equipment Documentaton</a></font></b>
+<br />Manuals and documentation for other equipment included with the system.</p>
+
+<p><b><font size="5"><a href="Equipment Docs/PC Docs/PC Docs.htm">PAINTworks Computer Documentation</a></font></b>
+<br />Procedures for backing up and restoring, or setting up a new PAINTworks PC.</p>
+<ul>
+<li><a href="Equipment Docs/PC Docs/PC Setup Procedure.pdf">PAINTworks GUI Setup Procedure</a> - Procedures for setting up a new PC for PAINTworks and registration information for included software.</li>
+<li><a href="Equipment Docs/PC Docs/PC Image Procedures.pdf">PAINTworks GUI Image Backup And Restore Procedure</a> - Procedures for making and restoring image backups of the PAINTworks PC.</li>
+<li><a href="Equipment Docs/PC Docs/SQL Database Restore from Backup.pdf">SQL Server backup and restore</a> - Instructions for restoring database backups with the SQL Server.</li>
+</ul>
+
+<p><b><font size="5"><a href="Equipment Docs/PaintToolDocs/Index.htm">Robot Software Documentaton</a></font></b>
+<br />Procedures for backing up and restoring, or setting up robot software.</p>
+<ul>
+<li><a href="Equipment Docs/PaintToolDocs/SLP.pdf">PaintTool Software Installation Procedure</a></li>
+<li><a href="Equipment Docs/PaintToolDocs/ImgIntroR30iA.htm">PaintTool Image Backup And Restore Procedure</a></li>
+<li><a href="Equipment Docs/PaintToolDocs/Config.pdf">PaintTool Configuration</a></li>
+</ul>
+<p><b><font size="5"><a href="Customer Service Manual/Warranty Manual Book.pdf">Customer Paint Service Manual</a></font></b>
+<br />Fanuc Robotics support contact and general warranty information.</p>
+<p><b><font size="5"><a href="Customer Service Manual/Customer Service Manual Project-Robot Info Form.pdf">Customer Service Manual Project-Robot Info Form</a></font></b>
+<br />Robot information.</p>
+</body>
+</html>

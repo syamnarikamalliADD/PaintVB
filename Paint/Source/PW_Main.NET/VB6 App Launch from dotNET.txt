@@ -1,0 +1,37 @@
+Private Sub Form_Load()
+'********************************************************************************************
+'Description:
+'
+'Parameters:
+'Returns:
+'
+'Modification history:
+'
+' By          Date          Reason
+'********************************************************************************************
+    Dim sMsg As String
+    Dim sMainHwnd As String
+    Dim lMainHwnd As Long
+    
+    Call ShowPWForm(Me, False, True, vbModeless, 0, 83, 1024, 685)
+    
+    'Send a message to PW4_Main that tells it <MainWindowHandle>:<ProcessName> so it can
+    'resize and move this form. It sends this App it's MainWindowHandle in the Command
+    'argument.
+    If LCase(Left(Command, 5)) = "hwnd:" Then
+        sMainHwnd = Right(Command, Len(Command) - 5)
+        lMainHwnd = CLng(sMainHwnd)
+        sMsg = "hwnd," & CStr(Me.hwnd) & ":" & App.EXEName & ",0,0,0,0"
+        
+        mWorksComm.AppWinHandle = lMainHwnd
+        mWorksComm.AppMessage = sMsg
+    End If
+    
+    Screen.MousePointer = vbHourglass
+    
+    Call subInitializeForm
+    
+    Screen.MousePointer = vbArrow
+    
+End Sub
+

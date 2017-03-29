@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://localhost/WorksASPAuthorizationService/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://localhost/WorksASPAuthorizationService/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://localhost/WorksASPAuthorizationService/">
+      <s:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <s:element name="LogIn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pErrMsg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogInResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LogInResult" type="s0:ArrayOfClientScreenListStruct" />
+            <s:element minOccurs="0" maxOccurs="1" name="pErrMsg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfClientScreenListStruct">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ClientScreenListStruct" nillable="true" type="s0:ClientScreenListStruct" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ClientScreenListStruct">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="MainMenuIndex" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ScreenItemArray" type="s0:ArrayOfScreenItem" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfScreenItem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ScreenItem" nillable="true" type="s0:ScreenItem" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ScreenItem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="sScreenName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="nScreenID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="nPrivilegeID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="nOptionSpecificID" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="BuildDSScreenAccessList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pUserID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BuildDSScreenAccessListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BuildDSScreenAccessListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogOut">
+        <s:complexType />
+      </s:element>
+      <s:element name="LogOutResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetLoginStatus">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetLoginStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLoginStatusResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="LogInSoapIn">
+    <part name="parameters" element="s0:LogIn" />
+  </message>
+  <message name="LogInSoapOut">
+    <part name="parameters" element="s0:LogInResponse" />
+  </message>
+  <message name="BuildDSScreenAccessListSoapIn">
+    <part name="parameters" element="s0:BuildDSScreenAccessList" />
+  </message>
+  <message name="BuildDSScreenAccessListSoapOut">
+    <part name="parameters" element="s0:BuildDSScreenAccessListResponse" />
+  </message>
+  <message name="LogOutSoapIn">
+    <part name="parameters" element="s0:LogOut" />
+  </message>
+  <message name="LogOutSoapOut">
+    <part name="parameters" element="s0:LogOutResponse" />
+  </message>
+  <message name="GetLoginStatusSoapIn">
+    <part name="parameters" element="s0:GetLoginStatus" />
+  </message>
+  <message name="GetLoginStatusSoapOut">
+    <part name="parameters" element="s0:GetLoginStatusResponse" />
+  </message>
+  <portType name="AuthorizationServiceSoap">
+    <operation name="LogIn">
+      <input message="s0:LogInSoapIn" />
+      <output message="s0:LogInSoapOut" />
+    </operation>
+    <operation name="BuildDSScreenAccessList">
+      <input message="s0:BuildDSScreenAccessListSoapIn" />
+      <output message="s0:BuildDSScreenAccessListSoapOut" />
+    </operation>
+    <operation name="LogOut">
+      <input message="s0:LogOutSoapIn" />
+      <output message="s0:LogOutSoapOut" />
+    </operation>
+    <operation name="GetLoginStatus">
+      <input message="s0:GetLoginStatusSoapIn" />
+      <output message="s0:GetLoginStatusSoapOut" />
+    </operation>
+  </portType>
+  <binding name="AuthorizationServiceSoap" type="s0:AuthorizationServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="LogIn">
+      <soap:operation soapAction="http://localhost/WorksASPAuthorizationService/LogIn" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="BuildDSScreenAccessList">
+      <soap:operation soapAction="http://localhost/WorksASPAuthorizationService/BuildDSScreenAccessList" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="LogOut">
+      <soap:operation soapAction="http://localhost/WorksASPAuthorizationService/LogOut" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetLoginStatus">
+      <soap:operation soapAction="http://localhost/WorksASPAuthorizationService/GetLoginStatus" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="AuthorizationService">
+    <port name="AuthorizationServiceSoap" binding="s0:AuthorizationServiceSoap">
+      <soap:address location="http://localhost/WorksASPAuthorization/AuthorizationService.asmx" />
+    </port>
+  </service>
+</definitions>

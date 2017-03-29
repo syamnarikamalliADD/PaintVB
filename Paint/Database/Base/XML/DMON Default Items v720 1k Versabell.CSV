@@ -1,0 +1,55 @@
+﻿DMONSchedMan - Items
+GM Flint - Flint_Prime
+
+Device: RC_1,DMON Items
+Item,Description,Type,IO Type,Port or Register Number,Axis,Program Name,Variable Name,Units,Slope,Intercept
+1,Line Number,Integer,,0,G:1 A:1,*SYSTEM*,$MOR_GRP[1].$CURRENTLINE, ,0,0
+2,Process #,Integer,,0,G:1 A:1,PASHELL,tShellDram[1].path_procno, ,0,0
+3,Alarm Range,Integer,,0,G:1 A:1,PAVRPADG,cur_alarm, ,0,0
+4,Eq1:pTRIG,IO,,257,G:1 A:1, , , ,0,0
+5,Sample Trigger,Integer,,0,G:1 A:1,PAVRPADG,dmon_pa_trg, ,0,0
+6,,,,0,G:1 A:1,,,,0,0
+7,,,,0,G:1 A:1,,,,0,0
+8,,,,0,G:1 A:1,,,,0,0
+9,Fluid Flow Rate,Real,,0,G:1 A:1,PAIPCTSK,tIpcEqWrk[1].tPmpWrk[1].cmd_rate,cc/min,0,0
+10,Resin Inlet Regulator,IO,AO,1,G:1 A:1, , ,counts,0,0
+11,Resin Outlet Pressure,IO,AI,11,G:1 A:1, , ,Counts,0,0
+12,Motor Running,Integer,,0,G:1 A:1,PAIPCTSK,tIpcEqWrk[1].tPmpWrk[1].run_status, ,0,0
+13,,,,0,G:1 A:1,,,,0,0
+14,,,,0,G:1 A:1,,,,0,0
+15,,,,0,G:1 A:1,,,,0,0
+16,,,,0,G:1 A:1,,,,0,0
+17,Bell Speed Rate,Real,,0,G:1 A:1,PATSCTL,ts_chan_dyn[1].speed_set_pt,kRPM,0,0
+18,Bell Speed PSI,Real,,0,G:1 A:1,PATSCTL,ts_chan_dyn[1].rAoutPsi,psi,0,0
+19,Actual Bell Speed,Real,,0,G:1 A:1,PATSCTL,ts_chan_dyn[1].avg_speed,kRPM,0,0
+20,pBRAKE,IO,,258,G:1 A:1, , , ,0,0
+21,,,,0,G:1 A:1,,,,0,0
+22,,,,0,G:1 A:1,,,,0,0
+23,,,,0,G:1 A:1,,,,0,0
+24,,,,0,G:1 A:1,,,,0,0
+25,,,,0,G:1 A:1,,,,0,0
+26,,,,0,G:1 A:1,,,,0,0
+27,,,,0,G:1 A:1,,,,0,0
+28,,,,0,G:1 A:1,,,,0,0
+29,,,,0,G:1 A:1,,,,0,0
+30,,,,0,G:1 A:1,,,,0,0
+31,,,,0,G:1 A:1,,,,0,0
+32,,,,0,G:1 A:1,,,,0,0
+33,Step Command,IO,,22,G:1 A:1, , , ,0,0
+34,Actual Current,IO,AI,1,G:1 A:1, , ,counts,0,0
+35,Actual Voltage,IO,AI,2,G:1 A:1, , ,counts,0,0
+36,Setpoint Reached,IO,DI,258,G:1 A:1, , , ,0,0
+37,HVON Output,IO,,307,G:1 A:1, , , ,0,0
+38,HVON Input,IO,DI,257,G:1 A:1, , , ,0,0
+39,,,,0,G:1 A:1,,,,0,0
+40,,,,0,G:1 A:1,,,,0,0
+41,,,,0,G:1 A:1,,,,0,0
+42,,,,0,G:1 A:1,,,,0,0
+43,,,,0,G:1 A:1,,,,0,0
+44,,,,0,G:1 A:1,,,,0,0
+45,,,,0,G:1 A:1,,,,0,0
+46,,,,0,G:1 A:1,,,,0,0
+47,,,,0,G:1 A:1,,,,0,0
+48,CC Step,Integer,,0,G:1 A:1,PAVRCCEX,tCCEqDram[1].iStep, ,0,0
+49,CC Control Valves,IO,,13,G:1 A:1, , , ,0,0
+50,Color Enable,IO,,92,G:1 A:1, , , ,0,0

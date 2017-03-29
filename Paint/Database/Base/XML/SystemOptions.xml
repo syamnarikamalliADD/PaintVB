@@ -1,0 +1,1407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SystemOptions>
+  <Base>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Both</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>1</PlantNumber>
+      <FanucNumber>1</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Right</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>2</PlantNumber>
+      <FanucNumber>2</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Left</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>3</PlantNumber>
+      <FanucNumber>3</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 3</Description>
+      <Register>2</Register>
+    </Option>
+    <Option>
+      <PlantNumber>4</PlantNumber>
+      <FanucNumber>4</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 4</Description>
+      <Register>2</Register>
+    </Option>
+    <Option>
+      <PlantNumber>5</PlantNumber>
+      <FanucNumber>5</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 5</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>6</PlantNumber>
+      <FanucNumber>6</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 6</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>7</PlantNumber>
+      <FanucNumber>7</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 7</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>8</PlantNumber>
+      <FanucNumber>8</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 8</Description>
+      <Register>3</Register>
+    </Option>
+    <Option>
+      <PlantNumber>9</PlantNumber>
+      <FanucNumber>9</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 9</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>10</PlantNumber>
+      <FanucNumber>10</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 10</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>11</PlantNumber>
+      <FanucNumber>11</FanucNumber>
+      <Enable>2</Enable>
+      <Description>Option 11</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>12</PlantNumber>
+      <FanucNumber>12</FanucNumber>
+      <Enable>2</Enable>
+      <Description>Option 12</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>13</PlantNumber>
+      <FanucNumber>13</FanucNumber>
+      <Enable>2</Enable>
+      <Description>Option 13</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>14</PlantNumber>
+      <FanucNumber>14</FanucNumber>
+      <Enable>2</Enable>
+      <Description>Option 14</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>15</PlantNumber>
+      <FanucNumber>15</FanucNumber>
+      <Enable>2</Enable>
+      <Description>Option 15</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>16</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 17</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>17</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 18</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>18</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 19</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>19</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 20</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>20</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 21</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>21</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 22</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>22</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 23</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>23</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 24</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>24</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 25</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>25</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 26</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>26</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 27</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>27</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 28</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>28</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 29</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>29</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 30</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 31</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 32</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 33</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 34</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 35</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 36</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 37</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 38</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 39</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 40</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 41</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 42</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 43</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 44</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 45</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 46</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 47</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 48</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 49</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 50</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 51</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 52</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 53</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 54</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 55</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 56</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 57</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 58</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 59</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 60</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 61</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 62</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 63</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 64</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 65</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 66</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 67</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 68</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 69</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 70</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 71</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 72</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 73</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>74</FanucNumber>
+      <Enable>6</Enable>
+      <Description>prime 74</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 75</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 76</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 77</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 78</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>79</PlantNumber>
+      <FanucNumber>79</FanucNumber>
+      <Enable>6</Enable>
+      <Description>prime 79</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>2</Enable>
+      <Description>Option 80</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>4</Enable>
+      <Description>Option 81</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 82</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 83</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>2</Enable>
+      <Description>Option 84</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>4</Enable>
+      <Description>Option 85</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 86</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 87</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 88</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 89</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 90</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 91</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 92</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 93</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 94</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 95</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 96</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 97</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 98</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 99</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 100</Description>
+      <Register>0</Register>
+    </Option>
+  </Base>
+  <Prime>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Both</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>1</PlantNumber>
+      <FanucNumber>1</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Right</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>2</PlantNumber>
+      <FanucNumber>2</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Left</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>3</PlantNumber>
+      <FanucNumber>3</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 3</Description>
+      <Register>2</Register>
+    </Option>
+    <Option>
+      <PlantNumber>4</PlantNumber>
+      <FanucNumber>4</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 4</Description>
+      <Register>2</Register>
+    </Option>
+    <Option>
+      <PlantNumber>5</PlantNumber>
+      <FanucNumber>5</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 5</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>6</PlantNumber>
+      <FanucNumber>6</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 6</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>7</PlantNumber>
+      <FanucNumber>7</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 7</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>8</PlantNumber>
+      <FanucNumber>8</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 8</Description>
+      <Register>3</Register>
+    </Option>
+    <Option>
+      <PlantNumber>9</PlantNumber>
+      <FanucNumber>9</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 9</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>10</PlantNumber>
+      <FanucNumber>10</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 10</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>11</PlantNumber>
+      <FanucNumber>11</FanucNumber>
+      <Enable>2</Enable>
+      <Description>Option 11</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>12</PlantNumber>
+      <FanucNumber>12</FanucNumber>
+      <Enable>2</Enable>
+      <Description>Option 12</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>13</PlantNumber>
+      <FanucNumber>13</FanucNumber>
+      <Enable>2</Enable>
+      <Description>Option 13</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>14</PlantNumber>
+      <FanucNumber>14</FanucNumber>
+      <Enable>2</Enable>
+      <Description>Option 14</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>15</PlantNumber>
+      <FanucNumber>15</FanucNumber>
+      <Enable>2</Enable>
+      <Description>Option 15</Description>
+      <Register>1</Register>
+    </Option>
+    <Option>
+      <PlantNumber>16</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 17</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>17</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 18</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>18</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 19</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>19</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 20</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>20</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 21</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>21</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 22</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>22</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 23</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>23</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 24</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>24</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 25</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>25</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 26</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>26</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 27</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>27</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 28</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>28</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 29</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>29</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 30</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 31</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 32</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 33</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 34</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 35</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 36</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 37</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 38</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 39</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 40</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 41</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 42</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 43</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 44</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 45</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 46</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 47</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 48</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 49</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 50</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 51</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 52</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 53</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 54</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 55</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 56</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 57</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 58</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 59</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 60</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 61</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 62</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 63</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 64</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 65</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 66</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 67</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 68</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 69</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 70</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 71</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 72</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 73</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>74</FanucNumber>
+      <Enable>6</Enable>
+      <Description>prime 74</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 75</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 76</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 77</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 78</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>79</PlantNumber>
+      <FanucNumber>79</FanucNumber>
+      <Enable>6</Enable>
+      <Description>prime 79</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>2</Enable>
+      <Description>Option 80</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>4</Enable>
+      <Description>Option 81</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 82</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 83</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>2</Enable>
+      <Description>Option 84</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>4</Enable>
+      <Description>Option 85</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>6</Enable>
+      <Description>Option 86</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 87</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 88</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 89</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 90</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 91</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 92</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 93</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 94</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 95</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 96</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 97</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 98</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 99</Description>
+      <Register>0</Register>
+    </Option>
+    <Option>
+      <PlantNumber>0</PlantNumber>
+      <FanucNumber>0</FanucNumber>
+      <Enable>0</Enable>
+      <Description>Option 100</Description>
+      <Register>0</Register>
+    </Option>
+  </Prime>
+</SystemOptions>

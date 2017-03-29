@@ -1,0 +1,68 @@
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\bin\Job Setup.exe
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\bin\Job Setup.pdb
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\bin\de-DE\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\bin\es-ES\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\bin\en-CA\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\bin\FocusedTextBox.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\bin\Interop.FRRobot.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\bin\Interop.FRRobotNeighborhood.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\bin\PLCComm.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\bin\Interop.ASABTCPLib.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\bin\AxInterop.ASABTCPLib.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\bin\PLCComm.pdb
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\ResolveAssemblyReference.cache
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.CommonStrings.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.frmCopy.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.frmPrintOptions.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.RobotStrings.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.frmMain.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.Resources.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.ProjectStrings.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.CommonStrings.de-DE.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.CommonStrings.es-ES.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.CommonStrings.en-CA.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.RobotStrings.en-CA.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.RobotStrings.es-ES.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.ProjectStrings.de-DE.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.ProjectStrings.en-CA.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job_Setup.ProjectStrings.es-ES.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\JobSetup.vbproj.GenerateResource.Cache
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\de-DE\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\es-ES\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\en-CA\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job Setup.exe
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Debug\Job Setup.pdb
+C:\Paint\Source\Config\JobSetup.net\bin\Job Setup.exe
+C:\Paint\Source\Config\JobSetup.net\bin\Job Setup.pdb
+C:\Paint\Source\Config\JobSetup.net\bin\de-DE\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net\bin\es-ES\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net\bin\en-CA\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net\bin\FocusedTextBox.dll
+C:\Paint\Source\Config\JobSetup.net\bin\Interop.FRRobot.dll
+C:\Paint\Source\Config\JobSetup.net\bin\Interop.FRRobotNeighborhood.dll
+C:\Paint\Source\Config\JobSetup.net\bin\PLCComm.dll
+C:\Paint\Source\Config\JobSetup.net\bin\Interop.ASABTCPLib.dll
+C:\Paint\Source\Config\JobSetup.net\bin\AxInterop.ASABTCPLib.dll
+C:\Paint\Source\Config\JobSetup.net\bin\PLCComm.pdb
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\ResolveAssemblyReference.cache
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.CommonStrings.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.frmCopy.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.frmPrintOptions.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.RobotStrings.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.frmMain.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.Resources.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.ProjectStrings.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.CommonStrings.de-DE.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.CommonStrings.es-ES.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.CommonStrings.en-CA.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.RobotStrings.en-CA.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.RobotStrings.es-ES.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.ProjectStrings.de-DE.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.ProjectStrings.en-CA.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job_Setup.ProjectStrings.es-ES.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\JobSetup.vbproj.GenerateResource.Cache
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\de-DE\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\es-ES\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\en-CA\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job Setup.exe
+C:\Paint\Source\Config\JobSetup.net\obj\Debug\Job Setup.pdb

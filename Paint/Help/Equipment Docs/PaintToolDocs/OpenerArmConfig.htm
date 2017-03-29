@@ -1,0 +1,101 @@
+<HTML><HEAD><link rel="Stylesheet" href="Support/main.css" type="text/css"><title>Opener Arm Configuration</title></HEAD> 
+<BODY> 
+<A name='TOP'></A>  
+<TABLE CLASS='FILE-HEADER' CELLPADDING='4' CELLSPACING='0' BORDER='5' > 
+  <TBODY>  
+  <TR>  
+    <TD VALIGN='TOP' WIDTH='100'> 
+       <A href="http://www.fanucrobotics.com"><img src="Support/frnalogo.gif" border=0 width="150" height="57"></A></TD> 
+    <TD>  
+      <P class='title-in-file-header'>Opener Arm Extention Configuration</P> 
+      <P class='title-in-file-header'> PaintTool V7.50</P> 
+      <P class='part-num-in-file-header'> Project: 112695</P>
+      <P class='part-num-in-file-header'> 7-June-2012</P> 
+    </TD> 
+  </TR> 
+  </TBODY>  
+</TABLE>
+
+<FONT FACE="Arial">
+
+<H1></h1>
+<p align="center"><b>Opener Arm Extention Configuration</b></p>
+<FONT FACE="Arial"><P>This procedure will setup the robot software when the vertical extension is changed on the P-20iA robot</p>
+
+<P>1) With the power off, press and hold the PREV and NEXT keys on the teach pendant. While holding these keys, press the ON button. Wait  about ten seconds, or until you see the Configuration Menu (below) on the teach pendant before releasing the buttons.</P>
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=294><TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+----- CONFIGURATION MENU -----
+
+1. Hot start
+2. Cold start
+3. CNTL start
+4. Maintenance
+
+Select &gt; </PRE></FONT></TD></TR></TABLE>
+
+<P>2) Select: </FONT><FONT FACE="Courier New">3. Controlled Start </FONT><FONT FACE="Arial"> It will bring you to the PaintTool setup screen:</P>
+<TABLE CELLSPACING=0 BORDER=0 style="width: 365px"><TR><TD VALIGN="MIDDLE" BGCOLOR="#a0a0a0">
+<PRE><FONT SIZE=2>PaintTool Setup       CONTROLLED START</PRE></FONT></TD></TR>
+<TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+1  F Number:                 
+2  Version :V7.50P/22   Project:
+3  Engineer:FANUC           Date:  
+4  Controller Number:        1
+5  Zone Number:              Prime
+6  Applicator Type:          Gun
+   I/O Configuration:        Enhanced
+7  Cell I/O Hardware:        Ethernet I/P
+8  Process I/O Hardware:     Model A (R1-10)
+9  No. of System Colors:     35
+10 No. of Color Valves:      31
+</PRE></FONT></TD></TR></TABLE>
+
+<p>3) Press MENU, 9 for the Robot Maintenance screen.</p>
+    
+    <TABLE CELLSPACING=0 BORDER=0 style="width: 365px"><TR><TD VALIGN="MIDDLE" BGCOLOR="#a0a0a0">
+<PRE><FONT SIZE=2>ROBOT MAINTENANCE</PRE></FONT></TD></TR>
+<TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+
+  Setup Robot System Variables
+
+   Group   Robot Library/Option Ext Axes
+     1     P-700iA/15P             1
+     2     P-20iA iC               1
+     3     P-20iA iC               1
+     0      Process Axes Control   2
+     
+</PRE></FONT></TD></TR></TABLE>
+
+<p>4) Use the arrow keys to scroll to the motion group that needs to change and press F4 MANUAL
+Select the default (current) answers for all questions until it asks:<br />
+<br />
+Is the J3 Extension installed?<br />
+
+Enter 1 for no extension, 2 for an extension.</p>
+<p>5) Repeat step 4 for the opener if needed.
+
+</p>
+<p>6) Press FCTN, then ENTER to cold start.  It will take a few minutes to finish.</p>  
+
+<TABLE CELLSPACING=0 BORDER=0 WIDTH=280><TR><TD BGCOLOR="#a0a0a0">
+<PRE><FONT SIZE=2>UTILITIES Hints            JOINT  10 %</PRE></FONT></TD></TR>
+<TR><TD BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+
+
+          PaintTool (N. A.)
+
+               V7.50P/22
+
+Copyright 2012. All Rights Reserved
+FANUC LTD, FANUC Robotics America, Inc.
+Licensed software: Your use constitutes
+your acceptance. This product protected
+by several U.S. Patents
+</PRE></FONT></TD></TR></TABLE>
+
+    <p align="center">&nbsp;<a href="Index.htm">Index</a></p>
+
+<HR CLASS='EOF-MARKER'> 
+<P class='footer-copyright'><A href="http://www.fanucrobotics.com">Copyright &copy; 1999 by FANUC Robotics North America, Inc.</a></P> 
+</FONT> 
+</BODY></HTML>

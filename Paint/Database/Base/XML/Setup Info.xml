@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Setup>
+  <SetupInfo>
+    <Site>ADAC</Site>
+    <InitialZone>Prime</InitialZone>
+    <NumberOfVINWords>0</NumberOfVINWords>
+    <PaintShopComputer>False</PaintShopComputer>
+    <StandAlone>False</StandAlone>
+    <SaveAccessData>False</SaveAccessData>
+    <MISComputer>False</MISComputer>
+  </SetupInfo>
+</Setup>

@@ -1,0 +1,3121 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PW_Maint
+</name>
+</assembly>
+<members>
+<member name="P:PW_Maint.My.Resources.ProjectStrings.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psAUTO_BKP_ERR">
+	<summary>
+  Looks up a localized string similar to Internal robot backup to FRA:\ error - .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psAUTO_BKP_TIMEOUT">
+	<summary>
+  Looks up a localized string similar to  internal backup to FRA:\ timed out error.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psAUTO_BKP_WAIT">
+	<summary>
+  Looks up a localized string similar to Waiting for Robots internal backup to FRA:\ to complete.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psAUTO_REPORT_MSG">
+	<summary>
+  Looks up a localized string similar to Starting PWs Auto Report Generator.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psBACKUP_DONE">
+	<summary>
+  Looks up a localized string similar to  backup complete.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psBACKUP_MSG">
+	<summary>
+  Looks up a localized string similar to Backing up .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCLEANUP_DB_ERR">
+	<summary>
+  Looks up a localized string similar to Failed to delete expired records..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCLEANUP_MSG">
+	<summary>
+  Looks up a localized string similar to Cleaning up databases.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCLEANUP_OP">
+	<summary>
+  Looks up a localized string similar to File/Database Cleanup .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCLEANUP_STATUS">
+	<summary>
+  Looks up a localized string similar to Cleaning up .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCLOSE">
+	<summary>
+  Looks up a localized string similar to Close.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCOMPACT_ERR">
+	<summary>
+  Looks up a localized string similar to Database compact failed.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCOMPACT_MSG">
+	<summary>
+  Looks up a localized string similar to Compacting databases.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCOMPACT_OP">
+	<summary>
+  Looks up a localized string similar to Compact.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCOMPACT_STATUS">
+	<summary>
+  Looks up a localized string similar to Compacting .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCONTROLLER_FILES">
+	<summary>
+  Looks up a localized string similar to controller files.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCOPY_FOLDER_ERR">
+	<summary>
+  Looks up a localized string similar to Cannot copy folder .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCOPY_OP">
+	<summary>
+  Looks up a localized string similar to Copy.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCOPY_STATUS">
+	<summary>
+  Looks up a localized string similar to Copying .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCREATE_FOLDER_ERR">
+	<summary>
+  Looks up a localized string similar to Cannot create folder .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psCREATE_PROC_ERR">
+	<summary>
+  Looks up a localized string similar to CreateProcess Failed - File: .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psDEL_AGE_STATUS">
+	<summary>
+  Looks up a localized string similar to  older than .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psDEL_DAYS_STATUS">
+	<summary>
+  Looks up a localized string similar to  days from .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psDEL_RECS_STATUS">
+	<summary>
+  Looks up a localized string similar to Deleting records.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psDELBACKUP_MSG">
+	<summary>
+  Looks up a localized string similar to Deleting expired robot backup folder .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psDELETE_STATUS">
+	<summary>
+  Looks up a localized string similar to Deleting .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psDELFILES_STATUS">
+	<summary>
+  Looks up a localized string similar to Deleting files.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psDELTEMP_MSG">
+	<summary>
+  Looks up a localized string similar to Deleting Temporary Files.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psDEST_MSG">
+	<summary>
+  Looks up a localized string similar to  to .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psDISK_BACKUP_ERR">
+	<summary>
+  Looks up a localized string similar to Could not write backup to destination drive .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psDISK_LOW_SPACE_ERR">
+	<summary>
+  Looks up a localized string similar to Destination drive free space below threshold.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psDISKBACK_MSG">
+	<summary>
+  Looks up a localized string similar to  to Disk.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psERROR">
+	<summary>
+  Looks up a localized string similar to Error: .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psFILE_BACKUP_FOLDER_MSG">
+	<summary>
+  Looks up a localized string similar to Creating PAINTworks backup folder .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psFILE_BACKUP_OP">
+	<summary>
+  Looks up a localized string similar to PAINTworks File Backup .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psGEN_DT_REPORT">
+	<summary>
+  Looks up a localized string similar to Generating Downtime Reports.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psGEN_PROD_REPORT">
+	<summary>
+  Looks up a localized string similar to Generating Production Reports.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psGET_DIR_STATUS">
+	<summary>
+  Looks up a localized string similar to Getting file directory from .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psINT_BACKUP_ERR_MSG">
+	<summary>
+  Looks up a localized string similar to Internal controller backup to FRA:\ error  - .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psINTERNAL_ERROR">
+	<summary>
+  Looks up a localized string similar to Internal error, see PAINTworks Application Event Log.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psLAST_PERF_ERR">
+	<summary>
+  Looks up a localized string similar to Unable to update Last Performed date for .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psLATEST">
+	<summary>
+  Looks up a localized string similar to Latest.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psLOG_TITLE">
+	<summary>
+  Looks up a localized string similar to Scheduled Maintenance Log.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psMAINT_ABORT">
+	<summary>
+  Looks up a localized string similar to  aborted by user..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psMAINT_DONE">
+	<summary>
+  Looks up a localized string similar to  complete.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psMAINT_START">
+	<summary>
+  Looks up a localized string similar to  started.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psNO_CONNECT_ERR">
+	<summary>
+  Looks up a localized string similar to Could not establish a connection with .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psNO_FILE_ERR">
+	<summary>
+  Looks up a localized string similar to Could not back up: .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psNO_FILE_ERR_CODE">
+	<summary>
+  Looks up a localized string similar to  - Error Code: .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psNO_ROB_ERR">
+	<summary>
+  Looks up a localized string similar to No robot controllers found in collection. Exiting Robot File Backup..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psNOT_SELECTED_OP">
+	<summary>
+  Looks up a localized string similar to option not selected.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psPRINT_DATE_COL_HDR">
+	<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psPRINT_EVENT_COL_HDR">
+	<summary>
+  Looks up a localized string similar to Event.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psPRINT_LOG_CAP">
+	<summary>
+  Looks up a localized string similar to Print Log.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psPRINT_SECT_HDR">
+	<summary>
+  Looks up a localized string similar to PAINTworks Scheduled Maintenance Event Log.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psPRINT_SITE">
+	<summary>
+  Looks up a localized string similar to Site.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psPRINT_TIME_COL_HDR">
+	<summary>
+  Looks up a localized string similar to Time.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psPRINT_ZONE">
+	<summary>
+  Looks up a localized string similar to Zone.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psPW_FILES">
+	<summary>
+  Looks up a localized string similar to PAINTworks files.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psPW_SCREENS_MSG">
+	<summary>
+  Looks up a localized string similar to any open PAINTworks screens.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psPW4_SCHED_MAINT">
+	<summary>
+  Looks up a localized string similar to PAINTworks Scheduled Maintenance.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psREPORT_GENERATOR_OP">
+	<summary>
+  Looks up a localized string similar to PAINTworks Auto Report Generator.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psRESTART_PW_CAP">
+	<summary>
+  Looks up a localized string similar to Restart PAINTworks.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psROB_BACKUP_FOLDER_MSG">
+	<summary>
+  Looks up a localized string similar to Creating Robot backup folder .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psROB_BACKUP_OP">
+	<summary>
+  Looks up a localized string similar to Robot Backup .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psROB_DIR_ERR">
+	<summary>
+  Looks up a localized string similar to Unable to retrieve file directory from .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psROB_DIR_ERR1">
+	<summary>
+  Looks up a localized string similar to Unable to retrieve file autobackup directory from FRA: device on .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psROB_DIR_ERR2">
+	<summary>
+  Looks up a localized string similar to   Reading directory from robot memory device.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psROB_FILE_BACKUP_ERR">
+	<summary>
+  Looks up a localized string similar to Error backing up file: .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psSCREEN_TITLE">
+	<summary>
+  Looks up a localized string similar to Scheduled Maintenance Status.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psSELECTED_OP">
+	<summary>
+  Looks up a localized string similar to option selected.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psSEND_REPORT">
+	<summary>
+  Looks up a localized string similar to Sending Reports.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psSHUTDOWN_MSG">
+	<summary>
+  Looks up a localized string similar to Shutting Down PAINTworks ....
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psSHUTDOWN_STATUS">
+	<summary>
+  Looks up a localized string similar to Shutting Down .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psSTARTUP_MSG">
+	<summary>
+  Looks up a localized string similar to PAINTworks Scheduled Maintenance will start in a short period of time. PAINTworks will be shut down automatically. At this time, please save any unsaved edits and Log Off or press Cancel to abort..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psSTARTUP_TITLE">
+	<summary>
+  Looks up a localized string similar to PWMaint Startup Notification.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psTIME_LEFT_LBL">
+	<summary>
+  Looks up a localized string similar to Time Remaining:.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.ProjectStrings.psVIEW_LOG_CAP">
+	<summary>
+  Looks up a localized string similar to View Log.
+</summary>
+</member><member name="T:PW_Maint.My.Resources.ProjectStrings">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.cs24HRS">
+	<summary>
+  Looks up a localized string similar to Last &amp;24 Hours.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.cs7DAYS">
+	<summary>
+  Looks up a localized string similar to Last &amp;7 Days.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csABORT">
+	<summary>
+  Looks up a localized string similar to Abort.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csACCUFLOWSETUP">
+	<summary>
+  Looks up a localized string similar to Accuflow Setup Screen.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csADD">
+	<summary>
+  Looks up a localized string similar to Add.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csALL">
+	<summary>
+  Looks up a localized string similar to All.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csALLCHG">
+	<summary>
+  Looks up a localized string similar to All Cha&amp;nges.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csALREADY_RUNNING_REMOTE">
+	<summary>
+  Looks up a localized string similar to The application is already running on the remote machine. Close application on remote machine to access..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csANYBUS_IPCONFIG">
+	<summary>
+  Looks up a localized string similar to Anybus I/P Configuration.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csAPPLICATOR_TYPE_DIFFERENT">
+	<summary>
+  Looks up a localized string similar to Warning: Not all selected applicator types are the same.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csARCHIVE">
+	<summary>
+  Looks up a localized string similar to Archive.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csAREA_CAP">
+	<summary>
+  Looks up a localized string similar to Area.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csAUTORECONNECTING">
+	<summary>
+  Looks up a localized string similar to AutoReconnecting.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csAV_STATUS_CAP">
+	<summary>
+  Looks up a localized string similar to Status.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csAV_STATUS_HIFLT">
+	<summary>
+  Looks up a localized string similar to High Fault.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csAV_STATUS_HIWARN">
+	<summary>
+  Looks up a localized string similar to High Warning.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csAV_STATUS_LOFLT">
+	<summary>
+  Looks up a localized string similar to Low Fault.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csAV_STATUS_LOWARN">
+	<summary>
+  Looks up a localized string similar to Low Warning.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csAV_STATUS_PASS">
+	<summary>
+  Looks up a localized string similar to Pass.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csAV_STATUS_UNKNOWN">
+	<summary>
+  Looks up a localized string similar to Unknown.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csAVAILABLE">
+	<summary>
+  Looks up a localized string similar to Available.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csBACK">
+	<summary>
+  Looks up a localized string similar to Back.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csBAD_DATA_PLC_WRITE">
+	<summary>
+  Looks up a localized string similar to Bad or missing data for PLC Write.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csBAD_ENTRY">
+	<summary>
+  Looks up a localized string similar to Data entered is invalid. Returning to original value..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csBSD">
+	<summary>
+  Looks up a localized string similar to Booth Status Display.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csBULKSUPPLY">
+	<summary>
+  Looks up a localized string similar to Bulk Supply.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCALIBRATION">
+	<summary>
+  Looks up a localized string similar to Calibration.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCANCEL">
+	<summary>
+  Looks up a localized string similar to &amp;Cancel.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCANT_ACCESS_DB_FILES_ZONE">
+	<summary>
+  Looks up a localized string similar to Cannot find or access database files for zone:.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCANT_FIND_CONFIG_FILE">
+	<summary>
+  Looks up a localized string similar to Could not find configuration file..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCCCYCLE">
+	<summary>
+  Looks up a localized string similar to CC Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCELLSTATUS">
+	<summary>
+  Looks up a localized string similar to Cell Status Display.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCHANGE_SUM_CAP">
+	<summary>
+  Looks up a localized string similar to Change Summary.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCHANGED_FROM">
+	<summary>
+  Looks up a localized string similar to changed from.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCHANGELOG">
+	<summary>
+  Looks up a localized string similar to Change &amp;Log.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCHANGELOGFORM">
+	<summary>
+  Looks up a localized string similar to Paintworks Change Log .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCLEARALL">
+	<summary>
+  Looks up a localized string similar to Clear All.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCLICK_OK_PROCEED">
+	<summary>
+  Looks up a localized string similar to Click OK to proceed..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCLOCK">
+	<summary>
+  Looks up a localized string similar to Clock.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCLOSE">
+	<summary>
+  Looks up a localized string similar to &amp;Close.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOLOR">
+	<summary>
+  Looks up a localized string similar to Color.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOLOR_CAP">
+	<summary>
+  Looks up a localized string similar to Color.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOLOR_CHG_CYCLE">
+	<summary>
+  Looks up a localized string similar to Color Change Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOLORCHANGE">
+	<summary>
+  Looks up a localized string similar to Color Change.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCONFIRM_COPY">
+	<summary>
+  Looks up a localized string similar to Confirm Copy.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCONNECTED">
+	<summary>
+  Looks up a localized string similar to Connected.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCONNECTING">
+	<summary>
+  Looks up a localized string similar to Connecting.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCONNECTION_STAT">
+	<summary>
+  Looks up a localized string similar to connection status is:.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCONVFAILED">
+	<summary>
+  Looks up a localized string similar to File Conversion Failed: .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOPIED">
+	<summary>
+  Looks up a localized string similar to Copied.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOPY">
+	<summary>
+  Looks up a localized string similar to Cop&amp;y.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOPY_COMPLETE">
+	<summary>
+  Looks up a localized string similar to Copy complete.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOPY_FAILED">
+	<summary>
+  Looks up a localized string similar to Copy operation failed....
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOPY_PARAM_NOT_SAME">
+	<summary>
+  Looks up a localized string similar to Parameter selection must match when selecting multiple source parameters..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOPY_ROBOTS_NOT_SAME">
+	<summary>
+  Looks up a localized string similar to Robot selection must match when selecting multiple source robots..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOPY_STARTED">
+	<summary>
+  Looks up a localized string similar to Copy started.....
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOPY_SUBPARAM_NOT_SAME">
+	<summary>
+  Looks up a localized string similar to Subparameter selection must match when selecting multiple source subparameters..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOULD_NOT_CONNECT">
+	<summary>
+  Looks up a localized string similar to Could not connect to controller.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOULD_NOT_LOAD_ROB">
+	<summary>
+  Looks up a localized string similar to Could not load robots.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOULD_NOT_READ_PLC">
+	<summary>
+  Looks up a localized string similar to Could not read PLC data..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCOULD_NOT_WRITE_PLC">
+	<summary>
+  Looks up a localized string similar to Could not write PLC data..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csCYCLE_CAP">
+	<summary>
+  Looks up a localized string similar to Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csDATABASE">
+	<summary>
+  Looks up a localized string similar to database.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csDB_ERROR">
+	<summary>
+  Looks up a localized string similar to Error reading database .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csDESCRIPTION_CAP">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csDEVICES">
+	<summary>
+  Looks up a localized string similar to Dev&amp;ices.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csDISCONNECTING">
+	<summary>
+  Looks up a localized string similar to Disconnecting.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csDISPENSERSTATUS">
+	<summary>
+  Looks up a localized string similar to Dispenser Status Screen.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csDMONSCHEDMAN">
+	<summary>
+  Looks up a localized string similar to DMON Schedule Manager.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csDMONVIEWER">
+	<summary>
+  Looks up a localized string similar to DMON Viewer.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csDOCUMENT_UNCONTROLLED">
+	<summary>
+  Looks up a localized string similar to This document is uncontrolled. For reference only..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csDONE">
+	<summary>
+  Looks up a localized string similar to Done.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csERROR">
+	<summary>
+  Looks up a localized string similar to Error.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csEXPORT_CSV">
+	<summary>
+  Looks up a localized string similar to Export to spreadsheet.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csEXPORTFAILED">
+	<summary>
+  Looks up a localized string similar to Could not export due to following error:.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFAILED_OPEN_ODS">
+	<summary>
+  Looks up a localized string similar to Failed to open ODS file: .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFAILED_OPEN_XLSX">
+	<summary>
+  Looks up a localized string similar to Failed to open XLSX file: .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFAILED_SAVE_ODS">
+	<summary>
+  Looks up a localized string similar to Failed to save ODS file:.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFAILED_SAVE_XLSX">
+	<summary>
+  Looks up a localized string similar to Failed to save XLSX file:.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFAILED_XLS_XML">
+	<summary>
+  Looks up a localized string similar to Failed to convert XLS file format to XML: .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFAILED_XML_XLS">
+	<summary>
+  Looks up a localized string similar to Failed to convert XML file format to XLS: .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFANUC_PRN">
+	<summary>
+  Looks up a localized string similar to FANUC America.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFILECOPY">
+	<summary>
+  Looks up a localized string similar to File Copy Utility.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFLUIDMAINT">
+	<summary>
+  Looks up a localized string similar to Fluid Maintenance.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFORWARD">
+	<summary>
+  Looks up a localized string similar to Forward.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFROM">
+	<summary>
+  Looks up a localized string similar to From.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFROM_DB">
+	<summary>
+  Looks up a localized string similar to From Database.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFROM_PLC">
+	<summary>
+  Looks up a localized string similar to From PLC.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFTP_CONNECTING">
+	<summary>
+  Looks up a localized string similar to Connecting to.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFTP_DIR_FILES">
+	<summary>
+  Looks up a localized string similar to Directory %s   Files =.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFTP_DIR_NO_FILES">
+	<summary>
+  Looks up a localized string similar to Directory %s  No Files Found.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFTP_DLOAD_FAIL">
+	<summary>
+  Looks up a localized string similar to download failed. Error =.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFTP_DLOAD_RESULT">
+	<summary>
+  Looks up a localized string similar to  download %s bytes in %r seconds.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFTP_ERR_DEST_NOT_SPEC">
+	<summary>
+  Looks up a localized string similar to Error: Destination Folder not specified..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFTP_ERR_NO_HOST">
+	<summary>
+  Looks up a localized string similar to No host name provided.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFTP_ERR_PING_FAIL">
+	<summary>
+  Looks up a localized string similar to is not available..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFTP_ERR_SRC_NOT_SPEC">
+	<summary>
+  Looks up a localized string similar to Error: SourceFolder not specified..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFTP_ULOAD_FAIL">
+	<summary>
+  Looks up a localized string similar to uploaded failed.  Error =.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFTP_ULOAD_FAIL2">
+	<summary>
+  Looks up a localized string similar to uploaded failed. File may be in use. Error =.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csFTP_ULOAD_RESULT">
+	<summary>
+  Looks up a localized string similar to  uploaded %s bytes in %r seconds.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csGPPW">
+	<summary>
+  Looks up a localized string similar to GPPW.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csHB_LOST">
+	<summary>
+  Looks up a localized string similar to Heartbeat lost.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csHBLOST">
+	<summary>
+  Looks up a localized string similar to Heartbeat Lost.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csHOST_ENTRY_ERR">
+	<summary>
+  Looks up a localized string similar to Error finding host information for :.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csHOTEDITLOGGER">
+	<summary>
+  Looks up a localized string similar to Hot Edit Logger.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csIMPORT_CSV">
+	<summary>
+  Looks up a localized string similar to Import from spreadsheet.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csIMPORTFAILED">
+	<summary>
+  Looks up a localized string similar to Could not import due to following error:.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csINITALIZING">
+	<summary>
+  Looks up a localized string similar to Initializing....
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csINTEGER_REQ">
+	<summary>
+  Looks up a localized string similar to Integer value required. Returning to original value..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csINV_ENTRY">
+	<summary>
+  Looks up a localized string similar to Invalid Entry. Returning to original value..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csINVALID_DATA">
+	<summary>
+  Looks up a localized string similar to Invalid Data.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csINVALID_VALVESTATE">
+	<summary>
+  Looks up a localized string similar to Invalid valve state selected.  Conflicting valves have been turned off..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csINVALID_XPATH_SYNTAX">
+	<summary>
+  Looks up a localized string similar to Invalid XPath syntax..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csIS_OFFLINE">
+	<summary>
+  Looks up a localized string similar to  is offline..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csIS_ONLINE">
+	<summary>
+  Looks up a localized string similar to  is online..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csISUNAVAILABLE">
+	<summary>
+  Looks up a localized string similar to is unavailable..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csITEM_CAP">
+	<summary>
+  Looks up a localized string similar to Item.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csJOB">
+	<summary>
+  Looks up a localized string similar to Job.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csJOB_SETUP">
+	<summary>
+  Looks up a localized string similar to Job Setup.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csLINK_TO_PLC">
+	<summary>
+  Looks up a localized string similar to Connecting to PLC.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csLOAD_FROM">
+	<summary>
+  Looks up a localized string similar to Load from.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csLOAD_GUI">
+	<summary>
+  Looks up a localized string similar to Loading from database.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csLOAD_PLC">
+	<summary>
+  Looks up a localized string similar to Loading from PLC.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csLOAD_ROBOT">
+	<summary>
+  Looks up a localized string similar to Loading from controller.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csLOADDONE">
+	<summary>
+  Looks up a localized string similar to Load complete..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csLOADFAILED">
+	<summary>
+  Looks up a localized string similar to Data load failed..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csLOADINGDATA">
+	<summary>
+  Looks up a localized string similar to Loading data. Please wait..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csLOCAL_ZONE">
+	<summary>
+  Looks up a localized string similar to Local zone.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csLOGGED_IN">
+	<summary>
+  Looks up a localized string similar to Logged In.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csLOGGED_OUT">
+	<summary>
+  Looks up a localized string similar to Logged Out.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csLOGIN">
+	<summary>
+  Looks up a localized string similar to Log In.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csLOGOUT">
+	<summary>
+  Looks up a localized string similar to Log Out.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csMANUALCYCLE">
+	<summary>
+  Looks up a localized string similar to Manual Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csMANUALOPERATIONS">
+	<summary>
+  Looks up a localized string similar to Manual Operations.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csMAX_ROWS">
+	<summary>
+  Looks up a localized string similar to Maximum Number of Rows per page.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csMAXIMUM_EQ">
+	<summary>
+  Looks up a localized string similar to Maximum = .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csMINIMUM_EQ">
+	<summary>
+  Looks up a localized string similar to Minimum = .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csMISSING_CONTROLLER_TABLE">
+	<summary>
+  Looks up a localized string similar to Configuration database is missing controllers table.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csMISSING_ZONE_NAME">
+	<summary>
+  Looks up a localized string similar to Missing zone name..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csMULTIVIEW">
+	<summary>
+  Looks up a localized string similar to &amp;Multi-View.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csNETWORK">
+	<summary>
+  Looks up a localized string similar to Network Maintenance.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csNEW">
+	<summary>
+  Looks up a localized string similar to &amp;New.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csNEW_VALUE_CAP">
+	<summary>
+  Looks up a localized string similar to New Value.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csNEXT">
+	<summary>
+  Looks up a localized string similar to Next.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csNO_CHANGES_FOUND">
+	<summary>
+  Looks up a localized string similar to No changes found.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csNO_DESCRIPTION">
+	<summary>
+  Looks up a localized string similar to (No Description).
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csNO_NULL">
+	<summary>
+  Looks up a localized string similar to Field cannot be left blank. Returning to original value..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csNO_PARAMETER">
+	<summary>
+  Looks up a localized string similar to none.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csNO_USER">
+	<summary>
+  Looks up a localized string similar to Unknown User.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csNONE">
+	<summary>
+  Looks up a localized string similar to None.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csNOTEPAD">
+	<summary>
+  Looks up a localized string similar to Notepad.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csNOTHING_SELECTED_COPY">
+	<summary>
+  Looks up a localized string similar to No parameters selected for copy from the dropdown menu..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csODS_META_INF_MANIFEST_XML1">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;manifest:manifest xmlns:manifest="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0"&gt;
+  &lt;manifest:file-entry manifest:media-type="application/vnd.oasis.opendocument.spreadsheet" manifest:version="1.2" manifest:full-path="/" /&gt;
+  &lt;manifest:file-entry manifest:media-type="text/xml" manifest:full-path="content.xml" /&gt;
+  &lt;manifest:file-entry manifest:media-type="text/xml" manifest:full-path="styles.xml" /&gt;
+  &lt;manifest:file-entry manifest:media-type="text/xml" manife [rest of string was truncated]";.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csODS_META_INF_MANIFEST_XML2">
+	<summary>
+  Looks up a localized string similar to &lt;/manifest:manifest&gt;
+.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csODS_PRINT_HEADER1">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;office:document-content 
+    xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" 
+    xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" 
+    xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" 
+    xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" 
+    xmlns:xlink="http://www.w3.org/1999/x [rest of string was truncated]";.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csODS_PRINT_HEADER2">
+	<summary>
+  Looks up a localized string similar to     &lt;style:style style:name="ro1" style:family="table-row"&gt;&lt;style:table-row-properties style:row-height="0.1783in" fo:break-before="auto" style:use-optimal-row-height="true"/&gt;&lt;/style:style&gt;
+    &lt;style:style style:name="ta1" style:family="table" style:master-page-name="Default"&gt;&lt;style:table-properties table:display="true" style:writing-mode="lr-tb"/&gt;
+    &lt;/style:style&gt;&lt;number:date-style style:name="N36" number:automatic-order="true"&gt;&lt;number:month number:style="long"/&gt;
+			&lt;number:text&gt;/&lt;/number:text&gt;
+			&lt; [rest of string was truncated]";.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csODS_SETTINGS_XML">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;office:document-settings xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2"&gt;
+	&lt;office:settings&gt;
+		&lt;config:config-item-set config:name="ooo:view-settings"&gt;
+			&lt;config:config-item config:name="VisibleAreaTop" config:type="int"&gt;0&lt;/config:config-item&gt;
+			&lt;config:config-item config:na [rest of string was truncated]";.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csODS_STYLES_XML">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;office:document-styles xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.o [rest of string was truncated]";.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csOFF">
+	<summary>
+  Looks up a localized string similar to Off.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csOK">
+	<summary>
+  Looks up a localized string similar to &amp;OK.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csON">
+	<summary>
+  Looks up a localized string similar to On.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csOPCSERVER_STATE_ERR">
+	<summary>
+  Looks up a localized string similar to Could Not Connect To OPC Server -  Server State:=.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csOPEN">
+	<summary>
+  Looks up a localized string similar to &amp;Open.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csOPEN_FILE_DLG_CAP">
+	<summary>
+  Looks up a localized string similar to Select File to Open..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPAGE_SETUP">
+	<summary>
+  Looks up a localized string similar to Page &amp;Setup.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPAGE_X_OF_Y">
+	<summary>
+  Looks up a localized string similar to Page X of Y.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPAINTDISCHARGE">
+	<summary>
+  Looks up a localized string similar to Paint Discharge.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPAINTWORKS">
+	<summary>
+  Looks up a localized string similar to PAINTworks.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPARAMETER_CAP">
+	<summary>
+  Looks up a localized string similar to Parameter.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPARAMSETUP">
+	<summary>
+  Looks up a localized string similar to Parameter Setup.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPATHACCESS_ERROR">
+	<summary>
+  Looks up a localized string similar to Unable to access this path. You may not have access. The following error was returned:.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPLC">
+	<summary>
+  Looks up a localized string similar to PLC.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPLC_COMM_ERROR">
+	<summary>
+  Looks up a localized string similar to PLC Communication error..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPLC_CONN_MULT_INST">
+	<summary>
+  Looks up a localized string similar to Multiple instances of the connection exist in the PLC configuration file..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPLC_CONN_NOT_DEFINED">
+	<summary>
+  Looks up a localized string similar to Connection not defined..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPLC_DATA_TYPE">
+	<summary>
+  Looks up a localized string similar to Data Type.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPLC_IO">
+	<summary>
+  Looks up a localized string similar to PLC I/O.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPLC_TAG_MULT_INST">
+	<summary>
+  Looks up a localized string similar to Multiple instances of the tag exist in the PLC configuration file..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPLC_TAG_NOT_DEFINED">
+	<summary>
+  Looks up a localized string similar to Tag not defined..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPLC_TOPIC_MULT_INST">
+	<summary>
+  Looks up a localized string similar to Multiple instances of the topic exist in the PLC configuration file..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPLC_TOPIC_NOT_DEFINED">
+	<summary>
+  Looks up a localized string similar to Topic not defined..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPLC_UNSUP_TYPE">
+	<summary>
+  Looks up a localized string similar to Unsupported data type..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPLC_WRITE_SIZE_ERR">
+	<summary>
+  Looks up a localized string similar to Invalid data length for PLC write..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPOLLREADFAILED">
+	<summary>
+  Looks up a localized string similar to Unable to read polled data from server.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPRESETS">
+	<summary>
+  Looks up a localized string similar to Presets.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPREV">
+	<summary>
+  Looks up a localized string similar to Previous.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPRINT">
+	<summary>
+  Looks up a localized string similar to &amp;Print.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPRINT_FILE">
+	<summary>
+  Looks up a localized string similar to Print to &amp;File.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPRINT_FORMATTING">
+	<summary>
+  Looks up a localized string similar to Formatting document....
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPRINT_OPTIONS">
+	<summary>
+  Looks up a localized string similar to Print Options.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPRINT_PREVIEW">
+	<summary>
+  Looks up a localized string similar to Print Pre&amp;view.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPRINT_PRN">
+	<summary>
+  Looks up a localized string similar to Printed.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPRINT_SENDING">
+	<summary>
+  Looks up a localized string similar to Sending document to printer....
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPRINTFAILED">
+	<summary>
+  Looks up a localized string similar to Could not print due to following error:.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPRINTING">
+	<summary>
+  Looks up a localized string similar to Printing, please wait..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPRINTMNU">
+	<summary>
+  Looks up a localized string similar to Print.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPW4_MAIN">
+	<summary>
+  Looks up a localized string similar to PAINTworks Main.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPWBROWSER">
+	<summary>
+  Looks up a localized string similar to PAINTworks Browser.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPWIIISETUP">
+	<summary>
+  Looks up a localized string similar to PAINTworks Setup.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPWSETUP">
+	<summary>
+  Looks up a localized string similar to PAINTworks Setup.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csPWUSERMAINT">
+	<summary>
+  Looks up a localized string similar to PAINTworks User Maintenance.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csREADY">
+	<summary>
+  Looks up a localized string similar to Ready..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csREFRESH">
+	<summary>
+  Looks up a localized string similar to Refresh.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csREMOTE_ZONE">
+	<summary>
+  Looks up a localized string similar to Remote zone.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csREPORTS">
+	<summary>
+  Looks up a localized string similar to Reports.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csRESTORE">
+	<summary>
+  Looks up a localized string similar to &amp;Restore.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csROBOT">
+	<summary>
+  Looks up a localized string similar to Robot.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csROBOT_CAP">
+	<summary>
+  Looks up a localized string similar to Device.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csROBOT_IO">
+	<summary>
+  Looks up a localized string similar to Robot I/O.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csROBOTS_OPERATE">
+	<summary>
+  Looks up a localized string similar to Robot(s) To Operate.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csROBOTSETUP">
+	<summary>
+  Looks up a localized string similar to Robot Setup.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csROBOTSTATUS">
+	<summary>
+  Looks up a localized string similar to Robot Status.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csROBOTVARIABLES">
+	<summary>
+  Looks up a localized string similar to Robot Variables.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csRSLOGIX5000LOADER">
+	<summary>
+  Looks up a localized string similar to RS Logix 5000.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSA_SETUP_COMP">
+	<summary>
+  Looks up a localized string similar to  scattered access setup complete..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE">
+	<summary>
+  Looks up a localized string similar to &amp;Save .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_ALL_FILTER">
+	<summary>
+  Looks up a localized string similar to All Files|*.*.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_CANCEL">
+	<summary>
+  Looks up a localized string similar to Save Canceled.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_CHANGES">
+	<summary>
+  Looks up a localized string similar to Save Changes?.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_CSV_CDFILTER">
+	<summary>
+  Looks up a localized string similar to Comma Seperated Value file (*.csv)|*.csv.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_CSV_FILTER">
+	<summary>
+  Looks up a localized string similar to Comma Seperated Value file|*.csv.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_CSV_TXT_FILTER">
+	<summary>
+  Looks up a localized string similar to All Files|*.*|Comma Seperated Value file|*.csv|Tab-Delimited Text File|*.txt.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_CSV_XLS_ALL_FILTER">
+	<summary>
+  Looks up a localized string similar to All Files|*.*|Comma Seperated Value file|*.csv|Excel File|*.xls.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_DONE">
+	<summary>
+  Looks up a localized string similar to Save operation finished..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_FILE_DLG_CAP">
+	<summary>
+  Looks up a localized string similar to Select Location For Save.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_GUI">
+	<summary>
+  Looks up a localized string similar to Saving to database.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_ODS_FILTER">
+	<summary>
+  Looks up a localized string similar to Open Office Spreadsheet|*.ods.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_PLC">
+	<summary>
+  Looks up a localized string similar to Saving to PLC.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_ROBOT">
+	<summary>
+  Looks up a localized string similar to Saving to controller.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_SPR_FILTER">
+	<summary>
+  Looks up a localized string similar to All Files|*.*|Comma Seperated Value file|*.csv|Excel XML Spreadsheet|*.xml|Tab-Delimited Text File|*.txt.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_TO">
+	<summary>
+  Looks up a localized string similar to Save To.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_TXT_ALL_FILTER">
+	<summary>
+  Looks up a localized string similar to Text (*.txt)|*.txt|All Files|*.*.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_TXT_FILTER">
+	<summary>
+  Looks up a localized string similar to Tab-Delimited Text File|*.txt.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_TXT_RTF_ALL_FILTER">
+	<summary>
+  Looks up a localized string similar to Text (*.txt)|*.txt|Rich Text Format (*.rtf)|*.rtf|All Files|*.*.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_XLS_FILTER">
+	<summary>
+  Looks up a localized string similar to Excel Spreadsheet|*.xls.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_XLSX_FILTER">
+	<summary>
+  Looks up a localized string similar to Excel XML Spreadsheet|*.xlsx.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVE_XML_FILTER">
+	<summary>
+  Looks up a localized string similar to XML Spreadsheet|*.xml.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVEFAILED">
+	<summary>
+  Looks up a localized string similar to Data save failed.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVEFAILEDPLC">
+	<summary>
+  Looks up a localized string similar to Save to PLC failed.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVEMSG">
+	<summary>
+  Looks up a localized string similar to Do you want to save changes?.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVEMSG1">
+	<summary>
+  Looks up a localized string similar to You have unsaved edits..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVEMSG3">
+	<summary>
+  Looks up a localized string similar to Changes must be saved before using copy function..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVEROBOTOFFLINE">
+	<summary>
+  Looks up a localized string similar to Controller {0} is offline..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSAVINGDATA">
+	<summary>
+  Looks up a localized string similar to Saving data. Please wait..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSCHEDULER">
+	<summary>
+  Looks up a localized string similar to Scheduler.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSEALANTSCHED">
+	<summary>
+  Looks up a localized string similar to Sealant Schedules.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSEALERDIAG">
+	<summary>
+  Looks up a localized string similar to Sealer Diagnostics.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECT_ALL">
+	<summary>
+  Looks up a localized string similar to Select All.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECT_APPLICATOR">
+	<summary>
+  Looks up a localized string similar to Select Applicator.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECT_COLOR">
+	<summary>
+  Looks up a localized string similar to Select Color.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECT_FILE_LOC">
+	<summary>
+  Looks up a localized string similar to Select Location and File Name.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECT_NONE">
+	<summary>
+  Looks up a localized string similar to Unselect All.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECT_PAINT_FAIL">
+	<summary>
+  Looks up a localized string similar to Selected folder does not contain PAINTworks files, or you do not have permission to access the files..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECT_PAINT_FOLDER">
+	<summary>
+  Looks up a localized string similar to Select remote paint folder..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECT_PAINT_SUCCESS">
+	<summary>
+  Looks up a localized string similar to Please wait while remote machine is accessed..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECT_PAINTDB_FOLDER">
+	<summary>
+  Looks up a localized string similar to Select desired database folder..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECT_ROBOT">
+	<summary>
+  Looks up a localized string similar to Select Robot.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECT_SOURCE">
+	<summary>
+  Looks up a localized string similar to Select source information.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECT_TARGET">
+	<summary>
+  Looks up a localized string similar to Select target information.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECT_VALVE">
+	<summary>
+  Looks up a localized string similar to Select Valve.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECT_ZONE">
+	<summary>
+  Looks up a localized string similar to Select Zone.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECTED">
+	<summary>
+  Looks up a localized string similar to selected..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECTED_AS_SOURCE">
+	<summary>
+  Looks up a localized string similar to  selected as source..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECTED_AS_TARGET">
+	<summary>
+  Looks up a localized string similar to  selected as target..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECTED_FOR_COPY">
+	<summary>
+  Looks up a localized string similar to  selected for copy..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECTED_FOR_COPY_DEF">
+	<summary>
+  Looks up a localized string similar to selected for copy by default..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELECTED_ZONE_UNAVAILABLE">
+	<summary>
+  Looks up a localized string similar to Selected zone is unavailable..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSELPRNTMNU">
+	<summary>
+  Looks up a localized string similar to Select Printer.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSET_UP_SA_FOR">
+	<summary>
+  Looks up a localized string similar to Setting up scattered access for :.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSPECIFIC_CAP">
+	<summary>
+  Looks up a localized string similar to Specific.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSPLIT_LARGE_TABLES">
+	<summary>
+  Looks up a localized string similar to Split up large tables?.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSTARTING_SAVE_TO">
+	<summary>
+  Looks up a localized string similar to Starting save to:.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSTATUS">
+	<summary>
+  Looks up a localized string similar to S&amp;tatus.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSYNCSCROLL">
+	<summary>
+  Looks up a localized string similar to Sync Scroll.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csSYSTEM_COLORS">
+	<summary>
+  Looks up a localized string similar to System Colors.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csTAG_NAME">
+	<summary>
+  Looks up a localized string similar to Tag Name.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csTEACH_PENDANT_USER">
+	<summary>
+  Looks up a localized string similar to Teach Pendant User.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csTEMPERATURECONTROL">
+	<summary>
+  Looks up a localized string similar to Temperature Control Screen.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csTIME_CAP">
+	<summary>
+  Looks up a localized string similar to Time.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csTO">
+	<summary>
+  Looks up a localized string similar to to.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csU_SELECTED_FOR_COPY">
+	<summary>
+  Looks up a localized string similar to You have selected to copy:.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csUNABLE_CONNECT_CONTROLLERS">
+	<summary>
+  Looks up a localized string similar to Unable to connect to any controllers in this zone..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csUNABLE_DETERMINE_RUNNING">
+	<summary>
+  Looks up a localized string similar to Unable to determine if program is running on remote computer. If program is running, your changes may be overwritten..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csUNABLE_TO_ACCESS_DB">
+	<summary>
+  Looks up a localized string similar to Unable to access database..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csUNAUTH_ACCESS">
+	<summary>
+  Looks up a localized string similar to The Following directory does not exist, or you do not have sufficient privileges to access it:.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csUNAVAILABLE">
+	<summary>
+  Looks up a localized string similar to Unavailable.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csUNDO">
+	<summary>
+  Looks up a localized string similar to &amp;Undo.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csUNDOMSG">
+	<summary>
+  Looks up a localized string similar to Undo All Changes?.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csUNKNOWN">
+	<summary>
+  Looks up a localized string similar to Unknown.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csUNSELECT_ALL">
+	<summary>
+  Looks up a localized string similar to Unselect All.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csUPD_CHANGELOG">
+	<summary>
+  Looks up a localized string similar to Updating change log..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csUSER_CAP">
+	<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csUTILITIES">
+	<summary>
+  Looks up a localized string similar to Utilities.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csVAL_ABOVE_MAX">
+	<summary>
+  Looks up a localized string similar to Entry above MAXIMUM value. Returning to original value..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csVAL_BELOW_MIN">
+	<summary>
+  Looks up a localized string similar to Entry below MINIMUM value. Returning to original value..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csVALUE">
+	<summary>
+  Looks up a localized string similar to Value.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csVERSION">
+	<summary>
+  Looks up a localized string similar to version.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csVERSIONS">
+	<summary>
+  Looks up a localized string similar to Versions.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csVIEWALL_FORM">
+	<summary>
+  Looks up a localized string similar to Multi-view.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csVIEWING">
+	<summary>
+  Looks up a localized string similar to Viewing:.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csVISIONLOGGER">
+	<summary>
+  Looks up a localized string similar to Vision Logger.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csVOLUME">
+	<summary>
+  Looks up a localized string similar to Learned Volumes.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csWARNING">
+	<summary>
+  Looks up a localized string similar to Warning.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csWIDTH">
+	<summary>
+  Looks up a localized string similar to Table Width.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csWRITE_FAIL">
+	<summary>
+  Looks up a localized string similar to Write failed..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csWRITE_SUCCESS">
+	<summary>
+  Looks up a localized string similar to Data written successfully.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csWRITING_TARGET">
+	<summary>
+  Looks up a localized string similar to Writing data to target.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_APP">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"&gt;&lt;Application&gt;Microsoft Excel&lt;/Application&gt;&lt;DocSecurity&gt;0&lt;/DocSecurity&gt;&lt;ScaleCrop&gt;false&lt;/ScaleCrop&gt;&lt;HeadingPairs&gt;&lt;vt:vector size="2" baseType="variant"&gt;&lt;vt:variant&gt;&lt;vt:lpstr&gt;Worksheets&lt;/vt:lpstr&gt;&lt;/vt:variant&gt;&lt;vt:variant&gt;&lt;vt:i4&gt;{0}&lt;/vt:i4&gt;&lt;/vt:variant&gt;&lt;/vt:vector&gt;&lt;/HeadingPairs&gt;&lt;Tit [rest of string was truncated]";.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_APP_1">
+	<summary>
+  Looks up a localized string similar to &lt;vt:lpstr&gt;{0}&lt;/vt:lpstr&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_CONTENT_1">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"&gt;&lt;Override PartName="/xl/theme/theme1.xml" ContentType="application/vnd.openxmlformats-officedocument.theme+xml"/&gt;&lt;Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/&gt;&lt;Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/&gt;&lt;Default Extension="xml" ContentType="applicat [rest of string was truncated]";.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_CONTENT_2">
+	<summary>
+  Looks up a localized string similar to &lt;Override PartName="/xl/sharedStrings.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml"/&gt;&lt;Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/&gt;&lt;/Types&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_CONTENT_DRAWING">
+	<summary>
+  Looks up a localized string similar to &lt;Override PartName="/xl/drawings/drawing1.xml" ContentType="application/vnd.openxmlformats-officedocument.drawing+xml"/&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_CONTENT_ITEMS">
+	<summary>
+  Looks up a localized string similar to &lt;Override PartName="/xl/worksheets/sheet{0}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_CONTENT_PNG">
+	<summary>
+  Looks up a localized string similar to &lt;Default Extension="png" ContentType="image/png"/&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_CORE">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+	&lt;cp:lastModifiedBy&gt;PAINTworksUser&lt;/cp:lastModifiedBy&gt;
+	&lt;dcterms:created xsi:type="dcterms:W3CDTF"&gt;{0}&lt;/dcterms:created&gt;
+	&lt;dcterms:modified xsi:type="dcterms:W3CDT [rest of string was truncated]";.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_DRAWINGS_DRAWINGS">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;xdr:wsDr xmlns:xdr="http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"&gt;&lt;xdr:twoCellAnchor editAs="oneCell"&gt;&lt;xdr:from&gt;&lt;xdr:col&gt;{0}&lt;/xdr:col&gt;&lt;xdr:colOff&gt;0&lt;/xdr:colOff&gt;&lt;xdr:row&gt;{1}&lt;/xdr:row&gt;&lt;xdr:rowOff&gt;0&lt;/xdr:rowOff&gt;&lt;/xdr:from&gt;&lt;xdr:to&gt;&lt;xdr:col&gt;{2}&lt;/xdr:col&gt;&lt;xdr:colOff&gt;400050&lt;/xdr:colOff&gt;&lt;xdr:row&gt;{3}&lt;/xdr:row&gt;&lt;xdr:rowOff&gt;85725&lt;/xdr:rowOff&gt;&lt;/xdr:to&gt;&lt;xdr:pic&gt;&lt;xdr:nvPicPr&gt;&lt;xdr [rest of string was truncated]";.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_DRAWINGS_RELS">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"&gt;&lt;Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="{0}"/&gt;&lt;/Relationships&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_RELS1">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"&gt;&lt;Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/&gt;&lt;Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/&gt;&lt;Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2 [rest of string was truncated]";.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_SHAREDSTRING_1">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="{0}" uniqueCount="{1}"&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_SHAREDSTRING_2">
+	<summary>
+  Looks up a localized string similar to &lt;/sst&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_SHAREDSTRING_ITEM">
+	<summary>
+  Looks up a localized string similar to &lt;si&gt;&lt;t&gt;{0}&lt;/t&gt;&lt;/si&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_SHAREDSTRING_ITEM_WS">
+	<summary>
+  Looks up a localized string similar to &lt;si&gt;&lt;t xml:space="preserve"&gt;{0}&lt;/t&gt;&lt;/si&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_SHEET_DRAWING_END">
+	<summary>
+  Looks up a localized string similar to &lt;/sheetData&gt;&lt;phoneticPr fontId="0" type="noConversion"/&gt;&lt;pageMargins left="0.75" right="0.75" top="1" bottom="1" header="0.5" footer="0.5"/&gt;&lt;headerFooter alignWithMargins="0"/&gt;&lt;drawing r:id="rId1"/&gt;&lt;/worksheet&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_SHEET_END">
+	<summary>
+  Looks up a localized string similar to &lt;/sheetData&gt;
+	&lt;phoneticPr fontId="0" type="noConversion"/&gt;
+	&lt;pageMargins left="0.75" right="0.75" top="1" bottom="1" header="0.5" footer="0.5"/&gt;
+	&lt;headerFooter alignWithMargins="0"/&gt;
+&lt;/worksheet&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_SHEET_START">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"&gt;
+	&lt;sheetViews&gt;
+		&lt;sheetView tabSelected="1" workbookViewId="0"&gt;
+			&lt;selection activeCell="A1" sqref="A1"/&gt;
+		&lt;/sheetView&gt;
+	&lt;/sheetViews&gt;
+	&lt;sheetFormatPr defaultRowHeight="12.75"/&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_SHEETS_RELS">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"&gt;&lt;Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/drawing" Target="../drawings/drawing1.xml"/&gt;&lt;/Relationships&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_STYLES">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"&gt;&lt;numFmts count="2"&gt;&lt;numFmt numFmtId="164" formatCode="m/d/yyyy\ h:mm:ss\ AM/PM"/&gt;&lt;numFmt numFmtId="165" formatCode="0.0%"/&gt;&lt;/numFmts&gt;&lt;fonts count="2"&gt;&lt;font&gt;&lt;sz val="10"/&gt;&lt;name val="Arial"/&gt;&lt;/font&gt;&lt;font&gt;&lt;sz val="10"/&gt;&lt;name val="Arial"/&gt;&lt;/font&gt;&lt;/fonts&gt;&lt;fills count="2"&gt;&lt;fill&gt;&lt;patternFill patternType="none"/&gt;&lt;/fill&gt;&lt;fill&gt;&lt;patternFill patternType="gray125"/&gt;&lt;/fill&gt;&lt;/fills&gt;&lt;border [rest of string was truncated]";.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_THEME">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;a:theme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="Office Theme"&gt;&lt;a:themeElements&gt;&lt;a:clrScheme name="Office"&gt;&lt;a:dk1&gt;&lt;a:sysClr val="windowText" lastClr="000000"/&gt;&lt;/a:dk1&gt;&lt;a:lt1&gt;&lt;a:sysClr val="window" lastClr="FFFFFF"/&gt;&lt;/a:lt1&gt;&lt;a:dk2&gt;&lt;a:srgbClr val="1F497D"/&gt;&lt;/a:dk2&gt;&lt;a:lt2&gt;&lt;a:srgbClr val="EEECE1"/&gt;&lt;/a:lt2&gt;&lt;a:accent1&gt;&lt;a:srgbClr val="4F81BD"/&gt;&lt;/a:accent1&gt;&lt;a:accent2&gt;&lt;a:srgbClr val="C0504D"/&gt;&lt;/a:accent2&gt;&lt;a:accent3&gt;&lt;a:srgbClr val= [rest of string was truncated]";.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_WB">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"&gt;&lt;fileVersion appName="xl" lastEdited="4" lowestEdited="4" rupBuild="4506"/&gt;&lt;workbookPr defaultThemeVersion="124226"/&gt;&lt;bookViews&gt;&lt;workbookView xWindow="120" yWindow="135" windowWidth="10005" windowHeight="10005" activeTab="0"/&gt;&lt;/bookViews&gt;&lt;sheets&gt;{0}&lt;/sheets&gt;&lt;calcPr calcId="114210"/&gt;&lt;/workbook&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_WB_SHEET">
+	<summary>
+  Looks up a localized string similar to &lt;sheet name="{0}" sheetId="{1}" r:id="rId{2}"/&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_WB_XML_RELS_1">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_WB_XML_RELS_2">
+	<summary>
+  Looks up a localized string similar to &lt;/Relationships&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_WB_XML_RELS_SHARED">
+	<summary>
+  Looks up a localized string similar to &lt;Relationship Id="rId{0}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings" Target="sharedStrings.xml"/&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_WB_XML_RELS_SHEET">
+	<summary>
+  Looks up a localized string similar to &lt;Relationship Id="rId{0}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet{1}.xml"/&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_WB_XML_RELS_STYLES">
+	<summary>
+  Looks up a localized string similar to &lt;Relationship Id="rId{0}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_WB_XML_RELS_THEME">
+	<summary>
+  Looks up a localized string similar to &lt;Relationship Id="rId{0}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXLSX_WB1TAB">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"&gt;&lt;fileVersion appName="xl" lastEdited="4" lowestEdited="4" rupBuild="4506"/&gt;&lt;workbookPr defaultThemeVersion="124226"/&gt;&lt;bookViews&gt;&lt;workbookView xWindow="120" yWindow="135" windowWidth="10005" windowHeight="10005"/&gt;&lt;/bookViews&gt;&lt;sheets&gt;{0}&lt;/sheets&gt;&lt;calcPr calcId="114210"/&gt;&lt;/workbook&gt;.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csXML_PRINT_HEADER">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;?mso-application progid="Excel.Sheet"?&gt;
+&lt;Workbook xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com: [rest of string was truncated]";.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csZONE_CAP">
+	<summary>
+  Looks up a localized string similar to Zone.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.CommonStrings.csZONE_NAME">
+	<summary>
+  Looks up a localized string similar to Zone Name.
+</summary>
+</member><member name="T:PW_Maint.My.Resources.CommonStrings">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rs_CMD_FLOW_CCMIN">
+	<summary>
+  Looks up a localized string similar to Commanded Flow (cc/min).
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rs1K_Clean_Cycle">
+	<summary>
+  Looks up a localized string similar to 1K Clean Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rs1K_Fill_Cycle">
+	<summary>
+  Looks up a localized string similar to 1K Fill Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsAA">
+	<summary>
+  Looks up a localized string similar to Atomizing Air.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsAA_CAP">
+	<summary>
+  Looks up a localized string similar to Atomizing Air psi.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsAA_UNITS">
+	<summary>
+  Looks up a localized string similar to psi.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsAbove_Cleaner">
+	<summary>
+  Looks up a localized string similar to Wait for above cleaner.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsACA">
+	<summary>
+  Looks up a localized string similar to ACA.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsACA_CAP">
+	<summary>
+  Looks up a localized string similar to ACA.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsACAP_CAP">
+	<summary>
+  Looks up a localized string similar to Gun Cleaner Air.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsACCUSTAT">
+	<summary>
+  Looks up a localized string similar to Accustat.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsACSP">
+	<summary>
+  Looks up a localized string similar to ACSP.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsACSP_CAP">
+	<summary>
+  Looks up a localized string similar to ACSP.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsACTIONEVENT">
+	<summary>
+  Looks up a localized string similar to Action/Event.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsACVA">
+	<summary>
+  Looks up a localized string similar to App Cleaner Vacuum Air.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsACVA_CAP">
+	<summary>
+  Looks up a localized string similar to ACVA.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsAIR_SUPPLY">
+	<summary>
+  Looks up a localized string similar to AIR SUPPLY.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsAQUABELL">
+	<summary>
+  Looks up a localized string similar to AquaBell.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsAt_Home">
+	<summary>
+  Looks up a localized string similar to Wait for at home.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsAt_Purge">
+	<summary>
+  Looks up a localized string similar to Wait for at purge.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsATOMAIR">
+	<summary>
+  Looks up a localized string similar to Atom Air.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsBar">
+	<summary>
+  Looks up a localized string similar to bar.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsBELL">
+	<summary>
+  Looks up a localized string similar to Bell.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsBELL_SPEED">
+	<summary>
+  Looks up a localized string similar to Bell Speed.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsBELL_WASH">
+	<summary>
+  Looks up a localized string similar to Bell Wash.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsBELL2K">
+	<summary>
+  Looks up a localized string similar to 2K Bell.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsBELLSPEED">
+	<summary>
+  Looks up a localized string similar to Bell Speed.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsBS">
+	<summary>
+  Looks up a localized string similar to Bell Speed.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsBS_CAP">
+	<summary>
+  Looks up a localized string similar to Bell Speed krpm.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsBS_UNITS">
+	<summary>
+  Looks up a localized string similar to krpm.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsBSC">
+	<summary>
+  Looks up a localized string similar to Bell Speed.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsBSC_CAP">
+	<summary>
+  Looks up a localized string similar to Bell Speed krpm.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsBSC_UNITS">
+	<summary>
+  Looks up a localized string similar to krpm.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCAN_POS">
+	<summary>
+  Looks up a localized string similar to Canister Position.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCAN_TORQUE">
+	<summary>
+  Looks up a localized string similar to Canister Torque.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCap_Clean_Cycle">
+	<summary>
+  Looks up a localized string similar to Cap Clean Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCap_Cup_Wash_Cycle">
+	<summary>
+  Looks up a localized string similar to Cap/Cup Wash Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCatalyst_Enab">
+	<summary>
+  Looks up a localized string similar to pHE.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCatalyst_Enab_CAP">
+	<summary>
+  Looks up a localized string similar to pHE.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCC_MIN">
+	<summary>
+  Looks up a localized string similar to cc/min.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCC_PRESETS">
+	<summary>
+  Looks up a localized string similar to Color Change Presets.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCCMIN">
+	<summary>
+  Looks up a localized string similar to cc/min.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCCS">
+	<summary>
+  Looks up a localized string similar to cc.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCE">
+	<summary>
+  Looks up a localized string similar to CE.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCE_CAP">
+	<summary>
+  Looks up a localized string similar to Color Enable.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCLEAN_OUT">
+	<summary>
+  Looks up a localized string similar to Clean Out.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsClean_Out_Cycle">
+	<summary>
+  Looks up a localized string similar to Clean Out Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCLEAN_OUT2">
+	<summary>
+  Looks up a localized string similar to Clean Out 2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCLEAN_STACK">
+	<summary>
+  Looks up a localized string similar to Clean Stack.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCLEAN_STACK2">
+	<summary>
+  Looks up a localized string similar to Clean Stack 2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsColor_Enable">
+	<summary>
+  Looks up a localized string similar to CE.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsColor_Enable_CAP">
+	<summary>
+  Looks up a localized string similar to Color Enable.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCONNSTAT_AVAIL">
+	<summary>
+  Looks up a localized string similar to AVAILABLE.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCONNSTAT_CONNECTED">
+	<summary>
+  Looks up a localized string similar to CONNECTED.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCONNSTAT_DISCONNECTING">
+	<summary>
+  Looks up a localized string similar to DISCONNECTING.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCONNSTAT_UNAVAIL">
+	<summary>
+  Looks up a localized string similar to UNAVAILABLE.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCONNSTAT_UNKNOWN">
+	<summary>
+  Looks up a localized string similar to UNKNOWN.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsCOUNTS">
+	<summary>
+  Looks up a localized string similar to Counts.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsDURATION">
+	<summary>
+  Looks up a localized string similar to Duration.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsENG_UNITS">
+	<summary>
+  Looks up a localized string similar to Engineering Units.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsES">
+	<summary>
+  Looks up a localized string similar to Estat.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsES_CAP">
+	<summary>
+  Looks up a localized string similar to Estat kv.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsES_UNITS">
+	<summary>
+  Looks up a localized string similar to kv.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsESTAT">
+	<summary>
+  Looks up a localized string similar to E-stat.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsESTATS">
+	<summary>
+  Looks up a localized string similar to Estats.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsExit_App_Clnr">
+	<summary>
+  Looks up a localized string similar to Exit applicator cleaner..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFA">
+	<summary>
+  Looks up a localized string similar to Fan Air.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFA_CAP">
+	<summary>
+  Looks up a localized string similar to Fan Air psi.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFA_UNITS">
+	<summary>
+  Looks up a localized string similar to psi.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFANAIR">
+	<summary>
+  Looks up a localized string similar to Fan Air.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFast_Fill">
+	<summary>
+  Looks up a localized string similar to Fast Fill.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFF">
+	<summary>
+  Looks up a localized string similar to Paint.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFF_CAP">
+	<summary>
+  Looks up a localized string similar to Paint cc/min.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFF_UNITS">
+	<summary>
+  Looks up a localized string similar to cc/min.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFILL">
+	<summary>
+  Looks up a localized string similar to Fill.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFill_Cycle">
+	<summary>
+  Looks up a localized string similar to Fill Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFILL_STACK">
+	<summary>
+  Looks up a localized string similar to Fill Stack.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFILL_STACK2">
+	<summary>
+  Looks up a localized string similar to Fill Stack 2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFILL2">
+	<summary>
+  Looks up a localized string similar to Fill 2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFLOWRATE">
+	<summary>
+  Looks up a localized string similar to Flow Rate.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFLUID_FLOW">
+	<summary>
+  Looks up a localized string similar to Fluid Flow.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFULL_PUSH">
+	<summary>
+  Looks up a localized string similar to Full Push.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFull_Push_to_Dump">
+	<summary>
+  Looks up a localized string similar to Full Push to Dump.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsFULL_PUSH2">
+	<summary>
+  Looks up a localized string similar to Full Push 2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGoto_App_Clnr">
+	<summary>
+  Looks up a localized string similar to Go to Applicator Cleaner position..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGoto_CanEmpty">
+	<summary>
+  Looks up a localized string similar to Go to Can Empty position..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGoto_CanFull">
+	<summary>
+  Looks up a localized string similar to Go to Can Full position..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGoto_Clean">
+	<summary>
+  Looks up a localized string similar to Go to Clean.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGoto_DeDock">
+	<summary>
+  Looks up a localized string similar to Go to DeDock.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGoto_Dock">
+	<summary>
+  Looks up a localized string similar to Go to Dock.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGoto_Home">
+	<summary>
+  Looks up a localized string similar to Go to Home position..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGoto_Purge">
+	<summary>
+  Looks up a localized string similar to Go to Purge position..
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGUN">
+	<summary>
+  Looks up a localized string similar to Gun.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGun__1">
+	<summary>
+  Looks up a localized string similar to Gun 1.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGun__1_CAP">
+	<summary>
+  Looks up a localized string similar to Gun 1.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGUN_1K">
+	<summary>
+  Looks up a localized string similar to 1K Gun.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGUN_2K">
+	<summary>
+  Looks up a localized string similar to 2K Gun.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGUN_2K_MICA">
+	<summary>
+  Looks up a localized string similar to 2K Gun Mica.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGUN_2K_PIG">
+	<summary>
+  Looks up a localized string similar to 2K Gun Pig.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGUN_DUAL_PURGE">
+	<summary>
+  Looks up a localized string similar to Dual Purge Gun.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGUN_MOD_DUAL_PURGE">
+	<summary>
+  Looks up a localized string similar to Mod. Dual Purge Gun.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsGUN_SINGLE_PURGE">
+	<summary>
+  Looks up a localized string similar to Single Purge Gun.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHONDA_1K">
+	<summary>
+  Looks up a localized string similar to Honda 1k.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHONDA_WB">
+	<summary>
+  Looks up a localized string similar to Honda Waterborne.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHWB_CAN_POS">
+	<summary>
+  Looks up a localized string similar to Can. Pos. (cc).
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHWB_CAN_TORQUE">
+	<summary>
+  Looks up a localized string similar to Can. Torq. (Amps).
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHWB_CMD_FLOW_CCMIN">
+	<summary>
+  Looks up a localized string similar to Flow Cmd. (cc/min).
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHWB_DOCK_POS">
+	<summary>
+  Looks up a localized string similar to Dock Position.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHWB_DOCK_POS_CLN">
+	<summary>
+  Looks up a localized string similar to Clean.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHWB_DOCK_POS_DDK">
+	<summary>
+  Looks up a localized string similar to De-Dock.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHWB_DOCK_POS_DOCK">
+	<summary>
+  Looks up a localized string similar to Dock.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHWB_DOCK_POS_UNK">
+	<summary>
+  Looks up a localized string similar to Unknown.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHWB_DOCK_TORQUE">
+	<summary>
+  Looks up a localized string similar to Dock Force (N).
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHWB_HIGH_AIR_SUPPLY">
+	<summary>
+  Looks up a localized string similar to HIGH AIR SUPPLY.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHWB_LOW_AIR_SUPPLY">
+	<summary>
+  Looks up a localized string similar to LOW AIR SUPPLY.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHWB_WATER_SUPPLY">
+	<summary>
+  Looks up a localized string similar to WATER SUPPLY.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsHWB_WATERSOLV_SUPPLY">
+	<summary>
+  Looks up a localized string similar to WATER/SOLVENT SUPPLY.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsIn_Cleaner">
+	<summary>
+  Looks up a localized string similar to Wait for in cleaner.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsIN_PRESSURE">
+	<summary>
+  Looks up a localized string similar to Inlet Pressure  (psi).
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsKRPM">
+	<summary>
+  Looks up a localized string similar to krpm.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsKV">
+	<summary>
+  Looks up a localized string similar to kV.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsLast_Fill">
+	<summary>
+  Looks up a localized string similar to Last Fill.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsLPM">
+	<summary>
+  Looks up a localized string similar to lpm.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsMotor_To_Stop">
+	<summary>
+  Looks up a localized string similar to Wait for motor to stop.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsMOTOR2_TO_STO">
+	<summary>
+  Looks up a localized string similar to Wait for motor 2 to stop.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsNA">
+	<summary>
+  Looks up a localized string similar to Paint.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsNA_CAP">
+	<summary>
+  Looks up a localized string similar to Paint cc/min.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsNA_UNITS">
+	<summary>
+  Looks up a localized string similar to cc/min.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsNO_ACTION">
+	<summary>
+  Looks up a localized string similar to No Action.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsNO_EVENT">
+	<summary>
+  Looks up a localized string similar to No Event.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsNODESCRIPTION">
+	<summary>
+  Looks up a localized string similar to No Description.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsNONE">
+	<summary>
+  Looks up a localized string similar to None.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsNUM_STEPS">
+	<summary>
+  Looks up a localized string similar to number of steps.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsOne_Fill">
+	<summary>
+  Looks up a localized string similar to One Fill.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsOUT_PRESSURE">
+	<summary>
+  Looks up a localized string similar to Outlet Pressure (psi).
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsp2T">
+	<summary>
+  Looks up a localized string similar to p2T.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsp2T_CAP">
+	<summary>
+  Looks up a localized string similar to p2T.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspACA">
+	<summary>
+  Looks up a localized string similar to App Clener Air.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspACA_CAP">
+	<summary>
+  Looks up a localized string similar to pACA.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspACDA">
+	<summary>
+  Looks up a localized string similar to App Cleaner Dry Air.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspACDA_CAP">
+	<summary>
+  Looks up a localized string similar to pACDA.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspACS">
+	<summary>
+  Looks up a localized string similar to App Cleaner Solvent.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspACS_CAP">
+	<summary>
+  Looks up a localized string similar to pACS.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspACVA">
+	<summary>
+  Looks up a localized string similar to pACVA.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPAINT">
+	<summary>
+  Looks up a localized string similar to Paint.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPAINT_SUPPLY">
+	<summary>
+  Looks up a localized string similar to PAINTSUPPLY.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspAIR">
+	<summary>
+  Looks up a localized string similar to Purge Air.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspAIR_CAP">
+	<summary>
+  Looks up a localized string similar to pAir.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPAP">
+	<summary>
+  Looks up a localized string similar to Purge Air Pilot.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPAP_CAP">
+	<summary>
+  Looks up a localized string similar to PAP.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspBW">
+	<summary>
+  Looks up a localized string similar to Bell Wash.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPBW_BW2_CAP">
+	<summary>
+  Looks up a localized string similar to pBW/BW2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspBW_CAP">
+	<summary>
+  Looks up a localized string similar to pBW.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspCAN">
+	<summary>
+  Looks up a localized string similar to Canister.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspCAN_CAP">
+	<summary>
+  Looks up a localized string similar to pCAN.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPCAN2_CAP">
+	<summary>
+  Looks up a localized string similar to pCAN2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPCAN3_CAP">
+	<summary>
+  Looks up a localized string similar to pCAN3.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPCAN4_CAP">
+	<summary>
+  Looks up a localized string similar to pCAN4.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspCC">
+	<summary>
+  Looks up a localized string similar to Purge Color Changer.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspCC_CAP">
+	<summary>
+  Looks up a localized string similar to PCC.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspCC1_24">
+	<summary>
+  Looks up a localized string similar to Color Enable.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspCC1_24_CAP">
+	<summary>
+  Looks up a localized string similar to pCE.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspCUP_AH">
+	<summary>
+  Looks up a localized string similar to Cup A-H.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspCUP_AH_CAP">
+	<summary>
+  Looks up a localized string similar to Cup A-H.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspCUP_AL">
+	<summary>
+  Looks up a localized string similar to Cup A-L.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspCUP_AL_CAP">
+	<summary>
+  Looks up a localized string similar to Cup A-L.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspCUP_SP">
+	<summary>
+  Looks up a localized string similar to Cup S-P.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspCUP_SP_CAP">
+	<summary>
+  Looks up a localized string similar to Cup S-P.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPD">
+	<summary>
+  Looks up a localized string similar to PD.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPD_CAP">
+	<summary>
+  Looks up a localized string similar to pDUMP.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspDUMP">
+	<summary>
+  Looks up a localized string similar to Dump .
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspDUMP_CAP">
+	<summary>
+  Looks up a localized string similar to pDUMP.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspDUMP2">
+	<summary>
+  Looks up a localized string similar to Dump 2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspDUMP2_CAP">
+	<summary>
+  Looks up a localized string similar to pDUMP2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspDUMP3">
+	<summary>
+  Looks up a localized string similar to #WB#Reserved#DEF#Dump 3.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspDUMP3_CAP">
+	<summary>
+  Looks up a localized string similar to #WB#Reserved#DEF#pDUMP3.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPDUMP4_CAP">
+	<summary>
+  Looks up a localized string similar to pDUMP4.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspDV">
+	<summary>
+  Looks up a localized string similar to pDV.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspDV_CAP">
+	<summary>
+  Looks up a localized string similar to pDV.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPF">
+	<summary>
+  Looks up a localized string similar to PF.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPF_CAP">
+	<summary>
+  Looks up a localized string similar to Paint Fill.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspFLULSH">
+	<summary>
+  Looks up a localized string similar to pFLUSH.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspFLUSH">
+	<summary>
+  Looks up a localized string similar to Flush.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspFLUSH_CAP">
+	<summary>
+  Looks up a localized string similar to Flush.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspFLUSH2">
+	<summary>
+  Looks up a localized string similar to Flush2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspFLUSH2_CAP">
+	<summary>
+  Looks up a localized string similar to Flush2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspGV">
+	<summary>
+  Looks up a localized string similar to pGV.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspGV_CAP">
+	<summary>
+  Looks up a localized string similar to pGV.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspHA">
+	<summary>
+  Looks up a localized string similar to pHA.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspHA_CAP">
+	<summary>
+  Looks up a localized string similar to High Air.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspHW">
+	<summary>
+  Looks up a localized string similar to pHW.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspHW_CAP">
+	<summary>
+  Looks up a localized string similar to High Water.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspIAIR">
+	<summary>
+  Looks up a localized string similar to pIAIR.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspIAIR_CAP">
+	<summary>
+  Looks up a localized string similar to pIAIR.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPIAIR1_CAP">
+	<summary>
+  Looks up a localized string similar to pIAIR1.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPIAIR2_CAP">
+	<summary>
+  Looks up a localized string similar to pIAIR2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPIAIR3_CAP">
+	<summary>
+  Looks up a localized string similar to pIAIR3.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPIAIR4_CAP">
+	<summary>
+  Looks up a localized string similar to pIAIR4.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPISOL3_CAP">
+	<summary>
+  Looks up a localized string similar to pISOL3.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPISOL4_CAP">
+	<summary>
+  Looks up a localized string similar to pISOL4.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspIW">
+	<summary>
+  Looks up a localized string similar to pIW.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspIW_CAP">
+	<summary>
+  Looks up a localized string similar to pIW.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspLA">
+	<summary>
+  Looks up a localized string similar to pLA.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspLA_CAP">
+	<summary>
+  Looks up a localized string similar to Low Air.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspLW">
+	<summary>
+  Looks up a localized string similar to pLW.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspLW_CAP">
+	<summary>
+  Looks up a localized string similar to Low Water.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPOS_ATBYPASS">
+	<summary>
+  Looks up a localized string similar to At Bypass.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPOS_BYPASS">
+	<summary>
+  Looks up a localized string similar to Bypass.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPOS_CANC_CONT">
+	<summary>
+  Looks up a localized string similar to Wait Canc/Cont.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPOS_CONC_ONLY">
+	<summary>
+  Looks up a localized string similar to Wait Canc Only.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPOS_HOME">
+	<summary>
+  Looks up a localized string similar to Home.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPOS_INCYCLE">
+	<summary>
+  Looks up a localized string similar to In Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPOS_PURGE">
+	<summary>
+  Looks up a localized string similar to Purge.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPOS_SP1">
+	<summary>
+  Looks up a localized string similar to At Maintenance.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPOS_SP2">
+	<summary>
+  Looks up a localized string similar to At Cover Change.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPOS_UNKNOWN">
+	<summary>
+  Looks up a localized string similar to Unknown.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPot_Life_Clean_Cyc">
+	<summary>
+  Looks up a localized string similar to Pot Life Clean Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPot_Life_Fill_Cycl">
+	<summary>
+  Looks up a localized string similar to Pot Life Fill Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPOWDER">
+	<summary>
+  Looks up a localized string similar to Powder.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPP">
+	<summary>
+  Looks up a localized string similar to PP.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPP_CAP">
+	<summary>
+  Looks up a localized string similar to Piston Pressure.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspPAINT">
+	<summary>
+  Looks up a localized string similar to Paint.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspPAINT_CAP">
+	<summary>
+  Looks up a localized string similar to pPAINT.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPPAINT2_CAP">
+	<summary>
+  Looks up a localized string similar to pPAINT2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspPE">
+	<summary>
+  Looks up a localized string similar to Paint Enable.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspPE_CAP">
+	<summary>
+  Looks up a localized string similar to pPE.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspPI">
+	<summary>
+  Looks up a localized string similar to pPI.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspPI_CAP">
+	<summary>
+  Looks up a localized string similar to pPI.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPPI1_CAP">
+	<summary>
+  Looks up a localized string similar to pPI1.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPPI2_CAP">
+	<summary>
+  Looks up a localized string similar to pPI2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPRESET">
+	<summary>
+  Looks up a localized string similar to Preset.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspSEAL">
+	<summary>
+  Looks up a localized string similar to Seal.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspSEAL_CAP">
+	<summary>
+  Looks up a localized string similar to pSeal.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPSEL1_CAP">
+	<summary>
+  Looks up a localized string similar to pSEL1.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPSEL2_CAP">
+	<summary>
+  Looks up a localized string similar to pSEL2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPSI">
+	<summary>
+  Looks up a localized string similar to psi.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspSOL">
+	<summary>
+  Looks up a localized string similar to Purge Solvent.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspSOL_CAP">
+	<summary>
+  Looks up a localized string similar to pSOL.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspSOL2">
+	<summary>
+  Looks up a localized string similar to Solvent 2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspSOL2_CAP">
+	<summary>
+  Looks up a localized string similar to pSOL2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPSOLA_CAP">
+	<summary>
+  Looks up a localized string similar to pSOLA.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPSP">
+	<summary>
+  Looks up a localized string similar to Purge Solvent.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPSP_CAP">
+	<summary>
+  Looks up a localized string similar to PSP.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPT">
+	<summary>
+  Looks up a localized string similar to Trigget.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPT_CAP">
+	<summary>
+  Looks up a localized string similar to PT.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspTRIG">
+	<summary>
+  Looks up a localized string similar to Trigger.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspTRIG_CAP">
+	<summary>
+  Looks up a localized string similar to pTRIG.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPush_Out_Cycle">
+	<summary>
+  Looks up a localized string similar to Push Out Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspVAC">
+	<summary>
+  Looks up a localized string similar to pVAC.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspVAC_CAP">
+	<summary>
+  Looks up a localized string similar to pVAC.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsPVAC2_CAP">
+	<summary>
+  Looks up a localized string similar to pVAC2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspVAIR">
+	<summary>
+  Looks up a localized string similar to pVAIR.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspVAIR_CAP">
+	<summary>
+  Looks up a localized string similar to pVAIR.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspVENT">
+	<summary>
+  Looks up a localized string similar to Vent.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspVENT_CAP">
+	<summary>
+  Looks up a localized string similar to pVent.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspWASH">
+	<summary>
+  Looks up a localized string similar to Wash.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspWASH_CAP">
+	<summary>
+  Looks up a localized string similar to pWash.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspWS">
+	<summary>
+  Looks up a localized string similar to pWS.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspWS_CAP">
+	<summary>
+  Looks up a localized string similar to Water/Solv.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspX">
+	<summary>
+  Looks up a localized string similar to pX.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspX_CAP">
+	<summary>
+  Looks up a localized string similar to pX.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspY">
+	<summary>
+  Looks up a localized string similar to pY.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rspY_CAP">
+	<summary>
+  Looks up a localized string similar to pY.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsREFILL">
+	<summary>
+  Looks up a localized string similar to Refill.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsRefill_Cycle">
+	<summary>
+  Looks up a localized string similar to Refill Cycle.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsREFILL2">
+	<summary>
+  Looks up a localized string similar to Refill 2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsREG_ORIDE">
+	<summary>
+  Looks up a localized string similar to Regulator Override.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsREG_OVERIDE">
+	<summary>
+  Looks up a localized string similar to RO.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsREG_OVERIDE_CAP">
+	<summary>
+  Looks up a localized string similar to Regulator Override.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsRESERVED">
+	<summary>
+  Looks up a localized string similar to Reserved.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsRESERVED_CAP">
+	<summary>
+  Looks up a localized string similar to Reserved.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsRO">
+	<summary>
+  Looks up a localized string similar to RO.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsRO_CAP">
+	<summary>
+  Looks up a localized string similar to Regulator Override.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSA">
+	<summary>
+  Looks up a localized string similar to Shaping Air 1.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSA_CAP">
+	<summary>
+  Looks up a localized string similar to Shaping Air 1 sLPM.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSA_UNITS">
+	<summary>
+  Looks up a localized string similar to sLPM.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSA2">
+	<summary>
+  Looks up a localized string similar to Shaping Air 2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSA2_CAP">
+	<summary>
+  Looks up a localized string similar to Shaping Air 2 sLPM.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSA2_UNITS">
+	<summary>
+  Looks up a localized string similar to sLPM.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSA2Cap">
+	<summary>
+  Looks up a localized string similar to SA 2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSAC">
+	<summary>
+  Looks up a localized string similar to Shaping Air.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSAC_CAP">
+	<summary>
+  Looks up a localized string similar to Shaping Air sLPM.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSAC_UNITS">
+	<summary>
+  Looks up a localized string similar to sLPM.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSACap">
+	<summary>
+  Looks up a localized string similar to SA 1.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSERVOBELL">
+	<summary>
+  Looks up a localized string similar to Servobell.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSHAPE_AIR2">
+	<summary>
+  Looks up a localized string similar to Shaping Air 2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSHAPING_AIR">
+	<summary>
+  Looks up a localized string similar to Shaping Air.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSHAPINGAIR">
+	<summary>
+  Looks up a localized string similar to Shaping Air 1.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSHAPINGAIR2">
+	<summary>
+  Looks up a localized string similar to Shaping Air 2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSlow_Fill">
+	<summary>
+  Looks up a localized string similar to Slow Fill.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSLPM">
+	<summary>
+  Looks up a localized string similar to slpm.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSOLVENT_SUPPLY">
+	<summary>
+  Looks up a localized string similar to SOLVENT SUPPLY.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSPARE">
+	<summary>
+  Looks up a localized string similar to Spare.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSpare_1">
+	<summary>
+  Looks up a localized string similar to Spare Cycle 1.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSPARE1_1">
+	<summary>
+  Looks up a localized string similar to Spare1-1.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSPARE1_2">
+	<summary>
+  Looks up a localized string similar to Spare1-2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSPARE1_3">
+	<summary>
+  Looks up a localized string similar to Spare1-3.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSPARE1_4">
+	<summary>
+  Looks up a localized string similar to Spare1-4.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSpare1_Cycle">
+	<summary>
+  Looks up a localized string similar to Spare Cycle 1.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSPARE2_1">
+	<summary>
+  Looks up a localized string similar to Spare2-1.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSPARE2_2">
+	<summary>
+  Looks up a localized string similar to Spare2-2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSPARE2_3">
+	<summary>
+  Looks up a localized string similar to Spare2-3.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSPARE2_4">
+	<summary>
+  Looks up a localized string similar to Spare2-4.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSpare2_Cycle">
+	<summary>
+  Looks up a localized string similar to Spare Cycle 2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSTEP">
+	<summary>
+  Looks up a localized string similar to Step.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsSuper_Purge">
+	<summary>
+  Looks up a localized string similar to Super Purge.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsTA">
+	<summary>
+  Looks up a localized string similar to Bell Speed.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsTA_CAP">
+	<summary>
+  Looks up a localized string similar to Bell Speed kRPM.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsTRIG_FILL">
+	<summary>
+  Looks up a localized string similar to Trig Fill.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsTRIG_FILL2">
+	<summary>
+  Looks up a localized string similar to Trig Fill 2.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsUA">
+	<summary>
+  Looks up a localized string similar to µA.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsUnused">
+	<summary>
+  Looks up a localized string similar to NA.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsUnused_CAP">
+	<summary>
+  Looks up a localized string similar to Unused.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVALVE">
+	<summary>
+  Looks up a localized string similar to Valve.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVERSABELL">
+	<summary>
+  Looks up a localized string similar to Versabell.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVERSABELL_2K">
+	<summary>
+  Looks up a localized string similar to Versabell 2K.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVERSABELL2">
+	<summary>
+  Looks up a localized string similar to Versabell II.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVERSABELL2_2K">
+	<summary>
+  Looks up a localized string similar to Versabell II 2K.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVERSABELL2_2K_1PLUS1">
+	<summary>
+  Looks up a localized string similar to Versabell II 2K 1+1.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVERSABELL2_2K_MULTIRESIN">
+	<summary>
+  Looks up a localized string similar to Versabell 2K Multiresin.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVERSABELL2_PLUS">
+	<summary>
+  Looks up a localized string similar to Versabell II+.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVERSABELL2_PLUS_WB">
+	<summary>
+  Looks up a localized string similar to P-700 WB.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVERSABELL2_WB">
+	<summary>
+  Looks up a localized string similar to P-500 WB.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVERSABELL3">
+	<summary>
+  Looks up a localized string similar to VB III.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVERSABELL3_DUAL_WB">
+	<summary>
+  Looks up a localized string similar to VB 3 Dual Can.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVERSABELL3_WB">
+	<summary>
+  Looks up a localized string similar to VB 3 WB.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVERSABELL3P1000">
+	<summary>
+  Looks up a localized string similar to VB III P-1000.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVOL">
+	<summary>
+  Looks up a localized string similar to Volume.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVOL_CAP">
+	<summary>
+  Looks up a localized string similar to Volume cc.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsVOL_UNITS">
+	<summary>
+  Looks up a localized string similar to cc.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsWAIT_FOR_TORQ">
+	<summary>
+  Looks up a localized string similar to Wait for torque.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsWait_S_Unit">
+	<summary>
+  Looks up a localized string similar to Wait for S-Unit.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsWB_CAN_POS">
+	<summary>
+  Looks up a localized string similar to Can. Pos. (cc).
+</summary>
+</member><member name="P:PW_Maint.My.Resources.RobotStrings.rsWB_CAN_TORQUE">
+	<summary>
+  Looks up a localized string similar to Can. Torq. (Amps).
+</summary>
+</member><member name="T:PW_Maint.My.Resources.RobotStrings">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:PW_Maint.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:PW_Maint.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,28 @@
+C:\Paint\Vbapps\DMONSchedMan.exe
+C:\Paint\Vbapps\DMONSchedMan.pdb
+C:\Paint\Vbapps\de-DE\DMONSchedMan.resources.dll
+C:\Paint\Vbapps\es-ES\DMONSchedMan.resources.dll
+C:\Paint\Vbapps\en-CA\DMONSchedMan.resources.dll
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\ResolveAssemblyReference.cache
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.CommonStrings.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.frmPrintOptions.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.RobotStrings.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.frmBrowse.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.frmMain.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.frmImport.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.Resources.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.ProjectStrings.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.CommonStrings.de-DE.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.CommonStrings.es-ES.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.CommonStrings.en-CA.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.RobotStrings.en-CA.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.RobotStrings.es-ES.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.ProjectStrings.de-DE.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.ProjectStrings.en-CA.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.ProjectStrings.es-ES.resources
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.vbproj.GenerateResource.Cache
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\de-DE\DMONSchedMan.resources.dll
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\es-ES\DMONSchedMan.resources.dll
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\en-CA\DMONSchedMan.resources.dll
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.exe
+C:\Paint\Source\Process\DMON SchedMan.NET\obj\Release\DMONSchedMan.pdb

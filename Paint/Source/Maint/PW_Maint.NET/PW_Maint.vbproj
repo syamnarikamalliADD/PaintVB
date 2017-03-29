@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DE3BB38D-C500-4ED6-9230-117BE5F57D30}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PW_Maint.My.MyApplication</StartupObject>
+    <RootNamespace>PW_Maint</RootNamespace>
+    <AssemblyName>PW_Maint</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <OptionStrict>On</OptionStrict>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <ApplicationIcon>PW_Maint.ico</ApplicationIcon>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PW_Maint.NET.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>Full</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Vbapps\</OutputPath>
+    <DocumentationFile>PW_Maint.NET.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Crypto, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.FRRobot, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\Interop.FRRobot.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.FRRobotNeighborhood, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\Interop.FRRobotNeighborhood.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.FSFTPLib, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\Interop.FSFTPLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.JRO, Version=2.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\Interop.JRO.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.SqlEnum, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.WmiEnum, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="PLCComm, Version=4.1.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\VBApps\PLCComm.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Globalization" />
+    <Import Include="System.IO" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Common.NET\clsDBAccess.vb">
+      <Link>clsDBAccess.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsFSFtp.vb">
+      <Link>clsFSFtp.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsInterProcessComm.vb">
+      <Link>clsInterProcessComm.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsPrintHtml.vb">
+      <Link>clsPrintHtml.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsScreenCapture.vb">
+      <Link>clsScreenCapture.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsSQLAccess.vb">
+      <Link>clsSQLAccess.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CommonStrings.Designer.vb">
+      <Link>CommonStrings.Designer.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommonStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mMathFunctions.vb">
+      <Link>mMathFunctions.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\RobotStrings.en-CA.Designer.vb">
+      <Link>RobotStrings.en-CA.Designer.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RobotStrings.en-CA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\frmPrintOptions\frmPrintOptions.designer.vb">
+      <Link>frmPrintOptions.designer.vb</Link>
+      <DependentUpon>frmPrintOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\frmPrintOptions\frmPrintOptions.vb">
+      <Link>frmPrintOptions.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Maintenance.vb">
+      <Link>Maintenance.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mApplicators.vb">
+      <Link>mApplicators.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mDebug.vb">
+      <Link>mDebug.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mDeclares.vb">
+      <Link>mDeclares.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mLanguage.vb">
+      <Link>mLanguage.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mPWCommon.vb">
+      <Link>mPWCommon.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Placeholders\AlarmAssocData.vb">
+      <Link>AlarmAssocData.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Placeholders\clsDMONCfg.vb">
+      <Link>clsDMONCfg.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Placeholders\SysColors.vb">
+      <Link>SysColors.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Robots.vb">
+      <Link>Robots.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\RobotStrings.Designer.vb">
+      <Link>RobotStrings.Designer.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RobotStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\RobotStrings.es-ES.Designer.vb">
+      <Link>RobotStrings.es-ES.Designer.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RobotStrings.es-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\ValueClasses.vb">
+      <Link>ValueClasses.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Zones.vb">
+      <Link>Zones.vb</Link>
+    </Compile>
+    <Compile Include="ProjectStrings.de-DE.vb">
+      <DependentUpon>ProjectStrings.de-DE.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ProjectStrings.en-CA.vb">
+      <DependentUpon>ProjectStrings.en-CA.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStart.Designer.vb">
+      <DependentUpon>frmStart.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ProjectStrings.es-ES.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectStrings.es-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectStrings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectStrings.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\Common.NET\CommonStrings.de-DE.resx">
+      <Link>CommonStrings.de-DE.resx</Link>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CommonStrings.es-ES.resx">
+      <Link>CommonStrings.es-ES.resx</Link>
+      <SubType>Designer</SubType>
+      <LastGenOutput>CommonStrings.es-ES.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CommonStrings.resx">
+      <Link>CommonStrings.resx</Link>
+      <SubType>Designer</SubType>
+      <LastGenOutput>CommonStrings.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CommonStrings.en-CA.resx">
+      <Link>CommonStrings.en-CA.resx</Link>
+      <SubType>Designer</SubType>
+      <LastGenOutput>CommonStrings.en-CA.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\RobotStrings.de-DE.resx">
+      <Link>RobotStrings.en-CA.resx</Link>
+      <SubType>Designer</SubType>
+      <LastGenOutput>RobotStrings.de-DE.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\RobotStrings.en-CA.resx">
+      <Link>RobotStrings.en-CA.resx</Link>
+      <SubType>Designer</SubType>
+      <LastGenOutput>RobotStrings.en-CA.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\frmPrintOptions\frmPrintOptions.resx">
+      <Link>frmPrintOptions.resx</Link>
+      <DependentUpon>frmPrintOptions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\RobotStrings.es-ES.resx">
+      <Link>RobotStrings.es-ES.resx</Link>
+      <SubType>Designer</SubType>
+      <LastGenOutput>RobotStrings.es-ES.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\RobotStrings.resx">
+      <Link>RobotStrings.resx</Link>
+      <SubType>Designer</SubType>
+      <LastGenOutput>RobotStrings.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectStrings.de-DE.resx">
+      <LastGenOutput>ProjectStrings.de-DE.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectStrings.en-CA.resx">
+      <LastGenOutput>ProjectStrings.en-CA.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStart.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectStrings.es-ES.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectStrings.es-ES.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectStrings.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <LastGenOutput>ProjectStrings.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PW_Maint.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

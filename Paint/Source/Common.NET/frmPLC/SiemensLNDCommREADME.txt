@@ -1,0 +1,1 @@
+NOTE: libnodave.dll file must reside in C:\Windows\System32 folder.

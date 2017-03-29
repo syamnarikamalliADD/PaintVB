@@ -1,0 +1,49 @@
+C:\Paint\VbApps\Job Setup.exe
+C:\Paint\VbApps\Job Setup.pdb
+C:\Paint\VbApps\de-DE\Job Setup.resources.dll
+C:\Paint\VbApps\es-ES\Job Setup.resources.dll
+C:\Paint\VbApps\en-CA\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\ResolveAssemblyReference.cache
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.CommonStrings.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.frmCopy.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.frmPrintOptions.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.RobotStrings.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.frmMain.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.Resources.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.ProjectStrings.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.CommonStrings.de-DE.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.CommonStrings.es-ES.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.CommonStrings.en-CA.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.RobotStrings.en-CA.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.RobotStrings.es-ES.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.ProjectStrings.de-DE.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.ProjectStrings.en-CA.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job_Setup.ProjectStrings.es-ES.resources
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\JobSetup.vbproj.GenerateResource.Cache
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\de-DE\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\es-ES\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\en-CA\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job Setup.exe
+C:\Paint\Source\Config\JobSetup.net - Style By Degrade Option DAP\obj\Release\Job Setup.pdb
+C:\Paint\Source\Config\JobSetup.net\obj\Release\ResolveAssemblyReference.cache
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.CommonStrings.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.frmCopy.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.frmPrintOptions.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.RobotStrings.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.frmMain.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.Resources.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.ProjectStrings.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.CommonStrings.de-DE.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.CommonStrings.es-ES.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.CommonStrings.en-CA.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.RobotStrings.en-CA.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.RobotStrings.es-ES.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.ProjectStrings.de-DE.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.ProjectStrings.en-CA.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job_Setup.ProjectStrings.es-ES.resources
+C:\Paint\Source\Config\JobSetup.net\obj\Release\JobSetup.vbproj.GenerateResource.Cache
+C:\Paint\Source\Config\JobSetup.net\obj\Release\de-DE\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net\obj\Release\es-ES\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net\obj\Release\en-CA\Job Setup.resources.dll
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job Setup.exe
+C:\Paint\Source\Config\JobSetup.net\obj\Release\Job Setup.pdb

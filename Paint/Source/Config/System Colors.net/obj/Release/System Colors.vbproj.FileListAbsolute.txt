@@ -1,0 +1,31 @@
+C:\Paint\Vbapps\System Colors.exe.manifest
+C:\Paint\Vbapps\System Colors.application
+C:\Paint\Vbapps\System Colors.exe
+C:\Paint\Vbapps\System Colors.pdb
+C:\Paint\Vbapps\de-DE\System Colors.resources.dll
+C:\Paint\Vbapps\es-ES\System Colors.resources.dll
+C:\Paint\Vbapps\en-CA\System Colors.resources.dll
+C:\Paint\Source\Config\System Colors.net\obj\Release\ResolveAssemblyReference.cache
+C:\Paint\Source\Config\System Colors.net\obj\Release\SystemColors.CommonStrings.resources
+C:\Paint\Source\Config\System Colors.net\obj\Release\SystemColors.frmPrintOptions.resources
+C:\Paint\Source\Config\System Colors.net\obj\Release\SystemColors.RobotStrings.resources
+C:\Paint\Source\Config\System Colors.net\obj\Release\SystemColors.frmMain.resources
+C:\Paint\Source\Config\System Colors.net\obj\Release\SystemColors.Resources.resources
+C:\Paint\Source\Config\System Colors.net\obj\Release\SystemColors.ProjectStrings.resources
+C:\Paint\Source\Config\System Colors.net\obj\Release\SystemColors.CommonStrings.de-DE.resources
+C:\Paint\Source\Config\System Colors.net\obj\Release\SystemColors.CommonStrings.es-ES.resources
+C:\Paint\Source\Config\System Colors.net\obj\Release\SystemColors.CommonStrings.en-CA.resources
+C:\Paint\Source\Config\System Colors.net\obj\Release\SystemColors.RobotStrings.en-CA.resources
+C:\Paint\Source\Config\System Colors.net\obj\Release\SystemColors.RobotStrings.es-ES.resources
+C:\Paint\Source\Config\System Colors.net\obj\Release\SystemColors.ProjectStrings.es-ES.resources
+C:\Paint\Source\Config\System Colors.net\obj\Release\SystemColors.ProjectStrings.de-DE.resources
+C:\Paint\Source\Config\System Colors.net\obj\Release\SystemColors.ProjectStrings.en-CA.resources
+C:\Paint\Source\Config\System Colors.net\obj\Release\System Colors.vbproj.GenerateResource.Cache
+C:\Paint\Source\Config\System Colors.net\obj\Release\de-DE\System Colors.resources.dll
+C:\Paint\Source\Config\System Colors.net\obj\Release\es-ES\System Colors.resources.dll
+C:\Paint\Source\Config\System Colors.net\obj\Release\en-CA\System Colors.resources.dll
+C:\Paint\Source\Config\System Colors.net\obj\Release\System Colors.TrustInfo.xml
+C:\Paint\Source\Config\System Colors.net\obj\Release\System Colors.exe.manifest
+C:\Paint\Source\Config\System Colors.net\obj\Release\System Colors.application
+C:\Paint\Source\Config\System Colors.net\obj\Release\System Colors.exe
+C:\Paint\Source\Config\System Colors.net\obj\Release\System Colors.pdb

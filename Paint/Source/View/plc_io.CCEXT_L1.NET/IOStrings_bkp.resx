@@ -1,0 +1,2967 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lsALIAS" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="lsDELIMITER" xml:space="preserve">
+    <value>$</value>
+  </data>
+  <data name="lsEXPAND" xml:space="preserve">
+    <value>&lt;Click to Expand&gt;</value>
+  </data>
+  <data name="lsMODULE" xml:space="preserve">
+    <value>Section:</value>
+  </data>
+  <data name="lsR01_TT" xml:space="preserve">
+    <value>SCC Logix Chassis (Local)</value>
+  </data>
+  <data name="lsR02_TT" xml:space="preserve">
+    <value>Chassis_2</value>
+  </data>
+  <data name="lsR03_TT" xml:space="preserve">
+    <value>Chassis_3</value>
+  </data>
+  <data name="lsR04_TT" xml:space="preserve">
+    <value>Chassis_4</value>
+  </data>
+  <data name="lsR05_TT" xml:space="preserve">
+    <value>Chassis_5</value>
+  </data>
+  <data name="lsR06_TT" xml:space="preserve">
+    <value>Chassis_6</value>
+  </data>
+  <data name="lsR07_TT" xml:space="preserve">
+    <value>ROBOT CONTROLLER 1</value>
+  </data>
+  <data name="lsR08_TT" xml:space="preserve">
+    <value>ROBOT CONTROLLER 2</value>
+  </data>
+  <data name="lsR09_TT" xml:space="preserve">
+    <value>ROBOT CONTROLLER 3</value>
+  </data>
+  <data name="lsR1S06M0_00" xml:space="preserve">
+    <value>Local:6:I.PresentValue[0]$Encoder 1 Current Counts</value>
+  </data>
+  <data name="lsR1S06M0_01" xml:space="preserve">
+    <value>Local:6:I.PresentValue[1]$Encoder 2 Current Counts</value>
+  </data>
+  <data name="lsR1_TT" xml:space="preserve">
+    <value>SCC Logix Chassis (PLC)</value>
+  </data>
+  <data name="lsR2S01M0_00" xml:space="preserve">
+    <value>Chassis_2:1:I.Pt00Data$TEACH MODE SELECTED</value>
+  </data>
+  <data name="lsR2S01M0_01" xml:space="preserve">
+    <value>Chassis_2:1:I.Pt01Data$MANUAL MODE SELECTED</value>
+  </data>
+  <data name="lsR2S01M0_02" xml:space="preserve">
+    <value>Chassis_2:1:I.Pt02Data$AUTO MODE SELECTED</value>
+  </data>
+  <data name="lsR2S01M0_03" xml:space="preserve">
+    <value>Chassis_2:1:I.Pt03Data$TP IN AUTO MODE SELECTED</value>
+  </data>
+  <data name="lsR2S01M0_04" xml:space="preserve">
+    <value>Chassis_2:1:I.Pt04Data$SOC E-STOP CH. #1</value>
+  </data>
+  <data name="lsR2S01M0_05" xml:space="preserve">
+    <value>Chassis_2:1:I.Pt05Data$SOC E-STOP CH. #2</value>
+  </data>
+  <data name="lsR2S01M0_06" xml:space="preserve">
+    <value>Chassis_2:1:I.Pt06Data$E-STOP RELAYS OK FEEDBACK</value>
+  </data>
+  <data name="lsR2S01M0_07" xml:space="preserve">
+    <value>Chassis_2:1:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR2S01M0_08" xml:space="preserve">
+    <value>Chassis_2:1:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S01M0_09" xml:space="preserve">
+    <value>Chassis_2:1:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S01M0_10" xml:space="preserve">
+    <value>Chassis_2:1:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S01M0_11" xml:space="preserve">
+    <value>Chassis_2:1:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S01M0_12" xml:space="preserve">
+    <value>Chassis_2:1:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR2S01M0_13" xml:space="preserve">
+    <value>Chassis_2:1:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR2S01M0_14" xml:space="preserve">
+    <value>Chassis_2:1:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR2S01M0_15" xml:space="preserve">
+    <value>Chassis_2:1:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR2S02M0_00" xml:space="preserve">
+    <value>Chassis_2:2:I.Pt00Data$BOOTH E-STOP #1 CH. #1</value>
+  </data>
+  <data name="lsR2S02M0_01" xml:space="preserve">
+    <value>Chassis_2:2:I.Pt01Data$BOOTH E-STOP #1 CH. #2</value>
+  </data>
+  <data name="lsR2S02M0_02" xml:space="preserve">
+    <value>Chassis_2:2:I.Pt02Data$BOOTH E-STOP #2 CH. #1</value>
+  </data>
+  <data name="lsR2S02M0_03" xml:space="preserve">
+    <value>Chassis_2:2:I.Pt03Data$BOOTH E-STOP #2 CH. #2</value>
+  </data>
+  <data name="lsR2S02M0_04" xml:space="preserve">
+    <value>Chassis_2:2:I.Pt04Data$BOOTH E-STOP #3 CH. #1</value>
+  </data>
+  <data name="lsR2S02M0_05" xml:space="preserve">
+    <value>Chassis_2:2:I.Pt05Data$BOOTH E-STOP #3 CH. #2</value>
+  </data>
+  <data name="lsR2S02M0_06" xml:space="preserve">
+    <value>Chassis_2:2:I.Pt06Data$BOOTH E-STOP #4 CH. #1</value>
+  </data>
+  <data name="lsR2S02M0_07" xml:space="preserve">
+    <value>Chassis_2:2:I.Pt07Data$BOOTH E-STOP #4 CH. #2</value>
+  </data>
+  <data name="lsR2S02M0_08" xml:space="preserve">
+    <value>Chassis_2:2:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S02M0_09" xml:space="preserve">
+    <value>Chassis_2:2:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S02M0_10" xml:space="preserve">
+    <value>Chassis_2:2:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S02M0_11" xml:space="preserve">
+    <value>Chassis_2:2:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S02M0_12" xml:space="preserve">
+    <value>Chassis_2:2:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR2S02M0_13" xml:space="preserve">
+    <value>Chassis_2:2:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR2S02M0_14" xml:space="preserve">
+    <value>Chassis_2:2:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR2S02M0_15" xml:space="preserve">
+    <value>Chassis_2:2:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR2S03M0_00" xml:space="preserve">
+    <value>Chassis_2:3:O.Pt00Data$ALL E-STOPS OK CH. #1</value>
+  </data>
+  <data name="lsR2S03M0_01" xml:space="preserve">
+    <value>Chassis_2:3:O.Pt01Data$ALL E-STOPS OK CH. #1</value>
+  </data>
+  <data name="lsR2S03M0_02" xml:space="preserve">
+    <value>Chassis_2:3:O.Pt02Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR2S03M0_03" xml:space="preserve">
+    <value>Chassis_2:3:O.Pt03Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR2S03M0_04" xml:space="preserve">
+    <value>Chassis_2:3:O.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR2S03M0_05" xml:space="preserve">
+    <value>Chassis_2:3:O.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR2S03M0_06" xml:space="preserve">
+    <value>Chassis_2:3:O.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR2S03M0_07" xml:space="preserve">
+    <value>Chassis_2:3:O.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR2S03M0_08" xml:space="preserve">
+    <value>Chassis_2:3:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR2S03M0_09" xml:space="preserve">
+    <value>Chassis_2:3:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR2S03M0_10" xml:space="preserve">
+    <value>Chassis_2:3:I.OutputPowerStatus$OutputPowerStatus</value>
+  </data>
+  <data name="lsR2S03M0_11" xml:space="preserve">
+    <value>Chassis_2:3:I.CombinedOutputStatus$CombinedOutputStatus</value>
+  </data>
+  <data name="lsR2S04M0_00" xml:space="preserve">
+    <value>Chassis_2:4:I.Pt00Data$ROBOT P1 SERVO DISABLE CH. #1</value>
+  </data>
+  <data name="lsR2S04M0_01" xml:space="preserve">
+    <value>Chassis_2:4:I.Pt01Data$ROBOT P1 SERVO DISABLE CH. #2</value>
+  </data>
+  <data name="lsR2S04M0_02" xml:space="preserve">
+    <value>Chassis_2:4:I.Pt02Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR2S04M0_03" xml:space="preserve">
+    <value>Chassis_2:4:I.Pt03Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR2S04M0_04" xml:space="preserve">
+    <value>Chassis_2:4:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR2S04M0_05" xml:space="preserve">
+    <value>Chassis_2:4:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR2S04M0_06" xml:space="preserve">
+    <value>Chassis_2:4:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR2S04M0_07" xml:space="preserve">
+    <value>Chassis_2:4:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR2S04M0_08" xml:space="preserve">
+    <value>Chassis_2:4:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S04M0_09" xml:space="preserve">
+    <value>Chassis_2:4:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S04M0_10" xml:space="preserve">
+    <value>Chassis_2:4:O.TEST02DATA$Not Used</value>
+  </data>
+  <data name="lsR2S04M0_11" xml:space="preserve">
+    <value>Chassis_2:4:O.TEST03DATA$Not Used</value>
+  </data>
+  <data name="lsR2S04M0_12" xml:space="preserve">
+    <value>Chassis_2:4:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR2S04M0_13" xml:space="preserve">
+    <value>Chassis_2:4:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR2S04M0_14" xml:space="preserve">
+    <value>Chassis_2:4:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR2S04M0_15" xml:space="preserve">
+    <value>Chassis_2:4:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR2S05M0_00" xml:space="preserve">
+    <value>Chassis_2:5:I.Pt00Data$BOOTH DOOR #1 CH. #1</value>
+  </data>
+  <data name="lsR2S05M0_01" xml:space="preserve">
+    <value>Chassis_2:5:I.Pt01Data$BOOTH DOOR #1 CH. #2</value>
+  </data>
+  <data name="lsR2S05M0_02" xml:space="preserve">
+    <value>Chassis_2:5:I.Pt02Data$BOOTH DOOR #2 CH. #1</value>
+  </data>
+  <data name="lsR2S05M0_03" xml:space="preserve">
+    <value>Chassis_2:5:I.Pt03Data$BOOTH DOOR #2 CH. #2</value>
+  </data>
+  <data name="lsR2S05M0_04" xml:space="preserve">
+    <value>Chassis_2:5:I.Pt04Data$BOOTH DOOR #3 CH. #1</value>
+  </data>
+  <data name="lsR2S05M0_05" xml:space="preserve">
+    <value>Chassis_2:5:I.Pt05Data$BOOTH DOOR #3 CH. #2</value>
+  </data>
+  <data name="lsR2S05M0_06" xml:space="preserve">
+    <value>Chassis_2:5:I.Pt06Data$BOOTH DOOR #4 CH. #1</value>
+  </data>
+  <data name="lsR2S05M0_07" xml:space="preserve">
+    <value>Chassis_2:5:I.Pt07Data$BOOTH DOOR #4 CH. #2</value>
+  </data>
+  <data name="lsR2S05M0_08" xml:space="preserve">
+    <value>Chassis_2:5:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S05M0_09" xml:space="preserve">
+    <value>Chassis_2:5:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S05M0_10" xml:space="preserve">
+    <value>Chassis_2:5:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S05M0_11" xml:space="preserve">
+    <value>Chassis_2:5:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S05M0_12" xml:space="preserve">
+    <value>Chassis_2:5:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR2S05M0_13" xml:space="preserve">
+    <value>Chassis_2:5:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR2S05M0_14" xml:space="preserve">
+    <value>Chassis_2:5:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR2S05M0_15" xml:space="preserve">
+    <value>Chassis_2:5:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR2S06M0_00" xml:space="preserve">
+    <value>Chassis_2:6:I.Pt00Data$ENTRANCE INTRUSION LIGHT CURTAIN CH. #1 OK</value>
+  </data>
+  <data name="lsR2S06M0_01" xml:space="preserve">
+    <value>Chassis_2:6:I.Pt01Data$ENTRANCE INTRUSION LIGHT CURTAIN CH. #2 OK</value>
+  </data>
+  <data name="lsR2S06M0_02" xml:space="preserve">
+    <value>Chassis_2:6:I.Pt02Data$EXIT INTRUSION LIGHT CURTAIN CH. #1 OK</value>
+  </data>
+  <data name="lsR2S06M0_03" xml:space="preserve">
+    <value>Chassis_2:6:I.Pt03Data$EXIT INTRUSION LIGHT CURTAIN CH. #2 OK</value>
+  </data>
+  <data name="lsR2S06M0_04" xml:space="preserve">
+    <value>Chassis_2:6:I.Pt04Data$LIGHT CURTAIN (INTRUSION) BYPASS CH. #1 OK</value>
+  </data>
+  <data name="lsR2S06M0_05" xml:space="preserve">
+    <value>Chassis_2:6:I.Pt05Data$LIGHT CURTAIN (INTRUSION) BYPASS CH. #2 OK</value>
+  </data>
+  <data name="lsR2S06M0_06" xml:space="preserve">
+    <value>Chassis_2:6:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR2S06M0_07" xml:space="preserve">
+    <value>Chassis_2:6:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR2S06M0_08" xml:space="preserve">
+    <value>Chassis_2:6:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S06M0_09" xml:space="preserve">
+    <value>Chassis_2:6:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S06M0_10" xml:space="preserve">
+    <value>Chassis_2:6:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S06M0_11" xml:space="preserve">
+    <value>Chassis_2:6:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S06M0_12" xml:space="preserve">
+    <value>Chassis_2:6:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR2S06M0_13" xml:space="preserve">
+    <value>Chassis_2:6:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR2S06M0_14" xml:space="preserve">
+    <value>Chassis_2:6:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR2S06M0_15" xml:space="preserve">
+    <value>Chassis_2:6:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR2S07M0_00" xml:space="preserve">
+    <value>Chassis_2:7:I.Pt00Data$ENTRANCE BEFORE LIGHT CURTAIN MUTING SWITCH #1</value>
+  </data>
+  <data name="lsR2S07M0_01" xml:space="preserve">
+    <value>Chassis_2:7:I.Pt01Data$ENTRANCE BEFORE LIGHT CURTAIN MUTING SWITCH #2</value>
+  </data>
+  <data name="lsR2S07M0_02" xml:space="preserve">
+    <value>Chassis_2:7:I.Pt02Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR2S07M0_03" xml:space="preserve">
+    <value>Chassis_2:7:I.Pt03Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR2S07M0_04" xml:space="preserve">
+    <value>Chassis_2:7:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR2S07M0_05" xml:space="preserve">
+    <value>Chassis_2:7:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR2S07M0_06" xml:space="preserve">
+    <value>Chassis_2:7:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR2S07M0_07" xml:space="preserve">
+    <value>Chassis_2:7:I.Pt02Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR2S07M0_08" xml:space="preserve">
+    <value>Chassis_2:7:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S07M0_09" xml:space="preserve">
+    <value>Chassis_2:7:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR2S07M0_10" xml:space="preserve">
+    <value>Chassis_2:7:O.TEST02DATA$Not Used</value>
+  </data>
+  <data name="lsR2S07M0_11" xml:space="preserve">
+    <value>Chassis_2:7:O.TEST03DATA$Not Used</value>
+  </data>
+  <data name="lsR2S07M0_12" xml:space="preserve">
+    <value>Chassis_2:7:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR2S07M0_13" xml:space="preserve">
+    <value>Chassis_2:7:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR2S07M0_14" xml:space="preserve">
+    <value>Chassis_2:7:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR2S07M0_15" xml:space="preserve">
+    <value>Chassis_2:7:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR2S08M0_00" xml:space="preserve">
+    <value>Chassis_2:8:I.0$SILENCE ALARM</value>
+  </data>
+  <data name="lsR2S08M0_01" xml:space="preserve">
+    <value>Chassis_2:8:I.1$BOOTH #1 FAULT RESET</value>
+  </data>
+  <data name="lsR2S08M0_02" xml:space="preserve">
+    <value>Chassis_2:8:I.2$CONVEYOR RUN</value>
+  </data>
+  <data name="lsR2S08M0_03" xml:space="preserve">
+    <value>Chassis_2:8:I.3$ROBOT P1 E-STAT ENABLE</value>
+  </data>
+  <data name="lsR2S08M0_04" xml:space="preserve">
+    <value>Chassis_2:8:I.4$ROBOT P1 JOG-</value>
+  </data>
+  <data name="lsR2S08M0_05" xml:space="preserve">
+    <value>Chassis_2:8:I.5$ROBOT P1 JOG+</value>
+  </data>
+  <data name="lsR2S08M0_06" xml:space="preserve">
+    <value>Chassis_2:8:I.6$ROBOT P1 CYCLE CANCEL</value>
+  </data>
+  <data name="lsR2S08M0_07" xml:space="preserve">
+    <value>Chassis_2:8:I.7$ROBOT P1 CYCLE CONTINUE</value>
+  </data>
+  <data name="lsR2S09M0_00" xml:space="preserve">
+    <value>Chassis_2:9:I.0$SPARE</value>
+  </data>
+  <data name="lsR2S09M0_01" xml:space="preserve">
+    <value>Chassis_2:9:I.1$BOOTH #1 AIR INTERLOCK OK</value>
+  </data>
+  <data name="lsR2S09M0_02" xml:space="preserve">
+    <value>Chassis_2:9:I.2$ROBOT P1 NOT BYPASSED</value>
+  </data>
+  <data name="lsR2S09M0_03" xml:space="preserve">
+    <value>Chassis_2:9:I.3$SPARE</value>
+  </data>
+  <data name="lsR2S09M0_04" xml:space="preserve">
+    <value>Chassis_2:9:I.4$ROBOT P1 MOVE TO BYPASS POSITION</value>
+  </data>
+  <data name="lsR2S09M0_05" xml:space="preserve">
+    <value>Chassis_2:9:I.5$ROBOT P1 MOVE TO HOME POSITION</value>
+  </data>
+  <data name="lsR2S09M0_06" xml:space="preserve">
+    <value>Chassis_2:9:I.6$ROBOT P1 SUPER PURGE</value>
+  </data>
+  <data name="lsR2S09M0_07" xml:space="preserve">
+    <value>Chassis_2:9:I.7$SPARE</value>
+  </data>
+  <data name="lsR2S10M0_00" xml:space="preserve">
+    <value>Chassis_2:10:I.0$BOOTH #1 AIR INTERLOCK BYPASS</value>
+  </data>
+  <data name="lsR2S10M0_01" xml:space="preserve">
+    <value>Chassis_2:10:I.1$SPARE</value>
+  </data>
+  <data name="lsR2S10M0_02" xml:space="preserve">
+    <value>Chassis_2:10:I.2$SPARE</value>
+  </data>
+  <data name="lsR2S10M0_03" xml:space="preserve">
+    <value>Chassis_2:10:I.3$SPARE</value>
+  </data>
+  <data name="lsR2S10M0_04" xml:space="preserve">
+    <value>Chassis_2:10:I.4$SPARE</value>
+  </data>
+  <data name="lsR2S10M0_05" xml:space="preserve">
+    <value>Chassis_2:10:I.5$SPARE</value>
+  </data>
+  <data name="lsR2S10M0_06" xml:space="preserve">
+    <value>Chassis_2:10:I.6$SPARE</value>
+  </data>
+  <data name="lsR2S10M0_07" xml:space="preserve">
+    <value>Chassis_2:10:I.7$SPARE</value>
+  </data>
+  <data name="lsR2S11M0_00" xml:space="preserve">
+    <value>Chassis_2:11:I.0$ROBOT P1 ARMED BEACON</value>
+  </data>
+  <data name="lsR2S11M0_01" xml:space="preserve">
+    <value>Chassis_2:11:I.1$SPARE</value>
+  </data>
+  <data name="lsR2S11M0_02" xml:space="preserve">
+    <value>Chassis_2:11:I.2$SPARE</value>
+  </data>
+  <data name="lsR2S11M0_03" xml:space="preserve">
+    <value>Chassis_2:11:I.3$SPARE</value>
+  </data>
+  <data name="lsR2S11M0_04" xml:space="preserve">
+    <value>Chassis_2:11:I.4$SPARE</value>
+  </data>
+  <data name="lsR2S11M0_05" xml:space="preserve">
+    <value>Chassis_2:11:I.5$SPARE</value>
+  </data>
+  <data name="lsR2S11M0_06" xml:space="preserve">
+    <value>Chassis_2:11:I.6$SPARE</value>
+  </data>
+  <data name="lsR2S11M0_07" xml:space="preserve">
+    <value>Chassis_2:11:I.7$SPARE</value>
+  </data>
+  <data name="lsR2S12M0_00" xml:space="preserve">
+    <value>Chassis_2:12:O.0$CONVEYOR OK TO RUN</value>
+  </data>
+  <data name="lsR2S12M0_01" xml:space="preserve">
+    <value>Chassis_2:12:O.1$BOOTH #1 AIR INTERLOCK OK</value>
+  </data>
+  <data name="lsR2S12M0_02" xml:space="preserve">
+    <value>Chassis_2:12:O.2$BOOTH #1 AUTO MODE ENABLED</value>
+  </data>
+  <data name="lsR2S12M0_03" xml:space="preserve">
+    <value>Chassis_2:12:O.3$BOOTH #1 MANUAL FUNCTION ENABLED</value>
+  </data>
+  <data name="lsR2S12M0_04" xml:space="preserve">
+    <value>Chassis_2:12:O.4$CONVEYOR STATUS</value>
+  </data>
+  <data name="lsR2S12M0_05" xml:space="preserve">
+    <value>Chassis_2:12:O.5$ROBOT P1 BYPASSED</value>
+  </data>
+  <data name="lsR2S12M0_06" xml:space="preserve">
+    <value>Chassis_2:12:O.6$ROBOT P1 CANCEL/CONT ON=CANCEL FLASH=CONTINUE</value>
+  </data>
+  <data name="lsR2S12M0_07" xml:space="preserve">
+    <value>Chassis_2:12:O.7$ROBOT P1 POSITION ON=HOME FLASH=BYPASS</value>
+  </data>
+  <data name="lsR2S13M0_00" xml:space="preserve">
+    <value>Chassis_2:13:O.0$ROBOT P1 E-STAT SAFETY</value>
+  </data>
+  <data name="lsR2S13M0_01" xml:space="preserve">
+    <value>Chassis_2:13:O.1$ROBOT P1 PROCESS AIR ENABLE</value>
+  </data>
+  <data name="lsR2S13M0_02" xml:space="preserve">
+    <value>Chassis_2:13:O.2$SPARE</value>
+  </data>
+  <data name="lsR2S13M0_03" xml:space="preserve">
+    <value>Chassis_2:13:O.3$ZONE FAULT</value>
+  </data>
+  <data name="lsR2S13M0_04" xml:space="preserve">
+    <value>Chassis_2:13:O.4$ROBOTS RUNNING</value>
+  </data>
+  <data name="lsR2S13M0_05" xml:space="preserve">
+    <value>Chassis_2:13:O.5$E-STATS ENABLED</value>
+  </data>
+  <data name="lsR2S13M0_06" xml:space="preserve">
+    <value>Chassis_2:13:O.6$ZONE BYPASSED</value>
+  </data>
+  <data name="lsR2S13M0_07" xml:space="preserve">
+    <value>Chassis_2:13:O.7$ALARM HORN</value>
+  </data>
+  <data name="lsR2_TT" xml:space="preserve">
+    <value>Chassis_2 (Prime)</value>
+  </data>
+  <data name="lsR3S01M0_00" xml:space="preserve">
+    <value>Chassis_3:1:I.Pt00Data$TEACH MODE SELECTED</value>
+  </data>
+  <data name="lsR3S01M0_01" xml:space="preserve">
+    <value>Chassis_3:1:I.Pt01Data$MANUAL MODE SELECTED</value>
+  </data>
+  <data name="lsR3S01M0_02" xml:space="preserve">
+    <value>Chassis_3:1:I.Pt02Data$AUTO MODE SELECTED</value>
+  </data>
+  <data name="lsR3S01M0_03" xml:space="preserve">
+    <value>Chassis_3:1:I.Pt03Data$TP IN AUTO MODE SELECTED</value>
+  </data>
+  <data name="lsR3S01M0_04" xml:space="preserve">
+    <value>Chassis_3:1:I.Pt04Data$SOC E-STOP CH. #1</value>
+  </data>
+  <data name="lsR3S01M0_05" xml:space="preserve">
+    <value>Chassis_3:1:I.Pt05Data$SOC E-STOP CH. #2</value>
+  </data>
+  <data name="lsR3S01M0_06" xml:space="preserve">
+    <value>Chassis_3:1:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR3S01M0_07" xml:space="preserve">
+    <value>Chassis_3:1:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR3S01M0_08" xml:space="preserve">
+    <value>Chassis_3:1:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S01M0_09" xml:space="preserve">
+    <value>Chassis_3:1:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S01M0_10" xml:space="preserve">
+    <value>Chassis_3:1:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S01M0_11" xml:space="preserve">
+    <value>Chassis_3:1:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S01M0_12" xml:space="preserve">
+    <value>Chassis_3:1:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR3S01M0_13" xml:space="preserve">
+    <value>Chassis_3:1:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR3S01M0_14" xml:space="preserve">
+    <value>Chassis_3:1:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR3S01M0_15" xml:space="preserve">
+    <value>Chassis_3:1:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR3S02M0_00" xml:space="preserve">
+    <value>Chassis_3:2:I.Pt00Data$BOOTH E-STOP #1 CH. #1</value>
+  </data>
+  <data name="lsR3S02M0_01" xml:space="preserve">
+    <value>Chassis_3:2:I.Pt01Data$BOOTH E-STOP #1 CH. #2</value>
+  </data>
+  <data name="lsR3S02M0_02" xml:space="preserve">
+    <value>Chassis_3:2:I.Pt02Data$BOOTH E-STOP #2 CH. #1</value>
+  </data>
+  <data name="lsR3S02M0_03" xml:space="preserve">
+    <value>Chassis_3:2:I.Pt03Data$BOOTH E-STOP #2 CH. #2</value>
+  </data>
+  <data name="lsR3S02M0_04" xml:space="preserve">
+    <value>Chassis_3:2:I.Pt04Data$BOOTH E-STOP #3 CH. #1</value>
+  </data>
+  <data name="lsR3S02M0_05" xml:space="preserve">
+    <value>Chassis_3:2:I.Pt05Data$BOOTH E-STOP #3 CH. #2</value>
+  </data>
+  <data name="lsR3S02M0_06" xml:space="preserve">
+    <value>Chassis_3:2:I.Pt06Data$BOOTH E-STOP #4 CH. #1</value>
+  </data>
+  <data name="lsR3S02M0_07" xml:space="preserve">
+    <value>Chassis_3:2:I.Pt07Data$BOOTH E-STOP #4 CH. #2</value>
+  </data>
+  <data name="lsR3S02M0_08" xml:space="preserve">
+    <value>Chassis_3:2:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S02M0_09" xml:space="preserve">
+    <value>Chassis_3:2:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S02M0_10" xml:space="preserve">
+    <value>Chassis_3:2:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S02M0_11" xml:space="preserve">
+    <value>Chassis_3:2:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S02M0_12" xml:space="preserve">
+    <value>Chassis_3:2:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR3S02M0_13" xml:space="preserve">
+    <value>Chassis_3:2:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR3S02M0_14" xml:space="preserve">
+    <value>Chassis_3:2:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR3S02M0_15" xml:space="preserve">
+    <value>Chassis_3:2:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR3S03M0_00" xml:space="preserve">
+    <value>Chassis_3:3:O.PT00DATA$</value>
+  </data>
+  <data name="lsR3S03M0_01" xml:space="preserve">
+    <value>Chassis_3:3:O.PT01DATA$</value>
+  </data>
+  <data name="lsR3S03M0_02" xml:space="preserve">
+    <value>Chassis_3:3:O.PT02DATA$</value>
+  </data>
+  <data name="lsR3S03M0_03" xml:space="preserve">
+    <value>Chassis_3:3:O.PT03DATA$</value>
+  </data>
+  <data name="lsR3S03M0_04" xml:space="preserve">
+    <value>Chassis_3:3:O.PT04DATA$</value>
+  </data>
+  <data name="lsR3S03M0_05" xml:space="preserve">
+    <value>Chassis_3:3:O.PT05DATA$</value>
+  </data>
+  <data name="lsR3S03M0_06" xml:space="preserve">
+    <value>Chassis_3:3:O.PT06DATA$</value>
+  </data>
+  <data name="lsR3S03M0_07" xml:space="preserve">
+    <value>Chassis_3:3:O.PT07DATA$</value>
+  </data>
+  <data name="lsR3S04M0_00" xml:space="preserve">
+    <value>Chassis_3:4:I.Pt00Data$ROBOT B1 SERVO DISABLE CH. #1</value>
+  </data>
+  <data name="lsR3S04M0_01" xml:space="preserve">
+    <value>Chassis_3:4:I.Pt01Data$ROBOT B1 SERVO DISABLE CH. #2</value>
+  </data>
+  <data name="lsR3S04M0_02" xml:space="preserve">
+    <value>Chassis_3:4:I.Pt02Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR3S04M0_03" xml:space="preserve">
+    <value>Chassis_3:4:I.Pt03Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR3S04M0_04" xml:space="preserve">
+    <value>Chassis_3:4:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR3S04M0_05" xml:space="preserve">
+    <value>Chassis_3:4:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR3S04M0_06" xml:space="preserve">
+    <value>Chassis_3:4:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR3S04M0_07" xml:space="preserve">
+    <value>Chassis_3:4:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR3S04M0_08" xml:space="preserve">
+    <value>Chassis_3:4:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S04M0_09" xml:space="preserve">
+    <value>Chassis_3:4:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S04M0_10" xml:space="preserve">
+    <value>Chassis_3:4:O.TEST02DATA$Not Used</value>
+  </data>
+  <data name="lsR3S04M0_11" xml:space="preserve">
+    <value>Chassis_3:4:O.TEST03DATA$Not Used</value>
+  </data>
+  <data name="lsR3S04M0_12" xml:space="preserve">
+    <value>Chassis_3:4:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR3S04M0_13" xml:space="preserve">
+    <value>Chassis_3:4:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR3S04M0_14" xml:space="preserve">
+    <value>Chassis_3:4:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR3S04M0_15" xml:space="preserve">
+    <value>Chassis_3:4:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR3S05M0_00" xml:space="preserve">
+    <value>Chassis_3:5:I.Pt00Data$BOOTH DOOR #1 CH. #1</value>
+  </data>
+  <data name="lsR3S05M0_01" xml:space="preserve">
+    <value>Chassis_3:5:I.Pt01Data$BOOTH DOOR #1 CH. #2</value>
+  </data>
+  <data name="lsR3S05M0_02" xml:space="preserve">
+    <value>Chassis_3:5:I.Pt02Data$BOOTH DOOR #2 CH. #1</value>
+  </data>
+  <data name="lsR3S05M0_03" xml:space="preserve">
+    <value>Chassis_3:5:I.Pt03Data$BOOTH DOOR #2 CH. #2</value>
+  </data>
+  <data name="lsR3S05M0_04" xml:space="preserve">
+    <value>Chassis_3:5:I.Pt04Data$BOOTH DOOR #3 CH. #1</value>
+  </data>
+  <data name="lsR3S05M0_05" xml:space="preserve">
+    <value>Chassis_3:5:I.Pt05Data$BOOTH DOOR #3 CH. #2</value>
+  </data>
+  <data name="lsR3S05M0_06" xml:space="preserve">
+    <value>Chassis_3:5:I.Pt06Data$BOOTH DOOR #4 CH. #1</value>
+  </data>
+  <data name="lsR3S05M0_07" xml:space="preserve">
+    <value>Chassis_3:5:I.Pt07Data$BOOTH DOOR #4 CH. #2</value>
+  </data>
+  <data name="lsR3S05M0_08" xml:space="preserve">
+    <value>Chassis_3:5:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S05M0_09" xml:space="preserve">
+    <value>Chassis_3:5:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S05M0_10" xml:space="preserve">
+    <value>Chassis_3:5:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S05M0_11" xml:space="preserve">
+    <value>Chassis_3:5:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S05M0_12" xml:space="preserve">
+    <value>Chassis_3:5:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR3S05M0_13" xml:space="preserve">
+    <value>Chassis_3:5:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR3S05M0_14" xml:space="preserve">
+    <value>Chassis_3:5:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR3S05M0_15" xml:space="preserve">
+    <value>Chassis_3:5:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR3S06M0_00" xml:space="preserve">
+    <value>Chassis_3:6:I.Pt00Data$ENTRANCE INTRUSION LIGHT CURTAIN CH. #1 OK</value>
+  </data>
+  <data name="lsR3S06M0_01" xml:space="preserve">
+    <value>Chassis_3:6:I.Pt01Data$ENTRANCE INTRUSION LIGHT CURTAIN CH. #2 OK</value>
+  </data>
+  <data name="lsR3S06M0_02" xml:space="preserve">
+    <value>Chassis_3:6:I.Pt02Data$EXIT INTRUSION LIGHT CURTAIN CH. #1 OK</value>
+  </data>
+  <data name="lsR3S06M0_03" xml:space="preserve">
+    <value>Chassis_3:6:I.Pt03Data$EXIT INTRUSION LIGHT CURTAIN CH. #2 OK</value>
+  </data>
+  <data name="lsR3S06M0_04" xml:space="preserve">
+    <value>Chassis_3:6:I.Pt04Data$LIGHT CURTAIN (INTRUSION) BYPASS CH. #1 OK</value>
+  </data>
+  <data name="lsR3S06M0_05" xml:space="preserve">
+    <value>Chassis_3:6:I.Pt05Data$LIGHT CURTAIN (INTRUSION) BYPASS CH. #2 OK</value>
+  </data>
+  <data name="lsR3S06M0_06" xml:space="preserve">
+    <value>Chassis_3:6:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR3S06M0_07" xml:space="preserve">
+    <value>Chassis_3:6:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR3S06M0_08" xml:space="preserve">
+    <value>Chassis_3:6:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S06M0_09" xml:space="preserve">
+    <value>Chassis_3:6:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S06M0_10" xml:space="preserve">
+    <value>Chassis_3:6:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S06M0_11" xml:space="preserve">
+    <value>Chassis_3:6:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S06M0_12" xml:space="preserve">
+    <value>Chassis_3:6:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR3S06M0_13" xml:space="preserve">
+    <value>Chassis_3:6:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR3S06M0_14" xml:space="preserve">
+    <value>Chassis_3:6:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR3S06M0_15" xml:space="preserve">
+    <value>Chassis_3:6:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR3S07M0_00" xml:space="preserve">
+    <value>Chassis_3:7:I.Pt00Data$ENTRANCE BEFORE LIGHT CURTAIN MUTING SWITCH #1</value>
+  </data>
+  <data name="lsR3S07M0_01" xml:space="preserve">
+    <value>Chassis_3:7:I.Pt01Data$ENTRANCE BEFORE LIGHT CURTAIN MUTING SWITCH #2</value>
+  </data>
+  <data name="lsR3S07M0_02" xml:space="preserve">
+    <value>Chassis_3:7:I.Pt02Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR3S07M0_03" xml:space="preserve">
+    <value>Chassis_3:7:I.Pt03Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR3S07M0_04" xml:space="preserve">
+    <value>Chassis_3:7:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR3S07M0_05" xml:space="preserve">
+    <value>Chassis_3:7:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR3S07M0_06" xml:space="preserve">
+    <value>Chassis_3:7:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR3S07M0_07" xml:space="preserve">
+    <value>Chassis_3:7:I.Pt02Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR3S07M0_08" xml:space="preserve">
+    <value>Chassis_3:7:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S07M0_09" xml:space="preserve">
+    <value>Chassis_3:7:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR3S07M0_10" xml:space="preserve">
+    <value>Chassis_3:7:O.TEST02DATA$Not Used</value>
+  </data>
+  <data name="lsR3S07M0_11" xml:space="preserve">
+    <value>Chassis_3:7:O.TEST03DATA$Not Used</value>
+  </data>
+  <data name="lsR3S07M0_12" xml:space="preserve">
+    <value>Chassis_3:7:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR3S07M0_13" xml:space="preserve">
+    <value>Chassis_3:7:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR3S07M0_14" xml:space="preserve">
+    <value>Chassis_3:7:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR3S07M0_15" xml:space="preserve">
+    <value>Chassis_3:7:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR3S08M0_00" xml:space="preserve">
+    <value>Chassis_3:8:I.0$SILENCE ALARM</value>
+  </data>
+  <data name="lsR3S08M0_01" xml:space="preserve">
+    <value>Chassis_3:8:I.1$BOOTH #1 FAULT RESET</value>
+  </data>
+  <data name="lsR3S08M0_02" xml:space="preserve">
+    <value>Chassis_3:8:I.2$CONVEYOR RUN</value>
+  </data>
+  <data name="lsR3S08M0_03" xml:space="preserve">
+    <value>Chassis_3:8:I.3$ROBOT B1 E-STAT ENABLE</value>
+  </data>
+  <data name="lsR3S08M0_04" xml:space="preserve">
+    <value>Chassis_3:8:I.4$ROBOT B1 JOG-</value>
+  </data>
+  <data name="lsR3S08M0_05" xml:space="preserve">
+    <value>Chassis_3:8:I.5$ROBOT B1 JOG+</value>
+  </data>
+  <data name="lsR3S08M0_06" xml:space="preserve">
+    <value>Chassis_3:8:I.6$ROBOT B1 CYCLE CANCEL</value>
+  </data>
+  <data name="lsR3S08M0_07" xml:space="preserve">
+    <value>Chassis_3:8:I.7$ROBOT B1 CYCLE CONTINUE</value>
+  </data>
+  <data name="lsR3S09M0_00" xml:space="preserve">
+    <value>Chassis_3:9:I.0$SPARE</value>
+  </data>
+  <data name="lsR3S09M0_01" xml:space="preserve">
+    <value>Chassis_3:9:I.1$BOOTH #1 AIR INTERLOCK OK</value>
+  </data>
+  <data name="lsR3S09M0_02" xml:space="preserve">
+    <value>Chassis_3:9:I.2$ROBOT P1 NOT BYPASSED</value>
+  </data>
+  <data name="lsR3S09M0_03" xml:space="preserve">
+    <value>Chassis_3:9:I.3$SPARE</value>
+  </data>
+  <data name="lsR3S09M0_04" xml:space="preserve">
+    <value>Chassis_3:9:I.4$ROBOT B1 MOVE TO BYPASS POSITION</value>
+  </data>
+  <data name="lsR3S09M0_05" xml:space="preserve">
+    <value>Chassis_3:9:I.5$ROBOT B1 MOVE TO HOME POSITION</value>
+  </data>
+  <data name="lsR3S09M0_06" xml:space="preserve">
+    <value>Chassis_3:9:I.6$ROBOT B1 SUPER PURGE</value>
+  </data>
+  <data name="lsR3S09M0_07" xml:space="preserve">
+    <value>Chassis_3:9:I.7$SPARE</value>
+  </data>
+  <data name="lsR3S10M0_00" xml:space="preserve">
+    <value>Chassis_3:10:I.0$BOOTH #1 AIR INTERLOCK BYPASS</value>
+  </data>
+  <data name="lsR3S10M0_01" xml:space="preserve">
+    <value>Chassis_3:10:I.1$SPARE</value>
+  </data>
+  <data name="lsR3S10M0_02" xml:space="preserve">
+    <value>Chassis_3:10:I.2$SPARE</value>
+  </data>
+  <data name="lsR3S10M0_03" xml:space="preserve">
+    <value>Chassis_3:10:I.3$SPARE</value>
+  </data>
+  <data name="lsR3S10M0_04" xml:space="preserve">
+    <value>Chassis_3:10:I.4$SPARE</value>
+  </data>
+  <data name="lsR3S10M0_05" xml:space="preserve">
+    <value>Chassis_3:10:I.5$SPARE</value>
+  </data>
+  <data name="lsR3S10M0_06" xml:space="preserve">
+    <value>Chassis_3:10:I.6$SPARE</value>
+  </data>
+  <data name="lsR3S10M0_07" xml:space="preserve">
+    <value>Chassis_3:10:I.7$SPARE</value>
+  </data>
+  <data name="lsR3S11M0_00" xml:space="preserve">
+    <value>Chassis_3:11:I.0$ROBOT B1 ARMED BEACON</value>
+  </data>
+  <data name="lsR3S11M0_01" xml:space="preserve">
+    <value>Chassis_3:11:I.1$SPARE</value>
+  </data>
+  <data name="lsR3S11M0_02" xml:space="preserve">
+    <value>Chassis_3:11:I.2$SPARE</value>
+  </data>
+  <data name="lsR3S11M0_03" xml:space="preserve">
+    <value>Chassis_3:11:I.3$SPARE</value>
+  </data>
+  <data name="lsR3S11M0_04" xml:space="preserve">
+    <value>Chassis_3:11:I.4$SPARE</value>
+  </data>
+  <data name="lsR3S11M0_05" xml:space="preserve">
+    <value>Chassis_3:11:I.5$SPARE</value>
+  </data>
+  <data name="lsR3S11M0_06" xml:space="preserve">
+    <value>Chassis_3:11:I.6$SPARE</value>
+  </data>
+  <data name="lsR3S11M0_07" xml:space="preserve">
+    <value>Chassis_3:11:I.7$SPARE</value>
+  </data>
+  <data name="lsR3S12M0_00" xml:space="preserve">
+    <value>Chassis_3:12:O.0$CONVEYOR OK TO RUN</value>
+  </data>
+  <data name="lsR3S12M0_01" xml:space="preserve">
+    <value>Chassis_3:12:O.1$BOOTH #1 AIR INTERLOCK OK</value>
+  </data>
+  <data name="lsR3S12M0_02" xml:space="preserve">
+    <value>Chassis_3:12:O.2$BOOTH #1 AUTO MODE ENABLED</value>
+  </data>
+  <data name="lsR3S12M0_03" xml:space="preserve">
+    <value>Chassis_3:12:O.3$BOOTH #1 MANUAL FUNCTION ENABLED</value>
+  </data>
+  <data name="lsR3S12M0_04" xml:space="preserve">
+    <value>Chassis_3:12:O.4$CONVEYOR STATUS</value>
+  </data>
+  <data name="lsR3S12M0_05" xml:space="preserve">
+    <value>Chassis_3:12:O.5$ROBOT B1 BYPASSED</value>
+  </data>
+  <data name="lsR3S12M0_06" xml:space="preserve">
+    <value>Chassis_3:12:O.6$ROBOT B1 CANCEL/CONT ON=CANCEL FLASH=CONTINUE</value>
+  </data>
+  <data name="lsR3S12M0_07" xml:space="preserve">
+    <value>Chassis_3:12:O.7$ROBOT B1 POSITION ON=HOME FLASH=BYPASS</value>
+  </data>
+  <data name="lsR3S13M0_00" xml:space="preserve">
+    <value>Chassis_3:13:O.0$ROBOT B1 E-STAT SAFETY</value>
+  </data>
+  <data name="lsR3S13M0_01" xml:space="preserve">
+    <value>Chassis_3:13:O.1$ROBOT B1 PROCESS AIR ENABLE</value>
+  </data>
+  <data name="lsR3S13M0_02" xml:space="preserve">
+    <value>Chassis_3:13:O.2$SPARE</value>
+  </data>
+  <data name="lsR3S13M0_03" xml:space="preserve">
+    <value>Chassis_3:13:O.3$ZONE FAULT</value>
+  </data>
+  <data name="lsR3S13M0_04" xml:space="preserve">
+    <value>Chassis_3:13:O.4$ROBOTS RUNNING</value>
+  </data>
+  <data name="lsR3S13M0_05" xml:space="preserve">
+    <value>Chassis_3:13:O.5$E-STATS ENABLED</value>
+  </data>
+  <data name="lsR3S13M0_06" xml:space="preserve">
+    <value>Chassis_3:13:O.6$ZONE BYPASSED</value>
+  </data>
+  <data name="lsR3S13M0_07" xml:space="preserve">
+    <value>Chassis_3:13:O.7$ALARM HORN</value>
+  </data>
+  <data name="lsR3_TT" xml:space="preserve">
+    <value>Chassis_3 (Base 1)</value>
+  </data>
+  <data name="lsR4S01M0_00" xml:space="preserve">
+    <value>Chassis_4:1:I.Pt00Data$TEACH MODE SELECTED</value>
+  </data>
+  <data name="lsR4S01M0_01" xml:space="preserve">
+    <value>Chassis_4:1:I.Pt01Data$MANUAL MODE SELECTED</value>
+  </data>
+  <data name="lsR4S01M0_02" xml:space="preserve">
+    <value>Chassis_4:1:I.Pt02Data$AUTO MODE SELECTED</value>
+  </data>
+  <data name="lsR4S01M0_03" xml:space="preserve">
+    <value>Chassis_4:1:I.Pt03Data$TP IN AUTO MODE SELECTED</value>
+  </data>
+  <data name="lsR4S01M0_04" xml:space="preserve">
+    <value>Chassis_4:1:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR4S01M0_05" xml:space="preserve">
+    <value>Chassis_4:1:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR4S01M0_06" xml:space="preserve">
+    <value>Chassis_4:1:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR4S01M0_07" xml:space="preserve">
+    <value>Chassis_4:1:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR4S01M0_08" xml:space="preserve">
+    <value>Chassis_4:1:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S01M0_09" xml:space="preserve">
+    <value>Chassis_4:1:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S01M0_10" xml:space="preserve">
+    <value>Chassis_4:1:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S01M0_11" xml:space="preserve">
+    <value>Chassis_4:1:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S01M0_12" xml:space="preserve">
+    <value>Chassis_4:1:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR4S01M0_13" xml:space="preserve">
+    <value>Chassis_4:1:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR4S01M0_14" xml:space="preserve">
+    <value>Chassis_4:1:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR4S01M0_15" xml:space="preserve">
+    <value>Chassis_4:1:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR4S02M0_00" xml:space="preserve">
+    <value>Chassis_4:2:I.Pt00Data$BOOTH E-STOP #1 CH. #1</value>
+  </data>
+  <data name="lsR4S02M0_01" xml:space="preserve">
+    <value>Chassis_4:2:I.Pt01Data$BOOTH E-STOP #1 CH. #2</value>
+  </data>
+  <data name="lsR4S02M0_02" xml:space="preserve">
+    <value>Chassis_4:2:I.Pt02Data$BOOTH E-STOP #2 CH. #1</value>
+  </data>
+  <data name="lsR4S02M0_03" xml:space="preserve">
+    <value>Chassis_4:2:I.Pt03Data$BOOTH E-STOP #2 CH. #2</value>
+  </data>
+  <data name="lsR4S02M0_04" xml:space="preserve">
+    <value>Chassis_4:2:I.Pt04Data$BOOTH E-STOP #3 CH. #1</value>
+  </data>
+  <data name="lsR4S02M0_05" xml:space="preserve">
+    <value>Chassis_4:2:I.Pt05Data$BOOTH E-STOP #3 CH. #2</value>
+  </data>
+  <data name="lsR4S02M0_06" xml:space="preserve">
+    <value>Chassis_4:2:I.Pt06Data$BOOTH E-STOP #4 CH. #1</value>
+  </data>
+  <data name="lsR4S02M0_07" xml:space="preserve">
+    <value>Chassis_4:2:I.Pt07Data$BOOTH E-STOP #4 CH. #2</value>
+  </data>
+  <data name="lsR4S02M0_08" xml:space="preserve">
+    <value>Chassis_4:2:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S02M0_09" xml:space="preserve">
+    <value>Chassis_4:2:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S02M0_10" xml:space="preserve">
+    <value>Chassis_4:2:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S02M0_11" xml:space="preserve">
+    <value>Chassis_4:2:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S02M0_12" xml:space="preserve">
+    <value>Chassis_4:2:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR4S02M0_13" xml:space="preserve">
+    <value>Chassis_4:2:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR4S02M0_14" xml:space="preserve">
+    <value>Chassis_4:2:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR4S02M0_15" xml:space="preserve">
+    <value>Chassis_4:2:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR4S03M0_00" xml:space="preserve">
+    <value>Chassis_4:3:O.PT00DATA$</value>
+  </data>
+  <data name="lsR4S03M0_01" xml:space="preserve">
+    <value>Chassis_4:3:O.PT01DATA$</value>
+  </data>
+  <data name="lsR4S03M0_02" xml:space="preserve">
+    <value>Chassis_4:3:O.PT02DATA$</value>
+  </data>
+  <data name="lsR4S03M0_03" xml:space="preserve">
+    <value>Chassis_4:3:O.PT03DATA$</value>
+  </data>
+  <data name="lsR4S03M0_04" xml:space="preserve">
+    <value>Chassis_4:3:O.PT04DATA$</value>
+  </data>
+  <data name="lsR4S03M0_05" xml:space="preserve">
+    <value>Chassis_4:3:O.PT05DATA$</value>
+  </data>
+  <data name="lsR4S03M0_06" xml:space="preserve">
+    <value>Chassis_4:3:O.PT06DATA$</value>
+  </data>
+  <data name="lsR4S03M0_07" xml:space="preserve">
+    <value>Chassis_4:3:O.PT07DATA$</value>
+  </data>
+  <data name="lsR4S04M0_00" xml:space="preserve">
+    <value>Chassis_4:4:I.Pt00Data$ROBOT B2 SERVO DISABLE CH. #1</value>
+  </data>
+  <data name="lsR4S04M0_01" xml:space="preserve">
+    <value>Chassis_4:4:I.Pt01Data$ROBOT B2 SERVO DISABLE CH. #2</value>
+  </data>
+  <data name="lsR4S04M0_02" xml:space="preserve">
+    <value>Chassis_4:4:I.Pt02Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR4S04M0_03" xml:space="preserve">
+    <value>Chassis_4:4:I.Pt03Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR4S04M0_04" xml:space="preserve">
+    <value>Chassis_4:4:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR4S04M0_05" xml:space="preserve">
+    <value>Chassis_4:4:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR4S04M0_06" xml:space="preserve">
+    <value>Chassis_4:4:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR4S04M0_07" xml:space="preserve">
+    <value>Chassis_4:4:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR4S04M0_08" xml:space="preserve">
+    <value>Chassis_4:4:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S04M0_09" xml:space="preserve">
+    <value>Chassis_4:4:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S04M0_10" xml:space="preserve">
+    <value>Chassis_4:4:O.TEST02DATA$Not Used</value>
+  </data>
+  <data name="lsR4S04M0_11" xml:space="preserve">
+    <value>Chassis_4:4:O.TEST03DATA$Not Used</value>
+  </data>
+  <data name="lsR4S04M0_12" xml:space="preserve">
+    <value>Chassis_4:4:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR4S04M0_13" xml:space="preserve">
+    <value>Chassis_4:4:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR4S04M0_14" xml:space="preserve">
+    <value>Chassis_4:4:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR4S04M0_15" xml:space="preserve">
+    <value>Chassis_4:4:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR4S05M0_00" xml:space="preserve">
+    <value>Chassis_4:5:I.Pt00Data$BOOTH DOOR #1 CH. #1</value>
+  </data>
+  <data name="lsR4S05M0_01" xml:space="preserve">
+    <value>Chassis_4:5:I.Pt01Data$BOOTH DOOR #1 CH. #2</value>
+  </data>
+  <data name="lsR4S05M0_02" xml:space="preserve">
+    <value>Chassis_4:5:I.Pt02Data$BOOTH DOOR #2 CH. #1</value>
+  </data>
+  <data name="lsR4S05M0_03" xml:space="preserve">
+    <value>Chassis_4:5:I.Pt03Data$BOOTH DOOR #2 CH. #2</value>
+  </data>
+  <data name="lsR4S05M0_04" xml:space="preserve">
+    <value>Chassis_4:5:I.Pt04Data$BOOTH DOOR #3 CH. #1</value>
+  </data>
+  <data name="lsR4S05M0_05" xml:space="preserve">
+    <value>Chassis_4:5:I.Pt05Data$BOOTH DOOR #3 CH. #2</value>
+  </data>
+  <data name="lsR4S05M0_06" xml:space="preserve">
+    <value>Chassis_4:5:I.Pt06Data$BOOTH DOOR #4 CH. #1</value>
+  </data>
+  <data name="lsR4S05M0_07" xml:space="preserve">
+    <value>Chassis_4:5:I.Pt07Data$BOOTH DOOR #4 CH. #2</value>
+  </data>
+  <data name="lsR4S05M0_08" xml:space="preserve">
+    <value>Chassis_4:5:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S05M0_09" xml:space="preserve">
+    <value>Chassis_4:5:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S05M0_10" xml:space="preserve">
+    <value>Chassis_4:5:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S05M0_11" xml:space="preserve">
+    <value>Chassis_4:5:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S05M0_12" xml:space="preserve">
+    <value>Chassis_4:5:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR4S05M0_13" xml:space="preserve">
+    <value>Chassis_4:5:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR4S05M0_14" xml:space="preserve">
+    <value>Chassis_4:5:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR4S05M0_15" xml:space="preserve">
+    <value>Chassis_4:5:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR4S06M0_00" xml:space="preserve">
+    <value>Chassis_4:6:I.Pt00Data$ENTRANCE INTRUSION LIGHT CURTAIN CH. #1 OK</value>
+  </data>
+  <data name="lsR4S06M0_01" xml:space="preserve">
+    <value>Chassis_4:6:I.Pt01Data$ENTRANCE INTRUSION LIGHT CURTAIN CH. #2 OK</value>
+  </data>
+  <data name="lsR4S06M0_02" xml:space="preserve">
+    <value>Chassis_4:6:I.Pt02Data$EXIT INTRUSION LIGHT CURTAIN CH. #1 OK</value>
+  </data>
+  <data name="lsR4S06M0_03" xml:space="preserve">
+    <value>Chassis_4:6:I.Pt03Data$EXIT INTRUSION LIGHT CURTAIN CH. #2 OK</value>
+  </data>
+  <data name="lsR4S06M0_04" xml:space="preserve">
+    <value>Chassis_4:6:I.Pt04Data$LIGHT CURTAIN (INTRUSION) BYPASS CH. #1 OK</value>
+  </data>
+  <data name="lsR4S06M0_05" xml:space="preserve">
+    <value>Chassis_4:6:I.Pt05Data$LIGHT CURTAIN (INTRUSION) BYPASS CH. #2 OK</value>
+  </data>
+  <data name="lsR4S06M0_06" xml:space="preserve">
+    <value>Chassis_4:6:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR4S06M0_07" xml:space="preserve">
+    <value>Chassis_4:6:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR4S06M0_08" xml:space="preserve">
+    <value>Chassis_4:6:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S06M0_09" xml:space="preserve">
+    <value>Chassis_4:6:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S06M0_10" xml:space="preserve">
+    <value>Chassis_4:6:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S06M0_11" xml:space="preserve">
+    <value>Chassis_4:6:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S06M0_12" xml:space="preserve">
+    <value>Chassis_4:6:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR4S06M0_13" xml:space="preserve">
+    <value>Chassis_4:6:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR4S06M0_14" xml:space="preserve">
+    <value>Chassis_4:6:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR4S06M0_15" xml:space="preserve">
+    <value>Chassis_4:6:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR4S07M0_00" xml:space="preserve">
+    <value>Chassis_4:7:I.Pt00Data$ENTRANCE BEFORE LIGHT CURTAIN MUTING SWITCH #1</value>
+  </data>
+  <data name="lsR4S07M0_01" xml:space="preserve">
+    <value>Chassis_4:7:I.Pt01Data$ENTRANCE BEFORE LIGHT CURTAIN MUTING SWITCH #2</value>
+  </data>
+  <data name="lsR4S07M0_02" xml:space="preserve">
+    <value>Chassis_4:7:I.Pt02Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR4S07M0_03" xml:space="preserve">
+    <value>Chassis_4:7:I.Pt03Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR4S07M0_04" xml:space="preserve">
+    <value>Chassis_4:7:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR4S07M0_05" xml:space="preserve">
+    <value>Chassis_4:7:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR4S07M0_06" xml:space="preserve">
+    <value>Chassis_4:7:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR4S07M0_07" xml:space="preserve">
+    <value>Chassis_4:7:I.Pt02Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR4S07M0_08" xml:space="preserve">
+    <value>Chassis_4:7:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S07M0_09" xml:space="preserve">
+    <value>Chassis_4:7:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR4S07M0_10" xml:space="preserve">
+    <value>Chassis_4:7:O.TEST02DATA$Not Used</value>
+  </data>
+  <data name="lsR4S07M0_11" xml:space="preserve">
+    <value>Chassis_4:7:O.TEST03DATA$Not Used</value>
+  </data>
+  <data name="lsR4S07M0_12" xml:space="preserve">
+    <value>Chassis_4:7:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR4S07M0_13" xml:space="preserve">
+    <value>Chassis_4:7:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR4S07M0_14" xml:space="preserve">
+    <value>Chassis_4:7:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR4S07M0_15" xml:space="preserve">
+    <value>Chassis_4:7:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR4S08M0_00" xml:space="preserve">
+    <value>Chassis_4:8:I.0$SILENCE ALARM</value>
+  </data>
+  <data name="lsR4S08M0_01" xml:space="preserve">
+    <value>Chassis_4:8:I.1$BOOTH #1 FAULT RESET</value>
+  </data>
+  <data name="lsR4S08M0_02" xml:space="preserve">
+    <value>Chassis_4:8:I.2$CONVEYOR RUN</value>
+  </data>
+  <data name="lsR4S08M0_03" xml:space="preserve">
+    <value>Chassis_4:8:I.3$ROBOT B2 E-STAT ENABLE</value>
+  </data>
+  <data name="lsR4S08M0_04" xml:space="preserve">
+    <value>Chassis_4:8:I.4$ROBOT B2 JOG-</value>
+  </data>
+  <data name="lsR4S08M0_05" xml:space="preserve">
+    <value>Chassis_4:8:I.5$ROBOT B2 JOG+</value>
+  </data>
+  <data name="lsR4S08M0_06" xml:space="preserve">
+    <value>Chassis_4:8:I.6$ROBOT B2 CYCLE CANCEL</value>
+  </data>
+  <data name="lsR4S08M0_07" xml:space="preserve">
+    <value>Chassis_4:8:I.7$ROBOT B2 CYCLE CONTINUE</value>
+  </data>
+  <data name="lsR4S09M0_00" xml:space="preserve">
+    <value>Chassis_4:9:I.0$SPARE</value>
+  </data>
+  <data name="lsR4S09M0_01" xml:space="preserve">
+    <value>Chassis_4:9:I.1$BOOTH #1 AIR INTERLOCK OK</value>
+  </data>
+  <data name="lsR4S09M0_02" xml:space="preserve">
+    <value>Chassis_4:9:I.2$ROBOT B2 NOT BYPASSED</value>
+  </data>
+  <data name="lsR4S09M0_03" xml:space="preserve">
+    <value>Chassis_4:9:I.3$SPARE</value>
+  </data>
+  <data name="lsR4S09M0_04" xml:space="preserve">
+    <value>Chassis_4:9:I.4$ROBOT B2 MOVE TO BYPASS POSITION</value>
+  </data>
+  <data name="lsR4S09M0_05" xml:space="preserve">
+    <value>Chassis_4:9:I.5$ROBOT B2 MOVE TO HOME POSITION</value>
+  </data>
+  <data name="lsR4S09M0_06" xml:space="preserve">
+    <value>Chassis_4:9:I.6$ROBOT B2 SUPER PURGE</value>
+  </data>
+  <data name="lsR4S09M0_07" xml:space="preserve">
+    <value>Chassis_4:9:I.7$SPARE</value>
+  </data>
+  <data name="lsR4S10M0_00" xml:space="preserve">
+    <value>Chassis_4:10:I.0$BOOTH #1 AIR INTERLOCK BYPASS</value>
+  </data>
+  <data name="lsR4S10M0_01" xml:space="preserve">
+    <value>Chassis_4:10:I.1$SPARE</value>
+  </data>
+  <data name="lsR4S10M0_02" xml:space="preserve">
+    <value>Chassis_4:10:I.2$SPARE</value>
+  </data>
+  <data name="lsR4S10M0_03" xml:space="preserve">
+    <value>Chassis_4:10:I.3$SPARE</value>
+  </data>
+  <data name="lsR4S10M0_04" xml:space="preserve">
+    <value>Chassis_4:10:I.4$SPARE</value>
+  </data>
+  <data name="lsR4S10M0_05" xml:space="preserve">
+    <value>Chassis_4:10:I.5$SPARE</value>
+  </data>
+  <data name="lsR4S10M0_06" xml:space="preserve">
+    <value>Chassis_4:10:I.6$SPARE</value>
+  </data>
+  <data name="lsR4S10M0_07" xml:space="preserve">
+    <value>Chassis_4:10:I.7$SPARE</value>
+  </data>
+  <data name="lsR4S11M0_00" xml:space="preserve">
+    <value>Chassis_4:11:I.0$ROBOT B2 ARMED BEACON</value>
+  </data>
+  <data name="lsR4S11M0_01" xml:space="preserve">
+    <value>Chassis_4:11:I.1$SPARE</value>
+  </data>
+  <data name="lsR4S11M0_02" xml:space="preserve">
+    <value>Chassis_4:11:I.2$SPARE</value>
+  </data>
+  <data name="lsR4S11M0_03" xml:space="preserve">
+    <value>Chassis_4:11:I.3$SPARE</value>
+  </data>
+  <data name="lsR4S11M0_04" xml:space="preserve">
+    <value>Chassis_4:11:I.4$SPARE</value>
+  </data>
+  <data name="lsR4S11M0_05" xml:space="preserve">
+    <value>Chassis_4:11:I.5$SPARE</value>
+  </data>
+  <data name="lsR4S11M0_06" xml:space="preserve">
+    <value>Chassis_4:11:I.6$SPARE</value>
+  </data>
+  <data name="lsR4S11M0_07" xml:space="preserve">
+    <value>Chassis_4:11:I.7$SPARE</value>
+  </data>
+  <data name="lsR4S12M0_00" xml:space="preserve">
+    <value>Chassis_4:12:O.0$CONVEYOR OK TO RUN</value>
+  </data>
+  <data name="lsR4S12M0_01" xml:space="preserve">
+    <value>Chassis_4:12:O.1$BOOTH #1 AIR INTERLOCK OK</value>
+  </data>
+  <data name="lsR4S12M0_02" xml:space="preserve">
+    <value>Chassis_4:12:O.2$BOOTH #1 AUTO MODE ENABLED</value>
+  </data>
+  <data name="lsR4S12M0_03" xml:space="preserve">
+    <value>Chassis_4:12:O.3$BOOTH #1 MANUAL FUNCTION ENABLED</value>
+  </data>
+  <data name="lsR4S12M0_04" xml:space="preserve">
+    <value>Chassis_4:12:O.4$CONVEYOR STATUS</value>
+  </data>
+  <data name="lsR4S12M0_05" xml:space="preserve">
+    <value>Chassis_4:12:O.5$ROBOT B2 BYPASSED</value>
+  </data>
+  <data name="lsR4S12M0_06" xml:space="preserve">
+    <value>Chassis_4:12:O.6$ROBOT B2 CANCEL/CONT ON=CANCEL FLASH=CONTINUE</value>
+  </data>
+  <data name="lsR4S12M0_07" xml:space="preserve">
+    <value>Chassis_4:12:O.7$ROBOT B2 POSITION ON=HOME FLASH=BYPASS</value>
+  </data>
+  <data name="lsR4S13M0_00" xml:space="preserve">
+    <value>Chassis_4:13:O.0$ROBOT B2 E-STAT SAFETY</value>
+  </data>
+  <data name="lsR4S13M0_01" xml:space="preserve">
+    <value>Chassis_4:13:O.1$ROBOT B2 PROCESS AIR ENABLE</value>
+  </data>
+  <data name="lsR4S13M0_02" xml:space="preserve">
+    <value>Chassis_4:13:O.2$SPARE</value>
+  </data>
+  <data name="lsR4S13M0_03" xml:space="preserve">
+    <value>Chassis_4:13:O.3$ZONE FAULT</value>
+  </data>
+  <data name="lsR4S13M0_04" xml:space="preserve">
+    <value>Chassis_4:13:O.4$ROBOTS RUNNING</value>
+  </data>
+  <data name="lsR4S13M0_05" xml:space="preserve">
+    <value>Chassis_4:13:O.5$E-STATS ENABLED</value>
+  </data>
+  <data name="lsR4S13M0_06" xml:space="preserve">
+    <value>Chassis_4:13:O.6$ZONE BYPASSED</value>
+  </data>
+  <data name="lsR4S13M0_07" xml:space="preserve">
+    <value>Chassis_4:13:O.7$ALARM HORN</value>
+  </data>
+  <data name="lsR4_TT" xml:space="preserve">
+    <value>Chassis_4 (Base 2)</value>
+  </data>
+  <data name="lsR5S01M0_00" xml:space="preserve">
+    <value>Chassis_5:1:I.Pt00Data$TEACH MODE SELECTED</value>
+  </data>
+  <data name="lsR5S01M0_01" xml:space="preserve">
+    <value>Chassis_5:1:I.Pt01Data$MANUAL MODE SELECTED</value>
+  </data>
+  <data name="lsR5S01M0_02" xml:space="preserve">
+    <value>Chassis_5:1:I.Pt02Data$AUTO MODE SELECTED</value>
+  </data>
+  <data name="lsR5S01M0_03" xml:space="preserve">
+    <value>Chassis_5:1:I.Pt03Data$TP IN AUTO MODE SELECTED</value>
+  </data>
+  <data name="lsR5S01M0_04" xml:space="preserve">
+    <value>Chassis_5:1:I.Pt04Data$SOC E-STOP CH. #1</value>
+  </data>
+  <data name="lsR5S01M0_05" xml:space="preserve">
+    <value>Chassis_5:1:I.Pt05Data$SOC E-STOP CH. #2</value>
+  </data>
+  <data name="lsR5S01M0_06" xml:space="preserve">
+    <value>Chassis_5:1:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR5S01M0_07" xml:space="preserve">
+    <value>Chassis_5:1:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR5S01M0_08" xml:space="preserve">
+    <value>Chassis_5:1:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S01M0_09" xml:space="preserve">
+    <value>Chassis_5:1:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S01M0_10" xml:space="preserve">
+    <value>Chassis_5:1:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S01M0_11" xml:space="preserve">
+    <value>Chassis_5:1:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S01M0_12" xml:space="preserve">
+    <value>Chassis_5:1:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR5S01M0_13" xml:space="preserve">
+    <value>Chassis_5:1:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR5S01M0_14" xml:space="preserve">
+    <value>Chassis_5:1:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR5S01M0_15" xml:space="preserve">
+    <value>Chassis_5:1:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR5S02M0_00" xml:space="preserve">
+    <value>Chassis_5:2:I.Pt00Data$BOOTH E-STOP #1 CH. #1</value>
+  </data>
+  <data name="lsR5S02M0_01" xml:space="preserve">
+    <value>Chassis_5:2:I.Pt01Data$BOOTH E-STOP #1 CH. #2</value>
+  </data>
+  <data name="lsR5S02M0_02" xml:space="preserve">
+    <value>Chassis_5:2:I.Pt02Data$BOOTH E-STOP #2 CH. #1</value>
+  </data>
+  <data name="lsR5S02M0_03" xml:space="preserve">
+    <value>Chassis_5:2:I.Pt03Data$BOOTH E-STOP #2 CH. #2</value>
+  </data>
+  <data name="lsR5S02M0_04" xml:space="preserve">
+    <value>Chassis_5:2:I.Pt04Data$BOOTH E-STOP #3 CH. #1</value>
+  </data>
+  <data name="lsR5S02M0_05" xml:space="preserve">
+    <value>Chassis_5:2:I.Pt05Data$BOOTH E-STOP #3 CH. #2</value>
+  </data>
+  <data name="lsR5S02M0_06" xml:space="preserve">
+    <value>Chassis_5:2:I.Pt06Data$BOOTH E-STOP #4 CH. #1</value>
+  </data>
+  <data name="lsR5S02M0_07" xml:space="preserve">
+    <value>Chassis_5:2:I.Pt07Data$BOOTH E-STOP #4 CH. #2</value>
+  </data>
+  <data name="lsR5S02M0_08" xml:space="preserve">
+    <value>Chassis_5:2:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S02M0_09" xml:space="preserve">
+    <value>Chassis_5:2:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S02M0_10" xml:space="preserve">
+    <value>Chassis_5:2:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S02M0_11" xml:space="preserve">
+    <value>Chassis_5:2:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S02M0_12" xml:space="preserve">
+    <value>Chassis_5:2:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR5S02M0_13" xml:space="preserve">
+    <value>Chassis_5:2:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR5S02M0_14" xml:space="preserve">
+    <value>Chassis_5:2:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR5S02M0_15" xml:space="preserve">
+    <value>Chassis_5:2:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR5S03M0_00" xml:space="preserve">
+    <value>Chassis_5:3:O.0$</value>
+  </data>
+  <data name="lsR5S03M0_01" xml:space="preserve">
+    <value>Chassis_5:3:O.1$</value>
+  </data>
+  <data name="lsR5S03M0_02" xml:space="preserve">
+    <value>Chassis_5:3:O.2$</value>
+  </data>
+  <data name="lsR5S03M0_03" xml:space="preserve">
+    <value>Chassis_5:3:O.3$</value>
+  </data>
+  <data name="lsR5S03M0_04" xml:space="preserve">
+    <value>Chassis_5:3:O.4$</value>
+  </data>
+  <data name="lsR5S03M0_05" xml:space="preserve">
+    <value>Chassis_5:3:O.5$</value>
+  </data>
+  <data name="lsR5S03M0_06" xml:space="preserve">
+    <value>Chassis_5:3:O.6$</value>
+  </data>
+  <data name="lsR5S03M0_07" xml:space="preserve">
+    <value>Chassis_5:3:O.7$</value>
+  </data>
+  <data name="lsR5S03M0_08" xml:space="preserve">
+    <value>Chassis_5:3:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR5S03M0_09" xml:space="preserve">
+    <value>Chassis_5:3:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR5S03M0_10" xml:space="preserve">
+    <value>Chassis_5:3:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR5S03M0_11" xml:space="preserve">
+    <value>Chassis_5:3:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR5S04M0_00" xml:space="preserve">
+    <value>Chassis_5:4:I.Pt00Data$ROBOT C1 SERVO DISABLE CH. #1</value>
+  </data>
+  <data name="lsR5S04M0_01" xml:space="preserve">
+    <value>Chassis_5:4:I.Pt01Data$ROBOT C1 SERVO DISABLE CH. #2</value>
+  </data>
+  <data name="lsR5S04M0_02" xml:space="preserve">
+    <value>Chassis_5:4:I.Pt02Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR5S04M0_03" xml:space="preserve">
+    <value>Chassis_5:4:I.Pt03Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR5S04M0_04" xml:space="preserve">
+    <value>Chassis_5:4:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR5S04M0_05" xml:space="preserve">
+    <value>Chassis_5:4:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR5S04M0_06" xml:space="preserve">
+    <value>Chassis_5:4:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR5S04M0_07" xml:space="preserve">
+    <value>Chassis_5:4:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR5S04M0_08" xml:space="preserve">
+    <value>Chassis_5:4:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S04M0_09" xml:space="preserve">
+    <value>Chassis_5:4:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S04M0_10" xml:space="preserve">
+    <value>Chassis_5:4:O.TEST02DATA$Not Used</value>
+  </data>
+  <data name="lsR5S04M0_11" xml:space="preserve">
+    <value>Chassis_5:4:O.TEST03DATA$Not Used</value>
+  </data>
+  <data name="lsR5S04M0_12" xml:space="preserve">
+    <value>Chassis_5:4:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR5S04M0_13" xml:space="preserve">
+    <value>Chassis_5:4:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR5S04M0_14" xml:space="preserve">
+    <value>Chassis_5:4:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR5S04M0_15" xml:space="preserve">
+    <value>Chassis_5:4:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR5S05M0_00" xml:space="preserve">
+    <value>Chassis_5:5:I.Pt00Data$BOOTH DOOR #1 CH. #1</value>
+  </data>
+  <data name="lsR5S05M0_01" xml:space="preserve">
+    <value>Chassis_5:5:I.Pt01Data$BOOTH DOOR #1 CH. #2</value>
+  </data>
+  <data name="lsR5S05M0_02" xml:space="preserve">
+    <value>Chassis_5:5:I.Pt02Data$BOOTH DOOR #2 CH. #1</value>
+  </data>
+  <data name="lsR5S05M0_03" xml:space="preserve">
+    <value>Chassis_5:5:I.Pt03Data$BOOTH DOOR #2 CH. #2</value>
+  </data>
+  <data name="lsR5S05M0_04" xml:space="preserve">
+    <value>Chassis_5:5:I.Pt04Data$BOOTH DOOR #3 CH. #1</value>
+  </data>
+  <data name="lsR5S05M0_05" xml:space="preserve">
+    <value>Chassis_5:5:I.Pt05Data$BOOTH DOOR #3 CH. #2</value>
+  </data>
+  <data name="lsR5S05M0_06" xml:space="preserve">
+    <value>Chassis_5:5:I.Pt06Data$BOOTH DOOR #4 CH. #1</value>
+  </data>
+  <data name="lsR5S05M0_07" xml:space="preserve">
+    <value>Chassis_5:5:I.Pt07Data$BOOTH DOOR #4 CH. #2</value>
+  </data>
+  <data name="lsR5S05M0_08" xml:space="preserve">
+    <value>Chassis_5:5:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S05M0_09" xml:space="preserve">
+    <value>Chassis_5:5:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S05M0_10" xml:space="preserve">
+    <value>Chassis_5:5:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S05M0_11" xml:space="preserve">
+    <value>Chassis_5:5:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S05M0_12" xml:space="preserve">
+    <value>Chassis_5:5:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR5S05M0_13" xml:space="preserve">
+    <value>Chassis_5:5:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR5S05M0_14" xml:space="preserve">
+    <value>Chassis_5:5:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR5S05M0_15" xml:space="preserve">
+    <value>Chassis_5:5:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR5S06M0_00" xml:space="preserve">
+    <value>Chassis_5:6:I.Pt00Data$ENTRANCE INTRUSION LIGHT CURTAIN CH. #1 OK</value>
+  </data>
+  <data name="lsR5S06M0_01" xml:space="preserve">
+    <value>Chassis_5:6:I.Pt01Data$ENTRANCE INTRUSION LIGHT CURTAIN CH. #2 OK</value>
+  </data>
+  <data name="lsR5S06M0_02" xml:space="preserve">
+    <value>Chassis_5:6:I.Pt02Data$EXIT INTRUSION LIGHT CURTAIN CH. #1 OK</value>
+  </data>
+  <data name="lsR5S06M0_03" xml:space="preserve">
+    <value>Chassis_5:6:I.Pt03Data$EXIT INTRUSION LIGHT CURTAIN CH. #2 OK</value>
+  </data>
+  <data name="lsR5S06M0_04" xml:space="preserve">
+    <value>Chassis_5:6:I.Pt04Data$LIGHT CURTAIN (INTRUSION) BYPASS CH. #1 OK</value>
+  </data>
+  <data name="lsR5S06M0_05" xml:space="preserve">
+    <value>Chassis_5:6:I.Pt05Data$LIGHT CURTAIN (INTRUSION) BYPASS CH. #2 OK</value>
+  </data>
+  <data name="lsR5S06M0_06" xml:space="preserve">
+    <value>Chassis_5:6:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR5S06M0_07" xml:space="preserve">
+    <value>Chassis_5:6:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR5S06M0_08" xml:space="preserve">
+    <value>Chassis_5:6:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S06M0_09" xml:space="preserve">
+    <value>Chassis_5:6:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S06M0_10" xml:space="preserve">
+    <value>Chassis_5:6:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S06M0_11" xml:space="preserve">
+    <value>Chassis_5:6:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S06M0_12" xml:space="preserve">
+    <value>Chassis_5:6:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR5S06M0_13" xml:space="preserve">
+    <value>Chassis_5:6:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR5S06M0_14" xml:space="preserve">
+    <value>Chassis_5:6:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR5S06M0_15" xml:space="preserve">
+    <value>Chassis_5:6:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR5S07M0_00" xml:space="preserve">
+    <value>Chassis_5:7:I.Pt00Data$ENTRANCE BEFORE LIGHT CURTAIN MUTING SWITCH #1</value>
+  </data>
+  <data name="lsR5S07M0_01" xml:space="preserve">
+    <value>Chassis_5:7:I.Pt01Data$ENTRANCE BEFORE LIGHT CURTAIN MUTING SWITCH #2</value>
+  </data>
+  <data name="lsR5S07M0_02" xml:space="preserve">
+    <value>Chassis_5:7:I.Pt02Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR5S07M0_03" xml:space="preserve">
+    <value>Chassis_5:7:I.Pt03Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR5S07M0_04" xml:space="preserve">
+    <value>Chassis_5:7:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR5S07M0_05" xml:space="preserve">
+    <value>Chassis_5:7:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR5S07M0_06" xml:space="preserve">
+    <value>Chassis_5:7:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR5S07M0_07" xml:space="preserve">
+    <value>Chassis_5:7:I.Pt02Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR5S07M0_08" xml:space="preserve">
+    <value>Chassis_5:7:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S07M0_09" xml:space="preserve">
+    <value>Chassis_5:7:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR5S07M0_10" xml:space="preserve">
+    <value>Chassis_5:7:O.TEST02DATA$Not Used</value>
+  </data>
+  <data name="lsR5S07M0_11" xml:space="preserve">
+    <value>Chassis_5:7:O.TEST03DATA$Not Used</value>
+  </data>
+  <data name="lsR5S07M0_12" xml:space="preserve">
+    <value>Chassis_5:7:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR5S07M0_13" xml:space="preserve">
+    <value>Chassis_5:7:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR5S07M0_14" xml:space="preserve">
+    <value>Chassis_5:7:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR5S07M0_15" xml:space="preserve">
+    <value>Chassis_5:7:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR5S08M0_00" xml:space="preserve">
+    <value>Chassis_5:8:I.0$SILENCE ALARM</value>
+  </data>
+  <data name="lsR5S08M0_01" xml:space="preserve">
+    <value>Chassis_5:8:I.1$BOOTH #1 FAULT RESET</value>
+  </data>
+  <data name="lsR5S08M0_02" xml:space="preserve">
+    <value>Chassis_5:8:I.2$CONVEYOR RUN</value>
+  </data>
+  <data name="lsR5S08M0_03" xml:space="preserve">
+    <value>Chassis_5:8:I.3$ROBOT C1 E-STAT ENABLE</value>
+  </data>
+  <data name="lsR5S08M0_04" xml:space="preserve">
+    <value>Chassis_5:8:I.4$ROBOT C1 JOG-</value>
+  </data>
+  <data name="lsR5S08M0_05" xml:space="preserve">
+    <value>Chassis_5:8:I.5$ROBOT C1 JOG+</value>
+  </data>
+  <data name="lsR5S08M0_06" xml:space="preserve">
+    <value>Chassis_5:8:I.6$ROBOT C1 CYCLE CANCEL</value>
+  </data>
+  <data name="lsR5S08M0_07" xml:space="preserve">
+    <value>Chassis_5:8:I.7$ROBOT C1 CYCLE CONTINUE</value>
+  </data>
+  <data name="lsR5S09M0_00" xml:space="preserve">
+    <value>Chassis_5:9:I.0$SPARE</value>
+  </data>
+  <data name="lsR5S09M0_01" xml:space="preserve">
+    <value>Chassis_5:9:I.1$BOOTH #1 AIR INTERLOCK OK</value>
+  </data>
+  <data name="lsR5S09M0_02" xml:space="preserve">
+    <value>Chassis_5:9:I.2$ROBOT C1 NOT BYPASSED</value>
+  </data>
+  <data name="lsR5S09M0_03" xml:space="preserve">
+    <value>Chassis_5:9:I.3$SPARE</value>
+  </data>
+  <data name="lsR5S09M0_04" xml:space="preserve">
+    <value>Chassis_5:9:I.4$ROBOT C1 MOVE TO BYPASS POSITION</value>
+  </data>
+  <data name="lsR5S09M0_05" xml:space="preserve">
+    <value>Chassis_5:9:I.5$ROBOT C1 MOVE TO HOME POSITION</value>
+  </data>
+  <data name="lsR5S09M0_06" xml:space="preserve">
+    <value>Chassis_5:9:I.6$ROBOT C1 SUPER PURGE</value>
+  </data>
+  <data name="lsR5S09M0_07" xml:space="preserve">
+    <value>Chassis_5:9:I.7$SPARE</value>
+  </data>
+  <data name="lsR5S10M0_00" xml:space="preserve">
+    <value>Chassis_5:10:I.0$BOOTH #1 AIR INTERLOCK BYPASS</value>
+  </data>
+  <data name="lsR5S10M0_01" xml:space="preserve">
+    <value>Chassis_5:10:I.1$SPARE</value>
+  </data>
+  <data name="lsR5S10M0_02" xml:space="preserve">
+    <value>Chassis_5:10:I.2$SPARE</value>
+  </data>
+  <data name="lsR5S10M0_03" xml:space="preserve">
+    <value>Chassis_5:10:I.3$SPARE</value>
+  </data>
+  <data name="lsR5S10M0_04" xml:space="preserve">
+    <value>Chassis_5:10:I.4$SPARE</value>
+  </data>
+  <data name="lsR5S10M0_05" xml:space="preserve">
+    <value>Chassis_5:10:I.5$SPARE</value>
+  </data>
+  <data name="lsR5S10M0_06" xml:space="preserve">
+    <value>Chassis_5:10:I.6$SPARE</value>
+  </data>
+  <data name="lsR5S10M0_07" xml:space="preserve">
+    <value>Chassis_5:10:I.7$SPARE</value>
+  </data>
+  <data name="lsR5S11M0_00" xml:space="preserve">
+    <value>Chassis_5:11:I.0$ROBOT C1 ARMED BEACON</value>
+  </data>
+  <data name="lsR5S11M0_01" xml:space="preserve">
+    <value>Chassis_5:11:I.1$SPARE</value>
+  </data>
+  <data name="lsR5S11M0_02" xml:space="preserve">
+    <value>Chassis_5:11:I.2$SPARE</value>
+  </data>
+  <data name="lsR5S11M0_03" xml:space="preserve">
+    <value>Chassis_5:11:I.3$SPARE</value>
+  </data>
+  <data name="lsR5S11M0_04" xml:space="preserve">
+    <value>Chassis_5:11:I.4$SPARE</value>
+  </data>
+  <data name="lsR5S11M0_05" xml:space="preserve">
+    <value>Chassis_5:11:I.5$SPARE</value>
+  </data>
+  <data name="lsR5S11M0_06" xml:space="preserve">
+    <value>Chassis_5:11:I.6$SPARE</value>
+  </data>
+  <data name="lsR5S11M0_07" xml:space="preserve">
+    <value>Chassis_5:11:I.7$SPARE</value>
+  </data>
+  <data name="lsR5S12M0_00" xml:space="preserve">
+    <value>Chassis_5:12:O.0$CONVEYOR OK TO RUN</value>
+  </data>
+  <data name="lsR5S12M0_01" xml:space="preserve">
+    <value>Chassis_5:12:O.1$BOOTH #1 AIR INTERLOCK OK</value>
+  </data>
+  <data name="lsR5S12M0_02" xml:space="preserve">
+    <value>Chassis_5:12:O.2$BOOTH #1 AUTO MODE ENABLED</value>
+  </data>
+  <data name="lsR5S12M0_03" xml:space="preserve">
+    <value>Chassis_5:12:O.3$BOOTH #1 MANUAL FUNCTION ENABLED</value>
+  </data>
+  <data name="lsR5S12M0_04" xml:space="preserve">
+    <value>Chassis_5:12:O.4$CONVEYOR STATUS</value>
+  </data>
+  <data name="lsR5S12M0_05" xml:space="preserve">
+    <value>Chassis_5:12:O.5$ROBOT C1 BYPASSED</value>
+  </data>
+  <data name="lsR5S12M0_06" xml:space="preserve">
+    <value>Chassis_5:12:O.6$ROBOT C1 CANCEL/CONT ON=CANCEL FLASH=CONTINUE</value>
+  </data>
+  <data name="lsR5S12M0_07" xml:space="preserve">
+    <value>Chassis_5:12:O.7$ROBOT C1 POSITION ON=HOME FLASH=BYPASS</value>
+  </data>
+  <data name="lsR5S13M0_00" xml:space="preserve">
+    <value>Chassis_5:13:O.0$ROBOT C1 E-STAT SAFETY</value>
+  </data>
+  <data name="lsR5S13M0_01" xml:space="preserve">
+    <value>Chassis_5:13:O.1$ROBOT C1 PROCESS AIR ENABLE</value>
+  </data>
+  <data name="lsR5S13M0_02" xml:space="preserve">
+    <value>Chassis_5:13:O.2$SPARE</value>
+  </data>
+  <data name="lsR5S13M0_03" xml:space="preserve">
+    <value>Chassis_5:13:O.3$ZONE FAULT</value>
+  </data>
+  <data name="lsR5S13M0_04" xml:space="preserve">
+    <value>Chassis_5:13:O.4$ROBOTS RUNNING</value>
+  </data>
+  <data name="lsR5S13M0_05" xml:space="preserve">
+    <value>Chassis_5:13:O.5$E-STATS ENABLED</value>
+  </data>
+  <data name="lsR5S13M0_06" xml:space="preserve">
+    <value>Chassis_5:13:O.6$ZONE BYPASSED</value>
+  </data>
+  <data name="lsR5S13M0_07" xml:space="preserve">
+    <value>Chassis_5:13:O.7$ALARM HORN</value>
+  </data>
+  <data name="lsR5_TT" xml:space="preserve">
+    <value>Chassis_5 (Clear 1)</value>
+  </data>
+  <data name="lsR6S01M0_00" xml:space="preserve">
+    <value>Chassis_6:1:I.Pt00Data$TEACH MODE SELECTED</value>
+  </data>
+  <data name="lsR6S01M0_01" xml:space="preserve">
+    <value>Chassis_6:1:I.Pt01Data$MANUAL MODE SELECTED</value>
+  </data>
+  <data name="lsR6S01M0_02" xml:space="preserve">
+    <value>Chassis_6:1:I.Pt02Data$AUTO MODE SELECTED</value>
+  </data>
+  <data name="lsR6S01M0_03" xml:space="preserve">
+    <value>Chassis_6:1:I.Pt03Data$TP IN AUTO MODE SELECTED</value>
+  </data>
+  <data name="lsR6S01M0_04" xml:space="preserve">
+    <value>Chassis_6:1:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR6S01M0_05" xml:space="preserve">
+    <value>Chassis_6:1:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR6S01M0_06" xml:space="preserve">
+    <value>Chassis_6:1:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR6S01M0_07" xml:space="preserve">
+    <value>Chassis_6:1:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR6S01M0_08" xml:space="preserve">
+    <value>Chassis_6:1:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S01M0_09" xml:space="preserve">
+    <value>Chassis_6:1:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S01M0_10" xml:space="preserve">
+    <value>Chassis_6:1:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S01M0_11" xml:space="preserve">
+    <value>Chassis_6:1:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S01M0_12" xml:space="preserve">
+    <value>Chassis_6:1:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR6S01M0_13" xml:space="preserve">
+    <value>Chassis_6:1:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR6S01M0_14" xml:space="preserve">
+    <value>Chassis_6:1:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR6S01M0_15" xml:space="preserve">
+    <value>Chassis_6:1:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR6S02M0_00" xml:space="preserve">
+    <value>Chassis_6:2:I.Pt00Data$BOOTH E-STOP #1 CH. #1</value>
+  </data>
+  <data name="lsR6S02M0_01" xml:space="preserve">
+    <value>Chassis_6:2:I.Pt01Data$BOOTH E-STOP #1 CH. #2</value>
+  </data>
+  <data name="lsR6S02M0_02" xml:space="preserve">
+    <value>Chassis_6:2:I.Pt02Data$BOOTH E-STOP #2 CH. #1</value>
+  </data>
+  <data name="lsR6S02M0_03" xml:space="preserve">
+    <value>Chassis_6:2:I.Pt03Data$BOOTH E-STOP #2 CH. #2</value>
+  </data>
+  <data name="lsR6S02M0_04" xml:space="preserve">
+    <value>Chassis_6:2:I.Pt04Data$BOOTH E-STOP #3 CH. #1</value>
+  </data>
+  <data name="lsR6S02M0_05" xml:space="preserve">
+    <value>Chassis_6:2:I.Pt05Data$BOOTH E-STOP #3 CH. #2</value>
+  </data>
+  <data name="lsR6S02M0_06" xml:space="preserve">
+    <value>Chassis_6:2:I.Pt06Data$BOOTH E-STOP #4 CH. #1</value>
+  </data>
+  <data name="lsR6S02M0_07" xml:space="preserve">
+    <value>Chassis_6:2:I.Pt07Data$BOOTH E-STOP #4 CH. #2</value>
+  </data>
+  <data name="lsR6S02M0_08" xml:space="preserve">
+    <value>Chassis_6:2:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S02M0_09" xml:space="preserve">
+    <value>Chassis_6:2:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S02M0_10" xml:space="preserve">
+    <value>Chassis_6:2:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S02M0_11" xml:space="preserve">
+    <value>Chassis_6:2:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S02M0_12" xml:space="preserve">
+    <value>Chassis_6:2:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR6S02M0_13" xml:space="preserve">
+    <value>Chassis_6:2:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR6S02M0_14" xml:space="preserve">
+    <value>Chassis_6:2:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR6S02M0_15" xml:space="preserve">
+    <value>Chassis_6:2:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR6S03M0_00" xml:space="preserve">
+    <value>Chassis_6:3:O.0$</value>
+  </data>
+  <data name="lsR6S03M0_01" xml:space="preserve">
+    <value>Chassis_6:3:O.1$</value>
+  </data>
+  <data name="lsR6S03M0_02" xml:space="preserve">
+    <value>Chassis_6:3:O.2$</value>
+  </data>
+  <data name="lsR6S03M0_03" xml:space="preserve">
+    <value>Chassis_6:3:O.3$</value>
+  </data>
+  <data name="lsR6S03M0_04" xml:space="preserve">
+    <value>Chassis_6:3:O.4$</value>
+  </data>
+  <data name="lsR6S03M0_05" xml:space="preserve">
+    <value>Chassis_6:3:O.5$</value>
+  </data>
+  <data name="lsR6S03M0_06" xml:space="preserve">
+    <value>Chassis_6:3:O.6$</value>
+  </data>
+  <data name="lsR6S03M0_07" xml:space="preserve">
+    <value>Chassis_6:3:O.7$</value>
+  </data>
+  <data name="lsR6S03M0_08" xml:space="preserve">
+    <value>Chassis_6:3:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR6S03M0_09" xml:space="preserve">
+    <value>Chassis_6:3:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR6S03M0_10" xml:space="preserve">
+    <value>Chassis_6:3:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR6S03M0_11" xml:space="preserve">
+    <value>Chassis_6:3:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR6S04M0_00" xml:space="preserve">
+    <value>Chassis_6:4:I.Pt00Data$ROBOT C2 SERVO DISABLE CH. #1</value>
+  </data>
+  <data name="lsR6S04M0_01" xml:space="preserve">
+    <value>Chassis_6:4:I.Pt01Data$ROBOT C2 SERVO DISABLE CH. #2</value>
+  </data>
+  <data name="lsR6S04M0_02" xml:space="preserve">
+    <value>Chassis_6:4:I.Pt02Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR6S04M0_03" xml:space="preserve">
+    <value>Chassis_6:4:I.Pt03Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR6S04M0_04" xml:space="preserve">
+    <value>Chassis_6:4:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR6S04M0_05" xml:space="preserve">
+    <value>Chassis_6:4:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR6S04M0_06" xml:space="preserve">
+    <value>Chassis_6:4:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR6S04M0_07" xml:space="preserve">
+    <value>Chassis_6:4:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR6S04M0_08" xml:space="preserve">
+    <value>Chassis_6:4:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S04M0_09" xml:space="preserve">
+    <value>Chassis_6:4:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S04M0_10" xml:space="preserve">
+    <value>Chassis_6:4:O.TEST02DATA$Not Used</value>
+  </data>
+  <data name="lsR6S04M0_11" xml:space="preserve">
+    <value>Chassis_6:4:O.TEST03DATA$Not Used</value>
+  </data>
+  <data name="lsR6S04M0_12" xml:space="preserve">
+    <value>Chassis_6:4:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR6S04M0_13" xml:space="preserve">
+    <value>Chassis_6:4:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR6S04M0_14" xml:space="preserve">
+    <value>Chassis_6:4:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR6S04M0_15" xml:space="preserve">
+    <value>Chassis_6:4:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR6S05M0_00" xml:space="preserve">
+    <value>Chassis_6:5:I.Pt00Data$BOOTH DOOR #1 CH. #1</value>
+  </data>
+  <data name="lsR6S05M0_01" xml:space="preserve">
+    <value>Chassis_6:5:I.Pt01Data$BOOTH DOOR #1 CH. #2</value>
+  </data>
+  <data name="lsR6S05M0_02" xml:space="preserve">
+    <value>Chassis_6:5:I.Pt02Data$BOOTH DOOR #2 CH. #1</value>
+  </data>
+  <data name="lsR6S05M0_03" xml:space="preserve">
+    <value>Chassis_6:5:I.Pt03Data$BOOTH DOOR #2 CH. #2</value>
+  </data>
+  <data name="lsR6S05M0_04" xml:space="preserve">
+    <value>Chassis_6:5:I.Pt04Data$BOOTH DOOR #3 CH. #1</value>
+  </data>
+  <data name="lsR6S05M0_05" xml:space="preserve">
+    <value>Chassis_6:5:I.Pt05Data$BOOTH DOOR #3 CH. #2</value>
+  </data>
+  <data name="lsR6S05M0_06" xml:space="preserve">
+    <value>Chassis_6:5:I.Pt06Data$BOOTH DOOR #4 CH. #1</value>
+  </data>
+  <data name="lsR6S05M0_07" xml:space="preserve">
+    <value>Chassis_6:5:I.Pt07Data$BOOTH DOOR #4 CH. #2</value>
+  </data>
+  <data name="lsR6S05M0_08" xml:space="preserve">
+    <value>Chassis_6:5:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S05M0_09" xml:space="preserve">
+    <value>Chassis_6:5:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S05M0_10" xml:space="preserve">
+    <value>Chassis_6:5:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S05M0_11" xml:space="preserve">
+    <value>Chassis_6:5:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S05M0_12" xml:space="preserve">
+    <value>Chassis_6:5:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR6S05M0_13" xml:space="preserve">
+    <value>Chassis_6:5:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR6S05M0_14" xml:space="preserve">
+    <value>Chassis_6:5:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR6S05M0_15" xml:space="preserve">
+    <value>Chassis_6:5:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR6S06M0_00" xml:space="preserve">
+    <value>Chassis_6:6:I.Pt00Data$ENTRANCE INTRUSION LIGHT CURTAIN CH. #1 OK</value>
+  </data>
+  <data name="lsR6S06M0_01" xml:space="preserve">
+    <value>Chassis_6:6:I.Pt01Data$ENTRANCE INTRUSION LIGHT CURTAIN CH. #2 OK</value>
+  </data>
+  <data name="lsR6S06M0_02" xml:space="preserve">
+    <value>Chassis_6:6:I.Pt02Data$EXIT INTRUSION LIGHT CURTAIN CH. #1 OK</value>
+  </data>
+  <data name="lsR6S06M0_03" xml:space="preserve">
+    <value>Chassis_6:6:I.Pt03Data$EXIT INTRUSION LIGHT CURTAIN CH. #2 OK</value>
+  </data>
+  <data name="lsR6S06M0_04" xml:space="preserve">
+    <value>Chassis_6:6:I.Pt04Data$LIGHT CURTAIN (INTRUSION) BYPASS CH. #1 OK</value>
+  </data>
+  <data name="lsR6S06M0_05" xml:space="preserve">
+    <value>Chassis_6:6:I.Pt05Data$LIGHT CURTAIN (INTRUSION) BYPASS CH. #2 OK</value>
+  </data>
+  <data name="lsR6S06M0_06" xml:space="preserve">
+    <value>Chassis_6:6:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR6S06M0_07" xml:space="preserve">
+    <value>Chassis_6:6:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR6S06M0_08" xml:space="preserve">
+    <value>Chassis_6:6:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S06M0_09" xml:space="preserve">
+    <value>Chassis_6:6:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S06M0_10" xml:space="preserve">
+    <value>Chassis_6:6:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S06M0_11" xml:space="preserve">
+    <value>Chassis_6:6:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S06M0_12" xml:space="preserve">
+    <value>Chassis_6:6:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR6S06M0_13" xml:space="preserve">
+    <value>Chassis_6:6:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR6S06M0_14" xml:space="preserve">
+    <value>Chassis_6:6:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR6S06M0_15" xml:space="preserve">
+    <value>Chassis_6:6:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR6S07M0_00" xml:space="preserve">
+    <value>Chassis_6:7:I.Pt00Data$ENTRANCE BEFORE LIGHT CURTAIN MUTING SWITCH #1</value>
+  </data>
+  <data name="lsR6S07M0_01" xml:space="preserve">
+    <value>Chassis_6:7:I.Pt01Data$ENTRANCE BEFORE LIGHT CURTAIN MUTING SWITCH #2</value>
+  </data>
+  <data name="lsR6S07M0_02" xml:space="preserve">
+    <value>Chassis_6:7:I.Pt02Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR6S07M0_03" xml:space="preserve">
+    <value>Chassis_6:7:I.Pt03Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR6S07M0_04" xml:space="preserve">
+    <value>Chassis_6:7:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR6S07M0_05" xml:space="preserve">
+    <value>Chassis_6:7:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR6S07M0_06" xml:space="preserve">
+    <value>Chassis_6:7:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR6S07M0_07" xml:space="preserve">
+    <value>Chassis_6:7:I.Pt02Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR6S07M0_08" xml:space="preserve">
+    <value>Chassis_6:7:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S07M0_09" xml:space="preserve">
+    <value>Chassis_6:7:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR6S07M0_10" xml:space="preserve">
+    <value>Chassis_6:7:O.TEST02DATA$Not Used</value>
+  </data>
+  <data name="lsR6S07M0_11" xml:space="preserve">
+    <value>Chassis_6:7:O.TEST03DATA$Not Used</value>
+  </data>
+  <data name="lsR6S07M0_12" xml:space="preserve">
+    <value>Chassis_6:7:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR6S07M0_13" xml:space="preserve">
+    <value>Chassis_6:7:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR6S07M0_14" xml:space="preserve">
+    <value>Chassis_6:7:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR6S07M0_15" xml:space="preserve">
+    <value>Chassis_6:7:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR6S08M0_00" xml:space="preserve">
+    <value>Chassis_6:8:I.0$SILENCE ALARM</value>
+  </data>
+  <data name="lsR6S08M0_01" xml:space="preserve">
+    <value>Chassis_6:8:I.1$BOOTH #1 FAULT RESET</value>
+  </data>
+  <data name="lsR6S08M0_02" xml:space="preserve">
+    <value>Chassis_6:8:I.2$CONVEYOR RUN</value>
+  </data>
+  <data name="lsR6S08M0_03" xml:space="preserve">
+    <value>Chassis_6:8:I.3$ROBOT C2 E-STAT ENABLE</value>
+  </data>
+  <data name="lsR6S08M0_04" xml:space="preserve">
+    <value>Chassis_6:8:I.4$ROBOT C2 JOG-</value>
+  </data>
+  <data name="lsR6S08M0_05" xml:space="preserve">
+    <value>Chassis_6:8:I.5$ROBOT C2 JOG+</value>
+  </data>
+  <data name="lsR6S08M0_06" xml:space="preserve">
+    <value>Chassis_6:8:I.6$ROBOT C2 CYCLE CANCEL</value>
+  </data>
+  <data name="lsR6S08M0_07" xml:space="preserve">
+    <value>Chassis_6:8:I.7$ROBOT C2 CYCLE CONTINUE</value>
+  </data>
+  <data name="lsR6S09M0_00" xml:space="preserve">
+    <value>Chassis_6:9:I.0$SPARE</value>
+  </data>
+  <data name="lsR6S09M0_01" xml:space="preserve">
+    <value>Chassis_6:9:I.1$BOOTH #1 AIR INTERLOCK OK</value>
+  </data>
+  <data name="lsR6S09M0_02" xml:space="preserve">
+    <value>Chassis_6:9:I.2$ROBOT C2 NOT BYPASSED</value>
+  </data>
+  <data name="lsR6S09M0_03" xml:space="preserve">
+    <value>Chassis_6:9:I.3$SPARE</value>
+  </data>
+  <data name="lsR6S09M0_04" xml:space="preserve">
+    <value>Chassis_6:9:I.4$ROBOT C2 MOVE TO BYPASS POSITION</value>
+  </data>
+  <data name="lsR6S09M0_05" xml:space="preserve">
+    <value>Chassis_6:9:I.5$ROBOT C2 MOVE TO HOME POSITION</value>
+  </data>
+  <data name="lsR6S09M0_06" xml:space="preserve">
+    <value>Chassis_6:9:I.6$ROBOT C2 SUPER PURGE</value>
+  </data>
+  <data name="lsR6S09M0_07" xml:space="preserve">
+    <value>Chassis_6:9:I.7$SPARE</value>
+  </data>
+  <data name="lsR6S10M0_00" xml:space="preserve">
+    <value>Chassis_6:10:I.0$BOOTH #1 AIR INTERLOCK BYPASS</value>
+  </data>
+  <data name="lsR6S10M0_01" xml:space="preserve">
+    <value>Chassis_6:10:I.1$SPARE</value>
+  </data>
+  <data name="lsR6S10M0_02" xml:space="preserve">
+    <value>Chassis_6:10:I.2$SPARE</value>
+  </data>
+  <data name="lsR6S10M0_03" xml:space="preserve">
+    <value>Chassis_6:10:I.3$SPARE</value>
+  </data>
+  <data name="lsR6S10M0_04" xml:space="preserve">
+    <value>Chassis_6:10:I.4$SPARE</value>
+  </data>
+  <data name="lsR6S10M0_05" xml:space="preserve">
+    <value>Chassis_6:10:I.5$SPARE</value>
+  </data>
+  <data name="lsR6S10M0_06" xml:space="preserve">
+    <value>Chassis_6:10:I.6$SPARE</value>
+  </data>
+  <data name="lsR6S10M0_07" xml:space="preserve">
+    <value>Chassis_6:10:I.7$SPARE</value>
+  </data>
+  <data name="lsR6S11M0_00" xml:space="preserve">
+    <value>Chassis_6:11:I.0$ROBOT P1 ARMED BEACON</value>
+  </data>
+  <data name="lsR6S11M0_01" xml:space="preserve">
+    <value>Chassis_6:11:I.1$SPARE</value>
+  </data>
+  <data name="lsR6S11M0_02" xml:space="preserve">
+    <value>Chassis_6:11:I.2$SPARE</value>
+  </data>
+  <data name="lsR6S11M0_03" xml:space="preserve">
+    <value>Chassis_6:11:I.3$SPARE</value>
+  </data>
+  <data name="lsR6S11M0_04" xml:space="preserve">
+    <value>Chassis_6:11:I.4$SPARE</value>
+  </data>
+  <data name="lsR6S11M0_05" xml:space="preserve">
+    <value>Chassis_6:11:I.5$SPARE</value>
+  </data>
+  <data name="lsR6S11M0_06" xml:space="preserve">
+    <value>Chassis_6:11:I.6$SPARE</value>
+  </data>
+  <data name="lsR6S11M0_07" xml:space="preserve">
+    <value>Chassis_6:11:I.7$SPARE</value>
+  </data>
+  <data name="lsR6S12M0_00" xml:space="preserve">
+    <value>Chassis_6:12:O.0$CONVEYOR OK TO RUN</value>
+  </data>
+  <data name="lsR6S12M0_01" xml:space="preserve">
+    <value>Chassis_6:12:O.1$BOOTH #1 AIR INTERLOCK OK</value>
+  </data>
+  <data name="lsR6S12M0_02" xml:space="preserve">
+    <value>Chassis_6:12:O.2$BOOTH #1 AUTO MODE ENABLED</value>
+  </data>
+  <data name="lsR6S12M0_03" xml:space="preserve">
+    <value>Chassis_6:12:O.3$BOOTH #1 MANUAL FUNCTION ENABLED</value>
+  </data>
+  <data name="lsR6S12M0_04" xml:space="preserve">
+    <value>Chassis_6:12:O.4$CONVEYOR STATUS</value>
+  </data>
+  <data name="lsR6S12M0_05" xml:space="preserve">
+    <value>Chassis_6:12:O.5$ROBOT C2 BYPASSED</value>
+  </data>
+  <data name="lsR6S12M0_06" xml:space="preserve">
+    <value>Chassis_6:12:O.6$ROBOT C2 CANCEL/CONT ON=CANCEL FLASH=CONTINUE</value>
+  </data>
+  <data name="lsR6S12M0_07" xml:space="preserve">
+    <value>Chassis_6:12:O.7$ROBOT C2 POSITION ON=HOME FLASH=BYPASS</value>
+  </data>
+  <data name="lsR6S13M0_00" xml:space="preserve">
+    <value>Chassis_6:13:O.0$ROBOT C2 E-STAT SAFETY</value>
+  </data>
+  <data name="lsR6S13M0_01" xml:space="preserve">
+    <value>Chassis_6:13:O.1$ROBOT C2 PROCESS AIR ENABLE</value>
+  </data>
+  <data name="lsR6S13M0_02" xml:space="preserve">
+    <value>Chassis_6:13:O.2$SPARE</value>
+  </data>
+  <data name="lsR6S13M0_03" xml:space="preserve">
+    <value>Chassis_6:13:O.3$ZONE FAULT</value>
+  </data>
+  <data name="lsR6S13M0_04" xml:space="preserve">
+    <value>Chassis_6:13:O.4$ROBOTS RUNNING</value>
+  </data>
+  <data name="lsR6S13M0_05" xml:space="preserve">
+    <value>Chassis_6:13:O.5$E-STATS ENABLED</value>
+  </data>
+  <data name="lsR6S13M0_06" xml:space="preserve">
+    <value>Chassis_6:13:O.6$ZONE BYPASSED</value>
+  </data>
+  <data name="lsR6S13M0_07" xml:space="preserve">
+    <value>Chassis_6:13:O.7$ALARM HORN</value>
+  </data>
+  <data name="lsR6_TT" xml:space="preserve">
+    <value>Chassis_6 (Clear 2)</value>
+  </data>
+  <data name="lsR7S01M0_00" xml:space="preserve">
+    <value>RC1:1:I.Pt00Data$ROBOT CONTROLLER E-STOP CH. #1</value>
+  </data>
+  <data name="lsR7S01M0_01" xml:space="preserve">
+    <value>RC1:1:I.Pt01Data$ROBOT CONTROLLER E-STOP CH. #2</value>
+  </data>
+  <data name="lsR7S01M0_02" xml:space="preserve">
+    <value>RC1:1:I.Pt02Data$SPARE</value>
+  </data>
+  <data name="lsR7S01M0_03" xml:space="preserve">
+    <value>RC1:1:I.Pt03Data$SPARE</value>
+  </data>
+  <data name="lsR7S01M0_04" xml:space="preserve">
+    <value>RC1:1:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR7S01M0_05" xml:space="preserve">
+    <value>RC1:1:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR7S01M0_06" xml:space="preserve">
+    <value>RC1:1:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR7S01M0_07" xml:space="preserve">
+    <value>RC1:1:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR7S01M0_08" xml:space="preserve">
+    <value>RC1:1:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR7S01M0_09" xml:space="preserve">
+    <value>RC1:1:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR7S01M0_10" xml:space="preserve">
+    <value>RC1:1:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR7S01M0_11" xml:space="preserve">
+    <value>RC1:1:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR7S01M0_12" xml:space="preserve">
+    <value>RC1:1:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR7S01M0_13" xml:space="preserve">
+    <value>RC1:1:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR7S01M0_14" xml:space="preserve">
+    <value>RC1:1:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR7S01M0_15" xml:space="preserve">
+    <value>RC1:1:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR7S02M0_00" xml:space="preserve">
+    <value>RC1:2:O.Pt00Data$AUTO MODE CH. #1</value>
+  </data>
+  <data name="lsR7S02M0_01" xml:space="preserve">
+    <value>RC1:2:O.Pt01Data$AUTO MODE CH. #2</value>
+  </data>
+  <data name="lsR7S02M0_02" xml:space="preserve">
+    <value>RC1:2:O.Pt02Data$MAJOR FAULT OK CH. #1</value>
+  </data>
+  <data name="lsR7S02M0_03" xml:space="preserve">
+    <value>RC1:2:O.Pt03Data$MAJOR FAULT OK CH. #2</value>
+  </data>
+  <data name="lsR7S02M0_04" xml:space="preserve">
+    <value>RC1:2:O.Pt04Data$SPARE</value>
+  </data>
+  <data name="lsR7S02M0_05" xml:space="preserve">
+    <value>RC1:2:O.Pt05Data$ROBOT OUTPUT ENABLE</value>
+  </data>
+  <data name="lsR7S02M0_06" xml:space="preserve">
+    <value>RC1:2:O.Pt06Data$SPARE</value>
+  </data>
+  <data name="lsR7S02M0_07" xml:space="preserve">
+    <value>RC1:2:O.Pt07Data$SPARE</value>
+  </data>
+  <data name="lsR7S02M0_08" xml:space="preserve">
+    <value>RC1:2:O.RunMode$RunMode</value>
+  </data>
+  <data name="lsR7S02M0_09" xml:space="preserve">
+    <value>RC1:2:O.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR7S02M0_10" xml:space="preserve">
+    <value>RC1:2:O.OutputPowerStatus$OutputPowerStatus</value>
+  </data>
+  <data name="lsR7S02M0_11" xml:space="preserve">
+    <value>RC1:2:O.CombinedOutputStatus$CombinedOutputStatus</value>
+  </data>
+  <data name="lsR7_TT" xml:space="preserve">
+    <value>ROBOT CONTROLLER 1</value>
+  </data>
+  <data name="lsR8S01M0_00" xml:space="preserve">
+    <value>RC2:1:I.Pt00Data$ROBOT CONTROLLER E-STOP CH. #1</value>
+  </data>
+  <data name="lsR8S01M0_01" xml:space="preserve">
+    <value>RC2:1:I.Pt01Data$ROBOT CONTROLLER E-STOP CH. #2</value>
+  </data>
+  <data name="lsR8S01M0_02" xml:space="preserve">
+    <value>RC2:1:I.Pt02Data$SPARE</value>
+  </data>
+  <data name="lsR8S01M0_03" xml:space="preserve">
+    <value>RC2:1:I.Pt03Data$SPARE</value>
+  </data>
+  <data name="lsR8S01M0_04" xml:space="preserve">
+    <value>RC2:1:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR8S01M0_05" xml:space="preserve">
+    <value>RC2:1:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR8S01M0_06" xml:space="preserve">
+    <value>RC2:1:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR8S01M0_07" xml:space="preserve">
+    <value>RC2:1:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR8S01M0_08" xml:space="preserve">
+    <value>RC2:1:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR8S01M0_09" xml:space="preserve">
+    <value>RC2:1:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR8S01M0_10" xml:space="preserve">
+    <value>RC2:1:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR8S01M0_11" xml:space="preserve">
+    <value>RC2:1:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR8S01M0_12" xml:space="preserve">
+    <value>RC2:1:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR8S01M0_13" xml:space="preserve">
+    <value>RC2:1:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR8S01M0_14" xml:space="preserve">
+    <value>RC2:1:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR8S01M0_15" xml:space="preserve">
+    <value>RC2:1:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR8S02M0_00" xml:space="preserve">
+    <value>RC2:2:O.Pt00Data$AUTO MODE CH. #1</value>
+  </data>
+  <data name="lsR8S02M0_01" xml:space="preserve">
+    <value>RC2:2:O.Pt01Data$AUTO MODE CH. #2</value>
+  </data>
+  <data name="lsR8S02M0_02" xml:space="preserve">
+    <value>RC2:2:O.Pt02Data$MAJOR FAULT OK CH. #1</value>
+  </data>
+  <data name="lsR8S02M0_03" xml:space="preserve">
+    <value>RC2:2:O.Pt03Data$MAJOR FAULT OK CH. #2</value>
+  </data>
+  <data name="lsR8S02M0_04" xml:space="preserve">
+    <value>RC2:2:O.Pt04Data$SPARE</value>
+  </data>
+  <data name="lsR8S02M0_05" xml:space="preserve">
+    <value>RC2:2:O.Pt05Data$ROBOT OUTPUT ENABLE</value>
+  </data>
+  <data name="lsR8S02M0_06" xml:space="preserve">
+    <value>RC2:2:O.Pt06Data$SPARE</value>
+  </data>
+  <data name="lsR8S02M0_07" xml:space="preserve">
+    <value>RC2:2:O.Pt07Data$SPARE</value>
+  </data>
+  <data name="lsR8S02M0_08" xml:space="preserve">
+    <value>RC2:2:O.RunMode$RunMode</value>
+  </data>
+  <data name="lsR8S02M0_09" xml:space="preserve">
+    <value>RC2:2:O.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR8S02M0_10" xml:space="preserve">
+    <value>RC2:2:O.OutputPowerStatus$OutputPowerStatus</value>
+  </data>
+  <data name="lsR8S02M0_11" xml:space="preserve">
+    <value>RC2:2:O.CombinedOutputStatus$CombinedOutputStatus</value>
+  </data>
+  <data name="lsR8_TT" xml:space="preserve">
+    <value>ROBOT CONTROLLER 2</value>
+  </data>
+  <data name="lsR9S01M0_00" xml:space="preserve">
+    <value>RC3:1:I.Pt00Data$ROBOT CONTROLLER E-STOP CH. #1</value>
+  </data>
+  <data name="lsR9S01M0_01" xml:space="preserve">
+    <value>RC3:1:I.Pt01Data$ROBOT CONTROLLER E-STOP CH. #2</value>
+  </data>
+  <data name="lsR9S01M0_02" xml:space="preserve">
+    <value>RC3:1:I.Pt02Data$SPARE</value>
+  </data>
+  <data name="lsR9S01M0_03" xml:space="preserve">
+    <value>RC3:1:I.Pt03Data$SPARE</value>
+  </data>
+  <data name="lsR9S01M0_04" xml:space="preserve">
+    <value>RC3:1:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR9S01M0_05" xml:space="preserve">
+    <value>RC3:1:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR9S01M0_06" xml:space="preserve">
+    <value>RC3:1:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR9S01M0_07" xml:space="preserve">
+    <value>RC3:1:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR9S01M0_08" xml:space="preserve">
+    <value>RC3:1:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR9S01M0_09" xml:space="preserve">
+    <value>RC3:1:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR9S01M0_10" xml:space="preserve">
+    <value>RC3:1:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR9S01M0_11" xml:space="preserve">
+    <value>RC3:1:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR9S01M0_12" xml:space="preserve">
+    <value>RC3:1:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR9S01M0_13" xml:space="preserve">
+    <value>RC3:1:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR9S01M0_14" xml:space="preserve">
+    <value>RC3:1:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR9S01M0_15" xml:space="preserve">
+    <value>RC3:1:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR9S02M0_00" xml:space="preserve">
+    <value>RC3:2:O.Pt00Data$AUTO MODE CH. #1</value>
+  </data>
+  <data name="lsR9S02M0_01" xml:space="preserve">
+    <value>RC3:2:O.Pt01Data$AUTO MODE CH. #2</value>
+  </data>
+  <data name="lsR9S02M0_02" xml:space="preserve">
+    <value>RC3:2:O.Pt02Data$MAJOR FAULT OK CH. #1</value>
+  </data>
+  <data name="lsR9S02M0_03" xml:space="preserve">
+    <value>RC3:2:O.Pt03Data$MAJOR FAULT OK CH. #2</value>
+  </data>
+  <data name="lsR9S02M0_04" xml:space="preserve">
+    <value>RC3:2:O.Pt04Data$SPARE</value>
+  </data>
+  <data name="lsR9S02M0_05" xml:space="preserve">
+    <value>RC3:2:O.Pt05Data$ROBOT OUTPUT ENABLE</value>
+  </data>
+  <data name="lsR9S02M0_06" xml:space="preserve">
+    <value>RC3:2:O.Pt06Data$SPARE</value>
+  </data>
+  <data name="lsR9S02M0_07" xml:space="preserve">
+    <value>RC3:2:O.Pt07Data$SPARE</value>
+  </data>
+  <data name="lsR9S02M0_08" xml:space="preserve">
+    <value>RC3:2:O.RunMode$RunMode</value>
+  </data>
+  <data name="lsR9S02M0_09" xml:space="preserve">
+    <value>RC3:2:O.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR9S02M0_10" xml:space="preserve">
+    <value>RC3:2:O.OutputPowerStatus$OutputPowerStatus</value>
+  </data>
+  <data name="lsR9S02M0_11" xml:space="preserve">
+    <value>RC3:2:O.CombinedOutputStatus$CombinedOutputStatus</value>
+  </data>
+  <data name="lsR9_TT" xml:space="preserve">
+    <value>ROBOT CONTROLLER 3</value>
+  </data>
+  <data name="lsR10S01M0_00" xml:space="preserve">
+    <value>RC4:1:I.Pt00Data$ROBOT CONTROLLER E-STOP CH. #1</value>
+  </data>
+  <data name="lsR10S01M0_01" xml:space="preserve">
+    <value>RC4:1:I.Pt01Data$ROBOT CONTROLLER E-STOP CH. #2</value>
+  </data>
+  <data name="lsR10S01M0_02" xml:space="preserve">
+    <value>RC4:1:I.Pt02Data$SPARE</value>
+  </data>
+  <data name="lsR10S01M0_03" xml:space="preserve">
+    <value>RC4:1:I.Pt03Data$SPARE</value>
+  </data>
+  <data name="lsR10S01M0_04" xml:space="preserve">
+    <value>RC4:1:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR10S01M0_05" xml:space="preserve">
+    <value>RC4:1:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR10S01M0_06" xml:space="preserve">
+    <value>RC4:1:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR10S01M0_07" xml:space="preserve">
+    <value>RC4:1:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR10S01M0_08" xml:space="preserve">
+    <value>RC4:1:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR10S01M0_09" xml:space="preserve">
+    <value>RC4:1:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR10S01M0_10" xml:space="preserve">
+    <value>RC4:1:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR10S01M0_11" xml:space="preserve">
+    <value>RC4:1:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR10S01M0_12" xml:space="preserve">
+    <value>RC4:1:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR10S01M0_13" xml:space="preserve">
+    <value>RC4:1:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR10S01M0_14" xml:space="preserve">
+    <value>RC4:1:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR10S01M0_15" xml:space="preserve">
+    <value>RC4:1:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR10S02M0_00" xml:space="preserve">
+    <value>RC4:2:O.Pt00Data$AUTO MODE CH. #1</value>
+  </data>
+  <data name="lsR10S02M0_01" xml:space="preserve">
+    <value>RC4:2:O.Pt01Data$AUTO MODE CH. #2</value>
+  </data>
+  <data name="lsR10S02M0_02" xml:space="preserve">
+    <value>RC4:2:O.Pt02Data$MAJOR FAULT OK CH. #1</value>
+  </data>
+  <data name="lsR10S02M0_03" xml:space="preserve">
+    <value>RC4:2:O.Pt03Data$MAJOR FAULT OK CH. #2</value>
+  </data>
+  <data name="lsR10S02M0_04" xml:space="preserve">
+    <value>RC4:2:O.Pt04Data$SPARE</value>
+  </data>
+  <data name="lsR10S02M0_05" xml:space="preserve">
+    <value>RC4:2:O.Pt05Data$ROBOT OUTPUT ENABLE</value>
+  </data>
+  <data name="lsR10S02M0_06" xml:space="preserve">
+    <value>RC4:2:O.Pt06Data$SPARE</value>
+  </data>
+  <data name="lsR10S02M0_07" xml:space="preserve">
+    <value>RC4:2:O.Pt07Data$SPARE</value>
+  </data>
+  <data name="lsR10S02M0_08" xml:space="preserve">
+    <value>RC4:2:O.RunMode$RunMode</value>
+  </data>
+  <data name="lsR10S02M0_09" xml:space="preserve">
+    <value>RC4:2:O.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR10S02M0_10" xml:space="preserve">
+    <value>RC4:2:O.OutputPowerStatus$OutputPowerStatus</value>
+  </data>
+  <data name="lsR10S02M0_11" xml:space="preserve">
+    <value>RC4:2:O.CombinedOutputStatus$CombinedOutputStatus</value>
+  </data>
+  <data name="lsR10_TT" xml:space="preserve">
+    <value>ROBOT CONTROLLER 4</value>
+  </data>
+  <data name="lsR11S01M0_00" xml:space="preserve">
+    <value>RC5:1:I.Pt00Data$ROBOT CONTROLLER E-STOP CH. #1</value>
+  </data>
+  <data name="lsR11S01M0_01" xml:space="preserve">
+    <value>RC5:1:I.Pt01Data$ROBOT CONTROLLER E-STOP CH. #2</value>
+  </data>
+  <data name="lsR11S01M0_02" xml:space="preserve">
+    <value>RC5:1:I.Pt02Data$SPARE</value>
+  </data>
+  <data name="lsR11S01M0_03" xml:space="preserve">
+    <value>RC5:1:I.Pt03Data$SPARE</value>
+  </data>
+  <data name="lsR11S01M0_04" xml:space="preserve">
+    <value>RC5:1:I.Pt04Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR11S01M0_05" xml:space="preserve">
+    <value>RC5:1:I.Pt05Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR11S01M0_06" xml:space="preserve">
+    <value>RC5:1:I.Pt06Data$SPARE CH. #1</value>
+  </data>
+  <data name="lsR11S01M0_07" xml:space="preserve">
+    <value>RC5:1:I.Pt07Data$SPARE CH. #2</value>
+  </data>
+  <data name="lsR11S01M0_08" xml:space="preserve">
+    <value>RC5:1:O.TEST00DATA$Pulse Test</value>
+  </data>
+  <data name="lsR11S01M0_09" xml:space="preserve">
+    <value>RC5:1:O.TEST01DATA$Pulse Test</value>
+  </data>
+  <data name="lsR11S01M0_10" xml:space="preserve">
+    <value>RC5:1:O.TEST02DATA$Pulse Test</value>
+  </data>
+  <data name="lsR11S01M0_11" xml:space="preserve">
+    <value>RC5:1:O.TEST03DATA$Pulse Test</value>
+  </data>
+  <data name="lsR11S01M0_12" xml:space="preserve">
+    <value>RC5:1:I.RunMode$RunMode</value>
+  </data>
+  <data name="lsR11S01M0_13" xml:space="preserve">
+    <value>RC5:1:I.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR11S01M0_14" xml:space="preserve">
+    <value>RC5:1:I.InputPowerStatus$InputPowerStatus</value>
+  </data>
+  <data name="lsR11S01M0_15" xml:space="preserve">
+    <value>RC5:1:I.CombinedInputStatus$CombinedInputStatus</value>
+  </data>
+  <data name="lsR11S02M0_00" xml:space="preserve">
+    <value>RC5:2:O.Pt00Data$AUTO MODE CH. #1</value>
+  </data>
+  <data name="lsR11S02M0_01" xml:space="preserve">
+    <value>RC5:2:O.Pt01Data$AUTO MODE CH. #2</value>
+  </data>
+  <data name="lsR11S02M0_02" xml:space="preserve">
+    <value>RC5:2:O.Pt02Data$MAJOR FAULT OK CH. #1</value>
+  </data>
+  <data name="lsR11S02M0_03" xml:space="preserve">
+    <value>RC5:2:O.Pt03Data$MAJOR FAULT OK CH. #2</value>
+  </data>
+  <data name="lsR11S02M0_04" xml:space="preserve">
+    <value>RC5:2:O.Pt04Data$SPARE</value>
+  </data>
+  <data name="lsR11S02M0_05" xml:space="preserve">
+    <value>RC5:2:O.Pt05Data$ROBOT OUTPUT ENABLE</value>
+  </data>
+  <data name="lsR11S02M0_06" xml:space="preserve">
+    <value>RC5:2:O.Pt06Data$SPARE</value>
+  </data>
+  <data name="lsR11S02M0_07" xml:space="preserve">
+    <value>RC5:2:O.Pt07Data$SPARE</value>
+  </data>
+  <data name="lsR11S02M0_08" xml:space="preserve">
+    <value>RC5:2:O.RunMode$RunMode</value>
+  </data>
+  <data name="lsR11S02M0_09" xml:space="preserve">
+    <value>RC5:2:O.ConnectionFaulted$ConnectionFaulted</value>
+  </data>
+  <data name="lsR11S02M0_10" xml:space="preserve">
+    <value>RC5:2:O.OutputPowerStatus$OutputPowerStatus</value>
+  </data>
+  <data name="lsR11S02M0_11" xml:space="preserve">
+    <value>RC5:2:O.CombinedOutputStatus$CombinedOutputStatus</value>
+  </data>
+  <data name="lsR11_TT" xml:space="preserve">
+    <value>ROBOT CONTROLLER 5</value>
+  </data>
+  <data name="lsRACK1" xml:space="preserve">
+    <value>Chassis_1</value>
+  </data>
+  <data name="lsRACK2" xml:space="preserve">
+    <value>Chassis_2</value>
+  </data>
+  <data name="lsRACK3" xml:space="preserve">
+    <value>Chassis_3</value>
+  </data>
+  <data name="lsRACK4" xml:space="preserve">
+    <value>Chassis_4</value>
+  </data>
+  <data name="lsRACK5" xml:space="preserve">
+    <value>Chassis_5</value>
+  </data>
+  <data name="lsRACK6" xml:space="preserve">
+    <value>Chassis_6</value>
+  </data>
+  <data name="lsRACK7" xml:space="preserve">
+    <value>RC_1</value>
+  </data>
+  <data name="lsRACK8" xml:space="preserve">
+    <value>RC_2</value>
+  </data>
+  <data name="lsRACK9" xml:space="preserve">
+    <value>RC_3</value>
+  </data>
+  <data name="lsRACK10" xml:space="preserve">
+    <value>RC_4</value>
+  </data>
+  <data name="lsRACK11" xml:space="preserve">
+    <value>RC_5</value>
+  </data>
+</root>

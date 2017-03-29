@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XML>
+  <DownTimeMask>
+    <Item>
+      <Alarm>SRVO-037</Alarm>
+    </Item>
+    <Item>
+      <Alarm>SRVO-007</Alarm>
+    </Item>
+    <Item>
+      <Alarm>PNT1-097</Alarm>
+    </Item>
+  </DownTimeMask>
+  <ReportParameters>
+    <ZoneName>Clear</ZoneName>
+    <ShowSequenceColumn>False</ShowSequenceColumn>
+    <ShowCarrierColumn>True</ShowCarrierColumn>
+    <ShowVINColumn>False</ShowVINColumn>
+    <ShowColorColumn>true</ShowColorColumn>
+    <ShowOptionColumn>true</ShowOptionColumn>
+    <ShowTutoneColumn>False</ShowTutoneColumn>
+    <ShowRepairColumn>False</ShowRepairColumn>
+    <ShowDegradeColumn>False</ShowDegradeColumn>
+    <ShowPaintTotalsColumn>true</ShowPaintTotalsColumn>
+    <ShowPaintTotals2Column>True</ShowPaintTotals2Column>
+    <ShowRatioColumn>False</ShowRatioColumn>
+    <ShowMaterialLearnedColumn>False</ShowMaterialLearnedColumn>
+    <ShowMaterialLearned2Column>False</ShowMaterialLearned2Column>
+    <ShowMaterialTempColumn>False</ShowMaterialTempColumn>
+    <ShowMaterialTemp2Column>False</ShowMaterialTemp2Column>
+    <ShowInitStringColumn>False</ShowInitStringColumn>
+    <ShowCCColumn>true</ShowCCColumn>
+    <ShowTPSUColumn>False</ShowTPSUColumn>
+    <ShowPurgeStatusColumn>true</ShowPurgeStatusColumn>
+    <ShowCCTimeColumn>true</ShowCCTimeColumn>
+    <ShowIndexTimeColumn>False</ShowIndexTimeColumn>
+    <ShowGhostColumn>False</ShowGhostColumn>
+  </ReportParameters>
+  <ReportConveyorAlarms>
+    <ConvItem>
+      <Description>Held By FANUC</Description>
+      <Alarm>PLCZ-034</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>Held By FANUC OS</Description>
+      <Alarm>PLCZ-033</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>Held By Others</Description>
+      <Alarm>PLCZ-036</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>Held By Others OS</Description>
+      <Alarm>PLCZ-035</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>Running</Description>
+      <Alarm>PLCZ-038</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>Running OS</Description>
+      <Alarm>PLCZ-037</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>Break Active</Description>
+      <Alarm>PLCZ-112</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>Break Active OS</Description>
+      <Alarm>PLCZ-111</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>EQ1 Hold Until Home</Description>
+      <Alarm>PLCR-035</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>EQ2 Hold Until Home</Description>
+      <Alarm>PLCR-099</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>EQ3 Hold Until Home</Description>
+      <Alarm>PLCR-131</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>EQ4 Hold Until Home</Description>
+      <Alarm>PLCR-147</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>EQ5 Hold Until Home</Description>
+      <Alarm>PLCR-031</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>EQ6 Hold Until Home</Description>
+      <Alarm>PLCR-031</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>EQ1 Bypassed</Description>
+      <Alarm>PLCR-041</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>EQ2 Bypassed</Description>
+      <Alarm>PLCR-105</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>EQ3 Bypassed</Description>
+      <Alarm>PLCR-132</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>EQ4 Bypassed</Description>
+      <Alarm>PLCR-148</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>EQ5 Bypassed</Description>
+      <Alarm>PLCR-031</Alarm>
+    </ConvItem>
+    <ConvItem>
+      <Description>EQ6 Bypassed</Description>
+      <Alarm>PLCR-031</Alarm>
+    </ConvItem>
+  </ReportConveyorAlarms>
+  <CompletionStatus>
+    <CompItem>
+      <BitValue>1</BitValue>
+      <ResourceTag>psJOB_STATUS01</ResourceTag>
+      <Description>Complete</Description>
+      <Operation>REPLACE</Operation>
+    </CompItem>
+    <CompItem>
+      <BitValue>4</BitValue>
+      <ResourceTag>psJOB_STATUS03</ResourceTag>
+      <Description>Complete w\Error</Description>
+      <Operation>REPLACE</Operation>
+    </CompItem>
+    <CompItem>
+      <BitValue>16</BitValue>
+      <ResourceTag>psJOB_STATUS04</ResourceTag>
+      <Description>Aborted</Description>
+      <Operation>REPLACE</Operation>
+    </CompItem>
+    <CompItem>
+      <BitValue>32</BitValue>
+      <Description>Guns Disabled</Description>
+      <Operation>REPLACE</Operation>
+    </CompItem>
+    <CompItem>
+      <BitValue>64</BitValue>
+      <ResourceTag>psJOB_STATUS05</ResourceTag>
+      <Description>No Paint</Description>
+      <Operation>REPLACE</Operation>
+    </CompItem>
+    <CompItem>
+      <BitValue>4096</BitValue>
+      <ResourceTag>psJOB_STATUS07</ResourceTag>
+      <Description>Not Required</Description>
+      <Operation>REPLACE</Operation>
+    </CompItem>
+    <CompItem>
+      <BitValue>16384</BitValue>
+      <ResourceTag>psJOB_STATUS08</ResourceTag>
+      <Description>Ghost</Description>
+      <Operation>PREFIX</Operation>
+    </CompItem>
+    <CompItem>
+      <BitValue>32768</BitValue>
+      <ResourceTag>psJOB_STATUS09</ResourceTag>
+      <Description>Bypassed</Description>
+      <Operation>REPLACE</Operation>
+    </CompItem>
+  </CompletionStatus>
+</XML>

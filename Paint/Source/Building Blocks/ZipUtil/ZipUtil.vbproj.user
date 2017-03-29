@@ -1,0 +1,11 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>c:\paint\VBApps\ZipUtil.exe ZIP_ALL "D:\Users\whitems\AppData\Local\Temp\ODS_TMP1"    "C:\Paint\Export2\Alarm Log Reporting.ods"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartArguments>c:\paint\VBApps\ZipUtil.exe ZIP_ALL "D:\Users\whitems\AppData\Local\Temp\ODS_TMP1"    "C:\Paint\Export2\Alarm Log Reporting.ods"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+</Project>

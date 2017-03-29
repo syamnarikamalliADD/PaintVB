@@ -1,0 +1,143 @@
+<html>
+<head>
+<title>PAINTworks Online Help - Maintenance Menu - Network Configuration</title>
+    <object id="HHCTRL" type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+    </object>
+    <script type="text/javascript"
+        src="../common/help.js">
+        document.write("Included Jscript file not found, some help may not be available.");
+    </script>
+</head>
+
+<body background="../common/indtextb.jpg" >
+    <h2>Maintenance Menu</h2>
+    <h1>Network Configuration</h1>
+<p>This screen is for Ethernet network diagnostics.  It provides access to the local host file
+and common network commands.</p>
+<h3>Network Commands</h3>
+<ul>
+	<li><b>Fanuc Ping</b> - Uses the Fanuc robot server to verify the robot communication.</li>
+	<li><b>Ping</b> - Verify the network can reach the device.</li>
+	<li><b>Arp</b> - Lists IP addresses and associated MAC addresses.</li>
+	<li><b>Traceroute</b> - Shows the route the network takes to a device.</li>
+	<li><b>IP Config</b> - Displays the configuration of network adapters on the computer.</li>
+</ul>
+<h3>BOOTP and TFTP servers for robot image backups</h3>
+<p>The following functions manage the BOOTP and TFTP servers running on 
+	the computer to support the image backup and restore feature on the 
+	robot controllers.  The servers are normally running on the PAINTworks 
+	computer.  These buttons can be used to start or stop the servers.</p>
+<ul>
+	<li><b>Update BOOTP</b> - Reads the configuration files and updates the network settings for the servers.</li>
+	<li><b>TFTP/BOOTP Status</b> - Display the status of the servers (running/not running).</li>
+	<li><b>Start TFTP/BOOTP</b> - Start the servers.</li>
+	<li><b>Stop TFTP/BOOTP</b> - Stop the servers.</li>
+</ul>
+<h3>Host Names File - BOOTP Setup - TFTP Setup</h3>
+<p>The lower window allows you to view or edit network configuration files.</p>
+<ul>
+	<li><b>Host Names File</b> - This file has the network addresses for all devices in the system.</li>
+	<li><b>BOOTP Setup</b> - This file configures the BOOTP server to associate IP addresses with the MAC addresses of the robot controllers.
+		  When a robot controller CPU is changed this file needs to be updated.  If PAINTworks is communicating with the robot normally, 
+		  you can press the "Auto Configure" button to set up this file.  You can also manually enter the MAC address.  Save the file then use the "Update BOOTP" 
+		  button to apply the changes.</li>
+	<li><b>TFTP Setup</b> - This file configures the TFTP server.  The "Auto Configure" button can be used to fill in the computer name and IP address.  Save the file then use the "Update BOOTP" 
+		  button to apply the changes.</li>
+</ul>
+
+
+<p><strong>Note: </strong>Changes to this screen can only be made
+by a user with sufficient access level. </p>
+
+<p>Click the area where you want help.</p>
+
+
+<p><map id="FPMap0" name="FPMap0">
+<area href="../[1.0]PAINTworksMainMenu/MaintenanceMenu.htm" shape="rect" 
+        coords="5, 20, 41, 67" alt = "Closes current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(NetworkCancelButton,popfont,9,9,-1,-1)" shape="rect"
+        coords="42, 20, 88, 67" 
+        alt = "Cancel the current command."/>
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect"
+        coords="89, 20, 164, 67" 
+        alt = "Shows change log summary for current screen."/>
+        
+<area href="JavaScript:HHCTRL.TextPopup(RobotControllers,popfont,9,9,-1,-1)" shape="rect" 
+        coords="8, 68, 60, 88" alt="Display robot controllers only."/>
+<area href="JavaScript:HHCTRL.TextPopup(HostEntries,popfont,9,9,-1,-1)" shape="rect" 
+        coords="60, 68, 124, 88" alt="Display all entries from the hosts files."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(SelectDrop,popfont,9,9,-1,-1)" shape="rect" 
+        coords="8, 90, 171, 308" alt="Select addresses from this system here."/>
+<area href="JavaScript:HHCTRL.TextPopup(ManualIP,popfont,9,9,-1,-1)" shape="rect" 
+        coords="8, 329, 168, 351" alt="Enter an alternate IP address here."/>
+        
+<area href="JavaScript:HHCTRL.TextPopup(SaveTestResults,popfont,9,9,-1,-1)" shape="rect"
+        coords="189, 67, 207, 87" alt="Save the command output window."/>
+<area href="JavaScript:HHCTRL.TextPopup(PrintTestResults,popfont,9,9,-1,-1)" shape="rect"
+        coords="207, 67, 236, 87" alt="Print the command output window."/>
+<area href="JavaScript:HHCTRL.TextPopup(NetCut,popfont,9,9,-1,-1)" shape="rect" 
+        coords="237, 67, 258, 87" alt = "Cut selected text to clipboard."/>
+<area href="JavaScript:HHCTRL.TextPopup(NetCopy,popfont,9,9,-1,-1)" shape="rect" 
+        coords="258, 67, 278, 87" alt = "Copy selected text to clipboard."/>
+<area href="JavaScript:HHCTRL.TextPopup(NetPaste,popfont,9,9,-1,-1)" shape="rect" 
+        coords="278, 67, 298, 87" alt = "Paste text from clipboard."/>
+<area href="JavaScript:HHCTRL.TextPopup(NetClear,popfont,9,9,-1,-1)" shape="rect" 
+        coords="298, 67, 318, 87" alt = "Clear the output window."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(FANUCPing,popfont,9,9,-1,-1)" shape="rect" 
+        coords="185, 89, 255, 110" alt="Run the Fanuc ping command."/>
+<area href="JavaScript:HHCTRL.TextPopup(MSPing,popfont,9,9,-1,-1)" shape="rect" 
+        coords="185, 110, 255, 130" alt="Run the ping command."/>
+<area href="JavaScript:HHCTRL.TextPopup(ARP,popfont,9,9,-1,-1)" shape="rect" 
+        coords="185, 130, 255, 150" alt="Run the traceroute command."/>
+<area href="JavaScript:HHCTRL.TextPopup(TraceRoute,popfont,9,9,-1,-1)" shape="rect" 
+        coords="185, 150, 255, 169" alt="Run the TraceRoute command."/>
+<area href="JavaScript:HHCTRL.TextPopup(IPConfigButton,popfont,9,9,-1,-1)" shape="rect" 
+        coords="185, 169, 255, 187" alt="Run the IPconfig command."/>
+<area href="JavaScript:HHCTRL.TextPopup(UpdateBootp,popfont,9,9,-1,-1)" shape="rect" 
+        coords="185, 187, 255, 209" alt="Update the BOOTP and TFTP server configurations."/>
+<area href="JavaScript:HHCTRL.TextPopup(TFTPStatus,popfont,9,9,-1,-1)" shape="rect" 
+        coords="185, 210, 255, 230" alt="Get the TFTP server status."/>
+<area href="JavaScript:HHCTRL.TextPopup(BOOTPStatus,popfont,9,9,-1,-1)" shape="rect" 
+        coords="185, 230, 255, 250" alt="Get the BOOTP server status."/>
+<area href="JavaScript:HHCTRL.TextPopup(TFTPStart,popfont,9,9,-1,-1)" shape="rect" 
+        coords="185, 250, 255, 270" alt="Start the TFTP server."/>
+<area href="JavaScript:HHCTRL.TextPopup(BOOTPStart,popfont,9,9,-1,-1)" shape="rect" 
+        coords="185, 270, 255, 290" alt="Start the BOOTP server."/>
+<area href="JavaScript:HHCTRL.TextPopup(TFTPStop,popfont,9,9,-1,-1)" shape="rect" 
+        coords="185, 290, 255, 310" alt="Stop the TFTP server."/>
+<area href="JavaScript:HHCTRL.TextPopup(BOOTPStop,popfont,9,9,-1,-1)" shape="rect" 
+        coords="185, 310, 255, 330" alt="Stop the BOOTP server."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(TestResults,popfont,9,9,-1,-1)" 
+        shape="rect" coords="252, 89, 1012, 354" alt="Command output window."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(SaveHosts,popfont,9,9,-1,-1)" shape="rect" 
+        coords="14, 358, 33, 379" alt="Save hosts file."/>
+<area href="JavaScript:HHCTRL.TextPopup(PrintHosts,popfont,9,9,-1,-1)" shape="rect" 
+        coords="30, 358, 63, 379" alt="Print hosts file."/>
+<area href="JavaScript:HHCTRL.TextPopup(NetCut,popfont,9,9,-1,-1)" shape="rect" 
+        coords="63, 358, 83, 379" alt = "Cut selected text to clipboard."/>
+<area href="JavaScript:HHCTRL.TextPopup(NetCopy,popfont,9,9,-1,-1)" shape="rect" 
+        coords="83, 358, 103, 379" alt = "Copy selected text to clipboard."/>
+<area href="JavaScript:HHCTRL.TextPopup(NetPaste,popfont,9,9,-1,-1)" shape="rect" 
+        coords="103, 358, 123, 379" alt = "Paste text from clipboard."/>
+<area onClick="screenshot.src='images/Maint_Network_Main_Hosts.jpg'" shape="rect" 
+        coords="124, 358, 194, 379" alt = "Select the Hosts file."/>
+<area onClick="screenshot.src='images/Maint_Network_Main_Bootp.jpg'" shape="rect" 
+        coords="194, 358, 249, 379" alt = "Select the BOOTP configuration file."/>
+<area onClick="screenshot.src='images/Maint_Network_Main_TFTP.jpg'" shape="rect" 
+        coords="249, 358, 306, 379" alt = "Select the TFTP configuration file."/>
+<area href="JavaScript:HHCTRL.TextPopup(NetAutoConfigure,popfont,9,9,-1,-1)" shape="rect" 
+        coords="307, 358, 370, 379" 
+        alt = "Automatically fill in the configuration file."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(EditWindow,popfont,9,9,-1,-1)" shape="rect" 
+        coords="11, 380, 1014, 674" alt="Edit window for host names, BOOTP, and TFTP server configuration files."/>
+</map>
+<img name="screenshot" src="images/Maint_Network_Main_Hosts.jpg" usemap="#FPMap0" width="1024" 
+        height="703" alt="" style="margin-right: 0px"/></p>
+</body>
+</html>

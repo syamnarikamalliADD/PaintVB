@@ -1,0 +1,120 @@
+<HTML><HEAD><link rel="Stylesheet" href="Support/main.css" type="text/css"><title>Image Backup and Restore Procedure</title></HEAD> 
+<BODY> 
+<A name='TOP'></A>  
+<TABLE CLASS='FILE-HEADER' CELLPADDING='4' CELLSPACING='0' BORDER='5' > 
+  <TBODY>  
+  <TR>  
+    <TD VALIGN='TOP' WIDTH='100'> 
+       <A href="http://www.fanucrobotics.com"><img src="Support/frnalogo.gif" border=0 width="150" height="57"></A></TD> 
+                <td>
+                    <p class='title-in-file-header'>
+                        PaintTool Documentation</p>
+                    <p class='title-in-file-header'>
+                        R-30iA PaintTool V7.xx</p>
+                    <p class='part-num-in-file-header'>
+                        2-Nov-2011</p>
+                </td>
+  </TR> 
+  </TBODY>  
+</TABLE>
+
+
+<FONT FACE="Arial">
+<p align="center"><A href="#top">Top</a> | <a href="SLP.pdf">Software Load Procedure.</a> | 
+<a href="ImgIntroR30iA.htm">Image Backup Overview</a> | <a href="ImgBkupR30iA.htm">Image Backup Procedure</a> | 
+<a href="ImgRstrR30iA.htm">Image Restore Procedure</a> | <a href="SetupR30iA.htm">IO Setup and Variable Restore.</a> |<a href="Index.htm">Index</a></p></FONT>
+<FONT FACE="Arial">
+
+      <li><a href="#Overview">Overview of image backups, storage on GUI.</a></li>
+      <li><a href="#Ethernet">Image backups over ethernet.</a></li>
+      <li><a href="#PCMCIA">Image backups to memory cards.</a></li>
+
+<A name='Overview'></A><H1 align="center">1 Image Backup and Restore Overview</H1>
+<p>Image backup and restore provides the quickest method of loading software on an R-30iA controller.<br>
+The site-specific loader set can also be used, but it takes more time. (See <a href="SLP.pdf">Software Load Procedure</a> for details)<br>
+This document describes the backup and resore interface with PAINTworks.  Standard R-30iA manuals are also available in PAINTworks under the HELP menu, item "Online Manuals"</p>
+
+<pre><p>
+Image backups are stored on the PAINTworks PC:
+Main image backup folder:
+	<a href="file:///C:/Paint/Robot Image Backups">C:\Paint\Robot Image Backups</a>
+Controller subfolders:
+	RC_1, RC_2, RC_3, RC_4, RC_5</p>
+</pre>
+<p>The image restored to a controller should have been saved from the same controller. Images from similar robots may be used if the desired image is not available.  
+The ethernet ip address will need to be set before variables are restored. This will also load unneeded teach pendant programs into the memory of the restored controller.</p>
+
+<A name='Ethernet'></A><H1 align="center">2 Ethernet Controller Backup and Restore</H1>
+<p>The PAINTworks computers are configured with bootp and tftp servers to manage the R-30iA Controller backup and restore over ethernet.</p>
+<H2 align="center">2.1 Normal Operation</H2>
+<p>If the R-30iA controller CPU has not been changed, just follow the <a href="ImgBkupR30iA.htm">image backup procedure</a> or 
+<a href="ImgRstrR30iA.htm">image restore procedure</a>.  The PAINTworks PC will automatically use the correct directory.</p>
+<H2 align="center">2.2 Configuration</H2>
+<p>Ethernet backup and restore uses two services on the PAINTworks computer.  They are installed in "C:\Paint\Database\<i>Zone Name</i>\ECBR\"</p>
+<li> tftp.exe - This is a file transfer service used by the robot's image backup and restore feature.</li>
+<li> bootp.exe - This service assigns an IP address, name and a backup directory for each controller based on the ethernet MAC address.</li>
+<p>The R-30iA controller's ethernet MAC address is permanently assigned to the motherboard.  
+The bootp configuration will need to be updated when the R-30iA CPU is replaced.  The bootp configuration is stored in "C:\Paint\Database\<i>Zone Name</i>\ECBR\bootp.cfg".  
+It can be edited on the PAINTworks Network Maintenance screen.<br>
+An example robot configuration from C:\Paint\Database\<i>Zone Name</i>\ECBR\</FONT>bootp.cfg - MAC Address in <b>bold</b>:
+<PRE>  id=1, hn=rc1, et=<b>00:E0:E4:05:05:2C</b>, ip=192.168.21.210, sn=255.255.0.0, gw=192.168.21.200, dn=, dm=, fp=rc1\, sr=192.168.21.201, bl=\, ll=\</PRE>
+The robot ethernet MAC address is available from the BOOTROM menu:<P>1) With the power off, press and hold the USER1 and USER2 buttons on the operator panel of the RJ3 controller or press and hold the F1 and F5 keys on the teach pendant. While holding these keys, press the ON button. Wait  about ten seconds, or until you see the BMON Menu (below) on the teach pendant before releasing the buttons.</P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+***BOOT MONITOR ***
+Base Version V7.50P/10 [Release 2]
+Initializing file devices ... done.
+1. Configuration menu
+2. All software installation
+3. INIT start
+4. Controller backup/restore
+5. Hardware diagnosis
+6. Maintenance
+7. All software installation(Ethernet)
+8. All software installation(USB)
+
+Select : _ </PRE></FONT></TD>
+</TR></TABLE>
+<P>2) Select: </FONT><FONT FACE="Courier New">5. Hardware diagnosis </FONT></P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+***BOOT MONITOR***
+**** Hardwrare Diagnoses Menu  *****
+1.   Show size of RAM/ROM modules
+2.   Show list of F-BUS modules
+3.   Dump memory
+4.   Write memory
+5.   Check SRAM memory
+6.   Clear vision SRAM memory
+7.   Check FROM memory
+8.   Display MAC Address
+9.   Return to main menu
+
+Select : _ </PRE></FONT></TD></TR></TABLE>
+<P><FONT FACE="Arial">3) Select: </FONT><FONT FACE="Courier New">8.   Display MAC Address <br>
+MAC Address 00:E0:E4:05:AF:BB
+</FONT></P>
+<P><FONT FACE="Arial">Edit C:\Paint\Database\<i>Zone Name</i>\ECBR\bootp.cfg to set the new address then restart the PAINTworks Computer.  
+When the computer is restarted you can restore sOftware to the new CPU with the <a href="ImgRstrR30iA.htm">Image Restore Procedure</a>
+
+
+<A name='PCMCIA'></A><H1 align="center">3 Backup and Restore to Memory Cards </H1>
+<p>Memory cards are convenient in a couple of cases.
+<li>1 - Copying an image of one controller to another.</li>
+<li>2 - Backup a controller before restoring the image to a new CPU.</li><br>
+Any other use probably requires moving the image files between the memory card and a PC.</p>
+After performing an image backup of the R-30iA controllers (See <a href="ImgBkupR30iA.htm">Image Backup Procedure</a>), you need to get
+these image files off of the PCMCIA memory card onto the PAINTworks PC
+hard drive, there are a few different methods to transfer these files:
+<li>PCMCIA Adapter: A PC with a properly configured PCMCIA slot can read the memory card with the image files.  Copy all of the*.IMG from the PCMCIA card.</li>
+<li>PAINTworks Utility Menu/File Copy Screen.  The memory card may be accessed on the file copy screen by selecting the "MC:" device.</li>
+<FONT FACE="Arial">
+<p align="center"><A href="#top">Top</a> | <a href="SLP.pdf">Software Load Procedure.</a> | 
+<a href="ImgIntroR30iA.htm">Image Backup Overview</a> | <a href="ImgBkupR30iA.htm">Image Backup Procedure</a> | 
+<a href="ImgRstrR30iA.htm">Image Restore Procedure</a> | <a href="SetupR30iA.htm">IO Setup and Variable Restore.</a> |<a href="Index.htm">Index</a></p></FONT>
+
+<HR CLASS='EOF-MARKER'> 
+</ol>
+</BODY></HTML>

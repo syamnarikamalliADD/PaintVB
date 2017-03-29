@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FormIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>rbt_io.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psAI" xml:space="preserve">
+    <value>AI: Analog Inputs</value>
+  </data>
+  <data name="psAI_CMT" xml:space="preserve">
+    <value>AI[{0}:{1}]</value>
+  </data>
+  <data name="psAO" xml:space="preserve">
+    <value>AO: Analog Outputs</value>
+  </data>
+  <data name="psAO_CMT" xml:space="preserve">
+    <value>AO[{0}:{1}]</value>
+  </data>
+  <data name="psDI" xml:space="preserve">
+    <value>DI: Digital Inputs</value>
+  </data>
+  <data name="psDI_CMT" xml:space="preserve">
+    <value>DI[{0}:{1}]</value>
+  </data>
+  <data name="psDO" xml:space="preserve">
+    <value>DO: Digital Outputs</value>
+  </data>
+  <data name="psDO_CMT" xml:space="preserve">
+    <value>DO[{0}:{1}]</value>
+  </data>
+  <data name="psFL" xml:space="preserve">
+    <value>F: Flag </value>
+  </data>
+  <data name="psFL_CMT" xml:space="preserve">
+    <value>F[{0}:{1}]</value>
+  </data>
+  <data name="psGI" xml:space="preserve">
+    <value>GI: Group Inputs</value>
+  </data>
+  <data name="psGI_CMT" xml:space="preserve">
+    <value>GI[{0}:{1}]</value>
+  </data>
+  <data name="psGO" xml:space="preserve">
+    <value>GO: Group Outputs</value>
+  </data>
+  <data name="psGO_CMT" xml:space="preserve">
+    <value>GO[{0}:{1}]</value>
+  </data>
+  <data name="psIOTYPE" xml:space="preserve">
+    <value>IOType:</value>
+  </data>
+  <data name="psMARKER" xml:space="preserve">
+    <value>M: Marker</value>
+  </data>
+  <data name="psMARKER_CMT" xml:space="preserve">
+    <value>M[{0}:{1}]</value>
+  </data>
+  <data name="psNA" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="psPLCI" xml:space="preserve">
+    <value>PI: PLC Inputs</value>
+  </data>
+  <data name="psPLCI_CMT" xml:space="preserve">
+    <value>PI[{0}:{1}]</value>
+  </data>
+  <data name="psPLCO" xml:space="preserve">
+    <value>PO: PLC Outputs</value>
+  </data>
+  <data name="psPLCO_CMT" xml:space="preserve">
+    <value>PO[{0}:{1}]</value>
+  </data>
+  <data name="psRI" xml:space="preserve">
+    <value>RI: Robot Inputs</value>
+  </data>
+  <data name="psRI_CMT" xml:space="preserve">
+    <value>RI[{0}:{1}]</value>
+  </data>
+  <data name="psRO" xml:space="preserve">
+    <value>RO: Robot Outputs</value>
+  </data>
+  <data name="psRO_CMT" xml:space="preserve">
+    <value>RO[{0}:{1}]</value>
+  </data>
+  <data name="psSCREENCAPTION" xml:space="preserve">
+    <value>Robot IO</value>
+  </data>
+  <data name="psSI" xml:space="preserve">
+    <value>SI: SOP Inputs</value>
+  </data>
+  <data name="psSI_CMT" xml:space="preserve">
+    <value>SI[{0}:{1}]</value>
+  </data>
+  <data name="psSO" xml:space="preserve">
+    <value>SO: SOP Outputs</value>
+  </data>
+  <data name="psSO_CMT" xml:space="preserve">
+    <value>SO[{0}:{1}]</value>
+  </data>
+  <data name="psTPI" xml:space="preserve">
+    <value>TPI: TP Inputs</value>
+  </data>
+  <data name="psTPI_CMT" xml:space="preserve">
+    <value>TPI[{0}:{1}]</value>
+  </data>
+  <data name="psTPO" xml:space="preserve">
+    <value>TPO: TP Outputs</value>
+  </data>
+  <data name="psTPO_CMT" xml:space="preserve">
+    <value>TPO[{0}:{1}]</value>
+  </data>
+  <data name="psUI" xml:space="preserve">
+    <value>UI: UOP Inputs</value>
+  </data>
+  <data name="psUI_CMT" xml:space="preserve">
+    <value>UI[{0}:{1}]</value>
+  </data>
+  <data name="psUO" xml:space="preserve">
+    <value>UO: UOP Outputs</value>
+  </data>
+  <data name="psUO_CMT" xml:space="preserve">
+    <value>UO[{0}:{1}]</value>
+  </data>
+  <data name="psWI" xml:space="preserve">
+    <value>WI: Weld Inputs</value>
+  </data>
+  <data name="psWO" xml:space="preserve">
+    <value>WO: Weld Outputs</value>
+  </data>
+  <data name="psWO_CMT" xml:space="preserve">
+    <value>WO[{0}:{1}]</value>
+  </data>
+  <data name="pWI_CMT" xml:space="preserve">
+    <value>WI[{0}:{1}]</value>
+  </data>
+  <data name="psCOL_LABEL" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="psCOL_SIM" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="psCOL_VALUE" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="psOFF" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="psON" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="LIGHTOFF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LIGHTOFF.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIGHTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LIGHTON.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psAUTOREFRESH" xml:space="preserve">
+    <value>AutoRefresh</value>
+  </data>
+  <data name="psCL_SET_CMT" xml:space="preserve">
+    <value>Set I/O comment for </value>
+  </data>
+  <data name="psCL_SET_SIM" xml:space="preserve">
+    <value>Set I/O simulate for</value>
+  </data>
+  <data name="psCL_SET_VAL" xml:space="preserve">
+    <value>Set I/O value for</value>
+  </data>
+  <data name="psCL_UNSIMALL" xml:space="preserve">
+    <value>Unsimulate all I/O</value>
+  </data>
+  <data name="psDLG_CMT_LABEL" xml:space="preserve">
+    <value>Set the new I/O Comment.  Changes will be written to the robot immediately.</value>
+  </data>
+  <data name="psDLG_CMT_TITLE" xml:space="preserve">
+    <value>Set I/O Comment</value>
+  </data>
+  <data name="psDLG_REF_LABEL" xml:space="preserve">
+    <value>Select the auto-refresh rate in milliseconds.</value>
+  </data>
+  <data name="psDLG_REF_TITLE" xml:space="preserve">
+    <value>Refresh Rate</value>
+  </data>
+  <data name="psINV_BOOL_CAP" xml:space="preserve">
+    <value>Invalid Value</value>
+  </data>
+  <data name="psINV_BOOL_TEXT" xml:space="preserve">
+    <value>Invalid Boolean value.</value>
+  </data>
+  <data name="psINV_INT_CAP" xml:space="preserve">
+    <value>Invalid Value</value>
+  </data>
+  <data name="psINV_INT_TEXT" xml:space="preserve">
+    <value>Invalid Integer value.</value>
+  </data>
+  <data name="psMS" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="psSET" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="psSETCOMMENT" xml:space="preserve">
+    <value>Set Comment</value>
+  </data>
+  <data name="psSET_CMT_FAIL_CAP" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="psSET_CMT_FAIL_TEXT" xml:space="preserve">
+    <value>Failed to set I/O comment.</value>
+  </data>
+  <data name="psSET_FAILED_CAP" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="psSET_FAILED_TEXT" xml:space="preserve">
+    <value>Failed to set I/O Value</value>
+  </data>
+  <data name="psSET_SIM_FAILED_CAP" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="psSET_SIM_FAILED_TEXT" xml:space="preserve">
+    <value>Failed to set simulate status</value>
+  </data>
+  <data name="psSET_WARN_CAP" xml:space="preserve">
+    <value>Set I/O Value</value>
+  </data>
+  <data name="psSET_WARN_TXT" xml:space="preserve">
+    <value>Warning: I/O change will be written to the robot immediately.</value>
+  </data>
+  <data name="psSIM" xml:space="preserve">
+    <value>SIM: </value>
+  </data>
+  <data name="psSIMULATE" xml:space="preserve">
+    <value>Simulate</value>
+  </data>
+  <data name="psSIM_WARN_CAP" xml:space="preserve">
+    <value>Simulate</value>
+  </data>
+  <data name="psSIM_WARN_TXT" xml:space="preserve">
+    <value>Warning: Simulate change will be written to the robot immediately.</value>
+  </data>
+  <data name="psUNSIMALL" xml:space="preserve">
+    <value>Unsimulate All</value>
+  </data>
+  <data name="psUNSIMULATE" xml:space="preserve">
+    <value>Unsimulate</value>
+  </data>
+  <data name="psEND_ALL_MON" xml:space="preserve">
+    <value>End All Monitors</value>
+  </data>
+  <data name="psEND_MON" xml:space="preserve">
+    <value>End Monitor</value>
+  </data>
+  <data name="psMONITOR" xml:space="preserve">
+    <value>Add Monitor</value>
+  </data>
+</root>

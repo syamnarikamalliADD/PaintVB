@@ -1,0 +1,121 @@
+<HTML><HEAD><link rel="Stylesheet" href="Support/main.css" type="text/css"><title>PaintTool V6.43-1 - Image Backup Procedure</title></HEAD> 
+<BODY> 
+<A name='TOP'></A>  
+<TABLE CLASS='FILE-HEADER' CELLPADDING='4' CELLSPACING='0' BORDER='5' > 
+  <TBODY>  
+  <TR>  
+    <TD VALIGN='TOP' WIDTH='100'> 
+       <A href="http://www.fanucrobotics.com"><img src="Support/frnalogo.gif" border=0 width="150" height="57"></A></TD> 
+    <TD>  
+      <P class='title-in-file-header'> PaintTool V6.43-1</P> 
+      <P class='title-in-file-header'> Image Backup Procedure</P> 
+      <P class='part-num-in-file-header'> 1-Feb-2007</P> 
+    </TD> 
+  </TR> 
+  </TBODY>  
+</TABLE>
+
+<FONT FACE="Arial">
+<p align="center"><A href="#top">Top</a> | <a href="113238 DCX Windsor V6.43-1 Software Load Procedure.pdf">Software Load Procedure.</a> | 
+<a href="ImgIntro.htm">Image Backup Overview</a> | <a href="ImgBkup.htm">Image Backup Procedure</a> | 
+<a href="ImgRstr.htm">Image Restore Procedure</a> | <a href="Setup.htm">IO Setup and Variable Restore.</a> |<a href="Index.htm">Index</a></p></FONT>
+
+<H1><p align="center"><b>Making an Image Backup</b></p></H1>
+<FONT FACE="Arial"><P>This procedure will save an image backup to a memory card or the PAINTworks computer.  It will use 35MB.  Once the backup is made, It can be used to load software on any robot with the same configuration, but it is easiest to use an image from the robot you are loading.</P>
+<P>1) With the power off, press and hold the USER1 and USER2 buttons on the operator panel of the RJ3 controller or press and hold the F1 and F5 keys on the teach pendant. While holding these keys, press the ON button. Wait  about ten seconds, or until you see the BMON Menu (below) on the teach pendant before releasing the buttons.</P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+***BOOT MONITOR for R-J3(iB/ibMate) CONTROLLER***
+Base System Version V6.4303 (FRNA)
+Initializing file devices ... done.
+1. Configuration menu
+2. All software installation
+3. INIT start
+4. Controller backup/restore
+5. Hardware diagnosis
+6. Maintenance
+7. All software installation(Ethernet)
+
+Select : _ </PRE></FONT></TD>
+</TR></TABLE>
+<P>2) Select: </FONT><FONT FACE="Courier New">4. Controller backup/restore </FONT><FONT FACE="Arial">to see the backup/restore menu:</FONT></P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+***BOOT MONITOR for R-J3(iB/ibMate) CONTROLLER***
+**** BACKUP/RESTORE MENU  *****
+0.   Return to Main Menu
+1.   Emergency Backup
+2.   Backup Controller As Images
+3.   Restore Controller Images
+4.   Restore Full Ctlr Backup (From MC)
+5.   Bootstrap To Cfg Menu
+
+Select : _ </PRE></FONT></TD></TR></TABLE>
+<P><FONT FACE="Arial">3) Select: </FONT><FONT FACE="Courier New">2. Backup Controller As Images </FONT><FONT FACE="Arial">:</FONT></P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+***BOOT MONITOR for R-J3(iB/ibMate) CONTROLLER***
+**** Device selection menu  *****
+1. Memory Card(MC:)
+2. Ethernet(TFTP:)
+
+Select : _ </PRE></FONT></TD></TR></TABLE>
+
+<P><FONT FACE="Arial">For backup to PAINTworks computer over ethernet, skip to <A href="#Enet">step 6</A>.</FONT></P>
+<P><FONT FACE="Arial"><B>MEMORY CARD BACKUP</B></FONT>
+<P><FONT FACE="Arial">4:) For backup to memory card select: </FONT><FONT FACE="Courier New">1. Memory Card(MC:) </FONT><FONT FACE="Arial">to start the backup:</FONT></P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+***BOOT MONITOR for R-J3(iB/ibMate) CONTROLLER***
+**** BACKUP Controller as Images  *****
+     Module size to backup:
+     FROM: 32 mb  SRAM: 3 mb
+
+     Please Insert MC: which has at least
+     1Mb free space.
+     Are you ready?[Y=1/N=else]:
+
+
+</PRE></FONT></TD></TR></TABLE>
+<P><FONT FACE="Arial">5) Place the memory card in the slot on the controller. Press 1, ENTER to continue.<br>
+The teach pendant will display status messages while it writes to the card</FONT><br>
+<FONT FACE="Courier New">Writing MC:\FROM00.IMG (1/35)</FONT><br>
+<FONT FACE="Arial">If the card does not have enough free space, it will ask for another.</P>
+<P>When it is finished it will say it is done.  Press ENTER to continue. Turn the controller off then on to return to production.</P></FONT>
+
+<A name='Enet'><P><FONT FACE="Arial"><B>ETHERNET BACKUP</B></FONT></A>  
+<P><FONT FACE="Arial">6:) To start backup over ethernet to PAINTworks computer select: </FONT><FONT FACE="Courier New">2. Ethernet(TFTP:) </FONT><FONT FACE="Arial">:</FONT></P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+***BOOT MONITOR for R-J3(iB/ibMate) CONTROLLER***
+**** BACKUP Controller as Images  *****
+     Module size to backup:
+     FROM: 32 mb  SRAM: 3 mb
+
+   Disk spave required on remote host is
+     35Mb free space.
+     Are you ready?[Y=1/N=else]:
+
+
+</PRE></FONT></TD></TR></TABLE>
+
+<P><FONT FACE="Arial">7) Press 1, ENTER to continue.<br>
+The teach pendant will display status messages while it writes to the computer:</FONT><br>
+<FONT FACE="Courier New">Writing MC:\FROM00.IMG (1/35)</FONT><br>
+
+<P>When it is finished it will say it is done.  Press ENTER to continue. Turn the controller off then on to return to production.</P></FONT>
+
+<FONT FACE="Arial">
+<p align="center"><A href="#top">Top</a> | <a href="113238 DCX Windsor V6.43-1 Software Load Procedure.pdf">Software Load Procedure.</a> | 
+<a href="ImgIntro.htm">Image Backup Overview</a> | <a href="ImgBkup.htm">Image Backup Procedure</a> | 
+<a href="ImgRstr.htm">Image Restore Procedure</a> | <a href="Setup.htm">IO Setup and Variable Restore.</a> |<a href="Index.htm">Index</a></p></FONT>
+
+<HR CLASS='EOF-MARKER'> 
+<P class='footer-copyright'><A href="http://www.fanucrobotics.com">Copyright &copy; 1999 by FANUC Robotics North America, Inc.</a></P> 
+</ol>
+</BODY></HTML>

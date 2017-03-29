@@ -1,0 +1,142 @@
+
+<html>
+
+<head>
+<title>PAINTworks Online Help - View Menu - Diagnostics Viewer</title>
+    <object id="HHCTRL" type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+    </object>
+    <script type="text/javascript"
+        src="../common/help.js">
+        document.write("Included Jscript file not found, some help may not be available.");
+    </script>
+    <script type="text/javascript">
+    function ShowChart(){
+        screenshot.src='Images/View_DmonViewer_Chart.jpg'
+        screenshot.usemap='#FPMap0'
+    }
+    function ShowConfig(){
+        screenshot.src='Images/View_DmonViewer_Chart_Config.jpg'
+        screenshot.useMap='#FPMap1'
+    }
+        function ShowTable(){
+        screenshot.src='Images/View_DmonViewer_Chart_Table.jpg'
+        screenshot.useMap='#FPMap2'
+    }
+        function ShowSchedule(){
+        screenshot.src='Images/View_DmonViewer_Chart_Schedule.jpg'
+        screenshot.useMap='#FPMap3'
+    }
+        function ShowItems(){
+        screenshot.src='Images/View_DmonViewer_Chart_Items.jpg'
+        screenshot.useMap='#FPMap4'
+    }
+    </script>
+</head>
+
+<body background="../common/indtextb.jpg">
+<p><font size="5"><b>Diagnostics Graph View</b></font></p>
+
+<p>This screen allows the user to view detailed graphical data of a job. <br />
+The chart tab allows control of the time scale(horizontal) and selection of which items to chart.<br />
+The configuration tab allows the user to adjust the scaling of each item(vertical).<br />
+The other tabs show data saved in the DMON log.</p>
+
+<p><strong>Note: </strong>Changes to this screen can only be made
+by a user with sufficient access level. </p>
+
+<p>Click the area where you want help.</p>
+
+
+<map id="FPMap0" name="FPMap0">
+<area href="Diagnostics.htm" shape="rect" coords="0, 17, 44, 72"         alt = "Closes the current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(DMONExport,popfont,9,9,-1,-1)"         shape="rect" coords="44, 18, 88, 73"        alt = "Export the chart to a spreadsheet."/>
+<area href="JavaScript:HHCTRL.TextPopup(DMONPrint,popfont,9,9,-1,-1)"         shape="rect" coords="87, 18, 138, 74"        alt = "Print the chart."/>
+
+<area onclick="ShowChart()"         shape="rect" coords="4, 170, 44, 191"         alt = "The chart tab shows the chart."/>
+<area onclick="ShowConfig()"         shape="rect" coords="44, 170, 101, 191"         alt = "The configuration tab configures the chart."/>
+<area onclick="ShowTable()"         shape="rect" coords="100, 170, 134, 191"         alt = "The table tab shows the data in a table."/>
+<area onclick="ShowSchedule()"         shape="rect" coords="133, 170, 179, 191"         alt = "The schedule tab shows schedule details."/>
+<area onclick="ShowItems()"         shape="rect" coords="179, 171, 215, 192"         alt = "The items tab shows item details."/>
+        
+        
+<area href="JavaScript:HHCTRL.TextPopup(DMONPenSelection,popfont,9,9,-1,-1)" 
+        shape="rect" coords="4, 191, 175, 553"        alt = "Select which items to draw."/>
+<area href="JavaScript:HHCTRL.TextPopup(DMONGraph,popfont,9,9,-1,-1)" shape="rect" 
+        coords="175, 190, 989, 649"        alt = "Charted DMON Data." />
+<area href="JavaScript:HHCTRL.TextPopup(DMONScale,popfont,9,9,-1,-1)" 
+        coords="145, 668, 1014, 689" shape="rect"        alt = "Time scale."/>
+<area href="JavaScript:HHCTRL.TextPopup(DMONSlide,popfont,9,9,-1,-1)" shape="rect" 
+        coords="374, 690, 1011, 711"        alt = "Time position."/>
+</map>
+
+<map id="FPMap1" name="FPMap1">
+<area href="Diagnostics.htm" shape="rect" coords="0, 17, 44, 72"         alt = "Closes the current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(DMONSave,popfont,9,9,-1,-1)"         shape="rect" coords="44, 18, 85, 73"        alt = "Save the chart configuration to the database."/>
+<area href="JavaScript:HHCTRL.TextPopup(DMONExport,popfont,9,9,-1,-1)"         shape="rect" coords="85, 18, 125, 74"        alt = "Export the chart to a spreadsheet."/>
+<area href="JavaScript:HHCTRL.TextPopup(DMONPrint,popfont,9,9,-1,-1)"         shape="rect" coords="125, 18, 170, 74"        alt = "Print the chart."/>
+
+<area onclick="ShowChart()"        shape="rect" coords="4, 170, 44, 191"         alt = "The chart tab shows the chart."/>
+<area onclick="ShowConfig()"         shape="rect" coords="44, 170, 101, 191"         alt = "The configuration tab configures the chart."/>
+<area onclick="ShowTable()"         shape="rect" coords="100, 170, 134, 191"         alt = "The table tab shows the data in a table."/>
+<area onclick="ShowSchedule()"         shape="rect" coords="133, 170, 179, 191"         alt = "The schedule tab shows schedule details."/>
+<area onclick="ShowItems()"         shape="rect" coords="179, 171, 215, 192"         alt = "The items tab shows item details."/>       
+       
+<area href="JavaScript:HHCTRL.TextPopup(DMONSettings,popfont,9,9,-1,-1)" shape="rect"         
+coords="175, 190, 989, 649"        alt = "Chart settings."/>
+</map>
+
+
+<map id="FPMap2" name="FPMap2">
+<area href="Diagnostics.htm" shape="rect" coords="0, 17, 44, 72"         alt = "Closes the current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(DMONExport,popfont,9,9,-1,-1)"         shape="rect" coords="44, 18, 88, 73"        alt = "Export the chart to a spreadsheet."/>
+<area href="JavaScript:HHCTRL.TextPopup(DMONPrint,popfont,9,9,-1,-1)"         shape="rect" coords="87, 18, 138, 74"        alt = "Print the chart."/>
+
+<area onclick="ShowChart()"        shape="rect" coords="4, 170, 44, 191"         alt = "The chart tab shows the chart."/>
+<area onclick="ShowConfig()"         shape="rect" coords="44, 170, 101, 191"         alt = "The configuration tab configures the chart."/>
+<area onclick="ShowTable()"         shape="rect" coords="100, 170, 134, 191"         alt = "The table tab shows the data in a table."/>
+<area onclick="ShowSchedule()"         shape="rect" coords="133, 170, 179, 191"         alt = "The schedule tab shows schedule details."/>
+<area onclick="ShowItems()"         shape="rect" coords="179, 171, 215, 192"         alt = "The items tab shows item details."/>       
+       
+<area href="JavaScript:HHCTRL.TextPopup(DMONTableData,popfont,9,9,-1,-1)" shape="rect"        
+ coords="175, 190, 989, 649"        alt = "Chart data."/>
+</map>
+
+
+
+<map id="FPMap3" name="FPMap3">
+<area href="Diagnostics.htm" shape="rect" coords="0, 17, 44, 72"         alt = "Closes the current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(DMONExport,popfont,9,9,-1,-1)"         shape="rect" coords="44, 18, 88, 73"        alt = "Export the chart to a spreadsheet."/>
+<area href="JavaScript:HHCTRL.TextPopup(DMONPrint,popfont,9,9,-1,-1)"         shape="rect" coords="87, 18, 138, 74"        alt = "Print the chart."/>
+
+<area onclick="ShowChart()"        shape="rect" coords="4, 170, 44, 191"         alt = "The chart tab shows the chart."/>
+<area onclick="ShowConfig()"         shape="rect" coords="44, 170, 101, 191"         alt = "The configuration tab configures the chart."/>
+<area onclick="ShowTable()"         shape="rect" coords="100, 170, 134, 191"         alt = "The table tab shows the data in a table."/>
+<area onclick="ShowSchedule()"         shape="rect" coords="133, 170, 179, 191"         alt = "The schedule tab shows schedule details."/>
+<area onclick="ShowItems()"         shape="rect" coords="179, 171, 215, 192"         alt = "The items tab shows item details."/>       
+       
+<area href="JavaScript:HHCTRL.TextPopup(DMONScheduleData,popfont,9,9,-1,-1)" shape="rect"         
+coords="175, 190, 989, 649"        alt = "DMON schedule data."/>
+</map>
+
+
+
+<map id="FPMap4" name="FPMap4">
+<area href="Diagnostics.htm" shape="rect" coords="0, 17, 44, 72"         alt = "Closes the current screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(DMONExport,popfont,9,9,-1,-1)"         shape="rect" coords="44, 18, 88, 73"        alt = "Export the chart to a spreadsheet."/>
+<area href="JavaScript:HHCTRL.TextPopup(DMONPrint,popfont,9,9,-1,-1)"         shape="rect" coords="87, 18, 138, 74"        alt = "Print the chart."/>
+
+<area onclick="ShowChart()"        shape="rect" coords="4, 170, 44, 191"         alt = "The chart tab shows the chart."/>
+<area onclick="ShowConfig()"         shape="rect" coords="44, 170, 101, 191"         alt = "The configuration tab configures the chart."/>
+<area onclick="ShowTable()"         shape="rect" coords="100, 170, 134, 191"         alt = "The table tab shows the data in a table."/>
+<area onclick="ShowSchedule()"         shape="rect" coords="133, 170, 179, 191"         alt = "The schedule tab shows schedule details."/>
+<area onclick="ShowItems()"         shape="rect" coords="179, 171, 215, 192"         alt = "The items tab shows item details."/>       
+       
+<area href="JavaScript:HHCTRL.TextPopup(DMONItemData,popfont,9,9,-1,-1)" shape="rect"         
+coords="175, 190, 989, 649"        alt = "DMON item data."/>
+</map>
+
+
+<img name="screenshot" border="0" src="Images/View_DmonViewer_Chart.jpg" usemap="#FPMap0" alt = " "/>
+</body>
+</html>

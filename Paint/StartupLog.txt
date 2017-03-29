@@ -1,0 +1,19 @@
+﻿12:52:52 PM Initializing PAINTworks
+12:52:52 PM Creating PAINTworks Desktop
+12:52:52 PM Starting Password Manager
+12:53:06 PM RC_P1 connect status = UNAVAILABLE
+12:53:06 PM RC_P2 connect status = UNAVAILABLE
+12:53:06 PM RC_B1 connect status = UNAVAILABLE
+12:53:06 PM RC_B2 connect status = UNAVAILABLE
+12:53:06 PM Starting Alarm Manager
+12:53:07 PM Configuring Robot alarms
+12:53:07 PM Configuring PLC alarms
+12:53:08 PM Alarm manager establishing robot connections.
+12:53:08 PM Alarm manager establishing PLC connections.
+12:53:26 PM Starting Production Logger
+12:53:26 PM Retrieving production device information
+12:53:27 PM Configuring diagnostic Logger
+12:53:32 PM Starting Schedule Manager
+12:53:39 PM Starting Scattered Access Manager
+12:53:40 PM Scattered Access: Loading Configuration
+12:53:41 PM PAINTworks startup complete.

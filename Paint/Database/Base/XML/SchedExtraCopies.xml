@@ -1,0 +1,7 @@
+<SchedExtraCopies>
+  <ExtraCopy>
+    <From>C:\Paint\Database</From>
+    <To>C:\AutoBackups\Database</To>
+    <IncludeSubfolders>True</IncludeSubfolders>
+  </ExtraCopy>
+</SchedExtraCopies>

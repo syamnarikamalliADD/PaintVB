@@ -1,0 +1,149 @@
+<HTML><HEAD><link rel="Stylesheet" href="Support/main.css" type="text/css"><title>PaintTool V6.43-1 - Image Restore Procedure</title></HEAD> 
+<BODY> 
+<A name='TOP'></A>  
+<TABLE CLASS='FILE-HEADER' CELLPADDING='4' CELLSPACING='0' BORDER='5' > 
+  <TBODY>  
+  <TR>  
+    <TD VALIGN='TOP' WIDTH='100'> 
+       <A href="http://www.fanucrobotics.com"><img src="Support/frnalogo.gif" border=0 width="150" height="57"></A></TD> 
+    <TD>  
+      <P class='title-in-file-header'> PaintTool V6.43-1</P> 
+      <P class='title-in-file-header'> Image Restore Procedure</P> 
+      <P class='part-num-in-file-header'> 1-Feb-2007</P> 
+    </TD> 
+  </TR> 
+  </TBODY>  
+</TABLE>
+<FONT FACE="Arial">
+<p align="center"><A href="#top">Top</a> | <a href="113238 DCX Windsor V6.43-1 Software Load Procedure.pdf">Software Load Procedure.</a> | 
+<a href="ImgIntro.htm">Image Backup Overview</a> | <a href="ImgBkup.htm">Image Backup Procedure</a> | 
+<a href="ImgRstr.htm">Image Restore Procedure</a> | <a href="Setup.htm">IO Setup and Variable Restore.</a> |<a href="Index.htm">Index</a></p></FONT>
+
+<H1><p align="center"><b>Restoring an Image Backup</b></p></H1>
+<FONT FACE="Arial"><P>This procedure will restore an image backup onto a controller.  It will completely erase what is currently on the controller.  Be sure to do a full backup with PAINTworks first.</P>
+<P>1) With the power off, press and hold the USER1 and USER2 buttons on the operator panel of the RJ3 controller or press and hold the F1 and F5 keys on the teach pendant. While holding these keys, press the ON button. Wait  about ten seconds, or until you see the BMON Menu (below) on the teach pendant before releasing the buttons.</P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+***BOOT MONITOR for R-J3(iB/ibMate) CONTROLLER***
+Base System Version V6.4303 (FRNA)
+Initializing file devices ... done.
+1. Configuration menu
+2. All software installation
+3. INIT start
+4. Controller backup/restore
+5. Hardware diagnosis
+6. Maintenance
+7. All software installation(Ethernet)
+
+Select : _ </PRE></FONT></TD>
+</TR></TABLE>
+<P>2) Select: </FONT><FONT FACE="Courier New">4. Controller backup/restore </FONT><FONT FACE="Arial">to see the backup/restore menu:</FONT></P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+***BOOT MONITOR for R-J3(iB/ibMate) CONTROLLER***
+**** BACKUP/RESTORE MENU  *****
+0.   Return to Main Menu
+1.   Emergency Backup
+2.   Backup Controller As Images
+3.   Restore Controller Images
+4.   Restore Full Ctlr Backup (From MC)
+5.   Bootstrap To Cfg Menu
+
+Select : _ </PRE></FONT></TD></TR></TABLE>
+<P>3) Select: </FONT><FONT FACE="Courier New">3. Restore Controller Images </FONT><FONT FACE="Arial">:</P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+*** BOOT MONITOR for R-J3iB CONTROLLER ***
+
+**** Device selection menu  *****
+1.  Memory Card(MC:)      
+2.  Ethernet(TFTP:)
+Select : _ </PRE></FONT></TD></TR></TABLE>
+<P><FONT FACE="Arial">To restore from PAINTworks computer over ethernet, skip to <A href="#Enet">step 7</A>.</FONT></P>
+<P><FONT FACE="Arial"><B>MEMORY CARD MEMORY CARD RESTORE</B></FONT>
+<P><FONT FACE="Arial">4) To restore from memory card select: </FONT><FONT FACE="Courier New">1. Memory Card(MC:) </FONT><FONT FACE="Arial">:</FONT></P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+*** BOOT MONITOR for R-J3iB CONTROLLER ***
+
+**** RESTORE Controller Images  *****
+     Current module size:
+      FROM: 32 mb  SRAM: 3 mb
+
+     CAUTION:   You SHOULD have image files
+      From the same size of FROM/SRAM.
+      If you don't, this operation will cause
+      Fatal damage to the controller.
+
+      Are you ready?[Y=1/N=else]:
+</PRE></FONT></TD></TR></TABLE>
+<P>5) Place a memory card with the controller images into the slot on the controller. Press </FONT><FONT FACE="Courier New">1, ENTER. </FONT> The image files will be written to the controller. You should see the following messages:<br></FONT>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300><TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+Checking MC:\FROM00.IMG.Please wait..
+*************************************
+  CAUTION: NEVER TURN OFF THE POWER
+  SUPPLY WHILE CLEARING FROM !!!
+*************************************
+Clearing FROM ...Done
+Clearing SRAM (3M) ... done
+Reading MC:\FROM00.IMG ... Done
+...
+Reading MC:\SRAM02.IMG ... Done
+</PRE></FONT></TD></TR></TABLE>
+<FONT FACE="Arial">6) Press ENTER to continue.</p>  
+<p>All the teach pendant programs and variable settings are restored from when the backup was made.  If it is a recent backup from the same robot, then you may not need to restore from the PAINTworks file copy utility.</p>
+<p>If the image backup is from the same robot, but older; You should <a href="Setup.htm#Restore">restore files from the PAINTworks.</a></p>
+<p>If the image is from a different robot, then you will need to <a href="Setup.htm">run the setup program</a> before you restore the variables.</p>
+
+<A name='Enet'><P><FONT FACE="Arial"><B>ETHERNET RESTORE</B></FONT></A>  
+<P><FONT FACE="Arial">6) To restore from PAINTworks computer over ethernet select: </FONT><FONT FACE="Courier New">2. Ethernet(TFTP:) </FONT><FONT FACE="Arial">:</FONT></P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+*** BOOT MONITOR for R-J3iB CONTROLLER ***
+
+**** RESTORE Controller Images  *****
+    Current module size:
+      FROM: 32 mb  SRAM: 3 mb
+
+    CAUTION:   You SHOULD have image files
+      From the same size of FROM/SRAM.
+      If you don't, this operation will cause
+      Fatal damage to the controller.
+
+      Are you ready?[Y=1/N=else]:
+</PRE></FONT></TD></TR></TABLE>
+<P>7)Press </FONT><FONT FACE="Courier New">1, ENTER. </FONT> The image files will be saved to the the PAINTworks computer. You should see the following messages:<br></FONT>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300><TR><TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+Initializing ethernet.Please wait..
+Done
+Checking TFTP:\FROM00.IMG.Please wait..
+*************************************
+  CAUTION: NEVER TURN OFF THE POWER
+  SUPPLY WHILE CLEARING FROM !!!
+*************************************
+Clearing FROM ...Done
+Clearing SRAM (3M) ... done
+Reading TFTP:\FROM00.IMG ... Done
+...
+Reading TFTP:\SRAM02.IMG ... Done
+-- Restore complete --
+Press ENTER to return&gt;
+</PRE></FONT></TD></TR></TABLE>
+<FONT FACE="Arial">11) Press ENTER to continue.</p>  
+<p>All the teach pendant programs and variable settings are restored from when the backup was made.  If it is a recent backup from the same robot, then you may not need to restore from the PAINTworks file copy utility.</p>
+<p>If the image backup is from the same robot, but older; You should <a href="Setup.htm#Restore">restore files from the PAINTworks.</a></p>
+<p>If the image is from a different robot, then you will need to <a href="Setup.htm">run the setup program</a> before you restore the variables.</p>
+
+<FONT FACE="Arial">
+<p align="center"><A href="#top">Top</a> | <a href="113238 DCX Windsor V6.43-1 Software Load Procedure.pdf">Software Load Procedure.</a> | 
+<a href="ImgIntro.htm">Image Backup Overview</a> | <a href="ImgBkup.htm">Image Backup Procedure</a> | 
+<a href="ImgRstr.htm">Image Restore Procedure</a> | <a href="Setup.htm">IO Setup and Variable Restore.</a> |<a href="Index.htm">Index</a></p></FONT>
+<HR CLASS='EOF-MARKER'> 
+<P class='footer-copyright'><A href="http://www.fanucrobotics.com">Copyright &copy; 1999 by FANUC Robotics North America, Inc.</a></P> 
+</ol>
+</BODY></HTML>

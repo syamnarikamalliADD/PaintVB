@@ -1,0 +1,25 @@
+﻿DMONSchedMan - Items
+GM Flint - Flint_Prime
+
+Device: RC_3,DMON Items
+Item,Description,Type,IO Type,Port or Register Number,Program Name,Variable Name,Units,Slope,Intercept
+1,Fluid Flow Rate,IO,AO,5,,,cc/min,0,0
+2,Fluid Flow Command,IO,AO,1,,,Counts,0,0
+3,Actual Fluid Rate,IO,AO,6,,,cc/min,0,0
+4,Multi Flow Inf,Integer,DI,1,PAVRPADG,PAaf_STAT,,0,0
+5,Optn Alarm No,Integer,DI,1,PAVRPADG,CUR_ALARM,,0,0
+6,Turbine Speed,Real,DI,1,PAPARMEX,parm_cmds[2],KRPM,0,0
+7,Turb Cmd ,IO,AO,2,,,Counts,0,0
+8,Shap Air ,Real,DI,1,PAPARMEX,parm_cmds[3],LPM,0,0
+9,Shap Cmd ,IO,AO,3,,,Counts,0,0
+10,Bell Speed Rate,Real,DI,1,PATSCTL,ts_chan_dyn[1].speed_set_pt,KRPM,0,0
+11,Bell Speed Command,IO,AO,2,,,Counts,0,0
+12,Actual Bell Speed,Real,AO,0,PATSCTL,ts_chan_dyn[1].avg_speed,KRPM,0,0
+13,Mult Turbine Inf,Integer,DI,1,PAVRPADG,PATS_STAT,,0,0
+14,CC Group,IO,,11,,,,0,0
+15,Conv Enc Cnts,Integer,,0,*SYSTEM*,$enc_stat[1].$enc_count,,0,0
+16,Step Command,IO,,23,,,,0,0
+17,Actual Current,IO,AI,9,,,uA,0,0
+18,Actual Voltage,IO,AI,10,,,kV,0,0
+19,Mult Estat Inf,Integer,DI,1,PAPARMEX,PAES_STAT,,0,0
+20,Sample Trigger,Integer,DI,1,PAVRPADG,DMON_PA_TRG,,0,0

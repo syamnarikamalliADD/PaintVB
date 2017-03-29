@@ -1,0 +1,105 @@
+﻿DMONSchedMan - Items
+DAP - DAP_CCEXTL1,
+Device: RC_6,DMON Items
+Item,Description,Type,IO Type,Port or Register Number,Axis,Program Name,Variable Name,Units,Slope,Intercept
+1,Line Number,Integer,,0,G:1 A:1,*SYSTEM*,$MOR_GRP[1].$CURRENTLINE, ,0,0
+2,Process #,Integer,,0,G:1 A:1,PASHELL,tShellDram[1].path_procno, ,0,0
+3,Alarm Range,Integer,,0,G:1 A:1,PAVRPADG,cur_alarm, ,0,0
+4,Eq1:pTRIG,IO,DO,517,G:1 A:1, , , ,0,0
+5,Sample Trigger,Integer,,0,G:1 A:1,PAVRPADG,dmon_pa_trg, ,0,0
+6,Line Number,Integer,,0,G:1 A:1,*SYSTEM*,$MOR_GRP[2].$CURRENTLINE, ,0,0
+7,Process #,Integer,,0,G:1 A:1,PASHELL,tShellDram[2].path_procno, ,0,0
+8,Eq2:pTRIG,IO,DO,645,G:1 A:1, , , ,0,0
+9,Fluid Flow Rate,Real,,0,G:1 A:1,PAIPCTSK,tIpcEqWrk[1].tPmpWrk[1].cmd_rate,cc/min,0,0
+10,Resin Inlet Regulator,IO,AO,1,G:1 A:1, , ,counts,0,0
+11,Resin Outlet Pressure,IO,AI,6,G:1 A:1, , ,Counts,0,0
+12,Motor Running,Integer,,0,G:1 A:1,PAIPCTSK,tIpcEqWrk[1].tPmpWrk[1].run_status, ,0,0
+13,Pump Speed,Real,,0,G:1 A:1,*SYSTEM*,$IS_MOR.$ACT_SPD[1],RPM,0,0
+14,,,,0,G:1 A:1,,,,0,0
+15,,,,0,G:1 A:1,,,,0,0
+16,,,,0,G:1 A:1,,,,0,0
+17,Bell Speed Rate,Real,,0,G:1 A:1,PATSCTL,ts_chan_dyn[2].speed_set_pt,kRPM,0,0
+18,Bell Speed PSI,Real,,0,G:1 A:1,PATSCTL,ts_chan_dyn[2].rAoutPsi,psi,0,0
+19,Actual Bell Speed,Real,,0,G:1 A:1,PATSCTL,ts_chan_dyn[2].avg_speed,kRPM,0,0
+20,pBRAKE,IO,DO,514,G:1 A:1, , , ,0,0
+21,,,,0,G:1 A:1,,,,0,0
+22,,,,0,G:1 A:1,,,,0,0
+23,,,,0,G:1 A:1,,,,0,0
+24,,,,0,G:1 A:1,,,,0,0
+25,Shape Air Setpoint,Real,,0,G:1 A:1,PAPARMEX,tParmWrk[1].parm_cmds[3],sLPM,0,0
+26,SA Flow Meter,IO,AI,5,G:1 A:1, , ,counts,0,0
+27,SA Command,IO,AO,3,G:1 A:1, , ,counts,0,0
+28,Shape2 Air Setpoint,Real,,0,G:1 A:1,PAPARMEX,tParmWrk[1].parm_cmds[5],sLPM,0,0
+29,SA2 Flow Meter,IO,AI,10,G:1 A:1, , ,counts,0,0
+30,SA2 Command,IO,AO,6,G:1 A:1, , ,counts,0,0
+31,,,,0,G:1 A:1,,,,0,0
+32,,,,0,G:1 A:1,,,,0,0
+33,HV Command,IO,GO,45,G:1 A:1, , , ,0,0
+34,Actual Current,IO,GI,43,G:1 A:1, , ,counts,0,0
+35,Actual Voltage,IO,GI,42,G:1 A:1, , ,counts,0,0
+36,Setpoint Reached,IO,DI,770,G:1 A:1, , , ,0,0
+37,HVON Output,IO,DO,769,G:1 A:1, , , ,0,0
+38,HVON Input,IO,DI,769,G:1 A:1, , , ,0,0
+39,,,,0,G:1 A:1,,,,0,0
+40,,,,0,G:1 A:1,,,,0,0
+41,Axis #1 Torque,Integer,,0,G:1 A:1,*SYSTEM*,$MOR_GRP[1].$CUR_DIS_TRQ[1],FANUC Units,0,0
+42,Axis #2 Torque,Integer,,0,G:1 A:1,*SYSTEM*,$MOR_GRP[1].$CUR_DIS_TRQ[2],FANUC Units,0,0
+43,Axis #3 Torque,Integer,,0,G:1 A:1,*SYSTEM*,$MOR_GRP[1].$CUR_DIS_TRQ[3],FANUC Units,0,0
+44,Axis #4 Torque,Integer,,0,G:1 A:1,*SYSTEM*,$MOR_GRP[1].$CUR_DIS_TRQ[4],FANUC Units,0,0
+45,Axis #5 Torque,Integer,,0,G:1 A:1,*SYSTEM*,$MOR_GRP[1].$CUR_DIS_TRQ[5],FANUC Units,0,0
+46,,,,0,G:1 A:1,,,,0,0
+47,,,,0,G:1 A:1,,,,0,0
+48,CC Step,Integer,,0,G:1 A:1,PAVRCCEX,tCCEqDram[1].iStep, ,0,0
+49,CC Control Valves,IO,GO,31,G:1 A:1, , , ,0,0
+50,Color Enable,IO,DO,132,G:1 A:1, , , ,0,0
+51,Fluid Flow Rate,Real,,0,G:1 A:1,PAIPCTSK,tIpcEqWrk[2].tPmpWrk[1].cmd_rate,cc/min,0,0
+52,Resin Inlet Regulator,IO,AO,11,G:1 A:1, , ,counts,0,0
+53,Resin Outlet Pressure,IO,AI,16,G:1 A:1, , ,Counts,0,0
+54,Motor Running,Integer,,0,G:1 A:1,PAIPCTSK,tIpcEqWrk[2].tPmpWrk[1].run_status, ,0,0
+55,Pump Speed,Real,,0,G:1 A:1,*SYSTEM*,$IS_MOR.$ACT_SPD[2],RPM,0,0
+56,,,,0,G:1 A:1,,,,0,0
+57,,,,0,G:1 A:1,,,,0,0
+58,,,,0,G:1 A:1,,,,0,0
+59,Bell Speed Rate,Real,,0,G:1 A:1,PATSCTL,ts_chan_dyn[6].speed_set_pt,kRPM,0,0
+60,Bell Speed PSI,Real,,0,G:1 A:1,PATSCTL,ts_chan_dyn[6].rAoutPsi,psi,0,0
+61,Actual Bell Speed,Real,,0,G:1 A:1,PATSCTL,ts_chan_dyn[6].avg_speed,kRPM,0,0
+62,pBRAKE,IO,DO,642,G:1 A:1, , , ,0,0
+63,,,,0,G:1 A:1,,,,0,0
+64,,,,0,G:1 A:1,,,,0,0
+65,,,,0,G:1 A:1,,,,0,0
+66,,,,0,G:1 A:1,,,,0,0
+67,Shape Air Setpoint,Real,,0,G:1 A:1,PAPARMEX,tParmWrk[2].parm_cmds[3],sLPM,0,0
+68,SA Flow Meter,IO,AI,15,G:1 A:1, , ,counts,0,0
+69,SA Command,IO,AO,13,G:1 A:1, , ,counts,0,0
+70,Shape2 Air Setpoint,Real,,0,G:1 A:1,PAPARMEX,tParmWrk[2].parm_cmds[5],sLPM,0,0
+71,SA2 Flow Meter,IO,AI,20,G:1 A:1, , ,counts,0,0
+72,HV Command,IO,GO,50,G:1 A:1, , , ,0,0
+73,Actual Current,IO,GI,48,G:1 A:1, , ,counts,0,0
+74,Actual Voltage,IO,GI,47,G:1 A:1, , ,counts,0,0
+75,Setpoint Reached,IO,DI,834,G:1 A:1, , , ,0,0
+76,HVON Output,IO,DO,833,G:1 A:1, , , ,0,0
+77,HVON Input,IO,DI,833,G:1 A:1, , , ,0,0
+78,,,,0,G:1 A:1,,,,0,0
+79,,,,0,G:1 A:1,,,,0,0
+80,,,,0,G:1 A:1,,,,0,0
+81,,,,0,G:1 A:1,,,,0,0
+82,,,,0,G:1 A:1,,,,0,0
+83,Axis #1 Torque,Integer,,0,G:1 A:1,*SYSTEM*,$MOR_GRP[2].$CUR_DIS_TRQ[1],FANUC Units,0,0
+84,Axis #2 Torque,Integer,,0,G:1 A:1,*SYSTEM*,$MOR_GRP[2].$CUR_DIS_TRQ[2],FANUC Units,0,0
+85,Axis #3 Torque,Integer,,0,G:1 A:1,*SYSTEM*,$MOR_GRP[2].$CUR_DIS_TRQ[3],FANUC Units,0,0
+86,Axis #4 Torque,Integer,,0,G:1 A:1,*SYSTEM*,$MOR_GRP[2].$CUR_DIS_TRQ[4],FANUC Units,0,0
+87,Axis #5 Torque,Integer,,0,G:1 A:1,*SYSTEM*,$MOR_GRP[2].$CUR_DIS_TRQ[5],FANUC Units,0,0
+88,,,,0,G:1 A:1,,,,0,0
+89,,,,0,G:1 A:1,,,,0,0
+90,CC Step,Integer,,0,G:1 A:1,PAVRCCEX,tCCEqDram[2].iStep, ,0,0
+91,CC Control Valves,IO,GO,38,G:1 A:1, , , ,0,0
+92,Color Enable,IO,DO,136,G:1 A:1, , , ,0,0
+93,,,,0,G:1 A:1,,,,0,0
+94,,,,0,G:1 A:1,,,,0,0
+95,,,,0,G:1 A:1,,,,0,0
+96,,,,0,G:1 A:1,,,,0,0
+97,,,,0,G:1 A:1,,,,0,0
+98,,,,0,G:1 A:1,,,,0,0
+99,,,,0,G:1 A:1,,,,0,0
+100,,,,0,G:1 A:1,,,,0,0
+

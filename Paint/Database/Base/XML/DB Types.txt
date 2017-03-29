@@ -1,0 +1,152 @@
+Arm Type
+        None = 0
+        P10_Opener = 1
+        P15_Opener = 2
+        P145 = 3
+        P155 = 4
+        P200 = 5
+        P250 = 6
+        P500 = 7
+        S500 = 8
+        P700iA = 9
+        P700_Opener = 10
+        P500_Opener = 11
+        P20_Opener = 12
+        P25_Opener = 13
+        LeftArm = 14
+        RightArm = 15
+        LeftOpener = 16
+        RightOpener = 17
+        P1000 = 18
+        P35_Opener = 19
+
+NULL	NULL	NULL
+
+Controller Type
+0	None	0
+1	RJ2	1
+2	RJ3	2
+3	RJ3iB	3
+4	RJ3iB P500	4
+5	R30iA	5
+6	R30iB	6
+NULL	NULL	NULL
+
+PLC Types
+0	None	0
+1	PLC3	1
+2	PLC5	2
+3	Logix	3
+4	GEF 9030	4
+5	GEF 9070	5
+6	GEF Pac7	6
+7	SLC500	7
+8	GuardLogix	8
+9	Mitsubishi	9
+10	Modicon	10
+NULL	NULL	NULL
+
+Dispenser Type
+0       None	0
+1       ISD	1
+2       IPS	2
+3       Bedliner	3
+4       HemFlange	4
+5       Generic	5
+
+Estat Type
+0	None	0
+1	GNM100	1
+2	GNM4002	2
+3	FB200	3
+4	Magic Bus	4
+5	Honda	5
+6	ITW	6
+7	iPackHV 7
+8	Other	8
+NULL	NULL	NULL
+
+    Friend Enum eColorChangeType
+        NOT_NONE = -2   '11/04/09   MSW     Add not none as color change type option
+        NOT_SELECTED = -1
+        NONE = 0
+        SINGLE_PURGE = 1
+        DUAL_PURGE = 2
+        MODIFIED_DUAL_PURGE = 3
+        GUN_2K = 4
+        BELL_2K = 5
+        ACCUSTAT = 6
+        AQUABELL = 7
+        SINGLE_PURGE_BELL = 8
+        SERVOBELL = 9
+        VERSABELL = 10
+        VERSABELL2 = 11
+        VERSABELL2_WB = 12
+        VERSABELL2_2K = 13
+        POWDER = 14
+        VERSABELL_2K = 15
+        VERSABELL2_2K_1PLUS1 = 16
+        VERSABELL2_2K_MULTIRESIN = 17
+        VERSABELL2_PLUS = 18
+        VERSABELL2_PLUS_WB = 19
+        HONDA_1K = 20
+        HONDA_WB = 21
+        VERSABELL2_32 = 22 'BTK 02/15/10 Added color change type for Versabell2 32 valves
+        ACP2KGUNFLEX = 23 'HGB ACP 2k gun for the flex controller
+        ACP2KBELLFLEX = 24 'HGB ACP 2k bell for the flex controller
+        VERSABELL3_DUAL_WB = 25
+	VERSABELL3_WB = 26
+	VERSABELL3 = 27
+	VERSABELL3P1000 = 28
+	GUN_2K_PIG = 31 ' NVSP 12/05/2016 Piggable stack
+    End Enum
+
+
+
+Robot IO Types (DMON/SA)
+frDInType 1
+frDOutType 2
+frAInType 3
+frAOutType 4
+frPLCInType 6
+frPLCOutType 7
+frRDInType 8
+frRDOutType 9
+frSOPInType 11
+frSOPOutType 12
+frTPInType 14
+frTPOutType 15
+frWDInType 16
+frWDOutType 17
+frGPInType 18
+frGPOutType 19
+frUOPInType 20
+frUOPOutType 21
+frLDInType 22
+frLDOutType 23
+frLAInType 24
+frLAOutType 25
+frWSTKInType 26
+frWSTKOutType 27
+frFlagType 35
+frMarkerType 36
+frMaxIOType 38
+
+
+Scattered Access notes
+ScatteredAccess.Net builds from the different sections of the 
+db now instead of a different table for every config like 
+the VB6 version.
+The arm table lists the all the scattered access tables for the arm.
+Most of them add together without overlap and it'll add up the 
+different equipments as needed,
+The sealer tables overlap in different ways, so here's how the 
+old tables will be recreated:
+Disp Generic w/Temp: SealerCommon,DispGeneric, DispenseTCU
+Hem Sealer: SealerCommon,DispGeneric, HemReg
+Single IPS: SealerCommon,DispGeneric,IPS
+Dual IPS: SealerCommon,DualIPS
+Single ISD: SealerCommon,DispGeneric,ISD
+Dual ISD: SealerCommon,DispGeneric,ISD,ISD2
+Bedliner: SealerCommon,DispGeneric,Bedliner
+Add Gun2 as needed.

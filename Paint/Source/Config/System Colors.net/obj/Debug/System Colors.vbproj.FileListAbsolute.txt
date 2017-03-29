@@ -1,0 +1,38 @@
+C:\Paint\Source\Config\System Colors.net\bin\System Colors.exe.manifest
+C:\Paint\Source\Config\System Colors.net\bin\System Colors.application
+C:\Paint\Source\Config\System Colors.net\bin\System Colors.exe
+C:\Paint\Source\Config\System Colors.net\bin\System Colors.pdb
+C:\Paint\Source\Config\System Colors.net\bin\de-DE\System Colors.resources.dll
+C:\Paint\Source\Config\System Colors.net\bin\es-ES\System Colors.resources.dll
+C:\Paint\Source\Config\System Colors.net\bin\en-CA\System Colors.resources.dll
+C:\Paint\Source\Config\System Colors.net\bin\FocusedTextBox.dll
+C:\Paint\Source\Config\System Colors.net\bin\Interop.FRRobot.dll
+C:\Paint\Source\Config\System Colors.net\bin\Interop.FRRobotNeighborhood.dll
+C:\Paint\Source\Config\System Colors.net\bin\PLCComm.dll
+C:\Paint\Source\Config\System Colors.net\bin\Interop.ASABTCPLib.dll
+C:\Paint\Source\Config\System Colors.net\bin\AxInterop.ASABTCPLib.dll
+C:\Paint\Source\Config\System Colors.net\bin\PLCComm.pdb
+C:\Paint\Source\Config\System Colors.net\obj\Debug\ResolveAssemblyReference.cache
+C:\Paint\Source\Config\System Colors.net\obj\Debug\SystemColors.CommonStrings.resources
+C:\Paint\Source\Config\System Colors.net\obj\Debug\SystemColors.frmPrintOptions.resources
+C:\Paint\Source\Config\System Colors.net\obj\Debug\SystemColors.RobotStrings.resources
+C:\Paint\Source\Config\System Colors.net\obj\Debug\SystemColors.frmMain.resources
+C:\Paint\Source\Config\System Colors.net\obj\Debug\SystemColors.Resources.resources
+C:\Paint\Source\Config\System Colors.net\obj\Debug\SystemColors.ProjectStrings.resources
+C:\Paint\Source\Config\System Colors.net\obj\Debug\SystemColors.CommonStrings.de-DE.resources
+C:\Paint\Source\Config\System Colors.net\obj\Debug\SystemColors.CommonStrings.es-ES.resources
+C:\Paint\Source\Config\System Colors.net\obj\Debug\SystemColors.CommonStrings.en-CA.resources
+C:\Paint\Source\Config\System Colors.net\obj\Debug\SystemColors.RobotStrings.en-CA.resources
+C:\Paint\Source\Config\System Colors.net\obj\Debug\SystemColors.RobotStrings.es-ES.resources
+C:\Paint\Source\Config\System Colors.net\obj\Debug\SystemColors.ProjectStrings.es-ES.resources
+C:\Paint\Source\Config\System Colors.net\obj\Debug\SystemColors.ProjectStrings.de-DE.resources
+C:\Paint\Source\Config\System Colors.net\obj\Debug\SystemColors.ProjectStrings.en-CA.resources
+C:\Paint\Source\Config\System Colors.net\obj\Debug\System Colors.vbproj.GenerateResource.Cache
+C:\Paint\Source\Config\System Colors.net\obj\Debug\de-DE\System Colors.resources.dll
+C:\Paint\Source\Config\System Colors.net\obj\Debug\es-ES\System Colors.resources.dll
+C:\Paint\Source\Config\System Colors.net\obj\Debug\en-CA\System Colors.resources.dll
+C:\Paint\Source\Config\System Colors.net\obj\Debug\System Colors.TrustInfo.xml
+C:\Paint\Source\Config\System Colors.net\obj\Debug\System Colors.exe.manifest
+C:\Paint\Source\Config\System Colors.net\obj\Debug\System Colors.application
+C:\Paint\Source\Config\System Colors.net\obj\Debug\System Colors.exe
+C:\Paint\Source\Config\System Colors.net\obj\Debug\System Colors.pdb

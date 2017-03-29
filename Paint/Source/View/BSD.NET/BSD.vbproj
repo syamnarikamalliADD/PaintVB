@@ -1,0 +1,1235 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75F33524-8FA8-4BFA-B16F-1AC3D32B56A9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Resources\V_BOOTH.ICO</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>BSD</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Text</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>On</OptionStrict>
+    <RootNamespace>BSD</RootNamespace>
+    <StartupObject>BSD.StartupModule</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PlatformTarget>x86</PlatformTarget>
+    <PublishUrl>http://localhost/BSD/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>full</DebugType>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\..\VbApps\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>
+    </NoWarn>
+    <DebugType>Full</DebugType>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BingoBoard, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\BingoBoard.dll</HintPath>
+    </Reference>
+    <Reference Include="Crypto, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="FocusedTextBox, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\FocusedTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.FRRobot, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\Interop.FRRobot.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.FRRobotNeighborhood, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\Interop.FRRobotNeighborhood.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.FSFTPLib, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\Interop.FSFTPLib.dll</HintPath>
+    </Reference>
+    <Reference Include="PLCComm, Version=4.1.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Vbapps\PLCComm.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Drawing.Printing" />
+    <Import Include="System.Globalization" />
+    <Import Include="System.Reflection" />
+    <Import Include="System.Resources" />
+    <Import Include="System.Threading" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Common.NET\AlarmAssocData.vb">
+      <Link>AlarmAssocData.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\infCCToonUctrl.vb">
+      <Link>infCCToonUctrl.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlACP2KGun.designer.vb">
+      <Link>uctrlACP2KGun.designer.vb</Link>
+      <DependentUpon>uctrlACP2KGun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlACP2KGun.vb">
+      <Link>uctrlACP2KGun.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlACP2KGunFlex.designer.vb">
+      <Link>uctrlACP2KGunFlex.designer.vb</Link>
+      <DependentUpon>uctrlACP2KGunFlex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlACP2KGunFlex.vb">
+      <Link>uctrlACP2KGunFlex.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlGun.designer.vb">
+      <Link>uctrlGun.designer.vb</Link>
+      <DependentUpon>uctrlGun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlGun.vb">
+      <Link>uctrlGun.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlGunPump.designer.vb">
+      <Link>uctrlGunPump.designer.vb</Link>
+      <DependentUpon>uctrlGunPump.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlGunPump.vb">
+      <Link>uctrlGunPump.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlGun_2k.designer.vb">
+      <Link>uctrlGun_2k.designer.vb</Link>
+      <DependentUpon>uctrlGun_2k.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlGun_2k.vb">
+      <Link>uctrlGun_2k.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlGun_2k_Mica.designer.vb">
+      <Link>uctrlGun_2k_Mica.designer.vb</Link>
+      <DependentUpon>uctrlGun_2k_Mica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlGun_2k_Mica.vb">
+      <Link>uctrlGun_2k_Mica.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlGun_2k_Pig.designer.vb">
+      <Link>uctrlGun_2k_Pig.designer.vb</Link>
+      <DependentUpon>uctrlGun_2k_Pig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlGun_2k_Pig.vb">
+      <Link>uctrlGun_2k_Pig.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlHonda1K.designer.vb">
+      <Link>uctrlHonda1K.designer.vb</Link>
+      <DependentUpon>uctrlHonda1K.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlHonda1K.vb">
+      <Link>uctrlHonda1K.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlHondaWB.designer.vb">
+      <Link>uctrlHondaWB.designer.vb</Link>
+      <DependentUpon>uctrlHondaWB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlHondaWB.vb">
+      <Link>uctrlHondaWB.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlValve.designer.vb">
+      <Link>uctrlValve.designer.vb</Link>
+      <DependentUpon>uctrlValve.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlValve.vb">
+      <Link>uctrlValve.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell.designer.vb">
+      <Link>uctrlVersabell.designer.vb</Link>
+      <DependentUpon>uctrlVersabell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell.vb">
+      <Link>uctrlVersabell.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2plus.designer.vb">
+      <Link>uctrlVersabell2plus.designer.vb</Link>
+      <DependentUpon>uctrlVersabell2plus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2plus.vb">
+      <Link>uctrlVersabell2plus.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2pluswb.designer.vb">
+      <Link>uctrlVersabell2pluswb.designer.vb</Link>
+      <DependentUpon>uctrlVersabell2pluswb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2pluswb.vb">
+      <Link>uctrlVersabell2pluswb.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2wb.designer.vb">
+      <Link>uctrlVersabell2wb.designer.vb</Link>
+      <DependentUpon>uctrlVersabell2wb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2wb.vb">
+      <Link>uctrlVersabell2wb.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2_2k.designer.vb">
+      <Link>uctrlVersabell2_2k.designer.vb</Link>
+      <DependentUpon>uctrlVersabell2_2k.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2_2k.vb">
+      <Link>uctrlVersabell2_2k.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2_32.designer.vb">
+      <Link>uctrlVersabell2_32.designer.vb</Link>
+      <DependentUpon>uctrlVersabell2_32.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2_32.vb">
+      <Link>uctrlVersabell2_32.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell3.designer.vb">
+      <Link>uctrlVersabell3.designer.vb</Link>
+      <DependentUpon>uctrlVersabell3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell3.vb">
+      <Link>uctrlVersabell3.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell3dualwb.designer.vb">
+      <Link>uctrlVersabell3dualwb.designer.vb</Link>
+      <DependentUpon>uctrlVersabell3dualwb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell3dualwb.vb">
+      <Link>uctrlVersabell3dualwb.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell3P1000.designer.vb">
+      <Link>uctrlVersabell3P1000.designer.vb</Link>
+      <DependentUpon>uctrlVersabell3P1000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell3P1000.vb">
+      <Link>uctrlVersabell3P1000.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell3SingleWB.designer.vb">
+      <Link>uctrlVersabell3SingleWB.designer.vb</Link>
+      <DependentUpon>uctrlVersabell3SingleWB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell3SingleWB.vb">
+      <Link>uctrlVersabell3SingleWB.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsFSFtp.vb">
+      <Link>clsFSFtp.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsInterProcessComm.vb">
+      <Link>clsInterProcessComm.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsPrintHtml.vb">
+      <Link>clsPrintHtml.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsPWUser.vb">
+      <Link>clsPWUser.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsScatteredAccess.vb">
+      <Link>clsScatteredAccess.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsScreenCapture.vb">
+      <Link>clsScreenCapture.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\clsZDT.vb">
+      <Link>clsZDT.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\ColorChange.vb">
+      <Link>ColorChange.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\ColorChangeCartoons.vb">
+      <Link>ColorChangeCartoons.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CommonStrings.de-DE.Designer.vb">
+      <Link>CommonStrings.de-DE.Designer.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommonStrings.de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CommonStrings.Designer.vb">
+      <Link>CommonStrings.Designer.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommonStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CommonStrings.en-CA.Designer.vb">
+      <Link>CommonStrings.en-CA.Designer.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommonStrings.en-CA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\CommonStrings.es-ES.Designer.vb">
+      <Link>CommonStrings.es-ES.Designer.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommonStrings.es-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mRegVal.vb">
+      <Link>mRegVal.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\RobotStrings.de-DE.Designer.vb">
+      <Link>RobotStrings.de-DE.Designer.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RobotStrings.de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\RobotStrings.en-CA.Designer.vb">
+      <Link>RobotStrings.en-CA.Designer.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RobotStrings.en-CA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\frmDevices\frmDevices.designer.vb">
+      <Link>frmDevices.designer.vb</Link>
+      <DependentUpon>frmDevices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\frmDevices\frmDevices.vb">
+      <Link>frmDevices.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\frmMultipleChoiceDlg\frmMultipleChoiceDlg.designer.vb">
+      <Link>frmMultipleChoiceDlg.designer.vb</Link>
+      <DependentUpon>frmMultipleChoiceDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\frmMultipleChoiceDlg\frmMultipleChoiceDlg.vb">
+      <Link>frmMultipleChoiceDlg.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\frmPrintOptions\frmPrintOptions.designer.vb">
+      <Link>frmPrintOptions.designer.vb</Link>
+      <DependentUpon>frmPrintOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\frmPrintOptions\frmPrintOptions.vb">
+      <Link>frmPrintOptions.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mApplicators.vb">
+      <Link>mApplicators.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mDebug.vb">
+      <Link>mDebug.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mDeclares.vb">
+      <Link>mDeclares.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mLanguage.vb">
+      <Link>mLanguage.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mMathFunctions.vb">
+      <Link>mMathFunctions.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mPrintFunctions.vb">
+      <Link>mPrintFunctions.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mPWCommon.vb">
+      <Link>mPWCommon.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\mScreenSetup.vb">
+      <Link>mScreenSetup.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Placeholders\clsDMONCfg.vb">
+      <Link>clsDMONCfg.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Presets.vb">
+      <Link>Presets.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Robots.vb">
+      <Link>Robots.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\RobotStrings.Designer.vb">
+      <Link>RobotStrings.Designer.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RobotStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\RobotStrings.es-ES.Designer.vb">
+      <Link>RobotStrings.es-ES.Designer.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RobotStrings.es-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\Common.NET\StartupModule.vb">
+      <Link>StartupModule.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\SysColors.vb">
+      <Link>SysColors.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\SysOptions.vb">
+      <Link>SysOptions.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\SysRepairs.vb">
+      <Link>SysRepairs.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\SysStyles.vb">
+      <Link>SysStyles.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\ValueClasses.vb">
+      <Link>ValueClasses.vb</Link>
+    </Compile>
+    <Compile Include="..\..\Common.NET\Zones.vb">
+      <Link>Zones.vb</Link>
+    </Compile>
+    <Compile Include="..\BSD_Common\frmAxisJog.designer.vb">
+      <Link>frmAxisJog.designer.vb</Link>
+      <DependentUpon>frmAxisJog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\BSD_Common\frmAxisJog.vb">
+      <Link>frmAxisJog.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\BSD_Common\frmEdit.designer.vb">
+      <Link>frmEdit.designer.vb</Link>
+      <DependentUpon>frmEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\BSD_Common\frmEdit.vb">
+      <Link>frmEdit.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\BSD_Common\frmEstatTest.designer.vb">
+      <Link>frmEstatTest.designer.vb</Link>
+      <DependentUpon>frmEstatTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\BSD_Common\frmEstatTest.vb">
+      <Link>frmEstatTest.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\BSD_Common\frmGhostStatus.designer.vb">
+      <Link>frmGhostStatus.designer.vb</Link>
+      <DependentUpon>frmGhostStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\BSD_Common\frmGhostStatus.vb">
+      <Link>frmGhostStatus.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\BSD_Common\frmGraph.Designer.vb">
+      <Link>frmGraph.Designer.vb</Link>
+      <DependentUpon>frmGraph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\BSD_Common\frmGraph.vb">
+      <Link>frmGraph.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\BSD_Common\frmMain.Designer.vb">
+      <Link>frmMain.Designer.vb</Link>
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\BSD_Common\frmMain.vb">
+      <Link>frmMain.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\BSD_Common\frmWaitDebug.Designer.vb">
+      <Link>frmWaitDebug.Designer.vb</Link>
+      <DependentUpon>frmWaitDebug.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\BSD_Common\frmWaitDebug.vb">
+      <Link>frmWaitDebug.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\BSD_Common\mBSDCommon.vb">
+      <Link>mBSDCommon.vb</Link>
+    </Compile>
+    <Compile Include="..\BSD_Common\uctlDevice.designer.vb">
+      <Link>uctlDevice.designer.vb</Link>
+      <DependentUpon>uctlDevice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\BSD_Common\uctlDevice.vb">
+      <Link>uctlDevice.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\BSD_Common\uctlLifeCycles.designer.vb">
+      <Link>uctlLifeCycles.designer.vb</Link>
+      <DependentUpon>uctlLifeCycles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\BSD_Common\uctlLifeCycles.vb">
+      <Link>uctlLifeCycles.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\BSD_Common\uctlList.designer.vb">
+      <Link>uctlList.designer.vb</Link>
+      <DependentUpon>uctlList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\BSD_Common\uctlList.vb">
+      <Link>uctlList.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\BSD_Common\uctlRC.designer.vb">
+      <Link>uctlRC.designer.vb</Link>
+      <DependentUpon>uctlRC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\BSD_Common\uctlRC.vb">
+      <Link>uctlRC.vb</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AxisJogPictures.Designer.vb">
+      <DependentUpon>AxisJogPictures.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="uctlBSDClear.Designer.vb">
+      <DependentUpon>uctlBSDClear.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uctlBSDClear.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uctlBSDMica.Designer.vb">
+      <DependentUpon>uctlBSDMica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uctlBSDMica.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uctlBSDBase.Designer.vb">
+      <DependentUpon>uctlBSDBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uctlBSDBase.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uctlBSDPrime.Designer.vb">
+      <DependentUpon>uctlBSDPrime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uctlBSDPrime.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Devices.en-CA.Designer.vb">
+      <DependentUpon>Devices.en-CA.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ProjectStrings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="frmMiniGrid.designer.vb">
+      <DependentUpon>frmMiniGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMiniGrid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectStrings.en-CA.Designer.vb">
+      <DependentUpon>ProjectStrings.en-CA.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Devices.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Devices.resx</DependentUpon>
+    </Compile>
+    <Compile Include="infBSDForm.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="uctlBSDRight.Designer.vb">
+      <DependentUpon>uctlBSDRight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uctlBSDRight.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uctlBSDLeft.Designer.vb">
+      <DependentUpon>uctlBSDLeft.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uctlBSDLeft.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uctlPrimeExt.Designer.vb">
+      <DependentUpon>uctlPrimeExt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uctlPrimeExt.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uctlPrimeIntLeft.designer.vb">
+      <DependentUpon>uctlPrimeIntLeft.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uctlPrimeIntLeft.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uctlProcessScreen.Designer.vb">
+      <DependentUpon>uctlProcessScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uctlProcessScreen.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uctlQueueScreenLeft.Designer.vb">
+      <DependentUpon>uctlQueueScreenLeft.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uctlQueueScreenLeft.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uctlQueueScreenRight.Designer.vb">
+      <DependentUpon>uctlQueueScreenRight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uctlQueueScreenRight.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlACP2KGun.resx">
+      <Link>uctrlACP2KGun.resx</Link>
+      <DependentUpon>uctrlACP2KGun.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlACP2KGunFlex.resx">
+      <Link>uctrlACP2KGunFlex.resx</Link>
+      <DependentUpon>uctrlACP2KGunFlex.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlGun.resx">
+      <Link>uctrlGun.resx</Link>
+      <DependentUpon>uctrlGun.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlGunPump.resx">
+      <Link>uctrlGunPump.resx</Link>
+      <DependentUpon>uctrlGunPump.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlGun_2k.resx">
+      <Link>uctrlGun_2k.resx</Link>
+      <DependentUpon>uctrlGun_2k.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlGun_2k_Mica.resx">
+      <Link>uctrlGun_2k_Mica.resx</Link>
+      <DependentUpon>uctrlGun_2k_Mica.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlGun_2k_Pig.resx">
+      <Link>uctrlGun_2k_Pig.resx</Link>
+      <DependentUpon>uctrlGun_2k_Pig.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlHonda1K.resx">
+      <Link>uctrlHonda1K.resx</Link>
+      <DependentUpon>uctrlHonda1K.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlHondaWB.resx">
+      <Link>uctrlHondaWB.resx</Link>
+      <DependentUpon>uctrlHondaWB.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlValve.resx">
+      <Link>uctrlValve.resx</Link>
+      <DependentUpon>uctrlValve.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell.resx">
+      <Link>uctrlVersabell.resx</Link>
+      <DependentUpon>uctrlVersabell.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2plus.resx">
+      <Link>uctrlVersabell2plus.resx</Link>
+      <DependentUpon>uctrlVersabell2plus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2pluswb.resx">
+      <Link>uctrlVersabell2pluswb.resx</Link>
+      <DependentUpon>uctrlVersabell2pluswb.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2wb.resx">
+      <Link>uctrlVersabell2wb.resx</Link>
+      <DependentUpon>uctrlVersabell2wb.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2_2k.resx">
+      <Link>uctrlVersabell2_2k.resx</Link>
+      <DependentUpon>uctrlVersabell2_2k.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell2_32.resx">
+      <Link>uctrlVersabell2_32.resx</Link>
+      <DependentUpon>uctrlVersabell2_32.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell3.resx">
+      <Link>uctrlVersabell3.resx</Link>
+      <DependentUpon>uctrlVersabell3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell3dualwb.resx">
+      <Link>uctrlVersabell3dualwb.resx</Link>
+      <DependentUpon>uctrlVersabell3dualwb.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell3P1000.resx">
+      <Link>uctrlVersabell3P1000.resx</Link>
+      <DependentUpon>uctrlVersabell3P1000.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CCTypeUserControls\uctrlVersabell3SingleWB.resx">
+      <Link>uctrlVersabell3SingleWB.resx</Link>
+      <DependentUpon>uctrlVersabell3SingleWB.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CommonStrings.de-DE.resx">
+      <Link>CommonStrings.de-DE.resx</Link>
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonStrings.de-DE.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CommonStrings.es-ES.resx">
+      <Link>CommonStrings.es-ES.resx</Link>
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonStrings.es-ES.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CommonStrings.resx">
+      <Link>CommonStrings.resx</Link>
+      <SubType>Designer</SubType>
+      <LastGenOutput>CommonStrings.Designer.vb</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\CommonStrings.en-CA.resx">
+      <Link>CommonStrings.en-CA.resx</Link>
+      <SubType>Designer</SubType>
+      <LastGenOutput>CommonStrings.en-CA.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\RobotStrings.de-DE.resx">
+      <Link>RobotStrings.en-CA.resx</Link>
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RobotStrings.de-DE.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\RobotStrings.en-CA.resx">
+      <Link>RobotStrings.en-CA.resx</Link>
+      <SubType>Designer</SubType>
+      <LastGenOutput>RobotStrings.en-CA.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\frmDevices\frmDevices.resx">
+      <Link>frmDevices.resx</Link>
+      <DependentUpon>frmDevices.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\frmMultipleChoiceDlg\frmMultipleChoiceDlg.resx">
+      <Link>frmMultipleChoiceDlg.resx</Link>
+      <DependentUpon>frmMultipleChoiceDlg.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\frmPrintOptions\frmPrintOptions.resx">
+      <Link>frmPrintOptions.resx</Link>
+      <DependentUpon>frmPrintOptions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\RobotStrings.es-ES.resx">
+      <Link>RobotStrings.es-ES.resx</Link>
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RobotStrings.es-ES.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\Common.NET\RobotStrings.resx">
+      <Link>RobotStrings.resx</Link>
+      <SubType>Designer</SubType>
+      <LastGenOutput>RobotStrings.Designer.vb</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\BSD_Common\frmAxisJog.resx">
+      <Link>frmAxisJog.resx</Link>
+      <DependentUpon>frmAxisJog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\BSD_Common\frmEdit.resx">
+      <Link>frmEdit.resx</Link>
+      <DependentUpon>frmEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\BSD_Common\frmEstatTest.resx">
+      <Link>frmEstatTest.resx</Link>
+      <DependentUpon>frmEstatTest.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\BSD_Common\frmGhostStatus.resx">
+      <Link>frmGhostStatus.resx</Link>
+      <DependentUpon>frmGhostStatus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\BSD_Common\frmGraph.resx">
+      <Link>frmGraph.resx</Link>
+      <DependentUpon>frmGraph.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\BSD_Common\frmMain.resx">
+      <Link>frmMain.resx</Link>
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\BSD_Common\frmWaitDebug.resx">
+      <Link>frmWaitDebug.resx</Link>
+      <DependentUpon>frmWaitDebug.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\BSD_Common\uctlDevice.resx">
+      <Link>uctlDevice.resx</Link>
+      <DependentUpon>uctlDevice.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\BSD_Common\uctlLifeCycles.resx">
+      <Link>uctlLifeCycles.resx</Link>
+      <DependentUpon>uctlLifeCycles.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\BSD_Common\uctlList.resx">
+      <Link>uctlList.resx</Link>
+      <DependentUpon>uctlList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\BSD_Common\uctlRC.resx">
+      <Link>uctlRC.resx</Link>
+      <DependentUpon>uctlRC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AxisJogPictures.resx">
+      <LastGenOutput>AxisJogPictures.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uctlBSDClear.resx">
+      <DependentUpon>uctlBSDClear.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uctlBSDMica.resx">
+      <DependentUpon>uctlBSDMica.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uctlBSDBase.resx">
+      <DependentUpon>uctlBSDBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uctlBSDPrime.resx">
+      <DependentUpon>uctlBSDPrime.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devices.en-CA.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Devices.en-CA.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMiniGrid.resx">
+      <DependentUpon>frmMiniGrid.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectStrings.en-CA.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjectStrings.en-CA.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devices.resx">
+      <LastGenOutput>Devices.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectStrings.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjectStrings.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uctlBSDRight.resx">
+      <DependentUpon>uctlBSDRight.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uctlBSDLeft.resx">
+      <DependentUpon>uctlBSDLeft.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uctlPrimeExt.resx">
+      <DependentUpon>uctlPrimeExt.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uctlPrimeIntLeft.resx">
+      <DependentUpon>uctlPrimeIntLeft.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uctlProcessScreen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uctlProcessScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uctlQueueScreenLeft.resx">
+      <DependentUpon>uctlQueueScreenLeft.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uctlQueueScreenRight.resx">
+      <DependentUpon>uctlQueueScreenRight.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Resources\CarLeft.GIF" />
+    <Content Include="Resources\Down Off.ico" />
+    <None Include="Resources\F150_exit_rt.png" />
+    <Content Include="Resources\JobLeft.png" />
+    <Content Include="Resources\JobLeftDeg.png" />
+    <Content Include="Resources\JobRight.png" />
+    <Content Include="Resources\JobRightDeg.png" />
+    <Content Include="Resources\Left Off.ico" />
+    <None Include="Resources\Left_P500_A1.jpg" />
+    <None Include="Resources\Left_P500_A2.jpg" />
+    <None Include="Resources\Left_P500_A3.jpg" />
+    <None Include="Resources\Left_P500_A4.jpg" />
+    <None Include="Resources\Left_P500_A5.jpg" />
+    <None Include="Resources\Left_P500_WX.jpg" />
+    <None Include="Resources\Left_P500_WY.jpg" />
+    <None Include="Resources\Left_P500_WZ.jpg" />
+    <None Include="Resources\Left_P700.jpg" />
+    <None Include="Resources\Left_P700_A1.jpg" />
+    <None Include="Resources\Left_P700_A2.jpg" />
+    <None Include="Resources\Left_P700_A3.jpg" />
+    <None Include="Resources\Left_P700_A4.jpg" />
+    <None Include="Resources\Left_P700_A5.jpg" />
+    <None Include="Resources\Left_P700_A6.jpg" />
+    <None Include="Resources\Left_P700_A7.jpg" />
+    <None Include="Resources\Left_P700_BR1.jpg" />
+    <None Include="Resources\Left_P700_BR2.jpg" />
+    <None Include="Resources\Left_P700_BR3.jpg" />
+    <None Include="Resources\Left_P700_WX.jpg" />
+    <None Include="Resources\Left_P700_WY.jpg" />
+    <None Include="Resources\Left_P700_WZ.jpg" />
+    <None Include="Resources\PEC_Off_Down.png" />
+    <None Include="Resources\PEC_Off_Up.png" />
+    <None Include="Resources\prox_gray.gif" />
+    <None Include="Resources\Left_P20.jpg" />
+    <None Include="Resources\Left_P20_A1.jpg" />
+    <None Include="Resources\Left_P20_A2.jpg" />
+    <None Include="Resources\Left_P20_A3.jpg" />
+    <None Include="Resources\Left_P20_A4.jpg" />
+    <None Include="Resources\Left_P20_BR1.jpg" />
+    <None Include="Resources\Left_P20_BR2.jpg" />
+    <None Include="Resources\Left_P20_WX.jpg" />
+    <None Include="Resources\Left_P20_WY.jpg" />
+    <None Include="Resources\Left_P20_WZ.jpg" />
+    <None Include="Resources\Left_P25.jpg" />
+    <None Include="Resources\Left_P25_A1.jpg" />
+    <None Include="Resources\Left_P25_A2.jpg" />
+    <None Include="Resources\Left_P25_A3.jpg" />
+    <None Include="Resources\Left_P25_A4.jpg" />
+    <None Include="Resources\Left_P25_A5.jpg" />
+    <None Include="Resources\Left_P25_A6.jpg" />
+    <None Include="Resources\Left_P25_BR1.jpg" />
+    <None Include="Resources\Left_P25_BR2.jpg" />
+    <None Include="Resources\Left_P25_BR3.jpg" />
+    <None Include="Resources\Left_P25_WX.jpg" />
+    <None Include="Resources\Left_P25_WY.jpg" />
+    <None Include="Resources\Left_P25_WZ.jpg" />
+    <None Include="Resources\Left_P200.jpg" />
+    <None Include="Resources\Left_P200_A1.jpg" />
+    <None Include="Resources\Left_P200_A2.jpg" />
+    <None Include="Resources\Left_P200_A3.jpg" />
+    <None Include="Resources\Left_P200_A4.jpg" />
+    <None Include="Resources\Left_P200_A5.jpg" />
+    <None Include="Resources\Left_P200_A6.jpg" />
+    <None Include="Resources\Left_P200_WX.jpg" />
+    <None Include="Resources\Left_P200_WY.jpg" />
+    <None Include="Resources\Left_P200_WZ.jpg" />
+    <None Include="Resources\Left_P250.jpg" />
+    <None Include="Resources\Left_P250_A1.jpg" />
+    <None Include="Resources\Left_P250_A2.jpg" />
+    <None Include="Resources\Left_P250_A3.jpg" />
+    <None Include="Resources\Left_P250_A4.jpg" />
+    <None Include="Resources\Left_P250_A5.jpg" />
+    <None Include="Resources\Left_P250_A6.jpg" />
+    <None Include="Resources\Left_P250_BR1.jpg" />
+    <None Include="Resources\Left_P250_BR2.jpg" />
+    <None Include="Resources\Left_P250_BR3.jpg" />
+    <None Include="Resources\Left_P250_WX.jpg" />
+    <None Include="Resources\Left_P250_WY.jpg" />
+    <None Include="Resources\Left_P250_WZ.jpg" />
+    <None Include="Resources\Left_P35.jpg" />
+    <None Include="Resources\Left_P35_A1.jpg" />
+    <None Include="Resources\Left_P35_A2.jpg" />
+    <None Include="Resources\Left_P35_A3.jpg" />
+    <None Include="Resources\Left_P35_A4.jpg" />
+    <None Include="Resources\Left_P35_A5.jpg" />
+    <None Include="Resources\Left_P35_WX.jpg" />
+    <None Include="Resources\Left_P35_WY.jpg" />
+    <None Include="Resources\Left_P35_WZ.jpg" />
+    <None Include="Resources\Left_P1000.jpg" />
+    <None Include="Resources\Left_P1000_A1.jpg" />
+    <None Include="Resources\Left_P1000_A2.jpg" />
+    <None Include="Resources\Left_P1000_A3.jpg" />
+    <None Include="Resources\Left_P1000_A4.jpg" />
+    <None Include="Resources\Left_P1000_A5.jpg" />
+    <None Include="Resources\Left_P1000_A6.jpg" />
+    <None Include="Resources\Left_P1000_A7.jpg" />
+    <None Include="Resources\Left_P1000_WX.jpg" />
+    <None Include="Resources\Left_P1000_WY.jpg" />
+    <None Include="Resources\Left_P1000_WZ.jpg" />
+    <Content Include="Resources\Left_P500.jpg" />
+    <None Include="Resources\maint_lock_gray.gif" />
+    <Content Include="Resources\Right Off.ico" />
+    <None Include="Resources\Right_P500.jpg" />
+    <None Include="Resources\Right_P500_A1.jpg" />
+    <None Include="Resources\Right_P500_A2.jpg" />
+    <None Include="Resources\Right_P500_A3.jpg" />
+    <None Include="Resources\Right_P500_A4.jpg" />
+    <None Include="Resources\Right_P500_A5.jpg" />
+    <None Include="Resources\Right_P500_WX.jpg" />
+    <None Include="Resources\Right_P500_WY.jpg" />
+    <None Include="Resources\Right_P500_WZ.jpg" />
+    <None Include="Resources\Right_P700.jpg" />
+    <None Include="Resources\Right_P700_A1.jpg" />
+    <None Include="Resources\Right_P700_A2.jpg" />
+    <None Include="Resources\Right_P700_A3.jpg" />
+    <None Include="Resources\Right_P700_A4.jpg" />
+    <None Include="Resources\Right_P700_A5.jpg" />
+    <None Include="Resources\Right_P700_A6.jpg" />
+    <None Include="Resources\Right_P700_A7.jpg" />
+    <None Include="Resources\Right_P700_BR1.jpg" />
+    <None Include="Resources\Right_P700_BR2.jpg" />
+    <None Include="Resources\Right_P700_BR3.jpg" />
+    <None Include="Resources\Right_P700_WX.jpg" />
+    <None Include="Resources\Right_P700_WY.jpg" />
+    <None Include="Resources\Right_P700_WZ.jpg" />
+    <None Include="Resources\Right_P25_WZ.jpg" />
+    <None Include="Resources\Right_P20.jpg" />
+    <None Include="Resources\Right_P20_A1.jpg" />
+    <None Include="Resources\Right_P20_A2.jpg" />
+    <None Include="Resources\Right_P20_A3.jpg" />
+    <None Include="Resources\Right_P20_A4.jpg" />
+    <None Include="Resources\Right_P20_BR1.jpg" />
+    <None Include="Resources\Right_P20_BR2.jpg" />
+    <None Include="Resources\Right_P20_WX.jpg" />
+    <None Include="Resources\Right_P20_WY.jpg" />
+    <None Include="Resources\Right_P20_WZ.jpg" />
+    <None Include="Resources\Right_P25.jpg" />
+    <None Include="Resources\Right_P25_A1.jpg" />
+    <None Include="Resources\Right_P25_A2.jpg" />
+    <None Include="Resources\Right_P25_A3.jpg" />
+    <None Include="Resources\Right_P25_A4.jpg" />
+    <None Include="Resources\Right_P25_A5.jpg" />
+    <None Include="Resources\Right_P25_A6.jpg" />
+    <None Include="Resources\Right_P25_BR1.jpg" />
+    <None Include="Resources\Right_P25_BR2.jpg" />
+    <None Include="Resources\Right_P25_BR3.jpg" />
+    <None Include="Resources\Right_P25_WX.jpg" />
+    <None Include="Resources\Right_P25_WY.jpg" />
+    <None Include="Resources\Right_P200.jpg" />
+    <None Include="Resources\Right_P200_A1.jpg" />
+    <None Include="Resources\Right_P200_A2.jpg" />
+    <None Include="Resources\Right_P200_A3.jpg" />
+    <None Include="Resources\Right_P200_A4.jpg" />
+    <None Include="Resources\Right_P200_A5.jpg" />
+    <None Include="Resources\Right_P200_A6.jpg" />
+    <None Include="Resources\Right_P200_WX.jpg" />
+    <None Include="Resources\Right_P200_WY.jpg" />
+    <None Include="Resources\Right_P200_WZ.jpg" />
+    <None Include="Resources\Right_P200_A7.jpg" />
+    <None Include="Resources\Right_P200_BR1.jpg" />
+    <None Include="Resources\Right_P200_BR2.jpg" />
+    <None Include="Resources\Right_P200_BR3.jpg" />
+    <None Include="Resources\Right_P250.jpg" />
+    <None Include="Resources\Right_P250_A1.jpg" />
+    <None Include="Resources\Right_P250_A2.jpg" />
+    <None Include="Resources\Right_P250_A3.jpg" />
+    <None Include="Resources\Right_P250_A4.jpg" />
+    <None Include="Resources\Right_P250_A5.jpg" />
+    <None Include="Resources\Right_P250_A6.jpg" />
+    <None Include="Resources\Right_P250_BR1.jpg" />
+    <None Include="Resources\Right_P250_BR2.jpg" />
+    <None Include="Resources\Right_P250_BR3.jpg" />
+    <None Include="Resources\Right_P250_WX.jpg" />
+    <None Include="Resources\Right_P250_WY.jpg" />
+    <None Include="Resources\Right_P250_WZ.jpg" />
+    <None Include="Resources\Right_P35.jpg" />
+    <None Include="Resources\Right_P35_A1.jpg" />
+    <None Include="Resources\Right_P35_A2.jpg" />
+    <None Include="Resources\Right_P35_A3.jpg" />
+    <None Include="Resources\Right_P35_A4.jpg" />
+    <None Include="Resources\Right_P35_A5.jpg" />
+    <None Include="Resources\Right_P35_WX.jpg" />
+    <None Include="Resources\Right_P35_WY.jpg" />
+    <None Include="Resources\Right_P35_WZ.jpg" />
+    <None Include="Resources\Right_P1000.jpg" />
+    <None Include="Resources\Right_P1000_A1.jpg" />
+    <None Include="Resources\Right_P1000_A2.jpg" />
+    <None Include="Resources\Right_P1000_A3.jpg" />
+    <None Include="Resources\Right_P1000_A4.jpg" />
+    <None Include="Resources\Right_P1000_A5.jpg" />
+    <None Include="Resources\Right_P1000_A6.jpg" />
+    <None Include="Resources\Right_P1000_A7.jpg" />
+    <None Include="Resources\Right_P1000_WX.jpg" />
+    <None Include="Resources\Right_P1000_WY.jpg" />
+    <None Include="Resources\Right_P1000_WZ.jpg" />
+    <Content Include="Resources\Up Off.ico" />
+    <None Include="Resources\ARW07LT.png" />
+    <None Include="Resources\ARW07RT.png" />
+    <None Include="Resources\Selector Switch unknown.png" />
+    <None Include="Resources\No Paint.png" />
+    <None Include="Resources\CarRight.gif" />
+    <None Include="Resources\E-stat Unknown.png" />
+    <None Include="Resources\Disc.png" />
+    <None Include="Resources\Pendant.png" />
+    <None Include="Resources\Estop OFF.png" />
+    <None Include="Resources\gray.png" />
+    <None Include="Resources\Knife.png" />
+    <None Include="Resources\Config System Colors.png" />
+    <None Include="Resources\BSD.png" />
+    <None Include="Resources\Queue.png" />
+    <None Include="Resources\Conv.png" />
+    <None Include="Resources\Ghost.png" />
+    <None Include="Resources\LITTLEG.ICO" />
+    <None Include="Resources\V_BOOTH.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

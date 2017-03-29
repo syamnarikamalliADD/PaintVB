@@ -1,0 +1,80 @@
+
+<html>
+<head>
+    <title>PAINTworks Online Help - Configuration Menu - Job Setup - Styles</title>
+    <object id="HHCTRL" type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" >
+    </object>
+    <script type="text/javascript"
+        src="../common/help.js">
+        document.write("Included Jscript file not found, some help may not be available.");
+    </script>
+</head>
+
+<body background="../common/indtextb.jpg">
+    <h2>Configuration Menu</h2>
+    <h1>Job Setup - Styles</h1>
+ <p>The purpose of this screen is to configure job setup information.  
+Tabs are used to select each job setup parameter: Style, Option, Degrade, Repair, Intrusion</p>
+    <h3>Styles</h3>
+<p>The plant styles are assigned to Fanuc styles. Each style is assigned
+a description. Both the plant style and Fanuc style
+fields can be assigned the same number. However, each Plant Style
+field must be unique. Enter a 0 for any unused styles. The FANUC
+style is the style number used when the JOB is created. Each robot can be 
+enabled or disabled for each style. Under the <strong>Robots 
+Required</strong> field, a checked robot means that robot is
+required to paint the selected style while an unchecked robot is
+not. With the proper access level, a user can restore these styles
+from either the database or the PLC in the current zone.</p>
+
+    <p>The Style information is saved to the PLC. The PLC uses this data
+to verify that the Style is valid and to initialize the required robot 
+controllers with the correct style number.</p>
+   
+<p><strong>Note: </strong>Changes to this screen can only be made
+by a user with sufficient access level. </p>
+
+<p>Click the area where you want help.</p>
+
+
+<p><map name="FPMap0">
+<area href="../[1.0]PAINTworksMainMenu/ConfigurationMenu.htm" shape="rect" 
+        coords="4, 20, 65, 70" ALT = "Closes the current screen.">
+<area href="JavaScript:HHCTRL.TextPopup(SaveButton,popfont,9,9,-1,-1)"shape="rect" 
+    coords="65, 20, 114, 70"   alt="Save surrent changes."/>
+<area href="JavaScript:HHCTRL.TextPopup(UndoButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="114, 20, 166, 70"   alt="Undo current changes."/>
+<area href="JavaScript:HHCTRL.TextPopup(PrintButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="166, 20, 220, 70"   alt="Print the setup data."/>
+<area href="JavaScript:HHCTRL.TextPopup(ChangeButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="220, 20, 295, 70"   alt="Show changes made to this screen."/>
+<area href="JavaScript:HHCTRL.TextPopup(UploadButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="295, 20, 358, 70" alt="Upload values from PLC"/>
+<area href="JavaScript:HHCTRL.TextPopup(StatusButton,popfont,9,9,-1,-1)" shape="rect" 
+    coords="358, 20, 402, 70" alt="Show current screen status."/>
+
+<area href="JavaScript:HHCTRL.TextPopup(CboZone,popfont,9,9,-1,-1)" shape="rect"
+    coords="17, 92, 143, 112" alt="Click to select a zone.">
+    
+<area href="JobSetupStyles.htm" shape="rect" 
+        coords="11, 120, 107, 141" ALT = "Select the Style Tab.">
+<area href="JobSetupOptions.htm" shape="rect" 
+        coords="107, 120, 203, 141" ALT = "Select the Options Tab.">
+
+<area href="JavaScript:HHCTRL.TextPopup(PlantStyle,popfont,9,9,-1,-1)" shape="rect" 
+    coords="41, 187, 87, 675" alt="Plant Style.">
+<area href="JavaScript:HHCTRL.TextPopup(FanucStyle,popfont,9,9,-1,-1)" shape="rect" 
+    coords="95, 187, 137, 675" alt="Fanuc Style.">
+<area href="JavaScript:HHCTRL.TextPopup(StyleDesc,popfont,9,9,-1,-1)" shape="rect" 
+    coords="147, 187, 357, 675" alt="Style Description.">
+<area href="JavaScript:HHCTRL.TextPopup(StyleRobots,popfont,9,9,-1,-1)" shape="rect" 
+    coords="368, 187, 782, 675" alt="Robots Required for style.">
+        
+<area href="JavaScript:HHCTRL.TextPopup(StatusBar,popfont,9,9,-1,-1)" shape="rect" 
+    coords="0, 678, 1023, 703" alt="Current status."/>
+
+</map><img src="images/Config_JobSetup_StyleID.JPG" usemap="#FPMap0" width="1024" height="703"></p>
+</body>
+
+</html>

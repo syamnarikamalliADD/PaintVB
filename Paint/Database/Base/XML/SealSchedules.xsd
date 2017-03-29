@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SealSchedules" targetNamespace="http://tempuri.org/SealSchedules.xsd" xmlns:mstns="http://tempuri.org/SealSchedules.xsd" xmlns="http://tempuri.org/SealSchedules.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SealSchedules" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SealSchedules" msprop:Generator_DataSetName="SealSchedules">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Group" type="xs:string" default="" />
+              <xs:element name="Item" type="xs:integer" default="0" />
+              <xs:element name="DisplayName" type="xs:string" default="" />
+              <xs:element name="ReportName" type="xs:string" default="" />
+              <xs:element name="Units" type="xs:string" default="" />
+              <xs:element name="MinVal" type="xs:string" default="" />
+              <xs:element name="MaxVal" type="xs:string" default="" />
+              <xs:element name="DisplayFormat" type="xs:string" default="" />
+              <xs:element name="Variable" type="xs:string" default="" />
+              <xs:element name="Type" type="xs:string" default="" />
+              <xs:element name="Display" type="xs:boolean" default="false" />
+              <xs:element name="DisplayIf" type="xs:boolean" default="false" />
+              <xs:element name="IfVariable" type="xs:string" default="" />
+              <xs:element name="IfCondition" type="xs:string" default="" />
+              <xs:element name="IfValue" type="xs:string" default="" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PWInstall
+</name>
+</assembly>
+<members>
+<member name="P:PWInstall.My.Resources.ProjectStrings.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psABORTINSTALL_CAP">
+	<summary>
+  Looks up a localized string similar to Abort Installation?.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psABORTINSTALL_MSQ">
+	<summary>
+  Looks up a localized string similar to Abort PAINTworks Installation?.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psCANCEL">
+	<summary>
+  Looks up a localized string similar to Cancel.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psCHECKFOLDERS">
+	<summary>
+  Looks up a localized string similar to Checking path configurations..
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psCOPY01">
+	<summary>
+  Looks up a localized string similar to Copying {0} to {1}.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psCOPY012">
+	<summary>
+  Looks up a localized string similar to Copy the {0} folder from {1} to {2}..
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psCOPYING01">
+	<summary>
+  Looks up a localized string similar to Copying {0} to {1}.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psCOPYING012">
+	<summary>
+  Looks up a localized string similar to Copying the {0} folder from {1} to {2}..
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psCREATINGDUPE">
+	<summary>
+  Looks up a localized string similar to Creating duplicate {0} folder at {1}.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psCREATINGFOLDERS">
+	<summary>
+  Looks up a localized string similar to Creating {0} folder at {1}.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psDONE">
+	<summary>
+  Looks up a localized string similar to Done.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psERROR">
+	<summary>
+  Looks up a localized string similar to Error.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psEXTRACT">
+	<summary>
+  Looks up a localized string similar to Extract {0} to {1}.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psEXTRACTING">
+	<summary>
+  Looks up a localized string similar to Extracting {0} to {1}.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psFINISH">
+	<summary>
+  Looks up a localized string similar to Finish.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psFORM">
+	<summary>
+  Looks up a localized string similar to PAINTworks Installation.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psINSTALLING">
+	<summary>
+  Looks up a localized string similar to Installing {0}.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psINSTALLLOG">
+	<summary>
+  Looks up a localized string similar to InstallationLog.txt.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psINVALID_DEST">
+	<summary>
+  Looks up a localized string similar to Invalid destination path, {0}..
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psINVALID_SOURCE">
+	<summary>
+  Looks up a localized string similar to Invalid source path, {0}..
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psLBL_COMPLETE">
+	<summary>
+  Looks up a localized string similar to Installation Complete.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psLBL_DUPE">
+	<summary>
+  Looks up a localized string similar to Click Next to create backup {0} folder at {1}.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psLBL_INST_PROG">
+	<summary>
+  Looks up a localized string similar to Click Next to install additional software required by PAINTworks.
+Choose "Select" to choose individual programs to install.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psLBL_PNTFOLDER">
+	<summary>
+  Looks up a localized string similar to Click next to copy the {0} folder from {1} to {2}.  
+Choose "Skip" to skip over the paint folder creation and continue with installing additional software..
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psLBL_START">
+	<summary>
+  Looks up a localized string similar to Click Start to start PAINTworks Installation with user account {0}
+.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psMNUSELECTALL">
+	<summary>
+  Looks up a localized string similar to Select All.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psMNUUNSELECTALL">
+	<summary>
+  Looks up a localized string similar to Unselect All.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psNEXT">
+	<summary>
+  Looks up a localized string similar to Next &gt;.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psPAINTWORKS_CAP">
+	<summary>
+  Looks up a localized string similar to PAINTworks.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psREGIMPORT">
+	<summary>
+  Looks up a localized string similar to Import registry file {0}.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psREGIMPORTING">
+	<summary>
+  Looks up a localized string similar to Importing registry file {0}.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psSELECT">
+	<summary>
+  Looks up a localized string similar to Select.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psSKIP">
+	<summary>
+  Looks up a localized string similar to Skip &gt;&gt;.
+</summary>
+</member><member name="P:PWInstall.My.Resources.ProjectStrings.psSTART">
+	<summary>
+  Looks up a localized string similar to Start &gt;.
+</summary>
+</member><member name="T:PWInstall.My.Resources.ProjectStrings">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

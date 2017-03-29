@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<ControlMsg xmlns="http://tempuri.org/ControlMsg.xsd">
+  <Command>
+    <Action>close</Action>
+    <Parameter>None</Parameter>
+    <Left>0</Left>
+    <Top>0</Top>
+    <Width>0</Width>
+    <Height>0</Height>
+  </Command>
+</ControlMsg>

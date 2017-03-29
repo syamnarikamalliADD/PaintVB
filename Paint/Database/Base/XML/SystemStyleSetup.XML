@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SystemStyleSetup>
+  <StyleLowerLimit>0</StyleLowerLimit>
+  <StyleUpperLimit>9999</StyleUpperLimit>
+  <FanucStyleLowerLimit>0</FanucStyleLowerLimit>
+  <FanucStyleUpperLimit>9999</FanucStyleUpperLimit>
+  <UseAscii>False</UseAscii>
+  <StylesbyZone>False</StylesbyZone>
+  <ID>1</ID>
+  <AsciiCharacters>2</AsciiCharacters>
+  <UseTwoCoat>False</UseTwoCoat>
+  <UseStyleRegisters>False</UseStyleRegisters>
+  <RegisterMin>0</RegisterMin>
+  <RegisterMax>32</RegisterMax>
+  <OptionLowerLimit>0</OptionLowerLimit>
+  <OptionUpperLimit>99</OptionUpperLimit>
+  <UseCombinedStyleOption>False</UseCombinedStyleOption>
+</SystemStyleSetup>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Web Developer Express 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Help", ".", "{D9808D14-48AA-4C19-9436-EF5A49FBC540}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "2.0"
+		Debug.AspNetCompiler.VirtualPath = "/Help"
+		Debug.AspNetCompiler.PhysicalPath = "..\Help\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Help\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Help"
+		Release.AspNetCompiler.PhysicalPath = "..\Help\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Help\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1267"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9808D14-48AA-4C19-9436-EF5A49FBC540}.Debug|.NET.ActiveCfg = Debug|.NET
+		{D9808D14-48AA-4C19-9436-EF5A49FBC540}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

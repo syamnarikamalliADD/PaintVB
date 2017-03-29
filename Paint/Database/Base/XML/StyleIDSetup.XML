@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleIDSetup>
+  <NumberStyleIDConveyorSnapshots>3</NumberStyleIDConveyorSnapshots>
+  <NumberStyleIDConveyorPhotoeyes>6</NumberStyleIDConveyorPhotoeyes>
+  <IDPositionLowerLimit>1</IDPositionLowerLimit>
+  <IDPositionUpperLimit>999</IDPositionUpperLimit>
+</StyleIDSetup>

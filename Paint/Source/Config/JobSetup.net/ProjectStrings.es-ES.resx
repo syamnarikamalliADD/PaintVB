@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="FormIcon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAQAAEABADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACIiIiIAAiIgAAAAAAAAABwCIiIgAcAiIgAAAAAAAAHdwAAAAB3cACIgAAAAAIi
+        AHACIiIgBwAiCIgAAAAKqqAAoiIiKgAKIgCIAAAACqqqqqqoqqqqqqpwAAAAAAAAAAAiIiIiIgAAAAAA
+        AAAAACIiD+jv7+gKqqDwAAAAAAACIg74/v6O4KqqAIiAAAAAAAAAAAAAD+AAAACIiAAAAAAAAKqqqqAA
+        AHdwAIiAAAAAARAAAAAAERAHABEIiAAAAAmZkACREREZAAkRAIgAAAAJmZmZmZiZmZmZmXAAAAAAAAAA
+        ABERERERAAAAAAAAAAAAEREP6O/v6AmZkPAAAAAAAAERDvj+/o7gmZkAAAAAAAAAAAAAAAAP4AAAAAAA
+        AAAAAAAAmZmZkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////+AAB//AA
+        AP+AAAB/AAAAPwAAAD8AAAA/AAAAP8AAAD/wAAAH+AAAA/4AAAH8AAAA/AAAAPwAAAD8AAAA/wAAAP/A
+        AAD/4AAB//4Af//+AP///////////////////////////////////////////w==
+</value>
+  </data>
+  <data name="psConveyorIDPosition" xml:space="preserve">
+    <value>Conveyor Photoeye ID Position</value>
+  </data>
+  <data name="psDEGRADE" xml:space="preserve">
+    <value>Degrade</value>
+  </data>
+  <data name="psDEGRADE_CHGLOG" xml:space="preserve">
+    <value>down degrade number </value>
+  </data>
+  <data name="psDEGRADE_NUMBER_CAP" xml:space="preserve">
+    <value>Degrade Number</value>
+  </data>
+  <data name="psDESC_CAP" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="psDUPLICATE_OPTION" xml:space="preserve">
+    <value>Plant Option must be unique. Returning to original value.</value>
+  </data>
+  <data name="psDUPLICATE_STYLE" xml:space="preserve">
+    <value>Plant Style must be unique. Returning to original value.</value>
+  </data>
+  <data name="psENT_START_CAP" xml:space="preserve">
+    <value>Entrance Start Counts</value>
+  </data>
+  <data name="psERR_REPAIRS_TABLE" xml:space="preserve">
+    <value>Could Not Validate System Repair Panels Table</value>
+  </data>
+  <data name="psERR_STYLES_TABLE" xml:space="preserve">
+    <value>Could Not Validate System Styles Table</value>
+  </data>
+  <data name="psEXIT_START_CAP" xml:space="preserve">
+    <value>Exit Start Counts</value>
+  </data>
+  <data name="psFANUC_OPTION_CAP" xml:space="preserve">
+    <value>FANUC Option</value>
+  </data>
+  <data name="psFANUC_STYLE_CAP" xml:space="preserve">
+    <value>FANUC Style</value>
+  </data>
+  <data name="psITEM_CAP" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="psMUTE_LEN_CAP" xml:space="preserve">
+    <value>Mute Length Counts</value>
+  </data>
+  <data name="psOPTION" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="psPAGE_CAP" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="psPANEL" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="psPANEL_CAP" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="psPhotoeyePattern" xml:space="preserve">
+    <value>Photoeye Pattern</value>
+  </data>
+  <data name="psPLANT_OPTION_CAP" xml:space="preserve">
+    <value>Plant Option</value>
+  </data>
+  <data name="psPLANT_STYLE_CAP" xml:space="preserve">
+    <value>Plant Style</value>
+  </data>
+  <data name="psREPAIR_PANEL" xml:space="preserve">
+    <value>repair panel</value>
+  </data>
+  <data name="psRESTORE_DB" xml:space="preserve">
+    <value>Database </value>
+  </data>
+  <data name="psRESTORE_FROM" xml:space="preserve">
+    <value>Data Restored From: </value>
+  </data>
+  <data name="psRESTORE_MSG" xml:space="preserve">
+    <value>This will load data from: </value>
+  </data>
+  <data name="psRESTORE_MSG1" xml:space="preserve">
+    <value>to the screen. You can then review and</value>
+  </data>
+  <data name="psRESTORE_MSG2" xml:space="preserve">
+    <value>save the data. Do you want to continue?</value>
+  </data>
+  <data name="psRESTORE_PLC" xml:space="preserve">
+    <value>PLC</value>
+  </data>
+  <data name="psROBOT_DOWN_CAP" xml:space="preserve">
+    <value>Robot Down</value>
+  </data>
+  <data name="psROBS_REQD_CAP" xml:space="preserve">
+    <value>Robots Required</value>
+  </data>
+  <data name="psROB_REQ_FOR_PANEL" xml:space="preserve">
+    <value>Robot Required For Panel</value>
+  </data>
+  <data name="psSCREENCAPTION" xml:space="preserve">
+    <value>Styles Configuration</value>
+  </data>
+  <data name="psSTYLE" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="psSYS_STYLE" xml:space="preserve">
+    <value>System Style</value>
+  </data>
+  <data name="psTAB1CAP" xml:space="preserve">
+    <value>Style Numbers</value>
+  </data>
+  <data name="psTAB2CAP" xml:space="preserve">
+    <value>Option Numbers</value>
+  </data>
+  <data name="psTAB3CAP" xml:space="preserve">
+    <value>Repair Panels</value>
+  </data>
+  <data name="psTAB4CAP" xml:space="preserve">
+    <value>Degrade Numbers</value>
+  </data>
+  <data name="psTAB5CAP" xml:space="preserve">
+    <value>PEC Intrusion</value>
+  </data>
+  <data name="psTAB6CAP" xml:space="preserve">
+    <value>Style ID</value>
+  </data>
+  <data name="psTest" xml:space="preserve">
+    <value>Byte Me</value>
+  </data>
+  <data name="psDUPLICATE_STYLE_OPT" xml:space="preserve">
+    <value>Plant Style/Option combination must be unique. Returning to original value.</value>
+  </data>
+  <data name="psTWO_COATS_CAP" xml:space="preserve">
+    <value>Refill Required</value>
+  </data>
+  <data name="psREGISTER_INIT_CAP" xml:space="preserve">
+    <value>Register Init</value>
+  </data>
+  <data name="psTAB7CAP" xml:space="preserve">
+    <value>Tricoat Style Enable</value>
+  </data>
+</root>

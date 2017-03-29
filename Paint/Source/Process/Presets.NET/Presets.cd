@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Presets.clsBoolValue" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\ValueClasses.vb</FileName>
+      <HashCode>AAQAAQAAACAAACAABAAAEAQEAAAAAIAgAAEgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsDBAccess" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\clsDBAccess.vb</FileName>
+      <HashCode>gAAIACUABAAEQCQABAgAlBUQAAAAAAAAAAAgIgKAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsIntValue" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\ValueClasses.vb</FileName>
+      <HashCode>AAQCAQAAABAAAAoABAAAEAQEAAAAAIAgAAEkBAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsPreset" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\Presets.vb</FileName>
+      <HashCode>FAUAECIAgEAgAAAQBAAAQAACCAAAAIAAgBEAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsPresets" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\Presets.vb</FileName>
+      <HashCode>IAYIEAAAGEgAAAggFAIAAAAEAgAgQRAIAVIoAAAACEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsPrint" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Old Objects\clsPrint.vb</FileName>
+      <HashCode>AQKgCxIAlWkRQ2QADIUCAEgFAkUAoAYgAgIhkAVIACE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsArm" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\Robots.vb</FileName>
+      <HashCode>EIABAACQEQAIACuMACMAIAQAAAAyAIADAEFISCAKAB4=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsArms" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\Robots.vb</FileName>
+      <HashCode>AEIAAEAAAAAAAAACAAAAFAQEAAACAAAAAAAAAAAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsSngValue" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\ValueClasses.vb</FileName>
+      <HashCode>AAQAAQAAABAAAAgABAAAEAQEAAABBIAgAAGgBAACAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsSysColor" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\SysColors.vb</FileName>
+      <HashCode>AAwAFQIAAAAmAAIABAAAAAAAQAAAAAAAAAJAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsSysColor2k" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\SysColors.vb</FileName>
+      <HashCode>AgQAIABAAAAACAAANAAQAAEAAgIACAAAAAAAEAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsSysColors" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\SysColors.vb</FileName>
+      <HashCode>AEIAgEAAAAAAAAAAAAAAhAQEAAAAAAAAAAAAAAAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsTextValue" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\ValueClasses.vb</FileName>
+      <HashCode>AAQAAQAAAAAAAACABCAoBAAAAAAACIAgAAEQCAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsValve" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\SysColors.vb</FileName>
+      <HashCode>AAQAAAAAAAAgAAAABEAAAAAAQAAQAIABAAAAAQBAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.Common.frmChangeLog" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\frmChangeLog\frmChangeLog.vb</FileName>
+      <HashCode>AwABwkIEECICGlBO1bGIBQdiIwATQBQwLJX0AQKGCBQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.frmMain" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>frmMain.vb</FileName>
+      <HashCode>BtP/30ZXHDp0XDDEmNO6/0duKwevcBn6L5eW/2OvfRY=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.My.Resources.CommonStrings" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MIWAmEnO1gqCVOFGkCwFEqmB4WxEA3uBnoNwFNi/DpI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.My.Resources.ProjectStrings" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAICFAMKCCAEBABmAIBMAAIAcygAAAAMQAAEAUAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsZone" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\Zones.vb</FileName>
+      <HashCode>AQAAAAAAEAAIAAEAAAAAIAQAAAAAAAAAAAAAAAACIAo=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presets.clsZones">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\Zones.vb</FileName>
+      <HashCode>AMIABAAAAAAAAAAIAQAABMQEAAIQAAAAAwAAAEAYBAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Presets.ePresetParam" Collapsed="true">
+    <Position X="3" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\Presets.vb</FileName>
+      <HashCode>AAAAAAAAIEAgACAAAAAQAAAAAIEAAAAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Module Name="Presets.mDebug" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\mDebug.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Presets.mDeclares" Collapsed="true">
+    <Position X="4.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\mDeclares.vb</FileName>
+      <HashCode>AAUAQIOIABIAAAIgPBgEAwiFAQEICQIEGyIEAZIEBiQ=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Presets.mLanguage" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\mLanguage.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAIABAI=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Presets.mMathFunctions" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\mMathFunctions.vb</FileName>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAIAAAgAIIAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Presets.mPassword" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\mPassword.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAABIAAAAAAACAIAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Presets.mPresetCommon" Collapsed="true">
+    <Position X="4.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\mPresetCommon.vb</FileName>
+      <HashCode>AAAgYAQBIIIAAAAAAgQAAEAAAQAABAEBBEAAEAAoAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Presets.mPrintFunctions" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\mPrintFunctions.vb</FileName>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAEAAAQAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Presets.mPWCommon" Collapsed="true">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\mPWCommon.vb</FileName>
+      <HashCode>AAAAAUCAgAgAAAIAAggAAAAAgEAAEACACAAAAEgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Presets.mPWRobotCommon" Collapsed="true">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\Robots.vb</FileName>
+      <HashCode>AAAAAACAAAAAQACAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Presets.mScreenSetup" Collapsed="true">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>D:\Paint.Net\Source\Common\mScreenSetup.vb</FileName>
+      <HashCode>AADAAAAABggAQhAIAAAAAAgBAAAAHBAAAAAAAAAiAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+</ClassDiagram>

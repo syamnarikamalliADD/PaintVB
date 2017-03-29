@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ProdData" targetNamespace="http://tempuri.org/ProdData.xsd" xmlns:mstns="http://tempuri.org/ProdData.xsd" xmlns="http://tempuri.org/ProdData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ProdData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ProdData" msprop:Generator_DataSetName="ProdData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PLCDataElement" msprop:Generator_UserTableName="PLCDataElement" msprop:Generator_RowDeletedName="PLCDataElementRowDeleted" msprop:Generator_TableClassName="PLCDataElementDataTable" msprop:Generator_RowChangedName="PLCDataElementRowChanged" msprop:Generator_RowClassName="PLCDataElementRow" msprop:Generator_RowChangingName="PLCDataElementRowChanging" msprop:Generator_RowEvArgName="PLCDataElementRowChangeEvent" msprop:Generator_RowEvHandlerName="PLCDataElementRowChangeEventHandler" msprop:Generator_TablePropName="PLCDataElement" msprop:Generator_TableVarName="tablePLCDataElement" msprop:Generator_RowDeletingName="PLCDataElementRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FieldName" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Offset" msprop:Generator_UserColumnName="Offset" msprop:Generator_ColumnPropNameInRow="Offset" msprop:Generator_ColumnVarNameInTable="columnOffset" msprop:Generator_ColumnPropNameInTable="OffsetColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Length" msprop:Generator_UserColumnName="Length" msprop:Generator_ColumnPropNameInRow="Length" msprop:Generator_ColumnVarNameInTable="columnLength" msprop:Generator_ColumnPropNameInTable="LengthColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Enable" msprop:Generator_UserColumnName="Enable" msprop:Generator_ColumnVarNameInTable="columnEnable" msprop:Generator_ColumnPropNameInRow="Enable" msprop:Generator_ColumnPropNameInTable="EnableColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Scale" msprop:Generator_UserColumnName="Scale" msprop:Generator_ColumnPropNameInRow="Scale" msprop:Generator_ColumnVarNameInTable="columnScale" msprop:Generator_ColumnPropNameInTable="ScaleColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

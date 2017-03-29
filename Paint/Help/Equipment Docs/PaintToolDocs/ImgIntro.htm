@@ -1,0 +1,168 @@
+<HTML><HEAD><link rel="Stylesheet" href="Support/main.css" type="text/css"><title>PaintTool V6.43-1 - Image Backup and Restore</title></HEAD> 
+<BODY> 
+<A name='TOP'></A>  
+<TABLE CLASS='FILE-HEADER' CELLPADDING='4' CELLSPACING='0' BORDER='5' > 
+  <TBODY>  
+  <TR>  
+    <TD VALIGN='TOP' WIDTH='100'> 
+       <A href="http://www.fanucrobotics.com"><img src="Support/frnalogo.gif" border=0 width="150" height="57"></A></TD> 
+    <TD>  
+      <P class='title-in-file-header'> PaintTool V6.43-1</P> 
+      <P class='title-in-file-header'> Image Backup and Restore</P> 
+      <P class='part-num-in-file-header'> 23-Nov-2009</P> 
+    </TD> 
+  </TR> 
+  </TBODY>  
+</TABLE>
+
+<FONT FACE="Arial">
+<p align="center"><A href="#top">Top</a> | <a href="113238 DCX Windsor V6.43-1 Software Load Procedure.pdf">Software Load Procedure.</a> | 
+<a href="ImgIntro.htm">Image Backup Overview</a> | <a href="ImgBkup.htm">Image Backup Procedure</a> | 
+<a href="ImgRstr.htm">Image Restore Procedure</a> | <a href="Setup.htm">IO Setup and Variable Restore.</a> |<a href="Index.htm">Index</a></p></FONT>
+<FONT FACE="Arial">
+
+      <li><a href="#Overview">Overview of image backups, storage on GUI.</a></li>
+      <li><a href="#Ethernet">Image backups over ethernet.</a></li>
+      <li><a href="#PCMCIA">Image backups to memory cards.</a></li>
+
+<A name='Overview'></A><H1 align="center">1 Image Backup and Restore Overview</H1>
+<p>Image backup and restore provides the quickest method of loading software on an RJ3iB controller.<br>
+The site-specific loader set can also be used, but it takes more time. (See <a href="118643 - AAI Clear P500 V6.43-1 Software Load Procedure.pdf">Software Load Procedure</a> for details)<br>
+This document describes the backup and resore interface with PAINTworks.  Standard RJ3iB manuals are also available in PAINTworks under the HELP menu, item "Online Manuals"</p>
+
+<pre><p>
+Image backups are stored on the PAINTworks PC:
+Main image backup folder:
+	C:\Paint\Image Backups
+Controller subfolders:
+	RC1, RC2, RC3, RC4</p>
+</pre>
+<p>The image restored to a controller should have been saved from the same controller. Images from similar robots may be used if the desired image is not available:<br>
+2nd Choice - An image from the same robot number in the same zone from the other topcoat line.<br>
+3rd Choice - A different but close enough controller configuration; Same number of motion groups and robot models, same applicators and fluid delivery.
+The ethernet ip address will need to be set before variables are restored. This will also load unneeded teach pendant programs into the memory of the restored controller.</p>
+
+<A name='Ethernet'></A><H1 align="center">2 Ethernet Controller Backup and Restore</H1>
+<p>The PAINTworks computers are configured with bootp and tftp servers to manage the RJ3iB Controller backup and restore over ethernet.</p>
+<H2 align="center">2.1 Normal Operation</H2>
+<p>If the RJ3iB controller CPU has not been changed, just follow the <a href="ImgBkup.htm">image backup procedure</a> or 
+<a href="ImgRstr.htm">image restore procedure</a>.  The PAINTworks PC will automatically use the correct directory.</p>
+<H2 align="center">2.2 Configuration</H2>
+<p>Ethernet backup and restore uses two services on the PAINTworks computer.  They are installed in "C:\Paint\Vbapps\ImageBackups\"</p>
+<li> tftp.exe - This is a file transfer service used by the robot's image backup and restore feature.</li>
+<li> bootp.exe - This service assigns an IP address, name and a backup directory for each controller based on the ethernet MAC address.</li>
+<p>The RJ3iB controller's ethernet MAC address is permanently assigned to the motherboard.  
+The bootp configuration will need to be updated when the RJ3iB CPU is replaced.  The bootp configuration is stored in "C:\Paint\VbApps\bootp.cfg".  
+It can be edited with a standard text editor(notepad).<br>
+An example robot configuration from C:\Paint\VbApps\bootp.cfg - MAC Address in <b>bold</b>:
+<PRE>  id=1, hn=rc1, et=<b>00:E0:E4:05:05:2C</b>, ip=192.168.21.210, sn=255.255.0.0, gw=192.168.21.200, dn=, dm=, fp=rc1\, sr=192.168.21.201, bl=\, ll=\</PRE>
+The robot's ethernet MAC address is available from the BOOTROM menu:<p>
+<P>1) With the power off, press and hold the USER1 and USER2 buttons on the operator panel of the RJ3 controller or press and hold the F1 and F5 keys on the teach pendant. While holding these keys, press the ON button. Wait  about ten seconds, or until you see the BMON Menu (below) on the teach pendant before releasing the buttons.</P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+***BOOT MONITOR for R-J3(iB/ibMate) CONTROLLER***
+Base System Version V6.4303 (FRNA)
+Initializing file devices ... done.
+1. Configuration menu
+2. All software installation
+3. INIT start
+4. Controller backup/restore
+5. Hardware diagnosis
+6. Maintenance
+7. All software installation(Ethernet)
+
+Select : _ </PRE></FONT></TD>
+</TR></TABLE>
+<P>2) Select: </FONT><FONT FACE="Courier New">5. Hardware diagnosis </FONT></P>
+<TABLE CELLSPACING=18 BORDER=0 WIDTH=300>
+<TR>
+<TD VALIGN="MIDDLE" BGCOLOR="#c0c0c0"><PRE><FONT SIZE=2>
+***BOOT MONITOR for R-J3(iB/ibMate) CONTROLLER***
+**** Hardwrare Diagnoses Menu  *****
+1.   Show size of RAM/ROM modules
+2.   Show list of F-BUS modules
+3.   Dump memory
+4.   Write memory
+5.   Check SRAM memory
+6.   Clear vision SRAM memory
+7.   Check FROM memory
+8.   Display MAC Address
+9.   Return to main menu
+
+Select : _ </PRE></FONT></TD></TR></TABLE>
+<P><FONT FACE="Arial">3) Select: </FONT><FONT FACE="Courier New">8.   Display MAC Address <br>
+MAC Address 00:E0:E4:05:AF:BB
+</FONT></P>
+<P><FONT FACE="Arial">Edit C:\Paint\VbApps\bootp.cfg to set the new address then restart the PAINTworks Computer.  
+When the computer is restarted you can restore software to the new CPU with the <a href="ImgRstr.htm">Image Restore Procedure</a>
+
+
+<A name='PCMCIA'></A><H1 align="center">3 Backup and Restore to Memory Cards </H1>
+<p>Memory cards are convenient in a couple of cases.
+<li>1 - Coping an image of one controller to another.</li>
+<li>2 - Backup a controller before restoring the image to a new CPU.</li><br>
+Any other use probably requires moving the image files between the memory card and a PC.</p>
+After performing an image backup of the R-J3iB controllers (See <a href="ImgBkup.htm">Image Backup Procedure</a>), you need to get
+these image files off of the PCMCIA memory card onto the PAINTworks PC
+hard drive, there are a few different methods to transfer these files:
+<li>PCMCIA Adapter: A PC with a properly configured PCMCIA slot can read the memory card with the image files.  Copy all of the*.IMG from the PCMCIA card.</li>
+<li>FTP: FTP may be used to copy the images files directly from the memory card on the robot controller to the PAINTworks Computer.  Instructions are provided below.</li>
+
+<H2 align="center">3.1 Transferring Image Files from the R-J3iB robot controller to the PAINTworks PC</H2>
+<p>1. Leave PCMCIA memory card in R-J3iB robot controller when finished with the image backup procedure and cold start the controller.<br>
+2. From the PAINTworks PC, open explorer and find the backup directory:
+<PRE>	C:\Paint\Image Backups\<i>robot_name</i></PRE>
+3. Run the batch file named :&quot;FTP <i>robot_name</i>.BAT&quot;  It will connect to the robot FTP Server.</p>
+<PRE>
+</FONT><FONT FACE="Courier">
+Microsoft Windows XP [Version 5.1.2600]
+
+(C) Copyright 1985-2001 Microsoft Corp.
+
+Connected to RC1
+220 R-J3 FTP server ready. [PaintTool V6.43-1A]
+</FONT><FONT FACE="Arial">
+4. Press ENTER to get to the ftp&gt; prompt, then enter the following commands:
+</FONT><FONT FACE="Courier">
+ftp&gt;bin
+ftp&gt;cd mc:
+ftp&gt;prompt
+ftp&gt;mget *.img
+ftp&gt;bye
+</PRE></FONT><FONT FACE="Arial">
+
+<H2 align="center">3.2 Transferring Image Files from the PAINTworks PC to the R-J3iB robot controller</H2>
+ 
+1. Insert PCMCIA memory card in R-J3iB robot controller with enough free space for the entire image backup.<br>
+2. From the PAINTworks PC, open explorer and find the backup directory:
+<PRE>	C:\Paint\Image Backups\<i>robot_name</i></PRE>
+3. Run the batch file named :&quot;FTP <i>robot_name</i>.BAT&quot;  It will connect to the robot FTP Server.</p>
+<PRE>
+</FONT><FONT FACE="Courier">
+Microsoft Windows XP [Version 5.1.2600]
+
+(C) Copyright 1985-2001 Microsoft Corp.
+
+Connected to RC1
+220 R-J3 FTP server ready. [PaintTool V6.43-1A]
+</FONT><FONT FACE="Arial">
+4. Press ENTER to get to the ftp&gt; prompt, then enter the following commands:
+</FONT><FONT FACE="Courier">
+ftp&gt;bin
+ftp&gt;cd mc:
+ftp&gt;prompt
+ftp&gt;mput *.img
+ftp&gt;bye
+</PRE></FONT><FONT FACE="Arial">
+
+The <a href="ImgRstr.htm">Image Restore Procedure</a> can now be used with the memory card in the controller. 
+
+<FONT FACE="Arial">
+<p align="center"><A href="#top">Top</a> | <a href="118643 - AAI Clear P500 V6.43-1 Software Load Procedure.rtf">Software Load Procedure.</a> | 
+<a href="ImgIntro.htm">Image Backup Overview</a> | <a href="ImgBkup.htm">Image Backup Procedure</a> | 
+<a href="ImgRstr.htm">Image Restore Procedure</a> | <a href="Setup.htm">IO Setup and Variable Restore.</a> |<a href="Index.htm">Index</a></p></FONT>
+
+<HR CLASS='EOF-MARKER'> 
+</ol>
+</BODY></HTML>

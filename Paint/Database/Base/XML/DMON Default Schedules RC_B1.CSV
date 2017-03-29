@@ -1,0 +1,10 @@
+﻿DMONSchedMan - Schedules
+ADAC - Base,
+Device: RC_B1,DMON Schedules
+Schedule,Comment,File Device,File Name,File Index,File Size,Number of Items,Sample Req.-Act.,Monitor Req.-Act.,Record Req.-Act.,Record Mode,Start Item,Stop Item,Items
+1,IPC2K Eq1:,_RD:,IPC2K,0,0KB,10,20:20,20:20,20:20,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,9; 10; 11; 12; 13; 14; 15; 21; 22; 5
+2,,UD1:\,,0,0KB,0,0:0,0:0,0:0,Continuous,Disabled,Disabled,
+3,,UD1:\,,0,0KB,0,0:0,0:0,0:0,Continuous,Disabled,Disabled,
+4,,UD1:\,,0,0KB,0,0:0,0:0,0:0,Continuous,Disabled,Disabled,
+5,CC2K Eq1:,_RD:,CC2K,0,0KB,10,20:20,20:20,20:20,Continuous,5:Sample Trigger = 1,5:Sample Trigger = 0,48; 49; 50; 9; 10; 11; 13; 14; 15; 4
+

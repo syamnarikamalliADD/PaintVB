@@ -1,0 +1,31 @@
+C:\Paint\Vbapps\ParamSetup.exe
+C:\Paint\Vbapps\ParamSetup.pdb
+C:\Paint\Vbapps\de-DE\ParamSetup.resources.dll
+C:\Paint\Vbapps\es-ES\ParamSetup.resources.dll
+C:\Paint\Vbapps\en-CA\ParamSetup.resources.dll
+C:\Paint\Source\Param Setup.NET\obj\Release\ResolveAssemblyReference.cache
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.CommonStrings.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.frmPrintOptions.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.RobotStrings.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.frmGraph.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.frmSelectScreen.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.frmMain.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.Resources.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.ProjectStrings.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.uctrlIPS.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.uctrlISD.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.CommonStrings.de-DE.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.CommonStrings.es-ES.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.CommonStrings.en-CA.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.RobotStrings.de-DE.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.RobotStrings.en-CA.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.RobotStrings.es-ES.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.ProjectStrings.de-DE.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.ProjectStrings.en-CA.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.ProjectStrings.es-ES.resources
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.vbproj.GenerateResource.Cache
+C:\Paint\Source\Param Setup.NET\obj\Release\de-DE\ParamSetup.resources.dll
+C:\Paint\Source\Param Setup.NET\obj\Release\es-ES\ParamSetup.resources.dll
+C:\Paint\Source\Param Setup.NET\obj\Release\en-CA\ParamSetup.resources.dll
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.exe
+C:\Paint\Source\Param Setup.NET\obj\Release\ParamSetup.pdb

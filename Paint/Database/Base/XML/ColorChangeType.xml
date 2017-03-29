@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ColorChangeType>
+  <Applicator>
+    <ID>0</ID>
+    <Name>None</Name>
+    <ApplicatorTable>ApplParmGun</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>0.05</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>0.137</uAFeedbackScale>
+    <EnableBell>False</EnableBell>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap/Cup Wash Cycle;Fill Cycle;Pot Life Fill Cycle;Full Push to Dump;Pot Life Clean Cycle;Super Purge;1K Clean Cycle;1K Fill Cycle;</CycleNames>
+    <NumberOfCycles>8</NumberOfCycles>
+  </Applicator>
+  <Applicator>
+    <ID>1</ID>
+    <Name>Single Purge</Name>
+    <ApplicatorTable>ApplParmGun</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>0.05</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>0.137</uAFeedbackScale>
+    <EnableBell>False</EnableBell>
+    <CycleNames>Pushout;Cleanout;Applicator Clean;Fill;Refill;Full Push;Spare 1;Super Purge</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>2</ID>
+    <Name>Dual Purge</Name>
+    <ApplicatorTable>ApplParmGun</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>0.05</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>0.137</uAFeedbackScale>
+    <EnableBell>False</EnableBell>
+    <CycleNames>Pushout;Cleanout;Applicator Clean;Fill;Refill;Full Push;Spare 1;Super Purge</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>3</ID>
+    <Name>Modified Dual Purge</Name>
+    <ApplicatorTable>ApplParmGun</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>0.05</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>0.137</uAFeedbackScale>
+    <EnableBell>False</EnableBell>
+    <CycleNames>Pushout;Cleanout;Applicator Clean;Fill;Refill;Full Push;Spare 1;Super Purge</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>4</ID>
+    <Name>Gun 2K</Name>
+    <ApplicatorTable>ApplParmGunIPC</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <EnableBell>False</EnableBell>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap/Cup Wash Cycle;Fill Cycle;Pot Life Fill Cycle;Full Push to Dump;Pot Life Clean Cycle;Super Purge;1K Clean Cycle;1K Fill Cycle;</CycleNames>
+    <NumberOfCycles>10</NumberOfCycles>
+    <NumberOfActions>4</NumberOfActions>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.</ActionNames>
+    <NumberOfEvents>4</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;pHE;pCE</ShVlvNames>
+    <NumGpValves>31</NumGpValves>
+    <GpVlvNames>pPE;pIW;pBW/BW2;pSOL;pAir;PCC;pDUMP;Flush;pDUMP2;pSOL2;p2T;Flush2;pDUMP3;pWash;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;ACA;pACS;ACVA</GpVlvNames>
+  </Applicator>
+  <Applicator>
+    <ID>5</ID>
+    <Name>Bell 2K</Name>
+    <ApplicatorTable>ApplParmBell2K</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>0.05</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>0.137</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Pushout;Cleanout;Applicator Clean;Fill;Pot-Life Fill;Full Push;Pot-Life Clean;Super Purge;1K Clean Cycle;1K Fill Cycle</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>6</ID>
+    <Name>Accustat</Name>
+    <ApplicatorTable>ApplParmGun</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>0.05</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>0.137</uAFeedbackScale>
+    <EnableBell>False</EnableBell>
+    <NumberOfCycles>4</NumberOfCycles>
+    <CycleNames>Canister Clean;Canister Fill;Applicator Clean;Canister Refill</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>7</ID>
+    <Name>Aquabell</Name>
+    <ApplicatorTable>ApplParmBell</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>0.05</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>0.137</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Canister Clean;Canister Fill;Line Purge;Line Clean;Line Fill;Applicator Clean;Line Refill;Canister Refill</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>8</ID>
+    <Name>Single Purge Bell</Name>
+    <ApplicatorTable>ApplParmBell</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>0.05</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>0.137</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Pushout;Cleanout;Applicator Clean;Fill;Refill;Full Push;Spare 1;Super Purge</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>9</ID>
+    <Name>Servobell</Name>
+    <ApplicatorTable>ApplParmVersabell</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>0.05</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>0.137</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Pushout;Cleanout;Applicator Clean;Fill;Refill;Full Push;Spare 1;Super Purge</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>10</ID>
+    <Name>Versabell</Name>
+    <ApplicatorTable>ApplParmVersabell</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>0.05</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>0.137</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Pushout;Cleanout;Applicator Clean;Fill;Refill;Full Push;Spare 1;Super Purge</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>11</ID>
+    <Name>Versabell 2</Name>
+    <ApplicatorTable>ApplParmVersabell</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>0.05</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>0.137</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;Reserved;pCE</ShVlvNames>
+    <NumGpValves>16</NumGpValves>
+    <GpVlvNames>pPE;Injector Wash;pBW;pSOL;pAir;PCC;pDump;pCAN;pSeal;Reserved;pWash;pSOL2;Reserved;Reserved;ACA;pACS</GpVlvNames>
+    <NumberOfActions>9</NumberOfActions>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.;Fast Fill;Slow Fill;Go to Can Empty position.;Go to Can Full position.;</ActionNames>
+    <NumberOfEvents>5</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home;Wait for motor to stop</EventsNames>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap Clean Cycle;Fill Cycle;Refill Cycle;Full Push to Dump;Spare Cycle 1;Super Purge;</CycleNames>
+    <NumberOfCycles>8</NumberOfCycles>
+  </Applicator>
+  <Applicator>
+    <ID>12</ID>
+    <Name>Versabell 2 WB P500</Name>
+    <ApplicatorTable>ApplParmVersabellWB</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap Clean Cycle;Fill Cycle;Refill Cycle;Full Push to Dump;Spare Cycle 1;Super Purge;</CycleNames>
+    <NumberOfCycles>8</NumberOfCycles>
+    <NumberOfActions>9</NumberOfActions>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.;Fast Fill;Slow Fill;Go to Can Empty position.;Go to Can Full position.;</ActionNames>
+    <NumberOfEvents>5</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home;Wait for motor to stop</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;Reserved;pCE</ShVlvNames>
+    <NumGpValves>16</NumGpValves>
+    <GpVlvNames>pPE;Injector Wash;pBW;pSOL;pAir;PCC;pDump;pCAN;pSeal;Reserved;pWash;pSOL2;Reserved;Reserved;ACA;pACS</GpVlvNames>
+  </Applicator>
+  <Applicator>
+    <ID>13</ID>
+    <Name>Versabell 2 2K</Name>
+    <ApplicatorTable>ApplParmVersabellAccuairDualShapingAir</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap/Cup Wash Cycle;Fill Cycle;Pot Life Fill Cycle;Full Push to Dump;Pot Life Clean Cycle;Super Purge;1K Clean Cycle;1K Fill Cycle;</CycleNames>
+    <NumberOfCycles>10</NumberOfCycles>
+    <NumberOfActions>4</NumberOfActions>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.</ActionNames>
+    <NumberOfEvents>4</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;pHE;pCE</ShVlvNames>
+    <NumGpValves>31</NumGpValves>
+    <GpVlvNames>pPE;Injector Wash;pBW;pSOL;pAir;PCC;pDump;Flush;pSeal;pDump2;pSOL2;Flush2;pDump3;p2T;pWash;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;ACA;pACS;ACVA</GpVlvNames>
+  </Applicator>
+  <Applicator>
+    <ID>14</ID>
+    <Name>Powder</Name>
+    <ApplicatorTable>ApplParmVersabell</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <CycleNames>Pushout;Cleanout;Applicator Clean;Fill;Refill;Full Push;Spare 1;Super Purge</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>15</ID>
+    <Name>Versabell 2K</Name>
+    <ApplicatorTable>ApplParmVersabellAccuairDualShapingAir</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap/Cup Wash Cycle;Fill Cycle;Pot Life Fill Cycle;Full Push to Dump;Pot Life Clean Cycle;Super Purge;1K Clean Cycle;1K Fill Cycle;</CycleNames>
+    <EnableBell>True</EnableBell>
+    <NumberOfActions>4</NumberOfActions>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.</ActionNames>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;pHE;pCE</ShVlvNames>
+    <NumGpValves>31</NumGpValves>
+    <GpVlvNames>pPE;Injector Wash;pBW;pSOL;pAir;PCC;pDump;Flush;pSeal;Reserved;pSOL2;Flush2;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;ACA;pACS;ACVA</GpVlvNames>
+    <NumberOfCycles>10</NumberOfCycles>
+    <NumberOfEvents>4</NumberOfEvents>
+  </Applicator>
+  <Applicator>
+    <ID>16</ID>
+    <Name>Versabell 2 2K 1+1</Name>
+    <ApplicatorTable>ApplParmVersabell</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Pushout;Cleanout;Cap/Cup Wash;Fill;Pot-Life Fill;Full Push;Pot-Life Clean;Super Purge;1K Clean Cycle;1K Fill Cycle</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>17</ID>
+    <Name>Versabell 2 2K Multi Resin</Name>
+    <ApplicatorTable>ApplParmVersabell</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <CycleNames>Pushout;Cleanout;Cap/Cup Wash;Fill;Pot-Life Fill;Full Push;Pot-Life Clean;Super Purge;1K Clean Cycle;1K Fill Cycle</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>18</ID>
+    <Name>Versabell 2 Plus</Name>
+    <ApplicatorTable>ApplParmVersabellAccuairDualShapingAir</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap Clean Cycle;Fill Cycle;Refill Cycle;Full Push to Dump;Spare Cycle 1;Super Purge;</CycleNames>
+    <EnableBell>True</EnableBell>
+    <NumberOfCycles>8</NumberOfCycles>
+    <NumberOfActions>4</NumberOfActions>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.</ActionNames>
+    <NumberOfEvents>4</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;Reserved;pCE</ShVlvNames>
+    <NumGpValves>31</NumGpValves>
+    <GpVlvNames>pPE;pIW;pBW;pSOL;pAir;PCC;pDUMP;Flush;pSeal;pDUMP2;pVent;Reserved;Reserved;p2T;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;ACA;pACS;ACVA</GpVlvNames>
+  </Applicator>
+  <Applicator>
+    <ID>19</ID>
+    <Name>Versabell 2 WB P700</Name>
+    <ApplicatorTable>ApplParmVersabellAccuairDualShapingAirWB</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap Clean Cycle;Fill Cycle;Refill Cycle;Full Push to Dump;Spare Cycle 1;Super Purge;</CycleNames>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.;Fast Fill;Slow Fill</ActionNames>
+    <NumberOfEvents>6</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home;Wait for motor to stop;Wait for torque</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;Reserved;pCE</ShVlvNames>
+    <NumGpValves>31</NumGpValves>
+    <GpVlvNames>pPE;pIW;pBW/BW2;pSOL;pAir;PCC;pDUMP;pCAN;pDUMP2;pSOL2;p2T;pPAINT;pPI1;pVAC;pSEL1;pIAIR1;pIAIR3;pISOL3;pCAN3;Reserved;pDUMP4;pPAINT2;pPI2;pVAIR;pSEL2;pIAIR2;pIAIR4;pISOL4;pCAN2;pCAN4;Reserved</GpVlvNames>
+    <NumberOfCycles>8</NumberOfCycles>
+    <NumberOfActions>6</NumberOfActions>
+  </Applicator>
+  <Applicator>
+    <ID>20</ID>
+    <Name>Honda 1k</Name>
+    <ApplicatorTable>ApplParmVersabellAccuAirDualShapingAir</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Pushout;Cleanout;Applicator Clean;Fill;Refill;Full Push;Spare 1;Super Purge</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>21</ID>
+    <Name>Honda WB</Name>
+    <ApplicatorTable>ApplParmVersabellAccuAirDualShapingAirWB</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap Clean Cycle;Fill Cycle;Refill Cycle;Full Push to Dump;Last Fill;Super Purge;One Fill;Spare Cycle 2;</CycleNames>
+    <NumberOfCycles>10</NumberOfCycles>
+    <NumberOfActions>9</NumberOfActions>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.;Fast Fill;Slow Fill;Go to Dock;Go to Clean;</ActionNames>
+    <NumberOfEvents>7</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home;Wait for motor to stop;Wait for torque;Wait for S-Unit</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;Reserved;pCE</ShVlvNames>
+    <NumGpValves>31</NumGpValves>
+    <GpVlvNames>pDV;pPI;pGV;pSOL;pAir;PCC;pDump;pCAN;pIAIR;pDump2;pSOL2;pPAINT;pX;p2T;pY;Low Air;High Air;High Water;Low Water;Water/Solv;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;ACA;pACS;ACVA</GpVlvNames>
+  </Applicator>
+  <Applicator>
+    <ID>22</ID>
+    <Name>Versabell 2 32</Name>
+    <ApplicatorTable>ApplParmVersabellAccuairDualShapingAir</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap Clean Cycle;Fill Cycle;Refill Cycle;Full Push to Dump;Spare Cycle 1;Super Purge;</CycleNames>
+    <EnableBell>False</EnableBell>
+    <NumberOfCycles>8</NumberOfCycles>
+    <NumberOfActions>4</NumberOfActions>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.</ActionNames>
+    <NumberOfEvents>4</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;Reserved;pCE</ShVlvNames>
+    <NumGpValves>31</NumGpValves>
+    <GpVlvNames>pPE;Injector Wash;pBW;pSOL;pAir;PCC;pDump;Flush;pSeal;pDump2;pVent;Reserved;Reserved;p2T;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;ACA;pACS;ACVA</GpVlvNames>
+  </Applicator>
+  <Applicator>
+    <ID>23</ID>
+    <Name>ACP2kGunFlex</Name>
+    <ApplicatorTable>ApplParmGun</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <EnableBell>False</EnableBell>
+    <CycleNames>Pushout;Cleanout;Applicator Clean;Fill;Refill;Full Push;Spare 1;Super Purge</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>24</ID>
+    <Name>ACP2kBellFlex</Name>
+    <ApplicatorTable>ApplParmVersabell</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Pushout;Cleanout;Applicator Clean;Fill;Refill;Full Push;Spare 1;Super Purge</CycleNames>
+  </Applicator>
+  <Applicator>
+    <ID>25</ID>
+    <Name>Versabell 3 Dual WB </Name>
+    <ApplicatorTable>ApplParmVersabellAccuairDualShapingAirWB</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap Clean Cycle;Fill Cycle;Refill Cycle;Full Push to Dump;Spare Cycle 1;Super Purge;</CycleNames>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.;Fast Fill;Slow Fill</ActionNames>
+    <NumberOfEvents>6</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home;Wait for motor to stop;Wait for torque</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;Reserved;pCE</ShVlvNames>
+    <NumGpValves>31</NumGpValves>
+    <GpVlvNames>pPE;pIW;pBW/BW2;pSOL;pAir;PCC;pDUMP;pCAN;pDUMP2;pSOL2;p2T;pPAINT;pPI1;pVAC;pSEL1;pIAIR1;pIAIR3;pISOL3;pCAN3;pDUMP3;pDUMP4;pPAINT2;pPI2;pVAIR;pSEL2;pIAIR2;pIAIR4;pISOL4;pCAN2;pCAN4;Reserved</GpVlvNames>
+    <NumberOfCycles>8</NumberOfCycles>
+    <NumberOfActions>6</NumberOfActions>
+  </Applicator>
+  <Applicator>
+    <ID>26</ID>
+    <Name>Versabell 3 Single WB </Name>
+    <ApplicatorTable>ApplParmVersabellAccuairDualShapingAirWB</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <EnableBell>True</EnableBell>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap Clean Cycle;Fill Cycle;Refill Cycle;Full Push to Dump;Spare Cycle 1;Super Purge;</CycleNames>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.;Fast Fill;Slow Fill</ActionNames>
+    <NumberOfEvents>6</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home;Wait for motor to stop;Wait for torque</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;Reserved;pCE</ShVlvNames>
+    <NumGpValves>31</NumGpValves>
+    <GpVlvNames>pPE;pIW;pBW/BW2;pSOL;pAir;PCC;pDUMP;pCAN;pDUMP2;pSOL2;p2T;pPAINT;pPI1;pVAC;Reserved;pIAIR1;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;pVAIR;Reserved;Reserved;Reserved;Reserved;ACA;pACS;ACVA</GpVlvNames>
+    <NumberOfCycles>8</NumberOfCycles>
+    <NumberOfActions>6</NumberOfActions>
+  </Applicator>
+  <Applicator>
+    <ID>27</ID>
+    <Name>Versabell 3</Name>
+    <ApplicatorTable>ApplParmVersabellAccuairDualShapingAir</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap Clean Cycle;Fill Cycle;Refill Cycle;Full Push to Dump;Spare Cycle 1;Super Purge;</CycleNames>
+    <EnableBell>True</EnableBell>
+    <NumberOfCycles>8</NumberOfCycles>
+    <NumberOfActions>4</NumberOfActions>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.</ActionNames>
+    <NumberOfEvents>4</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;Reserved;pCE</ShVlvNames>
+    <NumGpValves>31</NumGpValves>
+    <GpVlvNames>pPE;pIW;pBW;pSOL;pAir;PCC;pDUMP;Flush;pSeal;pDUMP2;pVent;Reserved;Reserved;p2T;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;ACA;pACS;ACVA</GpVlvNames>
+  </Applicator>
+  <Applicator>
+    <ID>28</ID>
+    <Name>Versabell 3 P1000</Name>
+    <ApplicatorTable>ApplParmVersabellAccuairDualShapingAir</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap Clean Cycle;Fill Cycle;Refill Cycle;Full Push to Dump;Spare Cycle 1;Super Purge;</CycleNames>
+    <EnableBell>True</EnableBell>
+    <NumberOfCycles>8</NumberOfCycles>
+    <NumberOfActions>4</NumberOfActions>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.</ActionNames>
+    <NumberOfEvents>4</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;Reserved;pCE</ShVlvNames>
+    <NumGpValves>31</NumGpValves>
+    <GpVlvNames>pPE;pIW;pBW/BW2;pSOL;pAir;PCC;pDUMP;Flush;pDUMP2;pVent;p2T;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;ACA;pACS;ACVA</GpVlvNames>
+  </Applicator>
+  <Applicator>
+    <ID>30</ID>
+    <Name>Gun 1K</Name>
+    <ApplicatorTable>ApplParmGunIPC</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>0.05</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>0.137</uAFeedbackScale>
+    <EnableBell>False</EnableBell>
+    <CycleNames>Pushout;Cleanout;Applicator Clean;Fill;Pot-Life Fill;Full Push;Pot-Life Clean;Super Purge;1K Clean Cycle;1K Fill Cycle</CycleNames>
+    <NumberOfCycles>10</NumberOfCycles>
+    <NumberOfActions>4</NumberOfActions>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.</ActionNames>
+    <NumberOfEvents>4</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;Reserved;pCE</ShVlvNames>
+    <NumGpValves>31</NumGpValves>
+    <GpVlvNames>pPE;Injector Wash;pBW;pSOL;pAir;PCC;pDump;Flush;pSeal;pDump2;pVent;Reserved;Reserved;p2T;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;ACA;pACS;ACVA</GpVlvNames>
+  </Applicator>
+  <Applicator>
+    <ID>31</ID>
+    <Name>Gun 2K Pig</Name>
+    <ApplicatorTable>ApplParmGunIPC</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <EnableBell>False</EnableBell>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap/Cup Wash Cycle;Fill Cycle;Pot Life Fill Cycle;Full Push to Dump;Pot Life Clean Cycle;Super Purge;1K Clean Cycle;1K Fill Cycle;</CycleNames>
+    <NumberOfCycles>10</NumberOfCycles>
+    <NumberOfActions>4</NumberOfActions>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.</ActionNames>
+    <NumberOfEvents>4</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;pHE;pCE</ShVlvNames>
+    <NumGpValves>31</NumGpValves>
+    <GpVlvNames>pPE;pIW;pBW/BW2;pSOL;pAir;PCC;pDUMP;Flush;pDUMP2;pSOL2;p2T;Flush2;pDUMP3;pWash;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;ACA;pACS;ACVA</GpVlvNames>
+  </Applicator>
+  <Applicator>
+    <ID>32</ID>
+    <Name>Gun 2K Mica</Name>
+    <ApplicatorTable>ApplParmGunIPC</ApplicatorTable>
+    <DQFeedbackOffset>0</DQFeedbackOffset>
+    <DQFeedbackScale>1</DQFeedbackScale>
+    <KVFeedbackOffset>0</KVFeedbackOffset>
+    <KVFeedbackScale>1</KVFeedbackScale>
+    <uAFeedbackOffset>0</uAFeedbackOffset>
+    <uAFeedbackScale>1</uAFeedbackScale>
+    <EnableBell>False</EnableBell>
+    <CycleNames>Push Out Cycle;Clean Out Cycle;Cap/Cup Wash Cycle;Fill Cycle;Pot Life Fill Cycle;Full Push to Dump;Pot Life Clean Cycle;Super Purge;1K Clean Cycle;1K Fill Cycle;</CycleNames>
+    <NumberOfCycles>10</NumberOfCycles>
+    <NumberOfActions>4</NumberOfActions>
+    <ActionNames>No Action;Exit applicator cleaner.;Go to Applicator Cleaner position.;Go to Purge position.;Go to Home position.</ActionNames>
+    <NumberOfEvents>4</NumberOfEvents>
+    <EventsNames>No Event;Wait for above cleaner;Wait for in cleaner;Wait for at purge;Wait for at home</EventsNames>
+    <NumShValves>4</NumShValves>
+    <ShVlvNames>pTRIG;Reserved;pHE;pCE</ShVlvNames>
+    <NumGpValves>31</NumGpValves>
+    <GpVlvNames>pPE;pIW;pBW/BW2;pSOL;pAir;PCC;pDUMP;Flush;pDUMP2;pSOL2;p2T;Flush2;pDUMP3;pWash;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;Reserved;ACA;pACS;ACVA</GpVlvNames>
+  </Applicator>
+</ColorChangeType>

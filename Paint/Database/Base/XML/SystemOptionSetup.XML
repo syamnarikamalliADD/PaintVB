@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SystemOptionSetup>
+  <OptionLowerLimit>0</OptionLowerLimit>
+  <OptionUpperLimit>99</OptionUpperLimit>
+  <FanucOptionLowerLimit>0</FanucOptionLowerLimit>
+  <FanucOptionUpperLimit>99</FanucOptionUpperLimit>
+  <UseAscii>False</UseAscii>
+  <OptionByZone>False</OptionByZone>
+  <ID>1</ID>
+  <AsciiCharacters>1</AsciiCharacters>
+  <UseOptionRegisters>False</UseOptionRegisters>
+  <RegisterMin>0</RegisterMin>
+  <RegisterMax>1</RegisterMax>
+</SystemOptionSetup>

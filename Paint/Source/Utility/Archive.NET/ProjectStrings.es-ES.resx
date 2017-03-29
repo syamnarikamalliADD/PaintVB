@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="FormIcon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAA9/f3h4eHh4eHh4+Ph4eHAPh/f3h4eHh4eHh4+Ph4eAD3h/f3h4
+        eHh4eHh4+Ph4cA+Hh/d3d3d3d3d3d4+Ph4APeHhwAAAAAAAAAAAI+PhwD4eHgP//////////B4+PgA94
+        eHAAAAAAAAAAAAh4+PAPh4eP///////////3h4+AD/h4eHh3d3d3d3h4eHh48A+Ph4eHAAAAAAAHh4eH
+        h4AP+Ph4eAj/////D3h4eHhwD4+Ph4cImZmZnwf3h4eHgA94+Ph4CHd3d38Pf3h4eHAPh4+PhwAAAAAA
+        B/f3h4eAD3h4+Ph4eHh4eH9/f3h4cA+Hh4+Ph4eHh4eH9/f3h4AP///////////////////wAAAAAAAA
+        AAAAAAAAAAAAAAC4uLi4uLi4uLi4uLi4uAAABwcHBwcHBwuPj4+PiwcAAAj4+PgACPjw+Pj4+PB4AAAA
+        j4+A/w+PgOiO7u7ghwAAAO4AD/AI+PgAAAAACPgACZAA//8Aj48Adw+Pj48AAAmQD///D+/oB2cO/v7+
+        BwAJkP////AAAHd3cAAAAHcACZD/////8AdnZ2dnZ2dnAAmQ/////wd3d3d3d3d3dwAJkAAAAABnZ2dn
+        Z2dnZ2cAAAB3d3d3d3d3d3d3d3d3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAYAA
+        AAHAAAAB4AAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAB4AAAAQ==
+</value>
+  </data>
+  <data name="psADD_DEFAULT_SUBFOLDER" xml:space="preserve">
+    <value>Add default subfolder, "{0}"?</value>
+  </data>
+  <data name="psADD_DEFAULT_SUBFOLDER_CAPTION" xml:space="preserve">
+    <value>Add Default SubFolder?</value>
+  </data>
+  <data name="psALL_FILE_MASK" xml:space="preserve">
+    <value>*.* | All Files</value>
+  </data>
+  <data name="psBACKUP_ALL_DB_TO_FOLDER_MNU" xml:space="preserve">
+    <value>Backup all database files to a folder.</value>
+  </data>
+  <data name="psBACKUP_ALL_DB_TO_ZIP_MNU" xml:space="preserve">
+    <value>Backup all database files to a zip file.</value>
+  </data>
+  <data name="psBACKUP_FOLDERS_LBL" xml:space="preserve">
+    <value>Backup Folders</value>
+  </data>
+  <data name="psBACKUP_SQL_DB" xml:space="preserve">
+    <value>Backed up SQL database {0} to {1}</value>
+  </data>
+  <data name="psBACKUP_TO_FOLDER_BTN" xml:space="preserve">
+    <value>Backup To Folder</value>
+  </data>
+  <data name="psBACKUP_TO_ZIP_BTN" xml:space="preserve">
+    <value>Backup To Zip File</value>
+  </data>
+  <data name="psCANCEL" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="psCOPIED" xml:space="preserve">
+    <value>Copied </value>
+  </data>
+  <data name="psDG_FILE_MASK" xml:space="preserve">
+    <value>*.DG | Diagnostic Listing File</value>
+  </data>
+  <data name="psDT_FILE_MASK" xml:space="preserve">
+    <value>*.DT | Data File</value>
+  </data>
+  <data name="psEXPORT_TO_CSV_ZIP_BTN" xml:space="preserve">
+    <value>Export to Zipped CSV files.</value>
+  </data>
+  <data name="psFILE_EXISTS" xml:space="preserve">
+    <value>File Already Exists</value>
+  </data>
+  <data name="psFILE_EXISTS_PROMPT" xml:space="preserve">
+    <value>{0} already exists.</value>
+  </data>
+  <data name="psFILE_MASK" xml:space="preserve">
+    <value>File Mask: </value>
+  </data>
+  <data name="psFROM" xml:space="preserve">
+    <value> from </value>
+  </data>
+  <data name="psIMAGE_BACKUPS" xml:space="preserve">
+    <value>Robot Image Backups</value>
+  </data>
+  <data name="psIMG_FILE_MASK" xml:space="preserve">
+    <value>*.IMG | Image Backup Files(*.IMG)</value>
+  </data>
+  <data name="psIO_FILE_MASK" xml:space="preserve">
+    <value>*.IO | IO Configuration files</value>
+  </data>
+  <data name="psLS_FILE_MASK" xml:space="preserve">
+    <value>*.LS | Text File; Translated TP File</value>
+  </data>
+  <data name="psMASTER_BACKUPS" xml:space="preserve">
+    <value>Master Backups</value>
+  </data>
+  <data name="psNO_FILES_SELECTED" xml:space="preserve">
+    <value>No files selected for backup.  Backup all?</value>
+  </data>
+  <data name="psNO_FILES_SELECTED_CAPTION" xml:space="preserve">
+    <value>No Files Selected.</value>
+  </data>
+  <data name="psPW_BACKUPS" xml:space="preserve">
+    <value>PAINTworks Auto Backups</value>
+  </data>
+  <data name="psPAINTWORKSBACKUP" xml:space="preserve">
+    <value>PAINTworksBackup</value>
+  </data>
+  <data name="psREPLACE" xml:space="preserve">
+    <value>&amp;Replace</value>
+  </data>
+  <data name="psREPLACE_ALL" xml:space="preserve">
+    <value>Replace &amp;All</value>
+  </data>
+  <data name="psROBOTS_CAP" xml:space="preserve">
+    <value>Robots</value>
+  </data>
+  <data name="psSCREENCAPTION" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="psSELECT_FILES" xml:space="preserve">
+    <value>Select Files</value>
+  </data>
+  <data name="psSKIP" xml:space="preserve">
+    <value>&amp;Skip</value>
+  </data>
+  <data name="psSV_FILE_MASK" xml:space="preserve">
+    <value>*.SV | System Variable Files</value>
+  </data>
+  <data name="psTABDBACCESS" xml:space="preserve">
+    <value>Access Databases</value>
+  </data>
+  <data name="psTABDBSQL" xml:space="preserve">
+    <value>Managed Databasaes(SQLServer)</value>
+  </data>
+  <data name="psTABDBXML" xml:space="preserve">
+    <value>XML Data</value>
+  </data>
+  <data name="psTABIMAGE" xml:space="preserve">
+    <value>Image Backup Configuration</value>
+  </data>
+  <data name="psTABNOTEPAD" xml:space="preserve">
+    <value>Notepad</value>
+  </data>
+  <data name="psTABROBOTS" xml:space="preserve">
+    <value>Robots</value>
+  </data>
+  <data name="psTEMP_BACKUPS" xml:space="preserve">
+    <value>Temporary Backups</value>
+  </data>
+  <data name="psTEXT_FILE_MASK" xml:space="preserve">
+    <value>*.LS; *.VA; *.DT; *.DAT; *.TXT; *.XML; *.DG | Text Files</value>
+  </data>
+  <data name="psTO" xml:space="preserve">
+    <value> to </value>
+  </data>
+  <data name="psTP_FILE_MASK" xml:space="preserve">
+    <value>*.TP | Teach Pendant Files</value>
+  </data>
+  <data name="psUPDATE" xml:space="preserve">
+    <value>&amp;Update</value>
+  </data>
+  <data name="psVA_FILE_MASK" xml:space="preserve">
+    <value>*.VA | Translated Variable File</value>
+  </data>
+  <data name="psVR_FILE_MASK" xml:space="preserve">
+    <value>*.VR | Karel Variable Files</value>
+  </data>
+  <data name="psZIPMASK" xml:space="preserve">
+    <value>ZIP Archive Files (*.ZIP) | *.zip</value>
+  </data>
+  <data name="psZIP_EXT" xml:space="preserve">
+    <value>ZIP</value>
+  </data>
+  <data name="psZIP_FILE_EXISTS" xml:space="preserve">
+    <value>Zip File Already Exists</value>
+  </data>
+  <data name="psZIP_FILE_EXISTS_PROMPT" xml:space="preserve">
+    <value>{0} already exists.</value>
+  </data>
+  <data name="psZIP_PER_FOLDER" xml:space="preserve">
+    <value>Make a zip file for each backup folder?</value>
+  </data>
+  <data name="psZIP_PER_FOLDER_CAPTION" xml:space="preserve">
+    <value>Zip File Per Folder?</value>
+  </data>
+  <data name="psZIP_PER_ROBOT" xml:space="preserve">
+    <value>Make a zip file for each robot?</value>
+  </data>
+  <data name="psZIP_PER_ROBOT_CAPTION" xml:space="preserve">
+    <value>Zip File Per Robot?</value>
+  </data>
+</root>

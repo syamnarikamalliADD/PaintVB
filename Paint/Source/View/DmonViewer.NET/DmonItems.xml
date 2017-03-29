@@ -1,0 +1,817 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DmonItems>
+  <DmonItem>
+    <Name>Time</Name>
+    <Units>seconds</Units>
+    <DataType>Float</DataType>
+    <Min>0</Min>
+    <Max>1000</Max>
+    <Scale>1</Scale>
+    <Offset>0</Offset>
+    <MultiPlex></MultiPlex>
+    <Color>Black</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Number</Name>
+    <Units>Number</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>10000</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Black</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Tick</Name>
+    <Units>Ticks</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1000000</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Black</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Line Number</Name>
+    <Units>Line</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Process #</Name>
+    <Units>Proc</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>100</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Alarm Range</Name>
+    <Units>Alarm</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1000000</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Yellow</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Optn Alarm No</Name>
+    <Units>Alarm</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1000000</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Yellow</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Fluid Flow Rate</Name>
+    <Units>cc/min</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Actual Fluid Rate</Name>
+    <Units>cc/min</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Fluid Flow Command</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Resin Speed</Name>
+    <Units>RPM</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-5</Min>
+    <Max>1000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Resin Inlet Regulator</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>8000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Resin Inlet Pressure</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>8000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Resin Outlet Pressure</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>8000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Catalyst Rate</Name>
+    <Units>cc/min</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Catalyst Inlet Regulator</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>8000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Catalyst Inlet Pressure</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>8000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Catalyst Outlet Pressure</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>8000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Eq1:pTRIG</Name>
+    <Units>YES/NO</Units>
+    <DataType>Bit</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>10</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Eq2:pTRIG</Name>
+    <Units>YES/NO</Units>
+    <DataType>Bit</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Black</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Sample Trigger</Name>
+    <Units>YES/NO</Units>
+    <DataType>Bit</DataType>
+    <Offset>2</Offset>
+    <Scale>10</Scale>
+    <Min>0</Min>
+    <Max>100</Max>
+    <MultiPlex>SampleTrigger</MultiPlex>
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Turbine Speed</Name>
+    <Units>kRPM</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>100</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Turb Cmd</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>8000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Shap Air</Name>
+    <Units>sLPM</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>100</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Shap Cmd</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>8000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Bell Speed Rate</Name>
+    <Units>kRPM</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>100</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Bell Speed Command</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>8000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Bell Speed PSI</Name>
+    <Units>psi</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>100</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Actual Bell Speed</Name>
+    <Units>kRPM</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>100</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>pBRAKE</Name>
+    <Units>YES/NO</Units>
+    <DataType>Bit</DataType>
+    <Offset>2</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Shape Air Setpoint</Name>
+    <Units>sLPM</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>SA Flow Meter</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>8000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>SA Command</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>8000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Fluid Flow Cmnded</Name>
+    <Units>cc/min</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>10000</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Purple</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Current Torque</Name>
+    <Units>FANUC units</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-10000</Min>
+    <Max>10000</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Blue</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Current Canister Pos.</Name>
+    <Units>cc</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-100</Min>
+    <Max>1000</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Red</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Canister 1 Running</Name>
+    <Units>YES/NO</Units>
+    <DataType>Bit</DataType>
+    <Offset>3</Offset>
+    <Scale>1</Scale>
+    <Min>-1</Min>
+    <Max>9</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Motor Running</Name>
+    <Units>YES/NO</Units>
+    <DataType>Bit</DataType>
+    <Offset>3</Offset>
+    <Scale>1</Scale>
+    <Min>-1</Min>
+    <Max>9</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Shape2 Air Setpoint</Name>
+    <Units>sLPM</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>SA2 Flow Meter</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>8000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>SA2 Command</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>8000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>CC Step</Name>
+    <Units>Step</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>1</Min>
+    <Max>100</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Cyan</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Color Enable</Name>
+    <Units>YES/NO</Units>
+    <DataType>Bit</DataType>
+    <Offset>2</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1</Max>
+    <MultiPlex></MultiPlex>
+    <Color>DarkGreen</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Canister 2 Running</Name>
+    <Units>YES/NO</Units>
+    <DataType>Bit</DataType>
+    <Offset>4</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Green</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Canister Speed</Name>
+    <Units>RPM</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-10000</Min>
+    <Max>10000</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Teal</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Pump Speed</Name>
+    <Units>RPM</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-10000</Min>
+    <Max>10000</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Teal</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>S-Unit Speed</Name>
+    <Units>RPM</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-10000</Min>
+    <Max>10000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>S-Unit Position</Name>
+    <Units>mms</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-100</Min>
+    <Max>500</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>S-Unit Torque</Name>
+    <Units>FANUC Units</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-10000</Min>
+    <Max>10000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Step Command</Name>
+    <Units>Step</Units>
+    <DataType>Integer</DataType>
+    <Offset>1</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>10</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Actual Current</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>200</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Actual Voltage</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>100</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Setpoint Reached</Name>
+    <Units>YES/NO</Units>
+    <DataType>Bit</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>0</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>HVON Output</Name>
+    <Units>YES/NO</Units>
+    <DataType>Bit</DataType>
+    <Offset>4</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>HVON Input</Name>
+    <Units>YES/NO</Units>
+    <DataType>Bit</DataType>
+    <Offset>5</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>CONV. RUNNING</Name>
+    <Units>YES/NO</Units>
+    <DataType>Bit</DataType>
+    <Offset>6</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>1</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>EQ1:WAIT 4 WINDOW</Name>
+    <Units>YES/NO</Units>
+    <DataType>Bit</DataType>
+    <Offset>7</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>0</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>EQ2:CANISTER SPEED</Name>
+    <Units>RPM</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-100</Min>
+    <Max>1000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>EQ1:PRESET NO.</Name>
+    <Units>Preset</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>500</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>EQ2:PRESET NO.</Name>
+    <Units>Preset</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>0</Scale>
+    <Min>0</Min>
+    <Max>1</Max>
+    <MultiPlex>500</MultiPlex>
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>EQ1:ESTAT NO.</Name>
+    <Units>Preset</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>500</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>EQ2:ESTAT NO.</Name>
+    <Units>Preset</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>0</Min>
+    <Max>500</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>EQ1:CANISTER SPEED</Name>
+    <Units>RPM</Units>
+    <DataType>Float</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-1000</Min>
+    <Max>10000</Max>
+    <MultiPlex />
+    <Color>A=0;R=0;G=0;B=0</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>CC Group</Name>
+    <Units>YES/NO</Units>
+    <DataType>MultiPlex</DataType>
+    <Offset>4</Offset>
+    <Scale>1</Scale>
+    <Min>-1000000</Min>
+    <Max>1000000</Max>
+    <MultiPlex>gp1;gp2;gp3;gp4;gp5;gp6;gp7;gp8;gp9;gp10;gp11;gp12;gp13;gp14;gp15;gp16</MultiPlex>
+    <Color>DarkBlue</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>CC Control Valves</Name>
+    <Units>YES/NO</Units>
+    <DataType>MultiPlex</DataType>
+    <Offset>4</Offset>
+    <Scale>1</Scale>
+    <Min>-1000000</Min>
+    <Max>1000000</Max>
+    <MultiPlex>gp1;gp2;gp3;gp4;gp5;gp6;gp7;gp8;gp9;gp10;gp11;gp12;gp13;gp14;gp15;gp16</MultiPlex>
+    <Color>DarkBlue</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Axis #1 Torque</Name>
+    <Units>FANUC units</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-10000</Min>
+    <Max>10000</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Blue</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Axis #2 Torque</Name>
+    <Units>FANUC units</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-10000</Min>
+    <Max>10000</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Red</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Axis #3 Torque</Name>
+    <Units>FANUC units</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-10000</Min>
+    <Max>10000</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Violet</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Axis #4 Torque</Name>
+    <Units>FANUC units</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-10000</Min>
+    <Max>10000</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Yellow</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Axis #5 Torque</Name>
+    <Units>FANUC units</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-10000</Min>
+    <Max>10000</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Brown</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Conv Enc Cnts</Name>
+    <Units>counts</Units>
+    <DataType>Integer</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-9999999</Min>
+    <Max>9999999</Max>
+    <MultiPlex></MultiPlex>
+    <Color>Brown</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Multi Flow Inf</Name>
+    <Units>YES/NO</Units>
+    <DataType>MultiPlex</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-1000000</Min>
+    <Max>1000000</Max>
+    <MultiPlex>PT;SPR;CE</MultiPlex>
+    <Color>DarkBlue</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Mult Turbine Inf</Name>
+    <Units>YES/NO</Units>
+    <DataType>MultiPlex</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-1000000</Min>
+    <Max>1000000</Max>
+    <MultiPlex>PT;SPR;CE;Brake</MultiPlex>
+    <Color>DarkBlue</Color>
+  </DmonItem>
+  <DmonItem>
+    <Name>Mult Estat Inf</Name>
+    <Units>YES/NO</Units>
+    <DataType>MultiPlex</DataType>
+    <Offset>0</Offset>
+    <Scale>1</Scale>
+    <Min>-1000000</Min>
+    <Max>1000000</Max>
+    <MultiPlex>PT;SPR;CE;HVON;HVONOK;ESFault;ESWarn</MultiPlex>
+    <Color>DarkBlue</Color>
+  </DmonItem>
+  </DmonItems>

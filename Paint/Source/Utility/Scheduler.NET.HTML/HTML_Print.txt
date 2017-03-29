@@ -1,0 +1,271 @@
+Print Button Menu
+
+	mnuPrint
+	mnuPrintPreview
+	mnuPageSetup
+	mnuPrintFile
+	mnuPrintOptions
+
+subInitializeForm
+
+            mPrintHtml = New clsPrintHtml(msSCREEN_NAME, True, 30)
+
+tlsMain_ItemClicked
+
+            Case "btnPrint"
+                Dim o As ToolStripSplitButton = DirectCast(e.ClickedItem, ToolStripSplitButton)
+                If o.DropDownButtonPressed Then Exit Sub
+                If DataLoaded Then
+                    bPrintdoc(True)
+                End If
+
+
+    Private Function bPrintdoc(ByVal bPrint As Boolean) As Boolean
+        '********************************************************************************************
+        'Description:  Data Print Routine
+        '
+        'Parameters: none
+        'Returns:    none
+        '
+        'Modification history:
+        '
+        ' Date      By      Reason
+        ' 10/04/10  MSW     Move return(true) so status and enable get updated
+        '********************************************************************************************
+
+        Me.Cursor = System.Windows.Forms.Cursors.AppStarting
+ 
+        
+        Try
+            btnPrint.Enabled = False
+            Status = gcsRM.GetString("csPRINTING", DisplayCulture)
+
+            Progress = 5
+
+            mPrintHtml.subSetPageFormat()
+            mPrintHtml.subClearTableFormat()
+            mPrintHtml.subSetColumnCfg("align=right", 0)
+            mPrintHtml.subSetRowcfg("Bold=on", 0, 0)
+
+            mPrintHtml.HeaderRowsPerTable = 1
+
+            Dim oTab As TabPage = tabMain.SelectedTab
+
+            Dim sPageTitle As String = gpsRM.GetString("psSCREENCAPTION")
+            Dim sTitle(1) As String
+            sTitle(0) = oTab.Text
+            sTitle(1) = String.Empty
+
+            Dim sSubTitle(0) As String
+            sSubTitle(0) = mcolZones.SiteName & " - " & mcolZones.ActiveZone.Name
+
+            Progress = 10
+            mPrintHtml.subStartDoc(Status, sPageTitle)
+            Select Case oTab.Name
+                Case "TabPage1"
+                    subPrintStyles(mPrintHtml, sTitle, sSubTitle)
+                Case "TabPage2"
+                    subPrintOptions(mPrintHtml, sTitle, sSubTitle)
+                Case "TabPage3"
+                    subPrintRepairs(mPrintHtml, sTitle, sSubTitle)
+                Case "TabPage4"
+                    subPrintDegrade(mPrintHtml, sTitle, sSubTitle)
+                Case "TabPage5"
+                    subPrintIntrusion(mPrintHtml, sTitle, sSubTitle)
+                Case "TabPage6"
+                    subPrintStyleID(mPrintHtml, sTitle, sSubTitle)
+            End Select
+
+
+
+            '
+            Progress = 80
+            '
+            Status = gcsRM.GetString("csPRINT_SENDING", DisplayCulture)
+            mPrintHtml.subCloseFile(Status)
+            If bPrint Then
+                mPrintHtml.subPrintDoc()
+            End If
+            Progress = 0
+            Status = gcsRM.GetString("csREADY", DisplayCulture)
+            Me.Cursor = System.Windows.Forms.Cursors.Default
+            btnPrint.Enabled = True
+            Return (True)
+        Catch ex As Exception
+
+            ShowErrorMessagebox(gcsRM.GetString("csPRINTFAILED", DisplayCulture), ex, msSCREEN_NAME, _
+                               Status, MessageBoxButtons.OK)
+
+            Progress = 0
+            Status = gcsRM.GetString("csREADY", DisplayCulture)
+            Me.Cursor = System.Windows.Forms.Cursors.Default
+            btnPrint.Enabled = True
+            Return False
+        End Try
+
+
+    End Function
+
+    Private Sub subPrintStyles(ByRef mPrintHtml As clsPrintHtml, ByVal sTitle() As String, ByVal sSubTitle As String())
+        '********************************************************************************************
+        'Description:  Data Print Routine
+        '
+        'Parameters: none
+        'Returns:    none
+        '
+        'Modification history:
+        '
+        ' Date      By      Reason
+        ' 6/7/07    GEO     .net
+        ' 10/23/09  BTK     Added code so we can change which bit the robot required data starts at.
+        '********************************************************************************************
+
+        Dim nRobot As Integer = 0
+        Dim nMask As Integer = 0
+
+
+        Try
+
+
+
+            Dim sText(1) As String
+            sText(0) = gpsRM.GetString("psITEM_CAP", DisplayCulture) & vbTab & _
+                            lblPlantStyleCap.Text & vbTab & lblFanucStyleCap.Text & vbTab & _
+                            lblStyleDescCap.Text
+
+            For i As Integer = 0 To clbStyleRobotsReq001.Items.Count - 1
+                sText(0) = sText(0) & vbTab & _
+                        clbStyleRobotsReq001.GetItemText(clbStyleRobotsReq001.Items(i))
+            Next
+
+            ReDim Preserve sText(mcolStyles.Count)
+            For Each oThisStyle As clsSysStyle In mcolStyles
+                With oThisStyle
+                    sText(.ItemNumber + 1) = (.ItemNumber + 1).ToString & vbTab & _
+                                .PlantString & vbTab & .FanucNumber.Value.ToString & vbTab & _
+                                .Description.Text
+                    For nRobot = 0 To mnNumberofRobots - 1
+                        nMask = CType(2 ^ (nRobot + mcolZones.ActiveZone.RobotsRequiredStartingBit), Integer)
+                        If (.RobotsRequired.Value And nMask) > 0 Then
+                            sText(.ItemNumber + 1) = sText(.ItemNumber + 1) & vbTab & " X "
+                        Else
+                            sText(.ItemNumber + 1) = sText(.ItemNumber + 1) & vbTab & " - "
+                        End If
+                    Next 'nRobot
+                    sText(.ItemNumber + 1) = sText(.ItemNumber + 1).Replace("<", "")
+                    sText(.ItemNumber + 1) = sText(.ItemNumber + 1).Replace(">", "")
+                    sText(.ItemNumber + 1) = Trim(sText(.ItemNumber + 1))
+                End With
+
+            Next oThisStyle
+
+            Progress = 30
+            '
+            mPrintHtml.subAddObject(sText, Status, sTitle, sSubTitle)
+
+            '
+            Progress = 55
+            '
+            Status = gcsRM.GetString("csPRINT_FORMATTING", DisplayCulture)
+            '
+
+
+
+        Catch ex As Exception
+
+            ShowErrorMessagebox(gcsRM.GetString("csPRINTFAILED", DisplayCulture), ex, msSCREEN_NAME, _
+                               Status, MessageBoxButtons.OK)
+
+        Finally
+
+
+        End Try
+
+
+    End Sub
+
+    Private Sub mnuPrint_Click(ByVal sender As Object, ByVal e As System.EventArgs) _
+                                                                    Handles mnuPrint.Click
+        '********************************************************************************************
+        'Description:  print the table
+        '
+        'Parameters:  
+        'Returns:   
+        '
+        'Modification history:
+        '
+        ' Date      By      Reason
+        '********************************************************************************************
+        If DataLoaded Then
+            bPrintdoc(True)
+        End If
+    End Sub
+
+    Private Sub mnuPrintPreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles mnuPrintPreview.Click
+        '********************************************************************************************
+        'Description:  print the table
+        '
+        'Parameters:  
+        'Returns:   
+        '
+        'Modification history:
+        '
+        ' Date      By      Reason
+        '********************************************************************************************
+        If DataLoaded Then
+            If bPrintdoc(False) Then
+                mPrintHtml.subShowPrintPreview()
+            End If
+        End If
+    End Sub
+
+    Private Sub mnuPageSetup_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles mnuPageSetup.Click
+        '********************************************************************************************
+        'Description:  show page setup dialog 
+        '
+        'Parameters: none
+        'Returns:    Print settings to use in printing
+        '
+        'Modification history:
+        '
+        ' Date      By      Reason
+        '********************************************************************************************
+        If DataLoaded Then
+            If bPrintdoc(False) Then
+                mPrintHtml.subShowPageSetup()
+            End If
+        End If
+    End Sub
+
+    Private Sub mnuPrintFile_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles mnuPrintFile.Click
+        '********************************************************************************************
+        'Description:  print the table
+        '
+        'Parameters:  
+        'Returns:   
+        '
+        'Modification history:
+        '
+        ' Date      By      Reason
+        '********************************************************************************************
+        If DataLoaded Then
+            If bPrintdoc(False) Then
+                mPrintHtml.subSaveAs()
+            End If
+        End If
+
+    End Sub
+
+    Private Sub mnuPrintOptions_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles mnuPrintOptions.Click
+        '********************************************************************************************
+        'Description:  offer options for printout table setup.
+        '
+        'Parameters:  
+        'Returns:   
+        '
+        'Modification history:
+        '
+        ' Date      By      Reason
+        '********************************************************************************************
+        mPrintHtml.subShowOptions()
+    End Sub
